@@ -7,45 +7,45 @@ The complete macOS Golden Gate experience, from its liquid glass to its finest d
 > [!CAUTION]
 > This project is experimental and still under heavy development, so things will break from time to time. Don't use it on a production system. If something goes wrong, please [open an issue](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new).
 
----
+<br>
 
 ![Roadmap](https://img.shields.io/badge/project-roadmap-6B4B8A?style=for-the-badge&logo=github&logoColor=white)
 
 | Component | Description | Status |
 |-----------|-------------|--------|
-| **Color Schemes** | Light and Dark color palettes | Planned |
-| **Wallpapers** | Golden Gate Iridescence + Landscape (Morning/Evening/Night) | Planned |
-| **Fonts** | SF Pro Display, Text, Rounded, Mono | Planned |
-| **Cursors** | Golden Gate style cursors | Planned |
-| **Plasma Theme** | Translucent panels + close/min/max buttons | Planned |
-| **Kvantum Theme** | Kvantum theme | Planned |
-| **GTK Theme** | GTK2/3/4 window chrome and controls | Planned |
-| **Acrylic Glass** | KWin blur, per-surface rounded corners, persistent Dock glass and third-party effect safety | Planned |
-| **KDE Rounded Corners** | Verified online source build, enabled with a 28 px active/inactive window radius | Planned |
-| **Auto Theme Switcher** | 06:00 / 18:00 schedule plus an event-driven System Settings bridge for Plasma, Kvantum, GTK, icons, cursors, decorations and wallpaper | Planned |
-| **OLED Care** | Opt-in pixel-shift timer for the top bar and dock | Planned |
-| **Installer UI** | Glass window with an animated hello greeting; drives install / uninstall and a per-feature picker | Planned |
-| **Aurorae Decorations** | Window title bar and borders | Planned |
-| **Global Menu Plasmoid** | Unified menu bar: system menu, app name, window controls, app menus | Planned |
-| **Dock Task Manager** | Icons-only dock applet with macOS-style notification badges | Planned |
-| **Nautilus** | Install Nautilus and set as default file manager on KDE | Planned |
-| **Icons** | Full icon set (light & dark) | Planned |
-| **Multi-Distro Support** | KDE Plasma 6.6+ on the Arch, Fedora, openSUSE and Gentoo families | Planned |
-| **Launcher Plasmoid** | App grid launcher | Planned |
-| **Trashcan Plasmoid** | Trash widget with configurable icons | Planned |
-| **Sounds** | Notification and event sounds | Planned |
-| **Firefox Theme** | Firefox browser theme | Planned |
-| **Konsole Theme** | Terminal profile | Planned |
-| **Kate Theme** | Text editor theme | Planned |
-| **SDDM Theme** | Login and lock screen | Planned |
-| **Calendar Plasmoid** | Calendar dropdown | Planned |
-| **Control Center Plasmoid** | Quick settings panel | Planned |
-| **System Preferences Plasmoid** | Settings launcher | Planned |
-| **OS Selector** | Boot manager / OS picker screen | Planned |
-| **Boot Screen** | Plymouth splash for startup (1080p–4K) | Planned |
-| **Shutdown Screen** | Styled logout / shutdown sequence | Planned |
+| **Color Schemes** | Carefully matched light and dark palettes for the whole desktop | Planned |
+| **Wallpapers** | Golden Gate wallpapers that follow the day, from morning to night | Planned |
+| **Fonts** | The full San Francisco family for that crisp, Mac-like reading feel | Planned |
+| **Cursors** | The familiar Mac pointer, faithfully recreated | Planned |
+| **Plasma Theme** | Translucent panels and glass surfaces across the whole shell | Planned |
+| **Kvantum Theme** | Mac styling that feels native in every Qt app | Planned |
+| **GTK Theme** | The same look carried into your GTK apps | Planned |
+| **Acrylic Glass** | Deep liquid-glass blur where the wallpaper shines through every surface | Planned |
+| **KDE Rounded Corners** | Softly rounded corners on every window, just like macOS | Planned |
+| **Auto Theme Switcher** | Light by day, dark by night, switching the whole desktop for you | Planned |
+| **OLED Care** | Gentle pixel shifting that protects OLED panels from burn-in | Planned |
+| **Installer UI** | A beautiful glass installer that sets everything up in a few clicks | Planned |
+| **Aurorae Decorations** | Mac-style title bars with traffic-light window controls | Planned |
+| **Global Menu Plasmoid** | A unified menu bar up top, with app menus right where you expect them | Planned |
+| **Dock Task Manager** | An icons-only Dock with red Mac-style notification badges | Planned |
+| **Nautilus** | A Finder-style file manager with a clean macOS sidebar | Planned |
+| **Icons** | A complete icon set in light and dark, drawn in the macOS style | Planned |
+| **Multi-Distro Support** | One experience that feels at home on Arch, Fedora, openSUSE and Gentoo | Planned |
+| **Launcher Plasmoid** | A Launchpad-style app grid with quick search and favorites | Planned |
+| **Trashcan Plasmoid** | A Trash that lives in the Dock, just like on a Mac | Planned |
+| **Sounds** | Subtle system sounds for notifications and events | Planned |
+| **Firefox Theme** | Firefox dressed to match the rest of the desktop | Planned |
+| **Konsole Theme** | A terminal that looks straight out of macOS | Planned |
+| **Kate Theme** | Matching colors and chrome for the Kate editor | Planned |
+| **SDDM Theme** | A macOS-style login and lock screen | Planned |
+| **Glass Plasmoids** | Bundled open source KDE plasmoids reworked with the glass look | Planned |
+| **Control Center Plasmoid** | A Control Center panel for quick settings | Planned |
+| **System Preferences Plasmoid** | System Settings, presented the Mac way | Planned |
+| **OS Selector** | A gorgeous boot picker for dual-boot setups | Planned |
+| **Boot Screen** | An Apple-style boot splash, crisp from 1080p to 4K | Planned |
+| **Shutdown Screen** | A styled shutdown sequence to match the boot experience | Planned |
 
----
+<br>
 
 ![Harness](https://img.shields.io/badge/testing-harness-8A4B5B?style=for-the-badge&logo=qemu&logoColor=white)
 
@@ -58,7 +58,7 @@ Every supported distro can be test-driven in a disposable VM. `./vm <distro>` bo
 
 Supported distros: `cachyos`, `arch`, `manjaro`, `endeavouros`, `garuda`, `fedora`, `nobara`, `opensuse`, `gentoo`, `gentoo-openrc`.
 
----
+<br>
 
 ![Getting started](https://img.shields.io/badge/getting-started-3B7B5B?style=for-the-badge&logo=gnubash&logoColor=white)
 
@@ -70,7 +70,7 @@ Everything goes through the **graphical installer**: a glass window that drives 
 
 It checks for a newer release on launch, lets you toggle exactly which parts of the theme get applied, and shows live progress while it runs.
 
----
+<br>
 
 ![Contributing](https://img.shields.io/badge/contributing-A04B4B?style=for-the-badge&logo=github&logoColor=white)
 
@@ -82,7 +82,7 @@ Bug reports are the most valuable contribution right now: **[open an issue](http
 
 Pull requests are welcome too: keep them small and focused, and test with the `./vm` harness before submitting.
 
----
+<br>
 
 ![Credits](https://img.shields.io/badge/credits-%26%20inspiration-8A6B4B?style=for-the-badge&logo=apple&logoColor=white)
 
