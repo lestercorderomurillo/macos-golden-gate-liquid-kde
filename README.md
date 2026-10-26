@@ -78,13 +78,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_4k-cf56b851ae73.png"><img src="src/screenshots/showcase_light_4k-cf56b851ae73.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-5a1b8e1fd3d2.png"><img src="src/screenshots/desktop_about_light_4k-5a1b8e1fd3d2.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_4k-21232866d179.png"><img src="src/screenshots/showcase_light_4k-21232866d179.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_4k-fa0b054b1bf5.png"><img src="src/screenshots/desktop_about_light_4k-fa0b054b1bf5.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-973f6552f1d6.png"><img src="src/screenshots/showcase_dark_4k-973f6552f1d6.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-efe287195fbe.png"><img src="src/screenshots/desktop_about_dark_4k-efe287195fbe.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-4e7f2fb592fb.png"><img src="src/screenshots/showcase_dark_4k-4e7f2fb592fb.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-7343c6a616a9.png"><img src="src/screenshots/desktop_about_dark_4k-7343c6a616a9.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -94,8 +94,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-a823b21b2468.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-fe3d38bdaed9.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-72b98470bb93.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-1f8226f0532e.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -117,8 +117,8 @@ Glass refraction, hover zoom, notification badges and auto-hide.
 Finder-style Nautilus in light and dark.
 
 <p align="center">
-  <img src="src/screenshots/finder_v1-28715898ebe7.png" alt="Finder-style Nautilus in light mode" width="415">
-  <img src="src/screenshots/finder_dark_v1-4798339eb131.png" alt="Finder-style Nautilus in dark mode" width="415">
+  <img src="src/screenshots/finder_v1-1a5c9bd40d2a.png" alt="Finder-style Nautilus in light mode" width="415">
+  <img src="src/screenshots/finder_dark_v1-43839236acbb.png" alt="Finder-style Nautilus in dark mode" width="415">
 </p>
 
 <br>
@@ -139,8 +139,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-d48df5b4ad45.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-9317a5d08f95.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-6dcace846fe0.png" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-c391010e72e1.png" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -202,6 +202,11 @@ gallery; browse the screenshots on GitHub, or use a Git checkout for the complet
 offline documentation. Installer previews, theme assets, tests and license notices
 remain bundled. Git checkouts retain their history as they are updated.
 
+Automatic Git updates verify the published tag and its `VERSION`, and only
+fast-forward a clean checkout. Local edits and divergent history are preserved.
+After updating, the wizard asks what to install; it keeps Dock and panel
+customization unless you explicitly select a reset.
+
 Install and uninstall through one graphical wizard:
 
 ```bash
@@ -249,6 +254,21 @@ before installing; each summary row can be edited.
 The default option is always first and selected. Opening the other edition starts
 with that repository's defaults, including its wallpaper and launcher. Choosing
 **Keep my icons**, **Keep my wallpaper** or **Keep my fonts** preserves those choices.
+
+Reinstalling preserves the current Dock and panel layout, including sizes,
+autohide and widgets. Select **Reset Dock and panel customization** to rebuild
+the selected top bar and Dock while carrying pinned apps across. A first
+installation creates the selected layout automatically.
+
+The Effects page offers **no, soft, medium or hard window shadows** for the
+theme's Aurorae decorations and GTK windows. Medium is the default. The chosen
+level applies in light and dark mode; applications that draw their own
+decorations may use their own shadows.
+
+The file-manager step explicitly offers **Install Nautilus**, **Use Dolphin**,
+or **Skip Nautilus and keep my file manager**. The latter preserves the current
+file associations and skips the Nautilus package and setup. These choices apply
+to the current installation; already-installed applications are not removed.
 
 The global menu, window theme, cursors, sounds, Qt/GTK styles and file dialogs are
 included. The theme is applied immediately after installation.

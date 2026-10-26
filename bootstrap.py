@@ -335,8 +335,19 @@ def update_wrapper(entry: str, args: list[str]) -> None:
         print(manual, flush=True)
         return
     print(f"Updating Golden Gate to {latest}…", flush=True)
-    pull = _git("pull", "--ff-only")
-    if pull is None or pull.returncode != 0:
+    def git_ok(*args):
+        result = _git(*args)
+        return result if result is not None and result.returncode == 0 else None
+
+    fetched = git_ok("fetch", "--no-tags", f"https://github.com/{GOLDEN_GATE_REPOSITORY}.git",
+                     "refs/tags/" + latest)
+    target = git_ok("rev-parse", "FETCH_HEAD^{commit}") if fetched is not None else None
+    commit = target.stdout.strip() if target is not None else ""
+    version = git_ok("show", commit + ":VERSION") if re.fullmatch(r"[0-9a-f]{40}", commit) else None
+    if (version is None or version.stdout.strip() != latest.removeprefix("v")
+            or git_ok("merge-base", "--is-ancestor", "HEAD", commit) is None
+            or not _clean_checkout()
+            or git_ok("merge", "--ff-only", commit) is None):
         print(manual, flush=True)
         return
     os.environ["GOLDEN_GATE_UPDATED"] = "1"
