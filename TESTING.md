@@ -1,10 +1,19 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.4, captured in a disposable KDE Plasma VM.
+Native installer screens for Golden Gate 0.61.5, captured in a disposable KDE Plasma VM.
 The gallery is captured from the release source and reviewed before publication.
 Release checks cover both editions, theme switching, installation, reboot and removal.
 
 Run `./installer` from this checkout to review the wizard. For shared test commands and the capture workflow, see [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
+
+## v0.61.5 reset default validation
+
+The shared installer starts with **Reset Dock and panel customization** checked.
+Uncheck it to preserve the current layout. Golden Gate prepared content
+`f4438e729918882ada4b` passed 160 wizard, CLI, UI and layout component checks,
+including the checked default and retaining an unchecked choice during navigation.
+The release uses a new complete capture from the pinned disposable KDE neon VM;
+its gallery and immutable Tahoe pin are verified before publication.
 
 ## v0.61.4 validation
 

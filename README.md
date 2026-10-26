@@ -204,8 +204,8 @@ remain bundled. Git checkouts retain their history as they are updated.
 
 Automatic Git updates verify the published tag and its `VERSION`, and only
 fast-forward a clean checkout. Local edits and divergent history are preserved.
-After updating, the wizard asks what to install; it keeps Dock and panel
-customization unless you explicitly select a reset.
+After updating, the wizard asks what to install. **Reset Dock and panel
+customization** starts checked; uncheck it to preserve your current layout.
 
 Install and uninstall through one graphical wizard:
 
@@ -255,9 +255,9 @@ The default option is always first and selected. Opening the other edition start
 with that repository's defaults, including its wallpaper and launcher. Choosing
 **Keep my icons**, **Keep my wallpaper** or **Keep my fonts** preserves those choices.
 
-Reinstalling preserves the current Dock and panel layout, including sizes,
-autohide and widgets. Select **Reset Dock and panel customization** to rebuild
-the selected top bar and Dock while carrying pinned apps across. A first
+**Reset Dock and panel customization** is checked by default. Reinstalling
+rebuilds the selected top bar and Dock while carrying pinned apps across.
+Uncheck it to preserve the current layout, sizes, autohide and widgets. A first
 installation creates the selected layout automatically.
 
 The Effects page offers **no, soft, medium or hard window shadows** for the
