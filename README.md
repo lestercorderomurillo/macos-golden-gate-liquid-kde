@@ -78,13 +78,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_4k-1f643bfdb2ee.png"><img src="src/screenshots/showcase_light_4k-1f643bfdb2ee.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-5a8664d94d5a.png"><img src="src/screenshots/desktop_about_light_4k-5a8664d94d5a.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_4k-d43cee27d322.png"><img src="src/screenshots/showcase_light_4k-d43cee27d322.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_4k-b753aeb87045.png"><img src="src/screenshots/desktop_about_light_4k-b753aeb87045.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-698d5bf67716.png"><img src="src/screenshots/showcase_dark_4k-698d5bf67716.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-173bc6aac868.png"><img src="src/screenshots/desktop_about_dark_4k-173bc6aac868.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-99b782d4a266.png"><img src="src/screenshots/showcase_dark_4k-99b782d4a266.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-1900b7ed4fd5.png"><img src="src/screenshots/desktop_about_dark_4k-1900b7ed4fd5.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -94,8 +94,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-7427cd0594d1.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-3cdb8db87ba6.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-06c079bc0e5a.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-7b440308ce9f.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -117,8 +117,8 @@ Glass refraction, hover zoom, notification badges and auto-hide.
 Finder-style Nautilus in light and dark.
 
 <p align="center">
-  <img src="src/screenshots/finder_v1-1a5c9bd40d2a.png" alt="Finder-style Nautilus in light mode" width="415">
-  <img src="src/screenshots/finder_dark_v1-43839236acbb.png" alt="Finder-style Nautilus in dark mode" width="415">
+  <img src="src/screenshots/finder_v1-428f03dab833.png" alt="Finder-style Nautilus in light mode" width="415">
+  <img src="src/screenshots/finder_dark_v1-a32741382f3e.png" alt="Finder-style Nautilus in dark mode" width="415">
 </p>
 
 <br>
@@ -139,8 +139,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-1f96a9257af2.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-c01bef4f514f.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-12308cc57215.png" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-68c16c1e30f1.png" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -264,6 +264,9 @@ The Effects page offers **no, soft, medium or hard window shadows** for the
 theme's Aurorae decorations and GTK windows. Medium is the default. The chosen
 level applies in light and dark mode; applications that draw their own
 decorations may use their own shadows.
+
+Golden Gate includes reflective window controls in both Aurorae and GTK title bars.
+Tahoe retains its existing controls. [Reference comparison and implementation notes](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/window-controls.md) explain the design and its limits.
 
 The file-manager step explicitly offers **Install Nautilus**, **Use Dolphin**,
 or **Skip Nautilus and keep my file manager**. The latter preserves the current
