@@ -1,10 +1,30 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.5, captured in a disposable KDE Plasma VM.
+Native installer screens for Golden Gate 0.61.8, captured in a disposable KDE Plasma VM.
 The gallery is captured from the release source and reviewed before publication.
 Release checks cover both editions, theme switching, installation, reboot and removal.
 
 Run `./installer` from this checkout to review the wizard. For shared test commands and the capture workflow, see [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
+
+## v0.61.8 battery icon contrast
+
+The shared Tahoe icon staging now makes neutral battery fills and charging
+bolts follow KDE's light/dark foreground colors in both editions. Battery
+geometry, warning colors and saved percentage-display choices are preserved.
+Generated Regular, Glass and offline appearance themes opt into KDE palette
+recoloring for inherited icons. The implementation also covers Nix packaging.
+
+Golden Gate's wrapper suite passed all 45 tests. Tahoe's 54 focused checks
+include native KDE icon rendering at four sizes and four scaling factors,
+light/dark/light transitions, symbolic aliases and install/reinstall/uninstall.
+The complete shared suite was exercised on prepared Golden Gate content;
+18 initially blocked checks passed after allowing private D-Bus/Xvfb sessions
+and incorporating the upstream README badge correction. Four optional cases
+remain skipped, not passed. Both editions' battery previews were reviewed in
+a disposable KDE neon VM (Plasma 6.8.1, Qt 6.11.1), with synthetic charge levels.
+See [Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/TESTING.md)
+for commands, content identifiers and coverage limits. The release gallery is
+a separate fresh complete bundle from the pinned capture profile.
 
 ## v0.61.5 reset default validation
 
