@@ -251,7 +251,7 @@ icons, theme color, wallpaper, launcher, top bar and Dock, effects, fonts,
 Firefox, file manager, boot animation and optional OLED care. Review your choices
 before installing; each summary row can be edited.
 
-Choose **Flat** or **Glassy** window controls in the wizard. Tahoe starts with Flat; Golden Gate starts with Glassy. Your choice applies to window decorations and GTK title bars, including later light/dark switches.
+Choose **Flat** or **Glassy** window controls in the wizard, with close-up Nautilus previews. Tahoe starts with Flat; Golden Gate starts with Glassy. Your choice applies to window decorations and GTK title bars, including later light/dark switches.
 
 The default option is always first and selected. Opening the other edition starts
 with that repository's defaults, including its wallpaper and launcher. Choosing
@@ -262,8 +262,9 @@ rebuilds the selected top bar and Dock while carrying pinned apps across.
 Uncheck it to preserve the current layout, sizes, autohide and widgets. A first
 installation creates the selected layout automatically.
 
-The Effects page offers **no, soft, medium or hard window shadows** for the
-theme's Aurorae decorations and GTK windows. Medium is the default. The chosen
+The Window shadows page compares **no, soft, medium or hard window shadows**
+with Nautilus screenshots. The choice applies to the theme's Aurorae
+decorations and GTK windows. Medium is the default. The chosen
 level applies in light and dark mode; applications that draw their own
 decorations may use their own shadows.
 

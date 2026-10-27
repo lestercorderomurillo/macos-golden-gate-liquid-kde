@@ -6,14 +6,22 @@ Release checks cover both editions, theme switching, installation, reboot and re
 
 Run `./installer` from this checkout to review the wizard. For shared test commands and the capture workflow, see [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
 
-## v0.61.7 window controls
+## Window controls candidate
 
-The wizard now offers Flat and Glassy controls with sharp, reviewed title-bar
-crops from a disposable VM. Golden Gate starts with Glassy; either style can be
-selected and is retained through later light/dark switches. The source and
-validation evidence live in [Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/TESTING.md).
-The release includes a fresh complete desktop and installer screenshot bundle,
-including this new page, and requires successful exact-commit CI on both branches.
+This unreleased candidate has Flat and Glassy controls with reviewed Nautilus
+close-ups, stronger glass reflections and a separate Window shadows page with
+four screenshot cards. Golden Gate starts with Glassy; explicit choices survive
+navigation, summary edits and later light/dark switches.
+
+Use `GOLDEN_GATE_TAHOE_SOURCE` with the matching Tahoe candidate for testing.
+The already-published v0.61.7 does not contain this chooser. Publication and
+merging to `main` remain on hold until the maintainer tests and approves it.
+The prepared Golden Gate source passed 171 affected checks; after the final
+summary spacing adjustment, all 28 wizard checks passed again. Shared validation is recorded in [Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/codex/golden-gate-controls-v0617/TESTING.md).
+
+The gallery below predates the Nautilus/shadows refinement. The next release
+requires a fresh complete 90-frame bundle at the final version, a matching
+immutable Tahoe pin and successful exact-commit CI on both branches.
 
 ## v0.61.5 reset default validation
 
