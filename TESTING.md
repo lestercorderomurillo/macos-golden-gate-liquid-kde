@@ -9,7 +9,8 @@ Run `./installer` from this checkout to review the wizard. For shared test comma
 ## Window controls candidate
 
 This unreleased candidate has Flat and Glassy controls with reviewed Nautilus
-close-ups, stronger glass reflections and a separate Window shadows page with
+close-ups, rim highlights matched to the maintainer's reference and a separate
+Window shadows page with
 four screenshot cards. Golden Gate starts with Glassy; explicit choices survive
 navigation, summary edits and later light/dark switches.
 
