@@ -187,8 +187,7 @@ Keep installer screenshots in TESTING.md, linked from the README. Desktop and Do
 photographs remain in the README; stage and verify both documentation files.
 
 Golden Gate window controls are generated offline by Tahoe's
-`window_controls.py` for Aurorae and GTK 3/4. Reference observations and
-rendering limits are documented in Tahoe. Preserve Tahoe buttons, shared frame geometry
+`window_controls.py` for Aurorae and GTK 3/4. Preserve Tahoe buttons, shared frame geometry
 and shadow controls. Install both Aurorae families and select the edition in
 the switcher, global-theme defaults and verifier. GTK < 4.20 needs explicit
 mode selection for literal button URLs in its adaptive legacy stylesheet;
