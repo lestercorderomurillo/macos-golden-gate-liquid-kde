@@ -83,8 +83,8 @@ The Golden Gate desktop in light and dark mode.
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-30f8a72c0d7c.png"><img src="src/screenshots/showcase_dark_4k-30f8a72c0d7c.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-c8b2a095e293.png"><img src="src/screenshots/desktop_about_dark_4k-c8b2a095e293.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-cab189458463.png"><img src="src/screenshots/showcase_dark_4k-cab189458463.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-41c802116285.png"><img src="src/screenshots/desktop_about_dark_4k-41c802116285.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -94,8 +94,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-6ccc57afc1d2.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-9e11f73c26d3.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-aa34baddc048.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-1a160beb8598.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -250,6 +250,8 @@ The wizard offers appearance (automatic, light or dark), regular or tinted glass
 icons, theme color, wallpaper, launcher, top bar and Dock, effects, fonts,
 Firefox, file manager, boot animation and optional OLED care. Review your choices
 before installing; each summary row can be edited.
+
+Choose **Flat** or **Glassy** window controls in the wizard. Tahoe starts with Flat; Golden Gate starts with Glassy. Your choice applies to window decorations and GTK title bars, including later light/dark switches.
 
 The default option is always first and selected. Opening the other edition starts
 with that repository's defaults, including its wallpaper and launcher. Choosing

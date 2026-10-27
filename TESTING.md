@@ -1,10 +1,19 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.5, captured in a disposable KDE Plasma VM.
+Native installer screens for Golden Gate 0.61.7, captured in a disposable KDE Plasma VM.
 The gallery is captured from the release source and reviewed before publication.
 Release checks cover both editions, theme switching, installation, reboot and removal.
 
 Run `./installer` from this checkout to review the wizard. For shared test commands and the capture workflow, see [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
+
+## v0.61.7 window controls
+
+The wizard now offers Flat and Glassy controls with sharp, reviewed title-bar
+crops from a disposable VM. Golden Gate starts with Glassy; either style can be
+selected and is retained through later light/dark switches. The source and
+validation evidence live in [Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/TESTING.md).
+The release includes a fresh complete desktop and installer screenshot bundle,
+including this new page, and requires successful exact-commit CI on both branches.
 
 ## v0.61.5 reset default validation
 
@@ -46,11 +55,12 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-launcher_v1-793f94230455.png" alt="Launcher" width="500"><br>Launcher</td>
   <td align="center"><img src="src/screenshots/installer-layout_v1-1bc63d9527fd.png" alt="Top bar and Dock" width="500"><br>Top bar and Dock</td>
   <td align="center"><img src="src/screenshots/installer-effects_v1-cecefb4a1b6b.png" alt="Effects" width="500"><br>Effects</td>
-  <td align="center"><img src="src/screenshots/installer-fonts_v1-fb3bae8c3394.png" alt="Fonts" width="500"><br>Fonts</td>
-  <td align="center"><img src="src/screenshots/installer-firefox_v1-014565ebb9bb.png" alt="Firefox" width="500"><br>Firefox</td>
-  <td align="center"><img src="src/screenshots/installer-files_v1-31e0561836be.png" alt="File manager" width="500"><br>File manager</td>
-  <td align="center"><img src="src/screenshots/installer-boot_v1-2cb322a78a40.png" alt="Boot animation" width="500"><br>Boot animation</td>
-  <td align="center"><img src="src/screenshots/installer-oled_v1-06ea94242cf0.png" alt="OLED protection" width="500"><br>OLED protection</td>
-  <td align="center"><img src="src/screenshots/installer-summary_v1-02b4861793b0.png" alt="Summary" width="500"><br>Summary</td>
+  <td align="center"><img src="src/screenshots/installer-window_controls_v1-ec03d5df9d27.png" alt="Flat or Glassy window controls" width="500"><br>Window controls</td>
+  <td align="center"><img src="src/screenshots/installer-fonts_v1-7dd319c9f9ca.png" alt="Fonts" width="500"><br>Fonts</td>
+  <td align="center"><img src="src/screenshots/installer-firefox_v1-0870cd68c856.png" alt="Firefox" width="500"><br>Firefox</td>
+  <td align="center"><img src="src/screenshots/installer-files_v1-db736754e813.png" alt="File manager" width="500"><br>File manager</td>
+  <td align="center"><img src="src/screenshots/installer-boot_v1-84f71f83979c.png" alt="Boot animation" width="500"><br>Boot animation</td>
+  <td align="center"><img src="src/screenshots/installer-oled_v1-78ae823a5999.png" alt="OLED protection" width="500"><br>OLED protection</td>
+  <td align="center"><img src="src/screenshots/installer-summary_v1-f7dfea4645c6.png" alt="Summary" width="500"><br>Summary</td>
 </tr>
 </table>
