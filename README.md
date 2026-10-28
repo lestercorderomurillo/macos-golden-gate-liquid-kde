@@ -197,15 +197,11 @@ cd macos-golden-gate-liquid-kde
 ./installer
 ```
 
-Reuse this directory for updates. Source ZIP/tar downloads omit the documentation
-gallery; browse the screenshots on GitHub, or use a Git checkout for the complete
-offline documentation. Installer previews, theme assets, tests and license notices
-remain bundled. Git checkouts retain their history as they are updated.
+Run `./installer` again to update; local Git changes are preserved. The theme is
+applied only after you confirm. Uncheck **Reset Dock and panel customization**
+to keep your layout on reinstall. Set `MAC_TAHOE_NO_UPDATE_CHECK=true` to skip updates.
 
-Automatic Git updates verify the published tag and its `VERSION`, and only
-fast-forward a clean checkout. Local edits and divergent history are preserved.
-After updating, the wizard asks what to install. **Reset Dock and panel
-customization** starts checked; uncheck it to preserve your current layout.
+ZIP/tar downloads omit the screenshot gallery; view it on GitHub or clone with Git.
 
 Install and uninstall through one graphical wizard:
 
