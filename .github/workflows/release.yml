@@ -58,6 +58,40 @@ jobs:
           ref: ${{ needs.source.outputs.commit }}
           fetch-depth: 0
           path: tahoe
+      - name: Wait for published Tahoe release and verify archive
+        timeout-minutes: 60
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib, json, pathlib, subprocess, time, urllib.request
+          pin = json.loads(pathlib.Path('upstream.json').read_text())
+          version = pathlib.Path('VERSION').read_text().strip()
+          tag = 'v' + version
+          for attempt in range(120):
+              result = subprocess.run(
+                  ['gh', 'release', 'view', tag, '--repo', pin['repository'],
+                   '--json', 'isDraft,isPrerelease,tagName,publishedAt'],
+                  capture_output=True, text=True)
+              if result.returncode == 0:
+                  release = json.loads(result.stdout)
+                  if (not release['isDraft'] and not release['isPrerelease']
+                          and release['tagName'] == tag and release['publishedAt']):
+                      break
+              print('Waiting for published Tahoe ' + tag, flush=True)
+              time.sleep(30)
+          else:
+              raise SystemExit('Tahoe release was not published; refusing Golden Gate publication')
+          tagged = subprocess.check_output(
+              ['git', '-C', 'tahoe', 'rev-parse', tag + '^{commit}'], text=True).strip()
+          assert tagged == pin['commit'], 'Tahoe release tag does not match immutable pin'
+          digest = hashlib.sha256()
+          url = 'https://codeload.github.com/' + pin['repository'] + '/tar.gz/' + pin['commit']
+          with urllib.request.urlopen(url, timeout=120) as response:
+              while chunk := response.read(1024 * 1024):
+                  digest.update(chunk)
+          assert digest.hexdigest() == pin['sha256'], 'Published Tahoe archive checksum mismatch'
+          PYCODE
       - name: Verify version-bound, reviewed screenshots
         run: python3 tahoe/release-screenshots --repo . verify --ref "$GITHUB_SHA" --tahoe-repo tahoe
       - name: Publish verified release
