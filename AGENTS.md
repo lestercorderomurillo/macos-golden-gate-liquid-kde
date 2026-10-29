@@ -9,15 +9,24 @@ The shared offline `icon-toolset` also lives only in Tahoe. It generates icon
 appearances from the bundled base with arbitrary RGB glass tints; Golden Gate
 documents that tool without copying its implementation or generated assets.
 
-Every entry point first uses `GOLDEN_GATE_TAHOE_SOURCE` or a complete sibling
-`../macos-tahoe-liquid-kde` checkout when present, without querying releases,
-pulling, or downloading. Stage a content-addressed copy with Golden Gate
-defaults; never modify the Tahoe checkout. Include untracked source files and
-omit tracked deletions when staging local work. Without local sources, every
-entry point installs the latest published Tahoe release, checked
-against that release's `VERSION`. `install` and `installer` first fast-forward
-a clean git checkout to the latest Golden Gate release and restart; dirty
-checkouts and release downloads print the update instead. `upstream.json` is
+Every entry point stages `GOLDEN_GATE_TAHOE_SOURCE` or a complete sibling
+`../macos-tahoe-liquid-kde` checkout when present. An explicit source override
+is development mode: do not query releases or update either checkout.
+For ordinary `install` and `installer` launches, compare each checkout's
+`VERSION` to its latest published release independently. Update only a clean
+checkout whose HEAD is an ancestor of the verified release commit, then
+restart the wrapper when it changed. A sibling alone never disables updates.
+Preserve local edits, untracked files, deletions and divergent commits; report
+newer releases without replacing that development source. Never downgrade an
+equal or newer local version. An incomplete dirty sibling must fail clearly
+instead of silently switching away from the developer's source.
+Stage a content-addressed copy with Golden Gate defaults; never apply those
+defaults to the Tahoe checkout. Include untracked source files and omit tracked
+deletions when staging local work. `--prepare`, uninstall, test and VM entry
+points never update checkouts. `MAC_TAHOE_NO_UPDATE_CHECK=true` disables all
+update queries. Without local sources, select the latest published Tahoe
+release, checked against that release's `VERSION`.
+`upstream.json` is
 the verified fallback when GitHub's API is unreachable or
 `MAC_TAHOE_NO_UPDATE_CHECK=true`, and the reference for release checks.
 Update it with both a published immutable commit and its archive SHA-256.
@@ -77,8 +86,8 @@ on both branches. Earlier-commit evidence never substitutes for the exact-SHA
 release gate: publication requires successful `test.yml` push runs on `main`
 and `dev` for each repository's exact release commit. Never weaken workflows,
 skip required checks or treat missing,
-cancelled or failed checks as success to shorten a task. Release screenshot
-capture and verification remain mandatory for every release.
+cancelled or failed checks as success to shorten a task. Screenshot provenance verification remains mandatory; new visual tests and
+captures are conditional on a clear visual change, as specified below.
 
 Documentation-only delivery does not require a version bump, pin update,
 release or new screenshots. Automatic push CI may still run; report its status
@@ -117,15 +126,24 @@ the host theme, move its windows, or inject host input for screenshots. Run
 captures sequentially, verify labels and window identity, and review each image
 before publishing it.
 
-Every release must use a fresh complete bundle from Tahoe's
-`./release-screenshots capture`, with the pinned VM and fixed capture profile.
-Stage this edition's reviewed images with the Tahoe command's `stage
---edition golden-gate --destination <this-checkout>`. Do not reuse pictures
-from an older version or fill rejected cases with old files. After pinning
-the published Tahoe release and committing the images, run its tool with
-`--repo <this-checkout> verify --tahoe-repo <tahoe-checkout>`.
-Publish through `.github/workflows/release.yml`, which runs that gate against
-the immutable Tahoe pin.
+Run visual tests and capture documentation screenshots only when the actual
+change clearly affects visible output: layout, colors, materials, typography,
+icons, wallpaper, controls or rendered UI content. A release, version bump,
+updater fix, translation of console-only messages, documentation edit or CI
+change alone does not justify visual tests or new captures. State the concrete
+visual impact before starting a VM. Reuse reviewed screenshots and their
+original provenance when visual inputs are unchanged; never relabel old images
+as newly captured. Run focused visual checks only for affected components,
+editions and modes, and do not repeat an unchanged passing check. A failed or
+rejected new frame cannot be filled with an older image.
+
+When new documentation captures are needed, use Tahoe's `./release-screenshots`
+with the pinned VM and capture profile. Stage this edition's reviewed images
+with `stage --edition golden-gate --destination <this-checkout>`. After pinning
+the published Tahoe release, verify committed screenshots with
+`--repo <this-checkout> verify --tahoe-repo <tahoe-checkout>`, including when
+existing reviewed images are retained. Publish through
+`.github/workflows/release.yml` against the immutable Tahoe pin.
 The release workflow requires successful `test.yml` push runs on both `main`
 and `dev` for the exact Golden Gate commit and the exact pinned Tahoe commit. Its shared CI gate is itself pinned
 to an immutable Tahoe commit. Never bypass failed, cancelled, skipped or missing CI. Never bypass it with direct `gh release create`.

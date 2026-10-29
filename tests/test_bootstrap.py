@@ -127,6 +127,7 @@ def test_golden_gate_defaults_to_second_launcher_preset():
 def test_launch_forwards_arguments_and_disables_independent_updates(tmp_path, monkeypatch):
     monkeypatch.setattr(bootstrap, "prepare", lambda **kwargs: tmp_path)
     monkeypatch.setattr(bootstrap, "update_wrapper", lambda entry, args: None)
+    monkeypatch.setattr(bootstrap, "update_local_source", lambda entry, args: None)
     monkeypatch.setattr(bootstrap.os, "chdir", lambda path: None)
     calls = []
     monkeypatch.setattr(bootstrap.os, "execv", lambda executable, args: calls.append(args))
@@ -317,8 +318,10 @@ def test_local_checkout_stages_current_files_without_network(tmp_path, monkeypat
     monkeypatch.setattr(bootstrap.urllib.request, "urlopen", no_network)
     monkeypatch.setattr(bootstrap, "_git", no_network)
     assert bootstrap.local_source() == source
-    for entry in ("installer", "install", "uninstall"):
-        bootstrap.update_wrapper(entry, [])
+    if explicit:
+        for entry in ("installer", "install", "uninstall"):
+            bootstrap.update_wrapper(entry, [])
+            bootstrap.update_local_source(entry, [])
     original = (source / "src/scripts/defaults.json").read_bytes()
     prepared = bootstrap.prepare()
     assert prepared != source

@@ -79,12 +79,12 @@ The Golden Gate desktop in light and dark mode.
 
 <p align="center">
   <a href="src/screenshots/showcase_light_4k-2f0cc86c4b9a.png"><img src="src/screenshots/showcase_light_4k-2f0cc86c4b9a.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-5ccbd2fa8d82.png"><img src="src/screenshots/desktop_about_light_4k-5ccbd2fa8d82.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_4k-998278233e7a.png"><img src="src/screenshots/desktop_about_light_4k-998278233e7a.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-895c232cab9c.png"><img src="src/screenshots/showcase_dark_4k-895c232cab9c.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-2c1be1791ee1.png"><img src="src/screenshots/desktop_about_dark_4k-2c1be1791ee1.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-4907a6476832.png"><img src="src/screenshots/showcase_dark_4k-4907a6476832.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-ddc457f0ddaa.png"><img src="src/screenshots/desktop_about_dark_4k-ddc457f0ddaa.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -94,8 +94,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-222e5631139a.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-f9bb3790c96f.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-23d26b1583fb.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-b462bc992eaf.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -139,8 +139,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-f629050c9df8.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-c621ae3d3fe1.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-72abe55498d8.png" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-9ad7f0098c1e.png" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -229,7 +229,11 @@ Required desktop, build tools and system packages.
 - `dbus-send`
 - `systemctl` or `crontab` for scheduled features
 
-Tahoe and Golden Gate releases use matching version numbers. With both repositories side by side, `./installer` automatically uses the local Tahoe checkout without downloading or updating either repository. `GOLDEN_GATE_TAHOE_SOURCE` can select another checkout. Golden Gate stages its own defaults in a separate cached copy, leaving Tahoe unchanged. A verified replacement retires older managed copies and their build caches; copies still used by an open entry point remain until a later launch. Interrupted downloads are cleaned after a successful preparation. Failed downloads retain the last working copy. Without a local checkout, each launch installs the latest Tahoe release, and `./install` and `./installer` first update a git checkout to the latest Golden Gate release. Theme assets are bundled in that source; later launches reuse it until a new release is published. `MAC_TAHOE_NO_UPDATE_CHECK=true` skips both updates and installs the Tahoe release this version was published with. Missing dependencies and optional KDE Rounded Corners also require internet access.
+Tahoe and Golden Gate releases use matching version numbers. Run `./installer` in either repository: it compares the local `VERSION` with the latest published release and updates a clean checkout only when that release is newer and can be fast-forwarded. With both repositories side by side, Golden Gate checks its wrapper and the sibling Tahoe checkout independently, then stages Tahoe with Golden Gate defaults in a separate cached copy.
+
+Local edits, untracked files and divergent local commits are treated as development work: the installer keeps them and reports any newer release. Equal or newer local versions are never downgraded. Set `GOLDEN_GATE_TAHOE_SOURCE` to explicitly test a Tahoe checkout without automatic updates, or use `MAC_TAHOE_NO_UPDATE_CHECK=true` to disable all update checks. `./installer --prepare`, uninstall, test and VM entry points do not update local checkouts.
+
+A verified replacement retires older managed copies and their build caches; copies still used by an open entry point remain until a later launch. Interrupted downloads are cleaned after a successful preparation. Failed downloads retain the last working copy. Without a local Tahoe checkout, Golden Gate downloads the latest published Tahoe release; when update checks are disabled or GitHub is unreachable, it uses the verified release pin. Theme assets are bundled in that source; later launches reuse it until a new release is published. Missing dependencies and optional KDE Rounded Corners also require internet access.
 
 | Distro | Qt 6 tools | KDE Plasma 6 development packages |
 |--------|------------|-----------------------------------|

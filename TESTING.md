@@ -1,6 +1,6 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.8, captured in a disposable KDE Plasma VM.
+Native installer screens for Golden Gate 0.61.9, captured in a disposable KDE Plasma VM.
 The gallery is captured from the release source and reviewed before publication.
 Release checks cover both editions, theme switching, installation, reboot and removal.
 
@@ -62,7 +62,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-7d2d14822ff3.png" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-acf1f634675c.png" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5983201d6502.png" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-821a7b881aab.png" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-b0d495268582.png" alt="Wallpaper" width="500"><br>Wallpaper</td>
@@ -79,3 +79,39 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-summary_v1-404db506bc87.png" alt="Summary" width="500"><br>Summary</td>
 </tr>
 </table>
+
+
+## v0.61.10: version-aware updates
+
+Validated on 2026-10-28 with Python 3.14.7, using disposable Git repositories
+and offscreen Qt. Scope: wrapper startup, automatic sibling selection, release
+version comparison, verified fast-forwards, preservation of dirty/divergent
+development checkouts, explicit source overrides and read-only entry points.
+No desktop installation, native backend or visual appearance change is involved.
+
+- Golden Gate wrapper: `PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests -q -p no:cacheprovider`: 80 passed.
+- Tahoe: `QT_QPA_PLATFORM=offscreen PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_auto_update.py tests/test_cli.py tests/test_installer_ui.py -q -p no:cacheprovider`: 129 passed.
+- The same 129 checks passed in prepared Golden Gate source `43473c1c0176893cc6d1`.
+- Real Git tests cover clean upgrades from 0.61.9 to 0.61.10, equal/newer local
+  versions, staged/unstaged/untracked/deleted files, committed experiments,
+  concurrent edits, failed fetches, mismatched archive versions and offline use.
+- `git diff --check` passed in both checkouts. No live host installer was run.
+
+The maintainer approved the local installer behavior for release on 2026-10-28.
+Release preparation excludes unrelated Downloads Stack and battery-icon work.
+Publication requires successful `test.yml` push runs on both `main` and `dev`
+for the exact release commits in both repositories. Reviewed screenshot
+provenance is retained when visual inputs are unchanged.
+
+
+Release screenshot policy, 2026-10-28: visual tests and VM captures run only
+for a clear change to visible output. v0.61.10 changes updater behavior,
+console translations and release validation, and keeps Downloads out of the
+Dock. It excludes the separate battery-icon work. Existing reviewed v0.61.9
+captures retain their original source, version and hashes. The redundant
+translation-only capture was stopped; its partial output is not published.
+The release verifier checks unchanged visual inputs, original review hashes,
+VM/profile/effect identity and focused application frames. New tests cover
+reuse across version/documentation changes, console updater changes, rejection
+of UI translation/runtime changes, and publication using the current version
+without relabeling old images. Exact-commit CI remains mandatory.
