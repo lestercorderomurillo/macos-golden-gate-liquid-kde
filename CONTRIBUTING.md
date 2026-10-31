@@ -6,6 +6,11 @@ for development and installer lifecycle details.
 
 ## Installer storage maintenance
 
+The recommended `--filter=blob:none` clone keeps full ancestry and downloads
+historical files on demand. Audited clean published shallow clones created by
+older instructions migrate through a filtered ancestry fetch; development
+checkouts retain their history settings.
+
 Ordinary installer launches maintain both the wrapper and an automatically
 selected Tahoe sibling, including after manual `git pull`. Use
 `./installer --free-space` (or `./install --free-space`) for an explicit run

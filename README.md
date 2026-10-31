@@ -189,10 +189,10 @@ Here is what we added or improved in the components we ship.
 
 ![Getting started](https://img.shields.io/badge/getting-started-3B7B5B?style=for-the-badge&logo=gnubash&logoColor=white)
 
-To avoid downloading historical screenshots, start with a shallow checkout:
+Clone the current files with history available on demand:
 
 ```bash
-git clone --depth 1 --single-branch https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde.git
+git clone --filter=blob:none https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde.git
 cd macos-golden-gate-liquid-kde
 ./installer
 ```
