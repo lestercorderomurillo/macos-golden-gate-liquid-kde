@@ -1,15 +1,11 @@
 # Installer testing
 
-Golden Gate **v0.61.17** is the latest verified release documented here.
-The installer photographs below were captured in a disposable KDE Plasma VM
-and reviewed before publication; their hashes and provenance are retained.
+Golden Gate **v0.61.18** uses the verified Tahoe source pinned in `upstream.json`.
+The photographs below were captured in a disposable KDE Plasma VM and reviewed
+before publication; their hashes and original provenance are retained.
 
-Nautilus toolbar validation passed 72 native GTK pixel comparisons,
-52 focused asset/lifecycle checks, 120 theme-switch checks and 22 prepared
-Golden Gate checks; all 89 final wrapper tests passed. See the
-[shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.17/tests/native/nautilus_toolbar_validation.md)
-for commands, source identities, CI gates and coverage limits. The native probe
-models Nautilus’s selector migration rather than qualifying the full new app.
+Dock spacing, resizing and prepared-source checks are recorded in Tahoe’s
+[Dock validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.18/tests/native/dock_alignment_validation.md).
 
 ## Installation steps
 
@@ -17,7 +13,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-ac8e4276b7fc.png" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-c99c6572af7e.png" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5983201d6502.png" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-821a7b881aab.png" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-b0d495268582.png" alt="Wallpaper" width="500"><br>Wallpaper</td>
