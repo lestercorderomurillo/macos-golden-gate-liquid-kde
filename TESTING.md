@@ -1,17 +1,20 @@
 # Installer testing
 
-Golden Gate **v0.61.12** is the latest verified release documented here.
+Golden Gate **v0.61.16** is the latest verified release documented here.
 The installer photographs below were captured in a disposable KDE Plasma VM
-and reviewed before publication; their original hashes and provenance are retained.
+and reviewed before publication; their original v0.61.13 capture provenance is retained.
 
 Dock validation records 48 focused checks, eight native popup checks and
-12 prepared Golden Gate checks. The disposable KDE neon VM (Plasma 6.8.1,
-Qt 6.11.1) passed 112 installed-Dock combinations across seven scale factors,
-four panel edges and four sizes; six light/dark frames were reviewed.
-These results do not establish every GPU, monitor, distro or pointer-drag path.
+12 prepared Golden Gate checks. The geometry probe covers seven scale factors,
+four panel edges and successive resize/aspect changes. The Trash artwork now
+matches the application-tile body height while preserving small and custom icons.
+Twenty fresh light/dark optical frames cover empty/full Trash at 1×, 1.5×
+and 2× with representative panel sizes. The earlier 112-state installed-panel
+allocation checks remain applicable.
+Physical GPUs, mixed-DPI monitors and every pointer-drag path remain untested.
 
-See the [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.12/tests/native/dock_alignment_validation.md) for commands, source identities, results
-and coverage limits, and [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.12/CONTRIBUTING.md) for the testing and capture workflow.
+See the [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/tests/native/dock_alignment_validation.md) for commands, source identities, results
+and coverage limits, and [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/CONTRIBUTING.md) for the testing and capture workflow.
 
 ## Installation steps
 
@@ -19,7 +22,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-21807822f895.png" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-b145190bc30c.png" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5983201d6502.png" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-821a7b881aab.png" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-b0d495268582.png" alt="Wallpaper" width="500"><br>Wallpaper</td>
