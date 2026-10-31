@@ -1,17 +1,12 @@
 # Installer testing
 
-Golden Gate **v0.61.12** is the latest verified release documented here.
-The installer photographs below were captured in a disposable KDE Plasma VM
-and reviewed before publication; their original hashes and provenance are retained.
-
-Dock validation records 48 focused checks, eight native popup checks and
-12 prepared Golden Gate checks. The disposable KDE neon VM (Plasma 6.8.1,
-Qt 6.11.1) passed 112 installed-Dock combinations across seven scale factors,
-four panel edges and four sizes; six light/dark frames were reviewed.
-These results do not establish every GPU, monitor, distro or pointer-drag path.
-
-See the [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.12/tests/native/dock_alignment_validation.md) for commands, source identities, results
-and coverage limits, and [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.12/CONTRIBUTING.md) for the testing and capture workflow.
+Golden Gate **v0.61.15** validates safe installer storage maintenance with 89
+wrapper checks and 39 affected shared checks on its prepared source. See the
+[shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.15/tests/repository_maintenance_validation.md)
+for commands, source identities and coverage limits, including local sandbox
+restrictions on D-Bus/X11 tests and the required release CI gate. The unchanged
+installer photographs below retain their reviewed disposable-VM provenance
+and content hashes.
 
 ## Installation steps
 
