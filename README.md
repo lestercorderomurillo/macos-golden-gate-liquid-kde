@@ -78,13 +78,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_4k-1b67a9cf3326.png"><img src="src/screenshots/showcase_light_4k-1b67a9cf3326.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-d923768072d4.png"><img src="src/screenshots/desktop_about_light_4k-d923768072d4.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_4k-5ca55eb938f4.png"><img src="src/screenshots/showcase_light_4k-5ca55eb938f4.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_4k-9b5f468fc6ae.png"><img src="src/screenshots/desktop_about_light_4k-9b5f468fc6ae.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-f5557833348d.png"><img src="src/screenshots/showcase_dark_4k-f5557833348d.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-0a7bb68df795.png"><img src="src/screenshots/desktop_about_dark_4k-0a7bb68df795.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-1cc9613717f1.png"><img src="src/screenshots/showcase_dark_4k-1cc9613717f1.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-17a59bd7f792.png"><img src="src/screenshots/desktop_about_dark_4k-17a59bd7f792.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -94,8 +94,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-3babc36bf407.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-6ffd7998d507.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-9ec27341d21a.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-2d31098f52b9.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -105,9 +105,9 @@ Detached search, favorites and app categories with blurred glass and a dark uppe
 Glass refraction, hover zoom, notification badges and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-f44b4e03b0a6.png" alt="Glass Dock with ten pinned applications and light icons" width="840">
+  <img src="src/screenshots/dock_1_v1-63422e6c74e5.png" alt="Glass Dock with ten pinned applications and light icons" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-a85b240cb275.png" alt="The same Dock with dark icons" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-24126a1a48b4.png" alt="The same Dock with dark icons" width="840">
 </p>
 
 <br>
@@ -139,8 +139,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-de9b198ab9f6.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-c1f2329457ed.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-bb6aeb517413.png" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-74dc3deea123.png" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
