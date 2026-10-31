@@ -198,7 +198,7 @@ cd macos-golden-gate-liquid-kde
 ```
 
 Run `./installer` again to update. Uncheck **Reset Dock and panel customization** to keep your layout.
-ZIP/tar downloads omit the gallery; view screenshots on GitHub or use a Git checkout.
+Run `./installer --free-space` to compact Git storage while keeping your history and local work.
 
 Install and uninstall through one graphical wizard:
 
