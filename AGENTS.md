@@ -35,6 +35,21 @@ Validate the wrapper and prepared Tahoe source according to the testing scope
 below; this does not require repeating the full shared suite for every edit.
 `GOLDEN_GATE_TAHOE_SOURCE` allows testing a local Tahoe checkout before publishing.
 
+## Documentation style
+
+Keep TESTING.md as a concise snapshot of the latest verified release, stated
+once, followed by the installer photographs. Replace the previous summary;
+never append a changelog, superseded candidates or unreleased development logs.
+Keep one short validation summary with a link to detailed evidence and coverage
+limits. When consolidating accumulated history, reduce the document by at least
+half. Preserve reviewed photographs, content-hashed filenames and original
+provenance; do not recapture or relabel unchanged images. Keep README concise
+and put installer photographs only in TESTING.md.
+
+Limit README installation/update notes to two short lines of user actions.
+Omit updater internals and repeated explanations; keep technical details in
+CONTRIBUTING.md or linked developer documentation.
+
 ## Testing scope and evidence
 
 Cover all affected behavior and preserve complete CI coverage. Separate focused

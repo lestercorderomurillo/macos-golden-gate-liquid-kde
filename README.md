@@ -197,11 +197,8 @@ cd macos-golden-gate-liquid-kde
 ./installer
 ```
 
-Run `./installer` again to update; local Git changes are preserved. The theme is
-applied only after you confirm. Uncheck **Reset Dock and panel customization**
-to keep your layout on reinstall. Set `MAC_TAHOE_NO_UPDATE_CHECK=true` to skip updates.
-
-ZIP/tar downloads omit the screenshot gallery; view it on GitHub or clone with Git.
+Run `./installer` again to update. Uncheck **Reset Dock and panel customization** to keep your layout.
+ZIP/tar downloads omit the gallery; view screenshots on GitHub or use a Git checkout.
 
 Install and uninstall through one graphical wizard:
 
@@ -209,11 +206,23 @@ Install and uninstall through one graphical wizard:
 ./installer
 ```
 
-Choose **Install** to configure the theme, or **Uninstall** to remove it.
-The language selector is between these actions. The wizard asks for administrator
-access only when you confirm. `./install` and `./uninstall` open the same UI.
-
-English, Spanish, Simplified Chinese, Brazilian Portuguese and German.
+| Installer language | Status |
+| --- | --- |
+| 🇺🇸 English | Available |
+| 🇪🇸 Spanish | Available |
+| 🇨🇳 Simplified Chinese | Available |
+| 🇧🇷 Brazilian Portuguese | Available |
+| 🇩🇪 German | Available |
+| 🇫🇷 French | Planned |
+| 🇮🇹 Italian | Planned |
+| 🇯🇵 Japanese | Planned |
+| 🇰🇷 Korean | Planned |
+| 🇷🇺 Russian | Planned |
+| 🇸🇦 Arabic | Planned |
+| 🇮🇳 Hindi | Planned |
+| 🇳🇱 Dutch | Planned |
+| 🇵🇱 Polish | Planned |
+| 🇹🇷 Turkish | Planned |
 
 <details>
 <summary><b>Requirements</b></summary>
@@ -229,11 +238,7 @@ Required desktop, build tools and system packages.
 - `dbus-send`
 - `systemctl` or `crontab` for scheduled features
 
-Tahoe and Golden Gate releases use matching version numbers. Run `./installer` in either repository: it compares the local `VERSION` with the latest published release and updates a clean checkout only when that release is newer and can be fast-forwarded. With both repositories side by side, Golden Gate checks its wrapper and the sibling Tahoe checkout independently, then stages Tahoe with Golden Gate defaults in a separate cached copy.
-
-Local edits, untracked files and divergent local commits are treated as development work: the installer keeps them and reports any newer release. Equal or newer local versions are never downgraded. Set `GOLDEN_GATE_TAHOE_SOURCE` to explicitly test a Tahoe checkout without automatic updates, or use `MAC_TAHOE_NO_UPDATE_CHECK=true` to disable all update checks. `./installer --prepare`, uninstall, test and VM entry points do not update local checkouts.
-
-A verified replacement retires older managed copies and their build caches; copies still used by an open entry point remain until a later launch. Interrupted downloads are cleaned after a successful preparation. Failed downloads retain the last working copy. Without a local Tahoe checkout, Golden Gate downloads the latest published Tahoe release; when update checks are disabled or GitHub is unreachable, it uses the verified release pin. Theme assets are bundled in that source; later launches reuse it until a new release is published. Missing dependencies and optional KDE Rounded Corners also require internet access.
+Internet access is required for downloads, missing dependencies and optional KDE Rounded Corners.
 
 | Distro | Qt 6 tools | KDE Plasma 6 development packages |
 |--------|------------|-----------------------------------|

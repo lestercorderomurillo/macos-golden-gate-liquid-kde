@@ -1,60 +1,19 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.11, captured in a disposable KDE Plasma VM.
-The gallery is captured from the release source and reviewed before publication.
-Release checks cover both editions, theme switching, installation, reboot and removal.
+Golden Gate **v0.61.11** is the latest verified release documented here.
+The installer photographs below were captured in a disposable KDE Plasma VM
+and reviewed before publication; their original hashes and provenance are retained.
 
-Run `./installer` from this checkout to review the wizard. For shared test commands and the capture workflow, see [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
+Status-icon validation covers both editions, palette changes and generated
+appearances: 56 focused Tahoe checks, 53 prepared Golden Gate checks,
+80 wrapper checks, 32,340 native host renders and 9,240 native renders in
+KDE neon (Plasma 6.8.1, Qt 6.11.1, Wayland). Recorded primary CI results:
+2,013 passed and 11 conditional skips. Skipped X11, external Rounded Corners
+archive and native Kvantum checks remain coverage limits; battery rendering
+does not establish hardware-telemetry qualification.
 
-## v0.61.8 focused validation
-
-On 2026-10-27, 171 focused checks passed on the shared Tahoe source and the
-same 171 passed on prepared Golden Gate content `9d2e8e8532812762e034`.
-The checks used Python 3.14 with offscreen Qt on the maintainer's Linux host:
-window controls, shadows, GTK upgrade/geometry, wizard navigation and summary,
-installer supervision, CLI choices and Nix staging. No native ABI changed.
-Existing component and VM evidence below remains applicable to unchanged code.
-All 45 wrapper checks also passed, covering source staging, release selection,
-archive checksums and version handling. The required full CI runs on the exact
-release commits; no duplicate local container matrix is used.
-
-## v0.61.8 window controls and shadows
-
-The installer offers Flat and Glassy controls with reviewed Nautilus close-ups,
-rim highlights matched to the maintainer's reference and a separate Window
-shadows page with four screenshot cards. Golden Gate starts with Glassy;
-explicit choices survive navigation, summary edits and later light/dark switches.
-
-The release uses a fresh complete 90-frame capture from the pinned disposable
-VM, a matching immutable Tahoe pin and successful exact-commit CI on both
-branches. Shared validation is recorded in [Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/TESTING.md).
-
-## v0.61.5 reset default validation
-
-The shared installer starts with **Reset Dock and panel customization** checked.
-Uncheck it to preserve the current layout. Golden Gate prepared content
-`f4438e729918882ada4b` passed 160 wizard, CLI, UI and layout component checks,
-including the checked default and retaining an unchecked choice during navigation.
-The release uses a new complete capture from the pinned disposable KDE neon VM;
-its gallery and immutable Tahoe pin are verified before publication.
-
-## v0.61.4 validation
-
-The wrapper suite passed 45 checks, including published-tag update selection,
-version verification and dirty/diverged checkout protection. Preparing the local Tahoe candidate with
-`GOLDEN_GATE_TAHOE_SOURCE` and `./installer --prepare` passed 38 affected
-wizard/GTK checks, followed by nine final shadow regressions. After the Arch
-login-defaults and GTK session fixes, the prepared source passed 112 affected
-updater, wizard, KConfig, session-environment and shadow checks. Arch testing
-matched the reporter's Plasma/KWin, Mesa and Firefox versions and covered
-reinstall preservation/reset, skipping Nautilus, reboot, light/dark switching
-and all four shadow levels. The VM GPU was VirGL rather than an RX 9060 XT.
-The shared
-implementation and disposable-VM evidence are described in
-[Tahoe TESTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/TESTING.md).
-The release workflow also requires successful push CI for both repositories'
-exact `main` and `dev` release commits and verifies this edition's fresh,
-reviewed screenshot bundle against the immutable Tahoe pin.
+See the [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.11/tests/native/status_icons_validation.md) for commands, source identities, results
+and coverage limits, and [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.11/CONTRIBUTING.md) for the testing and capture workflow.
 
 ## Installation steps
 
@@ -79,68 +38,3 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-summary_v1-404db506bc87.png" alt="Summary" width="500"><br>Summary</td>
 </tr>
 </table>
-
-
-## v0.61.10: version-aware updates
-
-Validated on 2026-10-28 with Python 3.14.7, using disposable Git repositories
-and offscreen Qt. Scope: wrapper startup, automatic sibling selection, release
-version comparison, verified fast-forwards, preservation of dirty/divergent
-development checkouts, explicit source overrides and read-only entry points.
-No desktop installation, native backend or visual appearance change is involved.
-
-- Golden Gate wrapper: `PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests -q -p no:cacheprovider`: 80 passed.
-- Tahoe: `QT_QPA_PLATFORM=offscreen PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_auto_update.py tests/test_cli.py tests/test_installer_ui.py -q -p no:cacheprovider`: 129 passed.
-- The same 129 checks passed in prepared Golden Gate source `43473c1c0176893cc6d1`.
-- Real Git tests cover clean upgrades from 0.61.9 to 0.61.10, equal/newer local
-  versions, staged/unstaged/untracked/deleted files, committed experiments,
-  concurrent edits, failed fetches, mismatched archive versions and offline use.
-- `git diff --check` passed in both checkouts. No live host installer was run.
-
-The maintainer approved the local installer behavior for release on 2026-10-28.
-Release preparation excludes unrelated Downloads Stack and battery-icon work.
-Publication requires successful `test.yml` push runs on both `main` and `dev`
-for the exact release commits in both repositories. Reviewed screenshot
-provenance is retained when visual inputs are unchanged.
-
-
-Release screenshot policy, 2026-10-28: visual tests and VM captures run only
-for a clear change to visible output. v0.61.10 changes updater behavior,
-console translations and release validation, and keeps Downloads out of the
-Dock. It excludes the separate battery-icon work. Existing reviewed v0.61.9
-captures retain their original source, version and hashes. The redundant
-translation-only capture was stopped; its partial output is not published.
-The release verifier checks unchanged visual inputs, original review hashes,
-VM/profile/effect identity and focused application frames. New tests cover
-reuse across version/documentation changes, console updater changes, rejection
-of UI translation/runtime changes, and publication using the current version
-without relabeling old images. Exact-commit CI remains mandatory.
-
-
-## v0.61.11: status icons
-
-The pinned Tahoe source fixes the horizontal Mac-style battery, palette-aware
-status icons and application-tile collisions in generated icon appearances.
-The same adaptation is used by the installer, Nix staging and offline icon tool.
-
-The shared [validation report and black/white VM proof](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.11/tests/native/status_icons_validation.md)
-records 56 focused Tahoe checks, 53 checks in prepared Golden Gate content
-`39679337df4840f381b8`, 32,340 native host renders and 9,240 native renders in
-the pinned disposable KDE neon VM (Plasma 6.8.1 / Qt 6.11.1).
-It includes source/image hashes, the failing original battery control,
-light/dark/light transitions and coverage limits. The guest uses explicit
-battery-state names; this does not claim hardware-telemetry qualification.
-Documentation photographs for both editions are separately captured and reviewed
-with Tahoe's pinned release tool. The wrapper/pin suite and exact-commit CI on
-both branches remain required before publication.
-
-Tahoe's primary CI reports 2,013 passing tests and 11 existing conditional
-skips (opt-in X11 plugin, externally supplied Rounded Corners archive and
-native Kvantum style checks). Every new icon test ran; skipped checks are
-recorded as coverage limits in the shared report.
-
-Final wrapper/pin verification: `python -m pytest -q -p no:cacheprovider tests --tb=short`
-— 80 passed. The published Tahoe v0.61.11 tag resolves to
-`a7ad8e7be6028fc62e61cacd35dbe983f2861562`; its downloaded archive has SHA-256
-`a28e406ea212bf910380a114a9db6200c5b44996fc6ff254d82f44e3b61a1d33`.
-The archive VERSION and edition-support files were verified before updating the pin.
