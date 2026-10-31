@@ -39,6 +39,18 @@ def test_old_local_source_reports_unsupported_maintenance(tmp_path, monkeypatch,
     assert "does not support --free-space" in capsys.readouterr().err
 
 
+@pytest.mark.parametrize("entry", ["uninstall", "test", "vm"])
+def test_non_installer_entries_do_not_run_maintenance(tmp_path, monkeypatch, entry):
+    monkeypatch.setattr(bootstrap, "prepare", lambda **kw: tmp_path)
+    monkeypatch.setattr(bootstrap, "local_source", lambda: None)
+    monkeypatch.setattr(bootstrap.os, "chdir", lambda *a: None)
+    launches = []
+    monkeypatch.setattr(bootstrap.os, "execv", lambda *a: launches.append(a))
+    monkeypatch.setenv("MAC_TAHOE_NO_UPDATE_CHECK", "true")
+    assert bootstrap.main(entry, ["--free-space"]) == 0
+    assert launches[0][1] == [sys.executable, str(tmp_path / entry), "--free-space"]
+
+
 @pytest.mark.parametrize("failure", ["returncode", "timeout", "missing"])
 def test_auto_maintenance_failure_does_not_stop_updated_installer(tmp_path, monkeypatch, failure):
     scripts = tmp_path / "src/scripts"

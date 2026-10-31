@@ -402,9 +402,10 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
     if entry not in ENTRY_POINTS:
         raise ValueError("Unknown entry point")
     args = sys.argv[1:] if args is None else args
+    maintenance_requested = entry in UPDATE_ENTRY_POINTS and args == ["--free-space"]
     original_uid, original_gid = os.geteuid(), os.getegid()
     try:
-        if args == ["--free-space"]:
+        if maintenance_requested:
             # Maintenance uses the local source or verified offline pin, never
             # queries or installs a newer release as a side effect.
             os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] = "true"
@@ -443,7 +444,7 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
     if args == ["--prepare"]:
         print(source)
         return 0
-    if args == ["--free-space"]:
+    if maintenance_requested:
         if not maintenance.is_file():
             print("Golden Gate: this Tahoe source does not support --free-space yet.", file=sys.stderr)
             return 1
