@@ -6,7 +6,7 @@ and reviewed before publication; their hashes and provenance are retained.
 
 Nautilus toolbar validation passed 72 native GTK pixel comparisons,
 52 focused asset/lifecycle checks, 120 theme-switch checks and 22 prepared
-Golden Gate checks; all 80 wrapper tests passed. See the
+Golden Gate checks; all 89 final wrapper tests passed. See the
 [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.17/tests/native/nautilus_toolbar_validation.md)
 for commands, source identities, CI gates and coverage limits. The native probe
 models Nautilus’s selector migration rather than qualifying the full new app.
