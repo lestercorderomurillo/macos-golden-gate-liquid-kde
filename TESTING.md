@@ -1,6 +1,6 @@
 # Installer testing
 
-Native installer screens for Golden Gate 0.61.9, captured in a disposable KDE Plasma VM.
+Native installer screens for Golden Gate 0.61.11, captured in a disposable KDE Plasma VM.
 The gallery is captured from the release source and reviewed before publication.
 Release checks cover both editions, theme switching, installation, reboot and removal.
 
@@ -62,7 +62,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-acf1f634675c.png" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-63abaee5a52d.png" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5983201d6502.png" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-821a7b881aab.png" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-b0d495268582.png" alt="Wallpaper" width="500"><br>Wallpaper</td>
@@ -115,3 +115,32 @@ VM/profile/effect identity and focused application frames. New tests cover
 reuse across version/documentation changes, console updater changes, rejection
 of UI translation/runtime changes, and publication using the current version
 without relabeling old images. Exact-commit CI remains mandatory.
+
+
+## v0.61.11: status icons
+
+The pinned Tahoe source fixes the horizontal Mac-style battery, palette-aware
+status icons and application-tile collisions in generated icon appearances.
+The same adaptation is used by the installer, Nix staging and offline icon tool.
+
+The shared [validation report and black/white VM proof](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.11/tests/native/status_icons_validation.md)
+records 56 focused Tahoe checks, 53 checks in prepared Golden Gate content
+`39679337df4840f381b8`, 32,340 native host renders and 9,240 native renders in
+the pinned disposable KDE neon VM (Plasma 6.8.1 / Qt 6.11.1).
+It includes source/image hashes, the failing original battery control,
+light/dark/light transitions and coverage limits. The guest uses explicit
+battery-state names; this does not claim hardware-telemetry qualification.
+Documentation photographs for both editions are separately captured and reviewed
+with Tahoe's pinned release tool. The wrapper/pin suite and exact-commit CI on
+both branches remain required before publication.
+
+Tahoe's primary CI reports 2,013 passing tests and 11 existing conditional
+skips (opt-in X11 plugin, externally supplied Rounded Corners archive and
+native Kvantum style checks). Every new icon test ran; skipped checks are
+recorded as coverage limits in the shared report.
+
+Final wrapper/pin verification: `python -m pytest -q -p no:cacheprovider tests --tb=short`
+— 80 passed. The published Tahoe v0.61.11 tag resolves to
+`a7ad8e7be6028fc62e61cacd35dbe983f2861562`; its downloaded archive has SHA-256
+`a28e406ea212bf910380a114a9db6200c5b44996fc6ff254d82f44e3b61a1d33`.
+The archive VERSION and edition-support files were verified before updating the pin.
