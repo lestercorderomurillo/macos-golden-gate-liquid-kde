@@ -247,7 +247,7 @@ def test_newer_release_pulls_a_clean_checkout_and_restarts(updater, monkeypatch)
     git = Git(root)
     monkeypatch.setattr(bootstrap, "_git", git)
     bootstrap.update_wrapper("install", ["--dark"])
-    assert ("merge", "--ff-only", "a" * 40) in git.calls
+    assert ("merge", "--ff-only", "--no-overwrite-ignore", "a" * 40) in git.calls
     assert ("fetch", "--no-tags", f"https://github.com/{bootstrap.GOLDEN_GATE_REPOSITORY}.git", "refs/tags/v0.60.0") in git.calls
     assert execs == [[sys.executable, str(root / "install"), "--dark"]]
     assert bootstrap.os.environ["GOLDEN_GATE_UPDATED"] == "1"

@@ -28,7 +28,7 @@ def test_explicit_cleanup_uses_shared_code_and_both_checkouts(tmp_path, monkeypa
     assert bootstrap.main(entry, ["--free-space"]) == 0
     assert calls == [(sys.executable, [sys.executable, str(shared),
                                       "--repository", str(root), "--repository", str(sibling)])]
-    assert bootstrap.os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] == "true"
+    assert bootstrap.os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] == "false"
 
 
 def test_old_local_source_reports_unsupported_maintenance(tmp_path, monkeypatch, capsys):
@@ -52,14 +52,15 @@ def test_non_installer_entries_do_not_run_maintenance(tmp_path, monkeypatch, ent
 
 
 @pytest.mark.parametrize("failure", ["returncode", "timeout", "missing"])
-def test_auto_maintenance_failure_does_not_stop_updated_installer(tmp_path, monkeypatch, failure):
+@pytest.mark.parametrize("updated", [False, True])
+def test_auto_maintenance_failure_does_not_stop_updated_installer(tmp_path, monkeypatch, failure, updated):
     scripts = tmp_path / "src/scripts"
     scripts.mkdir(parents=True)
     (scripts / "repository_maintenance.py").write_text("# shared code")
     monkeypatch.setattr(bootstrap, "prepare", lambda **kw: tmp_path)
     monkeypatch.setattr(bootstrap, "local_source", lambda: None)
     monkeypatch.setattr(bootstrap, "update_wrapper", lambda *a: None)
-    monkeypatch.setattr(bootstrap, "update_local_source", lambda *a: True)
+    monkeypatch.setattr(bootstrap, "update_local_source", lambda *a: updated)
     monkeypatch.delenv("GOLDEN_GATE_TAHOE_SOURCE", raising=False)
     monkeypatch.setenv("MAC_TAHOE_NO_UPDATE_CHECK", "false")
     def run(command, **kw):

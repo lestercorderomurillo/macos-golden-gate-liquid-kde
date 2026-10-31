@@ -304,7 +304,8 @@ def _git(*args: str, root: Path | None = None) -> subprocess.CompletedProcess | 
             os.setresgid(gid, gid, gid)
             os.setresuid(uid, uid, uid)
     try:
-        return subprocess.run(["git", "-C", str(root or ROOT), *args], capture_output=True, text=True,
+        return subprocess.run(["git", "-c", "maintenance.auto=false", "-c", "gc.auto=0",
+                               "-C", str(root or ROOT), *args], capture_output=True, text=True,
                               timeout=120, env=env, preexec_fn=drop, check=False)
     except (OSError, subprocess.SubprocessError):
         return None
@@ -331,6 +332,12 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
     if not re.fullmatch(r"\d+\.\d+\.\d+", current):
         return False
     latest = latest_release(repository)
+    try:
+        hints = json.loads(os.environ.get('MAC_TAHOE_RELEASE_HINTS', '{}'))
+    except ValueError:
+        hints = {}
+    hints[repository] = latest.removeprefix('v') if latest else None
+    os.environ['MAC_TAHOE_RELEASE_HINTS'] = json.dumps(hints)
     if not latest or _version(latest) <= _version(current):
         return False
     available = f"{label} {latest} is available (local v{current})."
@@ -346,7 +353,9 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
         result = git(*args)
         return result if result is not None and result.returncode == 0 else None
 
-    fetched = git_ok("fetch", "--no-tags", f"https://github.com/{repository}.git",
+    partial = git_ok('config', '--get', 'remote.origin.partialclonefilter')
+    filtering = ['--filter=blob:none'] if partial is not None and partial.stdout.strip() == 'blob:none' else []
+    fetched = git_ok("fetch", "--no-tags", *filtering, f"https://github.com/{repository}.git",
                      "refs/tags/" + latest)
     target = git_ok("rev-parse", "FETCH_HEAD^{commit}") if fetched is not None else None
     commit = target.stdout.strip() if target is not None else ""
@@ -359,7 +368,7 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
         print(f"{available} Keeping local commits: the release is not a fast-forward. "
               f"{release_url}", flush=True)
         return False
-    if not _clean_checkout(root) or git_ok("merge", "--ff-only", commit) is None:
+    if not _clean_checkout(root) or git_ok("merge", "--ff-only", "--no-overwrite-ignore", commit) is None:
         print(f"{available} Could not safely update; keeping local source. "
               f"{release_url}", flush=True)
         return False
@@ -403,6 +412,7 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
         raise ValueError("Unknown entry point")
     args = sys.argv[1:] if args is None else args
     maintenance_requested = entry in UPDATE_ENTRY_POINTS and args == ["--free-space"]
+    original_no_update = os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK")
     original_uid, original_gid = os.geteuid(), os.getegid()
     try:
         if maintenance_requested:
@@ -423,8 +433,7 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
         if sibling is not None:
             roots.append(sibling)
         maintenance_args = [arg for root in roots for arg in ("--repository", str(root))]
-        if (_updates_enabled(entry, args) and maintenance.is_file()
-                and (source_updated or os.environ.get("GOLDEN_GATE_UPDATED") == "1")):
+        if _updates_enabled(entry, args) and maintenance.is_file():
             try:
                 result = subprocess.run([sys.executable, str(maintenance), "--auto", *maintenance_args],
                                         check=False, timeout=660)
@@ -445,6 +454,12 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
         print(source)
         return 0
     if maintenance_requested:
+        # Preparing the pinned source was offline. Restore the caller's policy
+        # so explicit cleanup may verify public cache ownership without updating.
+        if original_no_update is None:
+            os.environ.pop('MAC_TAHOE_NO_UPDATE_CHECK', None)
+        else:
+            os.environ['MAC_TAHOE_NO_UPDATE_CHECK'] = original_no_update
         if not maintenance.is_file():
             print("Golden Gate: this Tahoe source does not support --free-space yet.", file=sys.stderr)
             return 1

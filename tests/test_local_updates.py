@@ -64,6 +64,27 @@ def release_pair(tmp_path, monkeypatch):
 
 
 @pytest.mark.parametrize('target', ['wrapper', 'sibling'])
+def test_update_preserves_ignored_local_files_on_new_tracked_paths(release_pair, target):
+    wrapper, sibling, remote, old, new, fetches, restarts = release_pair
+    root = wrapper if target == 'wrapper' else sibling
+    private = root / 'notes.local'
+    private.write_text('private local work')
+    exclude = root / '.git/info/exclude'
+    exclude.write_text(exclude.read_text() + '\nnotes.local\n')
+    (remote / 'notes.local').write_text('new release content')
+    commit(remote, 'new tracked path')
+    git(remote, 'tag', '-f', 'v0.61.10')
+    assert git(root, 'status', '--porcelain', '--untracked-files=all') == ''
+    if target == 'wrapper':
+        bootstrap.update_wrapper('installer', [])
+    else:
+        bootstrap.update_local_source('installer', [])
+    assert private.read_text() == 'private local work'
+    assert git(root, 'rev-parse', 'HEAD') == old
+    assert not restarts
+
+
+@pytest.mark.parametrize('target', ['wrapper', 'sibling'])
 @pytest.mark.parametrize('state', ['clean', 'modified', 'staged', 'untracked', 'deleted',
                                   'local-commit', 'equal', 'newer', 'offline', 'mismatch', 'fetch-failed'])
 def test_update_preserves_testing_and_only_advances_verified_versions(release_pair, monkeypatch,
