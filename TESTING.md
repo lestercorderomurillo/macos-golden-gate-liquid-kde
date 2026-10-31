@@ -1,20 +1,17 @@
 # Installer testing
 
-Golden Gate **v0.61.16** is the latest verified release documented here.
-The installer photographs below were captured in a disposable KDE Plasma VM
-and reviewed before publication; their original v0.61.13 capture provenance is retained.
+Golden Gate **v0.61.16** validates the Dock's Trash artwork sizing with the
+shared Tahoe component regressions and prepared Golden Gate checks.
+Twenty reviewed disposable-VM frames cover empty/full Trash in light/dark at
+1×, 1.5× and 2× with representative panel sizes. The shared geometry probe covers
+seven scales, four edges and successive resize/aspect changes. Physical GPUs
+and mixed-DPI monitors remain untested.
 
-Dock validation records 48 focused checks, eight native popup checks and
-12 prepared Golden Gate checks. The geometry probe covers seven scale factors,
-four panel edges and successive resize/aspect changes. The Trash artwork now
-matches the application-tile body height while preserving small and custom icons.
-Twenty fresh light/dark optical frames cover empty/full Trash at 1×, 1.5×
-and 2× with representative panel sizes. The earlier 112-state installed-panel
-allocation checks remain applicable.
-Physical GPUs, mixed-DPI monitors and every pointer-drag path remain untested.
-
-See the [shared validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/tests/native/dock_alignment_validation.md) for commands, source identities, results
-and coverage limits, and [Tahoe CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/CONTRIBUTING.md) for the testing and capture workflow.
+See the [Dock validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/tests/native/dock_alignment_validation.md)
+and the [storage maintenance report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.16/tests/repository_maintenance_validation.md)
+for commands, source identities and limits. Publication photographs retain their
+reviewed v0.61.13 capture provenance; subsequent version and console-only
+maintenance changes do not change their visual inputs.
 
 ## Installation steps
 

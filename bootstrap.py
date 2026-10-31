@@ -370,7 +370,7 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
 def _updates_enabled(entry: str, args: list[str]) -> bool:
     return (entry in UPDATE_ENTRY_POINTS
             and not any(arg in args for arg in
-                        ("--prepare", "--check-update", "--help", "-h", "--uninstall", "--supervise"))
+                        ("--prepare", "--check-update", "--free-space", "--help", "-h", "--uninstall", "--supervise"))
             and not os.environ.get("GOLDEN_GATE_TAHOE_SOURCE")
             and os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK", "").lower() != "true")
 
@@ -388,29 +388,50 @@ def update_wrapper(entry: str, args: list[str]) -> None:
         os.environ.pop("GOLDEN_GATE_UPDATED", None)
 
 
-def update_local_source(entry: str, args: list[str]) -> None:
+def update_local_source(entry: str, args: list[str]) -> bool:
     """An implicit sibling follows releases unless it contains local test work."""
     if not _updates_enabled(entry, args):
-        return
+        return False
     source = local_source()
     if source is not None:
-        _update_checkout(source, TAHOE_REPOSITORY, "Tahoe")
+        return _update_checkout(source, TAHOE_REPOSITORY, "Tahoe")
+    return False
 
 
 def main(entry: str = "installer", args: list[str] | None = None) -> int:
     if entry not in ENTRY_POINTS:
         raise ValueError("Unknown entry point")
     args = sys.argv[1:] if args is None else args
+    maintenance_requested = entry in UPDATE_ENTRY_POINTS and args == ["--free-space"]
     original_uid, original_gid = os.geteuid(), os.getegid()
     try:
+        if maintenance_requested:
+            # Maintenance uses the local source or verified offline pin, never
+            # queries or installs a newer release as a side effect.
+            os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] = "true"
         update_wrapper(entry, args)
-        update_local_source(entry, args)
+        source_updated = update_local_source(entry, args)
         # sudo entry points retain their root hop for Tahoe's own privilege
         # handling; downloads and extraction belong to the invoking user.
         if original_uid == 0 and os.environ.get("SUDO_UID"):
             os.setegid(int(os.environ["SUDO_GID"]))
             os.seteuid(int(os.environ["SUDO_UID"]))
         source = prepare(lease=args != ["--prepare"])
+        maintenance = source / "src/scripts/repository_maintenance.py"
+        roots = [ROOT]
+        sibling = local_source()
+        if sibling is not None:
+            roots.append(sibling)
+        maintenance_args = [arg for root in roots for arg in ("--repository", str(root))]
+        if (_updates_enabled(entry, args) and maintenance.is_file()
+                and (source_updated or os.environ.get("GOLDEN_GATE_UPDATED") == "1")):
+            try:
+                result = subprocess.run([sys.executable, str(maintenance), "--auto", *maintenance_args],
+                                        check=False, timeout=660)
+                if result.returncode:
+                    print("Golden Gate: Git maintenance did not finish; continuing with the update.", file=sys.stderr)
+            except (OSError, subprocess.SubprocessError) as exc:
+                print(f"Golden Gate: Git maintenance did not finish: {exc}", file=sys.stderr)
     except (OSError, ValueError, tarfile.TarError, subprocess.SubprocessError) as exc:
         print(f"Golden Gate: {exc}", file=sys.stderr)
         return 1
@@ -422,6 +443,12 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
     os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] = "true"
     if args == ["--prepare"]:
         print(source)
+        return 0
+    if maintenance_requested:
+        if not maintenance.is_file():
+            print("Golden Gate: this Tahoe source does not support --free-space yet.", file=sys.stderr)
+            return 1
+        os.execv(sys.executable, [sys.executable, str(maintenance), *maintenance_args])
         return 0
     os.chdir(source)
     os.execv(sys.executable, [sys.executable, str(source / entry), *args])
