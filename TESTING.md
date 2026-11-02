@@ -1,14 +1,16 @@
 # Installer testing
 
-Golden Gate **v0.61.20** is the latest verified release documented here.
-The installer photographs below were captured in a disposable KDE Plasma VM
-and reviewed before publication; their hashes and original provenance remain.
+Golden Gate **v0.61.21** corrects the installed adaptive Nautilus toolbar sheets.
+Validation passed 192 focused shared checks, 23 controls/shadow checks,
+95 wrapper checks, 42 staged Golden Gate checks and 240 native GTK comparisons.
+Eight captures of the installed Nautilus 50 application cover focused/backdrop
+windows and selected/unselected files in light and dark modes. The old adaptive
+sheets fail the regression controls. See the [validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.21/tests/native/nautilus_adaptive_validation.md)
+for commands, environments and coverage limits.
 
-Automatic theme startup validation passed 238 focused shared checks, 57 clock/
-provenance checks and 282 prepared Golden Gate checks; all 95 wrapper tests
-passed. See the [validation report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.61.20/tests/clock_sync_validation.md)
-for commands, source identities, exact-commit CI requirements and coverage limits.
-Visible inputs are unchanged; reviewed photographs were reused without recapture.
+The galleries below come from 90 newly captured and reviewed 4K frames in
+disposable KDE Plasma guests, with version-bound source and image provenance.
+Exact release commits must pass the full push CI on both main and dev.
 
 ## Installation steps
 
@@ -16,7 +18,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-c99c6572af7e.png" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-10da8904cd7f.png" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5983201d6502.png" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-821a7b881aab.png" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-b0d495268582.png" alt="Wallpaper" width="500"><br>Wallpaper</td>
