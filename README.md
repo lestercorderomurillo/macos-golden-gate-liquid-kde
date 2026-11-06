@@ -38,6 +38,8 @@
 > [!CAUTION]
 > Experimental. Desktop updates may break compatibility. Avoid production systems; [report issues here](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new).
 
+**Coming in v0.63:** an Acrylic Glass rewrite, a new Control Center, new translations and bug fixes. Stay tuned!
+
 <br>
 
 ![Contributing](https://img.shields.io/badge/contributing-A04B4B?style=for-the-badge&logo=github&logoColor=white)
