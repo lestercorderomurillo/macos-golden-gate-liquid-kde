@@ -10,9 +10,9 @@ The wrapper suite passed **97 tests**. Tahoe's focused screenshot-provenance
 and glass-step checks passed **54 tests**, covering selective recapture, original
 image provenance and light/dark/automatic previews. Popup fill checks passed
 for the more transparent light fill and stronger black dark fill. Shader and
-gradient values are unchanged. Four targeted regression checks also passed for
-RC version reading, update ordering, the installed About version and selective
-version-frame capture. See the [preset gallery](GLASS_PRESETS.md) for all surface
+gradient values are unchanged. Seven targeted regression checks also passed for
+RC version reading, update ordering, candidate-to-candidate and candidate-to-stable
+automatic updates, the installed About version and selective version-frame capture. See the [preset gallery](GLASS_PRESETS.md) for all surface
 and fine-tuning values with light/dark photographs. Captures use the pinned
 Plasma 6.8.1 VM and do not establish new live qualification on other versions.
 The [v0.62 rendering report](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.62.0/tests/native/acrylic_glass_062.md)
