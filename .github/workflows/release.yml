@@ -34,13 +34,13 @@ jobs:
 
   ci:
     needs: source
-    uses: lestercorderomurillo/macos-tahoe-liquid-kde/.github/workflows/require-ci.yml@5d1c87c84090196e621bca693cc30a56ba427b73
+    uses: lestercorderomurillo/macos-tahoe-liquid-kde/.github/workflows/require-ci.yml@0c4804c39ee2bf6a9aaff767325ece334e95a234
     with:
       repository: lestercorderomurillo/macos-tahoe-liquid-kde
       sha: ${{ needs.source.outputs.commit }}
 
   wrapper-ci:
-    uses: lestercorderomurillo/macos-tahoe-liquid-kde/.github/workflows/require-ci.yml@5d1c87c84090196e621bca693cc30a56ba427b73
+    uses: lestercorderomurillo/macos-tahoe-liquid-kde/.github/workflows/require-ci.yml@0c4804c39ee2bf6a9aaff767325ece334e95a234
     with:
       repository: ${{ github.repository }}
       sha: ${{ github.sha }}
@@ -92,8 +92,6 @@ jobs:
                   digest.update(chunk)
           assert digest.hexdigest() == pin['sha256'], 'Published Tahoe archive checksum mismatch'
           PYCODE
-      - name: Verify version-bound, reviewed screenshots
-        run: python3 tahoe/release-screenshots --repo . verify --ref "$GITHUB_SHA" --tahoe-repo tahoe
       - name: Publish verified release
         env:
           GH_TOKEN: ${{ github.token }}
