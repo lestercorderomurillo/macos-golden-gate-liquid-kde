@@ -86,13 +86,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_4k-b24fc0339643.png"><img src="src/screenshots/showcase_light_4k-b24fc0339643.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-e2f9682faabc.png"><img src="src/screenshots/desktop_about_light_4k-e2f9682faabc.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_4k-7c2d48668b00.png"><img src="src/screenshots/showcase_light_4k-7c2d48668b00.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_4k-71ede64044e7.png"><img src="src/screenshots/desktop_about_light_4k-71ede64044e7.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-2f9455c8dff7.png"><img src="src/screenshots/showcase_dark_4k-2f9455c8dff7.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-20fd85512f3c.png"><img src="src/screenshots/desktop_about_dark_4k-20fd85512f3c.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_4k-701a6049495c.png"><img src="src/screenshots/showcase_dark_4k-701a6049495c.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_4k-c2d7820c3190.png"><img src="src/screenshots/desktop_about_dark_4k-c2d7820c3190.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -102,8 +102,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-15f154adf857.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-cb11738f1bbf.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-505aad1389c6.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-f6bbf2a74309.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -125,8 +125,8 @@ Glass refraction, hover zoom, notification badges and auto-hide.
 Finder-style Nautilus in light and dark.
 
 <p align="center">
-  <img src="src/screenshots/finder_v1-3695a758ea6a.png" alt="Finder-style Nautilus in light mode" width="415">
-  <img src="src/screenshots/finder_dark_v1-1dccaef015bc.png" alt="Finder-style Nautilus in dark mode" width="415">
+  <img src="src/screenshots/finder_v1-fac6043adfca.png" alt="Finder-style Nautilus in light mode" width="415">
+  <img src="src/screenshots/finder_dark_v1-a280c6b05123.png" alt="Finder-style Nautilus in dark mode" width="415">
 </p>
 
 <br>
@@ -136,8 +136,8 @@ Finder-style Nautilus in light and dark.
 System controls and global menus for compatible apps.
 
 <p align="center">
-  <img src="src/screenshots/menu_v1-3317153484a4.png" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-bb87d0890c66.png" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/menu_v1-fd5e35eb65ef.png" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/menu_dark_v1-b4951d220573.png" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
@@ -147,8 +147,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-96131325abdd.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-d30cf2261350.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-d784e36da175.png" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-0e10f8c998d4.png" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -158,8 +158,8 @@ Hardware, software and theme details in About This Computer.
 Translucent menus and popups with matching light and dark colors.
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-ea9097a6fd3d.png" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-864c473dee4b.png" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/context_menu_v1-160d512d4707.png" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/context_menu_dark_v1-e8009ad274cc.png" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>
@@ -183,7 +183,7 @@ Here is what we added or improved in the components we ship.
 - **Installation and packaging:** graphical install/uninstall wizard, selectable components, bundled theme assets and release updates.
 - **Multiple distributions:** dependency detection and package mappings for Arch-based, Fedora-based, openSUSE, Debian and KDE neon systems.
 - **systemd and OpenRC:** scheduled theme switching and OLED care through user timers or cron.
-- **Glass improvements:** configurable blur, edge refraction, opacity and gradients; Tahoe and Golden Gate materials with consistent light/dark surfaces and paired edge highlights.
+- **Glass improvements:** configurable blur, edge refraction and three-stop gradients with separate light/dark colors. [Compare every preset](GLASS_PRESETS.md). The Dock retains its v0.62.0 optics.
 - **Plasma compatibility:** rendering and build fixes for Plasma 6.6–6.8, with effects compiled against the installed Qt and KWin SDKs.
 - **Launcher improvements:** two selectable layouts, integrated or detached search, favorites, app categories and drag/wheel category scrolling.
 - **Dock improvements:** glass surfaces, hover zoom, notification badges and auto-hide. Reinstalling keeps your pinned apps.

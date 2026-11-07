@@ -469,3 +469,26 @@ def test_cleanup_preserves_running_legacy_entry_without_a_lease(tmp_path, monkey
         if child.poll() is None:
             child.kill()
         child.wait()
+
+
+def test_release_candidate_ordering():
+    versions = ['0.62.0', '0.63rc1', '0.63rc2', '0.63.0', '0.63.1']
+    assert sorted(versions, key=bootstrap._version) == versions
+    assert bootstrap._version('0.63rc1') == bootstrap._version('v0.63.0-rc.1')
+
+
+def test_candidate_pin_is_not_downgraded_to_latest_stable(tmp_path, monkeypatch):
+    root = wrapper_at(tmp_path, monkeypatch, '0.63rc1')
+    pin = {'repository': bootstrap.TAHOE_REPOSITORY, 'commit': 'a' * 40,
+           'sha256': '0' * 64, 'version': '0.63rc1'}
+    (root / 'upstream.json').write_text(json.dumps(pin))
+    monkeypatch.setattr(bootstrap, 'latest_tahoe', lambda: {
+        'repository': bootstrap.TAHOE_REPOSITORY, 'commit': 'b' * 40, 'version': '0.62.0'})
+    archive = tahoe_archive(tmp_path, '0.63rc1')
+    calls = []
+    def download(selected, destination):
+        calls.append(selected)
+        destination.write_bytes(archive.read_bytes())
+    monkeypatch.setattr(bootstrap, 'download', download)
+    bootstrap.prepare()
+    assert calls == [pin]

@@ -64,7 +64,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 - <<'PYCODE'
-          import hashlib, json, pathlib, subprocess, time, urllib.request
+          import hashlib, json, pathlib, re, subprocess, time, urllib.request
           pin = json.loads(pathlib.Path('upstream.json').read_text())
           version = pathlib.Path('VERSION').read_text().strip()
           tag = 'v' + version
@@ -75,7 +75,7 @@ jobs:
                   capture_output=True, text=True)
               if result.returncode == 0:
                   release = json.loads(result.stdout)
-                  if (not release['isDraft'] and not release['isPrerelease']
+                  if (not release['isDraft'] and release['isPrerelease'] == bool(re.search(r'rc\.?[0-9]+$', version))
                           and release['tagName'] == tag and release['publishedAt']):
                       break
               print('Waiting for published Tahoe ' + tag, flush=True)

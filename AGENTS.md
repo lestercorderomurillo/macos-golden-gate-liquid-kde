@@ -25,7 +25,9 @@ defaults to the Tahoe checkout. Include untracked source files and omit tracked
 deletions when staging local work. `--prepare`, uninstall, test and VM entry
 points never update checkouts. `MAC_TAHOE_NO_UPDATE_CHECK=true` disables all
 update queries. Without local sources, select the latest published Tahoe
-release, checked against that release's `VERSION`.
+release, checked against that release's `VERSION`. Never replace a newer pinned
+release candidate with an older stable release. Compact RC tags such as
+`0.63rc1` sort after `0.62.0` and before `0.63.0`.
 `upstream.json` is
 the verified fallback when GitHub's API is unreachable or
 `MAC_TAHOE_NO_UPDATE_CHECK=true`, and the reference for release checks.

@@ -136,7 +136,12 @@ def extract_archive(archive: Path, destination: Path) -> Path:
 
 
 def _version(text: str) -> tuple[int, ...]:
-    return tuple(int(part) for part in re.findall(r"\d+", text)[:3])
+    match = re.fullmatch(r"[vV]?(\d+)\.(\d+)(?:\.(\d+))?(?:(?:-)?rc\.?(\d+))?(?:\+[^\s]+)?",
+                         text.strip())
+    if not match:
+        return (0, 0, 0, 0, 0)
+    major, minor, patch, candidate = match.groups()
+    return (int(major), int(minor), int(patch or 0), int(candidate is None), int(candidate or 0))
 
 
 def _github(path: str, accept: str = "application/vnd.github+json") -> bytes | None:
@@ -242,7 +247,9 @@ def prepare(*, lease: bool = False) -> Path:
     defaults = json.loads((ROOT / "defaults.json").read_text())
     source = local_source()
     if source is None and os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK", "").lower() != "true":
-        pin = latest_tahoe() or pin
+        latest = latest_tahoe()
+        if latest and _version(latest["version"]) >= _version(pin.get("version", "")):
+            pin = latest
     digest = hashlib.sha256((ROOT / "bootstrap.py").read_bytes())
     digest.update(json.dumps([pin, defaults], sort_keys=True).encode())
     files = local_files(source) if source else []
@@ -329,7 +336,7 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
         current = (root / "VERSION").read_text().strip()
     except OSError:
         return False
-    if not re.fullmatch(r"\d+\.\d+\.\d+", current):
+    if not re.fullmatch(r"\d+\.\d+(?:\.\d+|rc[1-9]\d*)", current):
         return False
     latest = latest_release(repository)
     try:
