@@ -8,9 +8,19 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
+  promotion:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/require-ci.yml
+    with:
+      repository: ${{ github.repository }}
+      sha: ${{ github.sha }}
+      branches: '["dev"]'
+
   test:
+    if: github.event_name != 'push' || github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

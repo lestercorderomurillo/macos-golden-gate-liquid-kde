@@ -162,7 +162,8 @@ the published Tahoe release, verify committed screenshots with
 existing reviewed images are retained. Publish through
 `.github/workflows/release.yml` against the immutable Tahoe pin.
 The release workflow requires successful `test.yml` push runs on both `main`
-and `dev` for the exact Golden Gate commit and the exact pinned Tahoe commit. Its shared CI gate is itself pinned
+and `dev` for the exact Golden Gate commit and the exact pinned Tahoe commit. Main promotion may reuse the latest successful dev push run only for the
+identical commit; missing or failed evidence blocks promotion. Its shared CI gate is itself pinned
 to an immutable Tahoe commit. Never bypass failed, cancelled, skipped or missing CI. Never bypass it with direct `gh release create`.
 The capture implementation belongs only in Tahoe; do not vendor it here.
 
