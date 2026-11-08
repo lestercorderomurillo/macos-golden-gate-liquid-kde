@@ -86,13 +86,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_4k-7c2d48668b00.png"><img src="src/screenshots/showcase_light_4k-7c2d48668b00.png" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_4k-71ede64044e7.png"><img src="src/screenshots/desktop_about_light_4k-71ede64044e7.png" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_2k-1e3a05b4e6ef.webp"><img src="src/screenshots/showcase_light_2k-1e3a05b4e6ef.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_2k-e712606fa4ed.webp"><img src="src/screenshots/desktop_about_light_2k-e712606fa4ed.webp" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_4k-701a6049495c.png"><img src="src/screenshots/showcase_dark_4k-701a6049495c.png" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_4k-c2d7820c3190.png"><img src="src/screenshots/desktop_about_dark_4k-c2d7820c3190.png" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_2k-a65d41125bcf.webp"><img src="src/screenshots/showcase_dark_2k-a65d41125bcf.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_2k-79de8e399619.webp"><img src="src/screenshots/desktop_about_dark_2k-79de8e399619.webp" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -102,8 +102,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-505aad1389c6.png" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-f6bbf2a74309.png" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-88f09d3022b8.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-371d0c8b44d2.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -113,9 +113,9 @@ Detached search, favorites and app categories with blurred glass and a dark uppe
 Glass refraction, hover zoom, notification badges and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-4e320be76ca6.png" alt="Glass Dock with ten pinned applications and light icons" width="840">
+  <img src="src/screenshots/dock_1_v1-83b4aed56083.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-0c1f85f5ce36.png" alt="The same Dock with dark icons" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-7b1af2def32b.webp" alt="The same Dock with dark icons" width="840">
 </p>
 
 <br>
@@ -125,8 +125,8 @@ Glass refraction, hover zoom, notification badges and auto-hide.
 Finder-style Nautilus in light and dark.
 
 <p align="center">
-  <img src="src/screenshots/finder_v1-fac6043adfca.png" alt="Finder-style Nautilus in light mode" width="415">
-  <img src="src/screenshots/finder_dark_v1-a280c6b05123.png" alt="Finder-style Nautilus in dark mode" width="415">
+  <img src="src/screenshots/finder_v1-a1c57f1cb18e.webp" alt="Finder-style Nautilus in light mode" width="415">
+  <img src="src/screenshots/finder_dark_v1-c2acfd494858.webp" alt="Finder-style Nautilus in dark mode" width="415">
 </p>
 
 <br>
@@ -136,8 +136,8 @@ Finder-style Nautilus in light and dark.
 System controls and global menus for compatible apps.
 
 <p align="center">
-  <img src="src/screenshots/menu_v1-fd5e35eb65ef.png" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-b4951d220573.png" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/menu_v1-a0073ea7e4e9.webp" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/menu_dark_v1-9237dbadfc7a.webp" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
@@ -147,8 +147,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-d784e36da175.png" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-0e10f8c998d4.png" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-2d1e590348f6.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-5cfcfa18f55e.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -158,8 +158,8 @@ Hardware, software and theme details in About This Computer.
 Translucent menus and popups with matching light and dark colors.
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-160d512d4707.png" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-e8009ad274cc.png" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/context_menu_v1-78062b45aac0.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/context_menu_dark_v1-09446f2382d7.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>
@@ -169,8 +169,8 @@ Translucent menus and popups with matching light and dark colors.
 Plymouth startup and shutdown theme with LUKS2 unlock support.
 
 <p align="center">
-  <img src="src/screenshots/boot_v1-f685ec98f1e4.png" alt="Plymouth startup splash with a progress bar" width="415">
-  <img src="src/screenshots/boot_shutdown_v1-abe6faef7c08.png" alt="Plymouth shutdown splash without a progress bar" width="415">
+  <img src="src/screenshots/boot_v1-1f628792b5bc.webp" alt="Plymouth startup splash with a progress bar" width="415">
+  <img src="src/screenshots/boot_shutdown_v1-7ef5590450a7.webp" alt="Plymouth shutdown splash without a progress bar" width="415">
 </p>
 
 <br>
@@ -383,7 +383,7 @@ Check support for your distribution, init system and Plasma version.
 <details>
 <summary><b>Distributions</b></summary>
 
-All 11 distributions in this table passed live VM qualification. Select a status badge for reviewed 4K screenshots and test results.
+All 11 distributions in this table passed live VM qualification. Select a status badge for reviewed screenshots and test results.
 
 | | Name | Status |
 |:--:|------|---------|

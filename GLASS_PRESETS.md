@@ -8,7 +8,7 @@ The Dock retains v0.62.0 optics in every view. These are independent community t
 
 | Light mode | Dark mode |
 | --- | --- |
-| ![Tahoe (Clear) light](src/screenshots/glass-tahoe-clear_v1-e36ce6e3c9f8.png) | ![Tahoe (Clear) dark](src/screenshots/glass-tahoe-clear_dark_v1-29cf405a2c28.png) |
+| ![Tahoe (Clear) light](src/screenshots/glass-tahoe-clear_v1-187c0bd9e875.webp) | ![Tahoe (Clear) dark](src/screenshots/glass-tahoe-clear_dark_v1-44b63afcc6fd.webp) |
 
 | Setting | Value |
 | --- | --- |
@@ -39,7 +39,7 @@ The Dock retains v0.62.0 optics in every view. These are independent community t
 
 | Light mode | Dark mode |
 | --- | --- |
-| ![Tahoe (Frosted) light](src/screenshots/glass-tahoe-frosted_v1-8574cb83a311.png) | ![Tahoe (Frosted) dark](src/screenshots/glass-tahoe-frosted_dark_v1-79a1bef2fbfb.png) |
+| ![Tahoe (Frosted) light](src/screenshots/glass-tahoe-frosted_v1-55c8c2e5cce9.webp) | ![Tahoe (Frosted) dark](src/screenshots/glass-tahoe-frosted_dark_v1-c6af8ae88e3b.webp) |
 
 | Setting | Value |
 | --- | --- |
@@ -70,7 +70,7 @@ The Dock retains v0.62.0 optics in every view. These are independent community t
 
 | Light mode | Dark mode |
 | --- | --- |
-| ![Golden Gate (Official) light](src/screenshots/glass-golden-gate-official_v1-7c2d48668b00.png) | ![Golden Gate (Official) dark](src/screenshots/glass-golden-gate-official_dark_v1-701a6049495c.png) |
+| ![Golden Gate (Official) light](src/screenshots/glass-golden-gate-official_v1-348e14852aaa.webp) | ![Golden Gate (Official) dark](src/screenshots/glass-golden-gate-official_dark_v1-6d73ccabdf4a.webp) |
 
 | Setting | Value |
 | --- | --- |
