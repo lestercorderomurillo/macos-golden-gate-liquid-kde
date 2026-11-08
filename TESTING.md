@@ -1,10 +1,11 @@
 # Installer testing
 
-Golden Gate **v0.63.7** adds optional macOS-style Dock icons while preserving
-real applications, pin order and the desktop icon theme. Four new Dock frames
-across both editions were reviewed in the pinned KDE neon VM; the other 102
-retain their original provenance. See [shared validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.7/tests/dock_appearance_validation.json)
-for focused checks, source identities and coverage limits. Publication requires
+Golden Gate **v0.64.0** applies the pictured Dock preset on first upgrade or reset,
+preserving pinned apps and their order; Firefox keeps its own artwork.
+Focused checks and migration checks in the pinned KDE neon VM passed.
+Four Dock frames were reviewed across both editions and modes; the other 102
+retain their original provenance. See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.64.0/tests/dock_064_validation.json)
+for commands, source identities and coverage limits. Publication requires
 successful exact-commit CI on both branches in both repositories.
 
 ## Installation steps

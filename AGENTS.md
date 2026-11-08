@@ -256,3 +256,9 @@ Defaults remain edition-specific (Tahoe Flat, Golden Gate Glassy), but an explic
 choice overrides the edition for Aurorae, GTK, global-theme defaults and the
 standalone switcher. Preserve the choice through light/dark transitions; new
 wizard launches still start from source-edition defaults.
+
+Express uses automatic Dock appearance. The first update to 0.64 applies Dock
+preset revision 3 even without layout reset; later reinstalls preserve removed
+pins and icon choices unless reset is selected. Keep existing pins in order,
+append only installed equivalents, and retain Firefox/browser names and artwork.
+The shared implementation and migration evidence belong in Tahoe.

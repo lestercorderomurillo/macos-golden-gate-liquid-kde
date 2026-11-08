@@ -107,14 +107,14 @@ Detached search, favorites and app categories with blurred glass and a dark uppe
 
 ### Acrylic Glass Golden Gate Dock
 
-Optional macOS-style Dock icons, available in **Desktop → Dock apps**. Your applications and pin order stay unchanged.
+Express applies the pictured Dock preset and icons. Firefox keeps its own icon; your pinned apps keep their order.
 
 Glass refraction, hover zoom, notification badges and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-acbc1c07b43f.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
+  <img src="src/screenshots/dock_1_v1-1c588ec21246.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-9ee15c9323d3.webp" alt="The same Dock with dark icons" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-c3f09f4a79e0.webp" alt="The same Dock with dark icons" width="840">
 </p>
 
 <br>
@@ -204,7 +204,7 @@ cd macos-golden-gate-liquid-kde
 ./installer
 ```
 
-Run `./installer` again to update. Uncheck **Reset Dock and panel customization** to keep your layout.
+Run `./installer` for Express installation or updates; uncheck **Reset Dock and panel customization** on later reinstalls to keep your changes.
 Run `./installer --free-space` to free storage while preserving `.git` and local work.
 
 Install and uninstall through one graphical wizard:
@@ -268,11 +268,6 @@ Choose **Flat** or **Glassy** window controls in the wizard, with close-up Nauti
 The default option is always first and selected. Opening the other edition starts
 with that repository's defaults, including its wallpaper and launcher. Choosing
 **Keep my icons**, **Keep my wallpaper** or **Keep my fonts** preserves those choices.
-
-**Reset Dock and panel customization** is checked by default. Reinstalling
-rebuilds the selected top bar and Dock while carrying pinned apps across.
-Uncheck it to preserve the current layout, sizes, autohide and widgets. A first
-installation creates the selected layout automatically.
 
 The Window shadows page compares **no, soft, medium or hard window shadows**
 with Nautilus screenshots. The choice applies to the theme's Aurorae
