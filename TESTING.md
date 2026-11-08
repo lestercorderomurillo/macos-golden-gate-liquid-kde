@@ -1,12 +1,11 @@
 # Installer testing
 
-Golden Gate **v0.63.5** stages the shared installed-equivalent Dock catalog and
-optional app selection. The prepared source passed 79 focused checks. Twelve
-affected Dock, Desktop-step and Summary frames across both editions were
-reviewed in the pinned KDE neon VM; 94 other frames retain original provenance.
-See [shared validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.5/tests/dock_apps_validation.json)
-for commands, source identities and package-installation coverage limits.
-Publication requires successful exact-commit CI on both branches in both repositories.
+Golden Gate **v0.63.7** adds optional macOS-style Dock icons while preserving
+real applications, pin order and the desktop icon theme. Four new Dock frames
+across both editions were reviewed in the pinned KDE neon VM; the other 102
+retain their original provenance. See [shared validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.7/tests/dock_appearance_validation.json)
+for focused checks, source identities and coverage limits. Publication requires
+successful exact-commit CI on both branches in both repositories.
 
 ## Installation steps
 
