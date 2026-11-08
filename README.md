@@ -39,7 +39,7 @@
 > Experimental. Desktop updates may break compatibility. Avoid production systems; [report issues here](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new).
 
 > [!NOTE]
-> **Coming in v0.63!**
+> **Coming in v0.64!**
 >
 > - Acrylic Glass rewrite
 > - New Control Center
