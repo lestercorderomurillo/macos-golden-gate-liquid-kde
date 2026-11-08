@@ -44,3 +44,19 @@ explicit alternative, with separate consent to add Flathub. A failed optional
 app leaves its category pending and does not abort the theme installation.
 Removing the theme keeps these applications. The implementation and catalog
 live exclusively in Tahoe; both editions use the same transaction choices.
+
+
+## Dock icon appearance
+
+In the custom installer, open **Desktop → Dock apps… → Dock appearance** and
+choose **macOS-style Dock icons**. This is separate from optional app installation:
+it uses installed Linux applications with consistent icons for Files, Browser,
+Mail, Calendar, Notes, Photos, Music, Video, App Store and System Settings.
+The tooltip retains the real application name. Other applications keep their
+normal icons; launchers and running windows retain the same application identity.
+
+**Keep current Dock icons** is the installer default and preserves each Dock's
+choice, including during a layout reset. **Application icons** turns the option
+off. It can also be toggled in the Dock widget's Appearance settings. Pins, their
+order and the global icon theme are preserved. The bundled artwork has light and
+dark variants and does not require changing the desktop icon theme.
