@@ -86,13 +86,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_2k-1e3a05b4e6ef.webp"><img src="src/screenshots/showcase_light_2k-1e3a05b4e6ef.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_2k-e712606fa4ed.webp"><img src="src/screenshots/desktop_about_light_2k-e712606fa4ed.webp" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_2k-fc9a997c2af7.webp"><img src="src/screenshots/showcase_light_2k-fc9a997c2af7.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_2k-e2c7dd8e545f.webp"><img src="src/screenshots/desktop_about_light_2k-e2c7dd8e545f.webp" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_2k-a65d41125bcf.webp"><img src="src/screenshots/showcase_dark_2k-a65d41125bcf.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_2k-79de8e399619.webp"><img src="src/screenshots/desktop_about_dark_2k-79de8e399619.webp" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_2k-67fa909cdf01.webp"><img src="src/screenshots/showcase_dark_2k-67fa909cdf01.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_2k-d3db98969ae4.webp"><img src="src/screenshots/desktop_about_dark_2k-d3db98969ae4.webp" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -102,8 +102,8 @@ The Golden Gate desktop in light and dark mode.
 Detached search, favorites and app categories with blurred glass and a dark upper gradient. [Material settings](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/glass-materials.md).
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-88f09d3022b8.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-371d0c8b44d2.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-be923478e9f6.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-387ffe89b446.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -113,9 +113,9 @@ Detached search, favorites and app categories with blurred glass and a dark uppe
 Glass refraction, hover zoom, notification badges and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-83b4aed56083.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
+  <img src="src/screenshots/dock_1_v1-adde3589ee88.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-7b1af2def32b.webp" alt="The same Dock with dark icons" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-7b1685870446.webp" alt="The same Dock with dark icons" width="840">
 </p>
 
 <br>
@@ -147,8 +147,8 @@ System controls and global menus for compatible apps.
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-2d1e590348f6.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-5cfcfa18f55e.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-e4537ccec627.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-368e0781d129.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>

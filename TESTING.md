@@ -1,14 +1,13 @@
 # Installer testing
 
-Golden Gate **v0.63.2** uses fixed Dock spacing: a 56 px center pitch on the
-default 68 px panel, preserving approximately 42 px visible icons. The old
-spacing selector and its saved overrides no longer affect the Dock.
+Golden Gate **v0.63.3** adds a ten-application base Dock, omits missing apps and
+preserves existing pins, including an intentionally empty Dock. Launcher lists
+use Plasma's native array format; new icon aliases retain the selected appearance.
 
-The shared implementation passed 20 Dock regressions and 7 task-manager/install
-regressions in a disposable KDE neon VM, with light/dark/light visual checks.
-See [detailed evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.2/tests/dock_spacing_validation.json)
-for commands and coverage limits. Release publication requires passing CI
-for the exact commits on main and dev in both repositories.
+Focused layout, icon generation and Golden Gate staging checks passed, with
+both editions verified through light/dark/light in a disposable KDE neon VM.
+See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.3/tests/dock_defaults_validation.json) for commands, source identity and coverage limits.
+Publication requires exact-commit CI on main and dev in both repositories.
 
 ## Installation steps
 
@@ -16,7 +15,7 @@ Scroll horizontally through the installation steps.
 
 <table>
 <tr>
-  <td align="center"><img src="src/screenshots/installer-welcome_v1-d7ca113e7443.webp" alt="Welcome" width="500"><br>Welcome</td>
+  <td align="center"><img src="src/screenshots/installer-welcome_v1-2eef653f309d.webp" alt="Welcome" width="500"><br>Welcome</td>
   <td align="center"><img src="src/screenshots/installer-appearance_v1-5e73ea5769b1.webp" alt="Appearance" width="500"><br>Appearance</td>
   <td align="center"><img src="src/screenshots/installer-icons_v1-5c39efb79c75.webp" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-304d0c6147a3.webp" alt="Wallpaper" width="500"><br>Wallpaper</td>
