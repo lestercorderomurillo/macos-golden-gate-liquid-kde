@@ -34,3 +34,13 @@ assets, recovery backups, arbitrary developer files, VMs and capture evidence
 remain. See [Tahoe's maintenance policy](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md#installer-storage-maintenance)
 for recovery, offline behavior and local opt-outs (`tahoe.maintenance compact`
 or `off`). Repacking needs temporary space; savings depend on retained history.
+
+## Optional Dock applications
+
+The shared custom installer offers **Dock apps** in the Desktop step. It reuses
+installed equivalents and installs only explicitly selected missing categories.
+Native packages come from existing distro repositories; per-user Flatpak is an
+explicit alternative, with separate consent to add Flathub. A failed optional
+app leaves its category pending and does not abort the theme installation.
+Removing the theme keeps these applications. The implementation and catalog
+live exclusively in Tahoe; both editions use the same transaction choices.

@@ -1,12 +1,12 @@
 # Installer testing
 
-Golden Gate **v0.63.4** uses the complete installed-app Dock preset on fresh installs
-and adds missing base apps once on upgrades, preserving user pins and later removals.
-Focused migration, edition-transition, translation and provenance checks passed.
-Four new Dock frames were reviewed in the pinned KDE neon VM; all 102 unrelated
-frames retain their original provenance. See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.4/tests/dock_migration_validation.json)
-for commands, source identities and coverage limits. Release workflows require
-successful exact-commit CI on both branches in both repositories.
+Golden Gate **v0.63.5** stages the shared installed-equivalent Dock catalog and
+optional app selection. The prepared source passed 79 focused checks. Twelve
+affected Dock, Desktop-step and Summary frames across both editions were
+reviewed in the pinned KDE neon VM; 94 other frames retain original provenance.
+See [shared validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.63.5/tests/dock_apps_validation.json)
+for commands, source identities and package-installation coverage limits.
+Publication requires successful exact-commit CI on both branches in both repositories.
 
 ## Installation steps
 
@@ -19,7 +19,7 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-icons_v1-5c39efb79c75.webp" alt="Icons and color" width="500"><br>Icons and color</td>
   <td align="center"><img src="src/screenshots/installer-wallpaper_v1-304d0c6147a3.webp" alt="Wallpaper" width="500"><br>Wallpaper</td>
   <td align="center"><img src="src/screenshots/installer-launcher_v1-977963829b7e.webp" alt="Launcher" width="500"><br>Launcher</td>
-  <td align="center"><img src="src/screenshots/installer-layout_v1-bbb0b4fa570f.webp" alt="Top bar and Dock" width="500"><br>Top bar and Dock</td>
+  <td align="center"><img src="src/screenshots/installer-layout_v1-cf121a13991a.webp" alt="Top bar and Dock" width="500"><br>Top bar and Dock</td>
   <td align="center"><img src="src/screenshots/installer-effects_v1-a9a6e8f18a5d.webp" alt="Effects" width="500"><br>Effects</td>
   <td align="center"><img src="src/screenshots/installer-window_controls_v1-d70c5487f84f.webp" alt="Flat or Glassy window controls" width="500"><br>Window controls</td>
   <td align="center"><img src="src/screenshots/installer-shadows_v1-18b5866f33f3.webp" alt="Window shadow comparison" width="500"><br>Window shadows</td>
@@ -29,6 +29,6 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-glass_style_v1-185745c76452.webp" alt="Window glass" width="500"><br>Window glass</td>
   <td align="center"><img src="src/screenshots/installer-boot_v1-125daf2a30c9.webp" alt="Boot animation" width="500"><br>Boot animation</td>
   <td align="center"><img src="src/screenshots/installer-oled_v1-28ace0a58506.webp" alt="OLED protection" width="500"><br>OLED protection</td>
-  <td align="center"><img src="src/screenshots/installer-summary_v1-ad9c473b2eee.webp" alt="Summary" width="500"><br>Summary</td>
+  <td align="center"><img src="src/screenshots/installer-summary_v1-628b8b82aa07.webp" alt="Summary" width="500"><br>Summary</td>
 </tr>
 </table>
