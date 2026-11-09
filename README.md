@@ -83,13 +83,13 @@ The desktop and its apps in light and dark mode.
 The Golden Gate desktop in light and dark mode.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_2k-fc9a997c2af7.webp"><img src="src/screenshots/showcase_light_2k-fc9a997c2af7.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_light_2k-e2c7dd8e545f.webp"><img src="src/screenshots/desktop_about_light_2k-e2c7dd8e545f.webp" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_2k-a21a0824f756.webp"><img src="src/screenshots/showcase_light_2k-a21a0824f756.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_light_2k-ad25915fb879.webp"><img src="src/screenshots/desktop_about_light_2k-ad25915fb879.webp" alt="Golden Gate light desktop with About This Computer focused" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/showcase_dark_2k-67fa909cdf01.webp"><img src="src/screenshots/showcase_dark_2k-67fa909cdf01.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/desktop_about_dark_2k-d3db98969ae4.webp"><img src="src/screenshots/desktop_about_dark_2k-d3db98969ae4.webp" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_2k-6ed724c0a3c2.webp"><img src="src/screenshots/showcase_dark_2k-6ed724c0a3c2.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/desktop_about_dark_2k-897963cba56c.webp"><img src="src/screenshots/desktop_about_dark_2k-897963cba56c.webp" alt="Golden Gate dark desktop with About This Computer focused" width="415"></a>
 </p>
 
 <br>
@@ -124,8 +124,8 @@ Glass refraction, hover zoom, notification badges and auto-hide.
 Finder-style Nautilus in light and dark.
 
 <p align="center">
-  <img src="src/screenshots/finder_v1-a1c57f1cb18e.webp" alt="Finder-style Nautilus in light mode" width="415">
-  <img src="src/screenshots/finder_dark_v1-c2acfd494858.webp" alt="Finder-style Nautilus in dark mode" width="415">
+  <img src="src/screenshots/finder_v1-692e0200e57e.webp" alt="Finder-style Nautilus in light mode" width="415">
+  <img src="src/screenshots/finder_dark_v1-b4c6c0e883c4.webp" alt="Finder-style Nautilus in dark mode" width="415">
 </p>
 
 <br>
@@ -146,8 +146,8 @@ System controls and global menus for compatible apps, with inset top-bar capsule
 Hardware, software and theme details in About This Computer.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-e4537ccec627.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-368e0781d129.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-88b98da8317f.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-5da07d9bfc5b.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
