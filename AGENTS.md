@@ -262,3 +262,18 @@ preset revision 3 even without layout reset; later reinstalls preserve removed
 pins and icon choices unless reset is selected. Keep existing pins in order,
 append only installed equivalents, and retain Firefox/browser names and artwork.
 The shared implementation and migration evidence belong in Tahoe.
+
+Maintain Tahoe's `component-hashes.json` with each component change using
+`python src/scripts/component_manifest.py --write`. Commit the ledger with the
+implementation; CI checks it against the sources. Hash components and individual
+plasmoids independently, including their installation recipe dependencies.
+Never use VERSION or a repository commit as a global reinstall key. Runtime
+reuse must compare actual staged content and relevant choices, detect missing
+or changed installed files, and record success only after completion. Keep
+explicit configuration changes and resets outside payload reuse. The shared
+implementation and ledger belong only in Tahoe.
+
+Installer Nautilus and Dolphin previews must show one focused application per
+frame. Check window identity, focus and settled geometry immediately before and
+after each photograph inside a disposable VM; reject interrupted captures.
+Use Tahoe's `release-screenshots file-previews` for these four light/dark frames.

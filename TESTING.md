@@ -1,12 +1,12 @@
 # Installer testing
 
-Golden Gate **v0.66.0** improves the existing global menu with exported application menus,
-common fallback actions and guarded shortcut dispatch, preserving the Apple menu and panel layout.
-Focused native checks cover menu updates, popup lifecycle, search and window changes.
-Four menu photographs cover both editions and modes; the other 102 retain their original provenance.
-See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.66.0/docs/topbar-integration.md)
-for commands, source identities and coverage limits. Publication requires successful exact-commit
-CI on both branches in both repositories.
+Golden Gate **v0.66.1** reuses identical component payloads and icon generation,
+and uses individually focused Nautilus/Dolphin previews in both appearance modes.
+Focused regressions cover source hashes, changed choices, missing files,
+native rebuild invalidation and capture focus. Four installer-file photographs
+are refreshed across the editions; unrelated photographs retain their provenance.
+See [validation evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.66.1/CONTRIBUTING.md#0661-validation-evidence).
+Publication requires successful exact-commit CI on both branches in both repositories.
 
 ## Installation steps
 
@@ -25,7 +25,7 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-shadows_v1-18b5866f33f3.webp" alt="Window shadow comparison" width="500"><br>Window shadows</td>
   <td align="center"><img src="src/screenshots/installer-fonts_v1-8e2cbdfba9cf.webp" alt="Fonts" width="500"><br>Fonts</td>
   <td align="center"><img src="src/screenshots/installer-firefox_v1-cf6e0028e6b4.webp" alt="Firefox" width="500"><br>Firefox</td>
-  <td align="center"><img src="src/screenshots/installer-files_v1-78741c27bb81.webp" alt="File manager" width="500"><br>File manager</td>
+  <td align="center"><img src="src/screenshots/installer-files_v1-2d08654ee384.webp" alt="File manager" width="500"><br>File manager</td>
   <td align="center"><img src="src/screenshots/installer-glass_style_v1-185745c76452.webp" alt="Window glass" width="500"><br>Window glass</td>
   <td align="center"><img src="src/screenshots/installer-boot_v1-125daf2a30c9.webp" alt="Boot animation" width="500"><br>Boot animation</td>
   <td align="center"><img src="src/screenshots/installer-oled_v1-28ace0a58506.webp" alt="OLED protection" width="500"><br>OLED protection</td>

@@ -76,3 +76,14 @@ removed pins and icon choices; explicit optional app requests can still add
 the requested roles. `keep`, `native` and `macos` are explicit icon overrides;
 `auto` applies the pictured icons only on initial migration or reset. Rebuilding
 retains the revision per screen. Failed script execution can retry.
+
+## Incremental installation
+
+Tahoe maintains independent content fingerprints for payloads and individual
+plasmoids, plus a receipt that avoids regenerating unchanged icons. Changes to
+source recipes, relevant choices or installed files invalidate the affected
+work. Configuration application and explicit resets still run as requested.
+Maintain the shared ledger with `python src/scripts/component_manifest.py --write`
+in Tahoe and commit it with component changes; Golden Gate stages that code
+without copying the implementation here. See [the shared evidence and coverage
+limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.66.1/CONTRIBUTING.md#0661-validation-evidence).
