@@ -24,7 +24,7 @@
       "detail": "Shared SystemMenuStyle symbols, shortcut alignment and selected-row contrast reviewed in both modes. Neutral backgrounds; not compositor material captures."
     }
   ],
-  "gallery_commit": "7eb459a1e5d1526ef083dcc66adbe1b83771fd76",
+  "gallery_commit": "a6bf56732b4e0d15f22ba15b4eab8a4f2c749959",
   "captures": [
     {
       "path": "src/screenshots/previews/about-buttons-dark-2e4c5cf8099c.png",
@@ -60,7 +60,7 @@
   "coverage_limits": [
     "Shared native popup/model/composition and system-menu style regressions pass; see pinned Tahoe release-evidence.json.",
     "Mac shortcut symbols correspond to Control+Meta+Q and Shift+Meta+Q within the open menu. KDE global bindings are unchanged.",
-    "Focused previews are native style probes in a disposable KDE neon VM; neutral backgrounds do not represent edition material rendering. Historical desktop/installer photographs retain their original provenance.",
+    "Focused previews are native style probes in a disposable KDE neon VM; neutral backgrounds do not represent edition material rendering. About and Finder README photographs were refreshed from v0.67.0; all other photographs retain their original provenance.",
     "Full remote distro CI is asynchronous. Prior real Wayland pointer-grab coverage limitation remains; popup-grab code is unchanged."
   ],
   "upstream": {
@@ -68,5 +68,23 @@
     "commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
     "sha256": "da987fbfba03306ba04947d99680acd270cf4c6b1195d204386415ef8d20eaf1",
     "version": "0.67.0"
+  },
+  "documentation_refresh": {
+    "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+    "source_version": "0.67.0",
+    "scope": "Four focused VM captures, About and Files in light/dark, exported as eight desktop/close-up images; showcase exports reuse the same Files captures. Other photographs and per-frame provenance preserved.",
+    "command": "python3 /tmp/readme-about-finder-067/capture.py (Tahoe release_capture Guest helpers); scoped _stage exports; visual review; changed-reference/hash checks; git diff --check",
+    "result": "passed",
+    "images": {
+      "finder_v1-692e0200e57e.webp": "692e0200e57e7210d17d80ca7ea272f0b5158c58ab17c59cdbbd1281649e329c",
+      "about_v1-88b98da8317f.webp": "88b98da8317f405621cf0afff845d479080fd448486172847dd7dcec527d852e",
+      "desktop_about_light_2k-ad25915fb879.webp": "ad25915fb8798c1f35d6e3f10ddc8e120a99d221aded6b3f2badfcf0628ae5ec",
+      "finder_dark_v1-b4c6c0e883c4.webp": "b4c6c0e883c43df72c29fd0fbd9fddee2d4aac899248565491a434782790814b",
+      "about_dark_v1-5da07d9bfc5b.webp": "5da07d9bfc5bebf2b92460f60462b32e7a85a973a87fcf558703afca118d7dbf",
+      "desktop_about_dark_2k-897963cba56c.webp": "897963cba56c8d0bbe0649c91d6ee95fccb06f81e17d17a727b8674f0f93d32c",
+      "showcase_light_2k-a21a0824f756.webp": "a21a0824f75608c44c00f6c52c1716e5ed96946797c9553069d38043a2204375",
+      "showcase_dark_2k-6ed724c0a3c2.webp": "6ed724c0a3c2c36dc83cc96575d3aeab5bb091003a2f3b3d704bda8193b895bc"
+    },
+    "limits": "Documentation-only refresh. No application code, VERSION or upstream pin changed; no runtime test suite or new release launched. About uses the standard mock-data preview harness."
   }
 }
