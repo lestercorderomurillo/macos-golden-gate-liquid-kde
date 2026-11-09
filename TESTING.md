@@ -1,10 +1,10 @@
 # Installer testing
 
-Golden Gate **v0.65.1** refines top-bar highlights and spacing using macOS Tahoe
-as a visual reference, with inset capsules, symmetric padding and clearer type hierarchy.
-Focused checks cover real QML geometry, long application names and three panel heights.
-Four menu photographs and four top-bar previews cover both editions and modes;
-102 unchanged photographs retain their original provenance. See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.65.1/tests/topbar_0651_validation.json)
+Golden Gate **v0.65.2** refines the system menu using macOS Golden Gate proportions:
+three reference symbols, regular typography, consistent rows and softer selection corners.
+Native checks cover two font sizes, three scales, keyboard navigation and style isolation.
+Four system-menu photographs cover both editions and modes in the pinned KDE neon VM;
+102 unchanged photographs retain their original provenance. See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.65.2/tests/system_menu_0652_validation.json)
 for commands, source identities and coverage limits. Publication requires successful
 exact-commit CI on both branches in both repositories.
 
