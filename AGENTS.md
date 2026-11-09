@@ -98,13 +98,17 @@ matrix just to obtain the same evidence sooner. Once the planned checks pass
 and coverage gaps are resolved, stop testing unless new changes invalidate
 that evidence.
 
-For implementation delivery, inspect required CI results for the exact commits
-on both branches. Earlier-commit evidence never substitutes for the exact-SHA
-release gate: publication requires successful `test.yml` push runs on `main`
-and `dev` for each repository's exact release commit. Never weaken workflows,
-skip required checks or treat missing,
-cancelled or failed checks as success to shorten a task. Screenshot provenance verification remains mandatory; new visual tests and
-captures follow the component-scoped, optional documentation capture policy.
+For implementation delivery, run focused local checks for the affected behavior,
+review component-scoped VM captures when needed, and record their exact source
+fingerprint in `release-evidence.json`. Publish the installable fix promptly after
+these checks pass. Full remote CI remains enabled and runs asynchronously on
+`dev`; `main` tracks that exact commit's CI without blocking publication.
+Do not wait for the full matrix or repeat the historical screenshot audit before
+telling the user the release can be installed. Clearly distinguish local checks,
+reviewed captures, published release and pending/passed/failed remote CI. Never
+call pending, cancelled, skipped or failed checks successful. Investigate later
+CI failures and deliver a corrective release when necessary. Preserve complete
+CI coverage; this policy changes publication ordering, not the test matrix.
 
 Documentation-only delivery does not require a version bump, pin update,
 release or new screenshots. Automatic push CI may still run; report its status
@@ -175,15 +179,14 @@ another test route.
 
 When new documentation captures are needed, use Tahoe's `./release-screenshots`
 with the pinned VM and capture profile. Stage this edition's reviewed images
-with `stage --edition golden-gate --destination <this-checkout>`. After pinning
-the published Tahoe release, verify committed screenshots with
-`--repo <this-checkout> verify --tahoe-repo <tahoe-checkout>`, including when
-existing reviewed images are retained. Publish through
-`.github/workflows/release.yml` against the immutable Tahoe pin.
-The release workflow requires successful `test.yml` push runs on both `main`
-and `dev` for the exact Golden Gate commit and the exact pinned Tahoe commit. Main promotion may reuse the latest successful dev push run only for the
-identical commit; missing or failed evidence blocks promotion. Its shared CI gate is itself pinned
-to an immutable Tahoe commit. Never bypass failed, cancelled, skipped or missing CI. Never bypass it with direct `gh release create`.
+with `stage --edition golden-gate --destination <this-checkout>` when refreshing
+that gallery. Focused previews may be published separately with reviewed source
+hashes. Retain unchanged galleries with original provenance and identify them as
+historical where appearance changed; do not relabel them as current captures.
+Publish through `.github/workflows/release.yml` after fast local-evidence and
+immutable pin/archive checks. Full remote CI runs asynchronously; it does not
+block publication or the user's installation. Never represent pending or failed
+CI as passed. Do not create releases outside the workflow.
 The capture implementation belongs only in Tahoe; do not vendor it here.
 
 The shared installer must record a verified uninstall wallpaper reset as

@@ -1,0 +1,55 @@
+{
+  "version": "0.66.2",
+  "source_sha256": "9d33e15aefd005a9e958f6987cc9b41476fa6b19a93749f97c659b2600ac5342",
+  "environment": "Linux-7.2.0-1-cachyos-x86_64-with-glibc2.44",
+  "checks": [
+    {
+      "command": "python -m pytest -q -p no:cacheprovider tests",
+      "result": "passed",
+      "detail": "97 passed"
+    },
+    {
+      "command": "python -m pytest -q -p no:cacheprovider tests/test_release_ci.py",
+      "result": "passed",
+      "detail": "1 passed after final workflow refinement"
+    },
+    {
+      "command": "QT_QPA_PLATFORM=offscreen python -m pytest -q -p no:cacheprovider tests/test_screenshots.py tests/test_traffic_lights.py (prepared Golden Gate source 04395f276740d5c0647f)",
+      "result": "passed",
+      "detail": "17 passed"
+    },
+    {
+      "command": "python /tmp/about-buttons-0662.py",
+      "result": "passed",
+      "detail": "Golden Gate light/dark focused VM frames reviewed; identity and focus verified"
+    }
+  ],
+  "gallery_commit": "7eb459a1e5d1526ef083dcc66adbe1b83771fd76",
+  "captures": [
+    {
+      "path": "src/screenshots/previews/about-buttons-dark-2e4c5cf8099c.png",
+      "sha256": "2e4c5cf8099c24ad03aa5b623b248615813a1a548d0ed9ce1e686acd13b0d840",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/about-buttons-light-23dd8b3e3837.png",
+      "sha256": "23dd8b3e3837786be027bdb5ef112bec0e1d802a4d0a97ac74299dbf3960b770",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/about-buttons-provenance.json",
+      "sha256": "f0b467c7ba81c3fafd775233cac5789081d55fb03f23c87c6b05142691fe50aa",
+      "reviewed": true
+    }
+  ],
+  "coverage_limits": [
+    "Full remote CI runs asynchronously; publication does not claim it passed.",
+    "Historical desktop and installer galleries retain original provenance; focused About previews show the corrected labels."
+  ],
+  "upstream": {
+    "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
+    "commit": "638510d26a451c05fd46ffea7ccb81c1b5edcb36",
+    "sha256": "6f537d861f3af71d54e1783379b6710b3cdb03913ce0a90a25aad533209a8818",
+    "version": "0.66.2"
+  }
+}

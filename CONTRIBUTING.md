@@ -87,3 +87,13 @@ Maintain the shared ledger with `python src/scripts/component_manifest.py --writ
 in Tahoe and commit it with component changes; Golden Gate stages that code
 without copying the implementation here. See [the shared evidence and coverage
 limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.66.1/CONTRIBUTING.md#0661-validation-evidence).
+
+## Publishing fixes
+
+Run focused local checks and review component-scoped VM captures. Record their
+source fingerprint, results and coverage limits in `release-evidence.json`, then
+publish through `release.yml`. It checks that evidence and the published immutable
+Tahoe pin/archive without waiting for full remote CI. Keep the complete remote
+suite enabled and report pending or failed results honestly; a published fix is
+available to install before full qualification finishes. Preserve historical
+gallery provenance and link new focused previews separately.

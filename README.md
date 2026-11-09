@@ -522,3 +522,5 @@ Independent reimplementation inspired by the macOS aesthetic, not affiliated wit
 
 
 [Installer screenshots and testing](TESTING.md).
+
+Desktop photographs retain their original capture provenance; see [current focused validation and historical gallery notes](TESTING.md).
