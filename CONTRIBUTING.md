@@ -104,3 +104,12 @@ through `dev` first. Markdown and documentation-image-only changes do not start
 the runtime matrix. Use command results as delivery evidence instead of repeated
 publication or branch lookups. Golden Gate validates the immutable Tahoe tag and
 archive once, without waiting for or querying the GitHub release page.
+
+## Agent navigation
+
+`python3 tools/repo_graph.py bootstrap.py --limit 10` lists inferred callers
+and relevant tests. Use `--repo ../macos-tahoe-liquid-kde` for shared code.
+The index reads tracked source locally and never changes files or contacts an
+AI service. Output is bounded by default; `--all` emits the full graph. Dynamic
+imports and native dependencies still require review. This is a navigation
+tool, not an automatic test-skipping gate.

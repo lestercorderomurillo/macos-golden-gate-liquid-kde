@@ -1,27 +1,17 @@
 {
-  "version": "0.66.2",
-  "source_sha256": "9d33e15aefd005a9e958f6987cc9b41476fa6b19a93749f97c659b2600ac5342",
+  "version": "0.66.3",
+  "source_sha256": "77c83501478dbe068e6fda1de029d8078bfbfb09e0b466c957eca4c51134ea01",
   "environment": "Linux-7.2.0-1-cachyos-x86_64-with-glibc2.44",
   "checks": [
     {
-      "command": "python -m pytest -q -p no:cacheprovider tests",
+      "command": "python3 -m pytest tests -q --tb=short",
       "result": "passed",
-      "detail": "97 passed"
+      "detail": "97 passed in 1.53s, including graph traversal, local staging, updater/fallback/checksum behavior."
     },
     {
-      "command": "python -m pytest -q -p no:cacheprovider tests/test_release_ci.py",
+      "command": "Immutable codeload archive SHA-256 and root VERSION comparison with upstream.json",
       "result": "passed",
-      "detail": "1 passed after final workflow refinement"
-    },
-    {
-      "command": "QT_QPA_PLATFORM=offscreen python -m pytest -q -p no:cacheprovider tests/test_screenshots.py tests/test_traffic_lights.py (prepared Golden Gate source 04395f276740d5c0647f)",
-      "result": "passed",
-      "detail": "17 passed"
-    },
-    {
-      "command": "python /tmp/about-buttons-0662.py",
-      "result": "passed",
-      "detail": "Golden Gate light/dark focused VM frames reviewed; identity and focus verified"
+      "detail": "Tahoe f5f0ea22; archive VERSION is 0.66.3."
     }
   ],
   "gallery_commit": "7eb459a1e5d1526ef083dcc66adbe1b83771fd76",
@@ -43,8 +33,10 @@
     }
   ],
   "coverage_limits": [
-    "Full remote CI runs asynchronously; publication does not claim it passed.",
-    "Historical desktop and installer galleries retain original provenance; focused About previews show the corrected labels."
+    "Full remote CI and release publication were submitted independently; no remote completion claimed.",
+    "Shared launcher was tested in Tahoe with both edition defaults, modes and presets (8 passed); shared compiler/cache tests passed (19).",
+    "No visual layout changes or new captures; historical galleries and v0.66.2 About previews retain original provenance.",
+    "Repository graph infers imports, local QML types and literal paths; it is not an exhaustive dependency or CI selection oracle."
   ],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
