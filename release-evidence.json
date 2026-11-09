@@ -1,22 +1,27 @@
 {
-  "version": "0.66.5",
-  "source_sha256": "1f7216c735d473de0a3647a324da98c7960039053299fdc84cd366f9ca919737",
+  "version": "0.67.0",
+  "source_sha256": "a2d06aa90730d6301477853b6f7c7ab7201ae60ed77834adaf53a7b987860b2d",
   "environment": "Linux-7.2.0-1-cachyos-x86_64-with-glibc2.44",
   "checks": [
     {
       "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_bootstrap.py tests/test_source_archive.py -q --tb=short -p no:cacheprovider",
       "result": "passed",
-      "detail": "41 passed; wrapper staging, release selection/fallback, version and checksum handling, and archive safety."
+      "detail": "41 passed; wrapper staging, release selection/fallback, version and checksum handling, and archive safety. Reused passing evidence: wrapper implementation, test cases and relevant inputs unchanged."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; compare staged menu implementation",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<checkout> MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; compare appmenuapplet.cpp and systemmenustyle.h",
       "result": "passed",
-      "detail": "Prepared menu C++, header and QML are byte-identical to tested Tahoe sources."
+      "detail": "Final staged icon and shortcut implementation is byte-identical to tested Tahoe."
     },
     {
-      "command": "Verify immutable codeload archive SHA-256, root VERSION, launcher_defaults.py, MacGoldenGate and menu source",
+      "command": "Verify immutable codeload archive SHA-256, root VERSION, launcher_defaults.py, MacGoldenGate and menu style",
       "result": "passed",
-      "detail": "Verified published commit 2603045931807f8a2e505f385a1f09033f46aac4; VERSION 0.66.5; SHA-256 36bdbbe6397a771065509329161304d6d65ac6e6235ef6008a9d3df313877200"
+      "detail": "Verified pushed commit 48aef6207aa995838dc9b24b4321bf03b0417ec2; VERSION 0.67.0; SHA-256 da987fbfba03306ba04947d99680acd270cf4c6b1195d204386415ef8d20eaf1"
+    },
+    {
+      "command": "Review disposable-VM light/dark menu symbol previews recorded in capture provenance",
+      "result": "passed",
+      "detail": "Shared SystemMenuStyle symbols, shortcut alignment and selected-row contrast reviewed in both modes. Neutral backgrounds; not compositor material captures."
     }
   ],
   "gallery_commit": "7eb459a1e5d1526ef083dcc66adbe1b83771fd76",
@@ -35,17 +40,33 @@
       "path": "src/screenshots/previews/about-buttons-provenance.json",
       "sha256": "f0b467c7ba81c3fafd775233cac5789081d55fb03f23c87c6b05142691fe50aa",
       "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/menu-symbols-067-light-a558e02129b0.png",
+      "sha256": "a558e02129b04d6759c9f6fee9431f8a04cc90e6584adfb2a48efb170ddc939f",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/menu-symbols-067-dark-35230bb0f200.png",
+      "sha256": "35230bb0f2002677e41c40436f63c437d0ee1675ccae33cb167fc9afe52be5a4",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/menu-symbols-067-provenance-534bface45c1.json",
+      "sha256": "534bface45c10f33b2e59a3e458a13b2eed896dd789a3dd9a80d539420430c9a",
+      "reviewed": true
     }
   ],
   "coverage_limits": [
-    "Shared native X11 popup/model/composition, installation and style regressions pass; see pinned Tahoe release-evidence.json.",
-    "Exploratory synthetic Wayland switching and composition checks passed, but asynchronous popup refresh failed without a real compositor input serial. Real Wayland pointer grabs remain unverified.",
-    "Full remote distro CI remains asynchronous. Original gallery and About previews retain their reviewed provenance; no new screenshots."
+    "Shared native popup/model/composition and system-menu style regressions pass; see pinned Tahoe release-evidence.json.",
+    "Mac shortcut symbols correspond to Control+Meta+Q and Shift+Meta+Q within the open menu. KDE global bindings are unchanged.",
+    "Focused previews are native style probes in a disposable KDE neon VM; neutral backgrounds do not represent edition material rendering. Historical desktop/installer photographs retain their original provenance.",
+    "Full remote distro CI is asynchronous. Prior real Wayland pointer-grab coverage limitation remains; popup-grab code is unchanged."
   ],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "2603045931807f8a2e505f385a1f09033f46aac4",
-    "sha256": "36bdbbe6397a771065509329161304d6d65ac6e6235ef6008a9d3df313877200",
-    "version": "0.66.5"
+    "commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+    "sha256": "da987fbfba03306ba04947d99680acd270cf4c6b1195d204386415ef8d20eaf1",
+    "version": "0.67.0"
   }
 }
