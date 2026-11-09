@@ -4582,238 +4582,6 @@
         "source_sha256": "77c4e8bf2bc68cafe3f70094492e3ba2226347bd4a52193a0290d1837ede54ed"
       }
     },
-    "menu_v1-9aa9c93fdd54.webp": {
-      "material_values": null,
-      "sha256": "9aa9c93fdd5460437380d103f7ba2db57840df04e1861930dc8508233379f4f7",
-      "appearance": {
-        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
-        "Plasma": "MacTahoeLiquidKde-Light",
-        "Qt": "MacTahoeLiquidKdeLight",
-        "Kvantum": "mac-tahoe-liquid-kde",
-        "GTK preference": "'prefer-light'",
-        "GTK theme": "'MacTahoeLiquidKde-Light'",
-        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
-        "Icons": "MacTahoeLiquidKde-Icons-Regular-Light"
-      },
-      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
-      "crop": [
-        0,
-        0,
-        608,
-        660
-      ],
-      "wallpaper": "MacGoldenGate",
-      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-      "launcher_preset": 2,
-      "windows": [
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 1080
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 32
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": true,
-          "active": false,
-          "geometry": {
-            "x": 644,
-            "y": 996,
-            "width": 632,
-            "height": 84
-          }
-        },
-        {
-          "caption": "Documents",
-          "resourceClass": "org.gnome.Nautilus",
-          "type": 0,
-          "appletPopup": false,
-          "hidden": false,
-          "active": true,
-          "geometry": {
-            "x": 220,
-            "y": 250,
-            "width": 1000,
-            "height": 620
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": -1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 2,
-            "y": 32,
-            "width": 288,
-            "height": 284
-          }
-        }
-      ],
-      "files_pixels": null,
-      "stable_frames": true,
-      "window_verified": true,
-      "installer_page": null,
-      "installer_edition": null,
-      "source_commit": "f5bffcc36d81b4be504910711d87393135d050d1",
-      "source_tree": "a640f74b747f9546364e4575a095b4cd7df6c13660248f6138c1654734a46ef7",
-      "source_version": "0.66.0",
-      "frame_name": "golden-gate-light-menu",
-      "source_release": "v0.66.0",
-      "export": {
-        "format": "webp",
-        "size": [
-          608,
-          660
-        ],
-        "quality": 92,
-        "max_edge": 2560,
-        "source_sha256": "7bdd460eeb772ec4e759321db1ef7a75143361fdec0e14fdcab7e261aa3e92da"
-      }
-    },
-    "menu_dark_v1-bdf1bba0e362.webp": {
-      "material_values": null,
-      "sha256": "bdf1bba0e362f8dc8ceb0a81c41830c1e39d3a7750a113353d2919bafe076789",
-      "appearance": {
-        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
-        "Plasma": "MacTahoeLiquidKde-Dark",
-        "Qt": "MacTahoeLiquidKdeDark",
-        "Kvantum": "mac-tahoe-liquid-kdeDark",
-        "GTK preference": "'prefer-dark'",
-        "GTK theme": "'MacTahoeLiquidKde-Dark'",
-        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
-        "Icons": "MacTahoeLiquidKde-Icons-Regular-Dark"
-      },
-      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
-      "crop": [
-        0,
-        0,
-        608,
-        660
-      ],
-      "wallpaper": "MacGoldenGate",
-      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-      "launcher_preset": 2,
-      "windows": [
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 1080
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 32
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": true,
-          "active": false,
-          "geometry": {
-            "x": 644,
-            "y": 996,
-            "width": 632,
-            "height": 84
-          }
-        },
-        {
-          "caption": "Documents",
-          "resourceClass": "org.gnome.Nautilus",
-          "type": 0,
-          "appletPopup": false,
-          "hidden": false,
-          "active": true,
-          "geometry": {
-            "x": 220,
-            "y": 250,
-            "width": 1000,
-            "height": 620
-          }
-        },
-        {
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": -1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 2,
-            "y": 32,
-            "width": 288,
-            "height": 284
-          }
-        }
-      ],
-      "files_pixels": null,
-      "stable_frames": true,
-      "window_verified": true,
-      "installer_page": null,
-      "installer_edition": null,
-      "source_commit": "f5bffcc36d81b4be504910711d87393135d050d1",
-      "source_tree": "a640f74b747f9546364e4575a095b4cd7df6c13660248f6138c1654734a46ef7",
-      "source_version": "0.66.0",
-      "frame_name": "golden-gate-dark-menu",
-      "source_release": "v0.66.0",
-      "export": {
-        "format": "webp",
-        "size": [
-          608,
-          660
-        ],
-        "quality": 92,
-        "max_edge": 2560,
-        "source_sha256": "697ffd50e47ad8a312894fc10c45adf4f082ab0c422a2d57da8c54fa74dd39fb"
-      }
-    },
     "installer-files_v1-2d08654ee384.webp": {
       "material_values": null,
       "sha256": "2d08654ee38421c8f952e3020bf1a4bfa0022cbb6494e44285c698aa37d6725e",
@@ -5945,10 +5713,252 @@
         "max_edge": 2560,
         "source_sha256": "ebe298acbe8574913c7f310537ab6d0d44616b9554af4bd75fb2f44f895c6db0"
       }
+    },
+    "menu_v1-9bd14a433b1d.webp": {
+      "material_values": null,
+      "sha256": "9bd14a433b1d6c2feb7a216a093527dcdf0e3e3c0ea86ac4f60b621d28a85f81",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "MacTahoeLiquidKde-Icons-Regular-Light"
+      },
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "crop": [
+        0,
+        0,
+        608,
+        660
+      ],
+      "wallpaper": "MacGoldenGate",
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "launcher_preset": 2,
+      "windows": [
+        {
+          "id": "{2d81f2cd-45b0-4b56-b24c-3eff1b142a31}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{c4ad6f40-f3d1-4900-9d5a-24491caa54ab}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{79359275-6bf1-4197-94f9-4ec1aa05b8b4}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{e7720aab-541c-414b-b0bb-7b4e1b7bea1e}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 460,
+            "y": 250,
+            "width": 1000,
+            "height": 620
+          }
+        },
+        {
+          "id": "{a4f8cb53-6f46-41b9-a84c-8263f250d6d4}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": -1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 2,
+            "y": 32,
+            "width": 288,
+            "height": 284
+          }
+        }
+      ],
+      "files_pixels": null,
+      "stable_frames": true,
+      "window_verified": true,
+      "installer_page": null,
+      "installer_edition": null,
+      "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+      "source_tree": "1b77b2dd5e652ad314f6528d675cb18f376f159d9b6abd7bff3c76680a4e6346",
+      "source_version": "0.67.0",
+      "frame_name": "golden-gate-light-menu",
+      "source_release": "v0.67.0",
+      "export": {
+        "format": "webp",
+        "size": [
+          608,
+          660
+        ],
+        "quality": 92,
+        "max_edge": 2560,
+        "source_sha256": "bd2ceec5f7ff216d1d3a9167764cf4e00dcbb963d7b85d96a008349fa58e9e93"
+      }
+    },
+    "menu_dark_v1-08db014716a6.webp": {
+      "material_values": null,
+      "sha256": "08db014716a6c53eec45f4762136134e311931ffac00f65ec36277db55e4010a",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "MacTahoeLiquidKde-Icons-Regular-Dark"
+      },
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "crop": [
+        0,
+        0,
+        608,
+        660
+      ],
+      "wallpaper": "MacGoldenGate",
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "launcher_preset": 2,
+      "windows": [
+        {
+          "id": "{d20b15c4-fe8e-4a4e-ae35-296759ec6b68}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{1d83e8a7-32c2-4e89-a5cc-c0f28cfd7b53}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{45bfc7ab-3ceb-42fd-8b9d-ec9bb6f7ce61}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{b2e65d26-a1b6-405b-a9f2-22e51c489930}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 460,
+            "y": 250,
+            "width": 1000,
+            "height": 620
+          }
+        },
+        {
+          "id": "{b6784936-70ae-470d-9b2e-0f7c00163863}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": -1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 2,
+            "y": 32,
+            "width": 288,
+            "height": 284
+          }
+        }
+      ],
+      "files_pixels": null,
+      "stable_frames": true,
+      "window_verified": true,
+      "installer_page": null,
+      "installer_edition": null,
+      "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+      "source_tree": "1b77b2dd5e652ad314f6528d675cb18f376f159d9b6abd7bff3c76680a4e6346",
+      "source_version": "0.67.0",
+      "frame_name": "golden-gate-dark-menu",
+      "source_release": "v0.67.0",
+      "export": {
+        "format": "webp",
+        "size": [
+          608,
+          660
+        ],
+        "quality": 92,
+        "max_edge": 2560,
+        "source_sha256": "f862c71cd4e5d2a504bf94ac4c3ed884926da3ad3ea4e88902cae9ff5d712e0d"
+      }
     }
   },
   "review": {
-    "manifest_sha256": "1f75f402966adc8f1a64ca29709eca3441862bfe24e57cea4ae9be2093e63f43",
+    "manifest_sha256": "c1d9c4c0f6ecd1c79f211bba6e0b448fde36e0919c4f56e324452083ae4f8642",
     "approved": {
       "tahoe-light-launcher": "451eb29811edcae22b9cd02a4f71e97252cbb827d4615894523eef0112e61b7c",
       "tahoe-light-finder": "0e151d7ea3fbeb45cd116b1bab88ab8d0c0a8f9b737302643ba00ae55970ddf2",
@@ -6050,8 +6060,8 @@
       "golden-gate-dark-context": "77c4e8bf2bc68cafe3f70094492e3ba2226347bd4a52193a0290d1837ede54ed",
       "tahoe-light-menu": "ff2af62c90aa918ed14e68c0179a3cc4988b123b57783bd96231477544a535bd",
       "tahoe-dark-menu": "620e3ead39835c3f68528fcb4c9cdb4a0ec06d1ed93bd0a6f55ba2263bbabbf2",
-      "golden-gate-light-menu": "7bdd460eeb772ec4e759321db1ef7a75143361fdec0e14fdcab7e261aa3e92da",
-      "golden-gate-dark-menu": "697ffd50e47ad8a312894fc10c45adf4f082ab0c422a2d57da8c54fa74dd39fb",
+      "golden-gate-light-menu": "bd2ceec5f7ff216d1d3a9167764cf4e00dcbb963d7b85d96a008349fa58e9e93",
+      "golden-gate-dark-menu": "f862c71cd4e5d2a504bf94ac4c3ed884926da3ad3ea4e88902cae9ff5d712e0d",
       "tahoe-light-installer-files": "295ec13e5fd2a3d0e7c9eff73465c953f1de9158394d2dd281febea14d2f146f",
       "tahoe-dark-installer-files": "fd2cee3d23c4ca5ed452e64b81556ec5dcd3553950557258f5f4d34e301d16c5",
       "golden-gate-light-installer-files": "a6a6a99658896fa3f85e46050a3de7b28e4ef38e8c98b56a598f8b465c7f5bc6",
@@ -15597,7 +15607,7 @@
       },
       "golden-gate-light-menu": {
         "material_values": null,
-        "sha256": "7bdd460eeb772ec4e759321db1ef7a75143361fdec0e14fdcab7e261aa3e92da",
+        "sha256": "bd2ceec5f7ff216d1d3a9167764cf4e00dcbb963d7b85d96a008349fa58e9e93",
         "appearance": {
           "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
           "Plasma": "MacTahoeLiquidKde-Light",
@@ -15620,6 +15630,7 @@
         "launcher_preset": 2,
         "windows": [
           {
+            "id": "{2d81f2cd-45b0-4b56-b24c-3eff1b142a31}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 1,
@@ -15634,6 +15645,7 @@
             }
           },
           {
+            "id": "{c4ad6f40-f3d1-4900-9d5a-24491caa54ab}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 2,
@@ -15648,6 +15660,7 @@
             }
           },
           {
+            "id": "{79359275-6bf1-4197-94f9-4ec1aa05b8b4}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 2,
@@ -15662,6 +15675,7 @@
             }
           },
           {
+            "id": "{e7720aab-541c-414b-b0bb-7b4e1b7bea1e}",
             "caption": "Documents",
             "resourceClass": "org.gnome.Nautilus",
             "type": 0,
@@ -15669,13 +15683,14 @@
             "hidden": false,
             "active": true,
             "geometry": {
-              "x": 220,
+              "x": 460,
               "y": 250,
               "width": 1000,
               "height": 620
             }
           },
           {
+            "id": "{a4f8cb53-6f46-41b9-a84c-8263f250d6d4}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": -1,
@@ -15695,13 +15710,13 @@
         "window_verified": true,
         "installer_page": null,
         "installer_edition": null,
-        "source_commit": "f5bffcc36d81b4be504910711d87393135d050d1",
-        "source_tree": "a640f74b747f9546364e4575a095b4cd7df6c13660248f6138c1654734a46ef7",
-        "source_version": "0.66.0"
+        "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+        "source_tree": "1b77b2dd5e652ad314f6528d675cb18f376f159d9b6abd7bff3c76680a4e6346",
+        "source_version": "0.67.0"
       },
       "golden-gate-dark-menu": {
         "material_values": null,
-        "sha256": "697ffd50e47ad8a312894fc10c45adf4f082ab0c422a2d57da8c54fa74dd39fb",
+        "sha256": "f862c71cd4e5d2a504bf94ac4c3ed884926da3ad3ea4e88902cae9ff5d712e0d",
         "appearance": {
           "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
           "Plasma": "MacTahoeLiquidKde-Dark",
@@ -15724,6 +15739,7 @@
         "launcher_preset": 2,
         "windows": [
           {
+            "id": "{d20b15c4-fe8e-4a4e-ae35-296759ec6b68}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 1,
@@ -15738,6 +15754,7 @@
             }
           },
           {
+            "id": "{1d83e8a7-32c2-4e89-a5cc-c0f28cfd7b53}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 2,
@@ -15752,6 +15769,7 @@
             }
           },
           {
+            "id": "{45bfc7ab-3ceb-42fd-8b9d-ec9bb6f7ce61}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": 2,
@@ -15766,6 +15784,7 @@
             }
           },
           {
+            "id": "{b2e65d26-a1b6-405b-a9f2-22e51c489930}",
             "caption": "Documents",
             "resourceClass": "org.gnome.Nautilus",
             "type": 0,
@@ -15773,13 +15792,14 @@
             "hidden": false,
             "active": true,
             "geometry": {
-              "x": 220,
+              "x": 460,
               "y": 250,
               "width": 1000,
               "height": 620
             }
           },
           {
+            "id": "{b6784936-70ae-470d-9b2e-0f7c00163863}",
             "caption": "",
             "resourceClass": "plasmashell",
             "type": -1,
@@ -15799,9 +15819,9 @@
         "window_verified": true,
         "installer_page": null,
         "installer_edition": null,
-        "source_commit": "f5bffcc36d81b4be504910711d87393135d050d1",
-        "source_tree": "a640f74b747f9546364e4575a095b4cd7df6c13660248f6138c1654734a46ef7",
-        "source_version": "0.66.0"
+        "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+        "source_tree": "1b77b2dd5e652ad314f6528d675cb18f376f159d9b6abd7bff3c76680a4e6346",
+        "source_version": "0.67.0"
       },
       "tahoe-light-installer-files": {
         "material_values": null,
@@ -16224,6 +16244,29 @@
       },
       "previous_review_manifest_sha256": "fcd5061d05da798fb799d6169745f2135738f5bfcbbf1855006417622f9c67fd",
       "scope": "Four focused VM captures, About and Files in light/dark, exported as eight desktop/close-up images; showcase exports reuse the same Files captures. Other photographs and per-frame provenance preserved."
+    },
+    {
+      "source_commit": "48aef6207aa995838dc9b24b4321bf03b0417ec2",
+      "source_version": "0.67.0",
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "vm_image_sha256": "412e7933f10add20b921b92c02709e7eea56acd14dc14cf654f58fba4ea3cc9d",
+      "frames": [
+        "golden-gate-light-menu",
+        "golden-gate-dark-menu"
+      ],
+      "reviewed_images": {
+        "menu_v1-9bd14a433b1d.webp": "9bd14a433b1d6c2feb7a216a093527dcdf0e3e3c0ea86ac4f60b621d28a85f81",
+        "menu_dark_v1-08db014716a6.webp": "08db014716a6c53eec45f4762136134e311931ffac00f65ec36277db55e4010a"
+      },
+      "previous_review_manifest_sha256": "1f75f402966adc8f1a64ca29709eca3441862bfe24e57cea4ae9be2093e63f43",
+      "scope": "Focused light/dark Apple menu captures. Top-bar crops are recorded separately under previews. Other images retain original provenance."
+    }
+  ],
+  "component_previews": [
+    {
+      "scope": "Top bar in light and dark mode",
+      "provenance": "src/screenshots/previews/topbar-067-provenance-1d737d941b36.json",
+      "sha256": "1d737d941b36d81e4d2ec164824fbb981be113bf4c9826ce969ab50878d277aa"
     }
   ]
 }

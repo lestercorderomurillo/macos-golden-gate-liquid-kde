@@ -8,7 +8,7 @@ for scope and coverage limits.
 Native symbol previews (neutral backgrounds, not material captures):
 [Light](src/screenshots/previews/menu-symbols-067-light-a558e02129b0.png) · [Dark](src/screenshots/previews/menu-symbols-067-dark-35230bb0f200.png) · [Provenance](src/screenshots/previews/menu-symbols-067-provenance-534bface45c1.json)
 
-The README About and Finder photographs were refreshed from v0.67.0 in a
+The README About, Finder, top bar and Apple menu photographs were refreshed from v0.67.0 in a
 disposable VM. Other desktop images and the installer gallery retain their original
 reviewed provenance ([capture records](src/screenshots/release-capture.json)). The retained v0.66.2 About previews show the corrected labels
 in both modes ([provenance](src/screenshots/previews/about-buttons-provenance.json)).
