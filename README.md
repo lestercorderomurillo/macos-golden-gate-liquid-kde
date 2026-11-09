@@ -132,13 +132,6 @@ Finder-style Nautilus in light and dark.
 
 ### Acrylic Glass Golden Gate Menu
 
-System controls and global menus for compatible apps, with inset top-bar capsules and a macOS-inspired system menu with Golden Gate symbols and balanced typography.
-
-<p align="center">
-  <img src="src/screenshots/previews/topbar-067-light-84e3bf775c6a.webp" alt="Top bar in light mode" width="415">
-  <img src="src/screenshots/previews/topbar-067-dark-4a83b7fa07c0.webp" alt="Top bar in dark mode" width="415">
-</p>
-
 <p align="center">
   <img src="src/screenshots/menu_v1-9bd14a433b1d.webp" alt="System menu in light mode" width="415">
   <img src="src/screenshots/menu_dark_v1-08db014716a6.webp" alt="System menu in dark mode" width="415">
