@@ -132,11 +132,11 @@ Finder-style Nautilus in light and dark.
 
 ### Acrylic Glass Golden Gate Menu
 
-System controls and global menus for compatible apps.
+System controls and global menus for compatible apps, with capsule-shaped hover and selection highlights.
 
 <p align="center">
-  <img src="src/screenshots/menu_v1-a0073ea7e4e9.webp" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-9237dbadfc7a.webp" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/menu_v1-b74973e04968.webp" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/menu_dark_v1-c92e36fb017c.webp" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
@@ -157,8 +157,8 @@ Hardware, software and theme details in About This Computer.
 Translucent menus and popups with matching light and dark colors.
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-78062b45aac0.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-09446f2382d7.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/context_menu_v1-4d88b56a0078.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/context_menu_dark_v1-8dffa78b5d49.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>

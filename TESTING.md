@@ -1,12 +1,13 @@
 # Installer testing
 
-Golden Gate **v0.64.0** applies the pictured Dock preset on first upgrade or reset,
-preserving pinned apps and their order; Firefox keeps its own artwork.
-Focused checks and migration checks in the pinned KDE neon VM passed.
-Four Dock frames were reviewed across both editions and modes; the other 102
-retain their original provenance. See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.64.0/tests/dock_064_validation.json)
-for commands, source identities and coverage limits. Publication requires
-successful exact-commit CI on both branches in both repositories.
+Golden Gate **v0.65.0** uses semicircular capsule highlights for top-bar buttons
+and native menu selections, preserving row sizes and text margins.
+Focused rendering checks cover both modes, three scales and three font sizes.
+Eight menu photographs and four top-bar previews cover both editions in the
+pinned KDE neon VM; 98 unchanged photographs retain their original provenance.
+See [validation evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.65.0/tests/menu_065_validation.json) for commands, source identities
+and coverage limits. Publication requires successful exact-commit CI on both
+branches in both repositories.
 
 ## Installation steps
 
