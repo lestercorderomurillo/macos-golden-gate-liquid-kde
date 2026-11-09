@@ -97,3 +97,10 @@ Tahoe pin/archive without waiting for full remote CI. Keep the complete remote
 suite enabled and report pending or failed results honestly; a published fix is
 available to install before full qualification finishes. Preserve historical
 gallery provenance and link new focused previews separately.
+
+Runtime CI runs on `dev`, pull requests and manual dispatch. Promote the same
+commit to `main` without a second suite or a polling job; send runtime changes
+through `dev` first. Markdown and documentation-image-only changes do not start
+the runtime matrix. Use command results as delivery evidence instead of repeated
+publication or branch lookups. Golden Gate validates the immutable Tahoe tag and
+archive once, without waiting for or querying the GitHub release page.

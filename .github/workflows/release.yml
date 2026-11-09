@@ -7,68 +7,43 @@ on:
 
 permissions:
   contents: write
-  actions: read
 
 concurrency:
   group: release-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  source:
+  publish:
     runs-on: ubuntu-latest
-    outputs:
-      commit: ${{ steps.pin.outputs.commit }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - name: Read immutable Tahoe pin
         id: pin
         run: |
-          python3 - <<'PY'
+          python3 - <<'PYCODE'
           import json, os, re
           pin = json.load(open('upstream.json'))
           assert pin['repository'] == 'lestercorderomurillo/macos-tahoe-liquid-kde'
           assert re.fullmatch('[a-f0-9]{40}', pin['commit'])
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
               output.write('commit=' + pin['commit'] + '\n')
-          PY
-
-  publish:
-    needs: source
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
+          PYCODE
       - uses: actions/checkout@v5
         with:
           repository: lestercorderomurillo/macos-tahoe-liquid-kde
-          ref: ${{ needs.source.outputs.commit }}
+          ref: ${{ steps.pin.outputs.commit }}
           fetch-depth: 0
           path: tahoe
-      - name: Wait for published Tahoe release and verify archive
-        timeout-minutes: 60
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Check immutable Tahoe tag and archive
+        timeout-minutes: 5
         run: |
           python3 - <<'PYCODE'
-          import hashlib, json, pathlib, re, subprocess, time, urllib.request
+          import hashlib, json, pathlib, subprocess, urllib.request
           pin = json.loads(pathlib.Path('upstream.json').read_text())
           version = pathlib.Path('VERSION').read_text().strip()
           tag = 'v' + version
-          for attempt in range(120):
-              result = subprocess.run(
-                  ['gh', 'release', 'view', tag, '--repo', pin['repository'],
-                   '--json', 'isDraft,isPrerelease,tagName,publishedAt'],
-                  capture_output=True, text=True)
-              if result.returncode == 0:
-                  release = json.loads(result.stdout)
-                  if (not release['isDraft'] and release['isPrerelease'] == bool(re.search(r'rc\.?[0-9]+$', version))
-                          and release['tagName'] == tag and release['publishedAt']):
-                      break
-              print('Waiting for published Tahoe ' + tag, flush=True)
-              time.sleep(30)
-          else:
-              raise SystemExit('Tahoe release was not published; refusing Golden Gate publication')
           tagged = subprocess.check_output(
               ['git', '-C', 'tahoe', 'rev-parse', tag + '^{commit}'], text=True).strip()
           assert tagged == pin['commit'], 'Tahoe release tag does not match immutable pin'
