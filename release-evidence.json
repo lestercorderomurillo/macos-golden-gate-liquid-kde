@@ -1,17 +1,22 @@
 {
-  "version": "0.66.4",
-  "source_sha256": "d8e940efd833ec2ed808a1cd4635e12e8235b3a0b84a66a21edbef8985de0ca8",
+  "version": "0.66.5",
+  "source_sha256": "1f7216c735d473de0a3647a324da98c7960039053299fdc84cd366f9ca919737",
   "environment": "Linux-7.2.0-1-cachyos-x86_64-with-glibc2.44",
   "checks": [
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests -q --tb=short -p no:cacheprovider",
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_bootstrap.py tests/test_source_archive.py -q --tb=short -p no:cacheprovider",
       "result": "passed",
-      "detail": "97 passed; wrapper, local staging, updater, fallback, checksum and repository tooling regressions. Wrapper code unchanged after this run."
+      "detail": "41 passed; wrapper staging, release selection/fallback, version and checksum handling, and archive safety."
     },
     {
-      "command": "Immutable codeload archive SHA-256, root VERSION, launcher_defaults.py, native build module and MacGoldenGate checks",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; compare staged menu implementation",
       "result": "passed",
-      "detail": "Verified archive for Tahoe 7cd7c107885cd23a4aa5d9da55c79007f79b6e6b; VERSION 0.66.4."
+      "detail": "Prepared menu C++, header and QML are byte-identical to tested Tahoe sources."
+    },
+    {
+      "command": "Verify immutable codeload archive SHA-256, root VERSION, launcher_defaults.py, MacGoldenGate and menu source",
+      "result": "passed",
+      "detail": "Verified published commit 2603045931807f8a2e505f385a1f09033f46aac4; VERSION 0.66.5; SHA-256 36bdbbe6397a771065509329161304d6d65ac6e6235ef6008a9d3df313877200"
     }
   ],
   "gallery_commit": "7eb459a1e5d1526ef083dcc66adbe1b83771fd76",
@@ -33,15 +38,14 @@
     }
   ],
   "coverage_limits": [
-    "Shared Tahoe focused validation: 107 passed and two optional Rounded Corners archive/SDK cases skipped; see pinned Tahoe release-evidence.json.",
-    "No edition-dependent executable staging or appearance changes; no new captures. Original gallery and About preview provenance retained.",
-    "Migration changes the icon receipt once. Subsequent native compilation-only changes no longer invalidate icon reuse.",
-    "Release workflows submitted; full remote CI asynchronous. No remote success claimed."
+    "Shared native X11 popup/model/composition, installation and style regressions pass; see pinned Tahoe release-evidence.json.",
+    "Exploratory synthetic Wayland switching and composition checks passed, but asynchronous popup refresh failed without a real compositor input serial. Real Wayland pointer grabs remain unverified.",
+    "Full remote distro CI remains asynchronous. Original gallery and About previews retain their reviewed provenance; no new screenshots."
   ],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "7cd7c107885cd23a4aa5d9da55c79007f79b6e6b",
-    "sha256": "7563958a0846c921ae76e8a8e63547087cba599937f4046dccd19fe59a1f1b8a",
-    "version": "0.66.4"
+    "commit": "2603045931807f8a2e505f385a1f09033f46aac4",
+    "sha256": "36bdbbe6397a771065509329161304d6d65ac6e6235ef6008a9d3df313877200",
+    "version": "0.66.5"
   }
 }
