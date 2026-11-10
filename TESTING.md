@@ -1,7 +1,7 @@
 # Installer testing
 
-Golden Gate **v0.67.2** adds centered hover zoom to Launcher and Trash and reduces
-Dock enlargement by 10% (the default grows icons by 9% instead of 10%).
+Golden Gate **v0.67.5** uses the qualified Wobbly Windows glass fix, including
+legacy X11 properties, output coordinates and client blur regions.
 See [release evidence](release-evidence.json) for focused checks and coverage limits;
 full remote CI runs asynchronously.
 
