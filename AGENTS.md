@@ -434,3 +434,12 @@ Installer Nautilus and Dolphin previews must show one focused application per
 frame. Check window identity, focus and settled geometry immediately before and
 after each photograph inside a disposable VM; reject interrupted captures.
 Use Tahoe's `release-screenshots file-previews` for these four light/dark frames.
+
+Menu appearance comparisons use real screenshots of the corresponding macOS
+edition, aligned at the same display scale and blended at 50/50 opacity.
+Do not use a Tahoe photograph as Golden Gate evidence or vice versa. Installer
+source defaults remain Tahoe with launcher preset 1 and Golden Gate with
+preset 2; explicit per-step choices still override their own setting. Native
+menu selections use the measured 8px corners, while edition materials remain
+independent of the launcher preset. Record any remaining geometry differences
+instead of claiming a pixel-identical match.
