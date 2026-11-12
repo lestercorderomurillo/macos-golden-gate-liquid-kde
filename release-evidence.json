@@ -1,6 +1,6 @@
 {
   "version": "0.69.0",
-  "source_sha256": "24f1055acc2727602c2daef69d0e221a1839041bfa1ea6386a12c5cad5bf4513",
+  "source_sha256": "a401d7bf7b2b87e250c302dfcb69c2c06db6683bfe2f87deefb3b2b18230a543",
   "environment": "Final source 6f515f188b86db6ee6f997eedee0c669c4c02a36: original Apple vector contours from the bundled SF Pro Display Regular font. Native Arch SDK/X11 private-bus popup tests; separate disposable KDE neon Plasma/KWin 6.8.1 / Qt 6.11.1 Wayland guests for Tahoe and Golden Gate.",
   "checks": [
     {
@@ -37,6 +37,11 @@
       "command": "./release-screenshots capture --ref 6f515f188b86db6ee6f997eedee0c669c4c02a36 --vm-image build/dock-defaults-neon-base.qcow2 --output /tmp/s69-original-readme --only-system-menu; ./release-screenshots review --ref HEAD --bundle /tmp/s69-original-readme --approve tahoe-light-menu tahoe-dark-menu golden-gate-light-menu golden-gate-dark-menu",
       "result": "passed",
       "detail": "Four reviewed live system-menu frames in two separate checksum-verified disposable guests. Both install and reinstall succeeded, package inventory remained pinned, appearance/wallpaper/Launcher preset and settled 4K frames were verified. Tahoe shows symbols on all nine actions; Golden Gate shows only the first three. App Store drawing is unchanged. Other 54 gallery images in each repository retain their original records and bytes."
+    },
+    {
+      "command": "python3 - (download immutable Tahoe archive; inspect VERSION, original-symbol sources, switcher, component ledger and authorization policy; compute SHA-256)",
+      "result": "passed",
+      "detail": "Verified immutable Tahoe commit c60ea90295c99b02ba70567bdf66aea96c50ca0b and its archive SHA-256 56570c04d2b4aadafa22496d4c6b27f7e1bdee86a7b144c496dc807511da80ec before pinning Golden Gate v0.69.0."
     }
   ],
   "gallery_commit": "755e4cec042c25a0804501274d7b34692fdbfea1",
@@ -73,17 +78,6 @@
     "Only system-menu icons, edition preset selection and the requested README menu photos changed. Existing App Store artwork and unrelated desktop photos were preserved. Recent Items remains absent; no new menu action was added.",
     "Original contours are copied from the bundled Apple font; palette, text labels, menu widths and backdrop rendering still belong to KDE. These captures do not claim that the complete KDE desktop is pixel-identical to macOS.",
     "No KWin effect, shader or private ABI implementation changed. Arch native X11 tests and the two real Wayland guests cover the relevant menu behavior. The full remote distro matrix remains enabled and asynchronous, not counted as passed.",
-    "The first hand-drawn symbol prototype/captures were superseded after the user explicitly requested original Apple contours. Only the final 6f515f1 captures were accepted. Local capture artifacts and exact source archive are retained under ignored build/system-menu-069/.",
-    "Golden Gate publication is pending the authorized Tahoe v0.69.0 release, followed by verification and replacement of the immutable upstream pin. No passing pin/archive check is claimed for v0.69.0 yet."
-  ],
-  "upstream_pin_pending": {
-    "reason": "Automatic publication approval review has not authorized v0.69.0. Keep the existing published fallback until the new immutable Tahoe archive is available and verified.",
-    "candidate_tahoe_commit": "135dfc494d66d387306e47e1c1fd6a8e611db002",
-    "current_fallback": {
-      "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-      "commit": "784ee0cbd4a1a1c0bd78093f9fcdb417372ade9e",
-      "sha256": "8d3f541529786b71223979725bfc586322ad2a2369348bec7dfa623ec6cc314b",
-      "version": "0.68.5"
-    }
-  }
+    "The first hand-drawn symbol prototype/captures were superseded after the user explicitly requested original Apple contours. Only the final 6f515f1 captures were accepted. Local capture artifacts and exact source archive are retained under ignored build/system-menu-069/."
+  ]
 }
