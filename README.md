@@ -109,14 +109,12 @@ Detached search, favorites and app categories with blurred glass and a dark uppe
 
 ### Acrylic Glass Golden Gate Dock
 
-Express applies the pictured Dock preset and icons. Firefox keeps its own icon; your pinned apps keep their order.
-
-Glass refraction, hover zoom, notification badges and auto-hide.
+Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-1c588ec21246.webp" alt="Glass Dock with ten pinned applications and light icons" width="840">
+  <img src="src/screenshots/dock_1_v1-0952d3810300.webp" alt="Glass Dock with light icons and a red notification count bubble" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-c3f09f4a79e0.webp" alt="The same Dock with dark icons" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-5ad8f6c373a4.webp" alt="Glass Dock with dark icons, a complete App Store icon and a red notification count bubble" width="840">
 </p>
 
 <br>
