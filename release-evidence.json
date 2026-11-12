@@ -1,60 +1,61 @@
 {
-  "version": "0.68.2",
-  "source_sha256": "26b1e9b576651ca968dcd4b6a4656127874e2d05520938059a040e49fea8f930",
-  "environment": "Host Python 3.14 / Qt SVG 6.11.2; pinned disposable KDE neon Plasma/KWin 6.8.1 / Qt 6.11.1 Wayland guests, 3840x2160 at scale 2.",
+  "version": "0.68.3",
+  "source_sha256": "eb67d12fb9f6ffdf90dbba9647b667ca7a0a6555789c04abdf0d2142bf693b0d",
+  "environment": "Qt 6 / Kvantum offscreen rendering; isolated X11 launcher checks; four context menus in disposable KDE neon Plasma/KWin 6.8.1 Wayland guests at 3840x2160 scale 2. Pinned root VM plus private copies of the completed v0.68.2 reference guest overlays.",
   "checks": [
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_dock_appearance.py tests/test_icon_toolset.py::test_reviewed_dark_artwork_is_used_for_every_alias_and_light_is_preserved tests/test_component_cache.py::test_committed_component_hashes_match_sources -q -p no:cacheprovider",
+      "command": "PYTHONDONTWRITEBYTECODE=1 QT_QPA_PLATFORM=offscreen python3 -m pytest -q -p no:cacheprovider tests/test_menu_rounding.py tests/test_glass_surfaces.py tests/test_installer_wizard.py tests/test_launcher_presets.py; native socket-restricted cases retried outside the sandbox with the same environment: python3 -m pytest -q -p no:cacheprovider tests/test_launcher_presets.py -k test_native_launcher_popup_presets --tb=short",
       "result": "passed",
-      "detail": "32 passed. Qt SVG pixels at 32/64/128 px cover both Dock artwork and installer override; aliases, light preservation, component ledger and Dock behavior retained. The pre-fix source fails right-diagonal and crossbar fill thresholds."
+      "detail": "136 passed in the initial sandbox run; 8 native launcher cases initially failed because the sandbox denied private D-Bus sockets. All 8 passed when rerun outside that sandbox. No implementation edits between runs. Both presets and editions covered."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=/mnt/M2_1/Projects/Repositories/macos-tahoe-liquid-kde MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests/test_dock_appearance.py -q -p no:cacheprovider (prepared source)",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=/tmp/tahoe-menu-reference MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; PYTHONDONTWRITEBYTECODE=1 QT_QPA_PLATFORM=offscreen python3 -m pytest -q -p no:cacheprovider tests/test_menu_rounding.py tests/test_glass_surfaces.py --tb=short (prepared build/1df010eb1b88d67dfdcf)",
       "result": "passed",
-      "detail": "30 passed against the staged Golden Gate source."
+      "detail": "48 passed against the Golden Gate prepared source."
     },
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest tests -q -p no:cacheprovider (Golden Gate wrapper checkout)",
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 /tmp/plasma-menu-reference/capture.py; python3 /tmp/plasma-menu-reference/compare.py",
       "result": "passed",
-      "detail": "97 passed, including local source staging, source/pin fallback, version and checksum handling."
+      "detail": "Four visually reviewed desktop context-menu frames, both editions and appearance modes. Verified installed Kvantum configuration, wallpaper and preset. Genuine edition-specific macOS screenshots aligned without stretching and blended at 50/50 opacity. Selected-row left-edge error reduced from 2.875 to 0.125 physical pixels for Tahoe and 3.5625 to 0.625 for Golden Gate."
     },
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 /tmp/dock-store-capture.py; python3 /tmp/dock-store-stage.py",
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q -p no:cacheprovider tests --tb=short",
       "result": "passed",
-      "detail": "Six focused real Dock captures reviewed, light/dark/light in each edition. Candidate installed in fresh disposable overlays; installed store asset hash verified. Real Unity LauncherEntry count 3 exercises the existing red badge. Four README Dock photographs refreshed using the repository staging exporter; all unrelated photographs retain original bytes and provenance."
+      "detail": "97 passed in 1.02s"
     },
     {
-      "command": "Download the published immutable Tahoe archive; verify SHA-256, tagged commit, VERSION, edition support, launcher defaults and both corrected SVG payloads",
+      "command": "python3 /tmp/plasma-menu-reference/pin.py",
       "result": "passed",
-      "detail": "{\"commit\": \"11a512333f2bacb321cfc371c8615e4ec6611d15\", \"repository\": \"lestercorderomurillo/macos-tahoe-liquid-kde\", \"sha256\": \"c0d6ad6dc2537f5d97978fbd2fff3a9b3323ec04edf3e0c8beec9a56b05debb8\", \"version\": \"0.68.2\"}"
+      "detail": "Downloaded the immutable published Tahoe commit archive; verified SHA-256, VERSION, edition support and local release tag before updating upstream.json."
     }
   ],
-  "gallery_commit": "011c1b245c67d162c7070f2bf757ca532f524e62",
+  "gallery_commit": "6ccb52b3798573b9ac626f85a25e9a99be6fca34",
   "captures": [
     {
-      "path": "src/screenshots/dock_1_v1-0952d3810300.webp",
-      "sha256": "0952d3810300bf2411ad3b0fe01a57dd411aae343cf89f362aabe1a138d384e9",
+      "path": "src/screenshots/context_menu_v1-65cf256e1c14.webp",
+      "sha256": "65cf256e1c14575d8baee05655881a101652714376773d7e63b85e988ffd48d0",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/dock_1_dark_v1-5ad8f6c373a4.webp",
-      "sha256": "5ad8f6c373a4afc35aef6f72bf11005f0fd75e2c519409bfbc85cafbada89574",
+      "path": "src/screenshots/context_menu_dark_v1-fca3a060a275.webp",
+      "sha256": "fca3a060a2755cca9bcb0fe88bdd61d9326f534f556a5e20fd456c1711884b13",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/dock-golden-gate-0682-provenance-5aa0bbcdfee9.json",
-      "sha256": "5aa0bbcdfee9dd9d1357f3a33682076b17d1514d7989d6b4f85794e41e7ae8f4",
+      "path": "src/screenshots/previews/menu-golden-gate-comparison-7d0c6ed30525.png",
+      "sha256": "7d0c6ed30525dbcf100bb97090dbf2135b2b823b1f2e6965203a287cf74d7e9b",
       "reviewed": true
     }
   ],
   "component_capture_review": {
-    "provenance": "src/screenshots/previews/dock-golden-gate-0682-provenance-5aa0bbcdfee9.json",
+    "provenance": "src/screenshots/previews/menu-golden-gate-provenance-48b0e741ce31.json",
     "reviewed": true
   },
   "coverage_limits": [
-    "The SVG prefix fix changes no native backend, shader, ABI, installation lifecycle or SDK branch; no new X11 or native SDK matrix run claimed.",
-    "Real desktop runtime covers the pinned Wayland Qt 6.11.1 guest; badge count 3 is synthetic example data.",
-    "The icon override is unchanged visually in librsvg; Qt now resolves its existing gradients correctly.",
-    "Full remote CI runs asynchronously on dev and is not counted as passed here."
+    "Selection corners match the measured references; outer menu padding remains 9px versus approximately 5px in the macOS references. No whole-menu pixel-identical match is claimed.",
+    "Real macOS references are light mode; dark KDE menus were reviewed separately. Colors depend on wallpaper and edition material.",
+    "No native implementation, shader, ABI or backend change. No additional SDK or distro matrix was launched.",
+    "Captures identify unreleased implementation dc75083, whose VERSION was still 0.68.2; subsequent source changes are version/documentation/release bookkeeping only.",
+    "Full remote CI remains asynchronous on dev and is not counted as passed here. Unrelated photos and the v0.68.2 Dock delivery retain their original provenance."
   ]
 }
