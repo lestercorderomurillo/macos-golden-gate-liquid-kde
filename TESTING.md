@@ -1,9 +1,11 @@
 # Installer testing
 
-Golden Gate **v0.67.5** uses the qualified Wobbly Windows glass fix, including
-legacy X11 properties, output coordinates and client blur regions.
-See [release evidence](release-evidence.json) for focused checks and coverage limits;
-full remote CI runs asynchronously.
+Golden Gate **v0.68.0** adds Left, Right and Keep my layout choices for window buttons.
+Focused installer, theme-switch and wrapper checks pass; disposable-VM
+photographs cover Aurorae and GTK in both appearance modes, with custom layouts
+preserved through reinstall, mode changes and uninstall.
+See [release evidence](release-evidence.json) for exact sources and coverage limits;
+the full remote CI matrix runs asynchronously.
 
 Historical v0.67.0 symbol previews (unchanged):
 [Light](src/screenshots/previews/menu-symbols-067-light-a558e02129b0.png) · [Dark](src/screenshots/previews/menu-symbols-067-dark-35230bb0f200.png) · [Provenance](src/screenshots/previews/menu-symbols-067-provenance-534bface45c1.json)
@@ -29,6 +31,7 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-layout_v1-cf121a13991a.webp" alt="Top bar and Dock" width="500"><br>Top bar and Dock</td>
   <td align="center"><img src="src/screenshots/installer-effects_v1-a9a6e8f18a5d.webp" alt="Effects" width="500"><br>Effects</td>
   <td align="center"><img src="src/screenshots/installer-window_controls_v1-d70c5487f84f.webp" alt="Flat or Glassy window controls" width="500"><br>Window controls</td>
+  <td align="center"><img src="src/screenshots/previews/button-position-golden-gate-dark-wizard-a50b95609e38.webp" alt="Window buttons" width="500"><br>Window buttons</td>
   <td align="center"><img src="src/screenshots/installer-shadows_v1-18b5866f33f3.webp" alt="Window shadow comparison" width="500"><br>Window shadows</td>
   <td align="center"><img src="src/screenshots/installer-fonts_v1-8e2cbdfba9cf.webp" alt="Fonts" width="500"><br>Fonts</td>
   <td align="center"><img src="src/screenshots/installer-firefox_v1-cf6e0028e6b4.webp" alt="Firefox" width="500"><br>Firefox</td>
@@ -39,3 +42,5 @@ Scroll horizontally through the installation steps.
   <td align="center"><img src="src/screenshots/installer-summary_v1-628b8b82aa07.webp" alt="Summary" width="500"><br>Summary</td>
 </tr>
 </table>
+
+Window buttons, captured in a disposable VM: [Light wizard](src/screenshots/previews/button-position-golden-gate-light-wizard-36aca73ad37c.webp) · [Light comparison](src/screenshots/previews/button-position-golden-gate-light-comparison-2252a75d62e9.png) · [Dark wizard](src/screenshots/previews/button-position-golden-gate-dark-wizard-a50b95609e38.webp) · [Dark comparison](src/screenshots/previews/button-position-golden-gate-dark-comparison-d3035dd038c4.png) · [Provenance](src/screenshots/previews/button-position-golden-gate-provenance-3524c01456df.json)

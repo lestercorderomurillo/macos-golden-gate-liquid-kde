@@ -1,0 +1,2419 @@
+{
+  "purpose": "Focused Window buttons page and actual Aurorae/GTK title-bar comparison; unrelated gallery retained",
+  "method": "Pinned disposable KDE neon Wayland VM; release_capture.Guest, release_capture_guest.file_preview and wizard; focus and geometry checked before/after; identical consecutive captures required. Comparison sheets concatenate unmodified title-bar crops with labels.",
+  "source_commit": "cc29db2560ac534e67e4b2fe636d03fdbbfcaee8",
+  "source_sha256": {
+    "src/installer/wizard_window.py": "f04b1cdfa70f3f9e3270c3e08c9f3c672e776ae60d9ebe48a231d462e8b1b026",
+    "src/scripts/installer_choices.py": "cabe812311189b57a5be0483dc33b0804434bcd47a9c1c0e6ff7d040a8a7f324",
+    "src/scripts/theme_switch.py": "81e04187cc43e8e90cf711e97c60211d937e5ac42fc27df749b77c80ba547e23",
+    "src/scripts/cli.py": "b1377599dec2ea5bd1234319876ee9b6fbc01dc862ad1820af97271ab8c68d1e",
+    "src/scripts/window_controls.py": "74b7a7a6c9feda79749bc828fe3966ae437c67ddc1004dcb8e59ab72c8e74abf",
+    "src/scripts/steps/gtk.py": "73ed4bb27cda387cf57acf82e3e902b2c7c7033d96a963a2be464893b79462cf",
+    "src/scripts/steps/window_decorations.py": "fdc46df58522555a2bd3da5edb530d815308545beb4c39b397979d6bc1ff2835"
+  },
+  "vm_image_sha256": "412e7933f10add20b921b92c02709e7eea56acd14dc14cf654f58fba4ea3cc9d",
+  "environment": "KDE neon; Plasma/KWin 6.8.1; Qt 6.11.1; 3840x2160, scale 2",
+  "frames": {
+    "golden-gate-left-light-nautilus": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{9990b26b-120f-4db8-8d53-c5eddfb7163e}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{9990b26b-120f-4db8-8d53-c5eddfb7163e}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "bfa2eb388051534a8e38925b43e021c155ed92c24b62ec57fc2a3d58daf4805f",
+      "layout": {
+        "left": "XIA",
+        "right": "",
+        "gtk": "'close,minimize,maximize:'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 51.5,
+          "yellow": 99.5,
+          "green": 147.5
+        },
+        "order": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-left-light-dolphin": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{5d364efb-f719-4e1c-974d-f390ab24dda4}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{5d364efb-f719-4e1c-974d-f390ab24dda4}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "8314d65352966eec0ff4d4400f0e1375f7dde6b38f60d2feaf826743f9ea526f",
+      "layout": {
+        "left": "XIA",
+        "right": "",
+        "gtk": "'close,minimize,maximize:'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 47.5,
+          "yellow": 93.5,
+          "green": 139.4597902097902
+        },
+        "order": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-light-wizard": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{d4af3456-4f7b-479a-b74f-15503fc634ad}",
+          "caption": "Install Golden Gate",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{d4af3456-4f7b-479a-b74f-15503fc634ad}",
+          "caption": "Install Golden Gate",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "window": {
+        "id": "{d4af3456-4f7b-479a-b74f-15503fc634ad}",
+        "caption": "Install Golden Gate",
+        "resourceClass": "python3",
+        "type": 0,
+        "appletPopup": false,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 550,
+          "y": 225,
+          "width": 820,
+          "height": 600
+        }
+      },
+      "page": {
+        "page": "button_position",
+        "request": "2b5738be1c1f498f908a1d780b0ee0ed",
+        "pid": 7627,
+        "edition": "MacGoldenGate",
+        "title": "Install Golden Gate"
+      },
+      "stable_frames": true,
+      "sha256": "3d0e55c8f9002b334b76b27da7c203ebd31cf57484c6ffae4e4fa59533aef296",
+      "reviewed": true
+    },
+    "golden-gate-left-dark-nautilus": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{e22483b9-5b29-446a-99cd-cec663581068}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{e22483b9-5b29-446a-99cd-cec663581068}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "b18710e4d3135455f942647b493656364886e8c5df1aa9f5149367d198330cda",
+      "layout": {
+        "left": "XIA",
+        "right": "",
+        "gtk": "'close,minimize,maximize:'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 51.5,
+          "yellow": 99.5,
+          "green": 147.5
+        },
+        "order": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-left-dark-dolphin": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{b539bce4-220f-46c2-bc2c-b424f513afd8}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{b539bce4-220f-46c2-bc2c-b424f513afd8}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "16e2a1ad4c4155a61d8a0501c7a71370c34ab35c3751aedd38083f7df45c1215",
+      "layout": {
+        "left": "XIA",
+        "right": "",
+        "gtk": "'close,minimize,maximize:'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 47.5,
+          "yellow": 93.5,
+          "green": 139.5
+        },
+        "order": [
+          "red",
+          "yellow",
+          "green"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-dark-wizard": {
+      "before": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{37dee2cf-ceda-43eb-b533-8f99ec634287}",
+          "caption": "Install Golden Gate",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{48f186e6-8005-4119-a79f-05d6106be32c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{960d84f8-fc38-4f2a-815e-d9d39521a659}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{fa2c47f2-cd19-4f6b-9e4b-9ca23b32629c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{37dee2cf-ceda-43eb-b533-8f99ec634287}",
+          "caption": "Install Golden Gate",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "window": {
+        "id": "{37dee2cf-ceda-43eb-b533-8f99ec634287}",
+        "caption": "Install Golden Gate",
+        "resourceClass": "python3",
+        "type": 0,
+        "appletPopup": false,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 550,
+          "y": 225,
+          "width": 820,
+          "height": 600
+        }
+      },
+      "page": {
+        "page": "button_position",
+        "request": "789b912f625c470eb6099b57bc321b85",
+        "pid": 10710,
+        "edition": "MacGoldenGate",
+        "title": "Install Golden Gate"
+      },
+      "stable_frames": true,
+      "sha256": "2fbac6c05bffb36823d424e51cc49852275147f99d3e2236b34977475c8a2ba0",
+      "reviewed": true
+    },
+    "golden-gate-right-light-nautilus": {
+      "before": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{f0e5a40f-a446-4489-abcf-99aff8b2c282}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{f0e5a40f-a446-4489-abcf-99aff8b2c282}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "e207d3495e24526728860880e40c27ac6f286695654ac719018ba75810193515",
+      "layout": {
+        "left": "",
+        "right": "IAX",
+        "gtk": "':minimize,maximize,close'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1873.475935828877,
+          "yellow": 1777.5185840707964,
+          "green": 1825.5
+        },
+        "order": [
+          "yellow",
+          "green",
+          "red"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-right-light-dolphin": {
+      "before": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{dd288dc6-e7c8-48d7-a212-36b44bb66b3f}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{dd288dc6-e7c8-48d7-a212-36b44bb66b3f}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "23541d436b0f4e9f208bc5f3eff81963e9188a945d68576541fd1ebe2c28cd2f",
+      "layout": {
+        "left": "",
+        "right": "IAX",
+        "gtk": "':minimize,maximize,close'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1871.5,
+          "yellow": 1779.5,
+          "green": 1825.4597902097903
+        },
+        "order": [
+          "yellow",
+          "green",
+          "red"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-right-dark-nautilus": {
+      "before": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{a08c62cf-9e80-4f3e-aff9-f02c7a4833c6}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{a08c62cf-9e80-4f3e-aff9-f02c7a4833c6}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "05d07fa693e7e1c0925b80fc074ccbaa496c7f0a339072e4de7a422de1177b35",
+      "layout": {
+        "left": "",
+        "right": "IAX",
+        "gtk": "':minimize,maximize,close'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1873.5,
+          "yellow": 1777.5,
+          "green": 1825.5
+        },
+        "order": [
+          "yellow",
+          "green",
+          "red"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-right-dark-dolphin": {
+      "before": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{895ab524-bef6-40f0-9389-0720d428db90}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ba71a0a5-646f-414a-93a0-041da906a395}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6fc847da-ff61-4d9a-8a20-0431a5fea996}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{7c09f2de-8e11-4117-86b0-7ba55391dcc3}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{895ab524-bef6-40f0-9389-0720d428db90}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "581410520c5f2cb1d2086ba5bc195572594c2e0f7b566997f207f8cb6a92e410",
+      "layout": {
+        "left": "",
+        "right": "IAX",
+        "gtk": "':minimize,maximize,close'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1871.5,
+          "yellow": 1779.5,
+          "green": 1825.5
+        },
+        "order": [
+          "yellow",
+          "green",
+          "red"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-keep-light-nautilus": {
+      "before": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{c8d092ba-3a46-4001-b469-2a79a4f1edeb}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{c8d092ba-3a46-4001-b469-2a79a4f1edeb}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "441eecce53e680981dda81948d02de7a1fd4d0132e71cec03ff1f1ba93eae7ef",
+      "layout": {
+        "left": "",
+        "right": "AXI",
+        "gtk": "'close:maximize,minimize'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 51.5,
+          "yellow": 1873.5,
+          "green": 1825.5
+        },
+        "order": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-keep-light-dolphin": {
+      "before": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{554ed035-72aa-45ae-be14-b9cefc33ee54}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{554ed035-72aa-45ae-be14-b9cefc33ee54}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "7541edf3e54c86b2b95f1673bcd4bead3303c53da5404fac13e610f2b9ffc4e0",
+      "layout": {
+        "left": "",
+        "right": "AXI",
+        "gtk": "'close:maximize,minimize'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1825.5,
+          "yellow": 1871.5,
+          "green": 1779.4597902097903
+        },
+        "order": [
+          "green",
+          "red",
+          "yellow"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-keep-dark-nautilus": {
+      "before": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{8f12cba6-70bc-4c65-9de6-f875d857d3b3}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{8f12cba6-70bc-4c65-9de6-f875d857d3b3}",
+          "caption": "Documents",
+          "resourceClass": "org.gnome.Nautilus",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.gnome.Nautilus",
+      "sha256": "60fde5ff949edd1d4e9b2226901eb0d02a809c78c158c33789ec80a7ec4f667c",
+      "layout": {
+        "left": "",
+        "right": "AXI",
+        "gtk": "'close:maximize,minimize'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 51.5,
+          "yellow": 1873.5172413793102,
+          "green": 1825.5
+        },
+        "order": [
+          "red",
+          "green",
+          "yellow"
+        ],
+        "passed": true
+      }
+    },
+    "golden-gate-keep-dark-dolphin": {
+      "before": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4460a81f-2725-4507-ae55-6451280998ca}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "after": [
+        {
+          "id": "{ccfcaf66-5069-49ba-a051-9cee19ba144d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{5ab0df07-4272-40ac-acc2-39de9febccad}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e0e1d3a5-add2-4c44-acbf-903b58fb031c}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4460a81f-2725-4507-ae55-6451280998ca}",
+          "caption": "Documents \u2014 Dolphin",
+          "resourceClass": "org.kde.dolphin",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 480,
+            "y": 240,
+            "width": 960,
+            "height": 600
+          }
+        }
+      ],
+      "crop": [
+        932,
+        452,
+        2908,
+        1708
+      ],
+      "stable_frames": true,
+      "resource_class": "org.kde.dolphin",
+      "sha256": "50f1d05fc5f281fd2b7885e55fbac6af3f28f9c2e183a5175329402dce754f21",
+      "layout": {
+        "left": "",
+        "right": "AXI",
+        "gtk": "'close:maximize,minimize'"
+      },
+      "reviewed": true,
+      "pixels": {
+        "button_centers": {
+          "red": 1825.5,
+          "yellow": 1871.5,
+          "green": 1779.5
+        },
+        "order": [
+          "green",
+          "red",
+          "yellow"
+        ],
+        "passed": true
+      }
+    }
+  },
+  "published": {
+    "button-position-golden-gate-light-wizard-36aca73ad37c.webp": {
+      "sha256": "36aca73ad37c7b7a7687934259d9dfb0dd17117e183dee1933b57d255313bd42",
+      "reviewed": true,
+      "kind": "wizard",
+      "mode": "light"
+    },
+    "button-position-golden-gate-light-comparison-2252a75d62e9.png": {
+      "sha256": "2252a75d62e96c4060502ac954c790ef90bea1911781189fabac8af86168f6ac",
+      "reviewed": true,
+      "kind": "comparison",
+      "mode": "light"
+    },
+    "button-position-golden-gate-dark-wizard-a50b95609e38.webp": {
+      "sha256": "a50b95609e382148eecc6a69cf9c056855064f813ad012a07e5731193073e238",
+      "reviewed": true,
+      "kind": "wizard",
+      "mode": "dark"
+    },
+    "button-position-golden-gate-dark-comparison-d3035dd038c4.png": {
+      "sha256": "d3035dd038c40d1b43a824627514d65b2a62d83c85b77ac477c2e8d64277eabb",
+      "reviewed": true,
+      "kind": "comparison",
+      "mode": "dark"
+    }
+  },
+  "checks": [
+    {
+      "edition": "golden-gate",
+      "position": "left",
+      "install": {
+        "layout": {
+          "left": "XIA",
+          "right": "",
+          "gtk": "'close,minimize,maximize:'"
+        },
+        "command": [
+          "sudo",
+          "env",
+          "MAC_TAHOE_NO_UPDATE_CHECK=true",
+          "MTTKDE_NO_CONFIRM=1",
+          "MTTKDE_WIZARD_OPTIONS={\"appearance\": \"light\", \"icons\": \"keep\", \"color\": \"blue\", \"wallpaper\": \"golden\", \"wallpaper_path\": \"\", \"launcher\": \"golden\", \"panel\": true, \"dock\": true, \"reset_layout\": false, \"acrylic_glass\": true, \"rounded_corners\": true, \"shadows\": \"medium\", \"fonts\": true, \"firefox\": true, \"window_controls\": \"glassy\", \"button_position\": \"left\", \"files\": \"nautilus\", \"nautilus_bookmarks\": true, \"plymouth\": true, \"glass_style\": \"official\", \"oled_care\": false, \"oled_interval\": 5, \"oled_max_shift\": 8, \"dock_appearance\": \"auto\", \"dock_apps\": [], \"dock_apps_source\": \"native\", \"dock_add_flathub\": false}",
+          "/home/tester/release-capture/source/src/scripts/installer_backend.py",
+          "install",
+          "--only",
+          "--window-decorations",
+          "--gtk",
+          "--global-theme",
+          "--wallpapers",
+          "--plasma-theme",
+          "--kvantum",
+          "--color-schemes",
+          "--apply-theme",
+          "--light",
+          "--reset-wallpapers"
+        ]
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "left",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "XIA",
+          "right": "",
+          "gtk": "'close,minimize,maximize:'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "left",
+      "mode": "dark",
+      "switch": {
+        "layout": {
+          "left": "XIA",
+          "right": "",
+          "gtk": "'close,minimize,maximize:'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "left",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "XIA",
+          "right": "",
+          "gtk": "'close,minimize,maximize:'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "right",
+      "install": {
+        "layout": {
+          "left": "",
+          "right": "IAX",
+          "gtk": "':minimize,maximize,close'"
+        },
+        "command": [
+          "sudo",
+          "env",
+          "MAC_TAHOE_NO_UPDATE_CHECK=true",
+          "MTTKDE_NO_CONFIRM=1",
+          "MTTKDE_WIZARD_OPTIONS={\"appearance\": \"light\", \"icons\": \"keep\", \"color\": \"blue\", \"wallpaper\": \"golden\", \"wallpaper_path\": \"\", \"launcher\": \"golden\", \"panel\": true, \"dock\": true, \"reset_layout\": false, \"acrylic_glass\": true, \"rounded_corners\": true, \"shadows\": \"medium\", \"fonts\": true, \"firefox\": true, \"window_controls\": \"glassy\", \"button_position\": \"right\", \"files\": \"nautilus\", \"nautilus_bookmarks\": true, \"plymouth\": true, \"glass_style\": \"official\", \"oled_care\": false, \"oled_interval\": 5, \"oled_max_shift\": 8, \"dock_appearance\": \"auto\", \"dock_apps\": [], \"dock_apps_source\": \"native\", \"dock_add_flathub\": false}",
+          "/home/tester/release-capture/source/src/scripts/installer_backend.py",
+          "install",
+          "--only",
+          "--window-decorations",
+          "--gtk",
+          "--global-theme",
+          "--wallpapers",
+          "--plasma-theme",
+          "--kvantum",
+          "--color-schemes",
+          "--apply-theme",
+          "--light",
+          "--reset-wallpapers"
+        ]
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "right",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "IAX",
+          "gtk": "':minimize,maximize,close'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "right",
+      "mode": "dark",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "IAX",
+          "gtk": "':minimize,maximize,close'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "right",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "IAX",
+          "gtk": "':minimize,maximize,close'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "keep",
+      "install": {
+        "layout": {
+          "left": "",
+          "right": "AXI",
+          "gtk": "'close:maximize,minimize'"
+        },
+        "command": [
+          "sudo",
+          "env",
+          "MAC_TAHOE_NO_UPDATE_CHECK=true",
+          "MTTKDE_NO_CONFIRM=1",
+          "MTTKDE_WIZARD_OPTIONS={\"appearance\": \"light\", \"icons\": \"keep\", \"color\": \"blue\", \"wallpaper\": \"golden\", \"wallpaper_path\": \"\", \"launcher\": \"golden\", \"panel\": true, \"dock\": true, \"reset_layout\": false, \"acrylic_glass\": true, \"rounded_corners\": true, \"shadows\": \"medium\", \"fonts\": true, \"firefox\": true, \"window_controls\": \"glassy\", \"button_position\": \"keep\", \"files\": \"nautilus\", \"nautilus_bookmarks\": true, \"plymouth\": true, \"glass_style\": \"official\", \"oled_care\": false, \"oled_interval\": 5, \"oled_max_shift\": 8, \"dock_appearance\": \"auto\", \"dock_apps\": [], \"dock_apps_source\": \"native\", \"dock_add_flathub\": false}",
+          "/home/tester/release-capture/source/src/scripts/installer_backend.py",
+          "install",
+          "--only",
+          "--window-decorations",
+          "--gtk",
+          "--global-theme",
+          "--wallpapers",
+          "--plasma-theme",
+          "--kvantum",
+          "--color-schemes",
+          "--apply-theme",
+          "--light",
+          "--reset-wallpapers"
+        ]
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "keep",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "AXI",
+          "gtk": "'close:maximize,minimize'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "keep",
+      "mode": "dark",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "AXI",
+          "gtk": "'close:maximize,minimize'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "position": "keep",
+      "mode": "light",
+      "switch": {
+        "layout": {
+          "left": "",
+          "right": "AXI",
+          "gtk": "'close:maximize,minimize'"
+        }
+      }
+    },
+    {
+      "edition": "golden-gate",
+      "keep_uninstall": {
+        "layout": {
+          "left": "",
+          "right": "AXI",
+          "gtk": "'close:maximize,minimize'"
+        },
+        "command": [
+          "sudo",
+          "env",
+          "MAC_TAHOE_NO_UPDATE_CHECK=true",
+          "MTTKDE_NO_CONFIRM=1",
+          "/home/tester/release-capture/source/src/scripts/installer_backend.py",
+          "uninstall",
+          "--only",
+          "--window-decorations",
+          "--gtk",
+          "--global-theme"
+        ]
+      }
+    }
+  ]
+}

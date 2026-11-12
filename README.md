@@ -10,13 +10,11 @@
 
 <p align="center">
   <a href="https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/releases"><img src="https://img.shields.io/github/v/release/lestercorderomurillo/macos-golden-gate-liquid-kde?label=release&amp;color=blue" alt="release"></a>
-  <a href="https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/releases/tag/v0.67.5"><img src="https://img.shields.io/badge/LTS-v0.67.5-green" alt="LTS v0.67.5"></a>
   <a href="https://kde.org/plasma-desktop/"><img src="https://img.shields.io/badge/Plasma-6.6%2B-1d99f3?logo=kde" alt="plasma"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="license"></a>
   <a href="https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new"><img src="https://img.shields.io/badge/report-a%20bug-red?logo=github" alt="report a bug"></a>
 </p>
 
-Long-term support: **v0.67.5**, maintained on [`lts/0.67`](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/tree/lts/0.67).
 
 <p align="center">
   The ultimate macOS Golden Gate experience, reimagined for Linux. Immersive glass, an iconic Dock and a complete desktop transformation for KDE Plasma 6.6, 6.7 and 6.8+.
@@ -73,6 +71,7 @@ Thanks to the people who contribute to Tahoe and Golden Gate:
   <a href="https://github.com/OliverChase2003"><img src="src/screenshots/contributors/OliverChase2003.svg" width="40" height="40" alt="@OliverChase2003" title="@OliverChase2003"></a>
   <a href="https://github.com/RoxasYTB"><img src="src/screenshots/contributors/RoxasYTB.svg" width="40" height="40" alt="@RoxasYTB" title="@RoxasYTB"></a>
   <a href="https://github.com/Flagwill"><img src="src/screenshots/contributors/Flagwill.svg" width="40" height="40" alt="@Flagwill" title="@Flagwill"></a>
+  <a href="https://github.com/4l3j0Ok"><img src="src/screenshots/contributors/4l3j0Ok.svg" width="40" height="40" alt="@4l3j0Ok" title="@4l3j0Ok"></a>
 </p>
 
 <br>
@@ -269,6 +268,10 @@ Choose **Flat** or **Glassy** window controls in the wizard, with close-up Nauti
 The default option is always first and selected. Opening the other edition starts
 with that repository's defaults, including its wallpaper and launcher. Choosing
 **Keep my icons**, **Keep my wallpaper** or **Keep my fonts** preserves those choices.
+
+The Window buttons page places close, minimize and maximize on the **left**
+(default) or **right**, or preserves your current layout with **Keep my layout**.
+The choice applies to Aurorae and GTK windows through light/dark switches.
 
 The Window shadows page compares **no, soft, medium or hard window shadows**
 with Nautilus screenshots. The choice applies to the theme's Aurorae
