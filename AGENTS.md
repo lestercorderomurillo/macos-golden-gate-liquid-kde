@@ -455,3 +455,18 @@ Native menu outer borders use continuous corners independently of the 5px
 content inset. Keep the blue selection at its measured 8px corners. The
 MacTahoe Qt style delegates ordinary widgets and edition materials to Kvantum;
 install its sidecar in both editions and retain it through light/dark switches.
+
+System-menu symbols follow the active edition's real macOS reference. Tahoe
+shows symbols on every action; Golden Gate shows only About, System Settings
+and App Store, without reserved icon columns on other rows. Keep Recent Items
+absent. `kdeglobals`'s `MacTahoeLiquidKde/SystemMenuPreset` follows the active
+edition through light/dark transitions, independently of the Launcher preset;
+read it again whenever the cached menu opens. System Settings uses the
+reference 18-tooth wheel with three spokes and a hollow hub. Preserve the
+existing App Store symbol and refresh each README's own light/dark menu frames.
+
+Use the original Apple glyph outlines from the bundled font for system-menu
+symbols, not hand-drawn approximations. Regenerate the committed paths with
+`src/scripts/build_menu_symbols.py`; keep the font hash, glyph identities and
+uniform transforms in `systemmenusymbols.json`. The plugin must not require
+a host Apple font or an SVG loader at runtime. App Store remains unchanged.

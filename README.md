@@ -132,9 +132,11 @@ Finder-style Nautilus in light and dark.
 
 ### Acrylic Glass Golden Gate Menu
 
+The Golden Gate preset shows reference symbols only for About, System Settings and App Store; the other rows have no icon column. [macOS Golden Gate reference](https://512pixels.net/projects/aqua-screenshot-library/macos-27-golden-gate/). The menu preset follows the active theme edition, independently of the Launcher preset.
+
 <p align="center">
-  <img src="src/screenshots/menu_v1-9bd14a433b1d.webp" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-08db014716a6.webp" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/menu_v1-4ccac1191586.webp" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/menu_dark_v1-e6cda19d04cd.webp" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
