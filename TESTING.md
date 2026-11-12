@@ -1,11 +1,12 @@
 # Installer testing
 
-Golden Gate **v0.68.0** adds Left, Right and Keep my layout choices for window buttons.
-Focused installer, theme-switch and wrapper checks pass; disposable-VM
-photographs cover Aurorae and GTK in both appearance modes, with custom layouts
-preserved through reinstall, mode changes and uninstall.
+Golden Gate **v0.68.1** fixes Firefox toolbar icon contrast in dark mode.
+Focused installer regressions pass, including the prepared Golden Gate source.
+Disposable-VM Firefox captures verify light/dark/light in both editions.
 See [release evidence](release-evidence.json) for exact sources and coverage limits;
 the full remote CI matrix runs asynchronously.
+
+[Light Firefox](src/screenshots/previews/firefox-golden-gate-light-3fc143ac8ec9.png) · [Dark Firefox](src/screenshots/previews/firefox-golden-gate-dark-ae09d997c075.png) · [Provenance](src/screenshots/previews/firefox-golden-gate-provenance-4649f4bf9bce.json)
 
 Historical v0.67.0 symbol previews (unchanged):
 [Light](src/screenshots/previews/menu-symbols-067-light-a558e02129b0.png) · [Dark](src/screenshots/previews/menu-symbols-067-dark-35230bb0f200.png) · [Provenance](src/screenshots/previews/menu-symbols-067-provenance-534bface45c1.json)
