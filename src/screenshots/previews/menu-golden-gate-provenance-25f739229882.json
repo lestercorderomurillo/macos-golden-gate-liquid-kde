@@ -1,12 +1,12 @@
 {
-  "source_commit": "dc7508320bd2fa1f12c48748c212c836a22070ff",
-  "source_tree": "30226f6794dff2a2af871c9a29e3dbc21b1e6e1db73dda3d9b031692912e49a5",
+  "source_commit": "7e284bd65a5f3cf1f1bfabf3575c1ac005430c4a",
+  "source_tree": "3943b1fb4e820a72e727f3df18906f0a692bea548ad39abb2f764da1dd77b69c",
   "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
   "vm_image_sha256": "412e7933f10add20b921b92c02709e7eea56acd14dc14cf654f58fba4ea3cc9d",
   "frames": {
     "golden-gate-light": {
       "material_values": null,
-      "sha256": "cb5c7c6da2c5eee543d90cd9fd83fbc91a96a950e00019ecd58439d711fa6c89",
+      "sha256": "2ce79e1dc62ecbf6f5aae8a605459031ce48703bae81edf7ca50db299646c275",
       "appearance": {
         "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
         "Plasma": "MacTahoeLiquidKde-Light",
@@ -21,15 +21,15 @@
       "crop": [
         2066,
         964,
-        2794,
-        1448
+        2778,
+        1432
       ],
       "wallpaper": "MacGoldenGate",
       "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
       "launcher_preset": 2,
       "windows": [
         {
-          "id": "{c9ec096c-07ba-405a-b6e9-4e1fac3904ce}",
+          "id": "{293f476e-4c8c-493d-aa6e-2bc9885b2a3d}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 1,
@@ -44,7 +44,7 @@
           }
         },
         {
-          "id": "{293f3c80-a6a5-4366-b62e-9ea49932ed90}",
+          "id": "{7569ed2b-8a37-435b-a7ef-62417c8c2bec}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 2,
@@ -59,7 +59,7 @@
           }
         },
         {
-          "id": "{f907dd4d-cce0-4790-8bb4-f147f1fef215}",
+          "id": "{57115888-2b38-4883-aaae-af64c7038292}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 2,
@@ -74,7 +74,7 @@
           }
         },
         {
-          "id": "{982132ec-2957-45cc-afc4-a1ebcfeb9abe}",
+          "id": "{cc5f912d-7b1d-48b2-9b04-82d5c6319df2}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": -1,
@@ -84,8 +84,8 @@
           "geometry": {
             "x": 1047,
             "y": 496,
-            "width": 336,
-            "height": 214
+            "width": 328,
+            "height": 206
           }
         }
       ],
@@ -97,7 +97,7 @@
     },
     "golden-gate-dark": {
       "material_values": null,
-      "sha256": "8aa45b7ccb5a83724f754a87b01dca8f3aba8a0a668bbc19dea021dde0964a9f",
+      "sha256": "f60dcef6d10d0f016b397a8f242de8c8b84dc4830c0321885ed43defe20b1c94",
       "appearance": {
         "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
         "Plasma": "MacTahoeLiquidKde-Dark",
@@ -112,15 +112,15 @@
       "crop": [
         2066,
         964,
-        2794,
-        1448
+        2778,
+        1432
       ],
       "wallpaper": "MacGoldenGate",
       "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
       "launcher_preset": 2,
       "windows": [
         {
-          "id": "{c9ec096c-07ba-405a-b6e9-4e1fac3904ce}",
+          "id": "{293f476e-4c8c-493d-aa6e-2bc9885b2a3d}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 1,
@@ -135,7 +135,7 @@
           }
         },
         {
-          "id": "{293f3c80-a6a5-4366-b62e-9ea49932ed90}",
+          "id": "{7569ed2b-8a37-435b-a7ef-62417c8c2bec}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 2,
@@ -150,7 +150,7 @@
           }
         },
         {
-          "id": "{f907dd4d-cce0-4790-8bb4-f147f1fef215}",
+          "id": "{57115888-2b38-4883-aaae-af64c7038292}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": 2,
@@ -165,7 +165,7 @@
           }
         },
         {
-          "id": "{288f8abb-09db-4d99-a9d4-244852315c8c}",
+          "id": "{6adbd1d0-f623-4fa6-94b6-77ce293b2c45}",
           "caption": "",
           "resourceClass": "plasmashell",
           "type": -1,
@@ -175,8 +175,8 @@
           "geometry": {
             "x": 1047,
             "y": 496,
-            "width": 336,
-            "height": 214
+            "width": 328,
+            "height": 206
           }
         }
       ],
@@ -189,6 +189,18 @@
   },
   "environments": {
     "golden-gate": {
+      "desktops_before": [
+        {
+          "id": 1,
+          "screen": 0
+        }
+      ],
+      "desktops_after": [
+        {
+          "id": 1,
+          "screen": 0
+        }
+      ],
       "command": [
         "sudo",
         "env",
@@ -236,21 +248,22 @@
       },
       "installed_configs": {
         "mac-tahoe-liquid-kde": "eddf73cf94664a5da4f619aff0a6284525c047ffcf7694b095b30b3d17120afe",
-        "mac-tahoe-liquid-kdeDark": "325056b74bb99a029c51cc5a23f2f62c4929fed0cbab5d36fcc7ae7a25aef0f0"
+        "mac-tahoe-liquid-kdeDark": "325056b74bb99a029c51cc5a23f2f62c4929fed0cbab5d36fcc7ae7a25aef0f0",
+        "menu-style": "5179123ab9c45c799bc75d631dc54a8ff8daddbe34666d93dd831443f3aad825"
       }
     }
   },
   "prepared_bases": {
     "golden-gate": {
-      "source": "/tmp/dock-store-final-captures/golden-gate/disk.qcow2",
-      "sha256": "ea6f14441897c266a578d027c371875e3ffbcbb9b4b35de6b1693e67ed8f2a0c",
-      "provenance": "625fea68c8e72cf8eaed28407cf335d213b85d6c"
+      "source": "/tmp/menu-squircle/captures/golden-gate/disk.qcow2",
+      "sha256": "2c193ee801645b58ee41b45d90eb43c7add7dd526c7f65b203d68c1a81ec2725",
+      "provenance": "eb87f9cd4866d115526279cc941a2b437e8a36fb"
     }
   },
   "schema": 2,
-  "version": "0.68.2",
+  "version": "0.68.4",
   "effect_build": "a509d4b2a3b7e6a21e8319eb253e2e5258c923a767217628629e20154ba34003",
-  "scope": "Four desktop context menus only; 8px selection corners. Source is an unreleased menu candidate based on v0.68.2; source_commit identifies the exact code, not the v0.68.2 tag.",
+  "scope": "Four desktop context menus only; continuous outer corners and a 5px content inset. Source is the exact v0.68.4 implementation candidate.",
   "reference": {
     "page": "https://512pixels.net/projects/aqua-screenshot-library/macos-27-golden-gate/",
     "image": "https://media.512pixels.net/downloads/macos-screenshots/27/27-Golden-Gate-Finder-Menu.png",
@@ -271,167 +284,103 @@
   },
   "edge_comparison": {
     "reference_edges": [
-      11,
-      8,
-      6,
-      5,
-      4,
-      3,
-      2,
-      2,
-      1,
-      1,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1,
-      2,
-      2,
-      3,
-      4,
-      5,
-      6,
-      8,
-      11
+      17.5,
+      14.5,
+      11.5,
+      10.5,
+      8.5,
+      7.5,
+      6.5,
+      5.5,
+      4.5,
+      4.5,
+      3.5,
+      2.5,
+      2.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
     ],
-    "display_scale": 2,
-    "row_height_physical_pixels": 48,
+    "sample_rows": [
+      1,
+      23
+    ],
+    "scale": 2,
+    "reference_origin": [
+      76,
+      62
+    ],
+    "kde_origin": [
+      36,
+      36
+    ],
     "before": {
-      "left_edge_pixels": [
-        20,
-        16,
-        14,
-        12,
-        10,
-        9,
-        8,
-        7,
-        6,
-        5,
-        4,
-        4,
-        3,
-        3,
-        2,
-        2,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        2,
-        2,
-        2,
-        3,
-        3,
-        4,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        12,
-        14,
-        16,
-        20
+      "edges": [
+        9.5,
+        11.5,
+        9.5,
+        7.5,
+        7.5,
+        5.5,
+        4.5,
+        3.5,
+        3.5,
+        2.5,
+        2.5,
+        2.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
       ],
-      "mean_absolute_edge_error_physical_pixels": 3.5625
+      "mean_absolute_error_physical_pixels": 1.4782608695652173
     },
     "after": {
-      "left_edge_pixels": [
-        13,
-        10,
-        8,
-        6,
-        5,
-        4,
-        3,
-        3,
-        2,
-        2,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        2,
-        2,
-        3,
-        3,
-        4,
-        5,
-        6,
-        8,
-        10,
-        13
+      "edges": [
+        17.5,
+        12.5,
+        10.5,
+        9.5,
+        11.5,
+        6.5,
+        5.5,
+        7.5,
+        6.5,
+        3.5,
+        5.5,
+        4.5,
+        1.5,
+        1.5,
+        3.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        -0.5,
+        1.5,
+        1.5,
+        1.5
       ],
-      "mean_absolute_edge_error_physical_pixels": 0.625
+      "mean_absolute_error_physical_pixels": 1.3478260869565217
     }
   },
   "overlay": {
-    "file": "menu-golden-gate-comparison-7d0c6ed30525.png",
-    "sha256": "7d0c6ed30525dbcf100bb97090dbf2135b2b823b1f2e6965203a287cf74d7e9b",
+    "file": "menu-golden-gate-comparison-1ca9505a3f39.png",
+    "sha256": "1ca9505a3f39ce65d61e885a3a9c37c2498facb1b62328451b9d58e26d7d1b3d",
     "alpha": 0.5,
     "reference_border_crop": [
       64,
@@ -440,32 +389,21 @@
       222
     ],
     "kde_border_crop": [
-      25,
-      25,
-      285,
-      197
-    ],
-    "reference_selection_crop": [
-      74,
-      60,
-      334,
-      132
-    ],
-    "kde_selection_crop": [
-      42,
-      42,
-      302,
-      114
+      24,
+      24,
+      284,
+      196
     ]
   },
   "reviewed": true,
   "coverage_limits": [
-    "Real macOS references are light-mode screenshots; dark KDE menus were visually reviewed separately.",
-    "Outer corner/padding differences remain; selection left-edge comparison does not prove whole-menu pixel equivalence.",
-    "No native code, effect, shader, ABI or backend change; no new distro/SDK matrix run."
+    "Real macOS references are light-mode screenshots; both KDE modes were reviewed separately.",
+    "KDE labels, icons, colors over different backgrounds and menu width are not pixel-identical.",
+    "New public Qt style adapter; no KWin effect, shader or private ABI changes. Native build and actual X11 rendering checked locally; Wayland rendering checked in the disposable VM."
   ],
   "source_files": {
-    "src/offline/kvantum/mac-tahoe-liquid-kde/mac-tahoe-liquid-kdeDark.kvconfig": "398f21e8bcdb16652e622fef4f0c98636e94e43ab795825aa21d4a2f68f194fc",
-    "src/offline/kvantum/mac-tahoe-liquid-kde/mac-tahoe-liquid-kde.kvconfig": "8136a4e737cde2f6aca2c563b64a8e7d06e940d72211fc9f753ff93b5442dcee"
+    "src/offline/menu-style/menu_style.cpp": "58387af6d2051e7f9789185aa01a322744dd7bf584e7e4c289b99eb8a937422e",
+    "src/offline/menu-style/menu_style.json": "86afb2151e9afd1d647607a3c533a5e335aa799e013b39b33b042e07f6e00173",
+    "src/offline/menu-style/CMakeLists.txt": "19423c27496481cb003bc41991b0d472f5c672ba1493fe948774ca81b770d114"
   }
 }
