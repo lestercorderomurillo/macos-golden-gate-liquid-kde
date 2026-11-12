@@ -1,61 +1,76 @@
 {
-  "version": "0.68.3",
-  "source_sha256": "eb67d12fb9f6ffdf90dbba9647b667ca7a0a6555789c04abdf0d2142bf693b0d",
-  "environment": "Qt 6 / Kvantum offscreen rendering; isolated X11 launcher checks; four context menus in disposable KDE neon Plasma/KWin 6.8.1 Wayland guests at 3840x2160 scale 2. Pinned root VM plus private copies of the completed v0.68.2 reference guest overlays.",
+  "version": "0.68.4",
+  "source_sha256": "6900ce1efe2144b82c0294280a7e27cbf6acb7fc2726dba19b14e9aca4b1d395",
+  "environment": "Native Qt 6.11.2/KF6 style build and offscreen checks; private Xvfb/KWin X11 rendering; four menu captures in the pinned KDE neon Plasma/KWin 6.8.1 Wayland VM at 3840x2160, scale 2. Edition-specific prepared base hashes are recorded in capture provenance.",
   "checks": [
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 QT_QPA_PLATFORM=offscreen python3 -m pytest -q -p no:cacheprovider tests/test_menu_rounding.py tests/test_glass_surfaces.py tests/test_installer_wizard.py tests/test_launcher_presets.py; native socket-restricted cases retried outside the sandbox with the same environment: python3 -m pytest -q -p no:cacheprovider tests/test_launcher_presets.py -k test_native_launcher_popup_presets --tb=short",
+      "command": "QT_QPA_PLATFORM=offscreen python -m pytest -q tests/test_continuous_menu.py tests/test_kvantum_step.py tests/test_step_guards.py tests/test_theme_switch.py tests/test_preflight.py tests/test_nix.py; sandbox-blocked cases: XDG_STATE_HOME=/tmp/menu-squircle/test-state QT_QPA_PLATFORM=offscreen python -m pytest -q tests/test_step_guards.py::test_window_decorations_clean_ok_when_writes_succeed tests/test_theme_switch.py::test_scheduled_job_prefers_plasma_bus_over_runtime_socket",
       "result": "passed",
-      "detail": "136 passed in the initial sandbox run; 8 native launcher cases initially failed because the sandbox denied private D-Bus sockets. All 8 passed when rerun outside that sandbox. No implementation edits between runs. Both presets and editions covered."
+      "detail": "199 passed initially; the two environment-blocked cases passed with isolated state and private Unix socket permission. Native adapter compiled with Qt 6.11.2 and KF6WindowSystem; four actual plugin raster/metric/fallback cases passed."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=/tmp/tahoe-menu-reference MAC_TAHOE_NO_UPDATE_CHECK=true python3 bootstrap.py --prepare; PYTHONDONTWRITEBYTECODE=1 QT_QPA_PLATFORM=offscreen python3 -m pytest -q -p no:cacheprovider tests/test_menu_rounding.py tests/test_glass_surfaces.py --tb=short (prepared build/1df010eb1b88d67dfdcf)",
+      "command": "QT_QPA_PLATFORM=offscreen python -m pytest -q tests/test_menu_rounding.py tests/test_glass_surfaces.py tests/test_static.py -k 'menu or kvantum or surface'",
       "result": "passed",
-      "detail": "48 passed against the Golden Gate prepared source."
+      "detail": "54 passed, 23 deselected."
     },
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 /tmp/plasma-menu-reference/capture.py; python3 /tmp/plasma-menu-reference/compare.py",
+      "command": "QT_QPA_PLATFORM=offscreen python -m pytest -q tests/test_kvantum_step.py -k 'continuous_menu or missing_menu'",
       "result": "passed",
-      "detail": "Four visually reviewed desktop context-menu frames, both editions and appearance modes. Verified installed Kvantum configuration, wallpaper and preset. Genuine edition-specific macOS screenshots aligned without stretching and blended at 50/50 opacity. Selected-row left-edge error reduced from 2.875 to 0.125 physical pixels for Tahoe and 3.5625 to 0.625 for Golden Gate."
+      "detail": "2 passed; install/reinstall/uninstall and failed activation preserve the distro-owned engine."
     },
     {
-      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q -p no:cacheprovider tests --tb=short",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=/tmp/tahoe-menu-reference MAC_TAHOE_NO_UPDATE_CHECK=true python bootstrap.py --prepare; QT_QPA_PLATFORM=offscreen python -m pytest -q tests/test_continuous_menu.py tests/test_glass_surfaces.py (prepared build/e7feb5b65af22086063e)",
       "result": "passed",
-      "detail": "97 passed in 1.02s"
+      "detail": "34 passed against the prepared Golden Gate source."
     },
     {
-      "command": "python3 /tmp/plasma-menu-reference/pin.py",
+      "command": "python /tmp/menu-squircle/x11-run.py",
       "result": "passed",
-      "detail": "Downloaded the immutable published Tahoe commit archive; verified SHA-256, VERSION, edition support and local release tag before updating upstream.json."
+      "detail": "Private Xvfb + actual KWin X11; asserted compositor process identity, exact Acrylic Glass module mapping, active compositing and loaded effect. The MacTahoe style library loaded and the continuous translucent menu rendered visibly. Reviewed frame SHA-256 2ded8202065a56d3406aca6fef5415078a9878a711636d9ef08d4060cb200305."
+    },
+    {
+      "command": "python /tmp/menu-squircle/capture.py; python /tmp/menu-squircle/compare.py",
+      "result": "passed",
+      "detail": "Four reviewed context-menu frames in disposable KDE neon Wayland guests; edition wallpaper/preset, appearance, window identity and stable frames verified. Separate real macOS 26 and 27 references, same-scale border alignment and 50/50 blends reviewed."
+    },
+    {
+      "command": "python /tmp/menu-squircle/pin.py",
+      "result": "passed",
+      "detail": "Verified the published immutable Tahoe commit archive SHA-256, VERSION, edition defaults support and new menu style source before updating the pin."
+    },
+    {
+      "command": "python -m pytest -q tests",
+      "result": "passed",
+      "detail": "97 passed in 0.98s"
     }
   ],
-  "gallery_commit": "6ccb52b3798573b9ac626f85a25e9a99be6fca34",
+  "gallery_commit": "94abc17761ce683c172e2d71e666599a78149025",
   "captures": [
     {
-      "path": "src/screenshots/context_menu_v1-65cf256e1c14.webp",
-      "sha256": "65cf256e1c14575d8baee05655881a101652714376773d7e63b85e988ffd48d0",
+      "path": "src/screenshots/context_menu_v1-e6ca2a5cb614.webp",
+      "sha256": "e6ca2a5cb61480dd45da77c1604d691a8b18b1d675a9998eed956395ae9cd122",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/context_menu_dark_v1-fca3a060a275.webp",
-      "sha256": "fca3a060a2755cca9bcb0fe88bdd61d9326f534f556a5e20fd456c1711884b13",
+      "path": "src/screenshots/context_menu_dark_v1-8a45ee26d13f.webp",
+      "sha256": "8a45ee26d13fd80d471119157b1b364708a3dbc2d95439906aac271dd84b70eb",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/menu-golden-gate-comparison-7d0c6ed30525.png",
-      "sha256": "7d0c6ed30525dbcf100bb97090dbf2135b2b823b1f2e6965203a287cf74d7e9b",
+      "path": "src/screenshots/previews/menu-golden-gate-comparison-1ca9505a3f39.png",
+      "sha256": "1ca9505a3f39ce65d61e885a3a9c37c2498facb1b62328451b9d58e26d7d1b3d",
       "reviewed": true
     }
   ],
   "component_capture_review": {
-    "provenance": "src/screenshots/previews/menu-golden-gate-provenance-48b0e741ce31.json",
+    "provenance": "src/screenshots/previews/menu-golden-gate-provenance-25f739229882.json",
     "reviewed": true
   },
   "coverage_limits": [
-    "Selection corners match the measured references; outer menu padding remains 9px versus approximately 5px in the macOS references. No whole-menu pixel-identical match is claimed.",
-    "Real macOS references are light mode; dark KDE menus were reviewed separately. Colors depend on wallpaper and edition material.",
-    "No native implementation, shader, ABI or backend change. No additional SDK or distro matrix was launched.",
-    "Captures identify unreleased implementation dc75083, whose VERSION was still 0.68.2; subsequent source changes are version/documentation/release bookkeeping only.",
-    "Full remote CI remains asynchronous on dev and is not counted as passed here. Unrelated photos and the v0.68.2 Dock delivery retain their original provenance."
+    "Only menu geometry and its Qt style integration changed; no KWin effect, shader or private SDK/ABI implementation changed. No duplicate full distro matrix was launched.",
+    "References are real light-mode macOS screenshots. Dark KDE surfaces were reviewed separately. Labels, icons, width and background-dependent colors are not pixel-identical.",
+    "The first VM run retained a pre-install style factory and showed Breeze; those frames were rejected. Storage/socket-path fixture failures and Baloo notifications were corrected before accepting the final four frames.",
+    "A preliminary Xwayland probe used the X11-only effect module and failed; it was superseded by the successful actual KWin X11 check. Wayland behavior was validated in the disposable VM.",
+    "Full remote CI for this delivery remains asynchronous on dev and is not counted as passed here. The preceding v0.68.3 dev run 43157290527 passed. Unrelated photographs retain their original provenance."
   ]
 }
