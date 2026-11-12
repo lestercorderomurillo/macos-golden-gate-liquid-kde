@@ -21,6 +21,16 @@ Overlays combine 50% of the real macOS picture with 50% of the KDE capture.
 Reference screenshots remain third-party imagery, not theme assets or project
 artwork. Their URLs, original hashes and crop coordinates accompany the overlays.
 
+## Reviewed comparison
+
+![Real reference, KDE menu and 50/50 overlay](../src/screenshots/previews/menu-golden-gate-comparison-7d0c6ed30525.png)
+
+The mean left-edge difference on the 48-pixel selection row decreased from
+3.562 to 0.625 physical pixels at 2×. This measures only the selection
+corner, not text or the full menu. [Capture and reference provenance](../src/screenshots/previews/menu-golden-gate-provenance-48b0e741ce31.json)
+records the exact source, original reference hashes and crop coordinates.
+The real reference is light mode; both KDE appearance modes were reviewed.
+
 ## Limits
 
 This is a selection-shape correction, not a claim of pixel-identical menus.

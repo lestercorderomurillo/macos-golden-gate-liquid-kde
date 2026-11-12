@@ -153,10 +153,11 @@ Hardware, software and theme details in About This Computer.
 ### Plasma Theme
 
 Translucent menus and popups with matching light and dark colors.
+[Real macOS reference comparison](docs/menu-reference-comparison.md).
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-4d88b56a0078.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-8dffa78b5d49.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/context_menu_v1-65cf256e1c14.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/context_menu_dark_v1-fca3a060a275.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>
