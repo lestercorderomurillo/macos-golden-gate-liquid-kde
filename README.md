@@ -197,7 +197,7 @@ Here’s what you’ll find when you make yourself at home.
 
 ![Getting started](https://img.shields.io/badge/getting-started-3B7B5B?style=for-the-badge&logo=gnubash&logoColor=white)
 
-Clone the current files with history available on demand:
+Download and open the installer:
 
 ```bash
 git clone --filter=blob:none https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde.git
@@ -205,13 +205,13 @@ cd macos-golden-gate-liquid-kde
 ./installer
 ```
 
-Run `./installer` for Express installation or updates; uncheck **Reset Dock and panel customization** on later reinstalls to keep your changes.
-Run `./installer --free-space` to free storage while preserving `.git` and local work.
+Choose **Express** to install. Open `./installer` again to update or uninstall.
+When reinstalling, uncheck **Reset Dock and panel customization** to keep your layout.
 
-Install and uninstall through one graphical wizard:
+To free disk space while keeping your Git checkout and local work:
 
 ```bash
-./installer
+./installer --free-space
 ```
 
 | Installer language | Status |
