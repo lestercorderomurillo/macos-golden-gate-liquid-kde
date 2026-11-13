@@ -1,13 +1,13 @@
 # Installer testing
 
-Golden Gate **v0.71.3** uses a smooth circular installer progress indicator.
+Golden Gate **v0.71.5** includes the refined Tahoe Applications launcher, glass options
+menu and icon edge highlights. Golden Gate retains its own launcher appearance.
 
-Wizard/progress checks passed on the host and in a disposable Plasma 6.8.1
-VM. Scoped installation/reinstallation, light/dark animation and visibility
-timer checks passed; both progress views were reviewed. Golden Gate's staged
-wizard checks also passed. See [commands and coverage limits](release-evidence.json).
-Historical installer photographs below retain their original provenance and
-may show the previous spinner.
+Ten native launcher/catalog checks passed across both editions and appearance
+modes. Focused Tahoe installation/reinstallation and staged Golden Gate installation
+passed in a disposable Plasma 6.8.1 VM. The four README launcher photographs
+were refreshed with each edition’s defaults and wallpaper; other photographs
+retain their original provenance. See [commands, reference and coverage limits](release-evidence.json).
 
 [Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
 
