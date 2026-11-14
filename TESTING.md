@@ -1,13 +1,14 @@
 # Installer testing
 
-Golden Gate **v0.71.7** synchronizes manual and automatic desktop appearance and
-repairs Launcher preset sizing, options-menu input and stale icon artwork.
+Golden Gate **v0.71.8** keeps progress minimal and places the English phase summary
+inside **Show details**. Installer transactions, cancellation, process completion
+and diagnostic log storage are guarded against overlapping or incomplete work.
 
-Both editions passed disposable Plasma VM install/reinstall, rapid changes and
-actual dusk/dawn transitions. Native input/rendering tests include 150% scaling;
-the [qualified implementation CI](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/43620244461)
-passed both test shards, Nix and eleven distro jobs. See the recorded
+Focused regressions passed, alongside disposable Plasma VM install/reinstall and
+concurrent-run rejection in both editions. Light/dark native progress frames were
+reviewed; these represent UI states, not full desktop installations. See the
 [commands, source identities and coverage limits](release-evidence.json).
+The complete [dev CI](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/workflows/test.yml) runs separately.
 Photographs retain their original capture provenance.
 
 [Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
