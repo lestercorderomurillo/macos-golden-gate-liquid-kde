@@ -116,6 +116,21 @@ This standing workflow supersedes older wording that ends delivery while CI is
 still pending. Publication can precede the complete matrix, but task completion
 requires checking its outcome and resolving relevant failures.
 
+## Appearance synchronization qualification
+
+Every shipped plasmoid, glass surface and menu must follow the effective system
+appearance in both editions. Qualify light, dark and automatic mode, including
+an actual automatic boundary crossing; choosing auto without observing its
+transition is not a pass. Keep Qt/Kvantum and GTK 3/4 applications open while
+switching through native KDE settings, the standalone switcher and supported
+GTK preferences. Exercise rapid successive and overlapping selections and prove
+that the latest selection wins without stale surfaces, palettes or controls.
+A manual selection supersedes the project schedule; native KDE automatic mode
+keeps KDE's scheduler authoritative. Preserve saved material optics, window
+controls, user wallpapers and unrelated preferences. Never test on the host.
+Record installed source fingerprints, application continuity, rendered evidence
+and the exact VM/SDK coverage; configuration readback alone is insufficient.
+
 ## Review and merge qualification
 
 Every implementation release requires a focused install/reinstall check in at

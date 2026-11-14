@@ -113,3 +113,10 @@ The index reads tracked source locally and never changes files or contacts an
 AI service. Output is bounded by default; `--all` emits the full graph. Dynamic
 imports and native dependencies still require review. This is a navigation
 tool, not an automatic test-skipping gate.
+
+## Appearance synchronization
+
+Both editions share Tahoe's system appearance follower. Native KDE and GTK
+selections synchronize the installed components; `mac-tahoe-theme-switch auto`
+selects the 06:00/18:00 schedule, and a later manual selection supersedes it.
+See the [implementation and qualification scope](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/appearance-sync.md).
