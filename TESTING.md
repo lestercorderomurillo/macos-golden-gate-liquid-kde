@@ -1,13 +1,14 @@
 # Installer testing
 
-Golden Gate **v0.71.6** fixes preset 1 showing the old launcher when installed
-from Golden Gate. The current Tahoe layout follows the selected preset while
-materials continue to follow the installed edition.
+Golden Gate **v0.71.7** synchronizes manual and automatic desktop appearance and
+repairs Launcher preset sizing, options-menu input and stale icon artwork.
 
-Focused launcher, edition-transition and Nix checks passed. Native popup checks
-cover both presets, editions and modes; installation/reinstallation was checked
-in a disposable Plasma VM. Photographs retain their original capture provenance.
-See [commands and coverage limits](release-evidence.json).
+Both editions passed disposable Plasma VM install/reinstall, rapid changes and
+actual dusk/dawn transitions. Native input/rendering tests include 150% scaling;
+the [qualified implementation CI](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/43620244461)
+passed both test shards, Nix and eleven distro jobs. See the recorded
+[commands, source identities and coverage limits](release-evidence.json).
+Photographs retain their original capture provenance.
 
 [Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
 

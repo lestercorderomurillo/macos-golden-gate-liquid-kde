@@ -1,37 +1,23 @@
 {
-  "version": "0.71.6",
-  "source_sha256": "4973b3cb7124d5a977d579566437c927cd4ee37e078cbc8fc9e9643b7c220c57",
-  "environment": "Disposable KDE neon Plasma 6.8.1 / Qt 6.11.1, Wayland render and isolated Xvfb executable regression checks.",
+  "version": "0.71.7",
+  "environment": "plasmashell 6.8.1\n6.11.1\nGTK 3 24 41\nGTK 4 14 5; disposable KDE neon Wayland/KVM/virgl.",
   "checks": [
     {
-      "command": "python3 -m pytest -q tests/test_launcher_presets.py",
+      "command": "python3 -m pytest tests/test_bootstrap.py tests/test_local_updates.py tests/test_release_update.py tests/test_source_archive.py tests/test_git_process_maintenance.py tests/test_maintenance.py -q",
       "result": "passed",
-      "detail": "66 passed; preset 1 current layout exercised in both editions and appearance modes, including grid, categories, favorites, options and preset switching."
+      "detail": "96 passed in 1.00s; unchanged wrapper implementation, release fallback, checksum, version and local staging behavior.",
+      "log_sha256": "8396645910ef15311cb11efb73c8e625d36fc1fd3adda1dcef030521448a0396"
     },
     {
-      "command": "python3 -m pytest -q tests/test_edition_transition.py tests/test_nix.py",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<qualified Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; apply_launcher_default to a temporary package; compare its seven Launcher files with recorded installed VM hashes",
       "result": "passed",
-      "detail": "18 passed."
+      "detail": "Wrapper-prepared Golden Gate source after the installer edition-default transform matches all seven final disposable-VM installed Launcher hashes.",
+      "record_sha256": "00eabc5803468efa45745bde1680230061e9678523fd6db8824af7f957ecd0a5"
     },
     {
-      "command": "Guest: python3 -m pytest -q tests/test_launcher_presets.py -k native_launcher_popup_presets",
+      "command": "Download immutable Tahoe tag archive; verify SHA-256, VERSION, launcher_defaults.py, MacGoldenGate support and shared implementation bytes",
       "result": "passed",
-      "detail": "8 passed, 58 deselected; fresh disposable Plasma VM overlay, both editions/presets/modes."
-    },
-    {
-      "command": "Guest: sudo env MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py install --only --plasmoids --plasma-theme --wallpapers --no-apply-theme; repeat",
-      "result": "passed",
-      "detail": "Golden Gate staged defaults; install and reinstall exited 0. Logs: /tmp/launcher-0716-vm/qualification-install.log"
-    },
-    {
-      "command": "python3 -m pytest -q tests/test_bootstrap.py",
-      "result": "passed",
-      "detail": "40 passed; wrapper staging, fallback, checksum and version regressions."
-    },
-    {
-      "command": "Verify immutable Tahoe archive SHA-256, VERSION, launcher_defaults.py and MacGoldenGate support",
-      "result": "passed",
-      "detail": "Pinned 1d04e5ceb2f5e4cc65cd6849327628db515a9a8d; downloaded archive verified."
+      "detail": "Verified Tahoe 043205d615d54234776ba49056ee1cd6154246ca; archive SHA-256 1dc9c41b70f1b476ff1f239235ca6d71479360e77922e2d7ac0357d8a4167279"
     }
   ],
   "gallery_commit": "a3e02f6e9ed93bd7a8d00773466128c9eb18effe",
@@ -47,91 +33,82 @@
       "reviewed": true
     }
   ],
-  "reference": {
-    "reference_url": "https://www.macrumors.com/how-to/do-more-with-spotlight-in-macos-tahoe/",
-    "reference_image": "https://images.macrumors.com/article-new/2025/09/apps-app-macos.jpg",
-    "reference_sha256": "f1f11d7d3d7efdfd66321732d03f1b46bf954ea2ffd2378b7fb4758b0366c4da"
+  "historical_capture_note": "Documentation photographs retain their original source identities and hashes. New focused Launcher and appearance validation is recorded separately in the pinned Tahoe evidence; no gallery refresh or relabelling.",
+  "upstream_qualification": {
+    "commit": "043205d615d54234776ba49056ee1cd6154246ca",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/043205d615d54234776ba49056ee1cd6154246ca/release-evidence.json",
+    "source_sha256": "2ccdc8f680f4727b79ffed5f2280e88fe85b849aa3e9ae7dcf30ae78694c627c",
+    "evidence_sha256": "b011ab38bff6d7953f591d5c17ba33e4a0b34aac0760a88f116883d3a6eb406a",
+    "reuse": "The release adds only TESTING.md to the qualified d1e5797f977a7f36dbcb632e2d40bef210a023db implementation. Its recorded source fingerprint, installer inputs and VM-tested component bytes are unchanged. The historical qualification record predates release authorization; final CI is linked below.",
+    "ci": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/43620244461",
+    "ci_result": "passed"
   },
   "local_vm_qualification": {
-    "vm_image_sha256": "412e7933f10add20b921b92c02709e7eea56acd14dc14cf654f58fba4ea3cc9d",
-    "source_commit": "fb3d66f54200389d75434150e883dcb30ddf3daf",
-    "source_archive_sha256": "e43881a502e92d0d8f0f0d43a28ed675c57e99b5291f50f5f6c584302337f1e0",
-    "runtime_sources": {
-      "component-hashes.json": "ad5a2e1d955c12fa9929367581d7a20fb9dc16e868ed6fdeb868668c63f56dca",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/locale/de/LC_MESSAGES/plasma_applet_org.kde.mac-tahoe-liquid-kde.launcher.mo": "d8d587d34e002417f4135aa891f49183315040e50374c66b2ad7319effecbf87",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.mac-tahoe-liquid-kde.launcher.mo": "b8bc9d30578a0f11adab30de4bf2d99fb50da6fcd2369813035c3415d935ccf3",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/AppGridView.qml": "8941cc40114e8bab9cad66fe87b9cdced0c78c0a8ed7469e060c66f34caa1bcf",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/AppGridViewDelegate.qml": "7c01e6bd4381192d2e764ad335f1e54dda9a9be1966acf5f5f44f04a2e23738c",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/MenuButton.qml": "4822364dbe6d0b4f6375c7c7497b9144d67f61236233e6bb28c42c3b1ce28d2a",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/SearchBar.qml": "090c72e422d126cfe2ea4007d56d4d8445cbe864c3237e767c3daa95b3d696d3",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/TahoeOptionsMenu.qml": "1004420f872511b77e331c4bdcec3fdc91bb2a7fbcb9cb2ebd5a9cb7509e80e6",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/po/de.po": "4ded5dd448922591f3643481f048cb2334370cea7a5b74bfd6934a5eebd2b99b",
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/po/pt_BR.po": "bef8e03e0ea8e4e50a361d443bc4fffe5990342c40464a5d7d6d0c21b8e1a83e",
-      "src/scripts/locales/de.json": "bafe16989e6d0f30fa80ce76a67e524d34a01b3b12e61c2066262cb1f006541f",
-      "src/scripts/locales/pt_BR.json": "0463d8fa5f69fd11bc58b811c1c678b27ac94f3a923bed122a1cfdcb5839b8a5",
-      "tests/qml/LauncherPresetProbe.qml": "498a94d5e704f4ebd2baf3a5ec738b2d6ade88a8724ff854319e9be8a307a460",
-      "tests/test_launcher_presets.py": "de10119015afe294ecc5b6e81c8c4d486106061bc9af63d63b7af4531118c160"
+    "environment": "KDE neon Plasma 6.8.1 / Qt 6.11.1, Wayland, KVM/virgl, 3840x2160 at 200%. Local native input/buffer checks use isolated Xvfb at 100% and 150%. Host CachyOS Plasma 6.7.4 is not modified; identical distro/GPU or a full X11 desktop VM is not claimed.",
+    "commands": {
+      "install-tahoe.sh": "cd ~/release-capture/source\nsudo timedatectl set-ntp true\nsudo apt-get install -y gir1.2-adw-1 > ~/appearance-deps.log 2>&1\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py install --only --theme-switch --plasmoids --globalmenu --kvantum --plasma-theme --color-schemes --gtk --global-theme --window-decorations --wallpapers --light --apply-theme > ~/appearance-tahoe-install.log 2>&1\n",
+      "install-golden.sh": "cd ~/release-capture/source\ntar --warning=no-timestamp -xf ~/golden-source.tar\nsudo timedatectl set-ntp true\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py install --only --theme-switch --plasmoids --globalmenu --kvantum --plasma-theme --color-schemes --gtk --global-theme --window-decorations --wallpapers --light --apply-theme > ~/appearance-golden-install.log 2>&1\n",
+      "reinstall.sh": "cd ~/release-capture/source\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py install --only --theme-switch --light --apply-theme > ~/appearance-tahoe-reinstall.log 2>&1\npython3 - <<'PY'\nimport subprocess,os\nfrom pathlib import Path\nwith (Path.home()/'appearance-probe/3.log').open('w') as log:\n subprocess.Popen(['python3','tests/vm/appearance_about_probe.py'],stdin=subprocess.DEVNULL,stdout=log,stderr=log,start_new_session=True,env={**os.environ,'QT_QPA_PLATFORM':'wayland','QT_FORCE_STDERR_LOGGING':'1'})\nPY\n",
+      "lifecycle.sh": "cd ~/release-capture/source\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py uninstall --only --theme-switch > ~/appearance-uninstall.log 2>&1\npython3 - <<'PY'\nfrom pathlib import Path\nimport subprocess,os\nhome=Path.home()\nfor name in ('.local/bin/mac-tahoe-theme-switch','.config/autostart/mac-tahoe-liquid-kde-gtk-sync.desktop','.local/state/mac-tahoe-liquid-kde/appearance.json'):\n assert not (home/name).exists(),name\nfor proc in Path('/proc').iterdir():\n if proc.name.isdigit():\n  try:\n   args=(proc/'cmdline').read_bytes().split(b'\\0')\n   assert not (str(home/'.local/bin/mac-tahoe-theme-switch').encode() in args and b'watch-system' in args),args\n  except (OSError,PermissionError):pass\nprint('uninstall removed follower, autostart and state')\nPY\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 python3 src/scripts/installer_backend.py install --only --theme-switch --light --apply-theme > ~/appearance-golden-reinstall.log 2>&1\npython3 - <<'PY'\nimport time,json\nfrom pathlib import Path\np=Path.home()/'.local/state/mac-tahoe-liquid-kde/appearance.json'\nfor _ in range(60):\n if p.exists() and json.loads(p.read_text()).get('applied')=='light':break\n time.sleep(.25)\nelse:raise AssertionError('reinstalled follower did not apply light')\nassert (Path.home()/'.config/autostart/mac-tahoe-liquid-kde-gtk-sync.desktop').exists()\nprint('reinstall restored follower and reconciled light')\nPY\n",
+      "preserve.py": "import json,os,subprocess,time,configparser\nfrom pathlib import Path\nassert Path('/sys/class/dmi/id/product_name').read_text().strip()=='MTTKDE release capture'\nhome=Path.home()\ndef run(*args):subprocess.run(args,check=True,stdout=subprocess.DEVNULL)\ndef snapshot():\n p=configparser.ConfigParser();p.optionxform=str;p.read(home/'.config/kwinrc')\n return dict(p['Effect-liquidglass'])\ndef wait(mode):\n for _ in range(160):\n  state=json.loads((home/'.local/state/mac-tahoe-liquid-kde/appearance.json').read_text())\n  if state.get('applied')==mode and not state.get('pending'):return state\n  time.sleep(.25)\n raise AssertionError(state)\nsettings={'BlurStrength':'6.25','RefractionWidth':'13.5','GradientTopOpacity':'0.73','PopupCornerRadius':'11.75'}\noriginal=snapshot()\nfor key,value in settings.items():run('kwriteconfig6','--file','kwinrc','--group','Effect-liquidglass','--key',key,value)\nexpected=snapshot()\npids=[]\nfor name in ('appearance-probe','appearance-plasmoids'):\n for record in json.loads((home/name/'processes.json').read_text()):\n  p=Path('/proc')/str(record['pid'])/'stat';pids.append((str(p),p.read_text().split(') ',1)[1].split()[19]))\nrun('kwriteconfig6','--file','kdeglobals','--group','KDE','--key','AutomaticLookAndFeel','true')\nresults=[]\nfor mode in ('light','dark'):\n run('plasma-apply-colorscheme','MacTahoeLiquidKde'+mode.title())\n state=wait(mode)\n assert state['preference']=='native-auto',state\n assert snapshot()==expected\n for name,identity in pids:assert Path(name).read_text().split(') ',1)[1].split()[19]==identity\n results.append({'mode':mode,'state':state,'optics':snapshot(),'processes':pids})\n(home/'appearance-preservation.json').write_text(json.dumps(results,indent=2))\nfor key in settings:\n if key in original:run('kwriteconfig6','--file','kwinrc','--group','Effect-liquidglass','--key',key,original[key])\n else:run('kwriteconfig6','--file','kwinrc','--group','Effect-liquidglass','--key',key,'--delete')\nrun('qdbus6','org.kde.KWin','/KWin','org.kde.KWin.reconfigure')\nprint('native auto, saved optics and persistent application identities passed')\n",
+      "auto-dark.sh": "sudo timedatectl set-ntp false\nsudo date -s '2026-01-01 17:59:00' >/dev/null\n~/.local/bin/mac-tahoe-theme-switch auto > ~/appearance-auto.log 2>&1\nsudo date -s '2026-01-01 17:59:58' >/dev/null\npython3 - <<'PY'\nimport json,time\nfrom pathlib import Path\nfor _ in range(180):\n s=json.loads((Path.home()/'.local/state/mac-tahoe-liquid-kde/appearance.json').read_text())\n if s.get('preference')=='auto' and s.get('applied')=='dark':break\n time.sleep(.25)\nelse:raise AssertionError(s)\nprint('automatic dusk passed')\nPY\n",
+      "auto-light.sh": "sudo date -s '2026-01-02 05:59:58' >/dev/null\npython3 - <<'PY'\nimport json,time\nfrom pathlib import Path\nfor _ in range(180):\n s=json.loads((Path.home()/'.local/state/mac-tahoe-liquid-kde/appearance.json').read_text())\n if s.get('preference')=='auto' and s.get('applied')=='light':break\n time.sleep(.25)\nelse:raise AssertionError(s)\nprint('automatic dawn passed')\nPY\n"
     },
-    "reviewed_frames": {
-      "tahoe-light-launcher": {
-        "sha256": "b4352b269621acf1a9b4668393a6f752ac1d60b38ff4b591e45b1a1a797dff83",
-        "reviewed": true
-      },
-      "tahoe-dark-launcher": {
-        "sha256": "4accc31b8e8f55d91918a267996afd48cf4aaf3ed317965e1556cb402e6a1eec",
-        "reviewed": true
-      },
-      "golden-gate-light-launcher": {
-        "sha256": "36540af1dfcae286f2ce2e9281afe9cdf711647f5f38a00c7643cc2c24957bff",
-        "reviewed": true
-      },
-      "golden-gate-dark-launcher": {
-        "sha256": "36af596b6f0149e1ca3734b2970114c9c78e18c01712cff64899185566593d36",
-        "reviewed": true
-      }
+    "launcher_commands": {
+      "restore-desktop.sh": "cd ~/release-capture/source\nPYTHONPATH=src/scripts python3 - <<'PY'\nfrom release_capture_guest import plasma\nplasma('panels().forEach(p=>p.widgets().filter(w=>w.type===\"org.kde.mac.tahoe.liquid.taskmanager\").forEach(w=>w.remove()));')\nPY\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 MTTKDE_WIZARD_OPTIONS='{\"reset_layout\":true,\"appearance\":\"light\"}' python3 src/scripts/installer_backend.py install --only --layout --fonts --icons --plasma-theme --color-schemes --kvantum --global-theme --window-decorations --wallpapers --acrylic-glass --light --reset-wallpapers --apply-theme > ~/launcher-desktop-restore.log 2>&1\n",
+      "install-launcher-golden.sh": "cd ~/release-capture/source\ntar --warning=no-timestamp -xf ~/launcher-golden-fix.tar\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 MTTKDE_WIZARD_OPTIONS='{\"appearance\":\"light\",\"reset_layout\":true}' python3 src/scripts/installer_backend.py install --only --layout --plasmoids --kvantum --plasma-theme --color-schemes --gtk --global-theme --window-decorations --wallpapers --acrylic-glass --light --reset-wallpapers --apply-theme > ~/launcher-golden-install.log 2>&1\npython3 tests/vm/launcher_presets.py --output ~/launcher-golden-geometry.json > ~/launcher-golden-geometry.log 2>&1\n",
+      "install-launcher-fix.sh": "cd ~/release-capture/source\ntar --warning=no-timestamp -xf ~/launcher-fix.tar\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 MTTKDE_WIZARD_OPTIONS='{\"appearance\":\"light\",\"reset_layout\":false}' python3 src/scripts/installer_backend.py install --only --plasmoids --light --apply-theme > ~/launcher-fix-install.log 2>&1\n",
+      "install-launcher-tahoe.sh": "cd ~/release-capture/source\ntar --warning=no-timestamp -xf ~/launcher-tahoe-fix.tar\nsudo env DBUS_SESSION_BUS_ADDRESS=\"$DBUS_SESSION_BUS_ADDRESS\" XDG_RUNTIME_DIR=\"$XDG_RUNTIME_DIR\" WAYLAND_DISPLAY=\"$WAYLAND_DISPLAY\" DISPLAY=\"$DISPLAY\" MAC_TAHOE_NO_UPDATE_CHECK=true MTTKDE_NO_CONFIRM=1 MTTKDE_WIZARD_OPTIONS='{\"appearance\":\"light\",\"reset_layout\":true}' python3 src/scripts/installer_backend.py install --only --layout --plasmoids --kvantum --plasma-theme --color-schemes --gtk --global-theme --window-decorations --wallpapers --acrylic-glass --light --reset-wallpapers --apply-theme > ~/launcher-tahoe-final-install.log 2>&1\npython3 tests/vm/launcher_presets.py --output ~/launcher-tahoe-geometry.json > ~/launcher-tahoe-geometry.log 2>&1\n",
+      "live-launcher.py": "import hashlib,json,subprocess,time,sys\nfrom pathlib import Path\nfrom PIL import Image\nart=Path(__file__).resolve().parent\nconnection=json.loads((art/'connection.json').read_text())\nedition=sys.argv[1]\ndef guest(script):\n guard='set -e\\ntest \"$(cat /sys/class/dmi/id/product_name)\" = \"MTTKDE release capture\"\\nexport XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus WAYLAND_DISPLAY=wayland-1 DISPLAY=:0 XDG_CURRENT_DESKTOP=KDE QT_QPA_PLATFORMTHEME=kde\\ncd ~/release-capture/source\\n'\n return subprocess.check_output(connection['ssh']+['bash -s'],input=guard+script,text=True)\ndef states():\n return json.loads(guest(\"PYTHONPATH=src/scripts python3 - <<'PY'\\nfrom release_capture_guest import windows\\nimport json\\nprint(json.dumps(windows()))\\nPY\\n\"))\ndef qmp(*args):\n subprocess.run([sys.executable,str(art/'input.py'),json.dumps(args)],check=True,stdout=subprocess.DEVNULL)\ndef panel():\n s=[w['geometry'] for w in states() if w['appletPopup'] and not w['hidden']]\n p=next(w for w in s if w['height']>250)\n for c in s:\n  if c['height']<200: assert abs(c['width']/p['width']-.617)<.01,(p,c)\n return p\ndef menu(preset):\n s=states()\n p=next(w['geometry'] for w in s if w['appletPopup'] and not w['hidden'] and ((w['geometry']['height']<200)==(preset==2)))\n x=p['x']+p['width']-(54 if preset==2 else 30)\n y=p['y']+(p['height']/2 if preset==2 else 28)\n qmp('click',round(2*x),round(2*y));time.sleep(.3)\n return next(w['geometry'] for w in states() if w['resourceClass']=='org.kde.plasmashell' and w['type']==0 and w['geometry']['width']<250 and not w['hidden'])\ndef choose(m,preset):\n qmp('click',round((m['x']+80)*2),round((m['y']+(124 if preset==1 else 148))*2));time.sleep(.4)\n p=panel();assert abs(p['width']-(636 if preset==1 else 1028))<=1,p\n result.append({'action':'menu-select','preset':preset,'kwin_panel':p})\ndef capture(name):\n guest('spectacle -b -n -f -o ~/launcher-frame.png >/dev/null 2>&1\\n')\n p=art/name\n subprocess.run(connection['scp']+['tester@127.0.0.1:/home/tester/launcher-frame.png',str(p)],check=True)\n return p\nresult=[]\nguest(\"PYTHONPATH=src/scripts python3 - <<'PY'\\nfrom release_capture_guest import windows\\nwindows('workspace.windowList().filter(w=>w.windowType===0 && String(w.resourceClass)!==\\\"org.kde.plasmashell\\\").forEach(w=>w.closeWindow());')\\nPY\\n\")\n# Start from the installed preset 2 left open by launcher_presets.py.\nfor mode in ('light','dark'):\n guest('~/.local/bin/mac-tahoe-theme-switch '+mode+'\\n')\n time.sleep(.5)\n if not any(w['appletPopup'] and not w['hidden'] for w in states()):\n  guest('qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.activateLauncherMenu\\n');time.sleep(.5)\n for preset in (2,1):\n  m=menu(preset)\n  qmp('move',round((m['x']+50)*2),round((m['y']+67)*2));time.sleep(.25)\n  hovered=capture(f'launcher-{edition}-preset{preset}-{mode}-hover.png')\n  rgb=Image.open(hovered).convert('RGB').getpixel((round((m['x']+12)*2),round((m['y']+67)*2)))\n  assert rgb[2]>180 and rgb[0]<40 and rgb[1]>90,(m,rgb)\n  qmp('move',3400,1900);time.sleep(.25)\n  frame=capture(f'launcher-{edition}-preset{preset}-{mode}.png')\n  outside=Image.open(frame).convert('RGB').getpixel((round((m['x']+12)*2),round((m['y']+67)*2)))\n  assert not(outside[2]>180 and outside[0]<40 and outside[1]>90),(m,outside)\n  result.append({'case':f'{mode}-preset{preset}','kwin_menu':m,'kwin_panel':panel(),'hover_pixel':rgb,'outside_pixel':outside,'frame':frame.name,'sha256':hashlib.sha256(frame.read_bytes()).hexdigest()})\n  choose(m,1 if preset==2 else 2)\n(art/f'launcher-{edition}-live.json').write_text(json.dumps(result,indent=2)+'\\n')\nprint(json.dumps(result))\n",
+      "auto-launcher.py": "import subprocess,sys,json\nfrom pathlib import Path\nart=Path(__file__).resolve().parent; edition=sys.argv[1]\ndef call(*args):subprocess.run([sys.executable,*map(str,args)],check=True)\nfor mode in ('dark','light'):\n call(art/'control.py','run',art/f'auto-{mode}.sh')\n call(art/'control.py','run',art/'open-preset2.sh')\n call(art/'input.py',json.dumps(['click',2444,434]))\n call(art/'input.py',json.dumps(['move',3400,1900]))\n call(art/'control.py','run',art/'capture.sh')\n call(art/'control.py','get','/home/tester/appearance-frame.png',art/f'launcher-{edition}-auto-{mode}.png')\n call(art/'input.py',json.dumps(['key','esc']))\n",
+      "auto-dark.sh": "sudo timedatectl set-ntp false\nsudo date -s '2026-01-01 17:59:00' >/dev/null\n~/.local/bin/mac-tahoe-theme-switch auto > ~/appearance-auto.log 2>&1\nsudo date -s '2026-01-01 17:59:58' >/dev/null\npython3 - <<'PY'\nimport json,time\nfrom pathlib import Path\nfor _ in range(180):\n s=json.loads((Path.home()/'.local/state/mac-tahoe-liquid-kde/appearance.json').read_text())\n if s.get('preference')=='auto' and s.get('applied')=='dark':break\n time.sleep(.25)\nelse:raise AssertionError(s)\nprint('automatic dusk passed')\nPY\n",
+      "auto-light.sh": "sudo date -s '2026-01-02 05:59:58' >/dev/null\npython3 - <<'PY'\nimport json,time\nfrom pathlib import Path\nfor _ in range(180):\n s=json.loads((Path.home()/'.local/state/mac-tahoe-liquid-kde/appearance.json').read_text())\n if s.get('preference')=='auto' and s.get('applied')=='light':break\n time.sleep(.25)\nelse:raise AssertionError(s)\nprint('automatic dawn passed')\nPY\n"
     },
-    "menu_previews": {
-      "light.png": {
-        "sha256": "656bc579fc6839aa0a7024d086fc1a891680df372999552cd507829f295aeea8",
-        "reviewed": true
+    "installed_launcher": {
+      "files": {
+        "ui/MenuButton.qml": "d689afeeb4a807433cf811802bd055ea800eb64221a940ca18226d30b2c79cdc",
+        "ui/MenuRepresentation.qml": "36c2c3ba25c31dd6722384376b581748c22df6ffa8e3d6612190abf06b6b9f5a",
+        "ui/TahoeOptionsMenu.qml": "83c803e060db8d0be11f91bcd209db6b6423a9b09a4d75f2e7d6290d77e5d3d0",
+        "ui/MainView.qml": "6b4708098a1edb4c2fdc42569fe37070b7e0ba19704e1ed725cf42540302c564",
+        "ui/AppGridViewDelegate.qml": "b98d4ce48bff270ad2b73407d81eb01c601b9d4fc02964dcdb72b798fec69fa6",
+        "ui/AppListViewDelegate.qml": "722488075152a30cc06f5c063853555c18b3ed2be3e67edfc4fa7c13842ad416",
+        "config/main.xml": "c433045dcc1eb0eab63e9b00b20a9611ac28f24249a32029401f34eca4e70829"
       },
-      "light-menu.png": {
-        "sha256": "c1118a1b2d112aa42c81d16e745c1832a298d79ad38b05a9c70bab05f81dd392",
-        "reviewed": true
+      "edition": "MacGoldenGate",
+      "installer_choices": {
+        "appearance": "light",
+        "icons": "regular",
+        "color": "blue",
+        "wallpaper": "golden",
+        "wallpaper_path": "",
+        "launcher": "golden",
+        "panel": true,
+        "dock": true,
+        "reset_layout": true,
+        "acrylic_glass": true,
+        "rounded_corners": true,
+        "shadows": "medium",
+        "fonts": true,
+        "firefox": true,
+        "window_controls": "glassy",
+        "button_position": "left",
+        "files": "nautilus",
+        "nautilus_bookmarks": true,
+        "plymouth": true,
+        "glass_style": "official",
+        "oled_care": false,
+        "oled_interval": 5,
+        "oled_max_shift": 8,
+        "dock_appearance": "auto",
+        "dock_apps": [],
+        "dock_apps_source": "native",
+        "dock_add_flathub": false
       },
-      "light-menu-hover.png": {
-        "sha256": "603a30e8a227ed0e21a5fce9c9445e74e182a7d0654ead9dae571db1496db15c",
-        "reviewed": true
-      },
-      "dark.png": {
-        "sha256": "d49459c02588339af1af3209fd3b96b4d57a46091322df299a46a68a17d5a747",
-        "reviewed": true
-      },
-      "dark-menu.png": {
-        "sha256": "56174fccaee601ddb1e7045c69f2a3d69368f25c151c368199a2d57cd7a4d021",
-        "reviewed": true
-      },
-      "dark-menu-hover.png": {
-        "sha256": "77d9eda1c6e61adc1dad076307c1b68f9284a3cdcc4c8696a607603a32f66309",
-        "reviewed": true
-      }
+      "switcher_sha256": "9619a8cce561f177f93d193720f4b9df00a54781439a822640d2127dddf260ca"
     },
-    "artifacts": [
-      "/tmp/launcher-release-0715",
-      "/tmp/tahoe-details"
-    ],
-    "scope": "Tahoe heading alignment, larger ellipsis dots, icon silhouette highlights and glass options menu with separate Grid/List and preset sections. Golden Gate UI unchanged.",
-    "limits": "Uses KDE application inventory and the existing Plasma glass material. Menu corners inherit the existing theme radius; rendering is closely matched, not claimed pixel-identical to macOS. Prior host test guard detected a concurrent kwinrc write; subsequent validation ran entirely in the disposable VM."
+    "limits": "Runtime qualification uses Plasma 6.8.1/Qt 6.11.1, GTK 3.24.41/4.14.5 and virtual GPU on Wayland. Host is CachyOS Plasma 6.7.4/Qt 6.11.2 with GTK 4.22.4; identical distro, physical GPU and live X11 coverage are not claimed. No native/shader/ABI implementation changed. Loose QML probes cover launcher, trash and panel colorizer; compiled Task Managers/global menu use actual desktop frames and the native menu renderer probe. Full distro SDK/container CI is separate from a real desktop VM. After an initial host reboot erased temporary artifacts, the recovered final source and qualification were retained in persistent ignored build storage.",
+    "detail": "Golden Gate own defaults, regular icons and standard Dock. Install/reinstall, manual/rapid appearance transitions, actual dusk/dawn, both Launcher presets, pointer entry/exit and native geometry were qualified in the disposable VM. Exact captures, logs and other installed-source fingerprints remain in the pinned upstream record."
   },
-  "remote_ci": "Full dev matrix runs asynchronously after publication; this record describes focused local qualification.",
-  "qualification": {
-    "scope": "Preset 1 layout follows the selected preset independently of source edition; edition materials preserved. Preset 2 unchanged.",
-    "native_log_sha256": "697f08aa8f73fde23dd2a2e12dc0816945ce200f1cdcc925cb8ffdb57dafd946",
-    "installer_log_sha256": "0de7415a43f1e8d38dfd434f8947e99f122114b5f8d14f38b72c5b5d9b77aa97",
-    "runtime_sources": {
-      "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/MainView.qml": "961adba0dcc629b13c2519d1a3a619c199ccd6b996fd8bc4aab2f67422d806dd",
-      "tests/qml/LauncherPresetProbe.qml": "3992ba46b8e42f29da78271306ea7a3d3c1f9bbb04cd7241c666a9a6753ed1a7"
-    },
-    "limits": "Executable native popup rendering checks use isolated X11 in disposable Plasma VM; no new documentation photographs or shared native backend changes. Historical captures retain original source identity."
-  }
+  "remote_ci": "Qualified implementation CI passed before publication. Existing Tahoe dev CI and automatic Golden Gate wrapper CI are tracked separately; no second native matrix was requested for release bookkeeping.",
+  "source_sha256": "f8b197b895e01d7225952233fbc72237e42dd24de0a9179a7c3ba83ffdc9e5fe"
 }
