@@ -1,0 +1,22 @@
+{
+  "component": "Control Center",
+  "source_commit": "6240a56fccba31c1ba1340a090f460dafabe8141",
+  "environment": "Disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM; 3840x2160, scale 2",
+  "scope": "Focused controls previews, separately installed edition defaults and wallpapers; historical galleries unchanged",
+  "images": [
+    {
+      "path": "src/screenshots/previews/control-center-golden-gate-light-fa7bd64654d9.png",
+      "sha256": "fa7bd64654d9aca71ab1af0bb51cd652c44b3e173181ec67a95f94a0d80d128b",
+      "reviewed": true,
+      "edition": "golden-gate",
+      "mode": "light"
+    },
+    {
+      "path": "src/screenshots/previews/control-center-golden-gate-dark-cdd6dd9bb597.png",
+      "sha256": "cdd6dd9bb597c31d809951f182c80a3333819393d4e07bd781a02964d1bf017e",
+      "reviewed": true,
+      "edition": "golden-gate",
+      "mode": "dark"
+    }
+  ]
+}
