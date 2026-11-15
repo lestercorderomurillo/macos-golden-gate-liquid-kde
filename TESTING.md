@@ -1,9 +1,9 @@
 # Installer testing
 
-Golden Gate **v0.72.0 candidate** adds optional Clipboard history to the Custom installer.
-Focused native X11/Wayland, install/reinstall, shortcut restoration and continuous
-Qt/GTK light/dark/automatic checks passed in disposable environments.
-See [source identities and coverage limits](release-evidence.json). Release publication awaits confirmation.
+Golden Gate **v0.72.0 candidate** integrates macOS-style Clipboard history into the launcher.
+Focused clipboard, launcher, install/reinstall and Qt/GTK light/dark/automatic checks
+passed in disposable environments. See [source identities and coverage limits](release-evidence.json).
+Release publication awaits confirmation.
 
 [Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
 
