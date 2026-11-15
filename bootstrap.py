@@ -188,9 +188,10 @@ def download(pin: dict, destination: Path) -> None:
         while chunk := response.read(1024 * 1024):
             digest.update(chunk)
             output.write(chunk)
-    # A release is checked against its VERSION after extraction; the
-    # offline fallback pin carries its own archive digest.
-    if "version" not in pin and digest.hexdigest() != pin.get("sha256"):
+    # API-discovered releases are checked against VERSION after extraction.
+    # The audited fallback pin must also enforce its digest, even when it
+    # records a version alongside the immutable commit.
+    if ("sha256" in pin or "version" not in pin) and digest.hexdigest() != pin.get("sha256"):
         raise ValueError("Tahoe archive checksum mismatch; refusing to run it")
 
 
