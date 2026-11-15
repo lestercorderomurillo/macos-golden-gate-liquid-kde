@@ -141,6 +141,17 @@ The Golden Gate preset shows reference symbols only for About, System Settings a
 
 <br>
 
+### Control Center
+
+Wi-Fi, sound, brightness and notifications in one glass menu.
+
+<p align="center">
+  <img src="src/screenshots/control-center-light-c113c1256fb7.png" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/control-center-dark-99860a5d2cc9.png" alt="Control Center in dark mode" width="415">
+</p>
+
+<br>
+
 ### System Information
 
 Hardware, software and theme details in About This Computer.
@@ -490,7 +501,7 @@ The current status of each component.
 | Kate Theme | Planned |
 | SDDM Theme | Planned |
 | Calendar | Planned |
-| Control Center | Planned |
+| Control Center, Wi-Fi, Battery and Notifications | Available |
 | System Preferences | Planned |
 | OS Selector | Planned |
 

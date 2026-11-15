@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.72.0 candidate** integrates macOS-style Clipboard history into the launcher.
+Golden Gate **v0.72.1 candidate** integrates macOS-style Clipboard history into the launcher.
 Focused clipboard, launcher, install/reinstall and Qt/GTK light/dark/automatic checks
 passed in disposable environments. See [source identities and coverage limits](release-evidence.json).
 Release publication awaits confirmation.
