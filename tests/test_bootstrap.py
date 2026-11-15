@@ -51,9 +51,12 @@ def test_extract_rejects_unsafe_members(tmp_path, member):
     assert not (tmp_path / "escape").exists()
 
 
-def test_download_checks_digest(tmp_path, monkeypatch):
+@pytest.mark.parametrize('version', [None, '0.72.0'])
+def test_download_checks_digest(tmp_path, monkeypatch, version):
     monkeypatch.setattr(bootstrap.urllib.request, "urlopen", lambda *a, **kw: io.BytesIO(b"archive"))
     pin = {"commit": "a" * 40, "sha256": "0" * 64}
+    if version is not None:
+        pin['version'] = version
     with pytest.raises(ValueError, match="checksum"):
         bootstrap.download(pin, tmp_path / "download")
     pin["sha256"] = hashlib.sha256(b"archive").hexdigest()
