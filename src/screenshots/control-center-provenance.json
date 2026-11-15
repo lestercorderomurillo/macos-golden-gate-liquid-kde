@@ -1,0 +1,36 @@
+{
+  "component": "Control Center",
+  "source_commit": "bd51af7086461fa60752b443a61cd47e886c228a",
+  "environment": "Disposable Plasma 6.8.1 / Qt 6.11.1 Wayland VM; 3840x2160 at scale 2",
+  "edition": "golden-gate",
+  "images": [
+    {
+      "path": "src/screenshots/control-center-light-c113c1256fb7.png",
+      "sha256": "c113c1256fb7b9fff275c10171843cacc9089c7d4b47983c6b35fcf765f9cc94",
+      "reviewed": true,
+      "edition": "golden-gate",
+      "mode": "light",
+      "original_sha256": "926930147008e69c7d14c7418f9c7a29b0fc0515954f5d238a962b6cae7fd68a",
+      "crop": [
+        3170,
+        0,
+        3840,
+        1010
+      ]
+    },
+    {
+      "path": "src/screenshots/control-center-dark-99860a5d2cc9.png",
+      "sha256": "99860a5d2cc91510aada72accbca2737a83d16cf9c303acf8dab67dfb62b97b1",
+      "reviewed": true,
+      "edition": "golden-gate",
+      "mode": "dark",
+      "original_sha256": "c3dbb51ff50432f7d9a1f9c106b5db71230eac802951a5b1c05e3f48335a6953",
+      "crop": [
+        3170,
+        0,
+        3840,
+        1010
+      ]
+    }
+  ]
+}
