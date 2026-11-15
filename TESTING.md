@@ -1,14 +1,10 @@
 # Installer testing
 
-Golden Gate **v0.71.9** repairs Launcher opening and search focus, positions the
-options dialog before its first frame, and preserves its Plasma glass contour.
-
-Focused native Launcher regressions cover both presets, editions and appearance
-modes. Disposable Plasma VM install/reinstall, repeated openings and rendered
-search/dialog checks passed in both editions. See the
-[commands, source identities and coverage limits](release-evidence.json).
-The complete [dev CI](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/workflows/test.yml) runs separately.
-Photographs retain their original capture provenance.
+Golden Gate **v0.71.10** keeps the detached Launcher search centered when its anchor
+layout changes after opening. Native X11 regressions passed on Plasma 6.6/6.7;
+disposable Plasma 6.8 Wayland install/reinstall and 40 geometry checks passed
+in both editions, light/dark. See [source identities and coverage limits](release-evidence.json).
+Full dev CI runs separately. Photographs retain their original provenance.
 
 [Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
 
