@@ -6,4 +6,12 @@ Control Center provides floating glass controls, native system models and saved 
 
 See [release evidence](../release-evidence.json) for the exact validation and hardware limits. Existing desktop photographs keep their original provenance.
 
-[Light preview](../src/screenshots/previews/control-center-golden-gate-light-fa7bd64654d9.png) · [Dark preview](../src/screenshots/previews/control-center-golden-gate-dark-cdd6dd9bb597.png) · [Capture provenance](../src/screenshots/previews/control-center-golden-gate-provenance.json)
+[Light preview](../src/screenshots/previews/control-center-golden-gate-light-cc2bdfc937e8.png) · [Dark preview](../src/screenshots/previews/control-center-golden-gate-dark-bd924a582ef2.png) · [Capture provenance](../src/screenshots/previews/control-center-golden-gate-provenance.json)
+
+Typography uses the bundled SF Pro Text face: 13 logical pixels for labels and
+11 for secondary captions. Original monochrome symbols use consistent 18-pixel
+panel, 22-pixel inline and 26-pixel circular-control sizing, independent of the
+user's icon theme. Battery state remains live. The glass edge follows the Dock's
+opposing light rims; the existing compositor blur and edition material remain
+active. This does not replace the saved Acrylic Glass optics or introduce a new
+refraction shader.

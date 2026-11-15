@@ -1,22 +1,24 @@
 {
   "component": "Control Center",
-  "source_commit": "6240a56fccba31c1ba1340a090f460dafabe8141",
-  "environment": "Disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM; 3840x2160, scale 2",
-  "scope": "Focused controls previews, separately installed edition defaults and wallpapers; historical galleries unchanged",
+  "source_commit": "facd0b95b78ca542fce815bf0d88195520675ceb",
+  "environment": "Disposable Plasma 6.8.1 / Qt 6.11.1 Wayland VM, 3840x2160 at scale 2",
+  "font": "SF Pro Text (confirmed by fc-match in VM)",
+  "scope": "Original symbols, consistent typography and Dock-inspired glass rim over existing Acrylic Glass blur. Separate edition installations and wallpapers. No new refraction shader.",
   "images": [
     {
-      "path": "src/screenshots/previews/control-center-golden-gate-light-fa7bd64654d9.png",
-      "sha256": "fa7bd64654d9aca71ab1af0bb51cd652c44b3e173181ec67a95f94a0d80d128b",
+      "path": "src/screenshots/previews/control-center-golden-gate-light-cc2bdfc937e8.png",
+      "sha256": "cc2bdfc937e846d3d0bebd5baafc2ae9805f8bbbb8ea071d47c5399d0699b76f",
       "reviewed": true,
       "edition": "golden-gate",
       "mode": "light"
     },
     {
-      "path": "src/screenshots/previews/control-center-golden-gate-dark-cdd6dd9bb597.png",
-      "sha256": "cdd6dd9bb597c31d809951f182c80a3333819393d4e07bd781a02964d1bf017e",
+      "path": "src/screenshots/previews/control-center-golden-gate-dark-bd924a582ef2.png",
+      "sha256": "bd924a582ef24f6235631c37d4051a9ce8f0a073cd7e1dc6e8d63f9c7f643664",
       "reviewed": true,
       "edition": "golden-gate",
       "mode": "dark"
     }
-  ]
+  ],
+  "limits": "Focused visual review only; broad GTK 3 appearance qualification failed on this baseline."
 }
