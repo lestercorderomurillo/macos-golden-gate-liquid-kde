@@ -141,9 +141,9 @@ The Golden Gate preset shows reference symbols only for About, System Settings a
 
 <br>
 
-### Control Center
+### Control Center (Alpha)
 
-Wi-Fi, sound, brightness and notifications in one glass menu.
+Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come very soon.
 
 <p align="center">
   <img src="src/screenshots/control-center-light-c113c1256fb7.png" alt="Control Center in light mode" width="415">
