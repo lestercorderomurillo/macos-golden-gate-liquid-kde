@@ -356,6 +356,20 @@ mac-tahoe-oled-care status
 </details>
 
 <details>
+<summary><b>Clipboard history</b></summary>
+
+Optional Meta+V popup with search, pinning and image previews; disabled by default.
+
+Enable **Clipboard history** in the custom installer. Text and images are stored
+unencrypted in a user-only local history; items carrying KDE's password-manager
+hint are excluded. Pinned items survive Delete and Clear all. Uninstall deletes
+the history and restores the previous Plasma shortcut unless you changed it afterward.
+
+Requires KDE Frameworks 6 GuiAddons development files and PyQt6.
+
+</details>
+
+<details>
 <summary><b>Test in a virtual machine</b></summary>
 
 Try the theme in an isolated Plasma desktop.
