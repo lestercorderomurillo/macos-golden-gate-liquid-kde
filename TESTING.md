@@ -1,11 +1,9 @@
 # Installer testing
 
-Golden Gate **v0.72.2** removes Control Center gradients and fixes rounded glass edge coverage.
-Focused shader, native X11 and disposable Plasma VM checks passed; see
-[validation and coverage limits](release-evidence.json).
-[Control Center photographs and focused render evidence](src/screenshots/previews/gradient-0722-golden-gate-provenance-fdb47e965002.json) accompany this fix.
-Other README and installer photographs retain their original reviewed
-[provenance](src/screenshots/release-capture.json).
+Golden Gate **v0.72.3** restores Control Center volume control and updates slider interaction and the launcher Clipboard menu.
+Focused native controls, real audio-server checks, and both editions' disposable Plasma VM install/reinstall checks passed.
+See [validation and coverage limits](release-evidence.json).
+README and installer photographs retain their original reviewed [provenance](src/screenshots/release-capture.json).
 
 ## Installation steps
 
