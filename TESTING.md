@@ -1,8 +1,7 @@
 # Installer testing
 
-Golden Gate **v0.72.5** adds per-component Acrylic Glass settings and fixes Dock spacing after material reloads.
-Native KCM, SVG reload, selected SDK/rendering checks and paired disposable-VM install/reinstall checks passed. Standalone Global Menu also installs its shared About material module.
-All three presets retain Dock blur 5 and no gradient in light/dark mode; VM checks cover saved settings, rendered pixels, Cancel and component isolation.
+Golden Gate **v0.72.6** fixes unreadable system plugins and QML modules when installing with a restrictive umask.
+Wrapper and staged-source regressions passed. Shared component install/reinstall, native plugin loading and QML import passed in a disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 VM under umask `0007`.
 See [validation and coverage limits](release-evidence.json). Existing gallery photographs retain their original reviewed [provenance](src/screenshots/release-capture.json).
 
 ## Installation steps
