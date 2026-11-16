@@ -1,72 +1,44 @@
 {
-  "version": "0.72.11",
-  "source_sha256": "039f6b78c71b595cb5d89aabfb2663880f04353059bb3b1d2c9e879b15fc508b",
-  "scope": "Btrfs/zram startup disk, Control Center layout/hardware regressions and accent selection contrast. See .github/REGRESSIONS-0.72.10.md. Also preserve inherited defaults during reinstall, provide French controls and repair post-publication CI cases; see .github/REGRESSIONS-0.72.11.md.",
-  "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1 VM; isolated GTK 3/4 processes; focused Python regressions.",
+  "version": "0.72.12",
+  "source_sha256": "ddb896c036fc36a5bc25c48c771282b2bf275a6303a17542972d34878f779d06",
+  "scope": "Original-artwork glass Trash and canonical Dock application aliases. See .github/DOCK-TINTS-0.72.12.md.",
+  "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1; Fedora/openSUSE/neon Qt SDK probes.",
   "checks": [
     {
-      "command": "pytest tests/test_about_info.py -k \"startup_disk or lsblk\"",
+      "command": "pytest tests/test_icon_toolset.py -k \"installer_glass or installer_duplicate\"",
       "result": "passed",
-      "detail": "11 passed"
+      "detail": "3 passed"
     },
     {
-      "command": "pytest tests/test_installer_wizard.py -k \"accent_changes or accent_preserves\"",
+      "command": "pytest tests/test_icons_step.py tests/test_reserved_menu_icons.py",
       "result": "passed",
-      "detail": "2 passed"
+      "detail": "4 passed"
     },
     {
-      "command": "pytest tests/test_gtk_upgrade.py; pytest tests/test_localization.py",
+      "command": "pytest tests/test_taskmanager_qml.py -k themed_icons",
       "result": "passed",
-      "detail": "4 upgrade cases and 7 catalog cases passed; msgfmt checks passed"
+      "detail": "Passed locally and in Fedora, openSUSE and neon containers; Qt 6.11.2/6.12.0/6.11.1"
     },
     {
-      "command": "VM: python3 tests/desktop_controls_probe.py <source>",
-      "result": "passed"
-    },
-    {
-      "command": "VM: dbus-run-session -- xvfb-run -a python3 tests/gtk_accent_probe.py <source> 3; same command with 4",
+      "command": "VM: rebuild changed Dock backend; normal installer privilege setup; plasmoids.install() twice; restart Plasma; capture actual glass Dock light/dark with empty/full Trash",
       "result": "passed",
-      "detail": "Eight accents; live light/dark/light; selected, hover, focus and backdrop"
-    },
-    {
-      "command": "VM: normal installer privilege setup followed by gtk.install(), color_schemes.install(), plasmoids.install(); repeated for reinstall",
-      "result": "passed",
-      "detail": "Desktop user destinations verified, no installer errors; installed gray overrides old blue. Files PID 113175 persisted through light/dark/light."
-    },
-    {
-      "command": "pytest tests/test_kconf_update.py -q",
-      "result": "passed",
-      "detail": "12 passed"
-    },
-    {
-      "command": "pytest tests/test_multilanguage.py -k catalogs_cover; pytest tests/test_localization.py -k french",
-      "result": "passed",
-      "detail": "2 shared catalog cases and 1 four-domain French gettext case; msgfmt format checks passed"
-    },
-    {
-      "command": "VM: normal installer privilege setup; kconf_update.install() twice; restart plasma-plasmashell.service",
-      "result": "passed",
-      "detail": "Inherited defaults byte-identical after both phases"
-    },
-    {
-      "command": "VM: dbus-run-session -- xvfb-run -a python3 tests/desktop_controls_render.py <source> <capture>",
-      "result": "passed",
-      "detail": "Actual dynamic gap, input mask, X11 blur request, theme refresh and reopen"
+      "detail": "Reviewed 4 focused frames; every Dock icon including Apps and Settings receives the blue glass material."
     }
   ],
   "coverage_limits": [
-    "Focused installer steps, not complete wizard qualification.",
-    "One real Plasma VM; no fresh cross-distro desktop matrix or automatic schedule boundary.",
-    "Post-publication CI status is reported independently.",
-    "Independent icon appearance remains a feature request. French coverage is limited to the affected controls. Minimal SDKs without GTK 4 report that case skipped; primary GTK coverage remains required.",
-    "Reviewed Tahoe preview captures live upstream; no new Golden Gate gallery images are claimed."
+    "Focused Dock component install/reinstall, not complete wizard qualification.",
+    "Wayland Plasma VM plus isolated Qt lookup probes; no fresh X11 desktop session.",
+    "Only displayed Dock source artwork generated in the focused VM fixture; not an exhaustive icon-library render.",
+    "Additional requested color/edition documentation captures are delivered separately.",
+    "Full remote CI tracked after publication.",
+    "Shared implementation evidence retained from Tahoe; Golden Gate gallery follows separately."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "f3e70cbbdf85de30d509b64b69ba33a3443acfaf",
-    "sha256": "8b37a38aff62aac8e96541afd9b110172c3443f2816fc7f95274e404e262785e",
-    "version": "0.72.11"
+    "commit": "ed1bfe98c2c5de6d762f672ec2b120f43eceae13",
+    "sha256": "ec37b5a7c21b38004055642215bdf783fc4f39d07f019e66a34023fce4e7ecab",
+    "version": "0.72.12"
   }
 }
