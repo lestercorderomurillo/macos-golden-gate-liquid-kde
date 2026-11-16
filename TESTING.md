@@ -1,7 +1,7 @@
 # Installer testing
 
-Golden Gate **v0.72.9** verifies the pinned Tahoe release directly from its checked archive, avoiding a second repository checkout.
-Focused archive and release-gate regressions passed. Full CI and measured performance results follow publication; no speed reduction is claimed before measurement.
+Golden Gate **v0.72.9** passed focused pipeline regressions and the complete post-publication CI.
+Publication is 74% faster for Tahoe and 60% faster for Golden Gate. Full CI improved 51.5% with caches ready; its first run improved 21%, below the 50% target. See [measured performance and cache conditions](.github/CI_PERFORMANCE.md).
 See [validation and coverage limits](release-evidence.json). Existing gallery photographs retain their original reviewed [provenance](src/screenshots/release-capture.json).
 
 ## Installation steps
