@@ -1,44 +1,39 @@
 {
-  "version": "0.72.12",
-  "source_sha256": "ddb896c036fc36a5bc25c48c771282b2bf275a6303a17542972d34878f779d06",
-  "scope": "Original-artwork glass Trash and canonical Dock application aliases. See .github/DOCK-TINTS-0.72.12.md.",
-  "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1; Fedora/openSUSE/neon Qt SDK probes.",
+  "version": "0.72.13",
+  "source_sha256": "8f3bf4e76579e0e0301da118941f034cbb80ac913f225b133b4e0161bc664348",
+  "scope": "Original icon detail and glass contrast; remove Trash state from color tables. See .github/ICON-CONTRAST-0.72.13.md.",
+  "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM and focused real-artwork pixel regressions.",
   "checks": [
     {
-      "command": "pytest tests/test_icon_toolset.py -k \"installer_glass or installer_duplicate\"",
+      "command": "pytest tests/test_icon_toolset.py -k \"glass or regular_dark\"",
       "result": "passed",
-      "detail": "3 passed"
+      "detail": "10 passed. Actual bundled Finder eye and Calendar letter detail exceed 3:1 at 64px across eight tints, both modes and light/dark backgrounds."
     },
     {
-      "command": "pytest tests/test_icons_step.py tests/test_reserved_menu_icons.py",
+      "command": "VM: normal installer privilege setup; steps.icons.install() twice with a displayed-artwork generation fixture; actual archive staging and installation destinations retained",
       "result": "passed",
-      "detail": "4 passed"
+      "detail": "Four icon themes installed; repeat installation reused matching output. Apps, Settings, Finder and empty/full Trash artifacts present."
     },
     {
-      "command": "pytest tests/test_taskmanager_qml.py -k themed_icons",
+      "command": "VM: live light/dark Dock captures with empty/full Trash; visual review of each original frame",
       "result": "passed",
-      "detail": "Passed locally and in Fedora, openSUSE and neon containers; Qt 6.11.2/6.12.0/6.11.1"
-    },
-    {
-      "command": "VM: rebuild changed Dock backend; normal installer privilege setup; plasmoids.install() twice; restart Plasma; capture actual glass Dock light/dark with empty/full Trash",
-      "result": "passed",
-      "detail": "Reviewed 4 focused frames; every Dock icon including Apps and Settings receives the blue glass material."
+      "detail": "Four actual Dock frames reviewed; original shaded logos retained while eyes, smile and Calendar text remain legible."
     }
   ],
   "coverage_limits": [
-    "Focused Dock component install/reinstall, not complete wizard qualification.",
-    "Wayland Plasma VM plus isolated Qt lookup probes; no fresh X11 desktop session.",
-    "Only displayed Dock source artwork generated in the focused VM fixture; not an exhaustive icon-library render.",
-    "Additional requested color/edition documentation captures are delivered separately.",
-    "Full remote CI tracked after publication.",
-    "Shared implementation evidence retained from Tahoe; Golden Gate gallery follows separately."
+    "Focused displayed-icon fixture, not an exhaustive icon-library installation or complete wizard run.",
+    "Wayland VM; no fresh X11 desktop qualification. No native backend or ABI changed.",
+    "Contrast checks cover the specified original details, not accessibility certification of every glyph.",
+    "Remaining requested tint photographs follow as documentation delivery.",
+    "Full remote CI is tracked after publication.",
+    "Shared implementation qualification from Tahoe; edition-specific photographs delivered separately."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "ed1bfe98c2c5de6d762f672ec2b120f43eceae13",
-    "sha256": "ec37b5a7c21b38004055642215bdf783fc4f39d07f019e66a34023fce4e7ecab",
-    "version": "0.72.12"
+    "commit": "74b88ff1837df09fa83ec5abd7ad3c43042ef861",
+    "sha256": "260fe69af1f1fd2fbabcbebac9fe5fae93d9c897a0e19536acd35c77c372d59e",
+    "version": "0.72.13"
   }
 }

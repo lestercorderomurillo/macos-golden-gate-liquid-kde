@@ -177,7 +177,6 @@ Original icon artwork with glass tints, using native application icons.
 <tr><td>Yellow</td><td><a href="src/screenshots/previews/golden-gate-light-dock-yellow-259352c1373d.webp"><img src="src/screenshots/previews/golden-gate-light-dock-yellow-259352c1373d.webp" alt="Golden Gate light Dock with yellow glass Apps, application and empty Trash icons" width="840"></a></td></tr>
 <tr><td>Green</td><td><a href="src/screenshots/previews/golden-gate-light-dock-green-a9617589e419.webp"><img src="src/screenshots/previews/golden-gate-light-dock-green-a9617589e419.webp" alt="Golden Gate light Dock with green glass Apps, application and empty Trash icons" width="840"></a></td></tr>
 <tr><td>Gray</td><td><a href="src/screenshots/previews/golden-gate-light-dock-gray-ce010ba4f0ae.webp"><img src="src/screenshots/previews/golden-gate-light-dock-gray-ce010ba4f0ae.webp" alt="Golden Gate light Dock with gray glass Apps, application and empty Trash icons" width="840"></a></td></tr>
-<tr><td>Full Trash</td><td><a href="src/screenshots/previews/golden-gate-light-dock-blue-full-f99dc5838816.webp"><img src="src/screenshots/previews/golden-gate-light-dock-blue-full-f99dc5838816.webp" alt="Golden Gate light blue glass Dock with full Trash" width="840"></a></td></tr>
 </table>
 
 </details>

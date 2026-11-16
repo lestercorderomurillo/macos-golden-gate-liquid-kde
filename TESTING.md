@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.72.12** pins the original-artwork glass Trash and Dock alias repairs. Focused shared checks and disposable-VM component qualification passed; [scope and limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.12/.github/DOCK-TINTS-0.72.12.md). [Full CI passed](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/runs/43946059702).
+Golden Gate **v0.72.13** pins the original-artwork glass contrast repair. Focused pixel regressions and disposable-VM icon install/reinstall passed; [scope and limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.13/.github/ICON-CONTRAST-0.72.13.md). Full CI is tracked after publication.
 See [validation and coverage limits](release-evidence.json) and the [reviewed tint captures](src/screenshots/previews/golden-gate-tint-gallery-provenance.json). Existing gallery photographs retain their original reviewed [provenance](src/screenshots/release-capture.json).
 
 ## Installation steps
