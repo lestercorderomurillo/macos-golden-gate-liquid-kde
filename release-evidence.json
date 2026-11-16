@@ -1,42 +1,79 @@
 {
-  "version": "0.72.14",
-  "source_sha256": "0d3af6800ae9fdf968e08f9e81af5ed3199da13badac0340d1609ee216f240d8",
-  "scope": "Deterministic parameterized icon generation; same pixels, faster rendering. See .github/ICON-GENERATION-0.72.14.md.",
-  "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM and focused real-artwork pixel regressions.",
+  "version": "0.72.15",
+  "source_sha256": "6e7ec4b88053d270a8094885863dd04a802eb8fa0c8eb3cfd07b45cd7f7191a2",
+  "scope": "Repaint original icon layers in all appearances without adding geometry or alternate artwork; distinct light/dark tints. See .github/ICON-LAYERS-0.72.15.md.",
+  "environment": "Focused Python/Pillow/librsvg rendering tests and disposable neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM.",
   "checks": [
     {
-      "command": "pytest tests/test_icon_toolset.py tests/test_icons_step.py -q",
+      "command": "pytest tests/test_icon_toolset.py -q; affected follow-up selectors recorded in .github/ICON-LAYERS-0.72.15.md",
       "result": "passed",
-      "detail": "47 passed; after cancellation and recipe coverage edits, 5 focused cases passed; separate worker failure cleanup case passed."
+      "detail": "46 component cases passed initially; all observed failures repaired and affected recipe, alias, contrast and geometry cases passed on the final relevant implementation."
     },
     {
-      "command": "Same-fixture baseline/candidate installer_themes generation plus PNG SHA-256 comparison",
+      "command": "layer-proof-guest.py in disposable Plasma VM",
       "result": "passed",
-      "detail": "536 PNGs identical; 13 artworks, 268 names; 3.84s to 0.97s (74.7% reduction). Repeat output identical."
+      "detail": "13 original artworks preserve geometry across six modes; all 536 PNGs per tint reproduce reviewed captures exactly."
     },
     {
-      "command": "Disposable Plasma VM: steps.icons.install() twice with displayed-artwork generation fixture",
+      "command": "layer-capture-guest.py; review of twelve Dock frames",
       "result": "passed",
-      "detail": "Real archive staging and install destinations; normal privilege setup; repeat installation skips unchanged output."
+      "detail": "Both editions, red/blue light/dark, pinned applications and Apps, empty/full Trash; source identities in capture manifests."
     },
     {
-      "command": "Verify immutable Tahoe archive VERSION, SHA-256 and exact renderer source bytes",
+      "command": "Verify generated installer icon sample manifest hashes",
       "result": "passed",
-      "detail": "v0.72.14 archive and both renderer modules match the qualified candidate; unchanged wrapper checks reused."
+      "detail": "80 preview hashes valid; unchanged samples reused."
+    },
+    {
+      "command": "Verify immutable Tahoe tag, archive SHA-256, VERSION and edition support",
+      "result": "passed",
+      "detail": "Tahoe v0.72.15 published by release workflow; canonical commit archive checksum verified; unchanged wrapper and staging logic."
     }
   ],
   "coverage_limits": [
-    "Benchmark covers the recorded 13-artwork fixture, not full-library or complete installer latency.",
-    "Focused VM icon lifecycle, not full wizard or fresh X11 qualification.",
-    "Original photographs retained; default rendered PNGs match v0.72.13.",
-    "Full remote CI tracked after publication."
+    "Displayed Dock artwork and aliases; no complete installer lifecycle, new X11 session or automatic scheduler boundary test.",
+    "Final source reproduces every captured tinted PNG byte for byte.",
+    "Static recoloring of original layers; not live macOS refraction or a pixel-perfect reproduction.",
+    "Live captures cover tinted modes. Default and clear have renderer checks, not new live desktop captures.",
+    "Full new remote CI remains asynchronous."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "captures": [],
+  "captures": [
+    {
+      "path": "src/screenshots/previews/golden-gate-dark-dock-blue-full-layers-53194cf35375.webp",
+      "sha256": "53194cf3537569cb79331674856df718cc61fb2527a2dffb12e2392b42d8645a",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-dark-dock-blue-layers-c2d053918bd2.webp",
+      "sha256": "c2d053918bd208f47e29f80f718c11ea481c7c65852bc679dd1bd8bbcec2974c",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-dark-dock-red-layers-04bd78945a5a.webp",
+      "sha256": "04bd78945a5a44d2140b4fe33b237b3bd87875fcbd6b0c71e61e71d948495368",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-light-dock-blue-full-layers-863c7babca7a.webp",
+      "sha256": "863c7babca7a88961667826d4cbe66d567dbc9b6c7b0bfb6610b276f294bae60",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-light-dock-blue-layers-15a8ea19364b.webp",
+      "sha256": "15a8ea19364ba94c96c92498deae30d07cd4c454a3553b695ec75e10c3e30fe5",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-light-dock-red-layers-95bb96859fd1.webp",
+      "sha256": "95bb96859fd14b6b8a19facd77ebf33dfde0986e3e1b8e261eeca89cbe213056",
+      "reviewed": true
+    }
+  ],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "ebf0e2d75320f1930e20aab4e0995237e85458d8",
-    "sha256": "b3eb3afb23ce300c7d04a3653b7f0f7ae47a56dc91ea9a12e56d946817c4f133",
-    "version": "0.72.14"
+    "commit": "a2f40016c4791f012ff052ba9d726c077652b2ba",
+    "sha256": "fc5318a30acb0be484f781db5d0b7d0f5adc7e252d0064c6ff8cc3762db897df",
+    "version": "0.72.15"
   }
 }

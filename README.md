@@ -160,39 +160,39 @@ Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
   <a href="src/screenshots/dock_1_v1-1c588ec21246.webp"><img src="src/screenshots/dock_1_v1-1c588ec21246.webp" alt="Glass Dock with light icons and a red notification count bubble" width="840"></a>
 
-- **Dark**
+- **Dark (previous rendering)**
 
   <a href="src/screenshots/dock_1_dark_v1-9ba5c5f327ea.webp"><img src="src/screenshots/dock_1_dark_v1-9ba5c5f327ea.webp" alt="Glass Dock with dark icons, a complete App Store icon and a red notification count bubble" width="840"></a>
 
 - **Blue**
 
-  <a href="src/screenshots/previews/golden-gate-light-dock-blue-fed1a816171b.webp"><img src="src/screenshots/previews/golden-gate-light-dock-blue-fed1a816171b.webp" alt="Golden Gate light Dock with blue glass Apps, application and empty Trash icons" width="840"></a>
+  <table><tr><th>Light</th><th>Dark</th></tr><tr><td><a href="src/screenshots/previews/golden-gate-light-dock-blue-layers-15a8ea19364b.webp"><img src="src/screenshots/previews/golden-gate-light-dock-blue-layers-15a8ea19364b.webp" alt="Golden Gate blue Dock with original icon layers in light mode" width="415"></a></td><td><a href="src/screenshots/previews/golden-gate-dark-dock-blue-layers-c2d053918bd2.webp"><img src="src/screenshots/previews/golden-gate-dark-dock-blue-layers-c2d053918bd2.webp" alt="Golden Gate blue Dock with original icon layers in dark mode" width="415"></a></td></tr></table>
 
-- **Purple**
+- **Purple (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-purple-0285a1d6da93.webp"><img src="src/screenshots/previews/golden-gate-light-dock-purple-0285a1d6da93.webp" alt="Golden Gate light Dock with purple glass Apps, application and empty Trash icons" width="840"></a>
 
-- **Pink**
+- **Pink (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-pink-59deda2abf30.webp"><img src="src/screenshots/previews/golden-gate-light-dock-pink-59deda2abf30.webp" alt="Golden Gate light Dock with pink glass Apps, application and empty Trash icons" width="840"></a>
 
 - **Red**
 
-  <a href="src/screenshots/previews/golden-gate-light-dock-red-696578b7ba3f.webp"><img src="src/screenshots/previews/golden-gate-light-dock-red-696578b7ba3f.webp" alt="Golden Gate light Dock with red glass Apps, application and empty Trash icons" width="840"></a>
+  <table><tr><th>Light</th><th>Dark</th></tr><tr><td><a href="src/screenshots/previews/golden-gate-light-dock-red-layers-95bb96859fd1.webp"><img src="src/screenshots/previews/golden-gate-light-dock-red-layers-95bb96859fd1.webp" alt="Golden Gate red Dock with original icon layers in light mode" width="415"></a></td><td><a href="src/screenshots/previews/golden-gate-dark-dock-red-layers-04bd78945a5a.webp"><img src="src/screenshots/previews/golden-gate-dark-dock-red-layers-04bd78945a5a.webp" alt="Golden Gate red Dock with original icon layers in dark mode" width="415"></a></td></tr></table>
 
-- **Orange**
+- **Orange (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-orange-4063965d87f1.webp"><img src="src/screenshots/previews/golden-gate-light-dock-orange-4063965d87f1.webp" alt="Golden Gate light Dock with orange glass Apps, application and empty Trash icons" width="840"></a>
 
-- **Yellow**
+- **Yellow (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-yellow-5469f8e65d8e.webp"><img src="src/screenshots/previews/golden-gate-light-dock-yellow-5469f8e65d8e.webp" alt="Golden Gate light Dock with yellow glass Apps, application and empty Trash icons" width="840"></a>
 
-- **Green**
+- **Green (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-green-06ba25747674.webp"><img src="src/screenshots/previews/golden-gate-light-dock-green-06ba25747674.webp" alt="Golden Gate light Dock with green glass Apps, application and empty Trash icons" width="840"></a>
 
-- **Gray**
+- **Gray (previous rendering)**
 
   <a href="src/screenshots/previews/golden-gate-light-dock-gray-a6c5e09f3acd.webp"><img src="src/screenshots/previews/golden-gate-light-dock-gray-a6c5e09f3acd.webp" alt="Golden Gate light Dock with gray glass Apps, application and empty Trash icons" width="840"></a>
 
