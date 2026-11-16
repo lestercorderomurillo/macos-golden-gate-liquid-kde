@@ -1,70 +1,40 @@
 {
-  "version": "0.72.6",
-  "source_sha256": "8096ff3fc1a507c9ae32899cc312a4cef93e1fc8ada3e96927a28487d1562890",
-  "environment": "Local Python pytest; disposable QEMU KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland guest. No host desktop changes.",
-  "scope": "Issue #129: normalize system files to 0644/0755 and directories to 0755, repair unchanged installations and explicitly bounded Qt namespace parents, preserve private user configuration and symlink targets. Shared helpers serve both editions; no native ABI, shader or appearance changes.",
-  "qualified_source": {
-    "base_commit": "6e9be1da8a847d11a41294a172bbf3421b7cfaef",
-    "changed_files": {
-      "src/scripts/steps/_helpers.py": "4a51817438c583bfd3052f70028bd5bcb6d34828a9c52701114ec4a760c94ee6",
-      "src/scripts/steps/plasmoids.py": "0c1a64c9ab3f6e5415fe2154de113e9b2146c116f350f22a5aee6d52f7baddaf",
-      "src/scripts/steps/globalmenu.py": "a184b690375692933201f4775da1ecf3c1fd7a9e4112012d8770c20d3398b54f",
-      "src/scripts/steps/kvantum.py": "bd639f4f7c13e726cc454b23eeac961b085338175c4ac324970a914084b0910d",
-      "tests/vm/plugin_permissions.py": "04e8481f26eec1e7208b3e45ba9b3070bc0494afef1eb285b663ce9ece700501"
-    },
-    "vm_initial_source_archive_sha256": "43bc809f80c758997861027ea85a47d2c19c7afc269a8d49c28759b641a63b0e",
-    "note": "Final verification harness copied separately; implementation bytes unchanged after focused validation. Version and evidence bookkeeping followed qualification."
-  },
+  "version": "0.72.7",
+  "source_sha256": "8a8aa82d1e19c7f9c267e48451948f1a515dce642461b912311bd0fd3a43914e",
+  "scope": "CI/CD-only change: weekly source-free registry SDKs, four disjoint primary shards balanced from observed JUnit timings, Nix store reuse, shallow release refs and verified archive extraction for Golden Gate. All distro and executable test coverage retained. No installed desktop behavior changed.",
+  "environment": "Local Python 3 focused CI-helper regressions and actionlint 1.7.7; full post-publication GitHub matrix remains enabled.",
   "checks": [
     {
-      "command": "python3 -m pytest tests/test_helpers_step.py tests/test_component_cache.py tests/test_plasmoids_step.py tests/test_globalmenu_step.py tests/test_kvantum_step.py -q",
+      "command": "python3 -m pytest tests/test_ci_sdk.py tests/test_ci_selection.py tests/test_release_evidence.py tests/test_container_images.py -q",
       "result": "passed",
-      "detail": "51 passed; restrictive modes, unchanged repair, symlink isolation, private user files, error reporting, cache and component wiring."
+      "detail": "22 passed; cache hit/miss/fork behavior, recipe invalidation, exact shard coverage, shallow tag/gallery retrieval, rejection of wrong tags and stale evidence."
     },
     {
-      "command": "python3 -m pytest tests/test_step_guards.py tests/test_plymouth_step.py tests/test_rounded_corners_step.py -q; python3 -m pytest tests/test_step_guards.py -q",
+      "command": "python3 -m pytest tests/test_release_workflow.py -q (Golden Gate)",
       "result": "passed",
-      "detail": "99 caller checks passed and one environment-dependent skip; 11 guard checks passed after adapting mocks to the optional namespace argument. Passing caller checks reused."
+      "detail": "4 passed; archive checksum, immutable tag and archived VERSION gates exercised before extracting the checker."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; python3 -m pytest tests/test_helpers_step.py tests/test_plasmoids_step.py -q (prepared source)",
-      "result": "passed",
-      "detail": "12 passed against the staged Golden Gate source."
-    },
-    {
-      "command": "python3 -m pytest -q (Golden Gate)",
-      "result": "passed",
-      "detail": "98 wrapper and pin/source-selection checks passed."
-    },
-    {
-      "command": "sudo env MAC_TAHOE_NO_UPDATE_CHECK=true python3 tests/vm/plugin_permissions.py install --output install-result.json; python3 tests/vm/plugin_permissions.py verify --output verify-after-install.json; sudo env MAC_TAHOE_NO_UPDATE_CHECK=true python3 tests/vm/plugin_permissions.py reinstall --output reinstall.json; python3 tests/vm/plugin_permissions.py verify --output verify-after-reinstall.json",
-      "result": "passed",
-      "detail": "Built the final Dock, Global Menu and Kvantum/menu-style sources under umask 0007. Both install and deliberately damaged-permission reinstall passed as the ordinary desktop user, including native plugin loads and org.kde.mac.tahoe.launcher import. All inspected system artifacts are root-owned."
+      "command": "actionlint -shellcheck= .github/workflows/test.yml .github/workflows/release.yml ../macos-golden-gate-liquid-kde/.github/workflows/release.yml",
+      "result": "passed"
     }
   ],
-  "vm_installed_artifacts": {
-    "evidence": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/6874d973d8158ab5628095ab7204b451d19cf193/release-evidence.json"
-  },
-  "visual_validation": {
-    "command": "Restart plasma-plasmashell.service inside disposable VM; inspect panels and journal; capture with spectacle.",
-    "reviewed": true,
-    "source": "Same installed implementation as vm_installed_artifacts",
-    "local_capture": "../macos-tahoe-liquid-kde/build/issue129/permissions-desktop.png",
-    "sha256": "ffe112af35f351df5383cdd382d485b4cb0c3c6e19abd013d71a6d9c5a02d9fe",
-    "result": "Dock icons and Global Menu render; no matching plugin permission or missing-module errors after restart."
-  },
   "coverage_limits": [
-    "Focused component lifecycle, not a new whole-desktop installer or distro-matrix qualification.",
-    "Live guest: KDE neon Plasma 6.8.1 Wayland; Debian 6.7.4 report reproduced via umask 0007 and root-owned restrictive artifacts, not a fresh Debian VM.",
-    "Golden Gate staged helper/package regressions passed; shared permission logic is identical.",
-    "No automatic-appearance or X11 qualification required for this permission-only change. Full remote CI is tracked separately."
+    "No desktop VM or native rebuild was run locally: only CI/CD behavior changed.",
+    "Cold and warm pipeline timing results are measured after publication; a 50% reduction is not claimed before measurement."
   ],
+  "baseline": {
+    "tahoe_ci": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/43826871438",
+    "longest_job_seconds": 631,
+    "golden_gate_release": "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/runs/43887549715",
+    "publish_job_seconds": 62
+  },
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [],
   "tahoe_pin": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "6874d973d8158ab5628095ab7204b451d19cf193",
-    "sha256": "4d91aaf6c9ed8bb2e26655d1c0314232bc3952aa003c9d1965a27781452ae61f",
-    "version": "0.72.6"
+    "commit": "1e3c0162e9099a925f700e0a6f7c30ce5848ccae",
+    "sha256": "a4929e70012febd9990a40fda37b236e15bbe3d89e2114ebccbd4719af2a83a2",
+    "version": "0.72.7"
   }
 }

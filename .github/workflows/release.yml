@@ -17,47 +17,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-      - name: Read immutable Tahoe pin
-        id: pin
+      - name: Verify immutable Tahoe release and fetch its evidence checker
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python3 - <<'PYCODE'
-          import json, os, re
-          pin = json.load(open('upstream.json'))
-          assert pin['repository'] == 'lestercorderomurillo/macos-tahoe-liquid-kde'
-          assert re.fullmatch('[a-f0-9]{40}', pin['commit'])
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              output.write('commit=' + pin['commit'] + '\n')
-          PYCODE
-      - uses: actions/checkout@v5
-        with:
-          repository: lestercorderomurillo/macos-tahoe-liquid-kde
-          ref: ${{ steps.pin.outputs.commit }}
-          fetch-depth: 0
-          path: tahoe
-      - name: Check immutable Tahoe tag and archive
-        timeout-minutes: 5
-        run: |
-          python3 - <<'PYCODE'
-          import hashlib, json, pathlib, subprocess, urllib.request
+          import hashlib, io, json, os, pathlib, re, subprocess, tarfile
           pin = json.loads(pathlib.Path('upstream.json').read_text())
           version = pathlib.Path('VERSION').read_text().strip()
-          tag = 'v' + version
-          tagged = subprocess.check_output(
-              ['git', '-C', 'tahoe', 'rev-parse', tag + '^{commit}'], text=True).strip()
-          assert tagged == pin['commit'], 'Tahoe release tag does not match immutable pin'
-          digest = hashlib.sha256()
+          assert pin['repository'] == 'lestercorderomurillo/macos-tahoe-liquid-kde'
+          assert re.fullmatch('[a-f0-9]{40}', pin['commit'])
+          assert re.fullmatch(r'\d+\.\d+(?:\.\d+|rc[1-9]\d*)', version)
+          assert pin['version'] == version
+          tag = 'refs/tags/v' + version
+          refs = subprocess.check_output(['git', 'ls-remote',
+              'https://github.com/' + pin['repository'] + '.git', tag, tag + '^{}'], text=True)
+          refs = {ref: sha for sha, ref in (line.split() for line in refs.splitlines())}
+          assert refs.get(tag + '^{}', refs.get(tag)) == pin['commit'], 'Tahoe tag differs from pin'
           url = 'https://codeload.github.com/' + pin['repository'] + '/tar.gz/' + pin['commit']
-          with urllib.request.urlopen(url, timeout=120) as response:
-              while chunk := response.read(1024 * 1024):
-                  digest.update(chunk)
-          assert digest.hexdigest() == pin['sha256'], 'Published Tahoe archive checksum mismatch'
+          archive = subprocess.check_output(['curl', '--fail', '--location', '--silent',
+              '--show-error', '--max-time', '120', url])
+          assert hashlib.sha256(archive).hexdigest() == pin['sha256'], 'Tahoe archive checksum mismatch'
+          with tarfile.open(fileobj=io.BytesIO(archive), mode='r:gz') as source:
+              root = 'macos-tahoe-liquid-kde-' + pin['commit'] + '/'
+              assert source.extractfile(root + 'VERSION').read().decode().strip() == version
+              checker = source.extractfile(root + '.github/scripts/release_evidence.py').read()
+          pathlib.Path(os.environ['RUNNER_TEMP'], 'tahoe-release-evidence.py').write_bytes(checker)
           PYCODE
       - name: Verify focused local evidence
-        run: |
-          python3 tahoe/.github/scripts/release_evidence.py --repo .
-          test "$(git describe --tags --exact-match HEAD)" = "v$(cat VERSION)"
+        run: python3 "$RUNNER_TEMP/tahoe-release-evidence.py" --fetch-refs --repo .
       - name: Publish installable release
         env:
           GH_TOKEN: ${{ github.token }}
