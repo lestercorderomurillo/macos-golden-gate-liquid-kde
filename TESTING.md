@@ -1,7 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.72.9** passed focused pipeline regressions and the complete post-publication CI.
-Publication is 74% faster for Tahoe and 60% faster for Golden Gate. Full CI improved 51.5% with caches ready; its first run improved 21%, below the 50% target. See [measured performance and cache conditions](.github/CI_PERFORMANCE.md).
+Golden Gate **v0.72.10** pins the shared regression repair for accent contrast, Control Center and startup-disk detection. Focused shared checks and disposable-VM qualification passed; [scope and limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.10/.github/REGRESSIONS-0.72.10.md) identify the exact coverage. Full CI follows publication.
 See [validation and coverage limits](release-evidence.json). Existing gallery photographs retain their original reviewed [provenance](src/screenshots/release-capture.json).
 
 ## Installation steps
