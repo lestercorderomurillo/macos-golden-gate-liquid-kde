@@ -435,8 +435,8 @@ preserving a background selected afterward by the user. A Breeze/Next filename
 alone is not proof of ownership; legacy misclassified states require an
 explicit reset. Keep this implementation in Tahoe.
 
-The shared Acrylic Glass KCM offers Tahoe and Golden Gate materials, both
-with blur strength 5 and stable saved IDs 1 and 2. Retired Clear ID 0 falls
+The shared Acrylic Glass KCM offers Tahoe Clear (blur 5), Tahoe Frosted
+(blur 12) and Golden Gate Official (blur 4), with stable saved material IDs 1 and 2. Retired Clear ID 0 falls
 back to Tahoe without resetting saved optics when opening the KCM.
 Installing or reinstalling Acrylic Glass selects the complete Golden Gate
 material, replacing saved material selections and optical overrides while
@@ -454,7 +454,7 @@ these surfaces in both the installer and Nix staging.
 Tahoe retains 55% white light fills and slightly clearer 48% black dark fills.
 Golden Gate menus retain their black upper gradient in light and dark mode:
 85% black at the top, fading to zero at 55% of the surface height;
-the Dock is exempt from the gradient while retaining blur and refraction.
+the Dock defaults to no gradient while retaining blur and refraction; its component controls may override that default.
 Launcher text uses a soft, low-opacity halo of the opposite luminance, without
 a hard outline. Light-mode category pills have a translucent white backing
 for readable dark labels. Keep this shared implementation in Tahoe.
@@ -550,4 +550,6 @@ symbols, not hand-drawn approximations. Regenerate the committed paths with
 uniform transforms in `systemmenusymbols.json`. The plugin must not require
 a host Apple font or an SVG loader at runtime. App Store remains unchanged.
 
-Dock and Control Center surfaces never receive the material gradient, in either edition or appearance mode. Preserve blur and refraction. Recover separate rounded blur islands and let shader coverage antialias their edges; integer region clipping must not cut off fractional coverage. Keep transparent gaps and custom cutouts intact.
+Dock and Control Center gradients default off in every material and appearance mode; explicit component overrides may enable them. Preserve blur and refraction. Recover separate rounded blur islands and let shader coverage antialias their edges; integer region clipping must not cut off fractional coverage. Keep transparent gaps and custom cutouts intact.
+
+Acrylic Glass stores an independent component map for each stable material/variant ID. The KCM selector covers general windows, Finder, menus, other Plasma popups, Apps + Clipboard, search, Control Center, About, Dock and menu bar, with the same optical controls. Preserve existing defaults and legacy saved optics when migrating. Dock and Control Center gradients default off in all three presets but may be enabled explicitly for that component. Switching presets retains their edits; Restore resets only the selected preset. Background transparency edits Plasma/Kvantum SVG fills and About/Control Center QML fills, never whole-window opacity. Apply must patch owned assets transactionally and reload live surfaces; Cancel must not write assets. Preserve mode-specific values, unrelated app mappings and externally edited files. Keep implementations and preset definitions exclusively in Tahoe.
