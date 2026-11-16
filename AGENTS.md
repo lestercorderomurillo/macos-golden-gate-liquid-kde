@@ -307,6 +307,8 @@ below; this does not require repeating the full shared suite for every edit.
 
 ### README presentation
 
+Show Dock photographs as one visible vertical list, with a short label for each appearance or tint. Do not use tables or collapsed galleries for the Dock.
+
 Use concise, factual English descriptions without marketing slogans or em dashes.
 Use the repository's edition name in feature headings: Finder, Launchpad, Dock,
 Shell, Control Center, Clipboard History, System Information, Plasma Theme and
