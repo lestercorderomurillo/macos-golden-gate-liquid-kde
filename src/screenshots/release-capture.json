@@ -16563,6 +16563,20 @@
         "golden-gate-dark-context": "ccf33b3c611746eee7173d4fdbea84e46eccf75171a87458dfcdff2cc1a9d5ce",
         "golden-gate-light-boot": "1f628792b5bc52f507d52d7bc8c67322299431a9a5f16a92c447eeba571adcfe"
       }
+    },
+    {
+      "source_version": "0.72.2",
+      "scope": "Control Center gradient removal and native glass edge qualification; unrelated README photographs retained",
+      "provenance": "src/screenshots/previews/gradient-0722-golden-gate-provenance-fdb47e965002.json",
+      "reviewed": true,
+      "frames": {
+        "src/screenshots/previews/gradient-0722-golden-gate-light-dock-fac3b54a46b7.webp": "fac3b54a46b7c19d768f49147ab07ca63e69e3996bdf7383738c078d2329e00e",
+        "src/screenshots/previews/gradient-0722-golden-gate-light-menu-f8d8a6ccca07.webp": "f8d8a6ccca0784312659503781e6b3bdd2d99af0bc97158f3588d7411e0a2012",
+        "src/screenshots/previews/gradient-0722-golden-gate-dark-dock-f4aa2d235fea.webp": "f4aa2d235fea93a3c39b837fe2fbfd4ae600cb5d475ac63b0dfeec4f9275199b",
+        "src/screenshots/previews/gradient-0722-golden-gate-dark-menu-254c053776bb.webp": "254c053776bb4733697c13d8653af31590cdca34c1c8f98ce7c6c749c07650e3",
+        "src/screenshots/control-center-light-d2f802aa2080.webp": "d2f802aa20803edc4afdaf574235985ab6f0bf38b3648160110128033920a9e7",
+        "src/screenshots/control-center-dark-21e3ca44cef9.webp": "21e3ca44cef9bd8acb7ab815042ad7cb7a8c79ab703fcb7891b019d4af124f2e"
+      }
     }
   ],
   "component_previews": [

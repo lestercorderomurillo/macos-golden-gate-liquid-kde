@@ -168,8 +168,8 @@ Quick access to system settings, apps and session controls.
 Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come very soon.
 
 <p align="center">
-  <img src="src/screenshots/control-center-light-ccf42ca615ed.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/control-center-dark-36992b3126ef.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/control-center-light-d2f802aa2080.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/control-center-dark-21e3ca44cef9.webp" alt="Control Center in dark mode" width="415">
 </p>
 
 <br>
