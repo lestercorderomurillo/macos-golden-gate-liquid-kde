@@ -123,8 +123,8 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 Finder-style file browsing with Golden Gate glass.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_2k-a21a0824f756.webp"><img src="src/screenshots/showcase_light_2k-a21a0824f756.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/showcase_dark_2k-6ed724c0a3c2.webp"><img src="src/screenshots/showcase_dark_2k-6ed724c0a3c2.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/showcase_light_2k-c278d44e59fd.webp"><img src="src/screenshots/showcase_light_2k-c278d44e59fd.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/showcase_dark_2k-0524872d7443.webp"><img src="src/screenshots/showcase_dark_2k-0524872d7443.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
 </p>
 
 <br>
@@ -134,8 +134,8 @@ Finder-style file browsing with Golden Gate glass.
 Find apps, browse categories and keep your favorites within reach.
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-9e796a21431e.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-e49995131f5f.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_light-ef84941c718d.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/launcher_preset_2_dark-475b0c218b14.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -145,9 +145,9 @@ Find apps, browse categories and keep your favorites within reach.
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/dock_1_v1-0952d3810300.webp" alt="Glass Dock with light icons and a red notification count bubble" width="840">
+  <img src="src/screenshots/dock_1_v1-1c588ec21246.webp" alt="Glass Dock with light icons and a red notification count bubble" width="840">
   <br>
-  <img src="src/screenshots/dock_1_dark_v1-5ad8f6c373a4.webp" alt="Glass Dock with dark icons, a complete App Store icon and a red notification count bubble" width="840">
+  <img src="src/screenshots/dock_1_dark_v1-9ba5c5f327ea.webp" alt="Glass Dock with dark icons, a complete App Store icon and a red notification count bubble" width="840">
 </p>
 
 <br>
@@ -157,8 +157,8 @@ Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 Quick access to system settings, apps and session controls.
 
 <p align="center">
-  <img src="src/screenshots/menu_v1-4ccac1191586.webp" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-e6cda19d04cd.webp" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/menu_v1-3f2884262a96.webp" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/menu_dark_v1-e54334c7f1ea.webp" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
@@ -168,8 +168,8 @@ Quick access to system settings, apps and session controls.
 Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come very soon.
 
 <p align="center">
-  <img src="src/screenshots/control-center-light-c113c1256fb7.png" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/control-center-dark-99860a5d2cc9.png" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/control-center-light-ccf42ca615ed.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/control-center-dark-36992b3126ef.webp" alt="Control Center in dark mode" width="415">
 </p>
 
 <br>
@@ -179,8 +179,8 @@ Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come 
 Find and reuse copied text and images directly from Launchpad.
 
 <p align="center">
-  <img src="src/screenshots/previews/clipboard-launcher-light-0c43493092c3.png" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/clipboard-launcher-dark-7b7894df34be.png" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <img src="src/screenshots/previews/clipboard-launcher-light-d10d236780ef.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
+  <img src="src/screenshots/previews/clipboard-launcher-dark-ae057bdbbcdf.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
 </p>
 
 <br>
@@ -190,8 +190,8 @@ Find and reuse copied text and images directly from Launchpad.
 Your hardware, software and theme details at a glance.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-88b98da8317f.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-5da07d9bfc5b.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/about_v1-efc0c04df5db.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/about_dark_v1-fde3d8f0d09f.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -201,8 +201,8 @@ Your hardware, software and theme details at a glance.
 Translucent menus and popups with matching light and dark colors.
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-e6ca2a5cb614.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-8a45ee26d13f.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/context_menu_v1-be94475c33f1.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/context_menu_dark_v1-ccf33b3c6117.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>

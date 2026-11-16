@@ -1,18 +1,11 @@
 # Installer testing
 
-Golden Gate **v0.72.1 candidate** integrates macOS-style Clipboard history into the launcher.
-Focused clipboard, launcher, install/reinstall and Qt/GTK light/dark/automatic checks
-passed in disposable environments. See [source identities and coverage limits](release-evidence.json).
-Release publication awaits confirmation.
-
-[Light menu](src/screenshots/menu_v1-4ccac1191586.webp) · [Dark menu](src/screenshots/menu_dark_v1-e6cda19d04cd.webp) · [Capture provenance](src/screenshots/previews/system-menu-golden-gate-069-provenance-a2ffe6af504b.json)
-
-The README About, Finder and top bar photographs retain their v0.67.0 source from a
-disposable VM. Other desktop images and the installer gallery retain their original
-reviewed provenance ([capture records](src/screenshots/release-capture.json)). The retained v0.66.2 About previews show the corrected labels
-in both modes ([provenance](src/screenshots/previews/about-buttons-provenance.json)).
-
-[Light preview](src/screenshots/previews/about-buttons-light-23dd8b3e3837.png) · [Dark preview](src/screenshots/previews/about-buttons-dark-2e4c5cf8099c.png)
+Golden Gate **v0.72.1** includes Clipboard history in Launchpad. Focused component,
+install/reinstall and appearance checks passed in disposable environments; see
+[source identities, CI results and coverage limits](release-evidence.json).
+All README feature photographs were refreshed from v0.72.1 in the pinned Plasma VM
+([capture records](src/screenshots/previews/readme-0721-golden-gate-provenance-f081b58124f5.json)). The installer photographs below retain
+their original reviewed provenance ([gallery records](src/screenshots/release-capture.json)).
 
 ## Installation steps
 

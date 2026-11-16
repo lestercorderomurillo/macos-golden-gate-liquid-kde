@@ -279,48 +279,89 @@
   "gallery_commit": "a3e02f6e9ed93bd7a8d00773466128c9eb18effe",
   "captures": [
     {
-      "path": "src/screenshots/previews/clipboard-launcher-light-0c43493092c3.png",
-      "sha256": "0c43493092c32122375843e4f6f8aa0b746f060e4c910056919a4cfcd83212ff",
-      "reviewed": true,
-      "edition": "golden-gate",
-      "mode": "light",
-      "provenance": "src/screenshots/previews/clipboard-launcher-provenance-23a3759c052a.json"
+      "path": "src/screenshots/showcase_light_2k-c278d44e59fd.webp",
+      "sha256": "c278d44e59fd74c3380c850e10715fadcaad4d164f75b3a7219cd46de191073a",
+      "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/clipboard-launcher-dark-7b7894df34be.png",
-      "sha256": "7b7894df34bec0bc7f7e4e6c30eeb8ea0f77a3fdcebb304c5009b41dc6135c5e",
-      "reviewed": true,
-      "edition": "golden-gate",
-      "mode": "dark",
-      "provenance": "src/screenshots/previews/clipboard-launcher-provenance-23a3759c052a.json"
+      "path": "src/screenshots/showcase_dark_2k-0524872d7443.webp",
+      "sha256": "0524872d744347cfe54005c5070a9ac4dcbab6489178a0d9b31d15b1ba678a72",
+      "reviewed": true
     },
     {
-      "path": "src/screenshots/control-center-light-c113c1256fb7.png",
-      "sha256": "c113c1256fb7b9fff275c10171843cacc9089c7d4b47983c6b35fcf765f9cc94",
-      "reviewed": true,
-      "edition": "golden-gate",
-      "mode": "light",
-      "original_sha256": "926930147008e69c7d14c7418f9c7a29b0fc0515954f5d238a962b6cae7fd68a",
-      "crop": [
-        3170,
-        0,
-        3840,
-        1010
-      ]
+      "path": "src/screenshots/launcher_preset_2_light-ef84941c718d.webp",
+      "sha256": "ef84941c718de9d38562b0df6eefe1a9a062f23450c98212860eff09d7fac264",
+      "reviewed": true
     },
     {
-      "path": "src/screenshots/control-center-dark-99860a5d2cc9.png",
-      "sha256": "99860a5d2cc91510aada72accbca2737a83d16cf9c303acf8dab67dfb62b97b1",
-      "reviewed": true,
-      "edition": "golden-gate",
-      "mode": "dark",
-      "original_sha256": "c3dbb51ff50432f7d9a1f9c106b5db71230eac802951a5b1c05e3f48335a6953",
-      "crop": [
-        3170,
-        0,
-        3840,
-        1010
-      ]
+      "path": "src/screenshots/launcher_preset_2_dark-475b0c218b14.webp",
+      "sha256": "475b0c218b14352f20671701947f1af1016db6fad10b1a878fd2038d3a7edc74",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/dock_1_v1-1c588ec21246.webp",
+      "sha256": "1c588ec21246b1ea01f9b22e56668fb15a15afad20b95581cc32124e477d8c74",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/dock_1_dark_v1-9ba5c5f327ea.webp",
+      "sha256": "9ba5c5f327eaa0a43f7369153c7789723e41f75aed8a5ae95365c19eff06550b",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/menu_v1-3f2884262a96.webp",
+      "sha256": "3f2884262a961185af8a6c3ca99f677bc3144682edd8212a3f94813614e6c07a",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/menu_dark_v1-e54334c7f1ea.webp",
+      "sha256": "e54334c7f1ea74f22817ce8d662639bb67fa895b36fff88d75c0372ea3adbba8",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/control-center-light-ccf42ca615ed.webp",
+      "sha256": "ccf42ca615ed2bfbf27901ea29721f7695b2b3229bfc9f239ab60d215e554cac",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/control-center-dark-36992b3126ef.webp",
+      "sha256": "36992b3126ef606b40b5535277b5fdd3ec16e2af16022e516badd4293b0089e1",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/clipboard-launcher-light-d10d236780ef.webp",
+      "sha256": "d10d236780efad3bf99c282cd185d0fde6acc158caa639ddf2a1cf34d9914661",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/clipboard-launcher-dark-ae057bdbbcdf.webp",
+      "sha256": "ae057bdbbcdfda2078ad2adccada464973da122fc6a255a628e7d96970550482",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/about_v1-efc0c04df5db.webp",
+      "sha256": "efc0c04df5db5fb686978cb066b17f12257152b565422fadddc95af88d02ba67",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/about_dark_v1-fde3d8f0d09f.webp",
+      "sha256": "fde3d8f0d09f9d4671f8706887212d94264be23649100326d89cd8233c19e9f5",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/context_menu_v1-be94475c33f1.webp",
+      "sha256": "be94475c33f1b7a98b10abe0129ecc0f60bdb904634afeec3264daa6de7f4990",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/context_menu_dark_v1-ccf33b3c6117.webp",
+      "sha256": "ccf33b3c611746eee7173d4fdbea84e46eccf75171a87458dfcdff2cc1a9d5ce",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/boot_v1-1f628792b5bc.webp",
+      "sha256": "1f628792b5bc52f507d52d7bc8c67322299431a9a5f16a92c447eeba571adcfe",
+      "reviewed": true
     }
   ],
   "qualification": {
@@ -1870,6 +1911,11 @@
       "commit": "631e70622cfd01c24c695d7b38511e160e340c8c",
       "sha256": "9a2f2589367d6cc7e3db721ad2c425ea8dc80138245c4d56f7f3ac19e8425c9a",
       "version": "0.72.1"
+    },
+    "readme_refresh": {
+      "provenance": "src/screenshots/previews/readme-0721-golden-gate-provenance-f081b58124f5.json",
+      "source_commit": "2f57329f40c38600df1ddc4ac3f9dbf3f8f1d1b4",
+      "scope": "17 new README photographs per edition; existing installer photographs retained"
     }
   },
   "status": "candidate-publication-awaits-user-confirmation"
