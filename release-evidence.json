@@ -1,6 +1,6 @@
 {
   "version": "0.72.1",
-  "source_sha256": "2bdbabaa9456f5fcb9942e69275298ef48b93fe662ba179c751c2bbae52b3829",
+  "source_sha256": "3eb601a8ed373697b1ee97af8067d53153e51a8f95087675881f37a0b0190f29",
   "environment": "Private Xvfb and D-Bus sessions; clean Arch CI container; disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM. No host desktop mutation.",
   "checks": [
     {
@@ -274,9 +274,14 @@
       "result": "passed",
       "detail": "Merged native sources installed and reinstalled successfully; actual Wayland open/copy/dismiss/return flow passed. Focused frame reviewed; unchanged clipboard images retain their original capture identity.",
       "log_sha256": "31ee3e3c44199a47e5a0107a68139e88f1f87a915d3cdfcb6ffa4f403912a0a5"
+    },
+    {
+      "command": "Verify upstream.json against the v0.72.1 Tahoe tag, streamed codeload SHA-256, source VERSION and required edition assets",
+      "result": "passed",
+      "detail": "Commit 7270eadc5d7f4db378987b6943116aaba09e9212; archive SHA-256 8b2f0e2d8106309c6b067d93eb67699915fe9d211766b1d8369b3ca3cd0d6402. git diff from the CI-qualified Tahoe candidate confirms no implementation changes."
     }
   ],
-  "gallery_commit": "a3e02f6e9ed93bd7a8d00773466128c9eb18effe",
+  "gallery_commit": "81140b298fd90e5f200a50ca646b0fc81823356f",
   "captures": [
     {
       "path": "src/screenshots/showcase_light_2k-c278d44e59fd.webp",
@@ -1915,8 +1920,21 @@
     "readme_refresh": {
       "provenance": "src/screenshots/previews/readme-0721-golden-gate-provenance-f081b58124f5.json",
       "source_commit": "2f57329f40c38600df1ddc4ac3f9dbf3f8f1d1b4",
-      "scope": "17 new README photographs per edition; existing installer photographs retained"
+      "scope": "17 new README photographs per edition; existing installer photographs retained",
+      "export_review": "All 17 exported photographs visually reviewed; installer gallery retained unchanged."
+    },
+    "published_tahoe_pin": {
+      "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
+      "commit": "7270eadc5d7f4db378987b6943116aaba09e9212",
+      "sha256": "8b2f0e2d8106309c6b067d93eb67699915fe9d211766b1d8369b3ca3cd0d6402",
+      "version": "0.72.1"
     }
   },
-  "status": "candidate-publication-awaits-user-confirmation"
+  "status": "qualified-for-publication",
+  "remote_ci": {
+    "result": "passed",
+    "source_commit": "18bd893d1b5d9a9eb364cc8b5da2b7a6c5041d9e",
+    "url": "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/runs/43775635891",
+    "reuse": "Wrapper implementation unchanged; new immutable pin has identical Tahoe implementation to the qualified candidate. Pin, archive checksum, version and edition assets checked locally."
+  }
 }
