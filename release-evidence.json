@@ -1,7 +1,7 @@
 {
-  "version": "0.72.7",
-  "source_sha256": "8a8aa82d1e19c7f9c267e48451948f1a515dce642461b912311bd0fd3a43914e",
-  "scope": "CI/CD-only change: weekly source-free registry SDKs, four disjoint primary shards balanced from observed JUnit timings, Nix store reuse, shallow release refs and verified archive extraction for Golden Gate. All distro and executable test coverage retained. No installed desktop behavior changed.",
+  "version": "0.72.8",
+  "source_sha256": "7ac0f50c37543390226afd6f818c7bf5466fc5123ebeb6bd8a2bb30100a49cab",
+  "scope": "CI/CD-only change: weekly source-free registry SDKs, four disjoint primary shards balanced from observed JUnit timings, Nix store reuse, shallow release refs and verified archive extraction for Golden Gate. All distro and executable test coverage retained. No installed desktop behavior changed. Cache publication now retries once and warns on registry failure without skipping execution.",
   "environment": "Local Python 3 focused CI-helper regressions and actionlint 1.7.7; full post-publication GitHub matrix remains enabled.",
   "checks": [
     {
@@ -17,6 +17,11 @@
     {
       "command": "actionlint -shellcheck= .github/workflows/test.yml .github/workflows/release.yml ../macos-golden-gate-liquid-kde/.github/workflows/release.yml",
       "result": "passed"
+    },
+    {
+      "command": "python3 -m pytest tests/test_ci_sdk.py -q",
+      "result": "passed",
+      "detail": "4 passed, including two failed registry pushes: a usable local SDK still reaches the complete test suite; build and test failures remain fatal."
     }
   ],
   "coverage_limits": [
@@ -33,8 +38,8 @@
   "captures": [],
   "tahoe_pin": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "1e3c0162e9099a925f700e0a6f7c30ce5848ccae",
-    "sha256": "a4929e70012febd9990a40fda37b236e15bbe3d89e2114ebccbd4719af2a83a2",
-    "version": "0.72.7"
+    "commit": "3ed6487a7b2d300afaf3271a6d8287d15d7e2480",
+    "sha256": "e28bfd2bf1c7717fd277e6bbb8d54ac7778b718d264767991b58d7b1cb831bbc",
+    "version": "0.72.8"
   }
 }
