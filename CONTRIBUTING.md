@@ -120,3 +120,9 @@ Both editions share Tahoe's system appearance follower. Native KDE and GTK
 selections synchronize the installed components; `mac-tahoe-theme-switch auto`
 selects the 06:00/18:00 schedule, and a later manual selection supersedes it.
 See the [implementation and qualification scope](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/docs/appearance-sync.md).
+
+The shared deterministic installer icon renderer supports `installer-build`, RGB
+tints, validated JSON material parameters and 1–32 concurrent jobs (default four).
+It transforms original artwork without image generation. See Tahoe’s
+[exact installer recipe commands](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md#icon-generation-toolset).
+The implementation and defaults remain exclusively in Tahoe.

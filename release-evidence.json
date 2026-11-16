@@ -1,39 +1,42 @@
 {
-  "version": "0.72.13",
-  "source_sha256": "8f3bf4e76579e0e0301da118941f034cbb80ac913f225b133b4e0161bc664348",
-  "scope": "Original icon detail and glass contrast; remove Trash state from color tables. See .github/ICON-CONTRAST-0.72.13.md.",
+  "version": "0.72.14",
+  "source_sha256": "0d3af6800ae9fdf968e08f9e81af5ed3199da13badac0340d1609ee216f240d8",
+  "scope": "Deterministic parameterized icon generation; same pixels, faster rendering. See .github/ICON-GENERATION-0.72.14.md.",
   "environment": "Disposable neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM and focused real-artwork pixel regressions.",
   "checks": [
     {
-      "command": "pytest tests/test_icon_toolset.py -k \"glass or regular_dark\"",
+      "command": "pytest tests/test_icon_toolset.py tests/test_icons_step.py -q",
       "result": "passed",
-      "detail": "10 passed. Actual bundled Finder eye and Calendar letter detail exceed 3:1 at 64px across eight tints, both modes and light/dark backgrounds."
+      "detail": "47 passed; after cancellation and recipe coverage edits, 5 focused cases passed; separate worker failure cleanup case passed."
     },
     {
-      "command": "VM: normal installer privilege setup; steps.icons.install() twice with a displayed-artwork generation fixture; actual archive staging and installation destinations retained",
+      "command": "Same-fixture baseline/candidate installer_themes generation plus PNG SHA-256 comparison",
       "result": "passed",
-      "detail": "Four icon themes installed; repeat installation reused matching output. Apps, Settings, Finder and empty/full Trash artifacts present."
+      "detail": "536 PNGs identical; 13 artworks, 268 names; 3.84s to 0.97s (74.7% reduction). Repeat output identical."
     },
     {
-      "command": "VM: live light/dark Dock captures with empty/full Trash; visual review of each original frame",
+      "command": "Disposable Plasma VM: steps.icons.install() twice with displayed-artwork generation fixture",
       "result": "passed",
-      "detail": "Four actual Dock frames reviewed; original shaded logos retained while eyes, smile and Calendar text remain legible."
+      "detail": "Real archive staging and install destinations; normal privilege setup; repeat installation skips unchanged output."
+    },
+    {
+      "command": "Verify immutable Tahoe archive VERSION, SHA-256 and exact renderer source bytes",
+      "result": "passed",
+      "detail": "v0.72.14 archive and both renderer modules match the qualified candidate; unchanged wrapper checks reused."
     }
   ],
   "coverage_limits": [
-    "Focused displayed-icon fixture, not an exhaustive icon-library installation or complete wizard run.",
-    "Wayland VM; no fresh X11 desktop qualification. No native backend or ABI changed.",
-    "Contrast checks cover the specified original details, not accessibility certification of every glyph.",
-    "Remaining requested tint photographs follow as documentation delivery.",
-    "Full remote CI is tracked after publication.",
-    "Shared implementation qualification from Tahoe; edition-specific photographs delivered separately."
+    "Benchmark covers the recorded 13-artwork fixture, not full-library or complete installer latency.",
+    "Focused VM icon lifecycle, not full wizard or fresh X11 qualification.",
+    "Original photographs retained; default rendered PNGs match v0.72.13.",
+    "Full remote CI tracked after publication."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [],
   "upstream": {
     "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-    "commit": "74b88ff1837df09fa83ec5abd7ad3c43042ef861",
-    "sha256": "260fe69af1f1fd2fbabcbebac9fe5fae93d9c897a0e19536acd35c77c372d59e",
-    "version": "0.72.13"
+    "commit": "ebf0e2d75320f1930e20aab4e0995237e85458d8",
+    "sha256": "b3eb3afb23ce300c7d04a3653b7f0f7ae47a56dc91ea9a12e56d946817c4f133",
+    "version": "0.72.14"
   }
 }
