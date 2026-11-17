@@ -1,30 +1,29 @@
 {
-  "version": "0.73.3",
-  "source_sha256": "9401e2b9fffa19551ce7bf2aa02361ba19b4e96a25d3c21b0a8d584cbee304bf",
-  "scope": "Matching published Tahoe pin for audit fixes 3, 2 and 1: Breeze restoration failure gate and preservation/restoration of user fonts, icon themes and wallpapers. Clipboard behavior unchanged.",
-  "environment": "Disposable Plasma 6.8.1 / Qt 6.11.1 VM; prepared Golden Gate source and shared selected lifecycle.",
+  "version": "0.73.4",
+  "source_sha256": "dfc3221227ce8d1ed0d1c7091ac9b5f574f32330414e7ad83cab5ff9b1e3dc55",
+  "scope": "Match published Tahoe v0.73.4, correcting the icon lifecycle CI assertion to verify user-edit restoration. Wrapper, installed behavior, components and appearance unchanged.",
+  "environment": "Local wrapper tests with isolated temporary sources; immutable published Tahoe archive inspected without installing.",
   "checks": [
     {
       "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
       "result": "passed",
-      "detail": "59 passed in 0.52s during v0.73.1 qualification; unchanged wrapper and tests, evidence reused."
+      "detail": "59 passed in 0.47s."
     },
     {
-      "command": "python3 -m pytest tests/test_owned_assets.py tests/test_fonts.py tests/test_wallpaper_defaults.py -q",
+      "command": "python3 archive verification of /tmp/tahoe-0.73.4.tar.gz",
       "result": "passed",
-      "detail": "Prepared Golden Gate source: 26 passed in 3.60s inside disposable VM."
+      "detail": "Published commit d2d149cb6ec97fb333f6fb73aef9b905c728504c; SHA-256 4a9f56d64f09c39c4d64ffc12e743a81ddfcd3564ae88ed369f4dd7341b872e2; VERSION, launcher_defaults.py and MacGoldenGate assets verified. owned_assets.py, steps/icons.py and component-hashes.json byte-identical to v0.73.3."
     },
     {
-      "command": "python3 archive verification of /tmp/tahoe-0.73.3.tar.gz",
+      "command": "python3 -m pytest tests/test_status_icons.py::test_icon_install_reinstall_uninstall_recolors_staged_batteries tests/test_owned_assets.py -q",
       "result": "passed",
-      "detail": "Published Tahoe commit 996397f08c8b4ef264da7fbbc83bb98f1aaf1f62; SHA-256 527ad11c2d467226508e2e469c86f19de144cfc8c36dd3c82485cde1a855304e; VERSION, launcher defaults, MacGoldenGate assets and exact validated owned_assets.py verified."
+      "detail": "Shared Tahoe source: 13 passed in 6.03s; backed-up icon edit restored, untouched theme removed, repeated uninstall preserves the restored edit."
     }
   ],
   "coverage_limits": [
-    "Unrecorded legacy assets and user-modified trees are preserved. Original assets replaced by installation have recoverable backups.",
-    "Shared selected fonts/icons/wallpapers install/reinstall/uninstall qualified on Plasma 6.8.1 / Qt 6.11.1; not a full desktop or distro matrix.",
-    "Breeze effective config and live wallpaper selection verified; no new rendering/SDK qualification.",
-    "Full remote CI asynchronous, not reported as passed."
+    "Test-only shared correction and matching immutable pin; no installed implementation or artwork changes. Prior v0.73.3 selected VM lifecycle evidence remains valid for unchanged code.",
+    "Full remote CI runs asynchronously; the failed v0.73.3 icon assertion is corrected, not reported as a passing historical run.",
+    "Historical reviewed photographs retain original provenance."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [
@@ -53,5 +52,5 @@
       "source_commit": "9ff2d9a4"
     }
   ],
-  "tahoe_release_workflow": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44123444697"
+  "tahoe_release_workflow": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44143627884"
 }
