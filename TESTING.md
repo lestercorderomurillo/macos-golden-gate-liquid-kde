@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.4** pins Tahoe’s corrected icon lifecycle CI regression; installed behavior is unchanged from v0.73.3. All 59 wrapper checks and 13 shared icon lifecycle and ownership checks passed; the published archive checksum and unchanged implementation were verified. Prior selected VM lifecycle evidence is retained for the unchanged code. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
+Golden Gate **v0.73.5** pins the user-approved notification banners and history and removes duplicated bar controls. The published Tahoe source matches the qualified payload and archive checksum. Selected SDK, X11 rendering, Wayland notifications, install/reinstall and both-edition appearance checks are recorded in the [shared evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.5/docs/evidence/notifications-0735.json); wrapper and pin checks are in [release evidence](release-evidence.json). Full remote CI remains asynchronous; installer photographs retain their original provenance.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 

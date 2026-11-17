@@ -1,8 +1,20 @@
 {
-  "version": "0.73.4",
-  "source_sha256": "dfc3221227ce8d1ed0d1c7091ac9b5f574f32330414e7ad83cab5ff9b1e3dc55",
-  "scope": "Match published Tahoe v0.73.4, correcting the icon lifecycle CI assertion to verify user-edit restoration. Wrapper, installed behavior, components and appearance unchanged.",
-  "environment": "Local wrapper tests with isolated temporary sources; immutable published Tahoe archive inspected without installing.",
+  "version": "0.73.5",
+  "source_sha256": "1e13fb4d263c960553632f69542ae10765c873860316e0184014b9afc0fd7c42",
+  "scope": "Pair the user-approved notification iteration with published Tahoe v0.73.5, preserving Golden Gate defaults and all unrelated photographs.",
+  "environment": "Local isolated wrapper tests and prepared Golden Gate source; selected shared VM/SDK qualification recorded by pinned Tahoe.",
+  "upstream_release": {
+    "commit": "22d61580f9fe263e414d370de74f2faed2c69e7c",
+    "archive_sha256": "0b510f7b80aba7f8be1268f04a3920e79c37292ca158382f534ee3610b8f6394",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.5",
+    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44191384982",
+    "observed_result": "published"
+  },
+  "approval": {
+    "date": "2026-11-17",
+    "message": "pls release with that... its OKAY",
+    "approved_hover_sha256": "8908d4edf9c56438fdf337451664b28d8159b01c825e314079fdc7c57cd4ed5f"
+  },
   "checks": [
     {
       "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
@@ -10,47 +22,41 @@
       "detail": "59 passed in 0.47s."
     },
     {
-      "command": "python3 archive verification of /tmp/tahoe-0.73.4.tar.gz",
+      "command": "Verify published immutable Tahoe commit archive against qualified payload hashes",
       "result": "passed",
-      "detail": "Published commit d2d149cb6ec97fb333f6fb73aef9b905c728504c; SHA-256 4a9f56d64f09c39c4d64ffc12e743a81ddfcd3564ae88ed369f4dd7341b872e2; VERSION, launcher_defaults.py and MacGoldenGate assets verified. owned_assets.py, steps/icons.py and component-hashes.json byte-identical to v0.73.3."
+      "detail": "Archive SHA-256 0b510f7b80aba7f8be1268f04a3920e79c37292ca158382f534ee3610b8f6394; VERSION 0.73.5, launcher_defaults.py and MacGoldenGate assets verified; all 70 changed payload files match the qualified source."
     },
     {
-      "command": "python3 -m pytest tests/test_status_icons.py::test_icon_install_reinstall_uninstall_recolors_staged_batteries tests/test_owned_assets.py -q",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<published Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; python3 <prepared>/src/scripts/component_manifest.py",
       "result": "passed",
-      "detail": "Shared Tahoe source: 13 passed in 6.03s; backed-up icon edit restored, untouched theme removed, repeated uninstall preserves the restored edit."
+      "detail": "Published 0.73.5 staged with Golden Gate wallpaper and launcher preset 2; staged component ledger and unchanged payload verified."
+    },
+    {
+      "command": "Selected shared notification, migration, SDK, X11/Wayland and appearance qualification",
+      "result": "passed",
+      "detail": "Pinned Tahoe docs/evidence/notifications-0735.json records commands, exact sources, observed results and coverage limits."
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
     }
   ],
+  "details": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.5/docs/evidence/notifications-0735.json",
   "coverage_limits": [
-    "Test-only shared correction and matching immutable pin; no installed implementation or artwork changes. Prior v0.73.3 selected VM lifecycle evidence remains valid for unchanged code.",
-    "Full remote CI runs asynchronously; the failed v0.73.3 icon assertion is corrected, not reported as a passing historical run.",
-    "Historical reviewed photographs retain original provenance."
+    "Live complete notification applet qualification is Wayland on neon 6.8.1; X11 6.6 rendering uses a synthetic notification-role surface with the production effect.",
+    "SDK build coverage is KWin 6.6.5/6.7.5/6.8.1, with the exact Qt/libplasma combinations recorded in shared evidence.",
+    "Full remote CI stays asynchronous on dev; pending jobs are not reported as passed.",
+    "Historical galleries retain original provenance. No unrelated photographs were refreshed."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [
     {
-      "path": "src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png",
-      "sha256": "42546edab93e75a8ea8b21f7f25483aeb24a942f3676984bceef37f7e674e421",
+      "path": "src/screenshots/previews/notifications-golden-gate-hover-8908d4edf9c5.png",
+      "sha256": "8908d4edf9c56438fdf337451664b28d8159b01c825e314079fdc7c57cd4ed5f",
       "reviewed": true,
-      "source_commit": "9ff2d9a4"
-    },
-    {
-      "path": "src/screenshots/previews/installer-golden-gate-dark-progress-144f0095011c.png",
-      "sha256": "144f0095011cf26969efb018300685b5c77b15ac0724ee8b03373f6b9dffe8d0",
-      "reviewed": true,
-      "source_commit": "9ff2d9a4"
-    },
-    {
-      "path": "src/screenshots/previews/installer-golden-gate-dark-summary-d270482045cb.png",
-      "sha256": "d270482045cb8a1183e3fe2b5a59cb11f25334e000d2b0a4f3fa6381702ce283",
-      "reviewed": true,
-      "source_commit": "9ff2d9a4"
-    },
-    {
-      "path": "src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png",
-      "sha256": "03fa4b14b92fc8db4ed566d50137b18265227178a9172f8b4ff81ed1d84c6675",
-      "reviewed": true,
-      "source_commit": "9ff2d9a4"
+      "source_commit": "1e4fb383de04495e7aa0c65cf4c9fedaabe1d66d",
+      "edition": "golden-gate",
+      "description": "Actual corrected-chevron hover explicitly approved by the user."
     }
-  ],
-  "tahoe_release_workflow": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44143627884"
+  ]
 }
