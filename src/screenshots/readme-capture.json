@@ -1,0 +1,5146 @@
+{
+  "edition": "golden-gate",
+  "version": "0.72.20",
+  "scope": "README photographs only; original installer gallery and static artwork retained",
+  "vm_image_sha256": "412e7933f10add20b921b92c02709e7eea56acd14dc14cf654f58fba4ea3cc9d",
+  "vm_extra_packages": [
+    "qml6-module-org-kde-bluezqt=6.31.0-0zneon+24.04+noble+release+build36"
+  ],
+  "images": {
+    "previews/readme-golden-gate-dark-about-d77f74c97b4c.webp": {
+      "sha256": "d77f74c97b4c07f3240c3bec619bc5200550ce0de21e224f302c2eb3a24d6388",
+      "source_sha256": "aaf45d2242fefdcd8ec1af67d2ef4a3ee130935e8c60c8a48f9fdfb6406635ac",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/about_dark_v1-fde3d8f0d09f.webp",
+      "crop": [
+        1532,
+        332,
+        2308,
+        1788
+      ],
+      "export_size": [
+        776,
+        1456
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "about",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{d6c489f6-bbb7-4720-a6d1-cd5749f0c7b9}",
+            "caption": "About This Computer (preview)",
+            "resourceClass": "org.qt-project.qml",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 780,
+              "y": 180,
+              "width": 360,
+              "height": 700
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{d6c489f6-bbb7-4720-a6d1-cd5749f0c7b9}",
+            "caption": "About This Computer (preview)",
+            "resourceClass": "org.qt-project.qml",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 780,
+              "y": 180,
+              "width": 360,
+              "height": 700
+            }
+          }
+        ],
+        "sha256": "aaf45d2242fefdcd8ec1af67d2ef4a3ee130935e8c60c8a48f9fdfb6406635ac",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-about-b05e9ef41807.webp": {
+      "sha256": "b05e9ef418070003685582301783f541c137250f9301edba077df0208c4d670e",
+      "source_sha256": "22ff3493415f081985d45925f67c9268039980fcd466fc08eb30ee8dbefe943c",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/about_v1-efc0c04df5db.webp",
+      "crop": [
+        1532,
+        332,
+        2308,
+        1788
+      ],
+      "export_size": [
+        776,
+        1456
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "about",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fcc6dfbf-3c2f-456d-8b5e-733e6a0676b0}",
+            "caption": "About This Computer (preview)",
+            "resourceClass": "org.qt-project.qml",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 780,
+              "y": 180,
+              "width": 360,
+              "height": 700
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fcc6dfbf-3c2f-456d-8b5e-733e6a0676b0}",
+            "caption": "About This Computer (preview)",
+            "resourceClass": "org.qt-project.qml",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 780,
+              "y": 180,
+              "width": 360,
+              "height": 700
+            }
+          }
+        ],
+        "sha256": "22ff3493415f081985d45925f67c9268039980fcd466fc08eb30ee8dbefe943c",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-boot-959163f469f4.webp": {
+      "sha256": "959163f469f4d9ba1197e3a5b122a0c3b482d232a84f8499fad536be62bab3ba",
+      "source_sha256": "f685ec98f1e4407f2624c352f6b6e18ae8c2a686a64f162f6d0666d8fcbfb4d0",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/boot_v1-1f628792b5bc.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "boot",
+        "sha256": "f685ec98f1e4407f2624c352f6b6e18ae8c2a686a64f162f6d0666d8fcbfb4d0",
+        "capture_method": "Plymouth startup rendered by release_capture_guest.boot inside disposable VM; progress fixture 65%; no shutdown photograph"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-context-5f8de7c61751.webp": {
+      "sha256": "5f8de7c6175194ff28ea191db4da73d0598c3d6198ea4aecbde18c3bef6e6c9b",
+      "source_sha256": "daacda2abd735ae8018981dedd133de234547dc91742b84e579f87573bc0aa95",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/context_menu_dark_v1-ccf33b3c6117.webp",
+      "crop": [
+        2066,
+        964,
+        2828,
+        1432
+      ],
+      "export_size": [
+        762,
+        468
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "context",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{d4a86f87-4d15-42b2-a75d-59d42ef718cf}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 1047,
+              "y": 496,
+              "width": 353,
+              "height": 206
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{d4a86f87-4d15-42b2-a75d-59d42ef718cf}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 1047,
+              "y": 496,
+              "width": 353,
+              "height": 206
+            }
+          }
+        ],
+        "sha256": "daacda2abd735ae8018981dedd133de234547dc91742b84e579f87573bc0aa95",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-context-7784f8cd0c33.webp": {
+      "sha256": "7784f8cd0c33830f758d2a008ef496bad656e1e010234e25320c66fd5c657f77",
+      "source_sha256": "a37b824a664976436caef7da3b93066c1a1f665ef820ae627541dca93f226a2d",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/context_menu_v1-be94475c33f1.webp",
+      "crop": [
+        2066,
+        964,
+        2828,
+        1432
+      ],
+      "export_size": [
+        762,
+        468
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "context",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fa0c42b0-0126-4c31-baee-bed2c166e1af}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 1047,
+              "y": 496,
+              "width": 353,
+              "height": 206
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fa0c42b0-0126-4c31-baee-bed2c166e1af}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 1047,
+              "y": 496,
+              "width": 353,
+              "height": 206
+            }
+          }
+        ],
+        "sha256": "a37b824a664976436caef7da3b93066c1a1f665ef820ae627541dca93f226a2d",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-control-f133d3ca84d9.webp": {
+      "sha256": "f133d3ca84d9e8d97811e46ff5f86ba18b26e19ee2ad9b62c48e5a3cabf1f1a9",
+      "source_sha256": "1c33df4ef594efd061431ec8182b2a7e42b01f6fb09cdab51341e5c6bdc85934",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/control-center-dark-21e3ca44cef9.webp",
+      "crop": [
+        3092,
+        64,
+        3840,
+        1208
+      ],
+      "export_size": [
+        748,
+        1144
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "control",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{265be788-6e30-48fb-9487-9f19bb5cd042}",
+            "caption": "mttkde-control-center",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 1560,
+              "y": 32,
+              "width": 360,
+              "height": 558
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{265be788-6e30-48fb-9487-9f19bb5cd042}",
+            "caption": "mttkde-control-center",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 1560,
+              "y": 32,
+              "width": 360,
+              "height": 558
+            }
+          }
+        ],
+        "sha256": "1c33df4ef594efd061431ec8182b2a7e42b01f6fb09cdab51341e5c6bdc85934",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-control-d425d239fc07.webp": {
+      "sha256": "d425d239fc07136d6a76487e72998f73ffb0fc77c08d6fb7dd3e44abf5c71f15",
+      "source_sha256": "2faa0d4dc6f42823596fb2a26e363dd2e388b7a5bed3479f11d739cddf159e0b",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/control-center-light-d2f802aa2080.webp",
+      "crop": [
+        3092,
+        64,
+        3840,
+        1208
+      ],
+      "export_size": [
+        748,
+        1144
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "control",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{ba54db6e-4ae3-4658-9087-4912a431a20f}",
+            "caption": "mttkde-control-center",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 1560,
+              "y": 32,
+              "width": 360,
+              "height": 558
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{ba54db6e-4ae3-4658-9087-4912a431a20f}",
+            "caption": "mttkde-control-center",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 1560,
+              "y": 32,
+              "width": 360,
+              "height": 558
+            }
+          }
+        ],
+        "sha256": "2faa0d4dc6f42823596fb2a26e363dd2e388b7a5bed3479f11d739cddf159e0b",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-launcher-712dc1c90d16.webp": {
+      "sha256": "712dc1c90d16df29b0187ab1fd5eee8ddebd2ffb746c9b9d4ada0648642746eb",
+      "source_sha256": "cf62ac2e7e97bbbc74d25b314643784ced96c6d70ab07836c44f21e8429e774c",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/launcher_preset_2_dark-475b0c218b14.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "launcher",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{8399cf7c-a90d-4fd4-8180-dd3c622fa386}",
+            "caption": "mttkde-apps",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 446,
+              "y": 282,
+              "width": 1028,
+              "height": 632
+            }
+          },
+          {
+            "id": "{598962ba-6e9d-4baa-9ed9-8e2bde4c4c80}",
+            "caption": "mttkde-search",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 643,
+              "y": 165,
+              "width": 634,
+              "height": 104
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{8399cf7c-a90d-4fd4-8180-dd3c622fa386}",
+            "caption": "mttkde-apps",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 446,
+              "y": 282,
+              "width": 1028,
+              "height": 632
+            }
+          },
+          {
+            "id": "{598962ba-6e9d-4baa-9ed9-8e2bde4c4c80}",
+            "caption": "mttkde-search",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 643,
+              "y": 165,
+              "width": 634,
+              "height": 104
+            }
+          }
+        ],
+        "sha256": "cf62ac2e7e97bbbc74d25b314643784ced96c6d70ab07836c44f21e8429e774c",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp": {
+      "sha256": "dbc626ffedb9c4f4cae699b982881f25d6580eb890440a8c7da965d55ab462ba",
+      "source_sha256": "167610363d1da89246867a74048e8938f073f3972f2e6dda68ddd6bf938fac39",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/launcher_preset_2_light-ef84941c718d.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "launcher",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{2aaf5994-5a96-4218-b855-9de5251f3936}",
+            "caption": "mttkde-apps",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 446,
+              "y": 282,
+              "width": 1028,
+              "height": 632
+            }
+          },
+          {
+            "id": "{95200d6b-c77b-4c25-b34c-d0b922157b9d}",
+            "caption": "mttkde-search",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 643,
+              "y": 165,
+              "width": 634,
+              "height": 104
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{2aaf5994-5a96-4218-b855-9de5251f3936}",
+            "caption": "mttkde-apps",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 446,
+              "y": 282,
+              "width": 1028,
+              "height": 632
+            }
+          },
+          {
+            "id": "{95200d6b-c77b-4c25-b34c-d0b922157b9d}",
+            "caption": "mttkde-search",
+            "resourceClass": "org.kde.plasmashell",
+            "type": 18,
+            "appletPopup": true,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 643,
+              "y": 165,
+              "width": 634,
+              "height": 104
+            }
+          }
+        ],
+        "sha256": "167610363d1da89246867a74048e8938f073f3972f2e6dda68ddd6bf938fac39",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-menu-0f97edd728d0.webp": {
+      "sha256": "0f97edd728d0c73414429a49a46f249d97db89e8ab183b0ee1575b34fce38fc9",
+      "source_sha256": "95f0814c8637a9a9536b804f7c1656145d097ab8a7c1c7dbed82550123745ff6",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/menu_dark_v1-e54334c7f1ea.webp",
+      "crop": [
+        0,
+        0,
+        608,
+        660
+      ],
+      "export_size": [
+        608,
+        660
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "menu",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fe5c9d8f-a76b-45f2-ab40-ce15fd9b906e}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 2,
+              "y": 32,
+              "width": 288,
+              "height": 284
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{fe5c9d8f-a76b-45f2-ab40-ce15fd9b906e}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 2,
+              "y": 32,
+              "width": 288,
+              "height": 284
+            }
+          }
+        ],
+        "sha256": "95f0814c8637a9a9536b804f7c1656145d097ab8a7c1c7dbed82550123745ff6",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-menu-16e5530b7541.webp": {
+      "sha256": "16e5530b75414125d1c8c53dde1859d399233e6dd5295c43cf9243137200036d",
+      "source_sha256": "ac37ce8b982d9c4a8071b5a1e37c05d78aadceceb61dc0beb9254dda23db9908",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/menu_v1-3f2884262a96.webp",
+      "crop": [
+        0,
+        0,
+        608,
+        660
+      ],
+      "export_size": [
+        608,
+        660
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "menu",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{f82f1613-625e-4638-909c-3fd81b0be5c2}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 2,
+              "y": 32,
+              "width": 288,
+              "height": 284
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          },
+          {
+            "id": "{f82f1613-625e-4638-909c-3fd81b0be5c2}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": -1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 2,
+              "y": 32,
+              "width": 288,
+              "height": 284
+            }
+          }
+        ],
+        "sha256": "ac37ce8b982d9c4a8071b5a1e37c05d78aadceceb61dc0beb9254dda23db9908",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-clipboard-9998cd16ab99.webp": {
+      "sha256": "9998cd16ab99161af69367c2d5344bd649739e7a1ed9baef30ff025943dcfa03",
+      "source_sha256": "7e64280eed1d9badd10feed5016303122250d0ff963dca628c2eee75578d2d9d",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/clipboard-launcher-dark-ae057bdbbcdf.webp",
+      "crop": [
+        1276,
+        874,
+        2564,
+        1286
+      ],
+      "export_size": [
+        1288,
+        412
+      ],
+      "capture": {
+        "id": "{bbee0bd9-43cb-47ae-a18a-7824b3e95c32}",
+        "caption": "mttkde-apps",
+        "resourceClass": "org.kde.plasmashell",
+        "type": 18,
+        "appletPopup": true,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 652,
+          "y": 451,
+          "width": 616,
+          "height": 178
+        },
+        "installed_source_sha256": {
+          "contents/ui/ActionMenu.qml": "976d91e98a7c183978e3a9f372063b24cf5ff59ee64849596cfc0d3841468cc6",
+          "contents/ui/AllAppsList.qml": "01c6989c7ff7a5e915ced3b191457b237c1ca076c3bd0ec3fbaf7ebedca43fb3",
+          "contents/ui/AppCategorySwitcher.qml": "f550eb20ea8ccce35cf4f3c0957c6dc1ba01d90cab738e707e61d059df9e5682",
+          "contents/ui/AppGridView.qml": "8941cc40114e8bab9cad66fe87b9cdced0c78c0a8ed7469e060c66f34caa1bcf",
+          "contents/ui/AppGridViewDelegate.qml": "efaebdb01d924a84310de46154f3484427ebb8ce4f43195287802369e6ff737b",
+          "contents/ui/AppListView.qml": "05dac4aa43c6fdda622c62495158e739c8b6aea2012a4cd219a8cd6e85b92074",
+          "contents/ui/AppListViewDelegate.qml": "c295ce16bd08bbf3a7828312ae595ea1cb86c84cce3667627af3cfe1a30ce42b",
+          "contents/ui/AppsCategorized.qml": "acc2a14566a5ffd6877e2d984a8922239fa27bfbea99d1e2acdfc3385078ef41",
+          "contents/ui/CategoryPill.qml": "795bccacacd6efce9cbc88f0d28e9b9b7710b9f9b8d52cc79faa8a60163cb1c5",
+          "contents/ui/ClipboardView.qml": "e2488148588d442c5445566bcb856ca95c6da5b79e363e12d67ae08f76d41e2a",
+          "contents/ui/CompactRepresentation.qml": "8ccc7027fa68fe727252fbab6b0f63658052b0c6ceb8f1735e0010e70ae0134a",
+          "contents/ui/ConfigGeneral.qml": "3ffe9c0946f8db088f8811d725a9df10c34fac11049cf5589fc65fe7f2880f29",
+          "contents/ui/GlassTextShadow.qml": "6a9a6b799e17f3764d46b7248b6b37e50c321ec204c184924dc4e4defcbfc1b6",
+          "contents/ui/Highlight.qml": "b91dc0dc2898ff6d83333d5c00905ae29d621906704a84c559c8df83747f2e39",
+          "contents/ui/MainView.qml": "7047ff5f855bf40a2e150ac6fd68bfd401ebcfa56d4929da74b83fce6bb4d0c6",
+          "contents/ui/MenuButton.qml": "6a35c315d08a5c63598d4560037e1ad858ccdf95cfb82653056d6be0d96c7f5b",
+          "contents/ui/MenuRepresentation.qml": "6d1dc85d32e5a331a8f14fa89fb8d6b6797f779a50cd3e854089ea4bc11ffa4d",
+          "contents/ui/Scrollbar.qml": "5fb3b81f1be5eb4944fbd363f247f587c0854d17e29df061b2bc7f713b096106",
+          "contents/ui/SearchBar.qml": "5b4666cf58d1d3c683575a40f77ee0317e7613af310dc60306645641b4a05288",
+          "contents/ui/SearchList.qml": "e263ade59997c8685e853920af36f54d4bee3116ddbbc22ed8801fac492dce6a",
+          "contents/ui/SessionButtons.qml": "47cf5d2f5dc67f661dcbe5f859abfdada8468849625485f08eff7fd7e41dfd2f",
+          "contents/ui/TahoeOptionsMenu.qml": "4cc767614caf67d358a76cb8ea493b5fbb8a1be61e1b1b462133bf4560463be4",
+          "contents/ui/icons/AppsIcon.svg": "2467bff96a1fffb9221031e002737e14604c126562884ed2ddcacfebefe9ba3b",
+          "contents/ui/icons/ClipboardIcon.svg": "c6b15291a9652f68b1bb663bf1b0b412533c8537c8e233e702d585dded8327f3",
+          "contents/ui/js/colorType.js": "a0dbf6001d481e663427d599aed9a6247bc32c8827345417f90782dfe4e61dd9",
+          "contents/ui/main.qml": "6bff5e5b7556092cd0c670208e3190b102a2f11b68eefe1058e453b8b2f8ec0b"
+        },
+        "mode": "MacTahoeLiquidKdeDark",
+        "edition": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "checks": [
+          "Ctrl+4 opens Clipboard",
+          "Enter copies selected history and closes launcher",
+          "Ctrl+1 restores applications"
+        ]
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-clipboard-bb3ca9b05f59.webp": {
+      "sha256": "bb3ca9b05f59a9cbf13a8db610166890486897e259e4847e9a22f8bda9f488f4",
+      "source_sha256": "5e485ca6db2b554f06d1690c5607930a5c6a220683fd19261cefd46e2c5ee76d",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/clipboard-launcher-light-d10d236780ef.webp",
+      "crop": [
+        1276,
+        874,
+        2564,
+        1286
+      ],
+      "export_size": [
+        1288,
+        412
+      ],
+      "capture": {
+        "id": "{e958feb6-8c12-43de-95be-b5268976abac}",
+        "caption": "mttkde-apps",
+        "resourceClass": "org.kde.plasmashell",
+        "type": 18,
+        "appletPopup": true,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 652,
+          "y": 451,
+          "width": 616,
+          "height": 178
+        },
+        "installed_source_sha256": {
+          "contents/ui/ActionMenu.qml": "976d91e98a7c183978e3a9f372063b24cf5ff59ee64849596cfc0d3841468cc6",
+          "contents/ui/AllAppsList.qml": "01c6989c7ff7a5e915ced3b191457b237c1ca076c3bd0ec3fbaf7ebedca43fb3",
+          "contents/ui/AppCategorySwitcher.qml": "f550eb20ea8ccce35cf4f3c0957c6dc1ba01d90cab738e707e61d059df9e5682",
+          "contents/ui/AppGridView.qml": "8941cc40114e8bab9cad66fe87b9cdced0c78c0a8ed7469e060c66f34caa1bcf",
+          "contents/ui/AppGridViewDelegate.qml": "efaebdb01d924a84310de46154f3484427ebb8ce4f43195287802369e6ff737b",
+          "contents/ui/AppListView.qml": "05dac4aa43c6fdda622c62495158e739c8b6aea2012a4cd219a8cd6e85b92074",
+          "contents/ui/AppListViewDelegate.qml": "c295ce16bd08bbf3a7828312ae595ea1cb86c84cce3667627af3cfe1a30ce42b",
+          "contents/ui/AppsCategorized.qml": "acc2a14566a5ffd6877e2d984a8922239fa27bfbea99d1e2acdfc3385078ef41",
+          "contents/ui/CategoryPill.qml": "795bccacacd6efce9cbc88f0d28e9b9b7710b9f9b8d52cc79faa8a60163cb1c5",
+          "contents/ui/ClipboardView.qml": "e2488148588d442c5445566bcb856ca95c6da5b79e363e12d67ae08f76d41e2a",
+          "contents/ui/CompactRepresentation.qml": "8ccc7027fa68fe727252fbab6b0f63658052b0c6ceb8f1735e0010e70ae0134a",
+          "contents/ui/ConfigGeneral.qml": "3ffe9c0946f8db088f8811d725a9df10c34fac11049cf5589fc65fe7f2880f29",
+          "contents/ui/GlassTextShadow.qml": "6a9a6b799e17f3764d46b7248b6b37e50c321ec204c184924dc4e4defcbfc1b6",
+          "contents/ui/Highlight.qml": "b91dc0dc2898ff6d83333d5c00905ae29d621906704a84c559c8df83747f2e39",
+          "contents/ui/MainView.qml": "7047ff5f855bf40a2e150ac6fd68bfd401ebcfa56d4929da74b83fce6bb4d0c6",
+          "contents/ui/MenuButton.qml": "6a35c315d08a5c63598d4560037e1ad858ccdf95cfb82653056d6be0d96c7f5b",
+          "contents/ui/MenuRepresentation.qml": "6d1dc85d32e5a331a8f14fa89fb8d6b6797f779a50cd3e854089ea4bc11ffa4d",
+          "contents/ui/Scrollbar.qml": "5fb3b81f1be5eb4944fbd363f247f587c0854d17e29df061b2bc7f713b096106",
+          "contents/ui/SearchBar.qml": "5b4666cf58d1d3c683575a40f77ee0317e7613af310dc60306645641b4a05288",
+          "contents/ui/SearchList.qml": "e263ade59997c8685e853920af36f54d4bee3116ddbbc22ed8801fac492dce6a",
+          "contents/ui/SessionButtons.qml": "47cf5d2f5dc67f661dcbe5f859abfdada8468849625485f08eff7fd7e41dfd2f",
+          "contents/ui/TahoeOptionsMenu.qml": "4cc767614caf67d358a76cb8ea493b5fbb8a1be61e1b1b462133bf4560463be4",
+          "contents/ui/icons/AppsIcon.svg": "2467bff96a1fffb9221031e002737e14604c126562884ed2ddcacfebefe9ba3b",
+          "contents/ui/icons/ClipboardIcon.svg": "c6b15291a9652f68b1bb663bf1b0b412533c8537c8e233e702d585dded8327f3",
+          "contents/ui/js/colorType.js": "a0dbf6001d481e663427d599aed9a6247bc32c8827345417f90782dfe4e61dd9",
+          "contents/ui/main.qml": "6bff5e5b7556092cd0c670208e3190b102a2f11b68eefe1058e453b8b2f8ec0b"
+        },
+        "mode": "MacTahoeLiquidKdeLight",
+        "edition": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "checks": [
+          "Ctrl+4 opens Clipboard",
+          "Enter copies selected history and closes launcher",
+          "Ctrl+1 restores applications"
+        ]
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-finder-blue-bb12c1e68fcf.webp": {
+      "sha256": "bb12c1e68fcf10867983f360a9e03cd68eee23b0e66046eb5d8e19d8fedb7d7a",
+      "source_sha256": "6c048cf0589cad04aff53212c194640581c29f870b31be40b4ad8f47a7728e5e",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dark-finder-blue-79570b8e7903.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "finder-blue",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{420b8faa-98ee-466d-b655-d26652ef802b}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{420b8faa-98ee-466d-b655-d26652ef802b}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "6c048cf0589cad04aff53212c194640581c29f870b31be40b4ad8f47a7728e5e",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-blue-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-finder-red-5b14d7f9b830.webp": {
+      "sha256": "5b14d7f9b830540d282c86c3ae4464a5c8a37980e43bfb6cd3357d12b757ce52",
+      "source_sha256": "4bc438ce140870e450251a11b2189e98d77a189c26fe412cee72916a499e6766",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dark-finder-red-5db9a6a2ddca.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "finder-red",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{1ba17001-f9d9-4d15-8afd-29992684b706}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{1ba17001-f9d9-4d15-8afd-29992684b706}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "4bc438ce140870e450251a11b2189e98d77a189c26fe412cee72916a499e6766",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-red-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-blue-2280db4a1d43.webp": {
+      "sha256": "2280db4a1d4349b202a1e7298e0a41039055151d9d6b4f4423034e6643a9b21a",
+      "source_sha256": "200c8128a8f6a75997c0437ca509f2f87a092a5a229a99b6ed77f4ae984d81f2",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-blue",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "200c8128a8f6a75997c0437ca509f2f87a092a5a229a99b6ed77f4ae984d81f2",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-blue-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-blue-5aede8ce4c44.webp": {
+      "sha256": "5aede8ce4c4445c0432f7f3cc35a985c6fefa31b157c229a1588ac1fbb31a72b",
+      "source_sha256": "7d3a94ae263d549670fef80739c22e697201a938cfae94f1baef08e4de6f59ce",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-blue",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "7d3a94ae263d549670fef80739c22e697201a938cfae94f1baef08e4de6f59ce",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-blue-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-clear-24341c6a6132.webp": {
+      "sha256": "24341c6a61329ec1c2d51bfb2b61833c42a7a7e1a50a7b85312bd37c0035e89e",
+      "source_sha256": "7d723f8f5a66a7a5c8181d946487ba2afb4c629aedd6d18812248d53f2c798a7",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-clear",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "7d723f8f5a66a7a5c8181d946487ba2afb4c629aedd6d18812248d53f2c798a7",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-clear-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-clear-b0d8a88ddd7d.webp": {
+      "sha256": "b0d8a88ddd7dfe657196da2a0bd45c69e6cc7002378700cda8f0328bc957edf8",
+      "source_sha256": "1564f6bde3aef27ac9e118ba2b645895d8b70071d0b525722daef85023b27925",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-clear",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "1564f6bde3aef27ac9e118ba2b645895d8b70071d0b525722daef85023b27925",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-clear-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-gray-8d56f0b5444a.webp": {
+      "sha256": "8d56f0b5444a60d89ce73cbdc25120190b328982c7163f190e5864ed3b9c0a36",
+      "source_sha256": "f537fe5dd065becfdbf2b08202eef8d4900730ea4ea7ae2a39b4e7086e216007",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-gray",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "f537fe5dd065becfdbf2b08202eef8d4900730ea4ea7ae2a39b4e7086e216007",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-gray-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-gray-933e004312a4.webp": {
+      "sha256": "933e004312a4269c85cc0cb5e16173c2ba28e3687a7d9a27d170339410f07313",
+      "source_sha256": "8976d16f861c40b71b50f23ab3fcfc81eeefe92fc32ae3e5d123eeb2cd0362e1",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-gray",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "8976d16f861c40b71b50f23ab3fcfc81eeefe92fc32ae3e5d123eeb2cd0362e1",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-gray-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-green-6601d13009a1.webp": {
+      "sha256": "6601d13009a1b348d7a15d7e4a4d3b77af1a646b518ebaca856b30e6bcf6cb66",
+      "source_sha256": "052360a12f6c2c8ad81b15b0c79ae9115f8260e0774a9e169a0f7cc6302f4505",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-green",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "052360a12f6c2c8ad81b15b0c79ae9115f8260e0774a9e169a0f7cc6302f4505",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-green-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-green-91437c50271d.webp": {
+      "sha256": "91437c50271d6cd7c6ac15268f01f6cae7c9614fb4635eac62d20f2b0c9b598f",
+      "source_sha256": "25d5397fa852c41fa785547130b4993a1941715efca55e8357d7564f745f84e4",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-green",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "25d5397fa852c41fa785547130b4993a1941715efca55e8357d7564f745f84e4",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-green-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-orange-1be675934a9a.webp": {
+      "sha256": "1be675934a9a7867e6ee633a9bfbbc3987fc3d82c92e47ff351f851327bfba11",
+      "source_sha256": "fbbec2b82c9161575a1cd9f4bcf9dca5a1ce16245010baf8fd9b5500ce1d9c50",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-orange",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "fbbec2b82c9161575a1cd9f4bcf9dca5a1ce16245010baf8fd9b5500ce1d9c50",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-orange-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-orange-87f1370ccd51.webp": {
+      "sha256": "87f1370ccd51b657df7f2dc4a302047cd99152e4b1ff465f83396e131bf51389",
+      "source_sha256": "acdc30fcb1fffe81d4eddc52644783c33baf37c54be3bef97adcbeafd36d111d",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-orange",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "acdc30fcb1fffe81d4eddc52644783c33baf37c54be3bef97adcbeafd36d111d",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-orange-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-pink-1dd0ce42fd2e.webp": {
+      "sha256": "1dd0ce42fd2e9d975dcb33b0eeb3df07a703d1ccebd05532d7f9b6f19926dfea",
+      "source_sha256": "9ba41c26a68f2a061de105888338dafcf17115c6e0b3d111b9cff0931d4971e9",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-pink",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "9ba41c26a68f2a061de105888338dafcf17115c6e0b3d111b9cff0931d4971e9",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-pink-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-pink-48af440d83c2.webp": {
+      "sha256": "48af440d83c2e4f48c395d5919b0d266a981822b8e6b6a1e5fe2e497e263a373",
+      "source_sha256": "692080cdb24c6ac7d61bc12371c46c23a2795018459bcc8a011a548a1eb6626c",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-pink",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "692080cdb24c6ac7d61bc12371c46c23a2795018459bcc8a011a548a1eb6626c",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-pink-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-purple-fc918849596b.webp": {
+      "sha256": "fc918849596b341ed11b8516d6c90e27d08b213f84c35d464c0beb95b41c819f",
+      "source_sha256": "d8da1f64b0ae258c38c9582136ff7b852038ad4e78968dc0ecba9fad0db61ef9",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-purple",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "d8da1f64b0ae258c38c9582136ff7b852038ad4e78968dc0ecba9fad0db61ef9",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-purple-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-purple-ab3e47f05406.webp": {
+      "sha256": "ab3e47f05406bd830fee2a9f2c45c74f67f413eb22c9498a4bb45eb145305185",
+      "source_sha256": "ffe04c07bbaf8d653daf76d9d6972e97c53c445ed48e1b15ac73dc637bd6c2af",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-purple",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "ffe04c07bbaf8d653daf76d9d6972e97c53c445ed48e1b15ac73dc637bd6c2af",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-purple-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-red-9f8e3e125b7c.webp": {
+      "sha256": "9f8e3e125b7c35ad09083708f99f6b5fc2295eaf3a4f183049e8d48907fcce76",
+      "source_sha256": "b486fa5005efd2d5284daac1ec2b2d5fadfd2517ecb2f3b531f1681d272216c2",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-red",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "b486fa5005efd2d5284daac1ec2b2d5fadfd2517ecb2f3b531f1681d272216c2",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-red-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-red-399329406b09.webp": {
+      "sha256": "399329406b09974c927fb127b591743d4534f02478b8d7aef125bcbd771523f8",
+      "source_sha256": "31fff9777c138eec220ac977a15a75b2ed88a5940c266fe19233d36876935e4c",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-red",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "31fff9777c138eec220ac977a15a75b2ed88a5940c266fe19233d36876935e4c",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-red-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-regular-527dbe25baf2.webp": {
+      "sha256": "527dbe25baf2e0e6099fc77d8eb10fce7605c2f1eff3688c8da61cb18e079f61",
+      "source_sha256": "b18518ff2e5c71c494d6b590f3e5d61c49653953cc22f54116f97e3628032b4a",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-regular",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "b18518ff2e5c71c494d6b590f3e5d61c49653953cc22f54116f97e3628032b4a",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-regular-6afc2d339c61.webp": {
+      "sha256": "6afc2d339c61a8f472fed9c9d4509b858fe99aec1cd90401890ec9b457768567",
+      "source_sha256": "f309b8f777ac4102410536e49e0e90880e03eb625bb43ed815dd7a33f8687b08",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-regular",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "f309b8f777ac4102410536e49e0e90880e03eb625bb43ed815dd7a33f8687b08",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-dock-yellow-7cdef8018ce5.webp": {
+      "sha256": "7cdef8018ce568d0f41f0bc7faaac562961ef03d03c6d5e0f84bf0046292a445",
+      "source_sha256": "2ee423870f744bae2b2b717cc07d7b8e697bfaf86ed26f4e85eedda9ebeb4e78",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "dock-yellow",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "2ee423870f744bae2b2b717cc07d7b8e697bfaf86ed26f4e85eedda9ebeb4e78",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-yellow-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-dock-yellow-4f7ec5b2302e.webp": {
+      "sha256": "4f7ec5b2302eb267e4b604ed3b7f36b0ea1763cebb0053bb4482e7e2669d37b5",
+      "source_sha256": "6872bf7f7ad4351ac55070f6a8a6ded1f173ac95db0ccab58a1f0ae6ae8a2b60",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "export_size": [
+        1440,
+        196
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "dock-yellow",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 614,
+              "y": 996,
+              "width": 692,
+              "height": 84
+            }
+          }
+        ],
+        "sha256": "6872bf7f7ad4351ac55070f6a8a6ded1f173ac95db0ccab58a1f0ae6ae8a2b60",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-yellow-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-finder-blue-6dd83abc89b0.webp": {
+      "sha256": "6dd83abc89b01f131c10b22faf7d52fa752a4a71eba51a661703fb486cee437f",
+      "source_sha256": "bab7b34af00199463596424482d177f271ff0eae3c0fe3fda5fc9455150dbaa1",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-light-finder-blue-8efd775db9fd.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "finder-blue",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{bf67c6e9-3e68-400f-98c6-b5e0d6eb0a5f}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{bf67c6e9-3e68-400f-98c6-b5e0d6eb0a5f}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "bab7b34af00199463596424482d177f271ff0eae3c0fe3fda5fc9455150dbaa1",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-blue-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-finder-red-985196f645c2.webp": {
+      "sha256": "985196f645c23b90e615805c7683c03d24d868a82ba9aea0aced5a72c67d5dfd",
+      "source_sha256": "aae6708280e85a88059b8ba2abb8ca86dd3fc3104a76c2878dcad508062fd314",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/previews/golden-gate-light-finder-red-af7494058d61.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "finder-red",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{0ac85e87-1bf1-4b0c-bdd3-7f42534119af}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{0ac85e87-1bf1-4b0c-bdd3-7f42534119af}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "aae6708280e85a88059b8ba2abb8ca86dd3fc3104a76c2878dcad508062fd314",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Readme-red-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-dark-finder-2e00140ea972.webp": {
+      "sha256": "2e00140ea972485c8a192078826b392b4e958fb5f2891f58318ded5503fe179b",
+      "source_sha256": "e1f6dcca7ce2b9b79952284d03784c9bc22d95786afcb62b7d3f915c8f2452f1",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/showcase_dark_2k-0524872d7443.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "finder",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{b96f5ff4-aee1-4d76-b2ce-9412d5179e15}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{b96f5ff4-aee1-4d76-b2ce-9412d5179e15}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "e1f6dcca7ce2b9b79952284d03784c9bc22d95786afcb62b7d3f915c8f2452f1",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    },
+    "previews/readme-golden-gate-light-finder-ebfe32ef93f8.webp": {
+      "sha256": "ebfe32ef93f8f84a965853a1db499ea142049b7b12b16ae6e55248316ec3bcd4",
+      "source_sha256": "a3d22bb1fdd5bdc26d2d5f067bbe8d64b7dba3a6b44de23f9ac723a724365572",
+      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+      "replaces": "src/screenshots/showcase_light_2k-c278d44e59fd.webp",
+      "crop": null,
+      "export_size": [
+        2048,
+        1152
+      ],
+      "capture": {
+        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "finder",
+        "before": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{692bee14-81ce-44f6-96bd-280e7a42700b}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 1,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          {
+            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 0,
+              "y": 0,
+              "width": 1920,
+              "height": 32
+            }
+          },
+          {
+            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
+            "caption": "",
+            "resourceClass": "plasmashell",
+            "type": 2,
+            "appletPopup": false,
+            "hidden": false,
+            "active": false,
+            "geometry": {
+              "x": 586,
+              "y": 996,
+              "width": 748,
+              "height": 84
+            }
+          },
+          {
+            "id": "{692bee14-81ce-44f6-96bd-280e7a42700b}",
+            "caption": "Documents",
+            "resourceClass": "org.gnome.Nautilus",
+            "type": 0,
+            "appletPopup": false,
+            "hidden": false,
+            "active": true,
+            "geometry": {
+              "x": 460,
+              "y": 250,
+              "width": 1000,
+              "height": 620
+            }
+          }
+        ],
+        "sha256": "a3d22bb1fdd5bdc26d2d5f067bbe8d64b7dba3a6b44de23f9ac723a724365572",
+        "defaults": {
+          "wallpaper": "MacGoldenGate",
+          "launcher_preset": 2
+        },
+        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
+      },
+      "user_approved": false
+    }
+  },
+  "missing": [],
+  "capture_notes": [
+    "Captured sequentially in a disposable overlay through Tahoe release_capture Guest and guest helpers; no host desktop interaction.",
+    "Standard edition installer defaults were applied separately; Clipboard History was enabled for its opt-in feature photographs.",
+    "Dock material examples use native application artwork for every variant, with macOS role overrides disabled consistently. Clear and tint overlays were generated deterministically by the existing installer_themes renderer for the visible icon aliases.",
+    "The original gallery is retained with its provenance because complete-gallery staging also replaces unrelated installer photographs. These README photographs are staged separately.",
+    "The pinned profile supplied VM identity, resolution, scale and fixtures; the QML Bluetooth dependency was added only to this disposable overlay.",
+    "Capture clock was initialized from the pinned profile; elapsed times in screenshots are retained."
+  ],
+  "agent_reviewed": true,
+  "user_approved": false
+}

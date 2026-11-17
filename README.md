@@ -124,8 +124,8 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 Finder-style file browsing with Golden Gate glass.
 
 <p align="center">
-  <a href="src/screenshots/showcase_light_2k-c278d44e59fd.webp"><img src="src/screenshots/showcase_light_2k-c278d44e59fd.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/showcase_dark_2k-0524872d7443.webp"><img src="src/screenshots/showcase_dark_2k-0524872d7443.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-finder-ebfe32ef93f8.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-ebfe32ef93f8.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-2e00140ea972.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-2e00140ea972.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
 </p>
 
 <details>
@@ -133,8 +133,8 @@ Finder-style file browsing with Golden Gate glass.
 
 <table>
 <tr><th>Accent</th><th>Light</th><th>Dark</th></tr>
-<tr><td>Red</td><td><a href="src/screenshots/previews/golden-gate-light-finder-red-af7494058d61.webp"><img src="src/screenshots/previews/golden-gate-light-finder-red-af7494058d61.webp" alt="Golden Gate Files with red selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/golden-gate-dark-finder-red-5db9a6a2ddca.webp"><img src="src/screenshots/previews/golden-gate-dark-finder-red-5db9a6a2ddca.webp" alt="Golden Gate Files with red selection and glass icons in dark mode" width="415"></a></td></tr>
-<tr><td>Blue</td><td><a href="src/screenshots/previews/golden-gate-light-finder-blue-8efd775db9fd.webp"><img src="src/screenshots/previews/golden-gate-light-finder-blue-8efd775db9fd.webp" alt="Golden Gate Files with blue selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/golden-gate-dark-finder-blue-79570b8e7903.webp"><img src="src/screenshots/previews/golden-gate-dark-finder-blue-79570b8e7903.webp" alt="Golden Gate Files with blue selection and glass icons in dark mode" width="415"></a></td></tr>
+<tr><td>Red</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-985196f645c2.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-985196f645c2.webp" alt="Golden Gate Files with red selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-5b14d7f9b830.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-5b14d7f9b830.webp" alt="Golden Gate Files with red selection and glass icons in dark mode" width="415"></a></td></tr>
+<tr><td>Blue</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-6dd83abc89b0.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-6dd83abc89b0.webp" alt="Golden Gate Files with blue selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-bb12c1e68fcf.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-bb12c1e68fcf.webp" alt="Golden Gate Files with blue selection and glass icons in dark mode" width="415"></a></td></tr>
 </table>
 
 </details>
@@ -146,8 +146,8 @@ Finder-style file browsing with Golden Gate glass.
 Find apps, browse categories and keep your favorites within reach.
 
 <p align="center">
-  <img src="src/screenshots/launcher_preset_2_light-ef84941c718d.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/launcher_preset_2_dark-475b0c218b14.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-712dc1c90d16.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -157,53 +157,53 @@ Find apps, browse categories and keep your favorites within reach.
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp" alt="Golden Gate Dock icon appearance preview: Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-6afc2d339c61.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-6afc2d339c61.webp" alt="Golden Gate Dock icon appearance preview: Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-527dbe25baf2.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-527dbe25baf2.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-b0d8a88ddd7d.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-b0d8a88ddd7d.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-24341c6a6132.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-24341c6a6132.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-5aede8ce4c44.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-5aede8ce4c44.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-2280db4a1d43.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-2280db4a1d43.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-ab3e47f05406.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-ab3e47f05406.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-fc918849596b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-fc918849596b.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-48af440d83c2.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-48af440d83c2.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-1dd0ce42fd2e.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-1dd0ce42fd2e.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp"><img src="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp"><img src="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-399329406b09.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-399329406b09.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-9f8e3e125b7c.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-9f8e3e125b7c.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-87f1370ccd51.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-87f1370ccd51.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-1be675934a9a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-1be675934a9a.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-4f7ec5b2302e.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-4f7ec5b2302e.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-7cdef8018ce5.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-7cdef8018ce5.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp"><img src="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp"><img src="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-91437c50271d.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-91437c50271d.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-6601d13009a1.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-6601d13009a1.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="415"></a>
 </p>
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="415"></a>
-  <a href="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-933e004312a4.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-933e004312a4.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-8d56f0b5444a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-8d56f0b5444a.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="415"></a>
 </p>
 
 <br>
@@ -213,8 +213,8 @@ Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 Quick access to system settings, apps and session controls.
 
 <p align="center">
-  <img src="src/screenshots/menu_v1-3f2884262a96.webp" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/menu_dark_v1-e54334c7f1ea.webp" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-menu-16e5530b7541.webp" alt="System menu in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-0f97edd728d0.webp" alt="System menu in dark mode" width="415">
 </p>
 
 <br>
@@ -224,8 +224,8 @@ Quick access to system settings, apps and session controls.
 Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come very soon.
 
 <p align="center">
-  <img src="src/screenshots/control-center-light-d2f802aa2080.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/control-center-dark-21e3ca44cef9.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-d425d239fc07.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-f133d3ca84d9.webp" alt="Control Center in dark mode" width="415">
 </p>
 
 <br>
@@ -235,8 +235,8 @@ Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come 
 Find and reuse copied text and images directly from Launchpad.
 
 <p align="center">
-  <img src="src/screenshots/previews/clipboard-launcher-light-d10d236780ef.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/clipboard-launcher-dark-ae057bdbbcdf.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-bb3ca9b05f59.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-9998cd16ab99.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
 </p>
 
 <br>
@@ -246,8 +246,8 @@ Find and reuse copied text and images directly from Launchpad.
 Your hardware, software and theme details at a glance.
 
 <p align="center">
-  <img src="src/screenshots/about_v1-efc0c04df5db.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/about_dark_v1-fde3d8f0d09f.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-b05e9ef41807.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-d77f74c97b4c.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -257,8 +257,8 @@ Your hardware, software and theme details at a glance.
 Translucent menus and popups with matching light and dark colors.
 
 <p align="center">
-  <img src="src/screenshots/context_menu_v1-be94475c33f1.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/context_menu_dark_v1-ccf33b3c6117.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-context-7784f8cd0c33.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-context-5f8de7c61751.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>
@@ -268,7 +268,7 @@ Translucent menus and popups with matching light and dark colors.
 A matching look from startup to shutdown, with built-in unlocking for LUKS2-encrypted drives.
 
 <p align="center">
-  <img src="src/screenshots/boot_v1-1f628792b5bc.webp" alt="Plymouth startup splash with a progress bar" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-boot-959163f469f4.webp" alt="Plymouth startup splash with a progress bar" width="415">
 </p>
 
 <br>
