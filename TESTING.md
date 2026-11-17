@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.72.15** recolors original icon layers without adding contours or replacing artwork. Focused geometry, contrast and alias checks passed; red/blue light/dark Dock captures were reviewed in a disposable Plasma VM. [Evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.15/.github/ICON-LAYERS-0.72.15.md). Full remote CI runs asynchronously.
+Golden Gate **v0.72.17** preserves custom GTK files during uninstall, tolerates corrupt clipboard shortcut state and reports failed history deletion. Focused regressions and paired component install/reinstall/uninstall checks passed in a disposable Plasma VM. [Evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.17/.github/LIFECYCLE-AUDIT-0.72.17.md). Full remote CI runs asynchronously.
 
 See [reviewed Dock captures](src/screenshots/previews/golden-gate-icon-layers-provenance.json). Installer photographs retain their original [provenance](src/screenshots/release-capture.json).
 
