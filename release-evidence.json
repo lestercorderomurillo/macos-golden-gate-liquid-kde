@@ -1,30 +1,29 @@
 {
-  "version": "0.72.19",
-  "source_sha256": "8ae9315722612c82e2db6f1c64e7669ea76d488ebf852baa16c83e5e98e81e68",
-  "scope": "Golden Gate issue #8: validate cached entry points and Python startup modules before reuse; rebuild missing, changed or legacy startup caches. Preserve active sessions and retain the old cache on staging failure. Tahoe payloads are unchanged from v0.72.18.",
-  "environment": "Local Python/pytest with disposable filesystem fixtures and Git repositories; no host installer or desktop changes.",
+  "version": "0.72.20",
+  "source_sha256": "6e6b0c9796deb3ae0681fe607bda255389d001709c69a2b92ebe519f00715fb8",
+  "scope": "Paired approved Control Center icons, translated layout, clear component glass and reduced gradients. Shared implementation and installed rendering evidence live in Tahoe.",
+  "environment": "Local wrapper fixture checks; shared source qualified in disposable Plasma/KWin 6.8.1 VM for both edition defaults.",
   "checks": [
     {
-      "command": "python3 -m pytest tests -q",
+      "command": "python3 -m pytest tests/test_bootstrap.py -q -k 'download_checks_digest or prepare_changes_only_defaults or local_checkout_stages or disabled_updates_install or candidate_pin_is_not_downgraded'",
       "result": "passed",
-      "detail": "116 passed in 1.42s. Includes 14 new recovery cases: local and archived sources, missing entry/module, altered Python, absent/invalid manifest, active leases/cwd/unknown process state, staging failure. Existing updater, archive safety, checksum and cleanup cases passed."
+      "detail": "7 passed, 48 deselected in 0.08s; wrapper implementation unchanged."
     },
     {
-      "command": "git diff --check",
+      "command": "Verify Tahoe release workflow, immutable commit archive VERSION, launcher_defaults.py, MacGoldenGate support and SHA-256",
       "result": "passed",
-      "detail": "Reviewed wrapper and regression diff; only Golden Gate bootstrap behavior changes."
+      "detail": "Tahoe release workflow 44120572614 succeeded. Commit bcbe83a5182a9f30e49195e5d605c40ae46b3c85; SHA-256 ce2861926d77a9d6e8040f0a7e62672b972cb54aa6e63375fe0fc960090c26d3"
     },
     {
-      "command": "Verify published Tahoe v0.72.19 commit archive VERSION, entry points, launcher_defaults.py, MacGoldenGate support and SHA-256",
+      "command": "Shared native QML/material/shader checks and both-edition VM captures",
       "result": "passed",
-      "detail": "Published by release workflow 44100457502; immutable commit 162022f8df33cdfb37bc8f11ff331be9abc6725d; archive SHA-256 351cad08e7e90e0a729c40d2bc27dbdd287311424f8002ca7a4ec50a5c63f2ea"
+      "detail": "Reused exact shared implementation evidence: https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/bcbe83a5182a9f30e49195e5d605c40ae46b3c85/docs/evidence/control-center-130-133.json"
     }
   ],
   "coverage_limits": [
-    "The reporter provided no original traceback; this repairs the reproduced cache failure without claiming it proves their exact root cause.",
-    "Startup integrity covers wrapper entry points and Python files under src/installer and src/scripts; it is not an integrity audit of every bundled asset.",
-    "No component installation lifecycle, appearance, SDK or backend changes; no new VM run. Existing reviewed photographs and their source provenance are retained.",
-    "Full remote CI runs asynchronously and is not represented as passed by this local evidence."
+    "Pin-only distribution update; no wrapper behavior changes.",
+    "Shared captures use both edition defaults on Plasma/KWin 6.8.1 Wayland; no new 6.6/6.7 SDK, automatic schedule boundary or physical hardware qualification.",
+    "Full remote CI runs asynchronously and is not represented as passed. Historical installer photographs retain original provenance."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [
