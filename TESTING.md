@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.2** also removes recognized compiler objects from previous successful builds, including components not rebuilt by the current installation. Prepared-source cleanup regressions passed; unchanged wrapper checks retain their prior passing evidence. Tahoe verified old-object removal in a disposable Plasma 6.8.1 / Qt 6.11.1 VM without changing the installed component. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
+Golden Gate **v0.73.3** uses Tahoe’s ownership-based protection for fonts, icons and wallpapers and stops payload removal when Breeze restoration fails. In a disposable Plasma 6.8.1 / Qt 6.11.1 VM, 26 checks passed on the prepared Golden Gate source; shared installation, reinstallation and uninstallation preserved six user fixtures and restored effective Breeze settings and wallpaper selection. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 

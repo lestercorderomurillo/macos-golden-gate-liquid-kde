@@ -1,8 +1,8 @@
 {
-  "version": "0.73.2",
-  "source_sha256": "4987f7214cc0d03616c4f74a07e8b80edc2aa0f151cb99ec78c607a41d5a6af4",
-  "scope": "Matching published Tahoe pin for cleanup of recognized previous successful compiler builds, including unselected or reused components.",
-  "environment": "Local Linux/Python; prepared Golden Gate source; shared installer qualified in disposable Plasma 6.8.1 / Qt 6.11.1 VM.",
+  "version": "0.73.3",
+  "source_sha256": "9401e2b9fffa19551ce7bf2aa02361ba19b4e96a25d3c21b0a8d584cbee304bf",
+  "scope": "Matching published Tahoe pin for audit fixes 3, 2 and 1: Breeze restoration failure gate and preservation/restoration of user fonts, icon themes and wallpapers. Clipboard behavior unchanged.",
+  "environment": "Disposable Plasma 6.8.1 / Qt 6.11.1 VM; prepared Golden Gate source and shared selected lifecycle.",
   "checks": [
     {
       "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
@@ -10,20 +10,20 @@
       "detail": "59 passed in 0.52s during v0.73.1 qualification; unchanged wrapper and tests, evidence reused."
     },
     {
-      "command": "python3 -m pytest tests/test_install_build_cleanup.py -q",
+      "command": "python3 -m pytest tests/test_owned_assets.py tests/test_fonts.py tests/test_wallpaper_defaults.py -q",
       "result": "passed",
-      "detail": "Prepared Golden Gate source: 11 passed in 1.25s."
+      "detail": "Prepared Golden Gate source: 26 passed in 3.60s inside disposable VM."
     },
     {
-      "command": "python3 archive verification of /tmp/tahoe-0.73.2.tar.gz",
+      "command": "python3 archive verification of /tmp/tahoe-0.73.3.tar.gz",
       "result": "passed",
-      "detail": "Published Tahoe commit 523e3c5006e4aba7d072829c472f9e7b0aa6e245; SHA-256 9184c79e23cc537e7a862a5c2a809236ba9e73208793996cfbd1f22bdb5d5cd3; VERSION, launcher defaults, MacGoldenGate assets and previous-build cleanup verified."
+      "detail": "Published Tahoe commit 996397f08c8b4ef264da7fbbc83bb98f1aaf1f62; SHA-256 527ad11c2d467226508e2e469c86f19de144cfc8c36dd3c82485cde1a855304e; VERSION, launcher defaults, MacGoldenGate assets and exact validated owned_assets.py verified."
     }
   ],
   "coverage_limits": [
-    "Only recognized successful compiler intermediates are removed; unknown files and recovery data preserved.",
-    "Shared focused Global Menu install/reinstall and fonts-only cleanup on Plasma 6.8.1 / Qt 6.11.1, not a full desktop lifecycle.",
-    "No new rendering or 6.6/6.7 SDK qualification; no native code or appearance changes.",
+    "Unrecorded legacy assets and user-modified trees are preserved. Original assets replaced by installation have recoverable backups.",
+    "Shared selected fonts/icons/wallpapers install/reinstall/uninstall qualified on Plasma 6.8.1 / Qt 6.11.1; not a full desktop or distro matrix.",
+    "Breeze effective config and live wallpaper selection verified; no new rendering/SDK qualification.",
     "Full remote CI asynchronous, not reported as passed."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
