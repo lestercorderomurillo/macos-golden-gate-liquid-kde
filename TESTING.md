@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.5** pins the user-approved notification banners and history and removes duplicated bar controls. The published Tahoe source matches the qualified payload and archive checksum. Selected SDK, X11 rendering, Wayland notifications, install/reinstall and both-edition appearance checks are recorded in the [shared evidence](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.5/docs/evidence/notifications-0735.json); wrapper and pin checks are in [release evidence](release-evidence.json). Full remote CI remains asynchronous; installer photographs retain their original provenance.
+Golden Gate **v0.73.6** shares the Shell contrast improvements and preserves its edition defaults. Focused wrapper, archive and staged-source checks passed. [Shared Wayland evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.6/docs/evidence/shell-0736.json) cover ten rendered configurations. Full CI runs independently. Installer photographs retain their original provenance.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 

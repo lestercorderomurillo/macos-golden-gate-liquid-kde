@@ -1,62 +1,51 @@
 {
-  "version": "0.73.5",
-  "source_sha256": "1e13fb4d263c960553632f69542ae10765c873860316e0184014b9afc0fd7c42",
-  "scope": "Pair the user-approved notification iteration with published Tahoe v0.73.5, preserving Golden Gate defaults and all unrelated photographs.",
-  "environment": "Local isolated wrapper tests and prepared Golden Gate source; selected shared VM/SDK qualification recorded by pinned Tahoe.",
+  "version": "0.73.6",
+  "source_sha256": "f698c85b1f4d1256c70513c8c3a3436eac02978d03c8fdf353d6dd9e3d6d3563",
+  "scope": "Pair the approved Shell contrast changes with the published Tahoe release while preserving Golden Gate defaults.",
+  "environment": "Local wrapper checks and prepared edition source. Shared renderer qualification in a disposable KDE neon Wayland VM.",
   "upstream_release": {
-    "commit": "22d61580f9fe263e414d370de74f2faed2c69e7c",
-    "archive_sha256": "0b510f7b80aba7f8be1268f04a3920e79c37292ca158382f534ee3610b8f6394",
-    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.5",
-    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44191384982",
+    "commit": "420e2da4ddb1bc6dde397a846df02b8721bc9ec6",
+    "archive_sha256": "8954e8a31338d160c7d756881e738cf7341927e3efbb0217520fc29616fb3b80",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.6",
+    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44203361489",
     "observed_result": "published"
   },
   "approval": {
     "date": "2026-11-17",
-    "message": "pls release with that... its OKAY",
-    "approved_hover_sha256": "8908d4edf9c56438fdf337451664b28d8159b01c825e314079fdc7c57cd4ed5f"
+    "message": "si pero muestrame unas 10 capturas de muchas configuraciones, talvez 20, on y off",
+    "preview_sha256": "4033f1848a7a08a758f6b9c5ec395a19625bb02edf4f0e9be54b500ab9cd93de"
   },
   "checks": [
     {
-      "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
+      "command": "python3 -m pytest -q <focused checksum, fallback, staging and release-workflow checks>",
       "result": "passed",
-      "detail": "59 passed in 0.47s."
+      "detail": "8 passed in 0.09s"
     },
     {
-      "command": "Verify published immutable Tahoe commit archive against qualified payload hashes",
+      "command": "Validate immutable Tahoe codeload archive, version, component ledger and installed QML hashes",
       "result": "passed",
-      "detail": "Archive SHA-256 0b510f7b80aba7f8be1268f04a3920e79c37292ca158382f534ee3610b8f6394; VERSION 0.73.5, launcher_defaults.py and MacGoldenGate assets verified; all 70 changed payload files match the qualified source."
+      "detail": "SHA-256 8954e8a31338d160c7d756881e738cf7341927e3efbb0217520fc29616fb3b80; archive corresponds to 420e2da4ddb1bc6dde397a846df02b8721bc9ec6"
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<published Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; python3 <prepared>/src/scripts/component_manifest.py",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<published Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
       "result": "passed",
-      "detail": "Published 0.73.5 staged with Golden Gate wallpaper and launcher preset 2; staged component ledger and unchanged payload verified."
+      "detail": "Staged version, wallpaper, launcher preset, component ledger and the two changed QML payload files verified."
     },
     {
-      "command": "Selected shared notification, migration, SDK, X11/Wayland and appearance qualification",
+      "command": "Selected shared Shell Wayland verification",
       "result": "passed",
-      "detail": "Pinned Tahoe docs/evidence/notifications-0735.json records commands, exact sources, observed results and coverage limits."
+      "detail": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.6/docs/evidence/shell-0736.json"
     },
     {
       "command": "git diff --check",
       "result": "passed"
     }
   ],
-  "details": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.5/docs/evidence/notifications-0735.json",
-  "coverage_limits": [
-    "Live complete notification applet qualification is Wayland on neon 6.8.1; X11 6.6 rendering uses a synthetic notification-role surface with the production effect.",
-    "SDK build coverage is KWin 6.6.5/6.7.5/6.8.1, with the exact Qt/libplasma combinations recorded in shared evidence.",
-    "Full remote CI stays asynchronous on dev; pending jobs are not reported as passed.",
-    "Historical galleries retain original provenance. No unrelated photographs were refreshed."
-  ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "captures": [
-    {
-      "path": "src/screenshots/previews/notifications-golden-gate-hover-8908d4edf9c5.png",
-      "sha256": "8908d4edf9c56438fdf337451664b28d8159b01c825e314079fdc7c57cd4ed5f",
-      "reviewed": true,
-      "source_commit": "1e4fb383de04495e7aa0c65cf4c9fedaabe1d66d",
-      "edition": "golden-gate",
-      "description": "Actual corrected-chevron hover explicitly approved by the user."
-    }
+  "coverage_limits": [
+    "Single representative Wayland VM. The incremental QML styling does not change the installer lifecycle, X11 backend, or native KWin interfaces.",
+    "The substitute and default wallpapers are representative fixtures; the numeric sample covers the capsule over the Tahoe default light wallpaper.",
+    "A Plasma service stop with exported Kate menus can trigger an AppMenuModel teardown crash in both the prior implementation and the candidate. The contrast change does not touch that model. The affected disposable session was recovered before further captures.",
+    "Existing documentation galleries keep their original provenance. Full CI runs independently."
   ]
 }
