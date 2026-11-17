@@ -1,34 +1,30 @@
 {
-  "version": "0.72.18",
-  "source_sha256": "743f6502b5742abeb7c8201f46f76ec1483bf37296a04fc3d6607dbb0a8254e5",
-  "scope": "Paired approved Weather icon selectors, grouped color row and full SF Pro installer typography. Matching immutable Tahoe pin and archive checksum.",
-  "environment": "Golden Gate staged source; local wrapper tests; shared disposable Plasma 6.8.1 VM qualification.",
+  "version": "0.72.19",
+  "source_sha256": "8ae9315722612c82e2db6f1c64e7669ea76d488ebf852baa16c83e5e98e81e68",
+  "scope": "Golden Gate issue #8: validate cached entry points and Python startup modules before reuse; rebuild missing, changed or legacy startup caches. Preserve active sessions and retain the old cache on staging failure. Tahoe payloads are unchanged from v0.72.18.",
+  "environment": "Local Python/pytest with disposable filesystem fixtures and Git repositories; no host installer or desktop changes.",
   "checks": [
     {
-      "command": "python3 -m pytest -q --tb=short",
+      "command": "python3 -m pytest tests -q",
       "result": "passed",
-      "detail": "102 wrapper checks; unchanged implementation evidence reused across version/pin bookkeeping."
+      "detail": "116 passed in 1.42s. Includes 14 new recovery cases: local and archived sources, missing entry/module, altered Python, absent/invalid manifest, active leases/cwd/unknown process state, staging failure. Existing updater, archive safety, checksum and cleanup cases passed."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=/tmp/tahoe-installer-icon-selectors MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; python3 -m pytest tests/test_installer_wizard.py -k 'new_wizard_uses_source_defaults or installed_switcher' -q in prepared source",
+      "command": "git diff --check",
       "result": "passed",
-      "detail": "15 staged edition-default and switcher checks passed."
+      "detail": "Reviewed wrapper and regression diff; only Golden Gate bootstrap behavior changes."
     },
     {
-      "command": "Shared Tahoe wizard/font/icon checks and disposable VM probes",
+      "command": "Verify published Tahoe v0.72.19 commit archive VERSION, entry points, launcher_defaults.py, MacGoldenGate support and SHA-256",
       "result": "passed",
-      "detail": "47 wizard tests, 88 edition/mode/page font checks, real Dark/Clear install/reinstall and installed Qt light/dark/light icon rendering. Tahoe docs/evidence/installer-icons-installed.json and installer-fonts.json contain scope and source fingerprints."
-    },
-    {
-      "command": "Verify immutable Tahoe commit archive VERSION, launcher_defaults.py, MacGoldenGate support and SHA-256; git diff --check",
-      "result": "passed",
-      "detail": "Canonical 2e3a8d17163b006ce6834534006fe218a067cdda archive verified; matching version 0.72.18 and immutable annotated tag target."
+      "detail": "Published by release workflow 44100457502; immutable commit 162022f8df33cdfb37bc8f11ff331be9abc6725d; archive SHA-256 351cad08e7e90e0a729c40d2bc27dbdd287311424f8002ca7a4ec50a5c63f2ea"
     }
   ],
   "coverage_limits": [
-    "Focused UI and icon component scope, not a full desktop lifecycle or new native SDK/distro qualification.",
-    "No new scheduler-boundary or GTK-continuity qualification; corresponding implementations unchanged.",
-    "Full remote CI runs asynchronously; historical installer gallery is labeled and preserved."
+    "The reporter provided no original traceback; this repairs the reproduced cache failure without claiming it proves their exact root cause.",
+    "Startup integrity covers wrapper entry points and Python files under src/installer and src/scripts; it is not an integrity audit of every bundled asset.",
+    "No component installation lifecycle, appearance, SDK or backend changes; no new VM run. Existing reviewed photographs and their source provenance are retained.",
+    "Full remote CI runs asynchronously and is not represented as passed by this local evidence."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [

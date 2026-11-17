@@ -495,3 +495,73 @@ def test_candidate_pin_is_not_downgraded_to_latest_stable(tmp_path, monkeypatch)
     monkeypatch.setattr(bootstrap, 'download', download)
     bootstrap.prepare()
     assert calls == [pin]
+
+
+@pytest.mark.parametrize('local', [False, True])
+@pytest.mark.parametrize('damage', ['entry', 'module', 'changed-module', 'legacy', 'invalid-manifest'])
+def test_prepare_repairs_startup_cache(tmp_path, monkeypatch, local, damage):
+    wrapper_at(tmp_path, monkeypatch)
+    original = local_checkout(tmp_path / 'fixture-source')
+    monkeypatch.setattr(bootstrap, 'local_source', lambda: original if local else None)
+    monkeypatch.setattr(bootstrap, 'latest_tahoe', lambda: None)
+    archive = archive_at(tmp_path, [
+        ('repo/' + str(path.relative_to(original)), tarfile.REGTYPE, path.read_bytes())
+        for path in original.rglob('*') if path.is_file() and '.git' not in path.parts
+    ])
+    calls = []
+    def download(pin, dest):
+        calls.append(pin)
+        dest.write_bytes(archive.read_bytes())
+    monkeypatch.setattr(bootstrap, 'download', download)
+    prepared = bootstrap.prepare()
+    if damage == 'entry':
+        (prepared / 'installer').unlink()
+    elif damage == 'module':
+        (prepared / 'src/installer/installer_ui.py').unlink()
+    elif damage == 'changed-module':
+        (prepared / 'src/installer/installer_ui.py').write_text('# corrupt!\n')
+    elif damage == 'legacy':
+        (prepared / '.golden-gate-startup.json').unlink()
+    else:
+        (prepared / '.golden-gate-startup.json').write_text('{bad json')
+    assert bootstrap.prepare() == prepared
+    assert (prepared / 'installer').read_bytes() == (original / 'installer').read_bytes()
+    assert (prepared / 'src/installer/installer_ui.py').read_bytes() == (original / 'src/installer/installer_ui.py').read_bytes()
+    assert bootstrap.prepared_startup_valid(prepared)
+    assert bootstrap.prepare() == prepared
+    assert len(calls) == (0 if local else 2)
+
+
+@pytest.mark.parametrize('active', ['lease', 'cwd', 'unknown'])
+def test_repair_preserves_running_cache(tmp_path, monkeypatch, active):
+    import os
+    wrapper_at(tmp_path, monkeypatch)
+    local_checkout(tmp_path / 'macos-tahoe-liquid-kde')
+    prepared = bootstrap.prepare()
+    fd = bootstrap.lease_prepared(prepared) if active == 'lease' else None
+    if active != 'lease':
+        monkeypatch.setattr(bootstrap, 'active_prepared', lambda cache: {prepared} if active == 'cwd' else None)
+    (prepared / 'installer').unlink()
+    try:
+        with pytest.raises(ValueError, match='Close running'):
+            bootstrap.prepare()
+        assert (prepared / '.golden-gate-ready').is_file()
+        assert not (prepared / 'installer').exists()
+    finally:
+        if fd is not None:
+            os.close(fd)
+
+
+def test_failed_repair_preserves_previous_cache(tmp_path, monkeypatch):
+    wrapper_at(tmp_path, monkeypatch)
+    local_checkout(tmp_path / 'macos-tahoe-liquid-kde')
+    prepared = bootstrap.prepare()
+    (prepared / 'installer').unlink()
+    original = (prepared / '.golden-gate-ready').read_bytes()
+    def fail(*args):
+        raise OSError('staging failed')
+    monkeypatch.setattr(bootstrap, 'apply_defaults', fail)
+    with pytest.raises(OSError, match='staging failed'):
+        bootstrap.prepare()
+    assert (prepared / '.golden-gate-ready').read_bytes() == original
+    assert (prepared / 'src/installer/installer_ui.py').exists()

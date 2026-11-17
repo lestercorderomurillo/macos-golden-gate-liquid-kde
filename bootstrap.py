@@ -1,6 +1,7 @@
 """Use local Tahoe sources when available, otherwise fetch a published release."""
 
 import fcntl
+from contextlib import ExitStack
 import hashlib
 import json
 import os
@@ -242,6 +243,24 @@ def apply_defaults(source: Path, defaults: dict) -> None:
     config.write_text(json.dumps(defaults, indent=2) + "\n")
 
 
+def startup_manifest(source: Path) -> dict:
+    """Fingerprint entry points and Python imports, excluding generated caches."""
+    paths = {source / entry for entry in ENTRY_POINTS if (source / entry).exists()}
+    for directory in ("src/installer", "src/scripts"):
+        paths.update((source / directory).rglob("*.py"))
+    return {str(path.relative_to(source)): hashlib.sha256(path.read_bytes()).hexdigest()
+            for path in sorted(paths)}
+
+
+def prepared_startup_valid(source: Path) -> bool:
+    try:
+        manifest = source / ".golden-gate-startup.json"
+        return (not manifest.is_symlink() and
+                json.loads(manifest.read_text()) == startup_manifest(source))
+    except (OSError, ValueError):
+        return False
+
+
 def prepare(*, lease: bool = False) -> Path:
     # Resolve local development sources before making any network request.
     pin = json.loads((ROOT / "upstream.json").read_text())
@@ -262,17 +281,30 @@ def prepare(*, lease: bool = False) -> Path:
     cache = ROOT / "build"
     cache.mkdir(exist_ok=True)
     target = cache / digest.hexdigest()[:20]
-    with (cache / ".prepare.lock").open("a") as lock:
+    with (cache / ".prepare.lock").open("a") as lock, ExitStack() as repair:
         fcntl.flock(lock, fcntl.LOCK_EX)
         if target.is_symlink():
             raise ValueError("Prepared source must not be a symbolic link")
         if (target / ".golden-gate-ready").is_symlink():
             raise ValueError("Prepared source marker must not be a symbolic link")
-        if (target / ".golden-gate-ready").is_file():
+        if (target / ".golden-gate-ready").is_file() and prepared_startup_valid(target):
             if lease:
                 lease_prepared(target)
             prune_prepared(cache, target)
             return target
+        if target.exists():
+            active = active_prepared(cache)
+            if active is None or target in active:
+                raise ValueError("Close running Golden Gate installers before repairing their source cache")
+            marker = target / ".golden-gate-ready"
+            if marker.exists():
+                fd = os.open(marker, os.O_RDONLY | os.O_NOFOLLOW)
+                repair.callback(os.close, fd)
+                try:
+                    fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                except BlockingIOError:
+                    raise ValueError("Close running Golden Gate installers before repairing their source cache")
+            print("Repairing incomplete or changed shared installer cache…", flush=True)
         with tempfile.TemporaryDirectory(prefix=".prepare-", dir=cache) as temporary:
             staging = Path(temporary)
             if source:
@@ -288,9 +320,19 @@ def prepare(*, lease: bool = False) -> Path:
                 if "version" in pin and (checkout / "VERSION").read_text().strip() != pin["version"]:
                     raise ValueError("Tahoe release archive does not match its version")
             apply_defaults(checkout, defaults)
+            (checkout / ".golden-gate-startup.json").write_text(
+                json.dumps(startup_manifest(checkout), sort_keys=True) + "\n")
             (checkout / ".golden-gate-ready").write_text(
                 ("local-development" if source else pin["commit"]) + "\n")
-            checkout.rename(target)
+            previous = staging / "previous"
+            if target.exists():
+                target.rename(previous)
+            try:
+                checkout.rename(target)
+            except OSError:
+                if previous.exists():
+                    previous.rename(target)
+                raise
         if lease:
             lease_prepared(target)
         prune_prepared(cache, target)

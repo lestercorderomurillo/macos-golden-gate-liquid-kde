@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.72.18** uses macOS-style Weather icon selectors, a grouped color row and bundled SF Pro throughout the installer. Focused wizard checks and 88 edition/mode/page font checks passed in a disposable Plasma VM. [Font evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.18/docs/evidence/installer-fonts.json). Full remote CI runs asynchronously.
+Golden Gate **v0.72.19** pairs the Golden Gate installer startup-cache repair. 116 wrapper checks passed, including damaged-cache recovery and active-session protection. Tahoe component behavior is unchanged; prior VM evidence and reviewed images are reused. [Validation and coverage limits](release-evidence.json). Full remote CI runs asynchronously.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
