@@ -1,8 +1,8 @@
 # Installer testing
 
-Golden Gate **v0.72.17** preserves custom GTK files during uninstall, tolerates corrupt clipboard shortcut state and reports failed history deletion. Focused regressions and paired component install/reinstall/uninstall checks passed in a disposable Plasma VM. [Evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.17/.github/LIFECYCLE-AUDIT-0.72.17.md). Full remote CI runs asynchronously.
+Golden Gate **v0.72.18** uses macOS-style Weather icon selectors, a grouped color row and bundled SF Pro throughout the installer. Focused wizard checks and 88 edition/mode/page font checks passed in a disposable Plasma VM. [Font evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.72.18/docs/evidence/installer-fonts.json). Full remote CI runs asynchronously.
 
-See [reviewed Dock captures](src/screenshots/previews/golden-gate-icon-layers-provenance.json). Installer photographs retain their original [provenance](src/screenshots/release-capture.json).
+Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
 ## Installation steps
 

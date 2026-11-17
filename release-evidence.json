@@ -1,36 +1,60 @@
 {
-  "version": "0.72.17",
-  "source_sha256": "96f196b64a4b722296c5f31ed68d9f23503bac5d733875cb144b170a126d015f",
-  "scope": "Paired lifecycle audit: preserve custom GTK files, tolerate invalid clipboard shortcut records, report history deletion failures, and repair annotated-tag release verification. Shared implementation and detailed evidence are in Tahoe .github/LIFECYCLE-AUDIT-0.72.17.md.",
-  "environment": "Prepared Golden Gate source plus a disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM.",
+  "version": "0.72.18",
+  "source_sha256": "743f6502b5742abeb7c8201f46f76ec1483bf37296a04fc3d6607dbb0a8254e5",
+  "scope": "Paired approved Weather icon selectors, grouped color row and full SF Pro installer typography. Matching immutable Tahoe pin and archive checksum.",
+  "environment": "Golden Gate staged source; local wrapper tests; shared disposable Plasma 6.8.1 VM qualification.",
   "checks": [
     {
       "command": "python3 -m pytest -q --tb=short",
       "result": "passed",
-      "detail": "102 wrapper checks. Wrapper implementation unchanged; evidence reused across version/pin bookkeeping."
+      "detail": "102 wrapper checks; unchanged implementation evidence reused across version/pin bookkeeping."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; pytest tests/test_gtk_uninstall.py tests/test_clipboard_step.py -q --tb=short in prepared source",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=/tmp/tahoe-installer-icon-selectors MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; python3 -m pytest tests/test_installer_wizard.py -k 'new_wizard_uses_source_defaults or installed_switcher' -q in prepared source",
       "result": "passed",
-      "detail": "30 affected staged regressions passed."
+      "detail": "15 staged edition-default and switcher checks passed."
     },
     {
-      "command": "python3 tests/vm/uninstall_safety.py --output <guest-output> with staged Golden Gate defaults",
+      "command": "Shared Tahoe wizard/font/icon checks and disposable VM probes",
       "result": "passed",
-      "detail": "Selected actual GTK/clipboard backend install/reinstall and component uninstall; custom files preserved, 129 owned assets removed; corrupted shortcut state and actual permission failure/retry passed. Exact hashes in Tahoe audit evidence."
+      "detail": "47 wizard tests, 88 edition/mode/page font checks, real Dark/Clear install/reinstall and installed Qt light/dark/light icon rendering. Tahoe docs/evidence/installer-icons-installed.json and installer-fonts.json contain scope and source fingerprints."
     },
     {
       "command": "Verify immutable Tahoe commit archive VERSION, launcher_defaults.py, MacGoldenGate support and SHA-256; git diff --check",
       "result": "passed",
-      "detail": "Verified canonical c7bcf62875e4fc91dd14875654c94c10e2a67732 archive before tag; matching v0.72.17 version/pin."
+      "detail": "Canonical 2e3a8d17163b006ce6834534006fe218a067cdda archive verified; matching version 0.72.18 and immutable annotated tag target."
     }
   ],
   "coverage_limits": [
-    "Selected component lifecycle, not full desktop teardown/reboot or new rendering qualification.",
-    "No new X11, alternate SDK, scheduler boundary or physical GPU coverage.",
-    "Full remote CI runs asynchronously.",
-    "v0.72.16 Tahoe publication failed on annotated-tag verification; its tag remains immutable and no Golden Gate v0.72.16 tag was created."
+    "Focused UI and icon component scope, not a full desktop lifecycle or new native SDK/distro qualification.",
+    "No new scheduler-boundary or GTK-continuity qualification; corresponding implementations unchanged.",
+    "Full remote CI runs asynchronously; historical installer gallery is labeled and preserved."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "captures": []
+  "captures": [
+    {
+      "path": "src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png",
+      "sha256": "42546edab93e75a8ea8b21f7f25483aeb24a942f3676984bceef37f7e674e421",
+      "reviewed": true,
+      "source_commit": "9ff2d9a4"
+    },
+    {
+      "path": "src/screenshots/previews/installer-golden-gate-dark-progress-144f0095011c.png",
+      "sha256": "144f0095011cf26969efb018300685b5c77b15ac0724ee8b03373f6b9dffe8d0",
+      "reviewed": true,
+      "source_commit": "9ff2d9a4"
+    },
+    {
+      "path": "src/screenshots/previews/installer-golden-gate-dark-summary-d270482045cb.png",
+      "sha256": "d270482045cb8a1183e3fe2b5a59cb11f25334e000d2b0a4f3fa6381702ce283",
+      "reviewed": true,
+      "source_commit": "9ff2d9a4"
+    },
+    {
+      "path": "src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png",
+      "sha256": "03fa4b14b92fc8db4ed566d50137b18265227178a9172f8b4ff81ed1d84c6675",
+      "reviewed": true,
+      "source_commit": "9ff2d9a4"
+    }
+  ]
 }
