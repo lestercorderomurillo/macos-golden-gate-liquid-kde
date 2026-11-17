@@ -156,87 +156,55 @@ Find apps, browse categories and keep your favorites within reach.
 
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
-Icon appearance previews (in development).
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp" alt="Golden Gate Dock icon appearance preview: Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="415"></a>
+</p>
 
-- **Light**
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="415"></a>
+</p>
 
-  <a href="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-light-reference-ca6c2b682d76.webp" alt="Golden Gate Dock icon appearance preview: Light" width="840"></a>
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="415"></a>
+</p>
 
-- **Dark**
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="415"></a>
+</p>
 
-  <a href="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp"><img src="src/screenshots/previews/golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="840"></a>
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="415"></a>
+</p>
 
-- **Clear Light**
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp"><img src="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp"><img src="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="415"></a>
+</p>
 
-  <a href="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-light-reference-c88e58780dcc.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="840"></a>
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="415"></a>
+</p>
 
-- **Clear Dark**
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="415"></a>
+</p>
 
-  <a href="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp"><img src="src/screenshots/previews/golden-gate-dock-clear-dark-reference-3e21d895a582.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="840"></a>
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp"><img src="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp"><img src="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="415"></a>
+</p>
 
-- **Blue Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-light-reference-4dee6e4156e0.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="840"></a>
-
-- **Blue Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp"><img src="src/screenshots/previews/golden-gate-dock-blue-dark-reference-0dcd167f9871.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="840"></a>
-
-- **Purple Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-light-reference-5dd9d0359649.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="840"></a>
-
-- **Purple Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp"><img src="src/screenshots/previews/golden-gate-dock-purple-dark-reference-5437c37898a8.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="840"></a>
-
-- **Pink Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-light-reference-addd7664259d.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="840"></a>
-
-- **Pink Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp"><img src="src/screenshots/previews/golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="840"></a>
-
-- **Red Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp"><img src="src/screenshots/previews/golden-gate-dock-red-light-reference-1f5be67ca186.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="840"></a>
-
-- **Red Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp"><img src="src/screenshots/previews/golden-gate-dock-red-dark-reference-f79924aa7609.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="840"></a>
-
-- **Orange Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-light-reference-4dba20f4170a.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="840"></a>
-
-- **Orange Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp"><img src="src/screenshots/previews/golden-gate-dock-orange-dark-reference-a4f136000d6a.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="840"></a>
-
-- **Yellow Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="840"></a>
-
-- **Yellow Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp"><img src="src/screenshots/previews/golden-gate-dock-yellow-dark-reference-b607f5673623.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="840"></a>
-
-- **Green Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp"><img src="src/screenshots/previews/golden-gate-dock-green-light-reference-cd2c9c6e4311.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="840"></a>
-
-- **Green Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp"><img src="src/screenshots/previews/golden-gate-dock-green-dark-reference-32581e2a9aea.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="840"></a>
-
-- **Gray Light**
-
-  <a href="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="840"></a>
-
-- **Gray Dark**
-
-  <a href="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="840"></a>
+<p align="center">
+  <a href="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-light-reference-8f07f95ab96f.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp"><img src="src/screenshots/previews/golden-gate-dock-gray-dark-reference-33c717289cb9.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="415"></a>
+</p>
 
 <br>
 
