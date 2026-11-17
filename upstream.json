@@ -1,6 +1,6 @@
 {
   "repository": "lestercorderomurillo/macos-tahoe-liquid-kde",
-  "commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
-  "sha256": "ce2861926d77a9d6e8040f0a7e62672b972cb54aa6e63375fe0fc960090c26d3",
-  "version": "0.72.20"
+  "commit": "a0f71c0432cdcf1dda8a98138cda3a503281f58d",
+  "sha256": "f54dba65838141b572d88f52dfef34a02ee78f2adc3727e118258d70c20840cf",
+  "version": "0.73.0"
 }

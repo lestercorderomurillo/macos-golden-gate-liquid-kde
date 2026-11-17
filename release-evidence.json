@@ -1,29 +1,30 @@
 {
-  "version": "0.72.20",
-  "source_sha256": "6e6b0c9796deb3ae0681fe607bda255389d001709c69a2b92ebe519f00715fb8",
-  "scope": "Paired approved Control Center icons, translated layout, clear component glass and reduced gradients. Shared implementation and installed rendering evidence live in Tahoe.",
-  "environment": "Local wrapper fixture checks; shared source qualified in disposable Plasma/KWin 6.8.1 VM for both edition defaults.",
+  "version": "0.73.0",
+  "source_sha256": "637bf40c076b68ca7f57bf4d96bdc6b506eecbdeb8128b0007f4b7cf468afe79",
+  "scope": "French language support from published Tahoe v0.73.0; matching immutable pin and checksum. Golden Gate defaults and historical photographs preserved.",
+  "environment": "Local Linux/Python; prepared Golden Gate source from final Tahoe implementation; publication via paired release workflows.",
   "checks": [
     {
-      "command": "python3 -m pytest tests/test_bootstrap.py -q -k 'download_checks_digest or prepare_changes_only_defaults or local_checkout_stages or disabled_updates_install or candidate_pin_is_not_downgraded'",
+      "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
       "result": "passed",
-      "detail": "7 passed, 48 deselected in 0.08s; wrapper implementation unchanged."
+      "detail": "59 passed in 0.53s: local-source staging, release/version/checksum guards and workflow archive validation."
     },
     {
-      "command": "Verify Tahoe release workflow, immutable commit archive VERSION, launcher_defaults.py, MacGoldenGate support and SHA-256",
+      "command": "python3 -m pytest tests/test_localization.py tests/test_multilanguage.py -q -k 'fr or french'",
       "result": "passed",
-      "detail": "Tahoe release workflow 44120572614 succeeded. Commit bcbe83a5182a9f30e49195e5d605c40ae46b3c85; SHA-256 ce2861926d77a9d6e8040f0a7e62672b972cb54aa6e63375fe0fc960090c26d3"
+      "detail": "Prepared Golden Gate source build/01af8db44e91670dec29: 17 passed, 38 deselected in 0.37s."
     },
     {
-      "command": "Shared native QML/material/shader checks and both-edition VM captures",
+      "command": "python3 archive verification of /tmp/tahoe-0.73.0.tar.gz",
       "result": "passed",
-      "detail": "Reused exact shared implementation evidence: https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/bcbe83a5182a9f30e49195e5d605c40ae46b3c85/docs/evidence/control-center-130-133.json"
+      "detail": "Published Tahoe commit a0f71c0432cdcf1dda8a98138cda3a503281f58d; archive SHA-256 f54dba65838141b572d88f52dfef34a02ee78f2adc3727e118258d70c20840cf; VERSION, launcher_defaults.py, French catalog and MacGoldenGate assets verified."
     }
   ],
   "coverage_limits": [
-    "Pin-only distribution update; no wrapper behavior changes.",
-    "Shared captures use both edition defaults on Plasma/KWin 6.8.1 Wayland; no new 6.6/6.7 SDK, automatic schedule boundary or physical hardware qualification.",
-    "Full remote CI runs asynchronously and is not represented as passed. Historical installer photographs retain original provenance."
+    "French translations authored for this release without native-speaker review.",
+    "No new VM rendering or SDK/distro qualification; source change is localization only.",
+    "Full remote CI runs asynchronously, not reported as passed.",
+    "Existing photographs retain original source fingerprints and provenance."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [
@@ -51,5 +52,6 @@
       "reviewed": true,
       "source_commit": "9ff2d9a4"
     }
-  ]
+  ],
+  "tahoe_release_workflow": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44123444697"
 }
