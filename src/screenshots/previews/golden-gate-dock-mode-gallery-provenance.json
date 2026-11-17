@@ -1,0 +1,581 @@
+{
+  "schema": 1,
+  "edition": "golden-gate",
+  "status": "Development previews; not a released appearance",
+  "source_commit": "c49c66183b216abb0580c4ef8ab5383d84068509",
+  "source_ref": "work/icon-reference-review",
+  "generator_sha256": "9a6961b6808c3e9704ba9e96cc8a391fb077e195d8c9c05a97f80a2b3e310908",
+  "source_archive_sha256": "54c288d8a17717bb6ba4c2b308faf7f55f7fcddff4b4b927b408a08db22bf3a4",
+  "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+  "vm": "Disposable KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland overlay of the previous icon-layer capture VM",
+  "parent_capture_provenance_sha256": "669511768f1ce7c3ec4a34214d7a970e9d57de147dd5fa40743dd0fb7ce0a217",
+  "capture_scope": "Dock only; edition-specific wallpaper and launcher preset; original application artwork",
+  "frames": {
+    "Light": {
+      "image": "golden-gate-dock-regular-light-reference-ca6c2b682d76.webp",
+      "image_sha256": "ca6c2b682d76fdd6b3e1104a7264e602798cd31029b8e1fbc19112703b4770a0",
+      "frame_sha256": "db073214d86fd3211ceb3a62dd8648b7222a31087493d784051ae215341140f5",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "light",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-regular-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Dark": {
+      "image": "golden-gate-dock-regular-dark-reference-b6a4ba793df4.webp",
+      "image_sha256": "b6a4ba793df4bcc53328aa0b764a7d0b266d228eab5879b7206741ab71f04637",
+      "frame_sha256": "2aa52756a8a31f5087124ef561e4f8d2ed3863e4c5bf0898655dfcadbcec279c",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "dark",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-regular-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Clear Light": {
+      "image": "golden-gate-dock-clear-light-reference-c88e58780dcc.webp",
+      "image_sha256": "c88e58780dcc974e258c5e47729f2e1155e17b06b244308daef9361b61b37a07",
+      "frame_sha256": "3da61c638ef0749d2ce2ae951bcf3d868381e4b0d41b4201ade9c61076db179f",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "clear-light",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-clear-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Clear Dark": {
+      "image": "golden-gate-dock-clear-dark-reference-3e21d895a582.webp",
+      "image_sha256": "3e21d895a58203d8913a9694e892ab1bb092fd3a174972745d1cef46b566dd43",
+      "frame_sha256": "7f555b9ce1d577d98ce38e40db3233e8c6ed3d20af4ae4fc892c7897933fa660",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "clear-dark",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-clear-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Blue Light": {
+      "image": "golden-gate-dock-blue-light-reference-4dee6e4156e0.webp",
+      "image_sha256": "4dee6e4156e0fba355c42f7c1943f59efa155977fa0ad6c3a7ec3eb5b06c5f0c",
+      "frame_sha256": "d1e1a887d7aa0090012ebe3a663eb6a7852c6eb8d43d86b3433b65b751590f6b",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-blue-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Blue Dark": {
+      "image": "golden-gate-dock-blue-dark-reference-0dcd167f9871.webp",
+      "image_sha256": "0dcd167f987102af2b97a23157a1e019aec8c09a9f4ceb68e4e811cbc0c87fb6",
+      "frame_sha256": "3f28d9dee1f97f74ef910844e15cb033e25787d911454d52ff6b0eb26bb3a8c5",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#007aff",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-blue-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Purple Light": {
+      "image": "golden-gate-dock-purple-light-reference-5dd9d0359649.webp",
+      "image_sha256": "5dd9d0359649310eb49dd89e614f710277b103e87d0a9f4e74392e55459ca7f0",
+      "frame_sha256": "d86013bdd010f0df829e0234dcc7ce491801aef7f7746b3272b51f868cca213c",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#af52de",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-purple-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Purple Dark": {
+      "image": "golden-gate-dock-purple-dark-reference-5437c37898a8.webp",
+      "image_sha256": "5437c37898a8279f5f0ee7490e239b711386b27e0d8731b4f9aa7dc718e36347",
+      "frame_sha256": "4c614417a8282d0a715cc244853353c47dafd18d36f320eba7c45424eecab745",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#af52de",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-purple-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Pink Light": {
+      "image": "golden-gate-dock-pink-light-reference-addd7664259d.webp",
+      "image_sha256": "addd7664259d96d41e0591a83301b4319efa6d99224389e4393eb74085d710d7",
+      "frame_sha256": "4155088809e31098481621f7eadb532ff3e4b8a13d7ab527fcf2a91652d3edd1",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#ff2d55",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-pink-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Pink Dark": {
+      "image": "golden-gate-dock-pink-dark-reference-b686ffac1ba6.webp",
+      "image_sha256": "b686ffac1ba6e5cbe222efa641d12268aef9db0528d64346edc3e0b6e1c6ff1e",
+      "frame_sha256": "120f3f8b696a92c21e55ebbf9703aab12ef2a85b1613c891471a8eededd25c24",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#ff2d55",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-pink-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Red Light": {
+      "image": "golden-gate-dock-red-light-reference-1f5be67ca186.webp",
+      "image_sha256": "1f5be67ca186315baa9000acce9949dab5acc8760540c8346932f55bde8d5028",
+      "frame_sha256": "77d6ba68bb0e45ed9cddb557490d573456839ad5a5c6d510f2251ecc414577ea",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#ff3b30",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-red-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Red Dark": {
+      "image": "golden-gate-dock-red-dark-reference-f79924aa7609.webp",
+      "image_sha256": "f79924aa760905d14882ffdcf5621961144c71e1a0c36d651ba34dd7e2d4cee7",
+      "frame_sha256": "1e144a78f7b7b6bb3e7f58fde48c3ab85ac997526466012881f6764ca8c39ddc",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#ff3b30",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-red-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Orange Light": {
+      "image": "golden-gate-dock-orange-light-reference-4dba20f4170a.webp",
+      "image_sha256": "4dba20f4170a43fed560dfe3e2345c3e67be81a7688cfed85f317c05c079e727",
+      "frame_sha256": "867956c5c86028040c2514a1356fafe21274c600f0d5a97ae11a6270cbcb0cfe",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#ff9500",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-orange-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Orange Dark": {
+      "image": "golden-gate-dock-orange-dark-reference-a4f136000d6a.webp",
+      "image_sha256": "a4f136000d6acd3bd401b5ea19233f6b305f26f54c1c3421cca26c488bd3839a",
+      "frame_sha256": "7f10b06da57a823046553514bbc98713d85613e2b81d2fadfa1f7b52e9e2e12c",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#ff9500",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-orange-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Yellow Light": {
+      "image": "golden-gate-dock-yellow-light-reference-ea1cfdc30ff2.webp",
+      "image_sha256": "ea1cfdc30ff2ff19fa4a9fcec8e05560aefab8211e573c66573f5faf5e88c925",
+      "frame_sha256": "16f0772994d2bb83470efd1438b68ae59222d4f44fea20619167b986e69f1b6d",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#ffcc00",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-yellow-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Yellow Dark": {
+      "image": "golden-gate-dock-yellow-dark-reference-b607f5673623.webp",
+      "image_sha256": "b607f5673623a0f853c410d98e29c942bd794365e0e3b89aa880aca26994820c",
+      "frame_sha256": "555aff875e6b1ac1874c21fec7f323f064d877779bb0f58c3fbae56f45992e52",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#ffcc00",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-yellow-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Green Light": {
+      "image": "golden-gate-dock-green-light-reference-cd2c9c6e4311.webp",
+      "image_sha256": "cd2c9c6e4311676c81c67ec1233c00672f76d1828502f1716095b2cd2b87c0c6",
+      "frame_sha256": "06728f2e596a83be281711132f337acdc88aecac6717c4b7070a706e11d15dbb",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#28cd41",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-green-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Green Dark": {
+      "image": "golden-gate-dock-green-dark-reference-32581e2a9aea.webp",
+      "image_sha256": "32581e2a9aea564429a61b2e58a8231df3bed37937229e04915b4865cd194a9a",
+      "frame_sha256": "39986cd2841e27cfd778cdd490f66075596465670510ff007e32174018522a19",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#28cd41",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-green-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Gray Light": {
+      "image": "golden-gate-dock-gray-light-reference-8f07f95ab96f.webp",
+      "image_sha256": "8f07f95ab96fd012fe8c71e02afa18c1b59888c99a59e9846b817aa714018717",
+      "frame_sha256": "17286b41e8e86d2cb6cda61bc34219682b9b4b225a468bbacfeba540c92d9632",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-light",
+      "tint": "#8e8e93",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Light",
+        "Plasma": "MacTahoeLiquidKde-Light",
+        "Qt": "MacTahoeLiquidKdeLight",
+        "Kvantum": "mac-tahoe-liquid-kde",
+        "GTK preference": "'prefer-light'",
+        "GTK theme": "'MacTahoeLiquidKde-Light'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Light",
+        "Icons": "DockReference-gray-light"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    },
+    "Gray Dark": {
+      "image": "golden-gate-dock-gray-dark-reference-33c717289cb9.webp",
+      "image_sha256": "33c717289cb98a2ce14bba065a00488d0ed414787235b057fcfc7f010d171a2a",
+      "frame_sha256": "a4d19d66ec5188d337e9d79ff7cc406f2eb8e696d65a819f467248d861741e1d",
+      "crop": [
+        1200,
+        1964,
+        2640,
+        2160
+      ],
+      "variant": "tinted-dark",
+      "tint": "#8e8e93",
+      "appearance": {
+        "Window controls": "__aurorae__svg__MacGoldenGateLiquidKde-Dark",
+        "Plasma": "MacTahoeLiquidKde-Dark",
+        "Qt": "MacTahoeLiquidKdeDark",
+        "Kvantum": "mac-tahoe-liquid-kdeDark",
+        "GTK preference": "'prefer-dark'",
+        "GTK theme": "'MacTahoeLiquidKde-Dark'",
+        "GTK 4 stylesheet": "MacTahoeLiquidKde-Dark",
+        "Icons": "DockReference-gray-dark"
+      },
+      "wallpaper": "MacGoldenGate",
+      "launcher_preset": 2,
+      "effect_build": "6afc24d897200027af4c08ab1a417a9d8de89c8e886ede4d5d88dd031d02d29c",
+      "stable_frames": true,
+      "window_verified": true
+    }
+  },
+  "visual_review": {
+    "reviewer": "Codex",
+    "scope": "All 20 encoded WebP frames inspected at native crop resolution",
+    "result": "Correct edition, mode, tint, complete Dock and unchanged icon silhouettes; development fidelity limitations remain"
+  },
+  "capture_script_sha256": "69aae8fd77850fe7b9aa971fe57ae43ab2ed11268a7121cf4b3fef1770709ded"
+}
