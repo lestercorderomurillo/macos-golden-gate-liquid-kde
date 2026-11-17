@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.1** uses Tahoe’s automatic cleanup of temporary compiler objects after successful installation. Wrapper checks and prepared-source cleanup regressions passed. Tahoe passed focused Global Menu installation and reinstallation in a disposable Plasma 6.8.1 / Qt 6.11.1 VM. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
+Golden Gate **v0.73.2** also removes recognized compiler objects from previous successful builds, including components not rebuilt by the current installation. Prepared-source cleanup regressions passed; unchanged wrapper checks retain their prior passing evidence. Tahoe verified old-object removal in a disposable Plasma 6.8.1 / Qt 6.11.1 VM without changing the installed component. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
