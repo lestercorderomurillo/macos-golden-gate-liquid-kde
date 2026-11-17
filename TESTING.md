@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.0** adds French throughout the installer, standalone tools and project Plasma/Acrylic Glass catalogs. Focused catalog, placeholder, locale selection and offscreen wizard checks passed for both editions. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; no new desktop rendering or distro qualification. Existing photographs retain their original provenance.
+Golden Gate **v0.73.1** uses Tahoe’s automatic cleanup of temporary compiler objects after successful installation. Wrapper checks and prepared-source cleanup regressions passed. Tahoe passed focused Global Menu installation and reinstallation in a disposable Plasma 6.8.1 / Qt 6.11.1 VM. [Evidence and coverage limits](release-evidence.json). Full remote CI runs asynchronously; existing photographs retain their original provenance.
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 

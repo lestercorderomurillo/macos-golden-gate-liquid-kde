@@ -1,30 +1,30 @@
 {
-  "version": "0.73.0",
-  "source_sha256": "637bf40c076b68ca7f57bf4d96bdc6b506eecbdeb8128b0007f4b7cf468afe79",
-  "scope": "French language support from published Tahoe v0.73.0; matching immutable pin and checksum. Golden Gate defaults and historical photographs preserved.",
-  "environment": "Local Linux/Python; prepared Golden Gate source from final Tahoe implementation; publication via paired release workflows.",
+  "version": "0.73.1",
+  "source_sha256": "dbc7019248c214ba11604cc187c4de40b3f2f0e75371f14dfdab2a5034dbd845",
+  "scope": "Matching immutable Tahoe pin for successful-install compiler-object cleanup. Golden Gate defaults and README content unchanged.",
+  "environment": "Local Linux/Python; prepared Golden Gate source; shared installer qualified in disposable Plasma 6.8.1 / Qt 6.11.1 VM.",
   "checks": [
     {
       "command": "python3 -m pytest tests/test_bootstrap.py tests/test_release_workflow.py -q",
       "result": "passed",
-      "detail": "59 passed in 0.53s: local-source staging, release/version/checksum guards and workflow archive validation."
+      "detail": "59 passed in 0.52s; wrapper implementation unchanged."
     },
     {
-      "command": "python3 -m pytest tests/test_localization.py tests/test_multilanguage.py -q -k 'fr or french'",
+      "command": "python3 -m pytest tests/test_install_build_cleanup.py -q",
       "result": "passed",
-      "detail": "Prepared Golden Gate source build/01af8db44e91670dec29: 17 passed, 38 deselected in 0.37s."
+      "detail": "Prepared Golden Gate source: 4 passed in 0.78s."
     },
     {
-      "command": "python3 archive verification of /tmp/tahoe-0.73.0.tar.gz",
+      "command": "python3 archive verification of /tmp/tahoe-0.73.1.tar.gz",
       "result": "passed",
-      "detail": "Published Tahoe commit a0f71c0432cdcf1dda8a98138cda3a503281f58d; archive SHA-256 f54dba65838141b572d88f52dfef34a02ee78f2adc3727e118258d70c20840cf; VERSION, launcher_defaults.py, French catalog and MacGoldenGate assets verified."
+      "detail": "Tahoe commit 24ffd074110424d4fd813381e98ae4badac7ce5d; SHA-256 edcb82c9be81c0b348e2ffa6cea473af38beb44ee8d308c9e5f57f88e49bb8e1; VERSION, launcher defaults, MacGoldenGate assets and cleanup implementation verified."
     }
   ],
   "coverage_limits": [
-    "French translations authored for this release without native-speaker review.",
-    "No new VM rendering or SDK/distro qualification; source change is localization only.",
-    "Full remote CI runs asynchronously, not reported as passed.",
-    "Existing photographs retain original source fingerprints and provenance."
+    "Shared selected Global Menu install/reinstall qualified on Plasma 6.8.1 / Qt 6.11.1; not a full desktop lifecycle.",
+    "No new rendering or 6.6/6.7 SDK qualification; no native code or appearance changes.",
+    "Full remote CI asynchronous, not reported as passed.",
+    "Existing photographs and provenance retained."
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "captures": [
