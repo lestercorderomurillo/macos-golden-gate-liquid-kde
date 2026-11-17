@@ -239,6 +239,17 @@ Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come 
 
 <br>
 
+### Golden Gate Notifications (Alpha)
+
+Glass notification banners and grouped history with app actions and reply support.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-93258a9d82f9.webp" alt="Golden Gate notifications in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-804deb5b2e43.webp" alt="Golden Gate notifications in dark mode" width="415">
+</p>
+
+<br>
+
 ### Golden Gate Clipboard History (Alpha)
 
 Find and reuse copied text and images directly from Launchpad.
