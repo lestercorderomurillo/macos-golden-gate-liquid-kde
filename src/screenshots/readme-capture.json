@@ -3490,23 +3490,6 @@
           "org.kde.haruna.desktop"
         ]
       }
-    },
-    "previews/readme-golden-gate-notification-stack-727547861bd6.webp": {
-      "edition": "golden-gate",
-      "mode": "dark",
-      "sha256": "727547861bd64a3a5081600684867c2492282092e27ed172fc0db1b2925e00be",
-      "source_commit": "16806a0f1170796383f9addb8ee9330327876806",
-      "source_capture_sha256": "0cc54ccef608d4c8b95f2522ac40801cb24865797105565554c44f8431db41ec",
-      "qml_sha256": "2483d6a5f0aa5d22795073aa6ecc7b6971ce420b97133c120247480798cb1970",
-      "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
-      "capture": "Grouped notification banner from a disposable KDE neon Wayland VM, 2x scale, diagonal test wallpaper, edition material, three messages. Lossless window crop.",
-      "window_geometry": {
-        "x": 1550,
-        "y": 54,
-        "width": 364,
-        "height": 104
-      },
-      "user_approval": "screenshoots looks perfect; update readme related screenshots and release new version"
     }
   },
   "missing": [],

@@ -49,15 +49,10 @@
       "result": "passed"
     }
   ],
-  "captures": [
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-notification-stack-727547861bd6.webp",
-      "sha256": "727547861bd64a3a5081600684867c2492282092e27ed172fc0db1b2925e00be",
-      "reviewed": true
-    }
-  ],
+  "captures": [],
   "coverage_limits": [
     "Rendered on Wayland with accelerated Qt Quick. The software renderer retains strip clipping. History shares the QML surface; the live photographic comparison covers the popup."
   ],
-  "source_sha256": "e51d7f37ce6ca9209f85cb4dc3125e684822874364a933f4dc8906051388e6b8"
+  "source_sha256": "e51d7f37ce6ca9209f85cb4dc3125e684822874364a933f4dc8906051388e6b8",
+  "documentation_note": "The reviewed standalone notification stack capture remains in the historical v0.73.13 tag."
 }
