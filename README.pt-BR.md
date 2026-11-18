@@ -1,8 +1,8 @@
 <p align="center">
-  <!-- Artwork: https://developer.apple.com/macos/ -->
+  <!-- Adapted with ImageGen from artwork by Apple: https://developer.apple.com/macos/ -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="src/screenshots/macos-27-dark.png">
-    <img src="src/screenshots/macos-27.png" alt="macOS 27 circular emblem" width="180" height="180">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/artwork/kde-27-dark-582defc44787.png">
+    <img src="docs/artwork/kde-27-2be089d66291.png" alt="27 · KDE" width="180" height="180">
   </picture>
 </p>
 
