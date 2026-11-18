@@ -1,47 +1,109 @@
 {
-  "version": "0.73.8",
-  "scope": "Vertically center Launcher options labels and antialias the checkmark.",
-  "environment": "Disposable KDE neon Wayland / Plasma 6.8.1 / Qt 6.11.1 / scale 2",
-  "implementation_commit": "45342ce96e19fd6f5393e73015160a1d26708776",
+  "version": "0.73.9",
+  "scope": "Installed notification stacks; canonical Discord label; menu material and shader with notification gradients disabled; subtle About-style black/white card rims; compact exterior title shadow; foreground contrast from actual compositor backdrop without shadows inside cards.",
+  "environment": "Disposable pinned KDE neon Wayland VM, Plasma 6.8.1 / Qt 6.11.1, 3840x2160 at 2x; isolated Arch KWin X11 6.6.5; Fedora SDK 6.7.5.",
+  "implementation_commit": "ca723816012f27f988fff6c4b69c6c3acb3450ec",
   "approval": {
     "date": "2026-11-17",
-    "message": "si men",
-    "preview_sha256": "191355079d7b6464a31b9eb09537188fbc0be17401ad4af381cdfc2eea9ee45f"
+    "message": "bro esta bien, ya release"
   },
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "coverage_limits": [
-    "Visual checks ran at 2\u00d7 scale in a disposable KDE neon Wayland VM.",
-    "Visual verification used Wayland. Isolated X11 probes cover launcher behavior without qualifying the compositor's visual output.",
-    "The preexisting Acrylic Glass plugin was built and enabled for the VM comparison. The patch changes only Launcher QML and its component hash."
+    "Focused native notification qualification, not a fresh full desktop/installer gallery.",
+    "The complete remote distro matrix remains enabled and asynchronous.",
+    "The unchanged appearance controller retains its prior full Qt/Kvantum/GTK application-continuity evidence; this run adds actual notification boundary crossing in each edition.",
+    "Foreground uses an 8x8 sample of the blurred backdrop per notification window, not a per-glyph sampler.",
+    "Software scenegraphs use an exterior raised text shadow; compositor-adaptive foreground requires Acrylic Glass."
   ],
-  "details": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.8/docs/evidence/launcher-menu-alignment.json",
-  "upstream_release": {
-    "commit": "bd14af35399fb368674863d647e59f6fb2b8f0ed",
-    "archive_sha256": "e845ac75d2a9e128811025ed9b841c146ad5460dd4a4fc979f765145df5ab516",
-    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.8",
-    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44206600240",
-    "observed_result": "published"
-  },
+  "details": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.9/docs/evidence/notifications-0739.json",
   "checks": [
     {
-      "command": "python3 -m pytest -q tests/test_bootstrap.py::test_download_checks_digest tests/test_bootstrap.py::test_prepare_changes_only_defaults_and_reuses_verified_cache tests/test_bootstrap.py::test_release_download_is_checked_by_version_not_pin_digest tests/test_release_workflow.py",
+      "command": "Private D-Bus/offscreen production desktop_controls_probe.py, then combined v0.73.8 integration probe",
       "result": "passed",
-      "detail": "8 passed"
+      "detail": [
+        "three Discord messages become one stack",
+        "latest summary/body and Discord capitalization",
+        "expand/collapse and one sound per arriving ID",
+        "replace permanent notifications without starting an expiry timer",
+        "expanded header leaves individual child expiry and interaction timers in charge",
+        "original member deadlines survive regrouping",
+        "independent applications, retained history, read/expire/clear without resurrection",
+        "real backdrop sample routing and invalid process/geometry/RGB rejection",
+        "WCAG foreground contrast on white, black and gray",
+        "native light/dark/light banner palette and job/action/reply paths",
+        "combined Wi-Fi/battery/Launcher releases preserved"
+      ],
+      "log": "probe-integration-0739.log"
     },
     {
-      "command": "Verify immutable archive version, SHA-256, component ledger, edition support, and qualified menu QML",
+      "command": "CMake native effect and mactahoelauncher builds; controlglassprobe",
       "result": "passed",
-      "detail": "e845ac75d2a9e128811025ed9b841c146ad5460dd4a4fc979f765145df5ab516"
+      "detail": "Arch KWin/libplasma 6.6.5; Fedora KWin 6.7.5/libplasma 6.8.2; neon KWin 6.8.1/Qt 6.11.1.",
+      "logs": [
+        "sdk66.log",
+        "sdk67.log",
+        "native-build-final.log"
+      ]
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<approved candidate> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
+      "command": "Isolated Xvfb/KWin X11 production effect notification pixel probe",
       "result": "passed",
-      "detail": "Golden Gate defaults and qualified menu QML matched byte for byte."
+      "detail": "Exact loaded plugin verified, rendered islands/gaps checked, real compositor backdrop samples received by the owning client.",
+      "log": "x11-render.log"
     },
     {
-      "command": "git diff --check",
+      "command": "Production glass-shader-probe plus focused blur-region/capture-safety regressions",
+      "result": "passed",
+      "detail": "Shader colors, orientation, coverage, premultiplication and both profiles; nine focused regressions.",
+      "logs": [
+        "shader-final.log",
+        "shader-checks.log"
+      ]
+    },
+    {
+      "command": "Installed Wayland notification frontend: both editions x light/dark x pure white/black/checker backgrounds",
+      "result": "passed",
+      "detail": "12 history frames and four live-stack frames; native effect classifies notifications as menus; all backgrounds settled, same history window survives background changes; pointer expansion and clear in each edition/mode.",
+      "log": "capture-final-menu-material.log"
+    },
+    {
+      "command": "Real automatic dusk crossing in the disposable VM for both editions",
+      "result": "passed",
+      "detail": "Same notification and shell/compositor processes survive; saved optical settings unchanged. Deliberately moved only the VM clock across 18:00.",
+      "log": "automatic-boundary.log"
+    },
+    {
+      "command": "Compare final installed foreground crop and original reviewed matrix; verify installed native/QML fingerprints",
+      "result": "passed",
+      "detail": {
+        "gpu_crop_matches_capture_matrix_with_antialias_tolerance": true,
+        "crop": [
+          3100,
+          80,
+          3828,
+          360
+        ],
+        "maximum_channel_difference_255": 1,
+        "changed_pixels": 9,
+        "mean_channel_difference_255": 3.597592883307169e-05,
+        "tolerance": "At most 16 pixels differ by one 8-bit channel step; all other pixels identical."
+      }
+    },
+    {
+      "command": "git diff --check; python3 src/scripts/component_manifest.py",
       "result": "passed"
+    },
+    {
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<candidate> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare; compare every changed source payload and staged component ledger",
+      "result": "passed",
+      "detail": "Golden Gate wallpaper and launcher preset 2; 16 source payload files match byte for byte."
     }
   ],
-  "source_sha256": "112efc50723cf00463d269668edef4c4147ab1a3bd0495c63ea9a6b71d690796"
+  "captures": [],
+  "source_sha256": "66e8e82f8e9e87f1f49c2fe1d4f15971f07717f37d75376369d07f3d79ec5d22",
+  "upstream_release": {
+    "commit": "3be0748d499d6efd0387a487dcc60fd625951545",
+    "archive_sha256": "3afc3b4adac34b82b1c59e10a0aa6aae78a42ce043bd99d784677aeab4757ba6",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.9"
+  }
 }
