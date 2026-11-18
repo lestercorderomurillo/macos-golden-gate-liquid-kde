@@ -140,6 +140,16 @@ def test_launch_forwards_arguments_and_disables_independent_updates(tmp_path, mo
     assert bootstrap.os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] == "true"
 
 
+def test_vm_uses_the_staged_launchers_shebang(tmp_path, monkeypatch):
+    monkeypatch.setattr(bootstrap, "prepare", lambda **kwargs: tmp_path)
+    monkeypatch.setattr(bootstrap.os, "chdir", lambda path: None)
+    calls = []
+    monkeypatch.setattr(bootstrap.os, "execv", lambda executable, args: calls.append((executable, args)))
+    assert bootstrap.main("vm", ["inventory"]) == 0
+    launcher = str(tmp_path / "vm")
+    assert calls == [(launcher, [launcher, "inventory"])]
+
+
 def wrapper_at(tmp_path, monkeypatch, version="0.59.4"):
     root = tmp_path / "wrapper"
     root.mkdir()

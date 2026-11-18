@@ -516,6 +516,10 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
         os.execv(sys.executable, [sys.executable, str(maintenance), *maintenance_args])
         return 0
     os.chdir(source)
+    if entry == "vm":
+        launcher = str(source / entry)
+        os.execv(launcher, [launcher, *args])
+        return 0
     os.execv(sys.executable, [sys.executable, str(source / entry), *args])
     return 0
 
