@@ -48,7 +48,11 @@ def test_non_installer_entries_do_not_run_maintenance(tmp_path, monkeypatch, ent
     monkeypatch.setattr(bootstrap.os, "execv", lambda *a: launches.append(a))
     monkeypatch.setenv("MAC_TAHOE_NO_UPDATE_CHECK", "true")
     assert bootstrap.main(entry, ["--free-space"]) == 0
-    assert launches[0][1] == [sys.executable, str(tmp_path / entry), "--free-space"]
+    launcher = str(tmp_path / entry)
+    if entry == "vm":
+        assert launches == [(launcher, [launcher, "--free-space"])]
+    else:
+        assert launches == [(sys.executable, [sys.executable, launcher, "--free-space"])]
 
 
 @pytest.mark.parametrize("failure", ["returncode", "timeout", "missing"])

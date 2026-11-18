@@ -1,0 +1,68 @@
+{
+  "purpose": "README Notifications (Alpha)",
+  "edition": "golden-gate",
+  "source_commit": "50bbe2bae7a3fe6c55c86441423d50bd86386b4e",
+  "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+  "capture_environment": {
+    "plasma": "plasmashell 6.8.1",
+    "backend": "wayland"
+  },
+  "images": {
+    "readme-golden-gate-light-notifications-4b186effaea3.webp": {
+      "focused_window": {
+        "id": "{47949a61-8ac9-4c1d-aa28-aaa9fa8fc546}",
+        "caption": "mttkde-notifications",
+        "resourceClass": "org.kde.plasmashell",
+        "type": 13,
+        "appletPopup": false,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 1550,
+          "y": 38,
+          "width": 364,
+          "height": 214
+        }
+      },
+      "source_capture_sha256": "7ade51ca183b18a0ab08e187d918127f82572848be68e3e4242872d9f87ef509",
+      "crop_physical_pixels": [
+        3100,
+        76,
+        3828,
+        504
+      ],
+      "edition": "golden-gate",
+      "mode": "light",
+      "sha256": "4b186effaea3bee5f2dac307c35e4d8dd7b35c3c813c70a71166e369adab3ef8",
+      "replaces": "readme-golden-gate-light-notifications-93258a9d82f9.webp"
+    },
+    "readme-golden-gate-dark-notifications-a9b550719838.webp": {
+      "focused_window": {
+        "id": "{e147777f-13a7-4364-a5a4-613eda99a8a0}",
+        "caption": "mttkde-notifications",
+        "resourceClass": "org.kde.plasmashell",
+        "type": 13,
+        "appletPopup": false,
+        "hidden": false,
+        "active": true,
+        "geometry": {
+          "x": 1550,
+          "y": 38,
+          "width": 364,
+          "height": 214
+        }
+      },
+      "source_capture_sha256": "1ec7445491378d1248a4c93ef6d0675d96e78192d0cabf906aefec4207769c62",
+      "crop_physical_pixels": [
+        3100,
+        76,
+        3828,
+        504
+      ],
+      "edition": "golden-gate",
+      "mode": "dark",
+      "sha256": "a9b5507198387410ce2bad3a64c9f0a3144dea4e2cbd8dd4858f567e4ed42d47",
+      "replaces": "readme-golden-gate-dark-notifications-804deb5b2e43.webp"
+    }
+  }
+}

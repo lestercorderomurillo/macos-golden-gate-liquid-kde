@@ -1,7 +1,7 @@
 {
-  "version": "0.73.13",
+  "version": "0.73.15",
   "implementation_commit": "16806a0f1170796383f9addb8ee9330327876806",
-  "scope": "Grouped notification card contours and compositor blur regions",
+  "scope": "Approved light and dark Notification Center README photographs and VM wrapper regression expectation",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "checks": [
     {
@@ -47,12 +47,38 @@
     {
       "command": "python -m pytest -q tests/test_bootstrap.py tests/test_release_workflow.py tests/test_source_archive.py; MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
       "result": "passed"
+    },
+    {
+      "command": "python3 -m pytest tests -q",
+      "result": "passed",
+      "detail": "117 wrapper tests passed, including all three maintenance bypass cases."
+    },
+    {
+      "command": "python3 .agents/skills/paired-release/scripts/check_pair.py --tahoe ../macos-tahoe-liquid-kde --golden . --archive <published-tahoe-archive>",
+      "result": "passed",
+      "detail": "Version, immutable release tag and published Tahoe archive SHA-256 match."
+    },
+    {
+      "command": "python3 .agents/skills/screenshot-provenance/scripts/audit.py --repo . --edition golden-gate; git diff --cached --check",
+      "result": "passed",
+      "detail": "Existing README images retain their provenance and the approved replacements match the separate capture manifest."
     }
   ],
-  "captures": [],
+  "captures": [
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp",
+      "sha256": "4b186effaea3bee5f2dac307c35e4d8dd7b35c3c813c70a71166e369adab3ef8",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp",
+      "sha256": "a9b5507198387410ce2bad3a64c9f0a3144dea4e2cbd8dd4858f567e4ed42d47",
+      "reviewed": true
+    }
+  ],
   "coverage_limits": [
     "Rendered on Wayland with accelerated Qt Quick. The software renderer retains strip clipping. History shares the QML surface; the live photographic comparison covers the popup."
   ],
-  "source_sha256": "e51d7f37ce6ca9209f85cb4dc3125e684822874364a933f4dc8906051388e6b8",
-  "documentation_note": "The reviewed standalone notification stack capture remains in the historical v0.73.13 tag."
+  "source_sha256": "6691cb5007a7e6e6797c338c90a1c28a5de15121bf70aa03aa31b9bc0076ee34",
+  "documentation_note": "The user approved the four edition-specific photographs in the paired preview. Standalone notification stack evidence remains in the historical v0.73.13 tag."
 }
