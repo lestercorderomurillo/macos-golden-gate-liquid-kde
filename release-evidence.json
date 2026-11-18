@@ -1,30 +1,465 @@
 {
-  "version": "0.73.10",
-  "scope": "Pair Golden Gate with the test-only Tahoe CI correction.",
-  "environment": "Local CachyOS using the real published Tahoe archive and a disposable wrapper checkout.",
-  "implementation_commit": "90783412249cec266bdd462d572cf453da0683fe",
+  "version": "0.73.11",
+  "scope": "Reviewed Clear and Tinted Dock icon materials, Finder face contrast and neutral Trash.",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "coverage_limits": [
-    "Wrapper tests and archive staging only. The complete remote CI runs asynchronously.",
-    "Installer behavior, desktop appearance and photographs retain the v0.73.9 evidence."
-  ],
-  "details": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.10/release-evidence.json",
+  "environment": "CachyOS host and disposable KDE neon Wayland guest.",
   "checks": [
     {
       "command": "python -m pytest -q tests/test_bootstrap.py tests/test_release_workflow.py tests/test_source_archive.py",
-      "result": "passed",
-      "detail": "60 passed."
+      "result": "passed"
     },
     {
       "command": "MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
       "result": "passed",
-      "detail": "Temporary wrapper with no sibling downloaded the audited archive, verified checksum and version, and staged Golden Gate defaults and matching test and component files."
+      "detail": "Staging from the verified immutable release archive with Golden Gate defaults."
     }
   ],
-  "source_sha256": "9f72e3d272d723d78bc973ad03543e24cd4f490e577d56ac10a96cc0220e8826",
+  "coverage_limits": [
+    "The 59-pair image compares generator output with macOS Tahoe. RGB swatches sampled from video are estimates. Three Settings pairs scored below 87.",
+    "README and installer photographs retain their original sources.",
+    "Icons qualified with native application artwork on the listed guest and fixture launchers for missing applications. The macOS Dock role override is a separate display path."
+  ],
+  "implementation_commit": "6d6c5847db849f8e6a2f6eb7a9d2912729505bed",
   "upstream_release": {
-    "commit": "90783412249cec266bdd462d572cf453da0683fe",
-    "archive_sha256": "98b5b4bfa7cb48836e096f0f22f39c68730c1af0bc1b6c38b665b1ed0ce8e66c",
-    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.10"
-  }
+    "commit": "6d6c5847db849f8e6a2f6eb7a9d2912729505bed",
+    "archive_sha256": "f5b4324259866d4868dc6c494b9a36233d3435228e4d031b97f0dbe164785a99",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.11"
+  },
+  "installed_dock": {
+    "edition": "golden-gate",
+    "frames": [
+      {
+        "file": "dock-proof-golden-gate-regular-light-blue-empty.png",
+        "sha256": "7a1d84e66f3a3ef056e9c837529b0f04e38ba7aebe5e472bbce423b6ade1431b",
+        "theme": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-regular-light-blue-full.png",
+        "sha256": "da050e5b6bec8596cb6f72b50de8584d17c23b7f4dc315ff4ff1152dcaac8b4f",
+        "theme": "MacTahoeLiquidKde-Icons-Regular-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-regular-dark-blue-empty.png",
+        "sha256": "a5c0977d724e8403be432e9a8c760e2c620011fc18e67248ec6389609ec5ea58",
+        "theme": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-regular-dark-blue-full.png",
+        "sha256": "93a55abd97060ad1c6f1ccae45d7eebf187f8b8c1d6ade4b4256205aa009298f",
+        "theme": "MacTahoeLiquidKde-Icons-Regular-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-clear-light-blue-empty.png",
+        "sha256": "aee41efc297eea03cf534ea0ef48cc86a692e5522dc941eeddae7a740dd50ed5",
+        "theme": "MacTahoeLiquidKde-Icons-Clear-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-clear-light-blue-full.png",
+        "sha256": "9247cd3f5889f06fb56252a9c0723e155dc52d50f85353b96b67e3b1e99c67f0",
+        "theme": "MacTahoeLiquidKde-Icons-Clear-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-clear-dark-blue-empty.png",
+        "sha256": "f7e3b84a11ace80d1826c2462302a795428daf599b1b9f823b56ff5850834628",
+        "theme": "MacTahoeLiquidKde-Icons-Clear-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-clear-dark-blue-full.png",
+        "sha256": "8b798b0936160b5442563025a91ff67a15f0311d895653bf2a16a2b890d4df81",
+        "theme": "MacTahoeLiquidKde-Icons-Clear-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-blue-empty.png",
+        "sha256": "3b2121026f1c5940e7fbd64e1ec2f97846c0d64ca27c8f65e3e9f62cd02e0a51",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-blue-full.png",
+        "sha256": "0e9bc27bec7681b23385938c274a5cddcb6c9cb0a3fd473d72491706e62d419e",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-blue-empty.png",
+        "sha256": "ec4268fd9189d28de42d138b406805af4ae1c999cc7714585aa1787e2c70dc83",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-blue-full.png",
+        "sha256": "9b4296c713e5660e4afb0a51e8645ba9fa8329ff05b42440b591de3d3f443314",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-purple-empty.png",
+        "sha256": "52c858b810d5dae6f0aa5b928610589e333e35520a91395999e2768aeb1ff9ee",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-purple-empty.png",
+        "sha256": "70d4a7006230189516fd07d93a60ac7153b09cadfbadb04fb74ec9ad947e515d",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-pink-empty.png",
+        "sha256": "2c78379c7e73ebbe491aeb546cbbcecc3e58f37959775d330da60d65642c054a",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-pink-empty.png",
+        "sha256": "173d5d3068e084d7ea3a590ce8af55e5e19e5ec99b6014484a7cf9a624b3c516",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-red-empty.png",
+        "sha256": "aa016ba83a4eba966f3d813cd24999aa86a81d8b134df71d1ad1fc82a73cd926",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-red-full.png",
+        "sha256": "298d47328bebb78fe0bfe34832cb53aa5a147d1852d52153cb0f59f4afc293d0",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-red-empty.png",
+        "sha256": "f8863224ab07521222e897a622ccf4cbf58c82cf365fcca0232ba47adc333001",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-red-full.png",
+        "sha256": "b79069b68ad4a93a20db8e554e6d33afe4cb6e35e2987f03d2168aafe4dc83c0",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "full",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-orange-empty.png",
+        "sha256": "2223f650898107c3983f15c46cc56d5440b8349e674fbba32c03f3b197defab3",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-orange-empty.png",
+        "sha256": "1fddc7c143097297522e9188742333a097daa865493c39c5e2b17228b106195d",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-yellow-empty.png",
+        "sha256": "d5d7aac1c20823510a095705d0e8663aca3b50bf91f9ad2fc327a921d0a497f7",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-yellow-empty.png",
+        "sha256": "3ef3219c49bc09cc724fb13f907c965e6f5d7187bd90c702e8d1bc30af82813d",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-green-empty.png",
+        "sha256": "76386bb49a2f92c0e1268176d4321ea5dad932a3bb38a66bfc1276f3dbcaba9e",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-green-empty.png",
+        "sha256": "c312eb2fbb9ea26ebad693cc6208ecec515ab4675f9cfd944758a4b63b838b4f",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-light-gray-empty.png",
+        "sha256": "96f28be8e1f72255ed28b6c2caf3df18283132dc895200628ae49a580ce761f5",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
+        "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      },
+      {
+        "file": "dock-proof-golden-gate-glass-dark-gray-empty.png",
+        "sha256": "57f1afc6afe6fcdb630546f83fa5b70823bd76e91157a51461a28a9e08aa2a4b",
+        "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
+        "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
+        "state": "empty",
+        "geometry": {
+          "x": 614,
+          "y": 996,
+          "width": 692,
+          "height": 84
+        },
+        "center_offset": 0.0,
+        "glass": "ready"
+      }
+    ],
+    "fixtures": [
+      "thunderbird.desktop",
+      "org.kde.merkuro.calendar.desktop",
+      "org.kde.marknote.desktop",
+      "org.kde.elisa.desktop",
+      "org.kde.haruna.desktop"
+    ],
+    "plasma": "plasmashell 6.8.1",
+    "kwin": "kwin 6.8.1",
+    "source": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
+    "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c"
+  },
+  "source_sha256": "d80c081ff7d3d988c10fa4bc21dba8f8ba7ed545c97ce27ff1227c59c29c50d1"
 }

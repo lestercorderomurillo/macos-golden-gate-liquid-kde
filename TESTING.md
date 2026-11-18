@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.10** pins the Tahoe release with repaired notification-history and translation tests. The wrapper and verified archive staging passed. Full CI runs asynchronously. [Evidence and coverage limits](release-evidence.json).
+Golden Gate **v0.73.11** includes the approved Dock icon materials and Finder contrast fix. The renderer comparison covers 59 pairs. [Evidence and coverage limits](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
