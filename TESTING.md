@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.7** includes the approved Wi-Fi and battery menus. Focused native-action and translation checks passed; persistent menus and Qt/Kvantum plus GTK 3/4 applications were verified across manual changes, rapid overlapping selections and actual automatic dusk/dawn crossings in one Wayland VM. [Detailed evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.7/docs/evidence/status-menus-0737.json). Full CI runs independently. Installer photographs retain their original provenance.
+Golden Gate **v0.73.8** includes centered Launcher options text and a smooth checkmark. Focused wrapper and archive checks passed. The prepared menu was verified on Plasma Wayland in light and dark with Acrylic Glass enabled and disabled. Full CI runs independently. [Shared evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.8/docs/evidence/launcher-menu-alignment.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
