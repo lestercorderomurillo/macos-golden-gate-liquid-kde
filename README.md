@@ -294,6 +294,10 @@ Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come 
 Glass notification banners and grouped history with app actions and reply support.
 
 <p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-notification-stack-727547861bd6.webp" alt="Three grouped notifications in Golden Gate" width="415">
+</p>
+
+<p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notifications-93258a9d82f9.webp" alt="Golden Gate notifications in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-804deb5b2e43.webp" alt="Golden Gate notifications in dark mode" width="415">
 </p>
