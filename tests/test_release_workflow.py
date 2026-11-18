@@ -3,17 +3,22 @@ import hashlib
 import io
 import json
 from pathlib import Path
+import runpy
 import subprocess
 import tarfile
-import textwrap
 
 import pytest
 
 
-@pytest.mark.parametrize('damage', [None, 'tag', 'checksum', 'version'])
-def test_pinned_release_checker_is_taken_only_from_verified_archive(tmp_path, monkeypatch, damage):
-    workflow = Path(__file__).resolve().parents[1] / '.github/workflows/release.yml'
-    script = textwrap.dedent(workflow.read_text().split("          python3 - <<'PYCODE'\n", 1)[1].split('          PYCODE', 1)[0])
+@pytest.mark.parametrize('damage, error', [
+    (None, None),
+    ('tag', 'tag differs'),
+    ('checksum', 'checksum mismatch'),
+    ('version', 'archive version differs'),
+])
+def test_pinned_release_checker_is_taken_only_from_verified_archive(tmp_path, monkeypatch, damage, error):
+    script = Path(__file__).resolve().parents[1] / '.github/scripts/verify_upstream_release.py'
+    verify = runpy.run_path(str(script))['verify_upstream_release']
     commit = 'a' * 40
     payload = io.BytesIO()
     with tarfile.open(fileobj=payload, mode='w:gz') as archive:
@@ -27,14 +32,13 @@ def test_pinned_release_checker_is_taken_only_from_verified_archive(tmp_path, mo
            'version': '1.2.3', 'sha256': '0' * 64 if damage == 'checksum' else hashlib.sha256(data).hexdigest()}
     (tmp_path / 'upstream.json').write_text(json.dumps(pin))
     (tmp_path / 'VERSION').write_text('1.2.3\n')
-    monkeypatch.chdir(tmp_path)
-    monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
     monkeypatch.setattr(subprocess, 'check_output', lambda args, **k:
                         data if args[0] == 'curl' else ('b' * 40 if damage == 'tag' else commit) + '\trefs/tags/v1.2.3\n')
+    output = tmp_path / 'tahoe-release-evidence.py'
     if damage:
-        with pytest.raises(AssertionError):
-            exec(compile(script, str(workflow), 'exec'), {})
-        assert not (tmp_path / 'tahoe-release-evidence.py').exists()
+        with pytest.raises(ValueError, match=error):
+            verify(tmp_path, output)
+        assert not output.exists()
     else:
-        exec(compile(script, str(workflow), 'exec'), {})
-        assert (tmp_path / 'tahoe-release-evidence.py').read_bytes() == b'# verified checker\n'
+        verify(tmp_path, output)
+        assert output.read_bytes() == b'# verified checker\n'

@@ -140,14 +140,26 @@ def test_launch_forwards_arguments_and_disables_independent_updates(tmp_path, mo
     assert bootstrap.os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] == "true"
 
 
-def test_vm_uses_the_staged_launchers_shebang(tmp_path, monkeypatch):
-    monkeypatch.setattr(bootstrap, "prepare", lambda **kwargs: tmp_path)
-    monkeypatch.setattr(bootstrap.os, "chdir", lambda path: None)
-    calls = []
-    monkeypatch.setattr(bootstrap.os, "execv", lambda executable, args: calls.append((executable, args)))
-    assert bootstrap.main("vm", ["inventory"]) == 0
-    launcher = str(tmp_path / "vm")
-    assert calls == [(launcher, [launcher, "inventory"])]
+def test_vm_runs_the_staged_shell_launcher_with_free_space_argument(tmp_path):
+    launcher = tmp_path / "vm"
+    launcher.write_text('#!/bin/bash\nprintf "%s\\n" "vm:$1"\n')
+    launcher.chmod(0o755)
+    program = """
+import bootstrap
+import os
+from pathlib import Path
+import sys
+os.environ["MAC_TAHOE_NO_UPDATE_CHECK"] = "true"
+bootstrap.ROOT = Path(sys.argv[1])
+bootstrap.prepare = lambda **kwargs: bootstrap.ROOT
+bootstrap.local_source = lambda: None
+raise SystemExit(bootstrap.main("vm", sys.argv[2:]))
+"""
+    result = subprocess.run(
+        [sys.executable, "-c", program, str(tmp_path), "--free-space"],
+        cwd=bootstrap.ROOT, check=True, capture_output=True, text=True,
+    )
+    assert result.stdout == "vm:--free-space\n"
 
 
 def wrapper_at(tmp_path, monkeypatch, version="0.59.4"):

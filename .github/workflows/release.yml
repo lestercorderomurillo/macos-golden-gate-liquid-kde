@@ -20,30 +20,7 @@ jobs:
       - name: Verify immutable Tahoe release and fetch its evidence checker
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          python3 - <<'PYCODE'
-          import hashlib, io, json, os, pathlib, re, subprocess, tarfile
-          pin = json.loads(pathlib.Path('upstream.json').read_text())
-          version = pathlib.Path('VERSION').read_text().strip()
-          assert pin['repository'] == 'lestercorderomurillo/macos-tahoe-liquid-kde'
-          assert re.fullmatch('[a-f0-9]{40}', pin['commit'])
-          assert re.fullmatch(r'\d+\.\d+(?:\.\d+|rc[1-9]\d*)', version)
-          assert pin['version'] == version
-          tag = 'refs/tags/v' + version
-          refs = subprocess.check_output(['git', 'ls-remote',
-              'https://github.com/' + pin['repository'] + '.git', tag, tag + '^{}'], text=True)
-          refs = {ref: sha for sha, ref in (line.split() for line in refs.splitlines())}
-          assert refs.get(tag + '^{}', refs.get(tag)) == pin['commit'], 'Tahoe tag differs from pin'
-          url = 'https://codeload.github.com/' + pin['repository'] + '/tar.gz/' + pin['commit']
-          archive = subprocess.check_output(['curl', '--fail', '--location', '--silent',
-              '--show-error', '--max-time', '120', url])
-          assert hashlib.sha256(archive).hexdigest() == pin['sha256'], 'Tahoe archive checksum mismatch'
-          with tarfile.open(fileobj=io.BytesIO(archive), mode='r:gz') as source:
-              root = 'macos-tahoe-liquid-kde-' + pin['commit'] + '/'
-              assert source.extractfile(root + 'VERSION').read().decode().strip() == version
-              checker = source.extractfile(root + '.github/scripts/release_evidence.py').read()
-          pathlib.Path(os.environ['RUNNER_TEMP'], 'tahoe-release-evidence.py').write_bytes(checker)
-          PYCODE
+        run: python3 .github/scripts/verify_upstream_release.py
       - name: Verify focused local evidence
         run: python3 "$RUNNER_TEMP/tahoe-release-evidence.py" --fetch-refs --repo .
       - name: Publish installable release
