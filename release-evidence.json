@@ -1,40 +1,39 @@
 {
-  "version": "0.73.6",
-  "source_sha256": "f698c85b1f4d1256c70513c8c3a3436eac02978d03c8fdf353d6dd9e3d6d3563",
-  "scope": "Pair the approved Shell contrast changes with the published Tahoe release while preserving Golden Gate defaults.",
-  "environment": "Local wrapper checks and prepared edition source. Shared renderer qualification in a disposable KDE neon Wayland VM.",
+  "version": "0.73.7",
+  "scope": "Pair the user-approved Wi-Fi and battery menus with the published immutable Tahoe release, retaining Golden Gate defaults and edition materials.",
+  "environment": "Local wrapper and prepared-source checks; shared KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM with persistent Qt/Kvantum and GTK 3/4 applications.",
   "upstream_release": {
-    "commit": "420e2da4ddb1bc6dde397a846df02b8721bc9ec6",
-    "archive_sha256": "8954e8a31338d160c7d756881e738cf7341927e3efbb0217520fc29616fb3b80",
-    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.6",
-    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44203361489",
+    "commit": "2cb77f21ba7c8accf9177df8a7de4935d55c4741",
+    "archive_sha256": "7796727877580ba642d3a9035204b518b0d07c16803907ff99351d3a53730549",
+    "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/releases/tag/v0.73.7",
+    "publication_run": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/44206148315",
     "observed_result": "published"
   },
   "approval": {
     "date": "2026-11-17",
-    "message": "si pero muestrame unas 10 capturas de muchas configuraciones, talvez 20, on y off",
-    "preview_sha256": "4033f1848a7a08a758f6b9c5ec395a19625bb02edf4f0e9be54b500ab9cd93de"
+    "message": "release yes",
+    "preview_sha256": "935a69faeaa99f937a19078ce84a8488a3e0138a0f2ff6271ee60f7cb8a8afef"
   },
   "checks": [
     {
-      "command": "python3 -m pytest -q <focused checksum, fallback, staging and release-workflow checks>",
+      "command": "python3 -m pytest -q tests/test_bootstrap.py::test_download_checks_digest tests/test_bootstrap.py::test_prepare_changes_only_defaults_and_reuses_verified_cache tests/test_bootstrap.py::test_disabled_updates_install_the_verified_pin tests/test_bootstrap.py::test_release_download_is_checked_by_version_not_pin_digest tests/test_release_workflow.py",
       "result": "passed",
-      "detail": "8 passed in 0.09s"
+      "detail": "9 passed; checksum, fallback, staging and release-checker source checks."
     },
     {
-      "command": "Validate immutable Tahoe codeload archive, version, component ledger and installed QML hashes",
+      "command": "GOLDEN_GATE_TAHOE_SOURCE=<release Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
       "result": "passed",
-      "detail": "SHA-256 8954e8a31338d160c7d756881e738cf7341927e3efbb0217520fc29616fb3b80; archive corresponds to 420e2da4ddb1bc6dde397a846df02b8721bc9ec6"
+      "detail": "Prepared v0.73.7 retains launcher preset 2 and MacGoldenGate. All Wi-Fi, battery and shared Control Center UI bytes match the qualified source."
     },
     {
-      "command": "GOLDEN_GATE_TAHOE_SOURCE=<published Tahoe checkout> MAC_TAHOE_NO_UPDATE_CHECK=true ./install --prepare",
+      "command": "Verify published immutable Tahoe commit archive, version, edition support and approved menu sources",
       "result": "passed",
-      "detail": "Staged version, wallpaper, launcher preset, component ledger and the two changed QML payload files verified."
+      "detail": "{\"commit\": \"2cb77f21ba7c8accf9177df8a7de4935d55c4741\", \"repository\": \"lestercorderomurillo/macos-tahoe-liquid-kde\", \"sha256\": \"7796727877580ba642d3a9035204b518b0d07c16803907ff99351d3a53730549\", \"version\": \"0.73.7\"}"
     },
     {
-      "command": "Selected shared Shell Wayland verification",
+      "command": "Shared native actions, translated catalogs and two-edition live appearance transition qualification",
       "result": "passed",
-      "detail": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.6/docs/evidence/shell-0736.json"
+      "detail": "11 focused tests plus 9 live VM scenarios in each edition, including actual dusk/dawn crossings; https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.7/docs/evidence/status-menus-0737.json"
     },
     {
       "command": "git diff --check",
@@ -42,10 +41,20 @@
     }
   ],
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
+  "captures": [
+    {
+      "path": "src/screenshots/previews/status-menus-golden-gate-935a69faeaa9.png",
+      "sha256": "935a69faeaa99f937a19078ce84a8488a3e0138a0f2ff6271ee60f7cb8a8afef",
+      "reviewed": true,
+      "source_commit": "5ecf6b116095d00c9a8d5b1c62f04638bd3c5a32"
+    }
+  ],
   "coverage_limits": [
-    "Single representative Wayland VM. The incremental QML styling does not change the installer lifecycle, X11 backend, or native KWin interfaces.",
-    "The substitute and default wallpapers are representative fixtures; the numeric sample covers the capsule over the Tahoe default light wallpaper.",
-    "A Plasma service stop with exported Kate menus can trigger an AppMenuModel teardown crash in both the prior implementation and the candidate. The contrast change does not touch that model. The affected disposable session was recovered before further captures.",
-    "Existing documentation galleries keep their original provenance. Full CI runs independently."
-  ]
+    "Single representative KDE neon Plasma 6.8.1 / Qt 6.11.1 Wayland VM. Native code, shaders, SDK APIs and installer lifecycle did not change.",
+    "Physical Wi-Fi connections and real battery hardware were not exercised; native action contracts used deterministic hardware models.",
+    "Actual project automatic dusk/dawn crossings were observed with persistent menus, Qt/Kvantum and GTK 3/4 windows. Native KDE appearance changes used plasma-apply-colorscheme; native sunrise/sunset scheduler configuration was not changed.",
+    "Historical README/installer galleries retain their original provenance; only the user-approved focused preview is added.",
+    "Full distro CI remains asynchronous; no passing status is claimed for uncompleted jobs."
+  ],
+  "source_sha256": "aff3ddf855c234b062d602209e5af051f1473b9eb8193ff353ba9d60be7f094d"
 }
