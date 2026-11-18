@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.9** fixes notification stacks, uses transparent menu glass without gradients and adapts text to the backdrop. Focused checks, KWin 6.6/6.7/6.8 builds, X11/Wayland rendering and actual automatic notification transitions passed. [Evidence and coverage limits](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/v0.73.9/docs/evidence/notifications-0739.json). Full CI remains asynchronous. Existing photographs retain their original provenance.
+Golden Gate **v0.73.10** pins the Tahoe release with repaired notification-history and translation tests. The wrapper and verified archive staging passed. Full CI runs asynchronously. [Evidence and coverage limits](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
