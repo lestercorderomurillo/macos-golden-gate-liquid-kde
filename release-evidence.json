@@ -1,65 +1,36 @@
 {
-  "version": "0.73.17",
-  "implementation_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+  "version": "0.73.18",
+  "implementation_commit": "27439a055bd34b2a18aa2e02644238972e398d9c",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Glass highlights on Firefox and Thunderbird, including lower-edge reflections in Clear Light.",
+  "scope": "Translucent Dock panel opacity at layout creation.",
   "checks": [
     {
-      "command": "release_capture.Guest + installer_themes + Spectacle (focused Dock capture)",
+      "command": "steps.layout.install() twice in release_capture.Guest, followed by a guest reboot and Plasma panel opacity readback",
       "result": "passed",
-      "detail": "Reviewed Clear, red and blue in light and dark mode. The maintainer approved the final Clear Light and the other glass appearances."
+      "detail": "Both layout applications and the next boot reported translucent for the bottom panel."
     },
     {
-      "command": "paired-release/scripts/check_pair.py --archive (published Tahoe commit archive)",
+      "command": "KWin maximize Gwenview, reveal Dock, capture with Spectacle",
+      "result": "passed",
+      "detail": "Maintainer approved the Golden Gate preview for paired publication."
+    },
+    {
+      "command": "check_pair.py --archive (published Tahoe release commit)",
       "result": "passed"
     }
   ],
   "reviewed_frames": [
     {
-      "frame": "dock-proof-golden-gate-clear-dark-blue-empty.png",
-      "sha256": "364b6fbf2eca11183a53229aaa892a17e0d94c05141be89803eed803b3709279",
-      "source_commit": "d8057e901374602a9d199e5047575e9565dfd7b1",
-      "renderer_sha256": "98f276d6daacb5a448b88f1c0dcc6c9d0a03ecc0f83e80f51cddcd2275835a4a",
-      "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg"
-    },
-    {
-      "frame": "dock-proof-golden-gate-glass-light-blue-empty.png",
-      "sha256": "dd85e363383a8b45c083b06ae609d2549001c7d5fbdd35d7e48f6f88be63f5b6",
-      "source_commit": "d8057e901374602a9d199e5047575e9565dfd7b1",
-      "renderer_sha256": "98f276d6daacb5a448b88f1c0dcc6c9d0a03ecc0f83e80f51cddcd2275835a4a",
-      "wallpaper": "MacGoldenGate/images/4480x3088.jpg"
-    },
-    {
-      "frame": "dock-proof-golden-gate-glass-dark-blue-empty.png",
-      "sha256": "70bedcd448b217e0cc285f8c16c4092f49a903995d4475a0adccbdf85f96a832",
-      "source_commit": "d8057e901374602a9d199e5047575e9565dfd7b1",
-      "renderer_sha256": "98f276d6daacb5a448b88f1c0dcc6c9d0a03ecc0f83e80f51cddcd2275835a4a",
-      "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg"
-    },
-    {
-      "frame": "dock-proof-golden-gate-glass-light-red-empty.png",
-      "sha256": "ccfd53248de07e966bd647051a450e033ad7f33832a09f6c1471026050460322",
-      "source_commit": "d8057e901374602a9d199e5047575e9565dfd7b1",
-      "renderer_sha256": "98f276d6daacb5a448b88f1c0dcc6c9d0a03ecc0f83e80f51cddcd2275835a4a",
-      "wallpaper": "MacGoldenGate/images/4480x3088.jpg"
-    },
-    {
-      "frame": "dock-proof-golden-gate-glass-dark-red-empty.png",
-      "sha256": "a83cfeac159db5985ca27e24ecc9499d8fa3c813e92588b3372ee0b3a642ac80",
-      "source_commit": "d8057e901374602a9d199e5047575e9565dfd7b1",
-      "renderer_sha256": "98f276d6daacb5a448b88f1c0dcc6c9d0a03ecc0f83e80f51cddcd2275835a4a",
-      "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg"
-    },
-    {
-      "frame": "dock-proof-golden-gate-clear-light-blue-empty.png",
-      "sha256": "f80366c8670d518d65217d90e5e4e1dd876fd56ab0bbf7c81b39be4254cc7cca",
-      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
-      "renderer_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
-      "wallpaper": "MacGoldenGate/images/4480x3088.jpg"
+      "frame": "maximized.png",
+      "edition": "golden-gate",
+      "sha256": "982b50d2e6afbcb78a7b11a60b62c5abb247b212ad8294fa91a9d042fe5ce2f4",
+      "source_commit": "27439a055bd34b2a18aa2e02644238972e398d9c"
     }
   ],
+  "installed_layout_sha256": "01f69a0858c1289a95c3a8f3ec114f5cc81391af43c69e0de4297f380c9d0672",
+  "installed_migration_sha256": "845b0ff458c6a6ff4abe222a53f23db3963969526808d9e69eb1c9484113b81f",
   "coverage_limits": [
-    "KDE neon, Plasma 6.8.1, Wayland; the Thunderbird launcher used its bundled icon through a desktop-entry fixture."
+    "Focused Golden Gate layout installation and reinstallation on KDE neon, Plasma 6.8.1 Wayland. Tahoe uses the same Dock creation script."
   ],
-  "source_sha256": "88b076ebe750af900f3964a446af18af0a133baa7220ccf49cf777cba2bbe747"
+  "source_sha256": "98eee1ea88de7a48c37a3ecd82760a04dccb0865fbbc4a249d84f4d3e19e6e89"
 }
