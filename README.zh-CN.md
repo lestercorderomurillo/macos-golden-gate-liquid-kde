@@ -179,22 +179,22 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <p align="center">
   <strong>Clear Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-63f5042a754b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-63f5042a754b.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-bd325f7d23e3.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-bd325f7d23e3.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Clear Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-3c66136377b9.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-3c66136377b9.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-4724d009bae5.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-4724d009bae5.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-1ff91bd4e422.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-1ff91bd4e422.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-1b2882899a75.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-1b2882899a75.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Blue Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-daaed1183072.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-daaed1183072.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-a5a377941a4b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-a5a377941a4b.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
 </p>
 
 <p align="center">
@@ -219,12 +219,12 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <p align="center">
   <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-98c762be82f4.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-98c762be82f4.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-f1d20a892549.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-f1d20a892549.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Red Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-cadd4f98efe6.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-cadd4f98efe6.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-efb18e32ff92.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-efb18e32ff92.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
 </p>
 
 <p align="center">
