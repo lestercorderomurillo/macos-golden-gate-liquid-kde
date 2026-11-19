@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.20** adds a brush button before Wi-Fi that opens Acrylic Glass settings. The button was checked in a Golden Gate KDE neon Wayland guest. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.21** adds individual status button hover capsules and caps Discord and Slack indicators at 16 logical pixels. The shared controls were checked in a Golden Gate KDE neon Wayland guest. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
