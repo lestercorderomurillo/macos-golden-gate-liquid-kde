@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.18** sets the Dock to Translucent by default. The shared layout kept its glass appearance over a maximized window in a Golden Gate KDE neon Wayland guest. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.19** supports copying a complete Acrylic Glass material between components. A native settings check in KDE neon verified that pasted values survive reopening. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
