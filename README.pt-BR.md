@@ -172,7 +172,7 @@ Refração do vidro, ampliação ao passar o cursor, bolhas vermelhas com contag
 
 <p align="center">
   <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-fefa18489fd6.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-fefa18489fd6.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-53e6e629b151.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-53e6e629b151.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
 </p>
 
 <p align="center">

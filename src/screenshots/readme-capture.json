@@ -2693,11 +2693,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-regular-fefa18489fd6.webp": {
-      "sha256": "fefa18489fd68e2936292145b68d449dd3a708b4119c2ab6c618168ba1d3e0d3",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-regular-527dbe25baf2.webp",
+    "previews/readme-golden-gate-dark-dock-regular-53e6e629b151.webp": {
+      "sha256": "53e6e629b1513cb1b482e6b76632aca5f8f609e5ecaccea03ba717486bd962eb",
+      "source_commit": "6179fda6c79cdb08f828de1346dbdc9bae00cf97",
+      "source_sha256": "e77bb641018e94d25072baa7586fa7e9630d6261d156a853f56a4cc0eba23c71",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-regular-fefa18489fd6.webp",
       "export_size": [
         1404,
         178
@@ -2705,9 +2705,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
+        "capture_script_sha256": "fb7cc64953631160684eacd30d23f5b81ede9c80771cd92f257f352aba15d021",
         "record": {
           "file": "dock-proof-golden-gate-regular-dark-blue-empty.png",
-          "sha256": "fefa18489fd68e2936292145b68d449dd3a708b4119c2ab6c618168ba1d3e0d3",
+          "sha256": "53e6e629b1513cb1b482e6b76632aca5f8f609e5ecaccea03ba717486bd962eb",
           "theme": "MacTahoeLiquidKde-Icons-Regular-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -2719,13 +2725,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "a5c0977d724e8403be432e9a8c760e2c620011fc18e67248ec6389609ec5ea58",
+          "png_sha256": "081f70d50abeffb7c57a6ca7730980455b2c90834e36ee6ca527ac4a2cfc3ae6",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Focused KDE neon VM capture with installer-generated Regular-Dark artwork checked against the bundled dark SVGs.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
