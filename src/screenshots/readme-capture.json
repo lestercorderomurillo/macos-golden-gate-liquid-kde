@@ -2933,11 +2933,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-purple-9d46d68c7c19.webp": {
-      "sha256": "9d46d68c7c19ae8b8f3d7c00a12627b5c7eab5419da35795843a80fb3cfc6505",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-purple-ab3e47f05406.webp",
+    "previews/readme-golden-gate-light-dock-purple-4ab02fdc700c.webp": {
+      "sha256": "4ab02fdc700cc396e4d4031aaefe939d0a6eb1ea8a5a56087ea270fbff797b0d",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-purple-9d46d68c7c19.webp",
       "export_size": [
         1404,
         178
@@ -2945,9 +2945,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-purple-empty.png",
-          "sha256": "9d46d68c7c19ae8b8f3d7c00a12627b5c7eab5419da35795843a80fb3cfc6505",
+          "sha256": "4ab02fdc700cc396e4d4031aaefe939d0a6eb1ea8a5a56087ea270fbff797b0d",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -2959,13 +2965,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "52c858b810d5dae6f0aa5b928610589e333e35520a91395999e2768aeb1ff9ee",
+          "png_sha256": "87a08ffa631d1f6273aa513e2c372af2dd3a8b536eee3c69f9ba0809535717de",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -2975,11 +2981,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-purple-f97f7a7b1436.webp": {
-      "sha256": "f97f7a7b1436aec32ae083a5077001b02c094d995c6ab07a4ec74b9bd14fa649",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-purple-fc918849596b.webp",
+    "previews/readme-golden-gate-dark-dock-purple-02b6cf403e02.webp": {
+      "sha256": "02b6cf403e02d066d4c7157f41a38bafb7196c81aeb03a6fbfc041a1b6910149",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-purple-f97f7a7b1436.webp",
       "export_size": [
         1404,
         178
@@ -2987,9 +2993,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-purple-empty.png",
-          "sha256": "f97f7a7b1436aec32ae083a5077001b02c094d995c6ab07a4ec74b9bd14fa649",
+          "sha256": "02b6cf403e02d066d4c7157f41a38bafb7196c81aeb03a6fbfc041a1b6910149",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3001,13 +3013,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "70d4a7006230189516fd07d93a60ac7153b09cadfbadb04fb74ec9ad947e515d",
+          "png_sha256": "c615483f9912a55db78effe08508ef2a8a5e6790c980f6595b0ccc02e1ab63ae",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3017,11 +3029,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-pink-c3d750294576.webp": {
-      "sha256": "c3d7502945764a5fc3ef4fd43b6d7c678420bea3e81cd4fc6f796d09b0af1ae2",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-pink-48af440d83c2.webp",
+    "previews/readme-golden-gate-light-dock-pink-c1fe31c90e50.webp": {
+      "sha256": "c1fe31c90e50e4a913be872b0abe93f3cdb34d8a66cd291cb71f269f5332abc0",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-pink-c3d750294576.webp",
       "export_size": [
         1404,
         178
@@ -3029,9 +3041,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-pink-empty.png",
-          "sha256": "c3d7502945764a5fc3ef4fd43b6d7c678420bea3e81cd4fc6f796d09b0af1ae2",
+          "sha256": "c1fe31c90e50e4a913be872b0abe93f3cdb34d8a66cd291cb71f269f5332abc0",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -3043,13 +3061,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "2c78379c7e73ebbe491aeb546cbbcecc3e58f37959775d330da60d65642c054a",
+          "png_sha256": "bd73d1f062f6abacc918526a897add8f1aab847ead1b95d08103a8723f86b348",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3059,11 +3077,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-pink-1e7fb507d874.webp": {
-      "sha256": "1e7fb507d874423a53e88b6934a0723ac854f7a210a2f53356e8d1e5314b1b2a",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-pink-1dd0ce42fd2e.webp",
+    "previews/readme-golden-gate-dark-dock-pink-bcbac3c5cfa0.webp": {
+      "sha256": "bcbac3c5cfa0b5b6966ae8b9451c75becddf8960e28beb29ab091a978f39a5a8",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-pink-1e7fb507d874.webp",
       "export_size": [
         1404,
         178
@@ -3071,9 +3089,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-pink-empty.png",
-          "sha256": "1e7fb507d874423a53e88b6934a0723ac854f7a210a2f53356e8d1e5314b1b2a",
+          "sha256": "bcbac3c5cfa0b5b6966ae8b9451c75becddf8960e28beb29ab091a978f39a5a8",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3085,13 +3109,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "173d5d3068e084d7ea3a590ce8af55e5e19e5ec99b6014484a7cf9a624b3c516",
+          "png_sha256": "975330dbd20cd1c46896f6e4a391c8978c5e4253898fd505ff3c71f3a284f714",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3197,11 +3221,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-orange-88a9577f9385.webp": {
-      "sha256": "88a9577f938537b03a919bb5c2cb05437794e553c2ca6248a766af591c5d525a",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-orange-87f1370ccd51.webp",
+    "previews/readme-golden-gate-light-dock-orange-b9d2b9b7a34f.webp": {
+      "sha256": "b9d2b9b7a34f4959baa26ef70f08d948ae513496e769e1e670bc8f7e2e2c1743",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-orange-88a9577f9385.webp",
       "export_size": [
         1404,
         178
@@ -3209,9 +3233,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-orange-empty.png",
-          "sha256": "88a9577f938537b03a919bb5c2cb05437794e553c2ca6248a766af591c5d525a",
+          "sha256": "b9d2b9b7a34f4959baa26ef70f08d948ae513496e769e1e670bc8f7e2e2c1743",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -3223,13 +3253,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "2223f650898107c3983f15c46cc56d5440b8349e674fbba32c03f3b197defab3",
+          "png_sha256": "e4f5df5b2b3bc3649828ae886f031dfb7d3f5c060a5c178adaf37139db5ecd08",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3239,11 +3269,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-orange-de15be6c194b.webp": {
-      "sha256": "de15be6c194bc75df5482e88b015ff02c3addd53eed1c8595782a2e4fc20c341",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-orange-1be675934a9a.webp",
+    "previews/readme-golden-gate-dark-dock-orange-955149b1351c.webp": {
+      "sha256": "955149b1351cb0d94e9a4647dcc9d1a9da603b37aead3bb20bf1ee9b62a42022",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-orange-de15be6c194b.webp",
       "export_size": [
         1404,
         178
@@ -3251,9 +3281,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-orange-empty.png",
-          "sha256": "de15be6c194bc75df5482e88b015ff02c3addd53eed1c8595782a2e4fc20c341",
+          "sha256": "955149b1351cb0d94e9a4647dcc9d1a9da603b37aead3bb20bf1ee9b62a42022",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3265,13 +3301,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "1fddc7c143097297522e9188742333a097daa865493c39c5e2b17228b106195d",
+          "png_sha256": "cfdbd42d6aba75adddbdaad87cc33a8688b730ef22bb0ab736a2595878bce2d1",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3281,11 +3317,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-yellow-677a08c08bba.webp": {
-      "sha256": "677a08c08bba265eb2f1af0fa94130c0cc52a9f3aa25b6a876fa0fb9050ec639",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-yellow-4f7ec5b2302e.webp",
+    "previews/readme-golden-gate-light-dock-yellow-4bdfdb24cd8d.webp": {
+      "sha256": "4bdfdb24cd8d2595e68b3ed38d1ca1332f160ea49bf4f4f424279e3c41e0958c",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-yellow-677a08c08bba.webp",
       "export_size": [
         1404,
         178
@@ -3293,9 +3329,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-yellow-empty.png",
-          "sha256": "677a08c08bba265eb2f1af0fa94130c0cc52a9f3aa25b6a876fa0fb9050ec639",
+          "sha256": "4bdfdb24cd8d2595e68b3ed38d1ca1332f160ea49bf4f4f424279e3c41e0958c",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -3307,13 +3349,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "d5d7aac1c20823510a095705d0e8663aca3b50bf91f9ad2fc327a921d0a497f7",
+          "png_sha256": "944aaa2d7da72266c21553f7b56ce424612a26ed369edb7ec62ef361f86ef68f",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3323,11 +3365,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-yellow-51f7f8eacca3.webp": {
-      "sha256": "51f7f8eacca3f2bfea903190689c12bdc21a1817a8bf79217df6ff13157f73ed",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-yellow-7cdef8018ce5.webp",
+    "previews/readme-golden-gate-dark-dock-yellow-f8d1681c379a.webp": {
+      "sha256": "f8d1681c379a2cc8b4d5df35597120136c19db8301e297ea99c44595b1e931de",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-yellow-51f7f8eacca3.webp",
       "export_size": [
         1404,
         178
@@ -3335,9 +3377,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-yellow-empty.png",
-          "sha256": "51f7f8eacca3f2bfea903190689c12bdc21a1817a8bf79217df6ff13157f73ed",
+          "sha256": "f8d1681c379a2cc8b4d5df35597120136c19db8301e297ea99c44595b1e931de",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3349,13 +3397,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "3ef3219c49bc09cc724fb13f907c965e6f5d7187bd90c702e8d1bc30af82813d",
+          "png_sha256": "9e12adb6f74ec765a1ac903ef6babd52c81e824c5fcb83d9fde520d7552dedd8",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3365,11 +3413,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-green-2dbc3c8acabc.webp": {
-      "sha256": "2dbc3c8acabc219c7bdbaf567188306ce430ed7a83a65fd4df5daedbeca6b2a8",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-green-91437c50271d.webp",
+    "previews/readme-golden-gate-light-dock-green-f3018811de06.webp": {
+      "sha256": "f3018811de0676fa72bc92c1565dc7062a75358a7799ecc4747abf68537b6470",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-green-2dbc3c8acabc.webp",
       "export_size": [
         1404,
         178
@@ -3377,9 +3425,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-green-empty.png",
-          "sha256": "2dbc3c8acabc219c7bdbaf567188306ce430ed7a83a65fd4df5daedbeca6b2a8",
+          "sha256": "f3018811de0676fa72bc92c1565dc7062a75358a7799ecc4747abf68537b6470",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -3391,13 +3445,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "76386bb49a2f92c0e1268176d4321ea5dad932a3bb38a66bfc1276f3dbcaba9e",
+          "png_sha256": "41568b72c78c18e600bb20e225c0418d8220a7c216b27ced343cfcb4437ffe6f",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3407,11 +3461,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-green-d4d9c65fb48c.webp": {
-      "sha256": "d4d9c65fb48ce61559fcae8d49d6322af0bd171742fe39c5fd415a92567f95d9",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-green-6601d13009a1.webp",
+    "previews/readme-golden-gate-dark-dock-green-a39e08ca0cc7.webp": {
+      "sha256": "a39e08ca0cc7644e83944a1252ac937dd07941ac4c46ef6925556272094a709c",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-green-d4d9c65fb48c.webp",
       "export_size": [
         1404,
         178
@@ -3419,9 +3473,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-green-empty.png",
-          "sha256": "d4d9c65fb48ce61559fcae8d49d6322af0bd171742fe39c5fd415a92567f95d9",
+          "sha256": "a39e08ca0cc7644e83944a1252ac937dd07941ac4c46ef6925556272094a709c",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3433,13 +3493,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "c312eb2fbb9ea26ebad693cc6208ecec515ab4675f9cfd944758a4b63b838b4f",
+          "png_sha256": "f0726da8e83ace476578610b68e2e773b1738041a78d6ac95bb9aedb52f2bac4",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3449,11 +3509,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-light-dock-gray-933f003c32d5.webp": {
-      "sha256": "933f003c32d50e333029af281562660c0f957df1cf1fcfa07e17bac2bb5566b4",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-gray-933e004312a4.webp",
+    "previews/readme-golden-gate-light-dock-gray-1af4be6a5efd.webp": {
+      "sha256": "1af4be6a5efdbbe9fa1a367fd013eaa7aef29f21d1b7b2dd812daf4c7de2e52e",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-dock-gray-933f003c32d5.webp",
       "export_size": [
         1404,
         178
@@ -3461,9 +3521,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-light-gray-empty.png",
-          "sha256": "933f003c32d50e333029af281562660c0f957df1cf1fcfa07e17bac2bb5566b4",
+          "sha256": "1af4be6a5efdbbe9fa1a367fd013eaa7aef29f21d1b7b2dd812daf4c7de2e52e",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Light",
           "wallpaper": "MacGoldenGate/images/4480x3088.jpg",
           "state": "empty",
@@ -3475,13 +3541,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "96f28be8e1f72255ed28b6c2caf3df18283132dc895200628ae49a580ce761f5",
+          "png_sha256": "76353eed98ed86f28b8fcb3c2efbeb582ca0b0c51466d647063dcc8ea6d58dc7",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
@@ -3491,11 +3557,11 @@
         ]
       }
     },
-    "previews/readme-golden-gate-dark-dock-gray-9e8f515557c7.webp": {
-      "sha256": "9e8f515557c743e1ee946622ce095044f598e2913aaa40f3e395e1eaa73ec833",
-      "source_commit": "097cf573b9250f9ef56e859afc5cda25d2d95e66",
-      "source_sha256": "868c3abf41da42e0cacd1e00e6d42fb5b15ac5ea1b74010e300bb869c0f06ff1",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-gray-8d56f0b5444a.webp",
+    "previews/readme-golden-gate-dark-dock-gray-5fa238911fe2.webp": {
+      "sha256": "5fa238911fe2ce65405f505b5f69208197038e497a3030fb5c4604ec72def5e9",
+      "source_commit": "fb4c532d06dafac202fe920f65f2b5dec2032c19",
+      "source_sha256": "f6d9e92c0f70ec55043d993c298fa85fc47707ff4f49defcc5b2eebf7a3c6c00",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-dock-gray-9e8f515557c7.webp",
       "export_size": [
         1404,
         178
@@ -3503,9 +3569,15 @@
       "capture": {
         "edition": "golden-gate",
         "vm_image_sha256": "2a09de13ad568da01a8e16dd93e6aec120e63375bfc0ec24b4e804b43ecb4f8c",
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "backend": "Wayland",
+        "icon_toolset_sha256": "5512c1a57922e3e6006ea934997041ffc2ef8504caea3e411761f8895325c2b0",
+        "icon_materials_sha256": "f3a7351ff3e3418bfb718b3384066195c3839fd302e28a203d244f8196c7da6d",
+        "capture_script_sha256": "3757399bd121bf4c42204e1eeb0f93246dfe48d9fea80d563b31617c64732b69",
         "record": {
           "file": "dock-proof-golden-gate-glass-dark-gray-empty.png",
-          "sha256": "9e8f515557c743e1ee946622ce095044f598e2913aaa40f3e395e1eaa73ec833",
+          "sha256": "5fa238911fe2ce65405f505b5f69208197038e497a3030fb5c4604ec72def5e9",
           "theme": "MacTahoeLiquidKde-Icons-Glass-Dark",
           "wallpaper": "MacGoldenGate/images_dark/4480x3088.jpg",
           "state": "empty",
@@ -3517,13 +3589,13 @@
           },
           "center_offset": 0.0,
           "glass": "ready",
-          "png_sha256": "57f1afc6afe6fcdb630546f83fa5b70823bd76e91157a51461a28a9e08aa2a4b",
+          "png_sha256": "83bf7ae8e6b933ee30046b0aacac6c8fc6bd2d51adf5e09d26b5acb1fe39f431",
           "export_size": [
             1404,
             178
           ]
         },
-        "qualification": "Focused disposable Neon overlay; see per-frame geometry and source.",
+        "qualification": "Installer-generated icons on the KDE neon Dock.",
         "fixture_launchers": [
           "thunderbird.desktop",
           "org.kde.merkuro.calendar.desktop",
