@@ -172,7 +172,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <p align="center">
   <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-53e6e629b151.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-53e6e629b151.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-485720a1c030.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-485720a1c030.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
 </p>
 
 <p align="center">
