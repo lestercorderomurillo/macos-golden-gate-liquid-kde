@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.15** updates the approved Notification Center photographs and uses the matching Tahoe release. [Focused checks and coverage](release-evidence.json).
+Golden Gate **v0.73.16** restores the dark icon artwork and graphite gradient. The Dock was photographed on KDE neon Wayland. [Focused checks and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
