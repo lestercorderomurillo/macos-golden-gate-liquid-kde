@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.23** resets the launcher options menu when the launcher closes. The close and reopen sequence was verified on Golden Gate under Wayland. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.24** includes clearer Acrylic Glass component and SVG transparency labels. The Golden Gate preset matches the reviewed ten-component profile. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
