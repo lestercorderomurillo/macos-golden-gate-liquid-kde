@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">macOS Golden Gate for KDE Plasma</h1>
+<h1 align="center">macOS Golden Gate Look &amp; Feel for KDE Linux</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en" aria-current="page">🇺🇸 English</a> ·
@@ -47,6 +47,8 @@
   <a href="https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#debian" title="Debian testing / sid (Plasma 6.6+)"><img src="src/screenshots/distros/debian.svg" alt="Debian" width="32" height="32"></a>
   <a href="https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#nixos" title="NixOS (experimental)"><img src="src/screenshots/distros/nixos.svg" alt="NixOS" width="32" height="32"></a>
 </p>
+
+This project customizes the look and feel of your KDE desktop on Linux. It does not include or connect to Apple services. If you need Apple services, [shop directly with Apple](https://www.apple.com/store).
 
 > [!CAUTION]
 > **Rolling Release Philosophy**
