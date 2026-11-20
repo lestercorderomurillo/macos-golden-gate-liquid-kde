@@ -213,9 +213,9 @@ Open the panel clock to see the month on glass. Scroll or use the arrow keys to 
 The Wi-Fi menu shows adapter status and available networks.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Light Wi-Fi menu with the switch on and no adapter detected" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Dark Wi-Fi menu with the switch on and no adapter detected" width="48%">
-  <br><sub>Wi-Fi is on. No adapter is detected. Light mode (left) and dark mode (right).</sub>
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Light Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Dark Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
+  <br><sub>Connected to Harbor Studio. Light mode (left) and dark mode (right).</sub>
 </p>
 
 <br>
@@ -225,8 +225,8 @@ The Wi-Fi menu shows adapter status and available networks.
 The Battery menu shows charge and power status.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="Light Battery menu showing no internal battery" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="Dark Battery menu showing no internal battery" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Light Battery menu showing no internal battery" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu showing no internal battery" width="48%">
   <br><sub>No internal battery is detected. Light mode (left) and dark mode (right).</sub>
 </p>
 
