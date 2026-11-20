@@ -154,7 +154,7 @@ Dateiverwaltung im Finder-Stil mit Golden Gate-Glas.
 
 ### Golden Gate Launchpad (Alpha)
 
-Anwendungen finden, Kategorien durchsuchen und Favoriten griffbereit halten.
+Anwendungen finden, Kategorien durchsuchen und Favoriten griffbereit halten. Im dunklen Modus sind das Hintergrundbild oder das dahinterliegende Fenster durch das Suchfeld und das App-Raster sichtbar.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
@@ -288,7 +288,7 @@ Schneller Zugriff auf Systemeinstellungen, Anwendungen und Sitzungsaktionen.
 
 ### Golden Gate Kontrollzentrum (Alpha)
 
-WLAN, Klang, Helligkeit und Benachrichtigungen in einem Glasmenü. Aktualisierungen folgen in Kürze.
+WLAN, Klang, Helligkeit und Benachrichtigungen in einem Glasmenü. Die Schaltfläche für das Erscheinungsbild zeigt eine Sonne im hellen Modus, einen Mond im dunklen Modus und einen zweifarbigen Kreis im Automatikmodus.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">

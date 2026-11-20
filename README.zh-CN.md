@@ -154,7 +154,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 ### Golden Gate Launchpad (Alpha)
 
-查找应用、浏览分类，让收藏触手可及。
+查找应用、浏览分类，让收藏触手可及。在深色模式下，透过搜索框和应用网格可以看到后方的壁纸或窗口。
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
@@ -288,7 +288,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 ### Golden Gate 控制中心 (Alpha)
 
-Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。更新即将到来。
+Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用太阳表示浅色模式，用月亮表示深色模式，用双色圆形表示自动模式。
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">

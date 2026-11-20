@@ -154,7 +154,7 @@ Exploración de archivos al estilo Finder con el cristal de Golden Gate.
 
 ### Golden Gate Launchpad (Alpha)
 
-Encuentra aplicaciones, explora categorías y mantén tus favoritos al alcance.
+Encuentra aplicaciones, explora categorías y mantén tus favoritos al alcance. En modo oscuro, el campo de búsqueda y la cuadrícula dejan ver el fondo de pantalla o la ventana que hay detrás.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
@@ -288,7 +288,7 @@ Acceso rápido a los ajustes del sistema, aplicaciones y controles de sesión.
 
 ### Golden Gate Centro de control (Alpha)
 
-Wi-Fi, sonido, brillo y notificaciones en un menú de cristal. Las actualizaciones llegarán muy pronto.
+Wi-Fi, sonido, brillo y notificaciones en un menú de cristal. El botón de apariencia muestra un sol en modo claro, una luna en modo oscuro y un círculo bicolor en automático.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">
