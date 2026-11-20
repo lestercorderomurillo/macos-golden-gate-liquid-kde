@@ -1,20 +1,42 @@
 {
-  "version": "0.76.1",
+  "version": "0.76.2",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Regional background sampling and smooth transitions for About This Computer text.",
-  "approval": "Maintainer approved the paired regional tint previews on 2026-11-20.",
+  "scope": "Adaptive text on glass surfaces in both editions and the bundled blue computer icon in About.",
+  "approval": "Maintainer approved publication of the tint adjustment and the previously reviewed About photos with the blue monitor.",
   "checks": [
     {
-      "command": "Open installed About This Computer from the Plasma Apple menu; capture on a split background, invert it, then use a neutral gradient and switch to light mode",
+      "command": "Apply and disable Dynamic Tinting in a disposable KDE neon Wayland guest; capture Control Center on a split background and reverse it, switch appearance and open the other glass surfaces",
       "result": "passed",
       "edition": "golden-gate",
-      "environment": "KDE neon disposable Wayland VM",
-      "source_commit": "31b25c819a57e411905d276ccfa8b97d61a30f66"
+      "source_commit": "00bebe0830234b92f9d096475fef6ebcab09ce2b",
+      "frames": [
+        "golden-gate-off.png",
+        "golden-gate-on.png",
+        "golden-gate-inverted.png",
+        "golden-gate-dark-mode.png",
+        "golden-gate-apple.png",
+        "golden-gate-about.png",
+        "golden-gate-wifi.png",
+        "golden-gate-battery.png",
+        "golden-gate-digitalclock.png",
+        "golden-gate-launcher.png",
+        "golden-gate-notification.png"
+      ]
+    },
+    {
+      "command": "tests/test_launcher_presets.py::test_control_center_native_x11_render",
+      "result": "passed",
+      "output": "1 passed"
+    },
+    {
+      "command": "nix build path:/repo#global-menu",
+      "result": "passed",
+      "output": "/nix/store/9s7nzcwaylsl4xrld8p0w55jkpfmk1ls-mac-tahoe-global-menu-0.76.1"
     },
     {
       "command": "check_pair.py --archive and python3 -m pytest -q tests",
       "result": "passed",
-      "output": "118 passed in 1.37s"
+      "output": "118 passed in 1.48s"
     }
   ],
   "captures": [
@@ -82,13 +104,20 @@
     }
   ],
   "coverage_limits": [
-    "Visual validation in the prepared Wayland guest. Contrast can be lower where a background boundary crosses the intermediate text tone."
+    "The Wayland gallery checks the tint implementation. The later Tahoe-only change selects the same bundled monitor asset already rendered by Golden Gate. The restored Tahoe README images retain their original source. Notification banners use their existing compositor-provided average."
   ],
-  "source_sha256": "64abd0b9504710ed5e91e2d0ad7be225ff04f6c3fecf35a9c021c693d8cd186c",
+  "source_sha256": "30bfb0f5541cf95946224bf4cce9b4bc503c08ca0a4541fa19be040117a00cc6",
   "reviewed_preview_sha256": {
-    "golden-gate-dark.jpg": "f08760380058bce65180396cc0505be067e8fb299d0362df6b9a6e0645830cb2",
-    "golden-gate-light.jpg": "b7b2cc0c9d1c2cb55858f9530066c9fb77810177d5d993443dafa989a0e462d7",
-    "golden-gate-inverted.jpg": "a584448a898b0d74b2caf118c14be47beb52ca669c5beee3b7c8b5d9adc74417",
-    "golden-gate-neutral-gradient.jpg": "44e5b160e7da3eb2924581e7d1d52aae12d8fbd5360cccf6bfe63b40ecd0e7df"
+    "golden-gate-off.png": "615212dbe4165e744968159689d5cdd8fbb801e02908155f44e1404489264378",
+    "golden-gate-on.png": "6c194e4c0dd6354bb8b7939e837e38d7e2a1ee90a67097d06c67d32de71bab42",
+    "golden-gate-inverted.png": "19c1d3b292fd25894da22293a5daf9dfccf8a83ffe61223d285569ba13a6d373",
+    "golden-gate-dark-mode.png": "126f0d21e360a0321c5bf17639c76cf943a1d67deea055b4e9f92e9a362ece63",
+    "golden-gate-apple.png": "379dcdeb1e39f4bbebaef3ee73ab1d5f1a972a133f763ea020266b42b7ae7437",
+    "golden-gate-about.png": "4b3da5df6580023884df1a9de188d3b9e8e4c48f01235aabf06ec3f829d9f7b4",
+    "golden-gate-wifi.png": "cbc04448b346f37c57d599382bed5d0d6b9b73ac53e920a8c8de51aa77081bf1",
+    "golden-gate-battery.png": "2d85882b5ef05dc706af3715176ce9366bd0f174209b3e025b49d77481462774",
+    "golden-gate-digitalclock.png": "12b35ee54a4b424402575d7b2bda69ece36ab2f3f73ec444f1351976cc6508d0",
+    "golden-gate-launcher.png": "6f498b56a803b15d9c86c2e5366f7036c9c4d5295aa9857bd4408cd7f1dae0c8",
+    "golden-gate-notification.png": "5a044b6f49b568df841042a2b83e1a76a6eebb65c65a99dbf0d897a478df2fe0"
   }
 }

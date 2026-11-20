@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.76.1**. Verified regional text tinting in About This Computer on split and graded backgrounds in both editions. [Evidence and coverage](release-evidence.json).
+**v0.76.2**. Verified adaptive text on split backgrounds in Control Center and checked About, the Apple menu, Wi-Fi, battery, calendar, launcher and notifications in both editions. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
