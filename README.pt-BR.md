@@ -302,8 +302,8 @@ Wi-Fi, som, brilho e notificações em um menu de vidro. O botão de aparência 
 
 <p align="center">
   <strong>Wi-Fi</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Wi-Fi · Claro" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Wi-Fi · Escuro" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · Claro" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · Escuro" width="328">
 </p>
 
 <p align="center">

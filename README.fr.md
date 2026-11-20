@@ -302,8 +302,8 @@ Wi-Fi, son, luminosité et notifications dans un menu en verre. Le bouton d’ap
 
 <p align="center">
   <strong>Wi-Fi</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Wi-Fi · Clair" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Wi-Fi · Sombre" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · Clair" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · Sombre" width="328">
 </p>
 
 <p align="center">

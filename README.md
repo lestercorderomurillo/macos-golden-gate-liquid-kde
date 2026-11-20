@@ -287,8 +287,8 @@ Wi-Fi, sound, brightness and notifications in one glass menu. The appearance but
 Open the Wi-Fi menu to see available wireless networks.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Wi-Fi · Light" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Wi-Fi · Dark" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · Light" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · Dark" width="830">
 </p>
 
 <br>

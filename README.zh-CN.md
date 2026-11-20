@@ -302,8 +302,8 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <p align="center">
   <strong>Wi-Fi</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Wi-Fi · 浅色" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Wi-Fi · 深色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · 浅色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · 深色" width="328">
 </p>
 
 <p align="center">
