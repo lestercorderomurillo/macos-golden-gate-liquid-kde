@@ -1040,89 +1040,6 @@
         }
       }
     },
-    "previews/readme-golden-gate-dark-about-68756b54b0f5.webp": {
-      "windows": [
-        {
-          "id": "{04be045e-b342-4f29-ad41-8e15d57c38d6}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 1080
-          }
-        },
-        {
-          "id": "{2f3b0852-7567-40c0-b18a-49a4b8262d34}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 32
-          }
-        },
-        {
-          "id": "{1e922eb4-645a-44c9-9891-2c8bed70b2b0}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 586,
-            "y": 996,
-            "width": 748,
-            "height": 84
-          }
-        },
-        {
-          "id": "{ebcdf44e-2377-412d-b71e-a3beefab228f}",
-          "caption": "About This Computer (preview)",
-          "resourceClass": "org.qt-project.qml",
-          "type": 0,
-          "appletPopup": false,
-          "hidden": false,
-          "active": true,
-          "geometry": {
-            "x": 720,
-            "y": 160,
-            "width": 400,
-            "height": 740
-          }
-        }
-      ],
-      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-      "case": "about",
-      "mode": "dark",
-      "edition": "golden-gate",
-      "sha256": "68756b54b0f576dc96cc89c4ec8de017dd5b64b7bb388cbb2d06095bb0ba8659",
-      "capture_tools": {
-        "readme_shell_guest.py": "583fa14b1d846e6d251162df29bbe2cd732763b6c057372d1ee082c0c1cab981",
-        "readme_shell_scene.py": "e0005c4a56e62f9e3761e97d0d92c660735409b4fa9676ae1e69b082a4cbf849",
-        "readme_desktop_scene.py": "af033ade28df20f3df3cca83f6121444f356f9208d65c2c581edd819ac020608",
-        "readme_dock_photo.py": "0db70248757eaf75eb55057003d670c5cf0190de2dd0616e76881121ce70e721"
-      },
-      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
-      "replaces": "src/screenshots/previews/readme-golden-gate-dark-about-d77f74c97b4c.webp",
-      "source_commit": "2368236ece9096533e702685722f518aa379bc07",
-      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
-      "capture_environment": {
-        "tahoe": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100",
-        "golden-gate": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
-      }
-    },
     "previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp": {
       "windows": [
         {
@@ -2010,89 +1927,6 @@
       },
       "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
       "replaces": "src/screenshots/previews/readme-golden-gate-dark-notifications-9873f1941902.webp",
-      "source_commit": "2368236ece9096533e702685722f518aa379bc07",
-      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
-      "capture_environment": {
-        "tahoe": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100",
-        "golden-gate": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
-      }
-    },
-    "previews/readme-golden-gate-light-about-c56b9c7fd875.webp": {
-      "windows": [
-        {
-          "id": "{1c744229-32ee-4108-8805-229c6ee2cf87}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 1,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 1080
-          }
-        },
-        {
-          "id": "{ff63b0d8-2d3c-4877-beb5-bf7173c59478}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1920,
-            "height": 32
-          }
-        },
-        {
-          "id": "{c32fbab0-76a1-49ce-93cc-64404f5e538d}",
-          "caption": "",
-          "resourceClass": "plasmashell",
-          "type": 2,
-          "appletPopup": false,
-          "hidden": false,
-          "active": false,
-          "geometry": {
-            "x": 586,
-            "y": 996,
-            "width": 748,
-            "height": 84
-          }
-        },
-        {
-          "id": "{11212285-1385-4b55-812a-2c6f2a5d0850}",
-          "caption": "About This Computer (preview)",
-          "resourceClass": "org.qt-project.qml",
-          "type": 0,
-          "appletPopup": false,
-          "hidden": false,
-          "active": true,
-          "geometry": {
-            "x": 720,
-            "y": 160,
-            "width": 400,
-            "height": 740
-          }
-        }
-      ],
-      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-      "case": "about",
-      "mode": "light",
-      "edition": "golden-gate",
-      "sha256": "c56b9c7fd8753c1f874b82fa97600178116edda2a0842e59fae050dd3830bf0b",
-      "capture_tools": {
-        "readme_shell_guest.py": "583fa14b1d846e6d251162df29bbe2cd732763b6c057372d1ee082c0c1cab981",
-        "readme_shell_scene.py": "e0005c4a56e62f9e3761e97d0d92c660735409b4fa9676ae1e69b082a4cbf849",
-        "readme_desktop_scene.py": "af033ade28df20f3df3cca83f6121444f356f9208d65c2c581edd819ac020608",
-        "readme_dock_photo.py": "0db70248757eaf75eb55057003d670c5cf0190de2dd0616e76881121ce70e721"
-      },
-      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
-      "replaces": "src/screenshots/previews/readme-golden-gate-light-about-8b58c989d2c3.webp",
       "source_commit": "2368236ece9096533e702685722f518aa379bc07",
       "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
       "capture_environment": {
@@ -3712,6 +3546,178 @@
           "scale": 2,
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate"
         }
+      }
+    },
+    "previews/readme-golden-gate-dark-about-00f124f6732c.webp": {
+      "windows": [
+        {
+          "id": "{be0f0ff0-ead4-46af-b100-4678d95cc372}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{3cbcc84f-b721-42ad-85bf-633142922a7d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{23f691bc-54a8-442a-84a8-155f1f77f034}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{c441086e-8a75-4ae6-8e46-550d08d35193}",
+          "caption": "About This Computer",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 720,
+            "y": 160,
+            "width": 360,
+            "height": 700
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "sha256": "00f124f6732c2b1f63687ffcadac18315bf65830fed7bb94f4bda800115e8c7c",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "edition": "golden-gate",
+      "case": "about",
+      "crop": [
+        1428,
+        308,
+        2172,
+        1732
+      ],
+      "mode": "dark",
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "source_frame_sha256": "d6990541a2ed8eb017c9fa4bba2cb41b55d38c5b548eb4afee4be4614f2d523b",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp",
+      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
+      "capture_environment": {
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "session": "Wayland",
+        "scale": 2
+      }
+    },
+    "previews/readme-golden-gate-light-about-297e9c7ea212.webp": {
+      "windows": [
+        {
+          "id": "{be0f0ff0-ead4-46af-b100-4678d95cc372}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{3cbcc84f-b721-42ad-85bf-633142922a7d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{23f691bc-54a8-442a-84a8-155f1f77f034}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{02ccdb1f-26ce-418d-9ec0-5d73b82eb94f}",
+          "caption": "About This Computer",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 720,
+            "y": 160,
+            "width": 360,
+            "height": 700
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "sha256": "297e9c7ea2128d6944a5e443f7698afb24398c63d7e4215d40545e24d5b5b4af",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "edition": "golden-gate",
+      "case": "about",
+      "crop": [
+        1428,
+        308,
+        2172,
+        1732
+      ],
+      "mode": "light",
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "source_frame_sha256": "329222829bb3337405f2e96c4f133ae550420b3a1a889a9e662aa8d506a6f49b",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp",
+      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
+      "capture_environment": {
+        "plasma": "plasmashell 6.8.1",
+        "kwin": "kwin 6.8.1",
+        "session": "Wayland",
+        "scale": 2
       }
     }
   },

@@ -340,11 +340,11 @@ Encontre e reutilize textos e imagens copiados diretamente pelo Launchpad.
 
 ### Golden Gate Informações do sistema (Alpha)
 
-Detalhes do hardware, software e tema em um relance.
+Detalhes de hardware, software e tema com cor de texto adaptativa.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Informações do sistema no modo claro com botões à esquerda" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Informações do sistema no modo escuro com botões à direita" width="415">
 </p>
 
 <br>

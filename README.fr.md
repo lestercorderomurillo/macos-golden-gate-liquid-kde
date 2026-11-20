@@ -340,11 +340,11 @@ Retrouvez et réutilisez le texte et les images copiés directement depuis Launc
 
 ### Golden Gate Informations système (Alpha)
 
-Les détails de votre matériel, de vos logiciels et de votre thème en un coup d’œil.
+Informations sur le matériel, les logiciels et le thème avec une teinte de texte adaptative.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Informations système en mode clair avec les boutons à gauche" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Informations système en mode sombre avec les boutons à droite" width="415">
 </p>
 
 <br>

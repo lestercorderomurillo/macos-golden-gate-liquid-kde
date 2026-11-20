@@ -340,11 +340,11 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 ### Golden Gate 系统信息 (Alpha)
 
-一览硬件、软件和主题详情。
+硬件、软件和主题信息，文字颜色随背景调整。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="浅色模式的系统信息窗口，控制按钮位于左侧" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="深色模式的系统信息窗口，控制按钮位于右侧" width="415">
 </p>
 
 <br>

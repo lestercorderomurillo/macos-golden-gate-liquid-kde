@@ -2,7 +2,7 @@
 
 **v0.74.7**. The global menu plugin built and installed from its packaged Nix sources on x86_64-linux. [Evidence and coverage](release-evidence.json).
 
-[Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-d2ebfaa8d71d.json).
+[Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
 ## Installation steps
 
@@ -24,7 +24,7 @@
 <tr><th>Glass style</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-glass_style-4eb695daa506.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-glass_style-4eb695daa506.webp" width="480" alt="Glass style, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-glass_style-b761edd82af8.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-glass_style-b761edd82af8.webp" width="480" alt="Glass style, dark"></a></td></tr>
 <tr><th>Boot</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-boot-a2fb93c6a88e.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-boot-a2fb93c6a88e.webp" width="480" alt="Boot, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-boot-e9723f3666a0.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-boot-e9723f3666a0.webp" width="480" alt="Boot, dark"></a></td></tr>
 <tr><th>Oled</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-oled-e8cc5893d19b.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-oled-e8cc5893d19b.webp" width="480" alt="Oled, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-oled-a1876404f9db.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-oled-a1876404f9db.webp" width="480" alt="Oled, dark"></a></td></tr>
-<tr><th>Summary</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-summary-c06983f7c034.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-summary-c06983f7c034.webp" width="480" alt="Summary, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-summary-97ccfa7dfbed.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-summary-97ccfa7dfbed.webp" width="480" alt="Summary, dark"></a></td></tr>
+<tr><th>Summary</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-summary-63395741a68b.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-summary-63395741a68b.webp" width="480" alt="Summary, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-summary-7a2eed152c66.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-summary-7a2eed152c66.webp" width="480" alt="Summary, dark"></a></td></tr>
 </table>
 
 Window buttons, captured in a disposable VM: [Light wizard](src/screenshots/previews/button-position-golden-gate-light-wizard-36aca73ad37c.webp) · [Light comparison](src/screenshots/previews/button-position-golden-gate-light-comparison-2252a75d62e9.png) · [Dark wizard](src/screenshots/previews/button-position-golden-gate-dark-wizard-a50b95609e38.webp) · [Dark comparison](src/screenshots/previews/button-position-golden-gate-dark-comparison-d3035dd038c4.png) · [Provenance](src/screenshots/previews/button-position-golden-gate-provenance-3524c01456df.json)
