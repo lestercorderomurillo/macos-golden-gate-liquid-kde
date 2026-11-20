@@ -1,27 +1,23 @@
 {
-  "version": "0.73.24",
-  "implementation_commit": "623d44abc4127afc137bc75d17fd0af36186c1c3",
+  "version": "0.73.25",
+  "implementation_commit": "d8f8b579aae5c445a1c3b5fd0a2c6f848a37aee8",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Clarify Acrylic Glass labels and update the Golden Gate Official material preset.",
+  "scope": "Pin the Tahoe release containing the approved white Control Center sound and media glyphs, duplicate-edge removal and visible disabled state. The reviewed Notification Center clear-history contrast is already present in the release source.",
   "checks": [
     {
-      "command": "pytest -q tests/test_multilanguage.py::test_catalogs_cover_all_project_widget_and_kcm_messages",
+      "command": "python3 skills/lester-skills/paired-release/scripts/check_pair.py --tahoe ../macos-tahoe-liquid-kde --golden . --archive /tmp/tahoe-v0.73.25.tar.gz",
       "result": "passed",
-      "detail": "All three shipped KCM translation catalogs passed on the combined implementation."
+      "detail": "Edition versions, immutable Tahoe commit, tag and archive SHA-256 match."
     },
     {
-      "command": "pytest tests/test_glass_presets.py::{test_installation_reapplies_complete_edition_material,test_installer_frost_glass_values} and tests/test_acrylic_glass_config.py::test_native_material_follows_source_edition_across_reinstalls",
+      "command": "RUNNER_TEMP=/tmp python3 .github/scripts/verify_upstream_release.py",
       "result": "passed",
-      "detail": "22 installer and KConfig cases passed, including both cases that failed in the previous Tahoe dev run."
+      "detail": "Published Tahoe tag, version, archive digest and embedded release evidence checker verified."
     },
     {
-      "command": "glass-kcm-probe and KDE neon VM settings and desktop previews",
+      "command": "python3 -m pytest -q tests/test_bootstrap.py tests/test_local_updates.py tests/test_release_update.py tests/test_release_workflow.py tests/test_source_archive.py",
       "result": "passed",
-      "detail": "Verified the ten Golden Gate material maps against the saved settings, native preset controls, component and SVG labels, and Golden Gate light and dark desktop previews."
-    },
-    {
-      "command": "check_pair.py --archive and comparison of release files with the published archive",
-      "result": "passed"
+      "detail": "103 focused wrapper, local source/update, pinned release, workflow archive and source archive tests passed."
     }
   ],
   "reviewed_frames": [
@@ -62,9 +58,9 @@
       "sha256": "afaf401d5cf1436c3a6e543085a5c9b68659fad9042f9e1cc1c458a855bec470"
     }
   ],
-  "approval": "Maintainer approved the saved preset and component labels, then confirmed inclusion of the SVG light and dark labels.",
+  "approval": "User explicitly approved the actual 1:1 media-icons preview and then authorized paired release. Preview source e255383fadb9796932fc316a7387a434a4a15b6e; frame hashes are in /mnt/M2_1/Projects/Review-artifacts/gg-material-study/media-icons/sources.json (0ed0c4810a9d1f51db2e3f510cf1cd5540880060dcf57e6a9c3bfbb5855ddd36). User confirmed VLC Play/Pause toggling.",
   "coverage_limits": [
-    "Desktop material preview covers Golden Gate under Wayland. Native SVG label previews cover both editions. Captures retain the source commits of the separately approved changes."
+    "The approved preview covers Tahoe and Golden Gate in light and dark modes, with no player, playing and paused states, plus notification-history frames. VLC Play/Pause interaction was verified by the user. Golden Gate validation covers wrapper pinning and staging; the shared visual captures were approved before this pin-only delivery."
   ],
-  "source_sha256": "ee1f4192e97e3b4af332c6e5637b7ab4a29c044a2b099163a83d968d383ea96d"
+  "source_sha256": "26c7de75e430d671e5fa1941cfdca1541c488b82a28e5d8190c14b6b5cc6a2a9"
 }
