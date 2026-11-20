@@ -1,0 +1,2636 @@
+{
+  "edition": "golden-gate",
+  "source_commit": "2368236ece9096533e702685722f518aa379bc07",
+  "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
+  "frames": {
+    "wizard-golden-gate-light-welcome-0c569a08701d.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "welcome",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-welcome",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "0c569a08701db17e6f9e0682e409258991e85033f0b280575848a5c0e3c45c03"
+    },
+    "wizard-golden-gate-dark-welcome-e2f0ddac4acd.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "welcome",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-welcome",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "e2f0ddac4acd37962484e9abbfae64031effe2fd2fbbed06ff0dfae20a409e2f"
+    },
+    "wizard-golden-gate-light-appearance-c6ec61e0799e.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "appearance",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-appearance",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "c6ec61e0799e85d19e9e87ffd9e93c2c28445ee8264c31b4e370ff9fc0113e0a"
+    },
+    "wizard-golden-gate-dark-appearance-dc7b9a8a9a4d.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "appearance",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-appearance",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "dc7b9a8a9a4d05105f697178abea5360bf75562093b3d319f1c17edfea26a538"
+    },
+    "wizard-golden-gate-light-icons-35f9f6e039d0.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "icons",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-icons",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "35f9f6e039d0ea5d8c6149ddfadc5ec55232c12fb1e23db8a657bd6172670ec2"
+    },
+    "wizard-golden-gate-dark-icons-df55b9bf7471.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "icons",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-icons",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "df55b9bf7471026b9e0068d66e98e375ea6f8c071b701e80c36c251714b8351d"
+    },
+    "wizard-golden-gate-light-wallpaper-3d2985db3962.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "wallpaper",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-wallpaper",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "3d2985db3962a90880f9fdadcfeebab064c03fbe58c28bd8c15fc0d112df7893"
+    },
+    "wizard-golden-gate-dark-wallpaper-3c6421196917.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "wallpaper",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-wallpaper",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "3c642119691796961c041226db4fff8934d4cd42e979ef538df6fe6b6987c351"
+    },
+    "wizard-golden-gate-light-launcher-422faad0256a.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "launcher",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-launcher",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "422faad0256a69fe27448de07d9b5e58f793b173bd9dbb97f1b0559887ee0262"
+    },
+    "wizard-golden-gate-dark-launcher-b3a066e4cbd1.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "launcher",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-launcher",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "b3a066e4cbd1bbb9451c833d8abfd54f8b242b631524349bf5c19a6da185f39d"
+    },
+    "wizard-golden-gate-light-layout-259f893b88e9.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "layout",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-layout",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "259f893b88e950071b304d06b23013abcd7bee712257ec5847615f01088bed68"
+    },
+    "wizard-golden-gate-dark-layout-519e17182d9f.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "layout",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-layout",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "519e17182d9f56d46c761666e8d5d2a47bb671fd5cf33fcc3619bc5a79442051"
+    },
+    "wizard-golden-gate-light-effects-86c668df5c11.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "effects",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-effects",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "86c668df5c11a70e70ccfa3c8f817475372cc59089c0ee1541f86e07b8514498"
+    },
+    "wizard-golden-gate-dark-effects-21876f1b4a71.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "effects",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-effects",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "21876f1b4a71c9379d1fb7f225699ea0b1d3e21b4b454d43fd77feec2a7f5bd3"
+    },
+    "wizard-golden-gate-light-window_controls-c84f1115320e.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "window_controls",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-window_controls",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "c84f1115320e960e5710d294d5880274b86f7a2b8d0f0454c6497f60f1df718f"
+    },
+    "wizard-golden-gate-dark-window_controls-3bacb4ad2c89.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "window_controls",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-window_controls",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "3bacb4ad2c89033716bad2a4bfbc5003f9ac719ec6574ffc37463d200a53d1bd"
+    },
+    "wizard-golden-gate-light-button_position-f6d1bf669517.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "button_position",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-button_position",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "f6d1bf669517546474277133508264a602cf0e2bf5d0c21512fd6690f759f3db"
+    },
+    "wizard-golden-gate-dark-button_position-6ee216a3bda9.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "button_position",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-button_position",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "6ee216a3bda950b829d6de2bc18561a55915b2f7eeae12298ecac67ff4e6ab27"
+    },
+    "wizard-golden-gate-light-shadows-c03bd5180e77.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "shadows",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-shadows",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "c03bd5180e77974e32fdc3cf9f64f1e7a6b40b4f0e2ee1b9d66bbbf4b9e62199"
+    },
+    "wizard-golden-gate-dark-shadows-31d9d93b2886.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "shadows",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-shadows",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "31d9d93b2886e56639f2953909c97238bb274bd0cde188c9c747e116976e67ac"
+    },
+    "wizard-golden-gate-light-fonts-a68fadf60f71.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "fonts",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-fonts",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "a68fadf60f717fba2c8252ad5352d2bfc78401e642f60fa0b0e3c88570cf1e7e"
+    },
+    "wizard-golden-gate-dark-fonts-76d2b029af6f.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "fonts",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-fonts",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "76d2b029af6fc12a95d8017bdebe5723e6c0f72adeda0a77268d733366c451e1"
+    },
+    "wizard-golden-gate-light-firefox-8d1d733bf97c.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "firefox",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-firefox",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "8d1d733bf97c9e0559b1f98197764a605abf61fccebb0a94d189cbc5ee3316d7"
+    },
+    "wizard-golden-gate-dark-firefox-d12cb4da3a96.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "firefox",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-firefox",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "d12cb4da3a96ad0ff122254f3ed98cd94e37bed02b5f1625c86f54deeda84c06"
+    },
+    "wizard-golden-gate-light-files-aa984d61ccd0.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "files",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-files",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "aa984d61ccd0879dd7fbe1b85ca41911fec53cf16843bb2c22d780ff0399cab1"
+    },
+    "wizard-golden-gate-dark-files-473a6632ae38.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "files",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-files",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "473a6632ae38084bc0b0d7a3e1d47eb94e833c6e85f06235b464c505fca62f5e"
+    },
+    "wizard-golden-gate-light-glass_style-4eb695daa506.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "glass_style",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-glass_style",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "4eb695daa50669431e355c06c62643175ffbc42e141edd25d61e8869b255f779"
+    },
+    "wizard-golden-gate-dark-glass_style-b761edd82af8.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        },
+        {
+          "id": "{cce101c5-2400-4543-9dcd-e1b76d58fd4e}",
+          "caption": "mttkde-notifications",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 13,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 1550,
+            "y": 38,
+            "width": 364,
+            "height": 108
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "glass_style",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-glass_style",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "b761edd82af8d968e8dba9b8251060fe4b82a21356cbc7d6267ec669c6d6e75a"
+    },
+    "wizard-golden-gate-light-boot-a2fb93c6a88e.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "boot",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-boot",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "a2fb93c6a88e9c9bf9f0a7eb777a9704ed059133def7a9b6decfde11737d657e"
+    },
+    "wizard-golden-gate-dark-boot-e9723f3666a0.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        },
+        {
+          "id": "{cce101c5-2400-4543-9dcd-e1b76d58fd4e}",
+          "caption": "mttkde-notifications",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 13,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 1550,
+            "y": 38,
+            "width": 364,
+            "height": 108
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "boot",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-boot",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "e9723f3666a0aa002660858f2ec4f76f9f088c507c3dd011e6d74ccbd53f1cf2"
+    },
+    "wizard-golden-gate-light-oled-e8cc5893d19b.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "oled",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-oled",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "e8cc5893d19bca5007df10ea6d8eaa49aeea58ad13944d7516a5c70dc1d169ed"
+    },
+    "wizard-golden-gate-dark-oled-a1876404f9db.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        },
+        {
+          "id": "{cce101c5-2400-4543-9dcd-e1b76d58fd4e}",
+          "caption": "mttkde-notifications",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 13,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 1550,
+            "y": 38,
+            "width": 364,
+            "height": 108
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "oled",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-oled",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "a1876404f9dbb22e3a364a92f240d36a6ce7739298b6b8d932b4dd6e5cad3693"
+    },
+    "wizard-golden-gate-light-summary-c06983f7c034.webp": {
+      "windows": [
+        {
+          "id": "{27e5b7bf-6f50-4207-b7eb-84fb149a7447}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{00075047-5d9a-424c-baca-a917d08e7f47}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{d7684c0d-0019-4053-afe9-6b3932393642}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 590.5,
+            "y": 996,
+            "width": 739,
+            "height": 84
+          }
+        },
+        {
+          "id": "{6e10ad8b-265a-4b37-856f-72d8db390b26}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "summary",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-summary",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "c06983f7c0342e8b0b69f9fa7aa2d895696709984decd748a04dfabb2f0fe314"
+    },
+    "wizard-golden-gate-dark-summary-97ccfa7dfbed.webp": {
+      "windows": [
+        {
+          "id": "{3f7d671e-afbe-49d4-a59e-b0b3a5905ab2}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{e40f0a97-428b-4f4a-b7de-451494711f34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{697badd1-ffe4-426d-a0fc-ca98f815f9bd}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 586,
+            "y": 996,
+            "width": 748,
+            "height": 84
+          }
+        },
+        {
+          "id": "{4e5f4ed7-e0d2-46b9-bbdc-9d01f2f1ccab}",
+          "caption": "Install Golden Gate \u00b7 v0.73.34",
+          "resourceClass": "python3",
+          "type": 0,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 550,
+            "y": 225,
+            "width": 820,
+            "height": 600
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "page": "summary",
+      "crop": [
+        1004,
+        354,
+        2836,
+        1746
+      ],
+      "case": "installer-summary",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "97ccfa7dfbed9f0c580ee04bee36b8d064ed2b3b5107d7ce1001e23853430ab8"
+    }
+  }
+}

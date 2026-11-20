@@ -135,17 +135,17 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 采用 Golden Gate 玻璃效果的 Finder 风格文件浏览。
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-ebfe32ef93f8.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-ebfe32ef93f8.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-2e00140ea972.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-2e00140ea972.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
 </p>
 
 <details>
-<summary>浅色和深色模式下的红色与蓝色强调色</summary>
+<summary><strong>浅色和深色模式下的红色与蓝色强调色</strong></summary>
 
 <table>
 <tr><th>强调色</th><th>浅色</th><th>深色</th></tr>
-<tr><td>红色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-985196f645c2.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-985196f645c2.webp" alt="Golden Gate Files with red selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-5b14d7f9b830.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-5b14d7f9b830.webp" alt="Golden Gate Files with red selection and glass icons in dark mode" width="415"></a></td></tr>
-<tr><td>蓝色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-6dd83abc89b0.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-6dd83abc89b0.webp" alt="Golden Gate Files with blue selection and glass icons in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-bb12c1e68fcf.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-bb12c1e68fcf.webp" alt="Golden Gate Files with blue selection and glass icons in dark mode" width="415"></a></td></tr>
+<tr><td>蓝色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp" alt="Finder 在浅色模式下以蓝色突出显示侧边栏所选项" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp" alt="Finder 在深色模式下以蓝色突出显示侧边栏所选项" width="415"></a></td></tr>
+<tr><td>红色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp" alt="Finder 在浅色模式下以红色突出显示侧边栏所选项" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp" alt="Finder 在深色模式下以红色突出显示侧边栏所选项" width="415"></a></td></tr>
 </table>
 
 </details>
@@ -154,11 +154,11 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 ### Golden Gate Launchpad (Alpha)
 
-查找应用、浏览分类，让收藏触手可及。在深色模式下，透过搜索框和应用网格可以看到后方的壁纸或窗口。
+查找应用、浏览分类，让收藏触手可及。应用网格在浅色和深色模式下分别使用半透明的白色和黑色磨砂玻璃。两种模式的搜索框均使用相同的黑金渐变。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-dbc626ffedb9.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-712dc1c90d16.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -169,119 +169,124 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <p align="center">
   <strong>Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-d204ce15f70b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-d204ce15f70b.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-485720a1c030.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-485720a1c030.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Clear Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-bd325f7d23e3.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-bd325f7d23e3.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Clear Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-4724d009bae5.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-4724d009bae5.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-1b2882899a75.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-1b2882899a75.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Blue Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-a5a377941a4b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-a5a377941a4b.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Purple Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-4ab02fdc700c.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-4ab02fdc700c.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Purple Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-02b6cf403e02.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-02b6cf403e02.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Pink Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-c1fe31c90e50.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-c1fe31c90e50.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Pink Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-bcbac3c5cfa0.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-bcbac3c5cfa0.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-f1d20a892549.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-f1d20a892549.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Red Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-efb18e32ff92.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-efb18e32ff92.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Orange Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-b9d2b9b7a34f.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-b9d2b9b7a34f.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Orange Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-955149b1351c.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-955149b1351c.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Yellow Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-4bdfdb24cd8d.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-4bdfdb24cd8d.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Yellow Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-f8d1681c379a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-f8d1681c379a.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Green Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-f3018811de06.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-f3018811de06.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Green Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-a39e08ca0cc7.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-a39e08ca0cc7.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Gray Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-1af4be6a5efd.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-1af4be6a5efd.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Gray Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-5fa238911fe2.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-5fa238911fe2.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="830"></a>
 </p>
 
 <br>
 
 ### Golden Gate Shell (Alpha)
 
-快速访问系统设置、应用和会话控制。
+文件、编辑等菜单随当前窗口切换。系统菜单可打开设置和会话控制。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-16e5530b7541.webp" alt="System menu in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-0f97edd728d0.webp" alt="System menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate 打开文档时的文件菜单" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Kate 打开文档时的文件菜单" width="830">
 </p>
 
+<br>
+
+### Golden Gate 日历 (Alpha)
+
+点击面板时钟即可打开玻璃背景的月历。滚动鼠标滚轮或使用方向键切换月份，按 Home 键返回本月。
+
 <p align="center">
-  <strong>面板日历</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-da11ddb163dd.webp" alt="面板日历" width="164">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp" alt="面板日历" width="164">
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="日历 · 浅色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="日历 · 深色" width="328">
 </p>
 
 <br>
@@ -291,8 +296,20 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用太阳表示浅色模式，用月亮表示深色模式，用双色圆形表示自动模式。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-6e06a001687d.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Control Center in dark mode" width="415">
+</p>
+
+<p align="center">
+  <strong>Wi-Fi</strong><br>
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Wi-Fi · 浅色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Wi-Fi · 深色" width="328">
+</p>
+
+<p align="center">
+  <strong>电池</strong><br>
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="电池 · 浅色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="电池 · 深色" width="328">
 </p>
 
 <br>
@@ -302,8 +319,10 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 玻璃质感的通知横幅和分组历史记录，支持应用操作和直接回复。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="通知 （浅色模式）" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="通知 （深色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="通知 （浅色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="通知 （浅色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="通知 （深色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="通知 （深色模式）" width="415">
 </p>
 
 <br>
@@ -313,8 +332,8 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 直接在 Launchpad 中查找并复用复制的文字和图片。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-bb3ca9b05f59.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-9998cd16ab99.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
 </p>
 
 <br>
@@ -324,8 +343,8 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 一览硬件、软件和主题详情。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-b05e9ef41807.webp" alt="About This Computer in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-d77f74c97b4c.webp" alt="About This Computer in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp" alt="About This Computer in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp" alt="About This Computer in dark mode" width="415">
 </p>
 
 <br>
@@ -335,8 +354,8 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 采用协调浅色和深色配色的半透明菜单与弹出窗口。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-7784f8cd0c33.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-5f8de7c61751.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop context menu in dark mode" width="415">
 </p>
 
 <br>
@@ -346,7 +365,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 从启动到关机保持一致外观，内置 LUKS2 加密磁盘解锁功能。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-boot-959163f469f4.webp" alt="Plymouth startup splash with a progress bar" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash with a progress bar" width="415">
 </p>
 
 <br>
@@ -566,7 +585,7 @@ OpenRC 和 dinit 需要运行中的 cron 守护进程。
 | Konsole 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
 | Kate 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
 | SDDM 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-| 日历 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
+| 日历 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
 | 控制中心、Wi-Fi、电池和通知 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
 | 系统偏好设置 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
 | 操作系统选择器 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |

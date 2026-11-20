@@ -1,0 +1,172 @@
+{
+  "purpose": "README Notifications (Alpha)",
+  "edition": "golden-gate",
+  "images": {
+    "readme-golden-gate-dark-notification-history-0e0da3b5fead.webp": {
+      "windows": [
+        {
+          "id": "{04be045e-b342-4f29-ad41-8e15d57c38d6}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{2f3b0852-7567-40c0-b18a-49a4b8262d34}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{1e922eb4-645a-44c9-9891-2c8bed70b2b0}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{1034de35-ada9-4a4d-bc41-3151c3fca84a}",
+          "caption": "mttkde-notifications",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 13,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1550,
+            "y": 38,
+            "width": 364,
+            "height": 136
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "case": "notification-history",
+      "mode": "dark",
+      "edition": "golden-gate",
+      "sha256": "0e0da3b5fead1af882ec75da873275f755057bb57116b6ae934836ce0acc1e12",
+      "capture_tools": {
+        "readme_shell_guest.py": "583fa14b1d846e6d251162df29bbe2cd732763b6c057372d1ee082c0c1cab981",
+        "readme_shell_scene.py": "e0005c4a56e62f9e3761e97d0d92c660735409b4fa9676ae1e69b082a4cbf849",
+        "readme_desktop_scene.py": "af033ade28df20f3df3cca83f6121444f356f9208d65c2c581edd819ac020608",
+        "readme_dock_photo.py": "0db70248757eaf75eb55057003d670c5cf0190de2dd0616e76881121ce70e721"
+      },
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-notification-history-a9b550719838.webp",
+      "source_commit": "2368236ece9096533e702685722f518aa379bc07",
+      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
+      "capture_environment": {
+        "tahoe": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100",
+        "golden-gate": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+      }
+    },
+    "readme-golden-gate-light-notification-history-73984031c763.webp": {
+      "windows": [
+        {
+          "id": "{1c744229-32ee-4108-8805-229c6ee2cf87}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{ff63b0d8-2d3c-4877-beb5-bf7173c59478}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{c32fbab0-76a1-49ce-93cc-64404f5e538d}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 614,
+            "y": 996,
+            "width": 692,
+            "height": 84
+          }
+        },
+        {
+          "id": "{3b717a71-bbeb-4c95-8218-0b47b962840b}",
+          "caption": "mttkde-notifications",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 13,
+          "appletPopup": false,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1550,
+            "y": 38,
+            "width": 364,
+            "height": 136
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "case": "notification-history",
+      "mode": "light",
+      "edition": "golden-gate",
+      "sha256": "73984031c763611f59f20343acc709a6d6f0f7b5b161ed5b300a48295fd66d3c",
+      "capture_tools": {
+        "readme_shell_guest.py": "583fa14b1d846e6d251162df29bbe2cd732763b6c057372d1ee082c0c1cab981",
+        "readme_shell_scene.py": "e0005c4a56e62f9e3761e97d0d92c660735409b4fa9676ae1e69b082a4cbf849",
+        "readme_desktop_scene.py": "af033ade28df20f3df3cca83f6121444f356f9208d65c2c581edd819ac020608",
+        "readme_dock_photo.py": "0db70248757eaf75eb55057003d670c5cf0190de2dd0616e76881121ce70e721"
+      },
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-notification-history-6d6d97d286f1.webp",
+      "source_commit": "2368236ece9096533e702685722f518aa379bc07",
+      "vm_image_sha256": "74004cc15d7180e9b23c93a2c097824853375651b0984f68d9e940c45d461703",
+      "capture_environment": {
+        "tahoe": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100",
+        "golden-gate": "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114\nplasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+      }
+    }
+  }
+}
