@@ -308,8 +308,8 @@ Wi-Fi, sonido, brillo y notificaciones en un menú de cristal. El botón de apar
 
 <p align="center">
   <strong>Batería</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="Batería · Claro" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="Batería · Oscuro" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Batería · Claro" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Batería · Oscuro" width="328">
 </p>
 
 <br>

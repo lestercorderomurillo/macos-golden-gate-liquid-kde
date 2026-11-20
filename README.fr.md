@@ -308,8 +308,8 @@ Wi-Fi, son, luminosité et notifications dans un menu en verre. Le bouton d’ap
 
 <p align="center">
   <strong>Batterie</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="Batterie · Clair" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="Batterie · Sombre" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Batterie · Clair" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Batterie · Sombre" width="328">
 </p>
 
 <br>

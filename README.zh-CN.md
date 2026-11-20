@@ -308,8 +308,8 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <p align="center">
   <strong>电池</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="电池 · 浅色" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="电池 · 深色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="电池 · 浅色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="电池 · 深色" width="328">
 </p>
 
 <br>
