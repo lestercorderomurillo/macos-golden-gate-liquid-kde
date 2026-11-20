@@ -1,38 +1,20 @@
 {
-  "version": "0.76.0",
+  "version": "0.76.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Installer layout preservation, About and shell dynamic tinting, Control Center, Dock rim, Italian support and README updates.",
-  "approval": "Maintainer approved the paired previews and existing emblems on 2026-11-20.",
+  "scope": "Regional background sampling and smooth transitions for About This Computer text.",
+  "approval": "Maintainer approved the paired regional tint previews on 2026-11-20.",
   "checks": [
     {
-      "command": "Clean install keeping an existing panel layout and reinstall with a personal launcher in disposable Plasma guests",
+      "command": "Open installed About This Computer from the Plasma Apple menu; capture on a split background, invert it, then use a neutral gradient and switch to light mode",
       "result": "passed",
-      "output": "Installer qualification and retained launcher evidence; 64 installer tests and 12 focused follow-up checks."
-    },
-    {
-      "command": "Apply, close, reopen and restore Dynamic Tinting in the Acrylic Glass settings module",
-      "result": "passed",
-      "output": "Default enabled and saved state verified. Compared About on/off on the same split background in Golden Gate."
-    },
-    {
-      "command": "Build Acrylic Glass on KWin 6.6.5, 6.7.5 and 6.8.2; run the isolated X11 contrast probe",
-      "result": "passed",
-      "output": "Three builds and the X11 probe passed. Both editions captured in a Plasma Wayland guest."
-    },
-    {
-      "command": "Render the Control Center X11 fixture and Qt SVG glass surface checks",
-      "result": "passed",
-      "output": "Verified updated Wi-Fi sampling point and 30 glass-surface regressions."
-    },
-    {
-      "command": "nix build #acrylic-glass and inspect the packaged Control Center transition",
-      "result": "passed",
-      "output": "Verified installed transition."
+      "edition": "golden-gate",
+      "environment": "KDE neon disposable Wayland VM",
+      "source_commit": "31b25c819a57e411905d276ccfa8b97d61a30f66"
     },
     {
       "command": "check_pair.py --archive and python3 -m pytest -q tests",
       "result": "passed",
-      "output": "118 passed in 1.36s"
+      "output": "118 passed in 1.37s"
     }
   ],
   "captures": [
@@ -100,16 +82,13 @@
     }
   ],
   "coverage_limits": [
-    "Focused selected checks. SDK builds and installed desktop rendering have separate coverage. The complete remote matrix runs asynchronously."
+    "Visual validation in the prepared Wayland guest. Contrast can be lower where a background boundary crosses the intermediate text tone."
   ],
-  "source_sha256": "c49d5851e3afd82e65bd8eae3b0eabe9d6a10e82cd5efcfdc8da9789a4530c21",
+  "source_sha256": "64abd0b9504710ed5e91e2d0ad7be225ff04f6c3fecf35a9c021c693d8cd186c",
   "reviewed_preview_sha256": {
-    "golden-gate-about-tint-off.jpg": "18e2ddb9876767c2418183936f647d2e398bdbfab06b21dfff0e83460f039074",
-    "golden-gate-about-tint-on.jpg": "c1a6efe548ced254cbc8c3a807cb200331221575b383257613489540a46c09f7",
-    "golden-gate-acrylic.jpg": "e02b27ed3788ddea555712459d7cf2599909802de31775655c4770e1ea72012f",
-    "golden-gate-control-center-dark.jpg": "180b56c8216a4335fe57b202997d705180486f7ad4f254f7644bc6eee3725097",
-    "golden-gate-control-center-light.jpg": "638a2ce49b71fb6b5ee4347b346a344066e9819533f469b6b90382438507912b",
-    "golden-gate-dock-dark.jpg": "e44d088500c65e731ec9f216a16bd7eb854736749077289ef453218c156eb570",
-    "golden-gate-dock-light.jpg": "04a037b0313890fcdcb2b33453617146afe7a758e2fe1c1652081b0951dd7170"
+    "golden-gate-dark.jpg": "f08760380058bce65180396cc0505be067e8fb299d0362df6b9a6e0645830cb2",
+    "golden-gate-light.jpg": "b7b2cc0c9d1c2cb55858f9530066c9fb77810177d5d993443dafa989a0e462d7",
+    "golden-gate-inverted.jpg": "a584448a898b0d74b2caf118c14be47beb52ca669c5beee3b7c8b5d9adc74417",
+    "golden-gate-neutral-gradient.jpg": "44e5b160e7da3eb2924581e7d1d52aae12d8fbd5360cccf6bfe63b40ecd0e7df"
   }
 }
