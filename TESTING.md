@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.33** was checked with Plasma’s executable engine in an isolated offscreen session. The Control Center dispatched dark and light requests with the switcher installed in either the user binary directory or the session search path. [Evidence and coverage](release-evidence.json).
+**v0.73.34**. The approved Golden Gate Control Center kept its glass fill while text and monochrome controls followed the backdrop, including a split background. Notification history showed the fine dark edge. The desktop capture used KDE neon on Wayland. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
