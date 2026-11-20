@@ -1,19 +1,38 @@
 {
-  "version": "0.74.7",
+  "version": "0.76.0",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Nix source packaging for the global menu plugin.",
-  "approval": "Maintainer requested the CI/CD repair.",
+  "scope": "Installer layout preservation, About and shell dynamic tinting, Control Center, Dock rim, Italian support and README updates.",
+  "approval": "Maintainer approved the paired previews and existing emblems on 2026-11-20.",
   "checks": [
     {
-      "command": "nix build path:/repo#global-menu and verify the installed org.kde.mac.tahoe.liquid.globalmenu.so",
+      "command": "Clean install keeping an existing panel layout and reinstall with a personal launcher in disposable Plasma guests",
       "result": "passed",
-      "output": "Verified global-menu plugin in /nix/store/0hmj08fiimqpq9rp3hss0hafhbmdrq2y-mac-tahoe-global-menu-0.74.7",
-      "recipe_sha256": "84e416af343329efc316e80f60681601066229bf1d2abacf24f77d46f4c83e3b"
+      "output": "Installer qualification and retained launcher evidence; 64 installer tests and 12 focused follow-up checks."
     },
     {
-      "command": "check_pair.py with the published Tahoe archive and python3 -m pytest -q tests",
+      "command": "Apply, close, reopen and restore Dynamic Tinting in the Acrylic Glass settings module",
       "result": "passed",
-      "output": "118 passed in 1.53s"
+      "output": "Default enabled and saved state verified. Compared About on/off on the same split background in Golden Gate."
+    },
+    {
+      "command": "Build Acrylic Glass on KWin 6.6.5, 6.7.5 and 6.8.2; run the isolated X11 contrast probe",
+      "result": "passed",
+      "output": "Three builds and the X11 probe passed. Both editions captured in a Plasma Wayland guest."
+    },
+    {
+      "command": "Render the Control Center X11 fixture and Qt SVG glass surface checks",
+      "result": "passed",
+      "output": "Verified updated Wi-Fi sampling point and 30 glass-surface regressions."
+    },
+    {
+      "command": "nix build #acrylic-glass and inspect the packaged Control Center transition",
+      "result": "passed",
+      "output": "Verified installed transition."
+    },
+    {
+      "command": "check_pair.py --archive and python3 -m pytest -q tests",
+      "result": "passed",
+      "output": "118 passed in 1.36s"
     }
   ],
   "captures": [
@@ -50,10 +69,47 @@
       "path": "src/screenshots/previews/acrylic-glass-dynamic-tinting-c13767e72b64.png",
       "sha256": "c13767e72b648e38bc92e49005378616cca5f80e3a639f8f979d5a591fe27c0d",
       "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp",
+      "sha256": "297e9c7ea2128d6944a5e443f7698afb24398c63d7e4215d40545e24d5b5b4af",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "reviewed": true,
+      "edition": "golden-gate"
+    },
+    {
+      "path": "src/screenshots/previews/wizard-golden-gate-light-summary-63395741a68b.webp",
+      "sha256": "63395741a68b97a488653605340e5163c96056f277693d310f57fc0870c68838",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "reviewed": true,
+      "edition": "golden-gate"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp",
+      "sha256": "00f124f6732c2b1f63687ffcadac18315bf65830fed7bb94f4bda800115e8c7c",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "reviewed": true,
+      "edition": "golden-gate"
+    },
+    {
+      "path": "src/screenshots/previews/wizard-golden-gate-dark-summary-7a2eed152c66.webp",
+      "sha256": "7a2eed152c66880e279cdd7ec56f8830bb0c0f13bcdf094462f9e6a01c4f439a",
+      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
+      "reviewed": true,
+      "edition": "golden-gate"
     }
   ],
   "coverage_limits": [
-    "Focused local Nix build on x86_64-linux. Desktop and gallery evidence carried forward from v0.74.6."
+    "Focused selected checks. SDK builds and installed desktop rendering have separate coverage. The complete remote matrix runs asynchronously."
   ],
-  "source_sha256": "7f4d7dad7e5563cc83fb243e4a9fc7425d6a83baeb87df7dec0c2e35dfe9b2bf"
+  "source_sha256": "c49d5851e3afd82e65bd8eae3b0eabe9d6a10e82cd5efcfdc8da9789a4530c21",
+  "reviewed_preview_sha256": {
+    "golden-gate-about-tint-off.jpg": "18e2ddb9876767c2418183936f647d2e398bdbfab06b21dfff0e83460f039074",
+    "golden-gate-about-tint-on.jpg": "c1a6efe548ced254cbc8c3a807cb200331221575b383257613489540a46c09f7",
+    "golden-gate-acrylic.jpg": "e02b27ed3788ddea555712459d7cf2599909802de31775655c4770e1ea72012f",
+    "golden-gate-control-center-dark.jpg": "180b56c8216a4335fe57b202997d705180486f7ad4f254f7644bc6eee3725097",
+    "golden-gate-control-center-light.jpg": "638a2ce49b71fb6b5ee4347b346a344066e9819533f469b6b90382438507912b",
+    "golden-gate-dock-dark.jpg": "e44d088500c65e731ec9f216a16bd7eb854736749077289ef453218c156eb570",
+    "golden-gate-dock-light.jpg": "04a037b0313890fcdcb2b33453617146afe7a758e2fe1c1652081b0951dd7170"
+  }
 }

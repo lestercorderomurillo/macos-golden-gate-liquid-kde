@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.74.7**. The global menu plugin built and installed from its packaged Nix sources on x86_64-linux. [Evidence and coverage](release-evidence.json).
+**v0.76.0**. Verified layout preservation during installation, the saved Dynamic Tinting setting, and the Dock and Control Center in both editions. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
