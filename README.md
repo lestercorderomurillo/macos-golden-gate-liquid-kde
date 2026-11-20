@@ -130,121 +130,12 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 ![Features and screenshots](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Golden Gate Finder (Alpha)
-
-Finder-style file browsing with Golden Gate glass.
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-</p>
-
-<details>
-<summary><strong>Red and blue accents in light and dark mode</strong></summary>
-
-<table>
-<tr><th>Accent</th><th>Light</th><th>Dark</th></tr>
-<tr><td>Blue</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp" alt="Finder with a blue sidebar selection in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp" alt="Finder with a blue sidebar selection in dark mode" width="415"></a></td></tr>
-<tr><td>Red</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp" alt="Finder with a red sidebar selection in light mode" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp" alt="Finder with a red sidebar selection in dark mode" width="415"></a></td></tr>
-</table>
-
-</details>
-
-<br>
-
-### Golden Gate Launchpad (Alpha)
-
-Find apps, browse categories and keep your favorites within reach. The frosted app grid has a translucent white or black tint. The search field uses the same dark gold gradient in both modes.
-
-<p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
-</p>
-
-<br>
-
-### Golden Gate Dock (Alpha)
+### Golden Gate Dock with Multicolor Support (Alpha)
 
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="830"></a>
-</p>
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="830"></a>
+  <img src="src/screenshots/previews/golden-gate-dock-3729ada5796f.gif" alt="Golden Gate Dock showing multicolor icons in light and dark mode, then cycling through rainbow tints" width="830">
 </p>
 
 <br>
@@ -260,13 +151,13 @@ File, Edit and the other application menus follow the active window. Open the sy
 
 <br>
 
-### Golden Gate Calendar (Alpha)
+### Golden Gate Launchpad (Alpha)
 
-Open the panel clock to see the month on glass. Scroll or use the arrow keys to browse months. Press Home to return to the current month.
+Find apps, browse categories and keep your favorites within reach. The frosted app grid has a translucent white or black tint. The search field uses the same dark gold gradient in both modes.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendar · Light" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendar · Dark" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
 </p>
 
 <br>
@@ -282,28 +173,6 @@ Wi-Fi, sound, brightness and notifications in one glass menu. The appearance but
 
 <br>
 
-### Golden Gate Wi-Fi (Alpha)
-
-Open the Wi-Fi menu to see available wireless networks.
-
-<p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · Light" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · Dark" width="830">
-</p>
-
-<br>
-
-### Golden Gate Battery (Alpha)
-
-Open the battery menu to check the charge level and power status.
-
-<p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Battery · Light" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Battery · Dark" width="830">
-</p>
-
-<br>
-
 ### Golden Gate Notifications (Alpha)
 
 Glass notification banners and grouped history with app actions and reply support.
@@ -313,6 +182,52 @@ Glass notification banners and grouped history with app actions and reply suppor
   <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Golden Gate notifications in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Golden Gate notifications in dark mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Golden Gate notifications in dark mode" width="415">
+</p>
+
+<br>
+
+### Golden Gate Finder (Alpha)
+
+Finder-style file browsing with Golden Gate glass.
+
+<p align="center">
+  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+</p>
+
+<br>
+
+### Golden Gate Calendar (Alpha)
+
+Open the panel clock to see the month on glass. Scroll or use the arrow keys to browse months. Press Home to return to the current month.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendar · Light" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendar · Dark" width="328">
+</p>
+
+<br>
+
+### Golden Gate Wi-Fi (Alpha)
+
+The Wi-Fi menu shows adapter status and available networks.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp" alt="Light Wi-Fi menu with the switch on and no adapter detected" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp" alt="Dark Wi-Fi menu with the switch on and no adapter detected" width="48%">
+  <br><sub>Wi-Fi is on. No adapter is detected. Light mode (left) and dark mode (right).</sub>
+</p>
+
+<br>
+
+### Golden Gate Battery (Alpha)
+
+The Battery menu shows charge and power status.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp" alt="Light Battery menu showing no internal battery" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp" alt="Dark Battery menu showing no internal battery" width="48%">
+  <br><sub>No internal battery is detected. Light mode (left) and dark mode (right).</sub>
 </p>
 
 <br>
@@ -336,6 +251,18 @@ Your hardware, software and theme details at a glance.
   <img src="src/screenshots/previews/readme-golden-gate-light-about-c56b9c7fd875.webp" alt="About This Computer in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-about-68756b54b0f5.webp" alt="About This Computer in dark mode" width="415">
 </p>
+
+<br>
+
+### Acrylic Glass 2.0 with Dynamic Tinting
+
+Adaptive text contrast in the Apple and application menus.
+
+<p align="center">
+  <img src="src/screenshots/previews/acrylic-glass-dynamic-tinting-c13767e72b64.png" alt="Two menus with text switching between black and white over light and dark backgrounds" width="830">
+</p>
+
+<!-- User-supplied comparison image. SHA-256 c13767e72b648e38bc92e49005378616cca5f80e3a639f8f979d5a591fe27c0d -->
 
 <br>
 
