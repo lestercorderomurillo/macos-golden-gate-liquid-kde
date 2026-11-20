@@ -1,22 +1,33 @@
 {
-  "version": "0.74.4",
+  "version": "0.74.5",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "README capture service commands and acrylic preset regression coverage.",
-  "approval": "Maintainer requested the CI repair and paired release.",
+  "scope": "Fractional-scale glass backdrop matching.",
+  "approval": "Maintainer requested publication of the shown fix.",
   "checks": [
     {
-      "command": "pytest -q tests/test_acrylic_glass_config.py tests/test_static.py::test_init_specific_user_manager_calls_stay_in_distro_layer tests/test_release_screenshots.py",
+      "command": "pytest -q tests/test_launcher_presets.py -k control_center_glass_regions; desktop_controls_probe.py in disposable KDE neon guest at scales 1 and 1.45",
       "result": "passed",
-      "detail": "72 passed in 7.30s"
+      "candidate": "de04e75e1fbddeb94f1d8bfa4df095e648811925",
+      "module_sha256": "aa9bc6f0bc90433121c564a2d4a91bf8d07eb4e38b0cc40edf711a49153ca761"
     },
     {
-      "command": "Golden Gate wrapper suite and immutable Tahoe archive verification",
+      "command": "Inspect Golden Gate launcher at 145% over alternating black and white backgrounds in a Wayland guest",
       "result": "passed",
-      "detail": "118 passed in 1.53s"
+      "frames": {
+        "before.png": "59574a28fb6d08d7ae81d78d824a08d4151f9e05f2e29df34b2bca3c888ea73c",
+        "after.png": "2e03bf8215f0c7ec8f6f9d249f4349809ffca28fc5d491c3cfc8b3aea78b5277",
+        "open-initial.png": "2fe528b26f6ae2010df12a653f512920b31820e3b66cef47aca2af89cbca8c1c",
+        "open-reversed.png": "b5d0f0b082f41a17c7425f822fb74c40d97030ceeab067cc2a0341f080e80dd6"
+      }
+    },
+    {
+      "command": "Golden Gate wrapper suite and immutable archive verification",
+      "result": "passed",
+      "detail": "118 passed in 1.52s"
     }
   ],
   "coverage_limits": [
-    "Focused tests exercise material reinstalls and capture tooling. Documentation photographs retain their original provenance."
+    "The rendered launcher preview used Golden Gate at 145% on KDE neon Wayland. Both editions share the corrected module."
   ],
-  "source_sha256": "545ff2a59c7a21fcd28ee236eb9de51f8678a00cc31a47f8bf26f0e6e0be16d6"
+  "source_sha256": "a4f02a470030083392ae4f7721d26a00f8151415789f7da9a5899b1007e80b8d"
 }
