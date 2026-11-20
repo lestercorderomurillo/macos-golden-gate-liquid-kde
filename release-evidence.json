@@ -1,103 +1,31 @@
 {
-  "version": "0.74.0",
+  "version": "0.74.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Integrated 0.73.x fixes, launcher materials, panel appearance and documentation photographs.",
-  "approval": "Maintainer approved the shown preview and requested an ordinary paired release.",
+  "scope": "Global menu hover, cascading submenus and direct command activation.",
   "checks": [
     {
-      "command": "python3 tests/vm/qt_appearance.py (clipboard_appearance scenario with a persistent Qt widget and GTK 3/4 probes)",
+      "command": "Native globalmenu-popup-test and globalmenu-model-test on isolated Xvfb and session D-Bus",
       "result": "passed",
-      "cases": [
-        "standalone-dark",
-        "standalone-light",
-        "gtk-preference-dark",
-        "gtk-preference-light",
-        "rapid-latest-wins",
-        "auto-before-boundary",
-        "auto-crossed-1800",
-        "native-manual-after-completed-auto",
-        "auto-before-overlap",
-        "auto-transition-in-flight",
-        "native-manual-supersedes-auto",
-        "manual-remains-light"
-      ]
+      "detail": "13 popup and 12 model checks passed, including exporter root refresh on open and navigation across a direct command."
     },
     {
-      "command": "release-screenshots readme-photos and SHA-256 audit of installer photographs",
+      "command": "KDE neon Wayland guest with Kate: traverse 12 headings 16 times with QMP pointer movement, query Plasma after each loop, and inspect View > Split View",
       "result": "passed",
-      "detail": "49 README photographs and 34 installer frames in this edition."
+      "environment": "KDE neon / Wayland, Plasma 6.8.1, Kate 26.08.2",
+      "install": "Built and loaded global menu plugin from candidate sources verified by SHA-256 in guest",
+      "plugin_sha256": "5864fc8cbe6b0e44799e085b6b312fa15c80e15dc939ded309d5563251191c00",
+      "frame_sha256": "a87a0ef647574e6e1fb179466b43fe3a0d324113ea58977c76f606482378bed4",
+      "detail": "Kate document remained open, 192 menu switches, 16 successful D-Bus pings to one plasmashell process, Split View submenu visibly populated."
     },
     {
-      "command": "python3 -m pytest -q tests",
+      "command": "python3 -m pytest -q tests; paired immutable archive verification",
       "result": "passed",
-      "detail": "118 passed in 1.52s"
-    }
-  ],
-  "captures": [
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp",
-      "sha256": "7313220bc2bedffcb446d87104344bcfe858aa336871cc775a3e3be22011b8bd",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp",
-      "sha256": "a57f0c15b7e46902d056ad1af5aa08566f33437aa000595b5a015cf30962f0c6",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp",
-      "sha256": "b2f97f2b1d018f3ec790f6814c05d0cefb10a83276f9e3de9f2fd514d1fe41c8",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp",
-      "sha256": "a04d36feef811c653bead8a40887451854866db128fa5ed86b3b5e9162279d20",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-wifi-0c32de8acdaf.webp",
-      "sha256": "0c32de8acdafec008011cf4d50ac0b922d7368b4e34f93a65305301a281a2337",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-battery-684ebf271d43.webp",
-      "sha256": "684ebf271d431c28e12ed5aafa72d30b452500f5278afd2e3cfb907dc8cb5503",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp",
-      "sha256": "1e3a163fc520fe270ad8d9c82215954f4d0f59ab95824934c4ebbc1c4eece962",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp",
-      "sha256": "3f6fce9327f42dac5565e860fbb6786acf0401bfdb8237a6e904fd86ee2869c4",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp",
-      "sha256": "4381ce71a5ec9c11e88f4b095878d621abe75259868e72b71e3ad29cfb47bbc9",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp",
-      "sha256": "f25aa49ee1231fc203572d4d801d14eca820c1247abcd7298e40eb4b579eeddc",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-wifi-21f202f7becf.webp",
-      "sha256": "21f202f7becfc4a45cb1b087e5a099e496389989e57f83590243e85ae73f28f2",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-battery-dc9c181de7b9.webp",
-      "sha256": "dc9c181de7b91f7a083fa86e4214cf1f6fc082ac316b3bd7d53483f539355f91",
-      "reviewed": true
+      "detail": "118 passed in 1.56s"
     }
   ],
   "coverage_limits": [
-    "Visual qualification used KDE neon on Wayland. VM Wi-Fi and battery photographs show the no-hardware state.",
-    "KWin 6.6 X11 rendering and 6.6, 6.7 and 6.8 SDK builds were exercised during integration. Full remote CI is asynchronous."
+    "Installed-session navigation was exercised on the shared Tahoe applet in KDE neon Wayland with Kate. Golden Gate consumes the same source.",
+    "Two native cases are excluded from the isolated Xvfb run: installed-session window controls and the X11 task backend removed in Plasma 6.8."
   ],
-  "source_sha256": "87130edbae3f4d2548d07d453dcae7e225de8a37908d54246fd075dc2c8da5a2"
+  "source_sha256": "184e85623f0034fd9fb0d5d24c84287446a1c78ce66c3de47e1f3c0d8fdb548d"
 }
