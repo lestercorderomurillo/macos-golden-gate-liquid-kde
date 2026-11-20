@@ -151,6 +151,18 @@ File, Edit and the other application menus follow the active window. Open the sy
 
 <br>
 
+### Acrylic Glass 2.0 with Dynamic Tinting
+
+Adaptive text contrast in the Apple and application menus.
+
+<p align="center">
+  <img src="src/screenshots/previews/acrylic-glass-dynamic-tinting-c13767e72b64.png" alt="Two menus with text switching between black and white over light and dark backgrounds" width="830">
+</p>
+
+<!-- User-supplied comparison image. SHA-256 c13767e72b648e38bc92e49005378616cca5f80e3a639f8f979d5a591fe27c0d -->
+
+<br>
+
 ### Golden Gate Launchpad (Alpha)
 
 Find apps, browse categories and keep your favorites within reach. The frosted app grid has a translucent white or black tint. The search field uses the same dark gold gradient in both modes.
@@ -251,18 +263,6 @@ Hardware, software and theme details with dynamic text tinting.
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Light system information window with controls on the left" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Dark system information window with controls on the right" width="415">
 </p>
-
-<br>
-
-### Acrylic Glass 2.0 with Dynamic Tinting
-
-Adaptive text contrast in the Apple and application menus.
-
-<p align="center">
-  <img src="src/screenshots/previews/acrylic-glass-dynamic-tinting-c13767e72b64.png" alt="Two menus with text switching between black and white over light and dark backgrounds" width="830">
-</p>
-
-<!-- User-supplied comparison image. SHA-256 c13767e72b648e38bc92e49005378616cca5f80e3a639f8f979d5a591fe27c0d -->
 
 <br>
 
