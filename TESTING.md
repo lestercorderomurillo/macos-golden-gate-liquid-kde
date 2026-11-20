@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.30** places thin, fading launcher scrollbars at the right edge. The Golden Gate app grid was verified while scrolling and at rest on KDE neon Wayland. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.31** sets the Golden Gate About gradient center to 65% opacity at 30% of the window height. Verified in a KDE neon Wayland session. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
