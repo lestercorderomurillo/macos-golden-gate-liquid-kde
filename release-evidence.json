@@ -1,45 +1,20 @@
 {
-  "version": "0.73.32",
-  "implementation_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+  "version": "0.73.33",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Panel month card and identical Control Center material settings across editions.",
+  "scope": "Control Center light and dark command lookup",
   "checks": [
     {
-      "command": "scene.widget(\"digitalclock\"), scene.shot(\"popups\") and scene.shot(\"control-center\") in each edition and mode",
+      "command": "QT_QPA_PLATFORM=offscreen dbus-run-session -- python3 check.py <tahoe-source>",
       "result": "passed",
-      "detail": "Reviewed light and dark VM captures from the actual calendar and Control Center windows."
+      "detail": "Loaded the release ControlCommands.qml with QQmlComponent and invoked run(dark), run(light), run(dark). An executable recording its single argument was found first with a space-containing temporary HOME and PATH=/usr/local/bin:/usr/bin, then with only a PATH installation."
     },
     {
-      "command": "kreadconfig6 --file kwinrc --group Effect-liquidglass --key ComponentMaterials",
-      "result": "passed",
-      "detail": "All 25 installed Control Center settings match in both editions and match the integrated preset defaults."
+      "command": "check_pair.py --archive and archive ControlCommands.qml byte comparison",
+      "result": "passed"
     }
   ],
-  "captures": [
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp",
-      "sha256": "baf0ad74963a33ddc6999f1c33820aac5409dd57f2f580fe13f18f413fa0af88",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-control-6e06a001687d.webp",
-      "sha256": "6e06a001687d6f9d4191804cc32ae78543abb7fa4853a03aae15598dbf902477",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-calendar-da11ddb163dd.webp",
-      "sha256": "da11ddb163dda2a4582354ee22ac8c525af6473d5e26169f88dd2775a66ecd54",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp",
-      "sha256": "b3f7a533c20e9786dd8d498ad0436c1e65570a1ed4e5125e0956b461dd28bff5",
-      "reviewed": true
-    }
-  ],
-  "approval": "Maintainer approved the eight localhost preview photographs for paired publication.",
   "coverage_limits": [
-    "KDE neon, Plasma 6.8.1, Wayland. The approved component captures predate the independent About and launcher-scrollbar releases. Component QML fingerprints and effective Control Center settings match the integrated sources."
+    "Command dispatch only. The check used a recording executable and did not switch a live desktop."
   ],
-  "source_sha256": "0bf96b2fa876e352896efd895d661def360c74f2ef586851104c7ada831ed5be"
+  "source_sha256": "eb4ad3bf52f37bb69cc4ab82f6286980893cedd236c9c4d744a95b22fa0e577c"
 }
