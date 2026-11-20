@@ -486,11 +486,10 @@ Tahoe retains 55% white light fills and slightly clearer 48% black dark fills.
 Golden Gate menus retain their black upper gradient in light and dark mode:
 85% black at the top, fading to zero at 55% of the surface height;
 the Dock defaults to no gradient while retaining blur and refraction; its component controls may override that default.
-Launcher text uses a soft, low-opacity halo of the opposite luminance, without
-a hard outline. Light-mode category pills have a translucent white backing
-for readable dark labels. Keep this shared implementation in Tahoe.
-In Golden Gate light mode, the Apps input uses full-opacity text and a
-stronger diffuse halo. Category fills use 68% white when selected and 52%
+Launcher labels use the system foreground shifted 40% toward black or white.
+Use the sampled background and client fill to select readable grid and list
+text. Light-mode category pills retain their translucent white backing.
+Golden Gate light mode uses full-opacity search text. Category fills use 68% white when selected and 52%
 otherwise. These changes follow the staged edition independently of the
 selected launcher preset; preserve Tahoe and dark-mode styling.
 There is no Reduced Transparency preference or generated opaque variant.
