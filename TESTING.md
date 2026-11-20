@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.28** passed focused installation and reinstallation checks on KDE neon. The approved Plasma 6.8.1 Wayland previews cover the calendar, launcher, clipboard and Control Center. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.29** includes the approved Golden Gate About window with 95% dark transparency and the blue-screen computer icon without the logo. Verified in a KDE neon Wayland session. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 
