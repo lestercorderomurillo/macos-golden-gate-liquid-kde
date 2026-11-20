@@ -643,314 +643,6 @@
       },
       "user_approved": true
     },
-    "previews/readme-golden-gate-dark-control-f133d3ca84d9.webp": {
-      "sha256": "f133d3ca84d9e8d97811e46ff5f86ba18b26e19ee2ad9b62c48e5a3cabf1f1a9",
-      "source_sha256": "1c33df4ef594efd061431ec8182b2a7e42b01f6fb09cdab51341e5c6bdc85934",
-      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
-      "replaces": "src/screenshots/control-center-dark-21e3ca44cef9.webp",
-      "crop": [
-        3092,
-        64,
-        3840,
-        1208
-      ],
-      "export_size": [
-        748,
-        1144
-      ],
-      "capture": {
-        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
-        "edition": "golden-gate",
-        "mode": "dark",
-        "case": "control",
-        "before": [
-          {
-            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 1,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          {
-            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 32
-            }
-          },
-          {
-            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 614,
-              "y": 996,
-              "width": 692,
-              "height": 84
-            }
-          },
-          {
-            "id": "{265be788-6e30-48fb-9487-9f19bb5cd042}",
-            "caption": "mttkde-control-center",
-            "resourceClass": "org.kde.plasmashell",
-            "type": 18,
-            "appletPopup": true,
-            "hidden": false,
-            "active": true,
-            "geometry": {
-              "x": 1560,
-              "y": 32,
-              "width": 360,
-              "height": 558
-            }
-          }
-        ],
-        "after": [
-          {
-            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 1,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          {
-            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 32
-            }
-          },
-          {
-            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 614,
-              "y": 996,
-              "width": 692,
-              "height": 84
-            }
-          },
-          {
-            "id": "{265be788-6e30-48fb-9487-9f19bb5cd042}",
-            "caption": "mttkde-control-center",
-            "resourceClass": "org.kde.plasmashell",
-            "type": 18,
-            "appletPopup": true,
-            "hidden": false,
-            "active": true,
-            "geometry": {
-              "x": 1560,
-              "y": 32,
-              "width": 360,
-              "height": 558
-            }
-          }
-        ],
-        "sha256": "1c33df4ef594efd061431ec8182b2a7e42b01f6fb09cdab51341e5c6bdc85934",
-        "defaults": {
-          "wallpaper": "MacGoldenGate",
-          "launcher_preset": 2
-        },
-        "icons": "MacTahoeLiquidKde-Icons-Regular-Dark",
-        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
-      },
-      "user_approved": true
-    },
-    "previews/readme-golden-gate-light-control-d425d239fc07.webp": {
-      "sha256": "d425d239fc07136d6a76487e72998f73ffb0fc77c08d6fb7dd3e44abf5c71f15",
-      "source_sha256": "2faa0d4dc6f42823596fb2a26e363dd2e388b7a5bed3479f11d739cddf159e0b",
-      "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
-      "replaces": "src/screenshots/control-center-light-d2f802aa2080.webp",
-      "crop": [
-        3092,
-        64,
-        3840,
-        1208
-      ],
-      "export_size": [
-        748,
-        1144
-      ],
-      "capture": {
-        "source_commit": "bcbe83a5182a9f30e49195e5d605c40ae46b3c85",
-        "edition": "golden-gate",
-        "mode": "light",
-        "case": "control",
-        "before": [
-          {
-            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 1,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          {
-            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 32
-            }
-          },
-          {
-            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 614,
-              "y": 996,
-              "width": 692,
-              "height": 84
-            }
-          },
-          {
-            "id": "{ba54db6e-4ae3-4658-9087-4912a431a20f}",
-            "caption": "mttkde-control-center",
-            "resourceClass": "org.kde.plasmashell",
-            "type": 18,
-            "appletPopup": true,
-            "hidden": false,
-            "active": true,
-            "geometry": {
-              "x": 1560,
-              "y": 32,
-              "width": 360,
-              "height": 558
-            }
-          }
-        ],
-        "after": [
-          {
-            "id": "{c8ac3ef7-5173-4b86-9fa5-fc50db7f2a13}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 1,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          {
-            "id": "{c49d71b4-556d-4ab6-8ec9-2b792f06e94a}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 0,
-              "y": 0,
-              "width": 1920,
-              "height": 32
-            }
-          },
-          {
-            "id": "{2aa871f0-07b5-4a84-adf7-5fed2e39b717}",
-            "caption": "",
-            "resourceClass": "plasmashell",
-            "type": 2,
-            "appletPopup": false,
-            "hidden": false,
-            "active": false,
-            "geometry": {
-              "x": 614,
-              "y": 996,
-              "width": 692,
-              "height": 84
-            }
-          },
-          {
-            "id": "{ba54db6e-4ae3-4658-9087-4912a431a20f}",
-            "caption": "mttkde-control-center",
-            "resourceClass": "org.kde.plasmashell",
-            "type": 18,
-            "appletPopup": true,
-            "hidden": false,
-            "active": true,
-            "geometry": {
-              "x": 1560,
-              "y": 32,
-              "width": 360,
-              "height": 558
-            }
-          }
-        ],
-        "sha256": "2faa0d4dc6f42823596fb2a26e363dd2e388b7a5bed3479f11d739cddf159e0b",
-        "defaults": {
-          "wallpaper": "MacGoldenGate",
-          "launcher_preset": 2
-        },
-        "icons": "MacTahoeLiquidKde-Icons-Regular-Light",
-        "effect": "a4a55b2f39b8b7fa42903c622bcf18d113847b624874d88af15a38f81e67ea99"
-      },
-      "user_approved": true
-    },
     "previews/readme-golden-gate-dark-launcher-712dc1c90d16.webp": {
       "sha256": "712dc1c90d16df29b0187ab1fd5eee8ddebd2ffb746c9b9d4ada0648642746eb",
       "source_sha256": "cf62ac2e7e97bbbc74d25b314643784ced96c6d70ab07836c44f21e8429e774c",
@@ -3604,6 +3296,192 @@
           "org.kde.haruna.desktop"
         ]
       }
+    },
+    "previews/readme-golden-gate-light-control-baf0ad74963a.webp": {
+      "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+      "source_sha256": "b78221917c9a5c18dc153a18b83e4d8d600830d41db09d629f59f22f9525f625",
+      "sha256": "baf0ad74963a33ddc6999f1c33820aac5409dd57f2f580fe13f18f413fa0af88",
+      "crop": [
+        3092,
+        64,
+        3840,
+        1208
+      ],
+      "export_size": [
+        748,
+        1144
+      ],
+      "capture": {
+        "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "control-center",
+        "window": {
+          "id": "{a314131c-4c1b-4d57-bfd0-b1cb291d4a7d}",
+          "caption": "mttkde-control-center",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1560,
+            "y": 32,
+            "width": 360,
+            "height": 558
+          }
+        },
+        "backend": "Wayland",
+        "installed": [
+          "e80c19c1f9846fc9ac6a1d286f37f69f85ebda3f1ec222d819a5a0fd4611dbea  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/PanelCalendar.qml",
+          "13f671fa3ea295ec021b47892a9f1d043379939d3dd8acb80e0e9e879793c78f  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/StatusTrayStyle.qml",
+          "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114",
+          "plasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+        ],
+        "source_image": "component crop",
+        "capture_date_in_guest": "2026-09-09"
+      },
+      "user_approved": true,
+      "replaces": "src/screenshots/previews/readme-golden-gate-light-control-d425d239fc07.webp"
+    },
+    "previews/readme-golden-gate-dark-control-6e06a001687d.webp": {
+      "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+      "source_sha256": "f70efe35cc6192daf929785d5b9ad667741d20aa68d49896c3f7e9b75a283d83",
+      "sha256": "6e06a001687d6f9d4191804cc32ae78543abb7fa4853a03aae15598dbf902477",
+      "crop": [
+        3092,
+        64,
+        3840,
+        1208
+      ],
+      "export_size": [
+        748,
+        1144
+      ],
+      "capture": {
+        "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "control-center",
+        "window": {
+          "id": "{19fc1bf5-556c-417c-a3e4-4e6d7ae435e6}",
+          "caption": "mttkde-control-center",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1560,
+            "y": 32,
+            "width": 360,
+            "height": 558
+          }
+        },
+        "backend": "Wayland",
+        "installed": [
+          "e80c19c1f9846fc9ac6a1d286f37f69f85ebda3f1ec222d819a5a0fd4611dbea  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/PanelCalendar.qml",
+          "13f671fa3ea295ec021b47892a9f1d043379939d3dd8acb80e0e9e879793c78f  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/StatusTrayStyle.qml",
+          "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114",
+          "plasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+        ],
+        "source_image": "component crop",
+        "capture_date_in_guest": "2026-09-09"
+      },
+      "user_approved": true,
+      "replaces": "src/screenshots/previews/readme-golden-gate-dark-control-f133d3ca84d9.webp"
+    },
+    "previews/readme-golden-gate-light-calendar-da11ddb163dd.webp": {
+      "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+      "source_sha256": "dcff02ea55bb46a473525d924beda646edf0e3eddb8b951e9f2cdc2fe2915418",
+      "sha256": "da11ddb163dda2a4582354ee22ac8c525af6473d5e26169f88dd2775a66ecd54",
+      "crop": [
+        3512,
+        64,
+        3840,
+        392
+      ],
+      "export_size": [
+        328,
+        328
+      ],
+      "capture": {
+        "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+        "edition": "golden-gate",
+        "mode": "light",
+        "case": "calendar",
+        "window": {
+          "id": "{c92f3f87-1e9d-4f75-b996-efb56c7d4385}",
+          "caption": "mttkde-calendar",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1756,
+            "y": 32,
+            "width": 164,
+            "height": 164
+          }
+        },
+        "backend": "Wayland",
+        "installed": [
+          "e80c19c1f9846fc9ac6a1d286f37f69f85ebda3f1ec222d819a5a0fd4611dbea  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/PanelCalendar.qml",
+          "13f671fa3ea295ec021b47892a9f1d043379939d3dd8acb80e0e9e879793c78f  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/StatusTrayStyle.qml",
+          "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114",
+          "plasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+        ],
+        "source_image": "component crop",
+        "capture_date_in_guest": "2026-09-09"
+      },
+      "user_approved": true
+    },
+    "previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp": {
+      "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+      "source_sha256": "ed9a39866c3598e3e5a1bd3451458daeee20816123de81d78eafe70bb39c6d97",
+      "sha256": "b3f7a533c20e9786dd8d498ad0436c1e65570a1ed4e5125e0956b461dd28bff5",
+      "crop": [
+        3512,
+        64,
+        3840,
+        392
+      ],
+      "export_size": [
+        328,
+        328
+      ],
+      "capture": {
+        "source_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
+        "edition": "golden-gate",
+        "mode": "dark",
+        "case": "calendar",
+        "window": {
+          "id": "{2c6616e2-62d4-4e86-b76b-72b660a078df}",
+          "caption": "mttkde-calendar",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1756,
+            "y": 32,
+            "width": 164,
+            "height": 164
+          }
+        },
+        "backend": "Wayland",
+        "installed": [
+          "e80c19c1f9846fc9ac6a1d286f37f69f85ebda3f1ec222d819a5a0fd4611dbea  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/PanelCalendar.qml",
+          "13f671fa3ea295ec021b47892a9f1d043379939d3dd8acb80e0e9e879793c78f  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/StatusTrayStyle.qml",
+          "kwin-wayland\t4:6.8.1-0zneon+24.04+noble+release+build114",
+          "plasma-workspace\t4:6.8.1-0zneon+24.04+noble+release+build100"
+        ],
+        "source_image": "component crop",
+        "capture_date_in_guest": "2026-09-09"
+      },
+      "user_approved": true
     }
   },
   "missing": [],

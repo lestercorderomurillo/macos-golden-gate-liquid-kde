@@ -1,6 +1,6 @@
 # Installer testing
 
-Golden Gate **v0.73.31** sets the Golden Gate About gradient center to 65% opacity at 30% of the window height. Verified in a KDE neon Wayland session. [Evidence and coverage](release-evidence.json).
+Golden Gate **v0.73.32** was verified on KDE neon with Plasma 6.8.1 on Wayland. Light and dark captures show the panel calendar and Control Center. Both editions use the same 25 Control Center material settings. [Evidence and coverage](release-evidence.json).
 
 Approved installer previews: [Light](src/screenshots/previews/installer-golden-gate-light-icons-03fa4b14b92f.png) · [Dark](src/screenshots/previews/installer-golden-gate-dark-icons-42546edab93e.png). The gallery below is historical and predates these installer changes; its original [provenance](src/screenshots/release-capture.json) is retained.
 

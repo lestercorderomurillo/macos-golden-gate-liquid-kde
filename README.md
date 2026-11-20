@@ -278,6 +278,12 @@ Quick access to system settings, apps and session controls.
   <img src="src/screenshots/previews/readme-golden-gate-dark-menu-0f97edd728d0.webp" alt="System menu in dark mode" width="415">
 </p>
 
+<p align="center">
+  <strong>Panel calendar</strong><br>
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-da11ddb163dd.webp" alt="Panel calendar" width="164">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp" alt="Panel calendar" width="164">
+</p>
+
 <br>
 
 ### Golden Gate Control Center (Alpha)
@@ -285,8 +291,8 @@ Quick access to system settings, apps and session controls.
 Wi-Fi, sound, brightness and notifications in one glass menu. Updates will come very soon.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-d425d239fc07.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-f133d3ca84d9.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-6e06a001687d.webp" alt="Control Center in dark mode" width="415">
 </p>
 
 <br>

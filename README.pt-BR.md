@@ -278,6 +278,12 @@ Acesso rápido às configurações do sistema, aplicativos e controles de sessã
   <img src="src/screenshots/previews/readme-golden-gate-dark-menu-0f97edd728d0.webp" alt="System menu in dark mode" width="415">
 </p>
 
+<p align="center">
+  <strong>Calendário do painel</strong><br>
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-da11ddb163dd.webp" alt="Calendário do painel" width="164">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp" alt="Calendário do painel" width="164">
+</p>
+
 <br>
 
 ### Golden Gate Central de Controle (Alpha)
@@ -285,8 +291,8 @@ Acesso rápido às configurações do sistema, aplicativos e controles de sessã
 Wi-Fi, som, brilho e notificações em um menu de vidro. As atualizações chegarão muito em breve.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-d425d239fc07.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-f133d3ca84d9.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp" alt="Control Center in light mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-6e06a001687d.webp" alt="Control Center in dark mode" width="415">
 </p>
 
 <br>

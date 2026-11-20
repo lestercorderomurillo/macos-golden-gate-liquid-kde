@@ -1,30 +1,45 @@
 {
-  "version": "0.73.31",
-  "implementation_commit": "335248d5331c3c5a1ae9c80bf6cd029c56478aee",
+  "version": "0.73.32",
+  "implementation_commit": "c6c1acb245237ffdaf6bb98462e5d72d2ebe2a64",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Golden Gate About gradient center opacity and position.",
+  "scope": "Panel month card and identical Control Center material settings across editions.",
   "checks": [
     {
-      "command": "Install Golden Gate in a disposable KDE neon guest, switch to dark mode, verify the entire installed About material matches the saved values including center opacity 0.65 and position 0.30, launch About and capture the composited desktop with Spectacle.",
+      "command": "scene.widget(\"digitalclock\"), scene.shot(\"popups\") and scene.shot(\"control-center\") in each edition and mode",
       "result": "passed",
-      "detail": "Reviewed capture from 6b738975. The integrated globalmenu files and effective Golden Gate About preset match that candidate."
+      "detail": "Reviewed light and dark VM captures from the actual calendar and Control Center windows."
     },
     {
-      "command": "check_pair.py --archive and comparison of published Tahoe archive members",
-      "result": "passed"
+      "command": "kreadconfig6 --file kwinrc --group Effect-liquidglass --key ComponentMaterials",
+      "result": "passed",
+      "detail": "All 25 installed Control Center settings match in both editions and match the integrated preset defaults."
     }
   ],
-  "reviewed_frames": [
+  "captures": [
     {
-      "frame": "about-dark.png",
-      "sha256": "da4a2388fb58de9b2460b65743c914f8acfe6ff5dbc2b61cb5267f1acf1b5fd5",
-      "source_commit": "6b738975574ffa367eb5f4afb12113f2a17c7468",
-      "edition": "golden-gate"
+      "path": "src/screenshots/previews/readme-golden-gate-light-control-baf0ad74963a.webp",
+      "sha256": "baf0ad74963a33ddc6999f1c33820aac5409dd57f2f580fe13f18f413fa0af88",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-dark-control-6e06a001687d.webp",
+      "sha256": "6e06a001687d6f9d4191804cc32ae78543abb7fa4853a03aae15598dbf902477",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-calendar-da11ddb163dd.webp",
+      "sha256": "da11ddb163dda2a4582354ee22ac8c525af6473d5e26169f88dd2775a66ecd54",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-dark-calendar-b3f7a533c20e.webp",
+      "sha256": "b3f7a533c20e9786dd8d498ad0436c1e65570a1ed4e5125e0956b461dd28bff5",
+      "reviewed": true
     }
   ],
-  "approval": "Maintainer confirmed seeing the updated gradient and requested publication.",
+  "approval": "Maintainer approved the eight localhost preview photographs for paired publication.",
   "coverage_limits": [
-    "Focused visual check covers Golden Gate About in dark mode on KDE neon Wayland."
+    "KDE neon, Plasma 6.8.1, Wayland. The approved component captures predate the independent About and launcher-scrollbar releases. Component QML fingerprints and effective Control Center settings match the integrated sources."
   ],
-  "source_sha256": "e0a5a41af974ed2462563eee2974b17192262b6814edd73965944dca66e81a56"
+  "source_sha256": "0bf96b2fa876e352896efd895d661def360c74f2ef586851104c7ada831ed5be"
 }
