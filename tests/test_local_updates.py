@@ -192,6 +192,27 @@ def test_incomplete_development_sibling_is_not_silently_replaced(release_pair):
     assert not release_pair[-2]
 
 
+@pytest.mark.parametrize('target', ['wrapper', 'sibling'])
+def test_blocked_update_identifies_source_and_bounds_file_list(release_pair, target, capsys):
+    wrapper, sibling, remote, old, new, fetches, restarts = release_pair
+    root = wrapper if target == 'wrapper' else sibling
+    for index in range(12):
+        (root / f'local-{index:02}.txt').write_text('unfinished work')
+    git(root, 'config', 'status.showUntrackedFiles', 'no')
+    if target == 'wrapper':
+        bootstrap.update_wrapper('installer', [])
+    else:
+        bootstrap.update_local_source('installer', [])
+    output = capsys.readouterr().out
+    assert f'Keeping local source at {root}: 12 local change(s)' in output
+    assert '?? local-00.txt' in output and '?? local-07.txt' in output
+    assert 'local-08.txt' not in output and 'and 4 more' in output
+    assert 'status --short --untracked-files=all' in output
+    assert 'never reset or stashed automatically' in output
+    assert git(root, 'rev-parse', 'HEAD') == old
+    assert not fetches and not restarts
+
+
 def test_developer_launch_stages_local_work_instead_of_new_release(release_pair, monkeypatch):
     wrapper, sibling, remote, old, new, fetches, restarts = release_pair
     (wrapper / 'bootstrap.py').write_text('# wrapper experiment\n')

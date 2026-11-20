@@ -9,6 +9,7 @@ from pathlib import Path, PurePosixPath
 import posixpath
 import pwd
 import re
+import shlex
 import shutil
 import subprocess
 import sys
@@ -393,8 +394,21 @@ def _update_checkout(root: Path, repository: str, label: str) -> bool:
     available = f"{label} {latest} is available (local v{current})."
     release_url = f"https://github.com/{repository}/releases/tag/{latest}"
     if not _clean_checkout(root):
-        print(f"{available} Keeping local source: changes present or not a clean git checkout. "
+        git = _git if root == ROOT else lambda *args: _git(*args, root=root)
+        status = git("status", "--porcelain", "--untracked-files=all")
+        changes = status.stdout.splitlines() if status is not None and status.returncode == 0 else []
+        reason = (f"{len(changes)} local change(s)" if changes
+                  else "could not verify a clean checkout")
+        print(f"{available} Keeping local source at {root}: {reason}. "
               f"{release_url}", flush=True)
+        for change in changes[:8]:
+            print(f"  {change}", flush=True)
+        if len(changes) > 8:
+            print(f"  … and {len(changes) - 8} more", flush=True)
+        print(f"Inspect with: git -C {shlex.quote(str(root))} status --short --untracked-files=all\n"
+              "Automatic updates resume after local work is preserved separately and this checkout "
+              "is clean and can fast-forward to the release. Local work is never reset or stashed "
+              "automatically.", flush=True)
         return False
 
     git = _git if root == ROOT else lambda *args: _git(*args, root=root)
