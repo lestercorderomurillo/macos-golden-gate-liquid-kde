@@ -297,6 +297,17 @@ Wi-Fi, sonido, brillo y notificaciones en un menú de cristal. Las actualizacion
 
 <br>
 
+### Golden Gate Notificaciones (Alpha)
+
+Banners de cristal e historial agrupado con acciones de las aplicaciones y respuestas directas.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="Notificaciones en modo claro" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="Notificaciones en modo oscuro" width="415">
+</p>
+
+<br>
+
 ### Golden Gate Historial del portapapeles (Alpha)
 
 Encuentra y reutiliza texto e imágenes copiados directamente desde Launchpad.

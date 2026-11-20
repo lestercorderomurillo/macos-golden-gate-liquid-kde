@@ -297,6 +297,17 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。更新即将到
 
 <br>
 
+### Golden Gate 通知 (Alpha)
+
+玻璃质感的通知横幅和分组历史记录，支持应用操作和直接回复。
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="通知 （浅色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="通知 （深色模式）" width="415">
+</p>
+
+<br>
+
 ### Golden Gate 剪贴板历史 (Alpha)
 
 直接在 Launchpad 中查找并复用复制的文字和图片。

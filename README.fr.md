@@ -297,6 +297,17 @@ Wi-Fi, son, luminosité et notifications dans un menu en verre. Des mises à jou
 
 <br>
 
+### Golden Gate Notifications (Alpha)
+
+Bannières en verre et historique groupé avec actions des applications et réponses directes.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="Notifications en mode clair" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="Notifications en mode sombre" width="415">
+</p>
+
+<br>
+
 ### Golden Gate Historique du presse-papiers (Alpha)
 
 Retrouvez et réutilisez le texte et les images copiés directement depuis Launchpad.

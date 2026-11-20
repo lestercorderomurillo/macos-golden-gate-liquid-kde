@@ -297,6 +297,17 @@ WLAN, Klang, Helligkeit und Benachrichtigungen in einem Glasmenü. Aktualisierun
 
 <br>
 
+### Golden Gate Benachrichtigungen (Alpha)
+
+Gläserne Banner und ein gruppierter Verlauf unterstützen App-Aktionen und direkte Antworten.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="Benachrichtigungen im hellen Modus" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="Benachrichtigungen im dunklen Modus" width="415">
+</p>
+
+<br>
+
 ### Golden Gate Zwischenablageverlauf (Alpha)
 
 Kopierte Texte und Bilder direkt im Launchpad finden und wiederverwenden.

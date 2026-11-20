@@ -297,6 +297,17 @@ Wi-Fi, som, brilho e notificações em um menu de vidro. As atualizações chega
 
 <br>
 
+### Golden Gate Notificações (Alpha)
+
+Banners de vidro e histórico agrupado com ações dos aplicativos e respostas diretas.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-4b186effaea3.webp" alt="Notificações no modo claro" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-a9b550719838.webp" alt="Notificações no modo escuro" width="415">
+</p>
+
+<br>
+
 ### Golden Gate Histórico da área de transferência (Alpha)
 
 Encontre e reutilize textos e imagens copiados diretamente pelo Launchpad.
