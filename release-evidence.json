@@ -1,36 +1,34 @@
 {
-  "version": "0.76.3",
+  "version": "0.76.4",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Settled-window adaptive text with regional background sampling and a one-second transition.",
-  "approval": "Maintainer approved the two recorded movement previews before paired publication.",
+  "scope": "150 ms settle delay and 500 ms text transition. Each About window uses one center reference. Other adaptive surfaces keep regional contrast.",
+  "approval": "Maintainer approved the paired About previews and the recorded Dolphin transition for publication.",
   "checks": [
     {
-      "command": "Record rapid About window drags over a split background in a disposable KDE neon Wayland guest; measure title luminance frame by frame",
-      "result": "passed",
+      "command": "Real About This Computer and About Dolphin from the installed global menu over a split desktop. The final QML, panel applet and native launcher module were rebuilt from the candidate sources in a clean directory. Recorded the actual compositor drag and return.",
+      "source_commit": "1921ea2674f125da5a0228e0c4dfe4f135c62cdf",
       "edition": "golden-gate",
-      "source_commit": "fb2334f192f2f5e27f37eabf8ef498ebcdab3e42",
-      "preview": "golden-gate.mp4"
+      "result": "passed"
     },
     {
-      "command": "pytest tests/test_launcher_presets.py::test_control_center_native_x11_render tests/test_screenshots.py::test_about_drag_uses_compositor_move",
+      "command": "pytest tests/test_application_about.py tests/test_screenshots.py::test_about_labels_and_surface_follow_appearance",
       "result": "passed",
-      "output": "2 passed",
-      "source_commit": "fb2334f192f2f5e27f37eabf8ef498ebcdab3e42"
+      "output": "10 passed",
+      "source_commit": "1921ea2674f125da5a0228e0c4dfe4f135c62cdf"
     },
     {
-      "command": "nix build #global-menu (including task-manager)",
-      "result": "passed",
-      "source_commit": "fb2334f192f2f5e27f37eabf8ef498ebcdab3e42"
+      "command": "Build Acrylic Glass with KWin 6.6.5, 6.7.5 and 6.8.2; load the 6.6.5 module in an isolated X11 session",
+      "result": "passed"
     },
     {
-      "command": "Reverse the wallpaper with Control Center and the Apple menu open in the Golden Gate Wayland guest",
+      "command": "pytest tests/test_desktop_controls.py::test_desktop_controls_native_state_and_actions tests/test_launcher_presets.py::test_control_center_glass_regions",
       "result": "passed",
-      "source_commit": "fb2334f192f2f5e27f37eabf8ef498ebcdab3e42"
+      "output": "3 passed in 24.37s"
     },
     {
-      "command": "check_pair.py --archive and python3 -m pytest -q tests",
+      "command": "check_pair.py --archive and pytest tests",
       "result": "passed",
-      "output": "118 passed in 1.44s"
+      "output": "118 passed in 1.50s"
     }
   ],
   "captures": [
@@ -98,10 +96,15 @@
     }
   ],
   "coverage_limits": [
-    "Frame timing was measured in About on Wayland. X11 coverage exercised native Control Center rendering. The existing README and installer photographs retain their historical provenance."
+    "Both About windows were captured on KDE neon Wayland. Frame luminance was measured in Golden Gate. X11 coverage included module loading and Control Center rendering. Historical gallery images retain their original provenance."
   ],
-  "source_sha256": "5a8ac1656e37fec485ca5d2a24d6259152c72b8845496ecb2407990a7ccb78fe",
+  "source_sha256": "8f74cfaaf3ba952bfacb9cb3098376ea80e67007c39738582bdc145f684f98ff",
   "reviewed_preview_sha256": {
-    "golden-gate.mp4": "971fbe7b0655ae3254c814a9c13141718a4b08f6d45c949c646f43a2fc144bdc"
+    "equipo-centro-claro.png": "c2a7f4e9e83b36fcbdf6e07e998202392e746b0e8980f084bd234cddda3c4f16",
+    "equipo-centro-oscuro.png": "d10bbe80cf2dd12e0a43671c35ad953045d9d90089560d827b2d987318423cdc",
+    "app-centro-claro.png": "03d2155e435d8f2711125ffc04587f3e6832d668c78d739edcba691a1cb07278",
+    "app-centro-oscuro.png": "d314974fbe4db667f030f23ae545af8e4c325c0527084234e24a3e68c51e0b2b",
+    "transicion-dolphin.mp4": "93f52035b56a1a15a07679a6e0f0ca34ac38e40c0d7de3a5940ee536fcd17433",
+    "golden-gate-animation.json": "5b4a73adcd842964087b76f338eb90647ac9fc49e92bef25a6dd91b48a967823"
   }
 }
