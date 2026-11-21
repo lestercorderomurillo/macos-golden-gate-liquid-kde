@@ -1,105 +1,46 @@
 {
-  "version": "0.76.5",
+  "version": "0.76.6",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Adaptive text contrast includes the glass material and client fill. Movement settles for 50 ms and text transitions over 250 ms.",
-  "approval": "Maintainer approved the fixed-backdrop surface comparisons and the recorded transition for paired publication.",
+  "scope": "Bluetooth menu bar applet and status icon order.",
+  "approval": "Maintainer approved the final Tahoe and Golden Gate menu bar previews in chat.",
   "checks": [
     {
-      "command": "Dark desktop, fixed backdrop and About window geometry. Change the saved About material stops from dark to translucent white. Compare the same title strokes after each surface change.",
-      "source_commit": "188a1764462030cd1e1e8a05346909e55b7e2132",
-      "edition": "golden-gate",
-      "result": "passed"
-    },
-    {
-      "command": "pytest tests/test_glass_presets.py::test_native_glass_shader_pixels tests/test_desktop_controls.py::test_desktop_controls_native_state_and_actions",
-      "source_commit": "a068b09de79a3ad8798912c5a853577d3894a8ba",
-      "output": "2 passed in 32.54s",
-      "result": "passed"
-    },
-    {
-      "command": "KWin 6.6.5 X11 effect module built and loaded, 6.7.5 and 6.8.2 Wayland effect modules built",
-      "source_commit": "188a1764462030cd1e1e8a05346909e55b7e2132",
-      "result": "passed"
-    },
-    {
-      "command": "check_pair.py --archive and pytest tests",
+      "command": "pytest -q tests/test_dock_defaults.py tests/test_localization.py tests/test_component_cache.py tests/test_plasmoids_step.py",
       "result": "passed",
-      "output": "118 passed in 1.44s"
+      "output": "75 passed; 43 layout tests also passed after the migration adjustment."
+    },
+    {
+      "command": "KDE neon disposable Plasma session: open the panel applet and capture both appearances; verify panel widget positions.",
+      "result": "passed",
+      "edition": "golden-gate"
+    },
+    {
+      "command": "Click device rows and power switch with BlueZ D-Bus fixture. Check Connect, Disconnect and Adapter1.Powered in the Tahoe VM; run the migration twice and check user removal on Golden Gate.",
+      "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp",
-      "sha256": "f4c19532b2b6bddfa9b0231578a1cd0b826ff6e98704c222e7ebd58476bdeae4",
-      "source_commit": "7f3b34178adda1be1218fbe0b2eccc8998971c7b",
+      "path": "src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp",
+      "sha256": "2f61dbd5b4c02f3d3f292b345cfe2672ae2002a0306cec72fc4142ed0dae637e",
+      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
+      "edition": "golden-gate",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp",
-      "sha256": "a210d9bfc206767b61d118f402ee9231558262783e24d0544339c047769add96",
-      "source_commit": "7f3b34178adda1be1218fbe0b2eccc8998971c7b",
+      "path": "src/screenshots/previews/readme-golden-gate-dark-bluetooth-07b4c7a92162.webp",
+      "sha256": "07b4c7a92162b02fe5a1067d2853bb0f2f54e5f7b696feb36f04bc4eb89b2f19",
+      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
+      "edition": "golden-gate",
       "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp",
-      "sha256": "d0681f7df17372b3df5b261445e47d80983a95a3ecf1dc75ddb6fe049711e686",
-      "source_commit": "f4e15238718fc7aab116f1c7d23f3377d31d823b",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp",
-      "sha256": "da9772cd7a44286a09e8aaec86b177dc795980eff4d306b7f45e519fd4d00a3a",
-      "source_commit": "f4e15238718fc7aab116f1c7d23f3377d31d823b",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/golden-gate-dock-3729ada5796f.gif",
-      "sha256": "3729ada5796fb55ca0046f84b3715f3bcc048be19dc0606b2a1a43f546f167b9",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/acrylic-glass-dynamic-tinting-c13767e72b64.png",
-      "sha256": "c13767e72b648e38bc92e49005378616cca5f80e3a639f8f979d5a591fe27c0d",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp",
-      "sha256": "297e9c7ea2128d6944a5e443f7698afb24398c63d7e4215d40545e24d5b5b4af",
-      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
-      "reviewed": true,
-      "edition": "golden-gate"
-    },
-    {
-      "path": "src/screenshots/previews/wizard-golden-gate-light-summary-63395741a68b.webp",
-      "sha256": "63395741a68b97a488653605340e5163c96056f277693d310f57fc0870c68838",
-      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
-      "reviewed": true,
-      "edition": "golden-gate"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp",
-      "sha256": "00f124f6732c2b1f63687ffcadac18315bf65830fed7bb94f4bda800115e8c7c",
-      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
-      "reviewed": true,
-      "edition": "golden-gate"
-    },
-    {
-      "path": "src/screenshots/previews/wizard-golden-gate-dark-summary-7a2eed152c66.webp",
-      "sha256": "7a2eed152c66880e279cdd7ec56f8830bb0c0f13bcdf094462f9e6a01c4f439a",
-      "source_commit": "1c4a227f1b81428d88435d9b64be7d6bf4a5bd84",
-      "reviewed": true,
-      "edition": "golden-gate"
     }
   ],
   "coverage_limits": [
-    "The installed About window was captured in both editions on KDE neon Wayland. The transition recording is from Golden Gate. X11 qualification covered native shader pixels and effect loading. Existing gallery images retain their original provenance."
+    "Paired devices and battery reports are simulated through BlueZ. No physical Bluetooth peripheral was exercised."
   ],
-  "source_sha256": "3577d9b90ee0a55f7fc1bd4f423ef05769a2bf825598f96818005373b3c8048f",
+  "source_sha256": "9d1070a099275f61ccd6873ead977448419a33ee5cae525e5636f2d8bbaa83b9",
   "reviewed_preview_sha256": {
-    "golden-gate/cristal-oscuro.png": "f9297d2c1fdf75ca8473110f8d0ecdce1beb9f92bb1b9c413b5bd12edc80142a",
-    "golden-gate/cristal-claro.png": "a4a20eb414fb2d5770320380a80bd304e16eda7b6d2f544383deb4b2cb40b18c",
-    "golden-gate/cristal-gris.png": "ccf1d07329ef75ef0310254f3247f3b48271887d4ec4a20bb1ec808ababfc6a1",
-    "transicion.mp4": "5e49dedb37197d97f51c0addb6fe1fae2143553957361ccbe6f785152614f2ad",
-    "animacion-medida.json": "1a116500a23eb4dab741e555df0c994b2823f39f0c41098688f473441c14ad88"
+    "light.png": "1bc94a27a12def296c6c0709f3286f4e749c621dd7a318fac83a07469e7264f0",
+    "dark.png": "dbf508e0485c9d524834599e5b96fcba3a596fb452c0f643c285fe646a1c763e"
   }
 }
