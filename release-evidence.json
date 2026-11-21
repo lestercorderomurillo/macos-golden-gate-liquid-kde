@@ -1,31 +1,34 @@
 {
-  "version": "0.76.7",
+  "version": "0.76.8",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Panel status icons follow the Plasma foreground color.",
-  "approval": "Maintainer approved the corrected dark previews for both editions.",
+  "scope": "Dock visibility, display switching and menu bar geometry.",
+  "approval": "Maintainer approved integration and publication after visual review.",
   "checks": [
     {
-      "command": "Open the Bluetooth applet in the installed Plasma panel on KDE neon. Switch appearance and capture the light and dark menu with edition defaults.",
+      "command": "Run the native installer in a KDE neon Wayland VM. Inspect the installed Dock and open the visibility selector.",
       "edition": "golden-gate",
-      "source_commit": "e89ae1fac2937024060c7a535b6d99982bb575e1",
+      "source_commit": "b3799c126a942b2e2affacf8e924b79fe4750f47",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp",
-      "sha256": "870052f87ad9b38b0ad453aee2199f8131bf1ea4f0ea83bc4cc46f6b41a1ce3f",
-      "source_commit": "e89ae1fac2937024060c7a535b6d99982bb575e1",
+      "path": "docs/evidence/dock-menubar-0768/installer.png",
+      "sha256": "c72647f3ff1f71375cd748d72b3e1b8ac5c4014bbf1b6c67a2c124a07a477f93",
+      "source_commit": "b3799c126a942b2e2affacf8e924b79fe4750f47",
+      "edition": "golden-gate",
+      "reviewed": true
+    },
+    {
+      "path": "docs/evidence/dock-menubar-0768/menubar.png",
+      "sha256": "6c554d03bfb573c5d780d3941ca81ffd44c5b41e6b0c694a806a9f1e7f1b32ff",
+      "source_commit": "dcec9d91be65d61aaaa9ea19527eb065a41463bb",
       "edition": "golden-gate",
       "reviewed": true
     }
   ],
   "coverage_limits": [
-    "Visual checks used the default edition wallpapers and simulated Bluetooth devices in KDE neon Wayland."
+    "Multi-output and keep-layout reinstall exercised in Tahoe. Golden Gate uses the same panel implementation."
   ],
-  "source_sha256": "64b9676a797b571d5b3633680cecd8d8ffbd95567f4270d2d77455fcb53f7b53",
-  "reviewed_preview_sha256": {
-    "dark.png": "0c9985efe7faa2a060fab44dc39d70ba498bf246724ff4512b1d5fa45aa6f8dd",
-    "light.png": "e198126745439dd3a801feb707fc0b86828e166ff8234f6e9dbda5c9d5097d31"
-  }
+  "source_sha256": "db534bb0b26e061d17f2089f24e47f118f025b4a2bd8474a551b7f02246a9f3d"
 }
