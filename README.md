@@ -226,7 +226,7 @@ Connect paired devices and check their battery level from the menu bar.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Light Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-07b4c7a92162.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
 </p>
 
 ### Golden Gate Wi-Fi (Alpha)
