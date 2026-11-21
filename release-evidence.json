@@ -1,27 +1,23 @@
 {
-  "version": "0.76.9",
+  "version": "0.76.10",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Segmented Dock visibility selector. New installations use auto-hide.",
-  "approval": "Maintainer requested publication after green CI.",
+  "scope": "Golden Gate release reporting and prepared cache reuse; paired Tahoe version.",
+  "approval": "Maintainer requested the updater fixes and release.",
   "checks": [
     {
-      "command": "Click each visibility segment in the native Qt installer, check exclusive selection, disable and re-enable the Dock, and re-render the page.",
+      "command": "python -m pytest -q tests",
       "edition": "golden-gate",
-      "source_commit": "2da390b37cdd25ed90b8673ef117fcf7db568e4c",
+      "result": "passed"
+    },
+    {
+      "command": "Run ./install --check-update from an older wrapper version against GitHub. Run ./installer --prepare online, block HTTPS and repeat it. Compare the prepared paths.",
+      "edition": "golden-gate",
       "result": "passed"
     }
   ],
-  "captures": [
-    {
-      "path": "docs/evidence/dock-visibility-0769/installer.png",
-      "sha256": "52fe93bd6ec5b3da4fb719dfb283b266accb021f3cb5932bf62f9b511a6a9207",
-      "source_commit": "2da390b37cdd25ed90b8673ef117fcf7db568e4c",
-      "edition": "golden-gate",
-      "reviewed": true
-    }
-  ],
+  "captures": [],
   "coverage_limits": [
-    "Native UI previews captured offscreen in Spanish."
+    "Offline reuse requires previously prepared sources. Tests did not install a theme into a desktop session."
   ],
-  "source_sha256": "e50946273755021f7a6ad9405d92097294d10a381889c0514e8a4360e3cd8888"
+  "source_sha256": "c3e5ae85b86a37a331b5c277bf7f387e82efcb1dee24991606b7def39ef752d5"
 }
