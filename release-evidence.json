@@ -1,46 +1,31 @@
 {
-  "version": "0.76.6",
+  "version": "0.76.7",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Bluetooth menu bar applet and status icon order.",
-  "approval": "Maintainer approved the final Tahoe and Golden Gate menu bar previews in chat.",
+  "scope": "Panel status icons follow the Plasma foreground color.",
+  "approval": "Maintainer approved the corrected dark previews for both editions.",
   "checks": [
     {
-      "command": "pytest -q tests/test_dock_defaults.py tests/test_localization.py tests/test_component_cache.py tests/test_plasmoids_step.py",
-      "result": "passed",
-      "output": "75 passed; 43 layout tests also passed after the migration adjustment."
-    },
-    {
-      "command": "KDE neon disposable Plasma session: open the panel applet and capture both appearances; verify panel widget positions.",
-      "result": "passed",
-      "edition": "golden-gate"
-    },
-    {
-      "command": "Click device rows and power switch with BlueZ D-Bus fixture. Check Connect, Disconnect and Adapter1.Powered in the Tahoe VM; run the migration twice and check user removal on Golden Gate.",
+      "command": "Open the Bluetooth applet in the installed Plasma panel on KDE neon. Switch appearance and capture the light and dark menu with edition defaults.",
+      "edition": "golden-gate",
+      "source_commit": "e89ae1fac2937024060c7a535b6d99982bb575e1",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp",
-      "sha256": "2f61dbd5b4c02f3d3f292b345cfe2672ae2002a0306cec72fc4142ed0dae637e",
-      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
-      "edition": "golden-gate",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-bluetooth-07b4c7a92162.webp",
-      "sha256": "07b4c7a92162b02fe5a1067d2853bb0f2f54e5f7b696feb36f04bc4eb89b2f19",
-      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
+      "path": "src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp",
+      "sha256": "870052f87ad9b38b0ad453aee2199f8131bf1ea4f0ea83bc4cc46f6b41a1ce3f",
+      "source_commit": "e89ae1fac2937024060c7a535b6d99982bb575e1",
       "edition": "golden-gate",
       "reviewed": true
     }
   ],
   "coverage_limits": [
-    "Paired devices and battery reports are simulated through BlueZ. No physical Bluetooth peripheral was exercised."
+    "Visual checks used the default edition wallpapers and simulated Bluetooth devices in KDE neon Wayland."
   ],
-  "source_sha256": "9d1070a099275f61ccd6873ead977448419a33ee5cae525e5636f2d8bbaa83b9",
+  "source_sha256": "64b9676a797b571d5b3633680cecd8d8ffbd95567f4270d2d77455fcb53f7b53",
   "reviewed_preview_sha256": {
-    "light.png": "1bc94a27a12def296c6c0709f3286f4e749c621dd7a318fac83a07469e7264f0",
-    "dark.png": "dbf508e0485c9d524834599e5b96fcba3a596fb452c0f643c285fe646a1c763e"
+    "dark.png": "0c9985efe7faa2a060fab44dc39d70ba498bf246724ff4512b1d5fa45aa6f8dd",
+    "light.png": "e198126745439dd3a801feb707fc0b86828e166ff8234f6e9dbda5c9d5097d31"
   }
 }
