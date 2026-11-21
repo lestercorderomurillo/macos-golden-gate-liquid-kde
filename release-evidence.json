@@ -1,5 +1,5 @@
 {
-  "version": "0.77.0",
+  "version": "0.77.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "implementation_commit": "d12084f4d0437de9f2e2885c3be794f654b6761f",
   "scope": "Window outlines, SF Pro font selection, menu titles, tray icon sizing and the menu bar clock.",
@@ -19,6 +19,10 @@
     },
     {
       "command": "Verify the published Tahoe tag, VERSION and SHA-256 of its immutable source archive; run the Golden Gate wrapper tests.",
+      "result": "passed"
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_topbar_geometry.py (Tahoe menu delegate, horizontal Medium and vertical Normal)",
       "result": "passed"
     }
   ],
@@ -50,5 +54,5 @@
     "The optional separate upstream SDK build was skipped in the unit suite. The guest installer built and loaded Rounded Corners. The secondary outline is disabled by default; the upstream shader is unchanged.",
     "The primary CI SDK passed the controls probe. The workstation SDK emitted a pre-existing notification menu width-binding warning on the baseline and candidate."
   ],
-  "source_sha256": "2666b2c7d2bbabbed5c159633b6bd22a94b086b92f9eb2c22e7d84156f4cf177"
+  "source_sha256": "065ff8757ff1f4b050557bfbcf99b9bb8f2a9ae51190a62ff9c024f731cf73fb"
 }
