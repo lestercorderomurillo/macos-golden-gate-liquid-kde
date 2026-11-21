@@ -1,27 +1,27 @@
 {
   "version": "0.76.9",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Segmented Dock visibility selector with platform labels.",
+  "scope": "Segmented Dock visibility selector. New installations use auto-hide.",
   "approval": "Maintainer requested publication after green CI.",
   "checks": [
     {
       "command": "Click each visibility segment in the native Qt installer, check exclusive selection, disable and re-enable the Dock, and re-render the page.",
       "edition": "golden-gate",
-      "source_commit": "42e554c41743014d9265ec9ab60dea23f92dbdbd",
+      "source_commit": "2da390b37cdd25ed90b8673ef117fcf7db568e4c",
       "result": "passed"
     }
   ],
   "captures": [
     {
       "path": "docs/evidence/dock-visibility-0769/installer.png",
-      "sha256": "5ccf04bf179878505a382b0cfccc1a1b618c0af524baf6aea1f5606efda3625e",
-      "source_commit": "42e554c41743014d9265ec9ab60dea23f92dbdbd",
+      "sha256": "52fe93bd6ec5b3da4fb719dfb283b266accb021f3cb5932bf62f9b511a6a9207",
+      "source_commit": "2da390b37cdd25ed90b8673ef117fcf7db568e4c",
       "edition": "golden-gate",
       "reviewed": true
     }
   ],
   "coverage_limits": [
-    "Installer-only change. Preview captured offscreen in Spanish."
+    "Native UI previews captured offscreen in Spanish."
   ],
-  "source_sha256": "c70103dc01ed7c5854d25dac26406e8a4858d6c77fbd3c62c3c273572618ee09"
+  "source_sha256": "e50946273755021f7a6ad9405d92097294d10a381889c0514e8a4360e3cd8888"
 }
