@@ -3719,6 +3719,156 @@
         "session": "Wayland",
         "scale": 2
       }
+    },
+    "previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp": {
+      "windows": [
+        {
+          "id": "{3217f9f8-9fd5-463c-b59e-d3d265692058}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6a2db236-4307-48a7-8774-6363fb387f15}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e7bc4622-38e8-4569-bedf-9ef0e1b4bd50}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{f3f5029d-6e81-4d76-bbc0-f6c82551637f}",
+          "caption": "mttkde-bluetooth",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1577,
+            "y": 32,
+            "width": 328,
+            "height": 196
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "case": "bluetooth",
+      "edition": "golden-gate",
+      "mode": "light",
+      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
+      "sha256": "2f61dbd5b4c02f3d3f292b345cfe2672ae2002a0306cec72fc4142ed0dae637e",
+      "plasma": "plasmashell 6.8.1",
+      "kwin": "kwin 6.8.1",
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "capture_environment": "Disposable KDE neon Wayland VM, 3840×2160 at 2×, edition wallpaper. Cropped from a full-desktop Plasma screenshot.",
+      "radio_fixture": "python-dbusmock BlueZ 5 with two paired devices. Studio Headphones reports 82 percent and Wireless Keyboard is disconnected."
+    },
+    "previews/readme-golden-gate-dark-bluetooth-07b4c7a92162.webp": {
+      "windows": [
+        {
+          "id": "{3217f9f8-9fd5-463c-b59e-d3d265692058}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 1,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "id": "{6a2db236-4307-48a7-8774-6363fb387f15}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": false,
+          "active": false,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 32
+          }
+        },
+        {
+          "id": "{e7bc4622-38e8-4569-bedf-9ef0e1b4bd50}",
+          "caption": "",
+          "resourceClass": "plasmashell",
+          "type": 2,
+          "appletPopup": false,
+          "hidden": true,
+          "active": false,
+          "geometry": {
+            "x": 644,
+            "y": 996,
+            "width": 632,
+            "height": 84
+          }
+        },
+        {
+          "id": "{f98e76a1-d11e-4a44-8944-0c5d056e0523}",
+          "caption": "mttkde-bluetooth",
+          "resourceClass": "org.kde.plasmashell",
+          "type": 18,
+          "appletPopup": true,
+          "hidden": false,
+          "active": true,
+          "geometry": {
+            "x": 1577,
+            "y": 32,
+            "width": 328,
+            "height": 196
+          }
+        }
+      ],
+      "wallpaper_uri": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+      "case": "bluetooth",
+      "edition": "golden-gate",
+      "mode": "dark",
+      "source_commit": "7369e9db488a338e7dabdce9eed8e38979d1f1ac",
+      "sha256": "07b4c7a92162b02fe5a1067d2853bb0f2f54e5f7b696feb36f04bc4eb89b2f19",
+      "plasma": "plasmashell 6.8.1",
+      "kwin": "kwin 6.8.1",
+      "profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+      "capture_environment": "Disposable KDE neon Wayland VM, 3840×2160 at 2×, edition wallpaper. Cropped from a full-desktop Plasma screenshot.",
+      "radio_fixture": "python-dbusmock BlueZ 5 with two paired devices. Studio Headphones reports 82 percent and Wireless Keyboard is disconnected."
     }
   },
   "missing": [],

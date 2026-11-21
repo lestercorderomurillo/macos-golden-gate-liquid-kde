@@ -176,7 +176,7 @@ Find apps, browse categories and keep your favorites within reach. The frosted a
 
 ### Golden Gate Control Center (Alpha)
 
-Wi-Fi, sound, brightness and notifications in one glass menu. The appearance button shows a sun for Light, a moon for Dark and a split circle for Automatic.
+Wi-Fi, Bluetooth, sound, brightness and notifications in one glass menu. The appearance button shows a sun for Light, a moon for Dark and a split circle for Automatic.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
@@ -219,6 +219,15 @@ Open the panel clock to see the month on glass. Scroll or use the arrow keys to 
 </p>
 
 <br>
+
+### Golden Gate Bluetooth (Alpha)
+
+The menu bar groups Bluetooth, Wi-Fi and Battery together, followed by Control Center and the clock. To restore the Bluetooth icon after removing it, open **Edit Mode → Add Widgets** and drag **Tahoe Bluetooth** to the left of Wi-Fi. Open it to toggle Bluetooth, connect or disconnect a paired device, or see the battery level a connected device reports. Choose **Bluetooth Settings…** to pair a new device.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Light Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-07b4c7a92162.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
+</p>
 
 ### Golden Gate Wi-Fi (Alpha)
 
@@ -509,7 +518,7 @@ The current status of each component.
 | Kate Theme | ![Planned](https://img.shields.io/badge/Planned-D4A017) |
 | SDDM Theme | ![Planned](https://img.shields.io/badge/Planned-D4A017) |
 | Calendar | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Control Center, Wi-Fi, Battery and Notifications | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
+| Control Center, Bluetooth, Wi-Fi, Battery and Notifications | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
 | System Preferences | ![Planned](https://img.shields.io/badge/Planned-D4A017) |
 | OS Selector | ![Planned](https://img.shields.io/badge/Planned-D4A017) |
 
