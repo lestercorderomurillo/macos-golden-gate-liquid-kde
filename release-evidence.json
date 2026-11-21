@@ -1,23 +1,54 @@
 {
-  "version": "0.76.10",
+  "version": "0.77.0",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Golden Gate release reporting and prepared cache reuse; paired Tahoe version.",
-  "approval": "Maintainer requested the updater fixes and release.",
+  "implementation_commit": "d12084f4d0437de9f2e2885c3be794f654b6761f",
+  "scope": "Window outlines, SF Pro font selection, menu titles, tray icon sizing and the menu bar clock.",
+  "approval": "Maintainer approved the final clock preview and paired release.",
   "checks": [
     {
-      "command": "python -m pytest -q tests",
-      "edition": "golden-gate",
+      "command": "Run tests/test_desktop_controls.py with the primary CI SDK (tray artwork, mask changes and clock pointer entry/exit).",
       "result": "passed"
     },
     {
-      "command": "Run ./install --check-update from an older wrapper version against GitHub. Run ./installer --prepare online, block HTTPS and repeat it. Compare the prepared paths.",
-      "edition": "golden-gate",
+      "command": "Run the selected font, Rounded Corners, layout and clock migration regressions.",
+      "result": "passed"
+    },
+    {
+      "command": "Install and reinstall in a disposable KDE neon Wayland guest. Compare the rendered window corner and menu bar at 150% and 200%, and the clock with the macOS reference.",
+      "result": "passed"
+    },
+    {
+      "command": "Verify the published Tahoe tag, VERSION and SHA-256 of its immutable source archive; run the Golden Gate wrapper tests.",
       "result": "passed"
     }
   ],
-  "captures": [],
-  "coverage_limits": [
-    "Offline reuse requires previously prepared sources. Tests did not install a theme into a desktop session."
+  "captures": [
+    {
+      "path": "src/screenshots/previews/window-corner-150-golden-gate-347594c4283a.png",
+      "sha256": "347594c4283ae98ab287610b64cdc0d34855a62526a8fef0633ae17f54fe5063",
+      "source_commit": "b59cc89152b9db21d5e90020f2326441794c2daf",
+      "reviewed": true,
+      "edition": "golden-gate"
+    },
+    {
+      "path": "src/screenshots/previews/menu-clock-golden-gate-rest-2-05ec57a6629c.png",
+      "sha256": "05ec57a6629cda95d5a202fc399c90bd37993af26e9c5594d4f80deaa325f581",
+      "source_commit": "96bc1769e94ab5fe7d25dc35a02c4234ab6b2fc8",
+      "reviewed": true,
+      "edition": "golden-gate"
+    },
+    {
+      "path": "src/screenshots/previews/menu-clock-golden-gate-light-hover-2-d8c4979a6a31.png",
+      "sha256": "d8c4979a6a319e4b7080ffadcdc76a1cf3c2065893ff0bd5034f03e4a1892ea5",
+      "source_commit": "96bc1769e94ab5fe7d25dc35a02c4234ab6b2fc8",
+      "reviewed": true,
+      "edition": "golden-gate"
+    }
   ],
-  "source_sha256": "c3e5ae85b86a37a331b5c277bf7f387e82efcb1dee24991606b7def39ef752d5"
+  "coverage_limits": [
+    "KDE neon Wayland, Plasma/KWin 6.8.1. The clock text measured 234 by 20 physical pixels at 200% in both editions and the macOS reference. Font rasterization differs.",
+    "The optional separate upstream SDK build was skipped in the unit suite. The guest installer built and loaded Rounded Corners. The secondary outline is disabled by default; the upstream shader is unchanged.",
+    "The primary CI SDK passed the controls probe. The workstation SDK emitted a pre-existing notification menu width-binding warning on the baseline and candidate."
+  ],
+  "source_sha256": "2666b2c7d2bbabbed5c159633b6bd22a94b086b92f9eb2c22e7d84156f4cf177"
 }
