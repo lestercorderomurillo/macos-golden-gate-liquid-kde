@@ -1,34 +1,27 @@
 {
-  "version": "0.76.8",
+  "version": "0.76.9",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Dock visibility, display switching and menu bar geometry.",
-  "approval": "Maintainer approved integration and publication after visual review.",
+  "scope": "Segmented Dock visibility selector with platform labels.",
+  "approval": "Maintainer requested publication after green CI.",
   "checks": [
     {
-      "command": "Run the native installer in a KDE neon Wayland VM. Inspect the installed Dock and open the visibility selector.",
+      "command": "Click each visibility segment in the native Qt installer, check exclusive selection, disable and re-enable the Dock, and re-render the page.",
       "edition": "golden-gate",
-      "source_commit": "b3799c126a942b2e2affacf8e924b79fe4750f47",
+      "source_commit": "42e554c41743014d9265ec9ab60dea23f92dbdbd",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "docs/evidence/dock-menubar-0768/installer.png",
-      "sha256": "c72647f3ff1f71375cd748d72b3e1b8ac5c4014bbf1b6c67a2c124a07a477f93",
-      "source_commit": "b3799c126a942b2e2affacf8e924b79fe4750f47",
-      "edition": "golden-gate",
-      "reviewed": true
-    },
-    {
-      "path": "docs/evidence/dock-menubar-0768/menubar.png",
-      "sha256": "6c554d03bfb573c5d780d3941ca81ffd44c5b41e6b0c694a806a9f1e7f1b32ff",
-      "source_commit": "dcec9d91be65d61aaaa9ea19527eb065a41463bb",
+      "path": "docs/evidence/dock-visibility-0769/installer.png",
+      "sha256": "5ccf04bf179878505a382b0cfccc1a1b618c0af524baf6aea1f5606efda3625e",
+      "source_commit": "42e554c41743014d9265ec9ab60dea23f92dbdbd",
       "edition": "golden-gate",
       "reviewed": true
     }
   ],
   "coverage_limits": [
-    "Multi-output and keep-layout reinstall exercised in Tahoe. Golden Gate uses the same panel implementation."
+    "Installer-only change. Preview captured offscreen in Spanish."
   ],
-  "source_sha256": "db534bb0b26e061d17f2089f24e47f118f025b4a2bd8474a551b7f02246a9f3d"
+  "source_sha256": "c70103dc01ed7c5854d25dac26406e8a4858d6c77fbd3c62c3c273572618ee09"
 }
