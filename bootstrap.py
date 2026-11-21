@@ -262,28 +262,56 @@ def prepared_startup_valid(source: Path) -> bool:
         return False
 
 
+def snapshot_digest(recipe: bytes, pin: dict, defaults: dict):
+    digest = hashlib.sha256(recipe)
+    digest.update(json.dumps([pin, defaults], sort_keys=True).encode())
+    return digest
+
+
+def cached_newer_release(cache: Path, recipe: bytes, pin: dict, defaults: dict) -> dict:
+    """Recover an already prepared release for this recipe when discovery is offline."""
+    best = pin
+    for path in cache.iterdir():
+        if not re.fullmatch(r"[0-9a-f]{20}", path.name) or path.is_symlink() or not path.is_dir():
+            continue
+        try:
+            commit = (path / ".golden-gate-ready").read_text().strip()
+            version = (path / "VERSION").read_text().strip()
+        except (OSError, UnicodeError):
+            continue
+        if not re.fullmatch(r"[0-9a-f]{40}", commit) or _version(version) <= _version(best.get("version", "")):
+            continue
+        candidate = dict(repository=TAHOE_REPOSITORY, commit=commit, version=version)
+        if (snapshot_digest(recipe, candidate, defaults).hexdigest()[:20] == path.name
+                and prepared_startup_valid(path)):
+            best = candidate
+    return best
+
+
 def prepare(*, lease: bool = False) -> Path:
     # Resolve local development sources before making any network request.
     pin = json.loads((ROOT / "upstream.json").read_text())
     defaults = json.loads((ROOT / "defaults.json").read_text())
     source = local_source()
-    if source is None and os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK", "").lower() != "true":
-        latest = latest_tahoe()
-        if latest and _version(latest["version"]) >= _version(pin.get("version", "")):
-            pin = latest
-    digest = hashlib.sha256((ROOT / "bootstrap.py").read_bytes())
-    digest.update(json.dumps([pin, defaults], sort_keys=True).encode())
+    discover = source is None and os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK", "").lower() != "true"
+    latest = latest_tahoe() if discover else None
+    recipe = (ROOT / "bootstrap.py").read_bytes()
     files = local_files(source) if source else []
-    for name in files:
-        path = source / name
-        digest.update(name.encode())
-        digest.update(str(path.lstat().st_mode).encode())
-        digest.update(os.readlink(path).encode() if path.is_symlink() else path.read_bytes())
     cache = ROOT / "build"
     cache.mkdir(exist_ok=True)
-    target = cache / digest.hexdigest()[:20]
     with (cache / ".prepare.lock").open("a") as lock, ExitStack() as repair:
         fcntl.flock(lock, fcntl.LOCK_EX)
+        if latest and _version(latest["version"]) > _version(pin.get("version", "")):
+            pin = latest
+        elif discover and latest is None:
+            pin = cached_newer_release(cache, recipe, pin, defaults)
+        digest = snapshot_digest(recipe, pin, defaults)
+        for name in files:
+            path = source / name
+            digest.update(name.encode())
+            digest.update(str(path.lstat().st_mode).encode())
+            digest.update(os.readlink(path).encode() if path.is_symlink() else path.read_bytes())
+        target = cache / digest.hexdigest()[:20]
         if target.is_symlink():
             raise ValueError("Prepared source must not be a symbolic link")
         if (target / ".golden-gate-ready").is_symlink():
@@ -479,6 +507,13 @@ def main(entry: str = "installer", args: list[str] | None = None) -> int:
     original_no_update = os.environ.get("MAC_TAHOE_NO_UPDATE_CHECK")
     original_uid, original_gid = os.geteuid(), os.getegid()
     try:
+        if entry in UPDATE_ENTRY_POINTS and args == ["--check-update"]:
+            current = (ROOT / "VERSION").read_text().strip()
+            latest = None if (original_no_update or "").lower() == "true" else latest_release(GOLDEN_GATE_REPOSITORY)
+            print(json.dumps(dict(current=current, latest=latest[1:] if latest else "",
+                                  available=bool(latest and _version(latest) > _version(current)),
+                                  reachable=latest is not None)))
+            return 0
         if maintenance_requested:
             # Maintenance uses the local source or verified offline pin, never
             # queries or installs a newer release as a side effect.

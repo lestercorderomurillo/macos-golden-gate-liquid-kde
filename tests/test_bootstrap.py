@@ -587,3 +587,43 @@ def test_failed_repair_preserves_previous_cache(tmp_path, monkeypatch):
         bootstrap.prepare()
     assert (prepared / '.golden-gate-ready').read_bytes() == original
     assert (prepared / 'src/installer/installer_ui.py').exists()
+
+
+@pytest.mark.parametrize("latest,available,reachable", [
+    ("v0.76.10", True, True), ("v0.76.9", False, True), (None, False, False)])
+def test_check_update_uses_wrapper_without_preparing(tmp_path, monkeypatch, capsys,
+                                                     latest, available, reachable):
+    wrapper_at(tmp_path, monkeypatch, "0.76.9")
+    def query(repository):
+        assert repository == bootstrap.GOLDEN_GATE_REPOSITORY
+        return latest
+    monkeypatch.setattr(bootstrap, "latest_release", query)
+    monkeypatch.setattr(bootstrap, "prepare", lambda **kw: pytest.fail("read-only check prepared sources"))
+    assert bootstrap.main("install", ["--check-update"]) == 0
+    assert json.loads(capsys.readouterr().out) == {
+        "current": "0.76.9", "latest": latest[1:] if latest else "",
+        "available": available, "reachable": reachable,
+    }
+
+
+@pytest.mark.parametrize("same_release", [True, False])
+def test_online_prepare_remains_usable_offline(tmp_path, monkeypatch, same_release):
+    root = wrapper_at(tmp_path, monkeypatch)
+    release = dict(repository=bootstrap.TAHOE_REPOSITORY, commit="b" * 40, version="1.1.0")
+    archive = tahoe_archive(tmp_path, release["version"])
+    import hashlib
+    pin = dict(release, sha256=hashlib.sha256(archive.read_bytes()).hexdigest())
+    if not same_release:
+        pin.update(version="1.0.0", commit="a" * 40)
+    (root / "upstream.json").write_text(json.dumps(pin))
+    monkeypatch.setattr(bootstrap, "latest_tahoe", lambda: release)
+    selected = []
+    def download(metadata, target):
+        selected.append(metadata)
+        target.write_bytes(archive.read_bytes())
+    monkeypatch.setattr(bootstrap, "download", download)
+    online = bootstrap.prepare()
+    monkeypatch.setattr(bootstrap, "latest_tahoe", lambda: None)
+    monkeypatch.setattr(bootstrap, "download", lambda *_: pytest.fail("unnecessary offline download"))
+    assert bootstrap.prepare() == online
+    assert selected == [pin if same_release else release]
