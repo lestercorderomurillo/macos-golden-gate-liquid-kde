@@ -1,54 +1,40 @@
 {
-  "version": "0.78.0",
+  "version": "0.78.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "716ebaa651447fecf861dd90d4a670d7299d5c9b",
-  "scope": "About This Computer scales its window and hardware details with the system font.",
-  "approval": "Maintainer approved the 10 pt and 15 pt comparisons for Tahoe and Golden Gate.",
+  "implementation_commit": "6e90971b1d7d7223844f4d24ddcc39278604d418",
+  "scope": "Wallpaper selection and per-screen ownership during install, update and light/dark switches.",
   "checks": [
     {
-      "command": "KDE neon Wayland at 2x, SF Pro Text at 10 and 15 pt, light and dark. Window geometry measured 360 x 700 and 505 x 774 logical pixels.",
+      "command": "74 focused wallpaper, installer wizard, theme switch, edition transition and uninstall regression cases passed on Tahoe. Seven edition and slideshow cases passed on the prepared Golden Gate source.",
       "result": "passed"
     },
     {
-      "command": "python3 src/scripts/component_manifest.py (shared Tahoe source)",
+      "command": "Disposable KDE neon, Plasma 6.8.1 Wayland. Installed the selected Landscape switcher and ran light install, then dark. Verified Landscape Morning and Night through the live Plasma desktops API.",
+      "result": "passed"
+    },
+    {
+      "command": "Selected org.kde.slideshow, reinstalled the switcher, then ran light install and dark. The live plugin remained org.kde.slideshow. Installed a custom JPEG, then reinstalled with an implicit edition default. The custom image remained selected and screen 0 remained user-owned.",
+      "result": "passed"
+    },
+    {
+      "command": "Reinstalled all 18 wallpaper packages with the slideshow active and changed Golden Gate metadata on disk. Verified the installed metadata matched the source, the package directory inode survived, and the slideshow remained active.",
+      "result": "passed"
+    },
+    {
+      "command": "python3 src/scripts/component_manifest.py and git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "Golden Gate wrapper tests for immutable release verification, source selection and installer staging.",
       "result": "passed"
     }
   ],
   "component_sha256": {
-    "src/offline/plasmoids/org.kde.mac.tahoe.liquid.globalmenu/qml/AboutWindow.qml": "5e17a7ed369b876151b00d57b6d6fa6e6ae4f9a95c516efe5d08078fa56969e2"
+    "src/scripts/theme_switch.py": "71fb7a2b5f42f831b60fcbcd5fcc4f7c59bf6baf60580a49d28fa041d5599d9e",
+    "src/scripts/steps/wallpapers.py": "6deb46ecc9e78a92fa2e2da6740ce2013b1ef83b3e075f5b96272379c3a6119f",
+    "src/scripts/installer_choices.py": "9ca88ba5495444e694dbab94ea60f7ee9aa08d22738b069c346c34fdcb926fba",
+    "src/installer/wizard_window.py": "c068810981e2b1a96f8e1a8ac9b3c7547972e9d4646bbe90b0e139f60e89dac1"
   },
-  "captures": [
-    {
-      "path": "src/screenshots/previews/about-golden-gate-light-10pt-36ff177f9b09.png",
-      "source_commit": "7975116ffc9f66bd7a360d2c136240c6c93e8525",
-      "sha256": "36ff177f9b093df80613c925a3feb57ada93f9cb108e72dde5451fb92b5820a1",
-      "edition": "golden-gate",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/about-golden-gate-light-15pt-b0e499f2922b.png",
-      "source_commit": "7975116ffc9f66bd7a360d2c136240c6c93e8525",
-      "sha256": "b0e499f2922ba35a8013aebaf185f4c9dbd2333e51adfae8e5dc89fc1a2054f0",
-      "edition": "golden-gate",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/about-golden-gate-dark-10pt-ed4f88134b76.png",
-      "source_commit": "7975116ffc9f66bd7a360d2c136240c6c93e8525",
-      "sha256": "ed4f88134b76212fc428ffe8662551da69a53c834e5e751f1ac83e8bbc8631e0",
-      "edition": "golden-gate",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/about-golden-gate-dark-15pt-2f3ffa7f7e74.png",
-      "source_commit": "7975116ffc9f66bd7a360d2c136240c6c93e8525",
-      "sha256": "2f3ffa7f7e743622c7ec1117175a8eb71f9bf8b556af3cd74e352ded1ab848db",
-      "edition": "golden-gate",
-      "reviewed": true
-    }
-  ],
-  "coverage_limits": [
-    "The captured hardware values are fixtures. Frames were captured on the recorded source commit and reused after matching the About component hash."
-  ],
-  "source_sha256": "96b1cf3e65d580b6727ca0d9b00f52b71877b2371d7ef191b5270c6b8ddac087"
+  "coverage_limits": "Single live guest monitor on KDE neon Wayland. Mixed monitors and disconnected containments covered by automated tests. CachyOS 6.8.2 was not exercised.",
+  "source_sha256": "958dea6652a3c4f83469654689580c4b540fbda0f6cb51563862f7ea1ddd71cf"
 }
