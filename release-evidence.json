@@ -1,51 +1,32 @@
 {
-  "version": "0.82.2",
+  "version": "0.82.3",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "b65b41c482fce0678180a45d55fe59f9bb279876",
-  "scope": "Ease the two-tone search caret pulse and fade the detached launcher search popup on open and close.",
-  "approval": "Maintainer directed publishing the scoped animation update after checking the existing code and finishing missing behavior.",
+  "implementation_commit": "a9f442f48c9efd312347a91d20ff8aba0398aaf5",
+  "scope": "Install the Liquid Glass desktop widget pack by default with an illustrated Desktop widgets step in the installer.",
+  "approval": "Maintainer approved the pictured selector from PR #166 and explicitly requested enabling the pack by default and publishing the release.",
   "checks": [
     {
-      "command": "Golden Gate on KDE neon Plasma/KWin 6.8.1 Wayland: installed source hashes matched. Reviewed recorded search capsule open/close and caret pulse in light and dark modes.",
+      "command": "Tahoe focused installer wizard, widget bundle, Plasmoids, localization, package mapping and component manifest suite (569 passed). Wizard checks covered the Custom and Express defaults for both editions.",
       "result": "passed"
     },
     {
-      "command": "Tahoe launcher preset and native popup suite: 80 passed.",
+      "command": "KDE neon Plasma 6.8.1 Wayland: installer backend provisioned all 15 packages. Plasma discovered them and left placement to the user. Reinstallation with the pack disabled removed the theme-owned packages and preserved a local widget.",
       "result": "passed"
     },
     {
-      "command": "Scripted effect check: KWin animation duration scaling, interrupted opening opacity, and launcher search window scope.",
+      "command": "Golden Gate bootstrap, source archive and release workflow tests (66 passed).",
       "result": "passed"
     },
     {
-      "command": "Tahoe component hash manifest matches the source tree.",
-      "result": "passed"
-    },
-    {
-      "command": "Golden Gate upstream release and pin/bootstrap smoke tests: 6 passed. Paired release preflight verified the published Tahoe commit archive.",
+      "command": "Golden Gate staged source used its own wallpaper and launcher defaults and selected the desktop widget pack. Published Tahoe archive version, immutable commit, and SHA-256 verified.",
       "result": "passed"
     }
   ],
-  "captures": [
-    {
-      "path": "src/screenshots/previews/search-bar-motion-ac86c6a7ba49.mp4",
-      "sha256": "ac86c6a7ba494b9cd6c8530acef21491f5829de911ec17c1ef446760d3a9301c",
-      "reviewed": true,
-      "source_commit": "b65b41c482fce0678180a45d55fe59f9bb279876",
-      "edition": "golden-gate",
-      "installed_sha256": "6a3b3d23dc8f32c4830822331c790b0a339d15203c745b7b032587de9e55042d  /home/tester/.local/share/plasma/plasmoids/org.kde.mac-tahoe-liquid-kde.launcher/contents/ui/SearchCursor.qml\nb5477d7e0099185e7c63b86061c6964d660b5748904b49876eed830b1e07844b  /home/tester/.local/share/kwin/effects/mttkde_controlcenter_transition/contents/code/main.js"
-    }
-  ],
-  "reviewed_pr_previews": [
-    {
-      "url": "https://gist.githubusercontent.com/RoxasYTB/b552334b7afd3ff281a4a0fe71a0b00a/raw/pr160-bluetooth-symbols-light.png",
-      "sha256": "f279dde2b7fdd225012da4466c7c0389a9c0873cd8968efc9b1633c447f08885"
-    },
-    {
-      "url": "https://gist.githubusercontent.com/RoxasYTB/b552334b7afd3ff281a4a0fe71a0b00a/raw/pr160-bluetooth-symbols-dark.png",
-      "sha256": "03d812624de3f18c9502d9ed172576e722435d22715887f5448a6e6da8e62e76"
-    }
-  ],
-  "coverage_limits": "Motion captured in the Golden Gate default detached layout on KWin 6.8.1 Wayland. Tahoe defaults to the inline layout. Native backend coverage from the launcher regression suite does not constitute a separate X11 motion capture.",
-  "source_sha256": "f43cbc39d7bbe22b798618df10adf33c0569ac46afede4f3821bb206728adcc5"
+  "captures": [],
+  "approved_preview_sha256": {
+    "tahoe_light_skip_selected": "3b15443fe9330ad253b1cef824281e1d777344ac26e98a6104fcc6b7dd42ef4c",
+    "tahoe_dark_install_selected": "2feb13f19605862d47352ac8a8d6a5572e8b38b328c42dba77007c0ecb644746"
+  },
+  "coverage_limits": "Plasma widget registration and installer lifecycle exercised on KDE neon 6.8.1 Wayland. Calendar, analog clock and timer were rendered for the desktop preview. The remaining widget packages were checked for registration. Historical galleries retain their original provenance.",
+  "source_sha256": "5b69e2db6d6c84af063640bc71f91e7559e67a7a7b78c8a228ebbac3a0412a88"
 }
