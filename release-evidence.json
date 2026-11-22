@@ -1,23 +1,19 @@
 {
-  "version": "0.82.11",
+  "version": "0.82.12",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "1adaf20884eb3c2895add1655f813333ef8dc1a3",
-  "scope": "Use the released Tahoe fix that installs and loads the Fedora GTK 3 global menu exporter.",
+  "implementation_commit": "812e7c4755b9a498089668b14d3d54eefc881d82",
+  "scope": "Link to the shared KDE window decoration guide and pin the matching Tahoe documentation release.",
   "checks": [
     {
-      "command": "Reused the Tahoe package mapping, GTK login hook, global menu installer and native Fedora module-loading checks. Golden Gate uses the same implementation from the pinned Tahoe archive.",
+      "command": "Reviewed the Golden Gate README link and ran git diff --check.",
       "result": "passed"
     },
     {
-      "command": "Ran the release workflow, source archive and release update tests. All 10 tests passed.",
-      "result": "passed"
-    },
-    {
-      "command": "Verified the published Tahoe tag, pinned commit, source archive SHA-256 and paired versions.",
+      "command": "Verified the matching Tahoe version, immutable commit and source archive SHA-256 with the paired release preflight.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Uses the shared Tahoe Fedora 45 X11 module-loading check. A full Golden Gate Plasma session was not exercised.",
-  "source_sha256": "5758bc836369b9c9db126eabbbb66c038b39ba8370b37f8e24f6236865b42479"
+  "coverage_limits": "Documentation-only change. Existing gallery provenance is retained.",
+  "source_sha256": "47aaf093d724f87ebf170a2a9c7fb33c7a5e72dfa297b36c5ee5c266ee32dfd5"
 }
