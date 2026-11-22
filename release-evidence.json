@@ -1,74 +1,101 @@
 {
-  "version": "0.81.5",
+  "version": "0.81.6",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "photographed_source": "da0807254d25161959c900f7920767d5fee9aff7",
-  "implementation_commit": "47476aa93f4f91519685c713231d56db4cc3b45a",
-  "scope": "Size recent application icons from the adjacent Dock task manager.",
-  "approval": "Maintainer approved the corrected macOS artwork preview, including Downloads, for release in both editions.",
+  "implementation_commit": "12315545381b56d69fa76078fe253980bd838c21",
+  "scope": "Preserve standalone Apps across layout updates and narrow the Dock highlight.",
+  "approval": "Maintainer approved both photographed editions with three recent applications for v0.81.6.",
   "checks": [
     {
-      "command": "KDE neon Plasma 6.8.1 Wayland at 2\u00d7: compared Kate, KCalc and Konsole as pinned and recent apps in the installed regular icon theme. At native capture scale their opaque interiors matched exactly. Reviewed Downloads and Trash in both modes.",
+      "command": "python3 -m pytest -q tests/test_dock_defaults.py (57 passed on the shared implementation)",
       "result": "passed"
     },
     {
-      "command": "Integrated Tahoe: python3 -m pytest -q tests/test_taskmanager_qml.py tests/test_dock_defaults.py (58 passed).",
+      "command": "Installed the photographed candidate in KDE neon Plasma 6.8.1 Wayland and reviewed nine Dock frames for this edition.",
       "result": "passed"
     },
     {
-      "command": "Verified wrapper tests, release archive SHA-256, Tahoe tag, version and edition support.",
+      "command": "Reinstalled Tahoe in the disposable guest and verified the standalone Apps launcher, the false pin preference and the original pin order.",
+      "result": "passed"
+    },
+    {
+      "command": "Golden Gate wrapper suite and local paired release archive preflight passed.",
       "result": "passed"
     }
   ],
-  "capture_records": {
-    "after": {
-      "source": "da0807254d25161959c900f7920767d5fee9aff7",
-      "qml_sha256": "8bee5791de50666da423bb66d745a8a418a9ae58af811f8e0565b91cd0397371",
-      "scale": 2,
-      "apps": [
-        "org.kde.kate.desktop",
-        "org.kde.konsole.desktop",
-        "org.kde.kcalc.desktop"
-      ],
-      "icon_theme": "MacTahoeLiquidKde-Icons-Regular-Light",
-      "png_sha256": "645c957a0b7cc9803a23b81d46808e83bf175ef2329c7ced77682e261676dd7a"
-    },
-    "dark": {
-      "source": "da0807254d25161959c900f7920767d5fee9aff7",
-      "qml_sha256": "8bee5791de50666da423bb66d745a8a418a9ae58af811f8e0565b91cd0397371",
-      "scale": 2,
-      "apps": [
-        "org.kde.kate.desktop",
-        "org.kde.konsole.desktop",
-        "org.kde.kcalc.desktop"
-      ],
-      "icon_theme": "MacTahoeLiquidKde-Icons-Regular-Dark",
-      "png_sha256": "e0080ef2fbb11cca4a6bebff6a0e1c18631e4061734d4e84e8a457f7e38100a0"
-    },
-    "pinned": {
-      "source": "be8c1a1094de5c907c1ce3240fa0801066df4c38",
-      "qml_sha256": "4d8aa3f13f74c0b89f37ad2fff9ce1ddbb16582fddeacc28dddcdee68cf139b3",
-      "scale": 2,
-      "apps": [
-        "org.kde.kate.desktop",
-        "org.kde.konsole.desktop",
-        "org.kde.kcalc.desktop"
-      ],
-      "icon_theme": "MacTahoeLiquidKde-Icons-Regular-Light",
-      "png_sha256": "673f69683c3ac4d4e7b534a5b383ae324871eb15f69da907f3b22f2db487fea5"
-    },
-    "before": {
-      "source": "be8c1a1094de5c907c1ce3240fa0801066df4c38",
-      "qml_sha256": "4d8aa3f13f74c0b89f37ad2fff9ce1ddbb16582fddeacc28dddcdee68cf139b3",
-      "scale": 2,
-      "apps": [
-        "org.kde.kate.desktop",
-        "org.kde.konsole.desktop",
-        "org.kde.kcalc.desktop"
-      ],
-      "icon_theme": "MacTahoeLiquidKde-Icons-Regular-Light",
-      "png_sha256": "b1852ce09e5ca3a447f6383bad3ae52536c34c8106eb23754859589c8ad87b13"
-    }
+  "reinstall": {
+    "source": "12315545381b56d69fa76078fe253980bd838c21",
+    "before": [
+      "preferred://filemanager",
+      "applications:org.kde.kate.desktop",
+      "preferred://browser"
+    ],
+    "after": [
+      1,
+      "false",
+      "preferred://filemanager,applications:org.kde.kate.desktop,preferred://browser"
+    ]
   },
-  "coverage_limits": "Horizontal Dock in light and dark. Preview source preceded the independent Downloads fan and hover deliveries. The integrated recent-app QML matches the photographed file.",
-  "source_sha256": "9b373be59aa1f86104c3a03a66870f5781d95c7eb3c2b0c94233ac4cac6fca42"
+  "captures": [
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp",
+      "sha256": "ab3f15dc463820164bdc2fdd238666fd44b15001703b471321d0a92c9812b3e0",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp",
+      "sha256": "4f92758a96268d29479458db5e4ddb11278ccf681ea3a3a6a57e305f2d543a05",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp",
+      "sha256": "9a56e2ebccdf428d9eeee7ee0047571f45c027b2fdf4f662d04ce0aef6deeefa",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp",
+      "sha256": "2acdddb4feb40f281f21af00ce709c2364f9fdc427c3ae2050c7f948ece2a9cc",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp",
+      "sha256": "0feca8496131b07d16c2c6ee6d36f59d2b78ec3d13fbe7cb3c9c389b16a125b6",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp",
+      "sha256": "66f49f74fb754ce9777a35dd86077e674d11004d27dd70e64e9dc97eb12f9568",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp",
+      "sha256": "f505c90f757a1eb4deb666ab8485001838af5745ba0598d86537d6591ec76dfa",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp",
+      "sha256": "8a5dddb388f5b4ff38a9c74b305fd225a4ea0a6f7f7f73c43dbeb0e7054291f7",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    },
+    {
+      "path": "src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp",
+      "sha256": "10bd3f5e3f7ade41de32b35615222da543becc568ecd548ec58de81742ee27b9",
+      "reviewed": true,
+      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+    }
+  ],
+  "recent_desktop_ids": [
+    "org.kde.kate.desktop",
+    "org.kde.konsole.desktop",
+    "org.kde.kcalc.desktop"
+  ],
+  "coverage_limits": "Single horizontal Dock on KDE neon Wayland. The reinstall scenario ran in Tahoe. Full distribution CI runs on dev.",
+  "source_sha256": "eeed3652359137eb1fcd354e391fd166f7b3137254f06612692fddffb75497bb"
 }

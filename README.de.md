@@ -169,12 +169,12 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-869757070e6c.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-869757070e6c.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-a1b4c8f64d16.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-a1b4c8f64d16.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-7aa4f9b38221.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-7aa4f9b38221.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -199,7 +199,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Purple Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-b2eac31491a7.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-b2eac31491a7.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Pink Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-9e3dfa8dd260.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-9e3dfa8dd260.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -219,7 +219,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-2600a6e325ed.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-2600a6e325ed.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -229,7 +229,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Orange Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-46e3cf58caef.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-46e3cf58caef.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -239,7 +239,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Yellow Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-7b89310d0e61.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-7b89310d0e61.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -249,7 +249,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <p align="center">
   <strong>Green Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-e37942171909.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-e37942171909.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
 </p>
 
 <p align="center">
