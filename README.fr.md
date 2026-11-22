@@ -169,12 +169,12 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ae28f4208eeb.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-869757070e6c.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-869757070e6c.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
 </p>
 
 <p align="center">
   <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-97a5f7ec9906.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-a1b4c8f64d16.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-a1b4c8f64d16.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-d5bd6bb19bd7.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-7aa4f9b38221.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-7aa4f9b38221.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -199,7 +199,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Purple Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-4cf7088ccbf6.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-b2eac31491a7.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-b2eac31491a7.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Pink Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-ab8be352515b.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-9e3dfa8dd260.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-9e3dfa8dd260.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -219,7 +219,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-a72a1c8174df.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-2600a6e325ed.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-2600a6e325ed.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -229,7 +229,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Orange Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-85091fbfe050.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-46e3cf58caef.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-46e3cf58caef.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -239,7 +239,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Yellow Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-8baf587f16fc.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-7b89310d0e61.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-7b89310d0e61.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
 </p>
 
 <p align="center">
@@ -249,7 +249,7 @@ Réfraction du verre, agrandissement au survol, bulles rouges de comptage des no
 
 <p align="center">
   <strong>Green Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-d9c53ffc24bc.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-e37942171909.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-e37942171909.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
 </p>
 
 <p align="center">

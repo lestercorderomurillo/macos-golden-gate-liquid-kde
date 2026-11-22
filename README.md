@@ -135,7 +135,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-dock-3729ada5796f.gif" alt="Golden Gate Dock showing multicolor icons in light and dark mode, then cycling through rainbow tints" width="830">
+  <img src="src/screenshots/previews/golden-gate-dock-41eb1a1f9402.gif" alt="Golden Gate Dock showing multicolor icons in light and dark mode, then cycling through rainbow tints" width="830">
 </p>
 
 <br>
