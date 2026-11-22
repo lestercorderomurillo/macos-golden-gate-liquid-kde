@@ -1,19 +1,23 @@
 {
-  "version": "0.82.12",
+  "version": "0.82.13",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "implementation_commit": "812e7c4755b9a498089668b14d3d54eefc881d82",
-  "scope": "Link to the shared KDE window decoration guide and pin the matching Tahoe documentation release.",
+  "scope": "Pin Golden Gate to the approved Tahoe v0.82.13 wallpaper-aware Dynamic Tinting release.",
   "checks": [
     {
-      "command": "Reviewed the Golden Gate README link and ran git diff --check.",
+      "command": "Ran six focused Golden Gate bootstrap cases for archive digest rejection, local source staging, edition defaults and immutable pin selection.",
       "result": "passed"
     },
     {
-      "command": "Verified the matching Tahoe version, immutable commit and source archive SHA-256 with the paired release preflight.",
+      "command": "Verified the published Tahoe tag, immutable commit archive, version, archive and component checksums in paired preflight.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Documentation-only change. Existing gallery provenance is retained.",
-  "source_sha256": "47aaf093d724f87ebf170a2a9c7fb33c7a5e72dfa297b36c5ee5c266ee32dfd5"
+  "coverage_limits": "Pin-only wrapper update. Shared menu-bar behavior was rendered in a single-output KDE neon 6.8.1 Wayland VM. Verified Golden Gate staging preserved the shared files and used its own defaults.",
+  "source_sha256": "4a71128aed0cd3688333cea485eb3cf15430742ed2041ce9dc27f92a49902879",
+  "approval": "The maintainer approved paired publication after reviewing the rendered menu-bar tinting, including both edition wallpapers.",
+  "approved_preview_sha256": {
+    "edition-wallpapers.png": "d312fbddbbf83a16f07d8922f58aef6fe10ac17e1ab468b4a3f49bc528c9a4bb"
+  }
 }
