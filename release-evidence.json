@@ -1,101 +1,39 @@
 {
-  "version": "0.81.6",
+  "version": "0.81.7",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "12315545381b56d69fa76078fe253980bd838c21",
-  "scope": "Preserve standalone Apps across layout updates and narrow the Dock highlight.",
-  "approval": "Maintainer approved both photographed editions with three recent applications for v0.81.6.",
+  "implementation_commit": "b05629a9e84cd0c5f365fde389903742c5442fcc",
+  "scope": "Multi-display menu bar synchronization, Dock movement and maximized windows.",
+  "approval": "Maintainer approved the Tahoe and Golden Gate previews of b05629a9.",
   "checks": [
     {
-      "command": "python3 -m pytest -q tests/test_dock_defaults.py (57 passed on the shared implementation)",
+      "command": "pytest tests/test_dock_always_visible.py tests/test_dock_follows_screen_dwell.py tests/test_menubar_sync.py tests/test_acrylic_glass_uninstall.py; dwell tests rerun after cancellation fix",
       "result": "passed"
     },
     {
-      "command": "Installed the photographed candidate in KDE neon Plasma 6.8.1 Wayland and reviewed nine Dock frames for this edition.",
+      "command": "pytest tests/test_dock_appearance.py tests/test_dock_defaults.py (87 passed)",
       "result": "passed"
     },
     {
-      "command": "Reinstalled Tahoe in the disposable guest and verified the standalone Apps launcher, the false pin preference and the original pin order.",
+      "command": "Installed and reinstalled candidate in KDE neon Wayland 6.8.1, set a clock on one display, read both clocks and captured the Dock moving from display 0 to 1.",
       "result": "passed"
     },
     {
-      "command": "Golden Gate wrapper suite and local paired release archive preflight passed.",
+      "command": "Ran KWin X11 6.6.5 and 6.7.4 in Xvfb, loaded the effect and measured a 10-pixel shift on maximization.",
+      "result": "passed"
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_source_archive.py tests/test_bootstrap.py tests/test_release_update.py tests/test_local_updates.py (106 passed); check_pair.py with the published Tahoe archive",
       "result": "passed"
     }
   ],
-  "reinstall": {
-    "source": "12315545381b56d69fa76078fe253980bd838c21",
-    "before": [
-      "preferred://filemanager",
-      "applications:org.kde.kate.desktop",
-      "preferred://browser"
-    ],
-    "after": [
-      1,
-      "false",
-      "preferred://filemanager,applications:org.kde.kate.desktop,preferred://browser"
-    ]
-  },
   "captures": [
     {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp",
-      "sha256": "ab3f15dc463820164bdc2fdd238666fd44b15001703b471321d0a92c9812b3e0",
+      "path": "src/screenshots/previews/golden-gate-multiscreen-dock-8acf94b1cdc2.jpg",
+      "sha256": "8acf94b1cdc2bbb7aa5fd0df3c48ccdc7d8b258eadecdaa4bfcf5669b2ea9d8d",
       "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp",
-      "sha256": "4f92758a96268d29479458db5e4ddb11278ccf681ea3a3a6a57e305f2d543a05",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp",
-      "sha256": "9a56e2ebccdf428d9eeee7ee0047571f45c027b2fdf4f662d04ce0aef6deeefa",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp",
-      "sha256": "2acdddb4feb40f281f21af00ce709c2364f9fdc427c3ae2050c7f948ece2a9cc",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp",
-      "sha256": "0feca8496131b07d16c2c6ee6d36f59d2b78ec3d13fbe7cb3c9c389b16a125b6",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp",
-      "sha256": "66f49f74fb754ce9777a35dd86077e674d11004d27dd70e64e9dc97eb12f9568",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp",
-      "sha256": "f505c90f757a1eb4deb666ab8485001838af5745ba0598d86537d6591ec76dfa",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp",
-      "sha256": "8a5dddb388f5b4ff38a9c74b305fd225a4ea0a6f7f7f73c43dbeb0e7054291f7",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
-    },
-    {
-      "path": "src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp",
-      "sha256": "10bd3f5e3f7ade41de32b35615222da543becc568ecd548ec58de81742ee27b9",
-      "reviewed": true,
-      "source_commit": "12315545381b56d69fa76078fe253980bd838c21"
+      "source_commit": "b05629a9e84cd0c5f365fde389903742c5442fcc"
     }
   ],
-  "recent_desktop_ids": [
-    "org.kde.kate.desktop",
-    "org.kde.konsole.desktop",
-    "org.kde.kcalc.desktop"
-  ],
-  "coverage_limits": "Single horizontal Dock on KDE neon Wayland. The reinstall scenario ran in Tahoe. Full distribution CI runs on dev.",
-  "source_sha256": "eeed3652359137eb1fcd354e391fd166f7b3137254f06612692fddffb75497bb"
+  "coverage_limits": "Two virtual displays on Wayland. X11 used a rendered Dock test window. The before/after photographs establish location, not animation timing.",
+  "source_sha256": "a252378e0e10f58fb23d0c5823da8a28e075a559700e551eb49a6ce9456e1408"
 }
