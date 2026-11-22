@@ -1,94 +1,50 @@
 {
-  "version": "0.81.2",
+  "version": "0.81.3",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
-  "photographed_source": "7363b6ff030225d659c318998359726de1cc0aa4",
-  "scope": "Native Finder edges in both appearances and automatic live Rounded Corners activation.",
-  "approval": "Maintainer approved the Golden Gate before/after comparison and requested paired publication.",
+  "implementation_commit": "764f73957fa5d1264c6d1430067ac8a20fb44e0b",
+  "photographed_source": "2122f2a38696c26ff135ec8244123ab84e15b81b",
+  "scope": "Restore the existing curved Downloads fan for fresh and upgraded Docks.",
+  "approval": "Maintainer approved the shown Golden Gate and Tahoe Downloads fan for paired publication.",
   "checks": [
     {
-      "command": "KDE neon 6.8.1 Wayland at 2\u00d7: Finder corners on black and white in light and dark. Verified window identity and background samples in the VM captures.",
+      "command": "Installed candidate in a disposable KDE neon Wayland guest for each edition. Clicked the Downloads Dock shortcut and captured its seven-file fan in light and dark. Verified the four installed QML hashes.",
       "result": "passed"
     },
     {
-      "command": "Golden Gate installer_backend.py install --only --rounded-corners: upgraded a stale mapped library in place. The new SHA-256-addressed module was mapped; KWin (1316) and Nautilus (59000) kept their PIDs.",
+      "command": "On the Tahoe guest, replaced the previous layout shortcut, compared surrounding applet IDs and order, and applied the migration a second time.",
       "result": "passed"
     },
     {
-      "command": "Xvfb, KWin X11 and Nautilus at 2\u00d7: changing the legacy GTK sheet to the candidate changed 2,164 edge pixels, with identical center pixels. The straight top edge on black changed from RGB 0 to 47.",
+      "command": "Executed the original RecentFiles model probe and the Dock layout, dependency mapping and translation regressions. On integration with v0.81.2, tests/test_dock_defaults.py and tests/test_localization.py passed (65 tests).",
       "result": "passed"
     },
     {
-      "command": "Built the candidate shader and Rounded Corners module against KWin 6.6.4 and 6.7.4, and installed the 6.8.1 build in the capture VM.",
-      "result": "passed"
-    },
-    {
-      "command": "Focused installer, localization and GTK tests: 48 passed, one skipped. Verified-archive compatibility and Qt corner regressions: five passed.",
-      "result": "passed"
-    },
-    {
-      "command": "Tahoe auto schedule: observed dusk and dawn on Wayland with the same five open windows; verified rendered GTK 3 and installer colors and recorded the GTK 4 appearance.",
-      "result": "passed"
-    },
-    {
-      "command": "Local wrapper --prepare produced byte-identical shader, theme switcher and installer step with MacGoldenGate wallpaper and launcher preset 2.",
-      "result": "passed"
-    },
-    {
-      "command": "Verified the immutable Tahoe release archive, version and checksum and ran Golden Gate wrapper tests.",
+      "command": "Verified the published Tahoe source archive and version, ran the paired pin check and Golden Gate wrapper tests.",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/golden-gate-finder-edge-light-white-e0fb54dc9c59.webp",
+      "path": "src/screenshots/previews/golden-gate-downloads-fan-light-0ab971b19fc2.png",
       "edition": "golden-gate",
-      "sha256": "e0fb54dc9c5944b8eff587ed4b29f6c73125ad739d37ef50767cf657b0841c24",
-      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
+      "sha256": "0ab971b19fc2a58eea9bcc6dec99f7bd722e2ed03112aed7743a49a332b90d13",
+      "source_commit": "2122f2a38696c26ff135ec8244123ab84e15b81b",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/golden-gate-finder-edge-light-black-a25c1e6d4b1d.webp",
+      "path": "src/screenshots/previews/golden-gate-downloads-fan-dark-eaab0a0d7c43.png",
       "edition": "golden-gate",
-      "sha256": "a25c1e6d4b1d7e8e674aeba6bbdf061faa40ed375214b468ffd3c0fe282b35e2",
-      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/golden-gate-finder-edge-dark-white-5cf2fb8770fc.webp",
-      "edition": "golden-gate",
-      "sha256": "5cf2fb8770fc88e8a1d93860e2d7deb686942cff25193297c275ad4544c2da26",
-      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/golden-gate-finder-edge-dark-black-4638c6ae0787.webp",
-      "edition": "golden-gate",
-      "sha256": "4638c6ae07874e7aa922260aa403d6393ad192f687accf6804167524c7878927",
-      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
+      "sha256": "eaab0a0d7c43464a9ff3c4b64eb72694a26d9256832bd44f49e61b0ef8290ac7",
+      "source_commit": "2122f2a38696c26ff135ec8244123ab84e15b81b",
       "reviewed": true
     }
   ],
-  "source_files": {
-    "src/scripts/steps/rounded_corners.py": "625d3716ddbde00d891293ee79ba7850c741c9dcaa461953e4615a3e88e852d8",
-    "src/scripts/rounded_corners_compat.py": "fe0f80742c20fcb8ec30b6ed1ce6395f7cbecb3bde08f71d8031acbb65970bb7",
-    "src/scripts/theme_switch.py": "21bd780170f5e7da7189aba2ed0f58bc45533cd15204799e2be5850ac0cd7174"
+  "installed_qml_sha256": {
+    "DownloadsFan.qml": "4f0748e18379638a3df579825ebdf3a411097ba82251a84f6a6a2b0e0eab484f",
+    "FileCard.qml": "90cc96d6fbb3257f420bee26038bedcdbf411d35889cb0dbdc1c036d9ea5eb98",
+    "RecentFiles.qml": "d966322c6b2349ebf2615c4fd0e904db086c684f6295fc11a86078292b57edf1",
+    "main.qml": "74eeef31f71bc01e208a666ab24fc917ebfa24a5def274aa607b0366e819ea8c"
   },
-  "loaded_library_sha256": "82970f2422d7a72e1e266b43a8b2b8e9485e913772c8e355db424f5324276b78",
-  "coverage_limits": "Live installer upgrade observed on Wayland. X11 Finder was rendered with the effect loaded. An effect-on/off screenshot comparison alone did not distinguish the shader change. Historical gallery images keep their original provenance.",
-  "automatic_frames": [
-    {
-      "clock": "2026-01-01T17:58:44+00:00",
-      "sha256": "9cb5f5097f37479503029b97e3e84fb0803e81840ac4758be9f8f34e77b80f8d"
-    },
-    {
-      "clock": "2026-01-01T18:00:05+00:00",
-      "sha256": "0cec0c4f6a8f9c1667dcf8586810feadafaec8e5205e3f9ab2ed21eada4b5d67"
-    },
-    {
-      "clock": "2026-01-02T06:00:05+00:00",
-      "sha256": "dc871e49d0b54e3d5256699e2da5fd82373ece95ab2d4b9a9f13c4f22a86ab44"
-    }
-  ],
-  "source_sha256": "9661426936e8cab5a532e782765169cf1f4c0b890684e0000d84b8c07a96660f"
+  "coverage_limits": "Rendered in light and dark on KDE neon Wayland. In-place migration exercised on Tahoe. The captured Downloads component is byte-identical in the integrated release.",
+  "source_sha256": "684a72d46b87709e9f5390daaba13e964a2d52aebe4111928c757c8d00b19868"
 }
