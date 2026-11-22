@@ -1,41 +1,42 @@
 {
-  "version": "0.81.0",
+  "version": "0.81.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "0c445e9f870a609d075478825a0e063d95c5562c",
-  "photographed_source": "3bebbfa8105c1e134bdf27bbb1266a1e902b9127",
-  "scope": "Golden Gate dark shell menu backdrop and shared contributor credits.",
-  "approval": "Maintainer approved the Golden Gate comparison and paired v0.81.0 publication.",
-  "effect_build": "309554164697c437a2db267860e3eea8eed262b5d75298790aa402a550727d64",
+  "implementation_commit": "81f352e84bc5a40d16e4be3b76883aa74dd3600e",
+  "scope": "Move and unpin Finder like any other application in the Dock.",
+  "approval": "Maintainer approved the before, after and Finder context menu previews for paired publication.",
   "checks": [
     {
-      "command": "KDE neon 6.8.1 Wayland: open the Golden Gate system menu over Kate in light and dark modes; verify loaded effect identity and inspected frames.",
+      "command": "python3 -m pytest -q tests/test_dock_defaults.py tests/test_dock_apps.py (77 passed)",
       "result": "passed"
     },
     {
-      "command": "Build liquidglass_x11 with KWin 6.6.5 and liquidglass with KWin 6.7.5; load the X11 candidate in isolated Xvfb and compare captured popup pixels with the effect off and on (481934 changed, 0 changed in the transparent gap).",
-      "result": "passed"
-    },
-    {
-      "command": "Verify the published immutable Tahoe archive, version and checksum with check_pair.py and run the local Golden Gate wrapper suite.",
+      "command": "KDE neon Wayland VM: drag Finder from first to fourth, restart Plasma, then remove Finder through its context menu and verify the saved pins.",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/golden-gate-system-menu-dark-8c8b9fef3ccc.png",
+      "path": "src/screenshots/previews/golden-gate-finder-dock-before-5a8cbd1b49aa.png",
       "edition": "golden-gate",
-      "sha256": "8c8b9fef3ccc0ff4dbaaa5ff2e939507aa213592b2bdc6cfff78d08a035b75c1",
-      "source_commit": "3bebbfa8105c1e134bdf27bbb1266a1e902b9127",
+      "sha256": "5a8cbd1b49aa01bf3c1ff78c1a6bd528ef047c008e8c62a23888e879910a07ea",
+      "source_commit": "ba6b0a612c4b73793150641bc7cb0acc6a6fc879",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/golden-gate-system-menu-light-196088a0ee1f.png",
+      "path": "src/screenshots/previews/golden-gate-finder-dock-after-8f50f92ab50d.png",
       "edition": "golden-gate",
-      "sha256": "196088a0ee1fb16466a6c5830506dd2475d3b6c2b1917b02b401e7bc18765614",
-      "source_commit": "3bebbfa8105c1e134bdf27bbb1266a1e902b9127",
+      "sha256": "8f50f92ab50d0f0d424adba35c9e91cd51c176085ff9044511d33e71b2aef030",
+      "source_commit": "ba6b0a612c4b73793150641bc7cb0acc6a6fc879",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-finder-dock-menu-detail-9380dab9db1c.png",
+      "edition": "golden-gate",
+      "sha256": "9380dab9db1c990887c45428202d46e06137f6eac5798b18eca3a886a2e36fee",
+      "source_commit": "81f352e84bc5a40d16e4be3b76883aa74dd3600e",
       "reviewed": true
     }
   ],
-  "coverage_limits": "Desktop captures cover Golden Gate on Wayland. KWin 6.7 coverage is build-only. The X11 check exercised a synthetic popup; historical gallery photos retain their original provenance.",
-  "source_sha256": "4c1ca46bb621c36f2dd2251b0176e8e3f3adf8184553fcc93b29e3a9d8fe2866"
+  "coverage_limits": "Shared Dock behavior exercised on a Golden Gate configured KDE neon Wayland VM with the candidate component installed. Full installer qualification and a separate Tahoe desktop capture were outside this check.",
+  "source_sha256": "235ec7c394bed5f10d40991cc6352e15e178d5f4e6db67b722663be477ceeed4"
 }
