@@ -1,42 +1,94 @@
 {
-  "version": "0.81.1",
+  "version": "0.81.2",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "81f352e84bc5a40d16e4be3b76883aa74dd3600e",
-  "scope": "Move and unpin Finder like any other application in the Dock.",
-  "approval": "Maintainer approved the before, after and Finder context menu previews for paired publication.",
+  "implementation_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
+  "photographed_source": "7363b6ff030225d659c318998359726de1cc0aa4",
+  "scope": "Native Finder edges in both appearances and automatic live Rounded Corners activation.",
+  "approval": "Maintainer approved the Golden Gate before/after comparison and requested paired publication.",
   "checks": [
     {
-      "command": "python3 -m pytest -q tests/test_dock_defaults.py tests/test_dock_apps.py (77 passed)",
+      "command": "KDE neon 6.8.1 Wayland at 2\u00d7: Finder corners on black and white in light and dark. Verified window identity and background samples in the VM captures.",
       "result": "passed"
     },
     {
-      "command": "KDE neon Wayland VM: drag Finder from first to fourth, restart Plasma, then remove Finder through its context menu and verify the saved pins.",
+      "command": "Golden Gate installer_backend.py install --only --rounded-corners: upgraded a stale mapped library in place. The new SHA-256-addressed module was mapped; KWin (1316) and Nautilus (59000) kept their PIDs.",
+      "result": "passed"
+    },
+    {
+      "command": "Xvfb, KWin X11 and Nautilus at 2\u00d7: changing the legacy GTK sheet to the candidate changed 2,164 edge pixels, with identical center pixels. The straight top edge on black changed from RGB 0 to 47.",
+      "result": "passed"
+    },
+    {
+      "command": "Built the candidate shader and Rounded Corners module against KWin 6.6.4 and 6.7.4, and installed the 6.8.1 build in the capture VM.",
+      "result": "passed"
+    },
+    {
+      "command": "Focused installer, localization and GTK tests: 48 passed, one skipped. Verified-archive compatibility and Qt corner regressions: five passed.",
+      "result": "passed"
+    },
+    {
+      "command": "Tahoe auto schedule: observed dusk and dawn on Wayland with the same five open windows; verified rendered GTK 3 and installer colors and recorded the GTK 4 appearance.",
+      "result": "passed"
+    },
+    {
+      "command": "Local wrapper --prepare produced byte-identical shader, theme switcher and installer step with MacGoldenGate wallpaper and launcher preset 2.",
+      "result": "passed"
+    },
+    {
+      "command": "Verified the immutable Tahoe release archive, version and checksum and ran Golden Gate wrapper tests.",
       "result": "passed"
     }
   ],
   "captures": [
     {
-      "path": "src/screenshots/previews/golden-gate-finder-dock-before-5a8cbd1b49aa.png",
+      "path": "src/screenshots/previews/golden-gate-finder-edge-light-white-e0fb54dc9c59.webp",
       "edition": "golden-gate",
-      "sha256": "5a8cbd1b49aa01bf3c1ff78c1a6bd528ef047c008e8c62a23888e879910a07ea",
-      "source_commit": "ba6b0a612c4b73793150641bc7cb0acc6a6fc879",
+      "sha256": "e0fb54dc9c5944b8eff587ed4b29f6c73125ad739d37ef50767cf657b0841c24",
+      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/golden-gate-finder-dock-after-8f50f92ab50d.png",
+      "path": "src/screenshots/previews/golden-gate-finder-edge-light-black-a25c1e6d4b1d.webp",
       "edition": "golden-gate",
-      "sha256": "8f50f92ab50d0f0d424adba35c9e91cd51c176085ff9044511d33e71b2aef030",
-      "source_commit": "ba6b0a612c4b73793150641bc7cb0acc6a6fc879",
+      "sha256": "a25c1e6d4b1d7e8e674aeba6bbdf061faa40ed375214b468ffd3c0fe282b35e2",
+      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/golden-gate-finder-dock-menu-detail-9380dab9db1c.png",
+      "path": "src/screenshots/previews/golden-gate-finder-edge-dark-white-5cf2fb8770fc.webp",
       "edition": "golden-gate",
-      "sha256": "9380dab9db1c990887c45428202d46e06137f6eac5798b18eca3a886a2e36fee",
-      "source_commit": "81f352e84bc5a40d16e4be3b76883aa74dd3600e",
+      "sha256": "5cf2fb8770fc88e8a1d93860e2d7deb686942cff25193297c275ad4544c2da26",
+      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-finder-edge-dark-black-4638c6ae0787.webp",
+      "edition": "golden-gate",
+      "sha256": "4638c6ae07874e7aa922260aa403d6393ad192f687accf6804167524c7878927",
+      "source_commit": "7363b6ff030225d659c318998359726de1cc0aa4",
       "reviewed": true
     }
   ],
-  "coverage_limits": "Shared Dock behavior exercised on a Golden Gate configured KDE neon Wayland VM with the candidate component installed. Full installer qualification and a separate Tahoe desktop capture were outside this check.",
-  "source_sha256": "235ec7c394bed5f10d40991cc6352e15e178d5f4e6db67b722663be477ceeed4"
+  "source_files": {
+    "src/scripts/steps/rounded_corners.py": "625d3716ddbde00d891293ee79ba7850c741c9dcaa461953e4615a3e88e852d8",
+    "src/scripts/rounded_corners_compat.py": "fe0f80742c20fcb8ec30b6ed1ce6395f7cbecb3bde08f71d8031acbb65970bb7",
+    "src/scripts/theme_switch.py": "21bd780170f5e7da7189aba2ed0f58bc45533cd15204799e2be5850ac0cd7174"
+  },
+  "loaded_library_sha256": "82970f2422d7a72e1e266b43a8b2b8e9485e913772c8e355db424f5324276b78",
+  "coverage_limits": "Live installer upgrade observed on Wayland. X11 Finder was rendered with the effect loaded. An effect-on/off screenshot comparison alone did not distinguish the shader change. Historical gallery images keep their original provenance.",
+  "automatic_frames": [
+    {
+      "clock": "2026-01-01T17:58:44+00:00",
+      "sha256": "9cb5f5097f37479503029b97e3e84fb0803e81840ac4758be9f8f34e77b80f8d"
+    },
+    {
+      "clock": "2026-01-01T18:00:05+00:00",
+      "sha256": "0cec0c4f6a8f9c1667dcf8586810feadafaec8e5205e3f9ab2ed21eada4b5d67"
+    },
+    {
+      "clock": "2026-01-02T06:00:05+00:00",
+      "sha256": "dc871e49d0b54e3d5256699e2da5fd82373ece95ab2d4b9a9f13c4f22a86ab44"
+    }
+  ],
+  "source_sha256": "9661426936e8cab5a532e782765169cf1f4c0b890684e0000d84b8c07a96660f"
 }
