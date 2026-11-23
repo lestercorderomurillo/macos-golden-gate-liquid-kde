@@ -628,7 +628,8 @@ Referencias del proyecto y componentes de terceros:
 - **[vinceliuice](https://github.com/vinceliuice)**: `MacTahoe-icon-theme`: iconos y cursores base; referencia de diseño GTK.
 - **[taj-ny](https://github.com/taj-ny/kwin-effects-forceblur)** y **[4v3ngR](https://github.com/4v3ngR/kwin-effects-glass)**: Better Blur y su bifurcación de cristal: código de origen utilizado por Acrylic Glass.
 - **[luisbocanegra](https://github.com/luisbocanegra/plasma-panel-colorizer)**: `plasma-panel-colorizer`, incluido sin conexión para teñir los paneles.
-- Los widgets de escritorio Liquid Glass incluidos son obra de **jaxparrow07**. **RoxasYTB** creó el widget de Fotos y el cambio automático entre Solid y Glass (GPL-3.0, licencia incluida). [liquidglass-kde-widgets](https://github.com/jaxparrow07/liquidglass-kde-widgets) · [#41](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) · [#40](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40)
+- **[jaxparrow07](https://github.com/jaxparrow07/liquidglass-kde-widgets)**: `liquidglass-kde-widgets` aporta la colección de widgets de escritorio Liquid Glass que se incluye con el tema (GPL-3.0, licencia incluida).
+- **[RoxasYTB](https://github.com/RoxasYTB)**: El [widget de Fotos](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) muestra fotos en el escritorio. El [cambio automático entre Solid y Glass](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40) activa el estilo Glass cuando hay una ventana abierta en la pantalla.
 - **[Matin Lotfaliei](https://github.com/matinlotfali/KDE-Rounded-Corners)**: `KDE-Rounded-Corners`, el efecto de ventanas redondeadas de KWin compilado contra el SDK KWin del anfitrión.
 - **[ful1e5](https://github.com/ful1e5)**: `apple_cursor`: referencia alternativa de diseño de cursores.
 - **[sahibjotsaggu](https://github.com/sahibjotsaggu)**: `San-Francisco-Pro-Fonts`: origen del paquete SF Pro / SF Mono.

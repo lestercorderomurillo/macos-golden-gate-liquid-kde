@@ -628,7 +628,8 @@ Referências do projeto e componentes de terceiros:
 - **[vinceliuice](https://github.com/vinceliuice)**: `MacTahoe-icon-theme`: ícones e cursores base; referência de design GTK.
 - **[taj-ny](https://github.com/taj-ny/kwin-effects-forceblur)** e **[4v3ngR](https://github.com/4v3ngR/kwin-effects-glass)**: Better Blur e seu fork de vidro: código upstream usado pelo Acrylic Glass.
 - **[luisbocanegra](https://github.com/luisbocanegra/plasma-panel-colorizer)**: `plasma-panel-colorizer`, incluído offline para colorir os painéis.
-- Os widgets de área de trabalho Liquid Glass incluídos são de **jaxparrow07**. **RoxasYTB** criou o widget Fotos e a alternância automática entre Solid e Glass (GPL-3.0, licença incluída). [liquidglass-kde-widgets](https://github.com/jaxparrow07/liquidglass-kde-widgets) · [#41](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) · [#40](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40)
+- **[jaxparrow07](https://github.com/jaxparrow07/liquidglass-kde-widgets)**: `liquidglass-kde-widgets` fornece a coleção de widgets Liquid Glass para a área de trabalho incluída com o tema (GPL-3.0, licença incluída).
+- **[RoxasYTB](https://github.com/RoxasYTB)**: O [widget Fotos](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) exibe fotos na área de trabalho. A [alternância automática entre Solid e Glass](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40) ativa o estilo Glass quando há uma janela aberta na tela.
 - **[Matin Lotfaliei](https://github.com/matinlotfali/KDE-Rounded-Corners)**: `KDE-Rounded-Corners`, o efeito de janelas arredondadas do KWin compilado com o SDK KWin do host.
 - **[ful1e5](https://github.com/ful1e5)**: `apple_cursor`: referência alternativa de design de cursores.
 - **[sahibjotsaggu](https://github.com/sahibjotsaggu)**: `San-Francisco-Pro-Fonts`: fonte do pacote SF Pro / SF Mono.

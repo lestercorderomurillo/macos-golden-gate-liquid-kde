@@ -569,7 +569,8 @@ Project references and third-party components:
 - **[vinceliuice](https://github.com/vinceliuice)**: `MacTahoe-icon-theme`: base icons and cursors; GTK design reference.
 - **[taj-ny](https://github.com/taj-ny/kwin-effects-forceblur)** and **[4v3ngR](https://github.com/4v3ngR/kwin-effects-glass)**: Better Blur and its glass fork: upstream code used by Acrylic Glass.
 - **[luisbocanegra](https://github.com/luisbocanegra/plasma-panel-colorizer)**: `plasma-panel-colorizer`, bundled offline to tint the panels.
-- The bundled Liquid Glass desktop widgets are by **jaxparrow07**, with the Photos widget and automatic Solid/Glass switching by **RoxasYTB** (GPL-3.0, license included). [liquidglass-kde-widgets](https://github.com/jaxparrow07/liquidglass-kde-widgets) · [#41](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) · [#40](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40)
+- **[jaxparrow07](https://github.com/jaxparrow07/liquidglass-kde-widgets)**: `liquidglass-kde-widgets` provides the bundled collection of Liquid Glass desktop widgets (GPL-3.0, license included).
+- **[RoxasYTB](https://github.com/RoxasYTB)**: [Photos widget](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) displays photos on the desktop. [Automatic Solid/Glass switching](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40) switches the widgets to Glass when a window is open on the screen.
 - **[Matin Lotfaliei](https://github.com/matinlotfali/KDE-Rounded-Corners)**: `KDE-Rounded-Corners`, the KWin rounded-window effect built against the host KWin SDK.
 - **[ful1e5](https://github.com/ful1e5)**: `apple_cursor`: alternate cursor design reference.
 - **[sahibjotsaggu](https://github.com/sahibjotsaggu)**: `San-Francisco-Pro-Fonts`: source of the SF Pro / SF Mono bundle.

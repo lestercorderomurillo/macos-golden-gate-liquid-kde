@@ -628,7 +628,8 @@ Projektreferenzen und Komponenten Dritter:
 - **[vinceliuice](https://github.com/vinceliuice)**: `MacTahoe-icon-theme`: Basissymbole und Mauszeiger; GTK-Designreferenz.
 - **[taj-ny](https://github.com/taj-ny/kwin-effects-forceblur)** und **[4v3ngR](https://github.com/4v3ngR/kwin-effects-glass)**: Better Blur und dessen Glas-Fork: von Acrylic Glass verwendeter Upstream-Code.
 - **[luisbocanegra](https://github.com/luisbocanegra/plasma-panel-colorizer)**: `plasma-panel-colorizer`, offline mitgeliefert, um Panels einzufärben.
-- Die mitgelieferten Liquid-Glass-Desktop-Widgets stammen von **jaxparrow07**. Das Fotos-Widget und der automatische Wechsel zwischen Solid und Glass stammen von **RoxasYTB** (GPL-3.0, Lizenz liegt bei). [liquidglass-kde-widgets](https://github.com/jaxparrow07/liquidglass-kde-widgets) · [#41](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) · [#40](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40)
+- **[jaxparrow07](https://github.com/jaxparrow07/liquidglass-kde-widgets)**: `liquidglass-kde-widgets` liefert die mit dem Design gebündelte Sammlung von Liquid-Glass-Desktop-Widgets (GPL-3.0, Lizenz liegt bei).
+- **[RoxasYTB](https://github.com/RoxasYTB)**: Das [Fotos-Widget](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) zeigt Fotos auf dem Desktop. Der [automatische Wechsel zwischen Solid und Glass](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40) aktiviert den Glass-Stil, sobald auf dem Bildschirm ein Fenster geöffnet ist.
 - **[Matin Lotfaliei](https://github.com/matinlotfali/KDE-Rounded-Corners)**: `KDE-Rounded-Corners`, der gegen das KWin-SDK des Hosts gebaute KWin-Effekt für abgerundete Fenster.
 - **[ful1e5](https://github.com/ful1e5)**: `apple_cursor`: alternative Designreferenz für Mauszeiger.
 - **[sahibjotsaggu](https://github.com/sahibjotsaggu)**: `San-Francisco-Pro-Fonts`: Quelle des SF-Pro-/SF-Mono-Pakets.
