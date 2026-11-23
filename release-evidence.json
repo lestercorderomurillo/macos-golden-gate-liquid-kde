@@ -1,73 +1,35 @@
 {
-  "version": "0.84.1",
+  "version": "0.84.2",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Increase the per-label minimum to 33 CIE lightness points and the same-family neutral shift limit to 102/255.",
-  "approval": "Maintainer reviewed the split Apps comparison, then explicitly selected publication with the 40-percent limit on 2026-11-23.",
+  "scope": "Honor the selected icon material for Dock roles, Downloads and secondary file managers.",
+  "approval": "Maintainer requested publication for every color after reviewing the red Dock previews.",
   "checks": [
     {
-      "command": "Full Arch SDK pytest suite: 2754 passed, 6 skipped. Focused launcher, widget, About, control and cache regressions passed.",
+      "command": "Generated all 6,359 icon names for red in both appearances and checked their aliases, image dimensions and tint coverage.",
       "result": "passed"
     },
     {
-      "command": "Native controlglassprobe checks the target, family, per-label split, alpha, grayscale sweep and adjustment bound.",
+      "command": "Compared alpha coverage of 1,394 unique sources with both generated red variants.",
       "result": "passed"
     },
     {
-      "command": "Installed on KDE neon Wayland in both editions and verified split Apps labels with 33- and 40-percent caps against the approved v0.84.0. Renewed off/on surface and widget captures.",
+      "command": "Rendered 24 representative Dock icons for all eight installer accent presets in both appearances. Verified that only empty and full Trash remain identical across accents.",
       "result": "passed"
     },
     {
-      "command": "Built X11 effect against KWin 6.6 and 6.7.4, loaded the build in an isolated X11 compositor.",
+      "command": "Captured and reviewed the tinted Dock in both icon appearances in an isolated KDE neon Wayland guest with macOS Dock role artwork enabled.",
       "result": "passed"
     },
     {
-      "command": "Verified the published Tahoe release, its immutable git tag and archive SHA-256. Golden Gate wrapper tests passed.",
+      "command": "Verified the immutable published Tahoe archive checksum and ran the Golden Gate wrapper tests.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Desktop matrix captured in two isolated KDE neon Wayland guests. OCR measurements are estimates; the launcher also recorded actual QML ink per label. The perceptual target can remain out of reach across a mixed background or at the adjustment limit.",
-  "approved_preview_sha256": {
-    "golden-gate/dark/apps-split/off.png": "fbc2711e16a4c8e8513e273345cf4c24a8684188846933c551cae0984dd1ee79",
-    "golden-gate/dark/apps-split/on.png": "5a649ed159b1990d1441d2c00d65453ce134abdb81f4c4831db1fd0a074d22fb",
-    "golden-gate/light/apps-split/off.png": "d3f37e7631ab14edb97895836a9689daac0c02ac39ec1f4c9fc175b70f79f112",
-    "golden-gate/light/apps-split/on.png": "8471db6319a9556fd9b7001215f81b3a44930a614c903b39373a0c4c22bd1731"
+  "approved_tahoe_preview_sha256": {
+    "Dark.png": "687109d1297a5989552bed1cb3a2321084d080915a349c69393f29c35735a52f",
+    "Light.png": "09c5ff04eaa71add928d12d2871c82636806eac024a2f7ca2ee9e73682776c45"
   },
-  "tahoe_light_firefox_split": {
-    "v0.84.0": {
-      "ink": "#353535",
-      "backdrop": "#070707",
-      "box": [
-        814,
-        601,
-        85,
-        20
-      ],
-      "separation": 20.2
-    },
-    "cap33": {
-      "ink": "#535353",
-      "backdrop": "#070707",
-      "box": [
-        814,
-        601,
-        85,
-        20
-      ],
-      "separation": 33.4
-    },
-    "cap40": {
-      "ink": "#535353",
-      "backdrop": "#070707",
-      "box": [
-        814,
-        601,
-        85,
-        20
-      ],
-      "separation": 33.4
-    }
-  },
-  "upstream_implementation_commit": "8c26a8632e9c3b585096cb5b44aaa254f3e01f3d",
-  "source_sha256": "7661802ae9dd8f3fae077cd68e441dcb40754a9e89e4833341365e0f07fe92cc"
+  "coverage_limits": "The desktop captures show the red preset on KDE neon. Other accents were checked against generated artwork. Golden Gate consumes the same pinned implementation.",
+  "source_sha256": "454e63f793fbff3f0cc4bddb875812753c3df3bf242b234fee6effc0c380a8c6"
 }
