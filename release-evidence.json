@@ -1,26 +1,73 @@
 {
-  "version": "0.84.0",
+  "version": "0.84.1",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Per-label Adaptive Contrast using the active theme foreground, a 20-point lightness target and a 20% maximum shift.",
-  "approval": "Maintainer reviewed the local interactive gallery and explicitly requested publication of the approved version as 0.84.",
+  "scope": "Increase the per-label minimum to 33 CIE lightness points and the same-family neutral shift limit to 102/255.",
+  "approval": "Maintainer reviewed the split Apps comparison, then explicitly selected publication with the 40-percent limit on 2026-11-23.",
   "checks": [
     {
-      "command": "121 focused launcher, widget, control, cache, global menu and Acrylic Glass tests plus the native controlglassprobe",
+      "command": "Full Arch SDK pytest suite: 2754 passed, 6 skipped. Focused launcher, widget, About, control and cache regressions passed.",
       "result": "passed"
     },
     {
-      "command": "Real KDE neon Wayland captures for Tahoe and Golden Gate, both appearances, Adaptive Contrast off and on. Inspected actual glyphs, controls and split-backdrop launcher delegates.",
+      "command": "Native controlglassprobe checks the target, family, per-label split, alpha, grayscale sweep and adjustment bound.",
+      "result": "passed"
+    },
+    {
+      "command": "Installed on KDE neon Wayland in both editions and verified split Apps labels with 33- and 40-percent caps against the approved v0.84.0. Renewed off/on surface and widget captures.",
+      "result": "passed"
+    },
+    {
+      "command": "Built X11 effect against KWin 6.6 and 6.7.4, loaded the build in an isolated X11 compositor.",
+      "result": "passed"
+    },
+    {
+      "command": "Verified the published Tahoe release, its immutable git tag and archive SHA-256. Golden Gate wrapper tests passed.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "150 pairs from the final candidate plus 16 earlier pairs. VM measurements use KDE neon Wayland and include detail crops.",
+  "coverage_limits": "Desktop matrix captured in two isolated KDE neon Wayland guests. OCR measurements are estimates; the launcher also recorded actual QML ink per label. The perceptual target can remain out of reach across a mixed background or at the adjustment limit.",
   "approved_preview_sha256": {
-    "golden-gate/dark/apps-split/off.png": "33371061cb21b513c89237eff9bce7a9f0dc9dd4f425f086508cad2ddf300e5f",
-    "golden-gate/dark/apps-split/on.png": "803958ab0ad3f6059268b75ba910ed45134c75d2ae40e0c5f2f5b19da7d3f862",
-    "golden-gate/light/apps-split/off.png": "b2a8b2c7b12f2aa6b39baf52c1aa16095c5e1449578124b0fdb4048ef0caf17a",
-    "golden-gate/light/apps-split/on.png": "c3c3020488bf4103bb6176bcb947e14205bcdf1ff9e62ce49dcec6c38208461b"
+    "golden-gate/dark/apps-split/off.png": "fbc2711e16a4c8e8513e273345cf4c24a8684188846933c551cae0984dd1ee79",
+    "golden-gate/dark/apps-split/on.png": "5a649ed159b1990d1441d2c00d65453ce134abdb81f4c4831db1fd0a074d22fb",
+    "golden-gate/light/apps-split/off.png": "d3f37e7631ab14edb97895836a9689daac0c02ac39ec1f4c9fc175b70f79f112",
+    "golden-gate/light/apps-split/on.png": "8471db6319a9556fd9b7001215f81b3a44930a614c903b39373a0c4c22bd1731"
   },
-  "upstream_implementation_commit": "35677c88e1523cd0558fad82ce4ea8dcdd027b66",
-  "source_sha256": "b49e98f1524212fa30a1f852eb3676fc53942de7087e0ffc4add38ca712afbb4"
+  "tahoe_light_firefox_split": {
+    "v0.84.0": {
+      "ink": "#353535",
+      "backdrop": "#070707",
+      "box": [
+        814,
+        601,
+        85,
+        20
+      ],
+      "separation": 20.2
+    },
+    "cap33": {
+      "ink": "#535353",
+      "backdrop": "#070707",
+      "box": [
+        814,
+        601,
+        85,
+        20
+      ],
+      "separation": 33.4
+    },
+    "cap40": {
+      "ink": "#535353",
+      "backdrop": "#070707",
+      "box": [
+        814,
+        601,
+        85,
+        20
+      ],
+      "separation": 33.4
+    }
+  },
+  "upstream_implementation_commit": "8c26a8632e9c3b585096cb5b44aaa254f3e01f3d",
+  "source_sha256": "7661802ae9dd8f3fae077cd68e441dcb40754a9e89e4833341365e0f07fe92cc"
 }
