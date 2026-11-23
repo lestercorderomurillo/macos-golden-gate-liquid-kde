@@ -13,7 +13,7 @@ them or claim ownership of the upstream components.
   per-logo sources, licenses, modifications, and hashes. The included
   [Simple Icons CC0 text](LICENSES/CC0-Simple-Icons.txt) does not override
   underlying brand rights or the per-logo license information.
-- The macOS 27 emblems, Apple wallpapers, SF fonts, and system sounds are
+- The emblems adapted from Apple artwork, Apple wallpapers, SF fonts, and system sounds are
   outside this project's GPL grant. Including them in a bundle or screenshot
   does not create a redistribution license or transfer their ownership.
 - Screenshots, contributor portraits, and the existing banner can contain

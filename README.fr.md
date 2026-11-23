@@ -1,8 +1,8 @@
 <p align="center">
-  <!-- Adapted with ImageGen from artwork by Apple: https://developer.apple.com/macos/ -->
+  <!-- Adapted with ImageGen from artwork by Apple: https://developer.apple.com/macos/. Tux design by Larry Ewing. -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/artwork/kde-27-dark-bc048fb145ee.png">
-    <img src="docs/artwork/kde-27-4808d8789e9c.png" alt="27 · KDE" width="180" height="180">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/artwork/glass-tux-golden-gate-dark-8a2f000e0c83.png">
+    <img src="docs/artwork/glass-tux-golden-gate-1ebd325961a7.png" alt="Golden Gate · Glass Tux" width="180" height="180">
   </picture>
 </p>
 

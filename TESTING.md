@@ -6,9 +6,10 @@
 
 ## Installation steps
 
+The Welcome page uses the [current edition emblem](README.md).
+
 <table>
 <tr><th>Step</th><th>Light</th><th>Dark</th></tr>
-<tr><th>Welcome</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-welcome-0c569a08701d.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-welcome-0c569a08701d.webp" width="480" alt="Welcome, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-welcome-e2f0ddac4acd.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-welcome-e2f0ddac4acd.webp" width="480" alt="Welcome, dark"></a></td></tr>
 <tr><th>Appearance</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-appearance-c6ec61e0799e.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-appearance-c6ec61e0799e.webp" width="480" alt="Appearance, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-appearance-dc7b9a8a9a4d.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-appearance-dc7b9a8a9a4d.webp" width="480" alt="Appearance, dark"></a></td></tr>
 <tr><th>Icons</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-icons-35f9f6e039d0.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-icons-35f9f6e039d0.webp" width="480" alt="Icons, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-icons-df55b9bf7471.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-icons-df55b9bf7471.webp" width="480" alt="Icons, dark"></a></td></tr>
 <tr><th>Wallpaper</th><td><a href="src/screenshots/previews/wizard-golden-gate-light-wallpaper-3d2985db3962.webp"><img src="src/screenshots/previews/wizard-golden-gate-light-wallpaper-3d2985db3962.webp" width="480" alt="Wallpaper, light"></a></td><td><a href="src/screenshots/previews/wizard-golden-gate-dark-wallpaper-3c6421196917.webp"><img src="src/screenshots/previews/wizard-golden-gate-dark-wallpaper-3c6421196917.webp" width="480" alt="Wallpaper, dark"></a></td></tr>
