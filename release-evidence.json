@@ -1,28 +1,27 @@
 {
-  "version": "0.82.14",
+  "version": "0.82.15",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "bb4b16e65e6403d3e0bae8366727c10bcb6097e2",
-  "scope": "Show Glass Tux in all Golden Gate README translations and pin the shared installer with light and dark Glass Tux emblems.",
+  "upstream_implementation_commit": "ae9d068f5d2f89f5f8b45487dd7c210012014875",
+  "scope": "Pin Golden Gate to the approved shared exponential menu bar fade and display corner behavior.",
+  "approval": "The maintainer approved the final menu bar and corner clearance preview for publication in both editions.",
   "checks": [
     {
-      "command": "Ran three focused wrapper tests for local-source staging and verified-pin selection.",
+      "command": "Ran six Golden Gate wrapper tests covering archive verification, pin selection and local edition staging.",
       "result": "passed"
     },
     {
-      "command": "Staged Golden Gate defaults against the release source and verified both installer emblems against the README assets.",
+      "command": "Staged the approved Tahoe runtime through Golden Gate and verified its dedicated defaults plus byte identity of the menu bar and native corner implementation.",
       "result": "passed"
     },
     {
-      "command": "Verified the published Tahoe tag and immutable archive, matching versions, both shared installer image assets and git diff --check.",
+      "command": "Verified the published Tahoe commit archive, version, component ledger and SHA-256 in paired release preflight.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "The Welcome page was rendered by the native Qt wizard with offscreen light and dark palettes. No installation transaction was run.",
-  "source_sha256": "b1d8fde67e7995840bf47d9ef6272226705be625b8a3533f5c57c4951248a906",
-  "approval": "The maintainer reviewed the Glass Tux previews and requested publication in every README and in the installer.",
+  "coverage_limits": "Pin-only wrapper update. Golden Gate wallpapers and the shared bar were captured in light and dark modes on one Plasma 6.8.1 Wayland display. The shared pointer boundary applies on Wayland.",
   "approved_preview_sha256": {
-    "glass-tux-golden-gate-1ebd325961a7.png": "1ebd325961a71431c7b096d13b38a5bab771bf571b51ef1731a61b0e5318303a",
-    "glass-tux-golden-gate-dark-8a2f000e0c83.png": "8a2f000e0c836b7dcd4310c38ae4d7b2b0be758ae1302e00d314b2d7194e78d1"
-  }
+    "preview.png": "514acea1fb20ac3f02d1ec175d8f52ac5866c62def2bc8fdff3c7ac1e59e0e89"
+  },
+  "source_sha256": "de096bc018b3b71c98c9aea4e4ed95d3c7a1a773f10c5a894b7b59a0d163b892"
 }
