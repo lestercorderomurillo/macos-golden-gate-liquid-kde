@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.82.7**. Verified that stock Networks moves under the tray arrow while the theme’s Wi-Fi and pinned icons remain visible. [Evidence and coverage](release-evidence.json).
+**v0.82.14**. Verified that the installer Welcome page shows the Golden Gate Glass Tux emblem in light and dark appearance. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 

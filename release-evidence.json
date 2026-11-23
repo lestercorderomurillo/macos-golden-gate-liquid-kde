@@ -1,23 +1,28 @@
 {
-  "version": "0.82.13",
+  "version": "0.82.14",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "implementation_commit": "812e7c4755b9a498089668b14d3d54eefc881d82",
-  "scope": "Pin Golden Gate to the approved Tahoe v0.82.13 wallpaper-aware Dynamic Tinting release.",
+  "implementation_commit": "bb4b16e65e6403d3e0bae8366727c10bcb6097e2",
+  "scope": "Show Glass Tux in all Golden Gate README translations and pin the shared installer with light and dark Glass Tux emblems.",
   "checks": [
     {
-      "command": "Ran six focused Golden Gate bootstrap cases for archive digest rejection, local source staging, edition defaults and immutable pin selection.",
+      "command": "Ran three focused wrapper tests for local-source staging and verified-pin selection.",
       "result": "passed"
     },
     {
-      "command": "Verified the published Tahoe tag, immutable commit archive, version, archive and component checksums in paired preflight.",
+      "command": "Staged Golden Gate defaults against the release source and verified both installer emblems against the README assets.",
+      "result": "passed"
+    },
+    {
+      "command": "Verified the published Tahoe tag and immutable archive, matching versions, both shared installer image assets and git diff --check.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Pin-only wrapper update. Shared menu-bar behavior was rendered in a single-output KDE neon 6.8.1 Wayland VM. Verified Golden Gate staging preserved the shared files and used its own defaults.",
-  "source_sha256": "4a71128aed0cd3688333cea485eb3cf15430742ed2041ce9dc27f92a49902879",
-  "approval": "The maintainer approved paired publication after reviewing the rendered menu-bar tinting, including both edition wallpapers.",
+  "coverage_limits": "The Welcome page was rendered by the native Qt wizard with offscreen light and dark palettes. No installation transaction was run.",
+  "source_sha256": "b1d8fde67e7995840bf47d9ef6272226705be625b8a3533f5c57c4951248a906",
+  "approval": "The maintainer reviewed the Glass Tux previews and requested publication in every README and in the installer.",
   "approved_preview_sha256": {
-    "edition-wallpapers.png": "d312fbddbbf83a16f07d8922f58aef6fe10ac17e1ab468b4a3f49bc528c9a4bb"
+    "glass-tux-golden-gate-1ebd325961a7.png": "1ebd325961a71431c7b096d13b38a5bab771bf571b51ef1731a61b0e5318303a",
+    "glass-tux-golden-gate-dark-8a2f000e0c83.png": "8a2f000e0c836b7dcd4310c38ae4d7b2b0be758ae1302e00d314b2d7194e78d1"
   }
 }
