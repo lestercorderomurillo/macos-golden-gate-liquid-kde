@@ -1,27 +1,23 @@
 {
-  "version": "0.82.15",
+  "version": "0.82.16",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "upstream_implementation_commit": "ae9d068f5d2f89f5f8b45487dd7c210012014875",
-  "scope": "Pin Golden Gate to the approved shared exponential menu bar fade and display corner behavior.",
-  "approval": "The maintainer approved the final menu bar and corner clearance preview for publication in both editions.",
+  "upstream_implementation_commit": "38ace6a927986c288570fb24b92d5c0d0d8e5e18",
+  "scope": "Pin Golden Gate to Tahoe v0.82.16 for component-wide adaptive text and transparent light menus.",
+  "approval": "The maintainer requested publication after reviewing the light system menu over the Sequoia Sunrise wallpaper.",
   "checks": [
     {
-      "command": "Ran six Golden Gate wrapper tests covering archive verification, pin selection and local edition staging.",
+      "command": "Ran five Golden Gate wrapper checks covering archive verification, staging, caching and rejection of unpublished pins.",
       "result": "passed"
     },
     {
-      "command": "Staged the approved Tahoe runtime through Golden Gate and verified its dedicated defaults plus byte identity of the menu bar and native corner implementation.",
-      "result": "passed"
-    },
-    {
-      "command": "Verified the published Tahoe commit archive, version, component ledger and SHA-256 in paired release preflight.",
+      "command": "Verified the published Tahoe archive against the version, component ledger and all modified runtime sources.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Pin-only wrapper update. Golden Gate wallpapers and the shared bar were captured in light and dark modes on one Plasma 6.8.1 Wayland display. The shared pointer boundary applies on Wayland.",
+  "coverage_limits": "Shared rendering evidence comes from the Tahoe implementation. The final forest wallpaper capture was reviewed in KDE neon Wayland. Golden Gate changes its immutable source pin.",
   "approved_preview_sha256": {
-    "preview.png": "514acea1fb20ac3f02d1ec175d8f52ac5866c62def2bc8fdff3c7ac1e59e0e89"
+    "menu-sobre-secuoyas.png": "8d94ea416588d03f9dca0259d418883c43c68b89dc641b6adff0bbdd1a0edac4"
   },
-  "source_sha256": "de096bc018b3b71c98c9aea4e4ed95d3c7a1a773f10c5a894b7b59a0d163b892"
+  "source_sha256": "afa32eaab28d6f9d9f288e07b1afe149c4350b4d3e6d8801802fbdb8280a9b17"
 }
