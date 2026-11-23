@@ -1,8 +1,8 @@
 {
-  "version": "0.82.16",
+  "version": "0.82.17",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "upstream_implementation_commit": "38ace6a927986c288570fb24b92d5c0d0d8e5e18",
-  "scope": "Pin Golden Gate to Tahoe v0.82.16 for component-wide adaptive text and transparent light menus.",
+  "upstream_implementation_commit": "ded4d9028992e4e388013101db1e68a31d24cd34",
+  "scope": "Pin Golden Gate to Tahoe v0.82.17, including the corrected Qt menu transparency regression check and the approved adaptive glass runtime.",
   "approval": "The maintainer requested publication after reviewing the light system menu over the Sequoia Sunrise wallpaper.",
   "checks": [
     {
@@ -19,5 +19,5 @@
   "approved_preview_sha256": {
     "menu-sobre-secuoyas.png": "8d94ea416588d03f9dca0259d418883c43c68b89dc641b6adff0bbdd1a0edac4"
   },
-  "source_sha256": "afa32eaab28d6f9d9f288e07b1afe149c4350b4d3e6d8801802fbdb8280a9b17"
+  "source_sha256": "c5a9f425feaf9895f667c3de5f85cda4652dce2818afd410a2f4ed0ccb06fe38"
 }
