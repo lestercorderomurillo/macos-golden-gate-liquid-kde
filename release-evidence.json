@@ -1,23 +1,28 @@
 {
-  "version": "0.82.17",
+  "version": "0.82.18",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "upstream_implementation_commit": "ded4d9028992e4e388013101db1e68a31d24cd34",
-  "scope": "Pin Golden Gate to Tahoe v0.82.17, including the corrected Qt menu transparency regression check and the approved adaptive glass runtime.",
-  "approval": "The maintainer requested publication after reviewing the light system menu over the Sequoia Sunrise wallpaper.",
+  "upstream_implementation_commit": "b97fa9ed74dd854085b354819bffc6143f95d84c",
+  "scope": "Pin Golden Gate to Tahoe v0.82.18 with wallpaper-driven panel ink, unified native menu text and stable menu titles during focus changes.",
+  "approval": "The maintainer approved the local Tahoe and Golden Gate menu comparison and requested publication.",
   "checks": [
     {
-      "command": "Ran five Golden Gate wrapper checks covering archive verification, staging, caching and rejection of unpublished pins.",
+      "command": "Verified the published Tahoe release archive against all 13 changed repository files, including the version and component ledger.",
       "result": "passed"
     },
     {
-      "command": "Verified the published Tahoe archive against the version, component ledger and all modified runtime sources.",
+      "command": "Ran the four immutable release archive gate cases and the verified fallback installation case.",
+      "result": "passed"
+    },
+    {
+      "command": "Reviewed the Golden Gate menu and panel in KDE neon against the native macOS reference.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Shared rendering evidence comes from the Tahoe implementation. The final forest wallpaper capture was reviewed in KDE neon Wayland. Golden Gate changes its immutable source pin.",
+  "coverage_limits": "Visual and frame checks used one KDE neon Wayland output. The first activation of an unknown menu waits for its exporter.",
   "approved_preview_sha256": {
-    "menu-sobre-secuoyas.png": "8d94ea416588d03f9dca0259d418883c43c68b89dc641b6adff0bbdd1a0edac4"
+    "macos-kde-menu.png": "cb3c9bff0a44c20c830a7f5cb648513e316601741ab7daba3dcdacce95618d26",
+    "barra-final.png": "12a06580b853be1a386b0d4f6bdfaa70fbb696120ae23da893045238e12eeaf5"
   },
-  "source_sha256": "c5a9f425feaf9895f667c3de5f85cda4652dce2818afd410a2f4ed0ccb06fe38"
+  "source_sha256": "dee7bf98264ac6505d38d028ea06b05c68b05e4003cbdcae123c380bb9836c92"
 }
