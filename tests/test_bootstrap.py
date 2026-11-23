@@ -496,6 +496,23 @@ def test_cleanup_preserves_running_legacy_entry_without_a_lease(tmp_path, monkey
         child.wait()
 
 
+def test_cleanup_preserves_the_snapshot_used_by_installed_settings(tmp_path, monkeypatch):
+    wrapper_at(tmp_path, monkeypatch)
+    source = local_checkout(tmp_path / "macos-tahoe-liquid-kde")
+    first = bootstrap.prepare()
+    monkeypatch.setenv("XDG_STATE_HOME", str(tmp_path / "state"))
+    record = tmp_path / "state/mac-tahoe-liquid-kde/settings-source"
+    record.parent.mkdir(parents=True)
+    record.write_text(str(first) + "\n")
+    (source / "new-ui.py").write_text("replacement")
+    second = bootstrap.prepare()
+    assert first.is_dir() and second != first
+
+    record.write_text(str(second) + "\n")
+    assert bootstrap.prepare() == second
+    assert not first.exists()
+
+
 def test_release_candidate_ordering():
     versions = ['0.62.0', '0.63rc1', '0.63rc2', '0.63.0', '0.63.1']
     assert sorted(versions, key=bootstrap._version) == versions

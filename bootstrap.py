@@ -52,6 +52,12 @@ def prune_prepared(cache: Path, current: Path) -> None:
     unlink a locked snapshot: the wizard and its backend still import it.
     """
     active = active_prepared(cache)
+    state = Path(os.environ.get("XDG_STATE_HOME") or Path.home() / ".local/state")
+    record = state / "mac-tahoe-liquid-kde/settings-source"
+    try:
+        installed_settings = Path(os.fsdecode(record.read_bytes().removesuffix(b"\n")))
+    except OSError:
+        installed_settings = None
     for previous in cache.iterdir():
         # The caller owns .prepare.lock; no extraction can still be using
         # these TemporaryDirectory names left behind by an interrupted run.
@@ -62,7 +68,7 @@ def prune_prepared(cache: Path, current: Path) -> None:
             except OSError as exc:
                 print(f"Golden Gate: could not remove interrupted download {previous}: {exc}", file=sys.stderr)
             continue
-        if (active is None or previous in active
+        if (active is None or previous in active or previous == installed_settings
                 or previous == current or previous.is_symlink()
                 or not previous.is_dir()
                 or not re.fullmatch(r"[0-9a-f]{20}", previous.name)):
