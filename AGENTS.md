@@ -277,6 +277,9 @@ below; this does not require repeating the full shared suite for every edit.
 Show Dock photographs as one visible vertical list, with a short label for each appearance or tint. Do not use tables or collapsed galleries for the Dock.
 
 Use concise, factual English descriptions without marketing slogans or em dashes.
+Use a colon for label and title separators in project documentation.
+Follow the punctuation conventions of each translation. Preserve the punctuation of
+compound words, Markdown list markers, version ranges and technical syntax.
 Use the repository's edition name in feature headings: Finder, Launchpad, Dock,
 Shell, Control Center, Clipboard History, System Information, Plasma Theme and
 Boot Splash. Mark Shell, Control Center and Clipboard History as Alpha; do not

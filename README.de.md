@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">macOS Golden Gate – Optik und Bediengefühl für KDE unter Linux</h1>
+<h1 align="center">macOS Golden Gate: Optik und Bediengefühl für KDE unter Linux</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en">🇺🇸 English</a> ·
@@ -372,20 +372,20 @@ Ein abgestimmtes Erscheinungsbild vom Start bis zum Herunterfahren mit integrier
 
 ![Funktionen](https://img.shields.io/badge/features-6B4B8A?style=for-the-badge&logo=github&logoColor=white)
 
-- **Sprachen:** Installationsprogramm auf Englisch, Spanisch, vereinfachtem Chinesisch, brasilianischem Portugiesisch, Deutsch und Französisch; übersetzte Plasma-Widgets.
-- **Installationsprogramm:** grafische Komponentenauswahl, mitgelieferte Designressourcen und Aktualisierungsunterstützung.
-- **Distributionen:** Installation von Abhängigkeiten für Arch-basierte, Fedora-basierte, openSUSE-, Debian- und KDE-neon-Systeme.
-- **Zeitplanung:** automatischer Designwechsel und OLED-Schutz über systemd-Benutzertimer oder cron unter OpenRC.
-- **Glaseffekte:** einstellbare Unschärfe, Brechung und dreifarbige Verläufe für helle und dunkle Modi.
-- **Kompatibilität:** Plasma 6.6–6.8 mit nativen Effekten, die gegen die installierten Qt- und KWin-Versionen kompiliert werden.
-- **Launchpad:** zwei Anordnungen, integrierte oder abgetrennte Suche, Favoriten und scrollbare Anwendungskategorien.
-- **Dock** Das Dock folgt dem berührten unteren Bildschirmrand und behält angeheftete Apps. Im Installer stehen automatisches Ausblenden (Standard), Anzeigen außerhalb des Vollbilds und Ausblenden bei überlappenden Fenstern zur Wahl. Bei mehreren Bildschirmen wechselt das Dock erst, wenn der Zeiger 2 Sekunden am unteren Rand eines anderen Bildschirms bleibt, damit ein Klick unten in einem Fenster es nicht darüberzieht. Ist das Dock immer sichtbar, bleibt es schwebend mit abgerundeten Ecken: Ein auf seinem Bildschirm maximiertes Fenster endet direkt darüber, und das Dock liegt daneben bündig am Bildschirmrand, wie unter macOS.
-- **Menüleiste** Bei mehreren Bildschirmen bleiben alle Menüleisten gleich: Ein Symbol im Systemabschnitt ein- oder ausblenden oder die Einstellungen eines Widgets ändern (Uhr, Apple-Menü, Kontrollzentrum) gilt für die Menüleiste jedes Bildschirms. Widgets hinzufügen, entfernen oder verschieben gilt weiterhin nur für eine Menüleiste.
-- **Erscheinungsbild:** synchronisierte helle/dunkle Stile für Desktop, Anwendungen, Symbole und Fensterdekorationen; Hintergrundbilder pro Monitor.
-- **Anwendungsintegration:** globale Menüs, GTK-Menükorrekturen, Nautilus im Finder-Stil und Firefox-Design mit Profilsicherungen.
-- **Wiederherstellung:** Prüfung der Voraussetzungen, Einstellungssicherungen und Wiederherstellung bei der Deinstallation.
-- **Optionale Funktionen:** OLED-Panel-Verschiebungen und experimentelle NixOS- und Home-Manager-Module.
-- **Tests:** Regressionstests, Distributionscontainer und Plasma-VMs.
+- **Erscheinungsbild:** Abgestimmte helle und dunkle Designs für Desktop, Anwendungen, Symbole und Fensterdekorationen, mit automatischem Wechsel und eigenen Hintergrundbildern pro Monitor.
+- **Glaseffekte:** Einstellbare Unschärfe, Lichtbrechung und Tönung. In unterstützten Menüs passt sich die Schrift dem Hintergrund an.
+- **Dock:** Angeheftete Apps, Vergrößerung beim Darüberfahren, Benachrichtigungsabzeichen und einstellbares Ausblenden. Das Dock folgt dir von Bildschirm zu Bildschirm.
+- **Menüleiste und Kontrollzentrum:** Globale Anwendungsmenüs und schnelle Systemeinstellungen. Die Einstellungen der Menüleiste werden zwischen Bildschirmen geteilt.
+- **Launchpad:** Apps suchen, Kategorien durchstöbern und Favoriten speichern. Zwei Anordnungen stehen zur Wahl.
+- **Desktop-Widgets:** Liquid-Glass-Widgets direkt auf dem Desktop platzieren.
+- **Benachrichtigungen:** Glasbanner und gruppierter Verlauf mit Schnellaktionen und Antworten in unterstützten Apps.
+- **Zwischenablageverlauf:** Kopierte Texte und Bilder wiederfinden, erneut verwenden und bei Bedarf anheften.
+- **Anwendungsintegration:** Dateiverwaltung im Finder-Stil mit Nautilus, GTK-Menüintegration und Firefox-Design mit Profilsicherung.
+- **Systeminformationen und Start:** Systeminformationsfenster und optionaler Startbildschirm im passenden Design.
+- **Installation und Wiederherstellung:** Grafisches Installationsprogramm mit mitgeliefertem Design, Updates und Einstellungssicherungen, die sich bei der Deinstallation wiederherstellen lassen.
+- **Sprachen:** Das Installationsprogramm ist auf Englisch, Spanisch, vereinfachtem Chinesisch, brasilianischem Portugiesisch, Deutsch und Französisch verfügbar. Auch die Plasma-Widgets sind übersetzt.
+- **Kompatibilität:** Plasma 6.6–6.8 auf Arch- und Fedora-basierten Systemen sowie auf openSUSE, Debian und KDE neon.
+- **Optionale Funktionen:** Schutz für OLED-Bildschirme und experimentelle Unterstützung für NixOS und Home Manager.
 
 <br>
 
@@ -628,6 +628,7 @@ Projektreferenzen und Komponenten Dritter:
 - **[vinceliuice](https://github.com/vinceliuice)**: `MacTahoe-icon-theme`: Basissymbole und Mauszeiger; GTK-Designreferenz.
 - **[taj-ny](https://github.com/taj-ny/kwin-effects-forceblur)** und **[4v3ngR](https://github.com/4v3ngR/kwin-effects-glass)**: Better Blur und dessen Glas-Fork: von Acrylic Glass verwendeter Upstream-Code.
 - **[luisbocanegra](https://github.com/luisbocanegra/plasma-panel-colorizer)**: `plasma-panel-colorizer`, offline mitgeliefert, um Panels einzufärben.
+- Die mitgelieferten Liquid-Glass-Desktop-Widgets stammen von **jaxparrow07**. Das Fotos-Widget und der automatische Wechsel zwischen Solid und Glass stammen von **RoxasYTB** (GPL-3.0, Lizenz liegt bei). [liquidglass-kde-widgets](https://github.com/jaxparrow07/liquidglass-kde-widgets) · [#41](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/41) · [#40](https://github.com/jaxparrow07/liquidglass-kde-widgets/pull/40)
 - **[Matin Lotfaliei](https://github.com/matinlotfali/KDE-Rounded-Corners)**: `KDE-Rounded-Corners`, der gegen das KWin-SDK des Hosts gebaute KWin-Effekt für abgerundete Fenster.
 - **[ful1e5](https://github.com/ful1e5)**: `apple_cursor`: alternative Designreferenz für Mauszeiger.
 - **[sahibjotsaggu](https://github.com/sahibjotsaggu)**: `San-Francisco-Pro-Fonts`: Quelle des SF-Pro-/SF-Mono-Pakets.
