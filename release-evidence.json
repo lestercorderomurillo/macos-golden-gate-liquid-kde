@@ -1,28 +1,32 @@
 {
-  "version": "0.82.18",
+  "version": "0.82.19",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "upstream_implementation_commit": "b97fa9ed74dd854085b354819bffc6143f95d84c",
-  "scope": "Pin Golden Gate to Tahoe v0.82.18 with wallpaper-driven panel ink, unified native menu text and stable menu titles during focus changes.",
-  "approval": "The maintainer approved the local Tahoe and Golden Gate menu comparison and requested publication.",
+  "upstream_implementation_commit": "d365f500190ad2c310025bf5739d7fd95198a39a",
+  "scope": "Make the top panel continuous corners more noticeable and normalize the localized clock date. New layouts use the regional hour format.",
+  "approval": "The maintainer approved both edition comparisons and requested publication.",
   "checks": [
     {
-      "command": "Verified the published Tahoe release archive against all 13 changed repository files, including the version and component ledger.",
+      "command": "Ran 87 Tahoe layout and Dock tests, including the new clock defaults and saved preference migration.",
       "result": "passed"
     },
     {
-      "command": "Ran the four immutable release archive gate cases and the verified fallback installation case.",
+      "command": "Upgraded v0.82.18 to the candidate with the layout preserved in Tahoe and Golden Gate. Verified the installed clock fingerprint, existing applet and its hour setting, and captured both corners and the localized clock in light and dark on KDE neon Wayland.",
       "result": "passed"
     },
     {
-      "command": "Reviewed the Golden Gate menu and panel in KDE neon against the native macOS reference.",
+      "command": "Verified the approved preview hashes and the Tahoe component installation fingerprint ledger.",
+      "result": "passed"
+    },
+    {
+      "command": "Verified the published Tahoe release tag, immutable archive checksum and included version.",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "Visual and frame checks used one KDE neon Wayland output. The first activation of an unknown menu waits for its exporter.",
+  "coverage_limits": "Visual upgrade checks used KDE neon Plasma 6.8.1 Wayland with one 2x output and LC_TIME=es_CR.UTF-8. Automated layout tests checked regional defaults and preservation of a saved 24-hour setting.",
   "approved_preview_sha256": {
-    "macos-kde-menu.png": "cb3c9bff0a44c20c830a7f5cb648513e316601741ab7daba3dcdacce95618d26",
-    "barra-final.png": "12a06580b853be1a386b0d4f6bdfaa70fbb696120ae23da893045238e12eeaf5"
+    "tahoe-comparacion.png": "c6a7232b827bddc701852edeabae7d021b927c4cf143e7d41ff8e2dd49a602d4",
+    "golden-gate-comparacion.png": "dc3d9232c54e5e0d91dd59dd917d73eedac8940c6c9c0f1fdc7bbdc3cb91bbda"
   },
-  "source_sha256": "dee7bf98264ac6505d38d028ea06b05c68b05e4003cbdcae123c380bb9836c92"
+  "source_sha256": "157aa3e22b723a97db4e3ba393a1bf54ab588e42056bfa146de2863f2722a564"
 }
