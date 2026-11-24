@@ -1,18 +1,30 @@
 {
-  "version": "0.84.9",
+  "version": "0.84.10",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Update tray and calendar contrast from the active Plasma Activity on each monitor.",
+  "scope": "Settings now records Meta alone as the launcher activation shortcut.",
   "checks": [
     {
-      "command": "python -m pytest -q tests/test_wallpaper_activity.py in the primary Arch SDK (Plasma 6.8.3), private Wayland session, two outputs and two Activities",
+      "command": "python -m pytest -q tests/test_plasmoid_settings.py (12 passed)",
       "result": "passed"
     },
     {
-      "command": "python -m pytest -q tests/test_release_update.py and paired release preflight against the downloaded Tahoe commit archive",
+      "command": "QEMU guest keyboard input in KDE neon Plasma 6.8.1 Wayland: Settings saved Meta and Meta+F11, cleared the binding, and opened Launchpad with a tap of Meta. Verified the launcher widget action separately with Meta removed from the desktop-wide action.",
+      "result": "passed"
+    },
+    {
+      "command": "Qt offscreen primary SDK: Meta, Meta+F11 and clearing the same shortcut editor",
+      "result": "passed"
+    },
+    {
+      "command": "python -m pytest -q tests/test_release_update.py and immutable Tahoe release archive preflight",
       "result": "passed"
     }
   ],
   "captures": [],
-  "coverage_limits": "The approved preview shows one of two virtual outputs in a KDE neon guest running Plasma 6.8.1 on Wayland. The first and return frames matched byte for byte. Physical monitors and a separate Golden Gate desktop were not exercised.",
-  "source_sha256": "1e6ca0a56328d99a0453ee9dfc55460254fd48c547066bc688ccb9906f9edf77"
+  "coverage_limits": "Guest keyboard and launcher activation were exercised on Wayland with the Golden Gate launcher layout. Other distributions and X11 were not independently exercised for keyboard activation.",
+  "source_sha256": "b900ee5b497b27d6a4b8ea6239e04d96fc66fc6ac61d995338575c8cbae4f49b",
+  "tested_source": {
+    "commit": "cc148f95",
+    "wizard_window_sha256": "2770efac5b1870826c06c40e1dad4c6e34147889ce0028534d837c02e4b64f44"
+  }
 }
