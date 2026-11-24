@@ -1,18 +1,24 @@
 {
-  "version": "0.84.3",
+  "version": "0.84.4",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Use the selected icon material for ordinary folders and XDG user directories in Files.",
-  "approval": "Maintainer requested release after the dark Files preview was presented.",
+  "scope": "Match installed Settings window and navigation sizing to Finder.",
+  "approval": "Maintainer requested release after reviewing the before, after and Finder reference.",
   "checks": [
     {
-      "command": "Open the Home grid in Nautilus with generated orange Glass icons and inspect generic and XDG folder artwork.",
+      "command": "Measured the natural Finder window with KWin and captured it alongside baseline and candidate installed Settings at the same display scale in an isolated KDE neon Wayland guest.",
+      "result": "passed"
+    },
+    {
+      "command": "Verified the published Tahoe archive against the immutable wrapper pin and ran the Golden Gate wrapper tests.",
       "result": "passed"
     }
   ],
   "captures": [],
   "approved_tahoe_preview_sha256": {
-    "Dark.png": "5bb103e408fe74121d5e3e5615b38f394b047ea48a0a10d39e9c7dfca051c9da"
+    "finder.png": "bb7a603eb0392cd1b56753e082c5d0f1e7d6a2eaae7812182c5477c3329573ec",
+    "before.png": "822d44d0d9375eba76b6f060c285cedf3ae9c28913ebec938267691c19bf40b3",
+    "settings.png": "6b49c76de4f901f1f830911b12f9b40d81efa0b16d12deb1feb5f1d6d348c733"
   },
-  "coverage_limits": "The approved preview shows the orange Glass material in a local isolated Nautilus session. Golden Gate uses the pinned shared implementation.",
-  "source_sha256": "bb2bb11af601578d5e16db142be66c21e9d9a27ce9b1f1d049e8a96105a87d95"
+  "coverage_limits": "The desktop captures show Tahoe. Golden Gate uses the same pinned Settings implementation.",
+  "source_sha256": "356bb1083b73cfcadee816acf109059c2c7fdfa6177cc8cbe3d6ff0b9891724d"
 }
