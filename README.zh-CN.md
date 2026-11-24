@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">适用于 Linux KDE 桌面的 macOS Golden Gate 外观与操作体验</h1>
+<h1 align="center">适用于 Linux KDE 桌面的 macOS Golden Gate Shell</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en">🇺🇸 English</a> ·
@@ -130,7 +130,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 ![功能与截图](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Golden Gate Finder (Alpha)
+### Finder (Alpha)
 
 采用 Golden Gate 玻璃效果的 Finder 风格文件浏览。
 
@@ -152,7 +152,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <br>
 
-### Golden Gate Launchpad (Alpha)
+### Launchpad (Alpha)
 
 查找应用、浏览分类，让收藏触手可及。应用网格在浅色和深色模式下分别使用半透明的白色和黑色磨砂玻璃。两种模式的搜索框均使用相同的黑金渐变。
 
@@ -163,7 +163,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <br>
 
-### Golden Gate Dock (Alpha)
+### Dock (Alpha)
 
 玻璃折射、悬停放大、红色通知计数气泡和自动隐藏。
 
@@ -269,7 +269,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <br>
 
-### Golden Gate Shell (Alpha)
+### Shell (Alpha)
 
 文件、编辑等菜单随当前窗口切换。系统菜单可打开设置和会话控制。
 
@@ -280,7 +280,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <br>
 
-### Golden Gate 日历 (Alpha)
+### 日历 (Alpha)
 
 点击面板时钟即可打开玻璃背景的月历。滚动鼠标滚轮或使用方向键切换月份，按 Home 键返回本月。
 
@@ -291,7 +291,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <br>
 
-### Golden Gate 控制中心 (Alpha)
+### 控制中心 (Alpha)
 
 Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用太阳表示浅色模式，用月亮表示深色模式，用双色圆形表示自动模式。
 
@@ -314,7 +314,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <br>
 
-### Golden Gate 通知 (Alpha)
+### 通知 (Alpha)
 
 玻璃质感的通知横幅和分组历史记录，支持应用操作和直接回复。
 
@@ -327,7 +327,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <br>
 
-### Golden Gate 剪贴板历史 (Alpha)
+### 剪贴板历史 (Alpha)
 
 直接在 Launchpad 中查找并复用复制的文字和图片。
 
@@ -338,7 +338,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <br>
 
-### Golden Gate 系统信息 (Alpha)
+### 系统信息 (Alpha)
 
 硬件、软件和主题信息，文字颜色随背景调整。
 
@@ -349,7 +349,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <br>
 
-### Golden Gate Plasma 主题 (Alpha)
+### Plasma 主题 (Alpha)
 
 采用协调浅色和深色配色的半透明菜单与弹出窗口。
 
@@ -360,7 +360,7 @@ Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用
 
 <br>
 
-### Golden Gate 启动画面 (Alpha)
+### 启动画面 (Alpha)
 
 从启动到关机保持一致外观，内置 LUKS2 加密磁盘解锁功能。
 

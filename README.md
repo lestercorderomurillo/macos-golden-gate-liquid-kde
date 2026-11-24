@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">macOS Golden Gate Look &amp; Feel for KDE Linux</h1>
+<h1 align="center">macOS Golden Gate Shell for KDE Linux</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en" aria-current="page">🇺🇸 English</a> ·
@@ -138,7 +138,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 ![Features and screenshots](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Golden Gate Dock with Multicolor Support (Alpha)
+### Dock with Multicolor Support (Alpha)
 
 Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
@@ -148,7 +148,7 @@ Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 
 <br>
 
-### Golden Gate Shell (Alpha)
+### Shell (Alpha)
 
 File, Edit and the other application menus follow the active window. Open the system menu for settings and session controls.
 
@@ -169,7 +169,7 @@ the theme color.
 
 <br>
 
-### Golden Gate Launchpad (Alpha)
+### Launchpad (Alpha)
 
 Find apps, browse categories and keep your favorites within reach. The frosted app grid has a translucent white or black tint. The search field uses the same dark gold gradient in both modes.
 
@@ -180,7 +180,7 @@ Find apps, browse categories and keep your favorites within reach. The frosted a
 
 <br>
 
-### Golden Gate Control Center (Alpha)
+### Control Center (Alpha)
 
 Wi-Fi, Bluetooth, sound, brightness and notifications in one glass menu. The appearance button shows a sun for Light, a moon for Dark and a split circle for Automatic.
 
@@ -191,7 +191,7 @@ Wi-Fi, Bluetooth, sound, brightness and notifications in one glass menu. The app
 
 <br>
 
-### Golden Gate Notifications (Alpha)
+### Notifications (Alpha)
 
 Glass notification banners and grouped history with app actions and reply support.
 
@@ -204,7 +204,7 @@ Glass notification banners and grouped history with app actions and reply suppor
 
 <br>
 
-### Golden Gate Finder (Alpha)
+### Finder (Alpha)
 
 Finder-style file browsing with Golden Gate glass.
 
@@ -215,7 +215,7 @@ Finder-style file browsing with Golden Gate glass.
 
 <br>
 
-### Golden Gate Calendar (Alpha)
+### Calendar (Alpha)
 
 Open the panel clock to see the month on glass. Scroll or use the arrow keys to browse months. Press Home to return to the current month.
 
@@ -226,7 +226,7 @@ Open the panel clock to see the month on glass. Scroll or use the arrow keys to 
 
 <br>
 
-### Golden Gate Bluetooth (Alpha)
+### Bluetooth (Alpha)
 
 Connect paired devices and check their battery level from the menu bar.
 
@@ -235,7 +235,7 @@ Connect paired devices and check their battery level from the menu bar.
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
 </p>
 
-### Golden Gate Wi-Fi (Alpha)
+### Wi-Fi (Alpha)
 
 The Wi-Fi menu shows adapter status and available networks.
 
@@ -247,7 +247,7 @@ The Wi-Fi menu shows adapter status and available networks.
 
 <br>
 
-### Golden Gate Battery (Alpha)
+### Battery (Alpha)
 
 The Battery menu shows charge and power status.
 
@@ -259,7 +259,7 @@ The Battery menu shows charge and power status.
 
 <br>
 
-### Golden Gate Clipboard History (Alpha)
+### Clipboard History (Alpha)
 
 Find and reuse copied text and images directly from Launchpad.
 
@@ -270,7 +270,7 @@ Find and reuse copied text and images directly from Launchpad.
 
 <br>
 
-### Golden Gate System Information (Alpha)
+### System Information (Alpha)
 
 Hardware, software and theme details with Adaptive Contrast.
 
@@ -281,7 +281,7 @@ Hardware, software and theme details with Adaptive Contrast.
 
 <br>
 
-### Golden Gate Plasma Theme (Alpha)
+### Plasma Theme (Alpha)
 
 Translucent menus and popups with matching light and dark colors.
 
@@ -292,7 +292,7 @@ Translucent menus and popups with matching light and dark colors.
 
 <br>
 
-### Golden Gate Boot Splash (Alpha)
+### Boot Splash (Alpha)
 
 A matching look from startup to shutdown, with built-in unlocking for LUKS2-encrypted drives.
 

@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">O visual e a experiência do macOS Golden Gate no KDE para Linux</h1>
+<h1 align="center">Shell do macOS Golden Gate para KDE no Linux</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en">🇺🇸 English</a> ·
@@ -130,7 +130,7 @@ Colaboradores de código e pessoas que relatam problemas no Tahoe e Golden Gate:
 
 ![Recursos e capturas](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Golden Gate Finder (Alpha)
+### Finder (Alpha)
 
 Navegação de arquivos no estilo Finder com o vidro Golden Gate.
 
@@ -152,7 +152,7 @@ Navegação de arquivos no estilo Finder com o vidro Golden Gate.
 
 <br>
 
-### Golden Gate Launchpad (Alpha)
+### Launchpad (Alpha)
 
 Encontre aplicativos, explore categorias e mantenha seus favoritos ao alcance. A grade de aplicativos usa vidro fosco com um tom branco ou preto translúcido. O campo de busca mantém o mesmo degradê do preto ao dourado nos dois modos.
 
@@ -163,7 +163,7 @@ Encontre aplicativos, explore categorias e mantenha seus favoritos ao alcance. A
 
 <br>
 
-### Golden Gate Dock (Alpha)
+### Dock (Alpha)
 
 Refração do vidro, ampliação ao passar o cursor, bolhas vermelhas com contagem de notificações e ocultação automática.
 
@@ -269,7 +269,7 @@ Refração do vidro, ampliação ao passar o cursor, bolhas vermelhas com contag
 
 <br>
 
-### Golden Gate Shell (Alpha)
+### Shell (Alpha)
 
 Os menus do aplicativo acompanham a janela ativa. O menu do sistema dá acesso às configurações e aos controles de sessão.
 
@@ -280,7 +280,7 @@ Os menus do aplicativo acompanham a janela ativa. O menu do sistema dá acesso �
 
 <br>
 
-### Golden Gate Calendário (Alpha)
+### Calendário (Alpha)
 
 Abra o relógio do painel para ver o mês sobre vidro. Use a roda do mouse ou as setas para mudar de mês e pressione Home para voltar ao mês atual.
 
@@ -291,7 +291,7 @@ Abra o relógio do painel para ver o mês sobre vidro. Use a roda do mouse ou as
 
 <br>
 
-### Golden Gate Central de Controle (Alpha)
+### Central de Controle (Alpha)
 
 Wi-Fi, som, brilho e notificações em um menu de vidro. O botão de aparência mostra um sol no modo claro, uma lua no escuro e um círculo bicolor no automático.
 
@@ -314,7 +314,7 @@ Wi-Fi, som, brilho e notificações em um menu de vidro. O botão de aparência 
 
 <br>
 
-### Golden Gate Notificações (Alpha)
+### Notificações (Alpha)
 
 Banners de vidro e histórico agrupado com ações dos aplicativos e respostas diretas.
 
@@ -327,7 +327,7 @@ Banners de vidro e histórico agrupado com ações dos aplicativos e respostas d
 
 <br>
 
-### Golden Gate Histórico da área de transferência (Alpha)
+### Histórico da área de transferência (Alpha)
 
 Encontre e reutilize textos e imagens copiados diretamente pelo Launchpad.
 
@@ -338,7 +338,7 @@ Encontre e reutilize textos e imagens copiados diretamente pelo Launchpad.
 
 <br>
 
-### Golden Gate Informações do sistema (Alpha)
+### Informações do sistema (Alpha)
 
 Detalhes de hardware, software e tema com cor de texto adaptativa.
 
@@ -349,7 +349,7 @@ Detalhes de hardware, software e tema com cor de texto adaptativa.
 
 <br>
 
-### Golden Gate Tema Plasma (Alpha)
+### Tema Plasma (Alpha)
 
 Menus e janelas pop-up translúcidos com cores claras e escuras coordenadas.
 
@@ -360,7 +360,7 @@ Menus e janelas pop-up translúcidos com cores claras e escuras coordenadas.
 
 <br>
 
-### Golden Gate Tela de inicialização (Alpha)
+### Tela de inicialização (Alpha)
 
 Uma aparência coordenada da inicialização ao desligamento, com desbloqueio integrado de unidades criptografadas com LUKS2.
 

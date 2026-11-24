@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-<h1 align="center">macOS Golden Gate: Optik und Bediengefühl für KDE unter Linux</h1>
+<h1 align="center">macOS Golden Gate Shell für KDE unter Linux</h1>
 
 <p align="center">
   <a href="README.md" lang="en" hreflang="en">🇺🇸 English</a> ·
@@ -130,7 +130,7 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ![Funktionen und Bildschirmfotos](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Golden Gate Finder (Alpha)
+### Finder (Alpha)
 
 Dateiverwaltung im Finder-Stil mit Golden Gate-Glas.
 
@@ -152,7 +152,7 @@ Dateiverwaltung im Finder-Stil mit Golden Gate-Glas.
 
 <br>
 
-### Golden Gate Launchpad (Alpha)
+### Launchpad (Alpha)
 
 Anwendungen finden, Kategorien durchsuchen und Favoriten griffbereit halten. Das App-Raster hat einen durchscheinenden weißen oder schwarzen Milchglashintergrund. Das Suchfeld zeigt in beiden Modi denselben Farbverlauf von Schwarz zu Gold.
 
@@ -163,7 +163,7 @@ Anwendungen finden, Kategorien durchsuchen und Favoriten griffbereit halten. Das
 
 <br>
 
-### Golden Gate Dock (Alpha)
+### Dock (Alpha)
 
 Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und automatisches Ausblenden.
 
@@ -269,7 +269,7 @@ Glasbrechung, Vergrößerung beim Überfahren, rote Benachrichtigungszähler und
 
 <br>
 
-### Golden Gate Shell (Alpha)
+### Shell (Alpha)
 
 Die Anwendungsmenüs folgen dem aktiven Fenster. Das Systemmenü öffnet Einstellungen und Sitzungsaktionen.
 
@@ -280,7 +280,7 @@ Die Anwendungsmenüs folgen dem aktiven Fenster. Das Systemmenü öffnet Einstel
 
 <br>
 
-### Golden Gate Kalender (Alpha)
+### Kalender (Alpha)
 
 Öffne die Uhr in der Kontrollleiste, um den Monat auf Glas anzuzeigen. Wechsle mit dem Mausrad oder den Pfeiltasten den Monat. Mit Pos1 gelangst du zum aktuellen Monat.
 
@@ -291,7 +291,7 @@ Die Anwendungsmenüs folgen dem aktiven Fenster. Das Systemmenü öffnet Einstel
 
 <br>
 
-### Golden Gate Kontrollzentrum (Alpha)
+### Kontrollzentrum (Alpha)
 
 WLAN, Klang, Helligkeit und Benachrichtigungen in einem Glasmenü. Die Schaltfläche für das Erscheinungsbild zeigt eine Sonne im hellen Modus, einen Mond im dunklen Modus und einen zweifarbigen Kreis im Automatikmodus.
 
@@ -314,7 +314,7 @@ WLAN, Klang, Helligkeit und Benachrichtigungen in einem Glasmenü. Die Schaltfl�
 
 <br>
 
-### Golden Gate Benachrichtigungen (Alpha)
+### Benachrichtigungen (Alpha)
 
 Gläserne Banner und ein gruppierter Verlauf unterstützen App-Aktionen und direkte Antworten.
 
@@ -327,7 +327,7 @@ Gläserne Banner und ein gruppierter Verlauf unterstützen App-Aktionen und dire
 
 <br>
 
-### Golden Gate Zwischenablageverlauf (Alpha)
+### Zwischenablageverlauf (Alpha)
 
 Kopierte Texte und Bilder direkt im Launchpad finden und wiederverwenden.
 
@@ -338,7 +338,7 @@ Kopierte Texte und Bilder direkt im Launchpad finden und wiederverwenden.
 
 <br>
 
-### Golden Gate Systeminformationen (Alpha)
+### Systeminformationen (Alpha)
 
 Hardware-, Software- und Designdetails mit dynamischer Textfarbe.
 
@@ -349,7 +349,7 @@ Hardware-, Software- und Designdetails mit dynamischer Textfarbe.
 
 <br>
 
-### Golden Gate Plasma-Design (Alpha)
+### Plasma-Design (Alpha)
 
 Durchscheinende Menüs und Popups mit abgestimmten hellen und dunklen Farben.
 
@@ -360,7 +360,7 @@ Durchscheinende Menüs und Popups mit abgestimmten hellen und dunklen Farben.
 
 <br>
 
-### Golden Gate Startbildschirm (Alpha)
+### Startbildschirm (Alpha)
 
 Ein abgestimmtes Erscheinungsbild vom Start bis zum Herunterfahren mit integrierter Entsperrung LUKS2-verschlüsselter Laufwerke.
 
