@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.84.12**. The menu bar reveals hidden status icons horizontally and opens each native control directly. [Evidence and coverage](release-evidence.json).
+**v0.84.13**. The menu bar reveals hidden status icons horizontally and opens each native control directly. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 

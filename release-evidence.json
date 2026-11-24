@@ -1,10 +1,14 @@
 {
-  "version": "0.84.12",
+  "version": "0.84.13",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "scope": "The menu bar reveals hidden status icons horizontally and opens each native control directly.",
   "checks": [
     {
       "command": "Golden Gate KDE neon Wayland VM: clicked the chevron, opened Clipboard from the expanded row, collapsed and reopened the row, and switched between light and dark appearances.",
+      "result": "passed"
+    },
+    {
+      "command": "Built the six translated accessibility catalogs and ran tests/test_multilanguage.py.",
       "result": "passed"
     }
   ],
@@ -25,5 +29,5 @@
     "src/offline/plasmoids/org.kde.mac-tahoe-liquid-kde.controlcenter/contents/ui/StatusTrayStyle.qml": "95dc45c11d95c3ee8ed43bf90423bfdce278c6a793b4a0b0528b710c09cd2d5d"
   },
   "coverage_limits": "Focused visual validation used the shared QML in Golden Gate on Wayland. Tahoe appearance, X11 and automatic scheduling were not independently exercised for this preview.",
-  "source_sha256": "0f3328e19267fd49c286cd6ea4c869e11e81ca311453ef7cafc8ad76acf5f564"
+  "source_sha256": "d1b2af91303658312efa1019a7511099e9ce677818d4bdf4a2a3b2e3f02d2763"
 }
