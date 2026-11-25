@@ -151,7 +151,7 @@
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Меню файлов с открытым документом в Kate" width="830">
@@ -160,11 +160,15 @@
 
 <br>
 
-### Акриловое стекло 2.0 с адаптивным контрастом
+### Адаптивный контраст
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Адаптивный контраст · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="По умолчанию Golden Gate 2 в световом режиме, с отдельным поиском и обоев Golden Gate" width="415">
@@ -173,7 +177,7 @@
 
 <br>
 
-### Центр управления (Альфа)
+### Центр управления
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Центр управления в световом режиме" width="415">
@@ -182,7 +186,7 @@
 
 <br>
 
-### Уведомления (Альфа)
+### Уведомления
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="уведомления о Золотых воротах в световом режиме" width="415">
@@ -193,7 +197,7 @@
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Золотой ворота легкий рабочий стол с файлами сосредоточенными" width="415"></a>
@@ -202,7 +206,7 @@
 
 <br>
 
-### Календарь (Альфа)
+### Календарь
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Календарь · Свет" width="328">
@@ -211,14 +215,14 @@
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Легкое меню Bluetooth с Studio Headphones подключенными на 82% и беспроводной клавиатуры отключенной" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Темное меню Bluetooth с Studio Headphones подключенными на 82% и беспроводной клавиатуры отключенной" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Меню Wi-Fi подключено к Harbor Studio, с доступными Garden Guest и Workshop" width="48%">
@@ -228,7 +232,7 @@
 
 <br>
 
-### Батарея (Альфа)
+### Батарея
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Меню Light Battery без внутренней батареи" width="48%">
@@ -238,7 +242,7 @@
 
 <br>
 
-### История буфера обмена (Alpha)
+### История буфера обмена
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="История клипборда в пусковике &quot;Золотые ворота&quot; в световом режиме" width="415">
@@ -247,7 +251,7 @@
 
 <br>
 
-### Информационная система (Альфа)
+### Информационная система
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Окно информации о световой системе с элементами управления слева" width="415">
@@ -256,7 +260,7 @@
 
 <br>
 
-### Тема Plasma (Alpha)
+### Тема Plasma
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Контекстный меню рабочего стола в световом режиме" width="415">
@@ -265,7 +269,7 @@
 
 <br>
 
-### Загрузочная заставка (Alpha)
+### Загрузочная заставка
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Плимутский стартап с прогрессным панелем" width="415">

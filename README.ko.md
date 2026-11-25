@@ -151,7 +151,7 @@
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="케이트에서 문서가 열리는 파일 메뉴" width="830">
@@ -160,11 +160,15 @@
 
 <br>
 
-### 적응성 대조성 액리크 글래스 2.0
+### 적응형 대비
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="적응형 대비 · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="기본 골든 게이트 2를 라이트 모드에서 설정하고, 분리된 검색과 골든 게이트 벽화로" width="415">
@@ -173,7 +177,7 @@
 
 <br>
 
-### 제어 센터 (알파)
+### 제어 센터
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="제어 센터 가 빛 모드" width="415">
@@ -182,7 +186,7 @@
 
 <br>
 
-### 통지 (Alpha)
+### 통지
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="광 모드에서 골든 게이트 알림" width="415">
@@ -193,7 +197,7 @@
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate 라이트 데스크톱 파일 중점" width="415"></a>
@@ -202,7 +206,7 @@
 
 <br>
 
-### 달력 (알파)
+### 달력
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="달력 · 빛" width="328">
@@ -211,14 +215,14 @@
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 가벼운 블루투스 메뉴" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 어두운 블루투스 메뉴" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="하버 스튜디오에 연결된 라이트 와이파이 메뉴, 가든 게스트와 워크샵이 제공됩니다" width="48%">
@@ -228,7 +232,7 @@
 
 <br>
 
-### 배터리 (알파)
+### 배터리
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="내장 배터리 없는 라이트 배터리 메뉴" width="48%">
@@ -238,7 +242,7 @@
 
 <br>
 
-### 클립보드 기록 (Alpha)
+### 클립보드 기록
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="광 모드에서 골든 게이트 발사기의 클리립보드 역사" width="415">
@@ -247,7 +251,7 @@
 
 <br>
 
-### 시스템 정보 (Alpha)
+### 시스템 정보
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="왼쪽에서 제어 장치가 있는 라이트 시스템 정보 창" width="415">
@@ -256,7 +260,7 @@
 
 <br>
 
-### Plasma 테마 (Alpha)
+### Plasma 테마
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="라이트 모드에서 데스크톱 컨텍스트 메뉴" width="415">
@@ -265,7 +269,7 @@
 
 <br>
 
-### 부팅 화면 (Alpha)
+### 부팅 화면
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="플리머스 스타트업 스프래시" width="415">

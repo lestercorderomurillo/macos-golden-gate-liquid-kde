@@ -151,7 +151,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu met een document in Kate geopend" width="830">
@@ -160,11 +160,15 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Acrylglas 2.0 met een aanpassend contrast
+### Adaptief contrast
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Adaptief contrast · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="De standaard Golden Gate 2 is in lichtmodus ingesteld, met losse zoekopdracht en Golden Gate behang" width="415">
@@ -173,7 +177,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Control Center (Alfa)
+### Control Center
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centrum van besturing in lichtmodus" width="415">
@@ -182,7 +186,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Meldingen (Alpha)
+### Meldingen
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate-meldingen in lichtmodus" width="415">
@@ -193,7 +197,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate licht desktop met bestanden gericht" width="415"></a>
@@ -202,7 +206,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Kalender (Alpha)
+### Kalender
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalender · Licht" width="328">
@@ -211,14 +215,14 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Licht Bluetooth menu met Studio headphones verbonden op 82% en draadloos toetsenbord afgesloten" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu met Studio headphones verbonden op 82% en Wireless Keyboard afgesloten" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Lichte Wi-Fi menu verbonden met Harbor Studio, met Garden Guest en Workshop beschikbaar" width="48%">
@@ -228,7 +232,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Batterij (Alfa)
+### Batterij
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Lichte batterij menu zonder interne batterij" width="48%">
@@ -238,7 +242,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Klembordgeschiedenis (Alpha)
+### Klembordgeschiedenis
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard geschiedenis in de golden gate lancer in lichtmodus" width="415">
@@ -247,7 +251,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Systeminformatie (Alfa)
+### Systeminformatie
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Licht systeem informatievenster met regels aan de linkerkant" width="415">
@@ -256,7 +260,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Plasma-thema (Alpha)
+### Plasma-thema
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in lichtmodus" width="415">
@@ -265,7 +269,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 <br>
 
-### Opstartscherm (Alpha)
+### Opstartscherm
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth start splash met een progressiebalk" width="415">

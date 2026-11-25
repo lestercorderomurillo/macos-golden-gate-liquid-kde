@@ -151,7 +151,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menu plików z otwartym dokumentem w Kate" width="830">
@@ -160,11 +160,15 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Szklane akrylowe 2.0 z adaptacyjnym kontrastem
+### Kontrast adaptacyjny
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Kontrast adaptacyjny · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Domyślnie ustawione Golden Gate 2 w trybie światła, z oddzielnym wyszukiwaniem i tapetą Golden Gate" width="415">
@@ -173,7 +177,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Centrum sterowania (Alfa)
+### Centrum sterowania
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centrum sterowania w trybie światła" width="415">
@@ -182,7 +186,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Powiadomienia (Alfa)
+### Powiadomienia
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Powiadomienia o Golden Gate w trybie światła" width="415">
@@ -193,7 +197,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Lękny biurko Golden Gate z skoncentrowanym na plikach" width="415"></a>
@@ -202,7 +206,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Kalendarz (Alfa)
+### Kalendarz
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalendarz · Światło" width="328">
@@ -211,14 +215,14 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menu Bluetooth oświetlony z słuchawkami Studio podłączonymi na 82% i nieprzełączoną klawiaturą bezprzewodową" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Męso Bluetooth z słuchawkami w studio podłączonymi na 82% i bezprzewodową klawiaturą odłączoną" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menu Wi-Fi połączone z Harbor Studio, z dostępem Garden Guest i Workshop" width="48%">
@@ -228,7 +232,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Bateria (Alfa)
+### Bateria
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Menu Battery Light bez wewnętrznych baterii" width="48%">
@@ -238,7 +242,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Historia schowka (Alpha)
+### Historia schowka
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Historia płyty nagraniowej w golden-gate launcher w trybie światła" width="415">
@@ -247,7 +251,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Informacje o systemie (Alfa)
+### Informacje o systemie
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Okno informacji o świetle systemu z elementami sterowania po lewej stronie" width="415">
@@ -256,7 +260,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Motyw Plasma (Alpha)
+### Motyw Plasma
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menu kontekstowe w trybie światła" width="415">
@@ -265,7 +269,7 @@ Współpracownicy kodów i reporterzy w Tahoe i Golden Gate:
 
 <br>
 
-### Ekran rozruchowy (Alpha)
+### Ekran rozruchowy
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash z paskiem postępu" width="415">

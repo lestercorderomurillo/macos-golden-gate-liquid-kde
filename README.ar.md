@@ -151,7 +151,7 @@
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="قائمة الملفات مع وثيقة مفتوحة في كيت" width="830">
@@ -160,11 +160,15 @@
 
 <br>
 
-### زجاج أكريليك 2.0 مع تباين ملاءم
+### التباين التكيفي
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="التباين التكيفي · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="افتراضية Golden Gate 2 في وضع الضوء، مع البحث منفصل ورق خلفية Golden Gate" width="415">
@@ -173,7 +177,7 @@
 
 <br>
 
-### مركز التحكم (ألفا)
+### مركز التحكم
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="مركز التحكم في وضع الضوء" width="415">
@@ -182,7 +186,7 @@
 
 <br>
 
-### الإخطارات (الفا)
+### الإخطارات
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="إشعارات بوابة الذهب في وضع الضوء" width="415">
@@ -193,7 +197,7 @@
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="مكتب ضوء بوابة الذهب مع الملفات تركيز" width="415"></a>
@@ -202,7 +206,7 @@
 
 <br>
 
-### التقويم (ألفا)
+### التقويم
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="التقويم · الضوء" width="328">
@@ -211,14 +215,14 @@
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="قائمة Bluetooth خفيفة مع سماعات الاستوديو متصلة بنسبة 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="قائمة Bluetooth مظلمة مع سماعات الاستوديو متصلة بـ 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="قائمة Wi-Fi خفيفة متصلة بـ Harbor Studio، مع Garden Guest و Workshop متاحة" width="48%">
@@ -228,7 +232,7 @@
 
 <br>
 
-### البطارية (ألفا)
+### البطارية
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="خيارات البطارية الخفيفة لا توجد بطارية داخلية" width="48%">
@@ -238,7 +242,7 @@
 
 <br>
 
-### سجل الحافظة (ألفا)
+### سجل الحافظة
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="تاريخ المقطع في جهاز إطلاق البوابة الذهبية في وضع الضوء" width="415">
@@ -247,7 +251,7 @@
 
 <br>
 
-### معلومات النظام (ألفا)
+### معلومات النظام
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="نافذة معلومات النظام الضوئي مع التحكم على اليسار" width="415">
@@ -256,7 +260,7 @@
 
 <br>
 
-### سمة Plasma (ألفا)
+### سمة Plasma
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="قائمة السياق المكتبية في وضع الضوء" width="415">
@@ -265,7 +269,7 @@
 
 <br>
 
-### شاشة الإقلاع (ألفا)
+### شاشة الإقلاع
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="بليموث بدء البدء مع شريط التقدم" width="415">

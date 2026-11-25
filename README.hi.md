@@ -151,7 +151,7 @@
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate में एक दस्तावेज़ खोले गए फ़ाइल मेनू" width="830">
@@ -160,11 +160,15 @@
 
 <br>
 
-### अनुकूलन विपरीत के साथ एक्रिलिक ग्लास 2.0
+### अनुकूली कंट्रास्ट
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="अनुकूली कंट्रास्ट · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="डिफ़ॉल्ट गोल्डन गेट प्रीसेट 2 प्रकाश मोड में, अलग खोज और गोल्डन गेट वॉलपेपर के साथ" width="415">
@@ -173,7 +177,7 @@
 
 <br>
 
-### नियंत्रण केंद्र (अल्फा)
+### नियंत्रण केंद्र
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="नियंत्रण केंद्र प्रकाश मोड में" width="415">
@@ -182,7 +186,7 @@
 
 <br>
 
-### सूचनाएं (अल्फा)
+### सूचनाएं
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="प्रकाश मोड में गोल्डन गेट सूचनाएं" width="415">
@@ -193,7 +197,7 @@
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="फ़ाइलों पर केंद्रित गोल्डन गेट प्रकाश डेस्कटॉप" width="415"></a>
@@ -202,7 +206,7 @@
 
 <br>
 
-### कैलेंडर (अल्फा)
+### कैलेंडर
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="कैलेंडर · प्रकाश" width="328">
@@ -211,14 +215,14 @@
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82% पर स्टूडियो हेडफोन कनेक्ट और वायरलेस कीबोर्ड डिस्कनेक्ट के साथ हल्का ब्लूटूथ मेनू" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82% पर कनेक्ट स्टूडियो हेडफोन और वायरलेस कीबोर्ड से डिस्कनेक्ट के साथ डार्क ब्लूटूथ मेनू" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="हार्बर स्टूडियो से कनेक्ट लाइट वाई-फाई मेनू, गार्डन गेस्ट और वर्कशॉप उपलब्ध" width="48%">
@@ -228,7 +232,7 @@
 
 <br>
 
-### बैटरी (अल्फा)
+### बैटरी
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="कोई आंतरिक बैटरी नहीं दिखाने वाला हल्का बैटरी मेनू" width="48%">
@@ -238,7 +242,7 @@
 
 <br>
 
-### क्लिपबोर्ड इतिहास (अल्फ़ा)
+### क्लिपबोर्ड इतिहास
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="प्रकाश मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
@@ -247,7 +251,7 @@
 
 <br>
 
-### सिस्टम सूचना (अल्फा)
+### सिस्टम सूचना
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="बाएं ओर नियंत्रण के साथ प्रकाश प्रणाली सूचना विंडो" width="415">
@@ -256,7 +260,7 @@
 
 <br>
 
-### Plasma थीम (अल्फ़ा)
+### Plasma थीम
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="प्रकाश मोड में डेस्कटॉप संदर्भ मेनू" width="415">
@@ -265,7 +269,7 @@
 
 <br>
 
-### बूट स्क्रीन (अल्फ़ा)
+### बूट स्क्रीन
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="प्रगति पट्टी के साथ प्लीमाउथ स्टार्टअप स्प्लैश" width="415">

@@ -151,7 +151,7 @@
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kateで開いた文書のファイルメニュー" width="830">
@@ -160,11 +160,15 @@
 
 <br>
 
-### アクリルガラス2.0 適応コントラスト
+### 適応コントラスト
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="適応コントラスト · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="フォルトは,光モードでゴールデンゲート2を設定します." width="415">
@@ -173,7 +177,7 @@
 
 <br>
 
-### 制御センター (アルファ)
+### 制御センター
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="制御センターがライトモード" width="415">
@@ -182,7 +186,7 @@
 
 <br>
 
-### 通知 (アルファ)
+### 通知
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="ライトモードでゴールデンゲート通知" width="415">
@@ -193,7 +197,7 @@
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="ファイルを集中したゴールデンゲートライトデスクトップ" width="415"></a>
@@ -202,7 +206,7 @@
 
 <br>
 
-### カレンダー (アルファ)
+### カレンダー
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="カレンダー · 光" width="328">
@@ -211,14 +215,14 @@
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%で接続されたスタジオヘッドフォンと無線キーボードが切断された軽いBluetoothメニュー" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="暗黒のBluetoothメニューで,スタジオヘッドホンが82%接続され,ワイヤレスキーボードは切断された" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="ハーバー・スタジオに接続されたライトWi-Fiメニュー,ガーデンゲストとワークショップが利用可能" width="48%">
@@ -228,7 +232,7 @@
 
 <br>
 
-### バッテリー (アルファ)
+### バッテリー
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="内部バッテリーがないライト バッテリーメニュー" width="48%">
@@ -238,7 +242,7 @@
 
 <br>
 
-### クリップボード履歴 (Alpha)
+### クリップボード履歴
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="ライトモードでゴールデンゲート発射機のクリップボードの歴史" width="415">
@@ -247,7 +251,7 @@
 
 <br>
 
-### システム情報 (アルファ)
+### システム情報
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="左側のコントロール付きのライトシステム情報ウィンドウ" width="415">
@@ -256,7 +260,7 @@
 
 <br>
 
-### Plasma テーマ (Alpha)
+### Plasma テーマ
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="ライトモードでデスクトップコンテキストメニュー" width="415">
@@ -265,7 +269,7 @@
 
 <br>
 
-### 起動画面 (Alpha)
+### 起動画面
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="プライマススタートアップは,進捗バーでスプラッシュ" width="415">

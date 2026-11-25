@@ -151,7 +151,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Shell (Alpha)
+### Quickbar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu with a document open in Kate" width="830">
@@ -160,11 +160,15 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Acrylic Glass 2.0 with Adaptive Contrast
+### Adaptive Contrast
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Adaptive Contrast · Golden Gate" width="830">
+</p>
 
 <br>
 
-### Launchpad (Alpha)
+### Launchpad
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
@@ -173,7 +177,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Control Center (Alpha)
+### Control Center
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
@@ -182,7 +186,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Notifications (Alpha)
+### Notifications
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate notifications in light mode" width="415">
@@ -193,7 +197,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Finder (Alpha)
+### Finder
 
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
@@ -202,7 +206,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Calendar (Alpha)
+### Calendar
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendar · Light" width="328">
@@ -211,14 +215,14 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Bluetooth (Alpha)
+### Bluetooth
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Light Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
 </p>
 
-### Wi-Fi (Alpha)
+### Wi-Fi
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Light Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
@@ -228,7 +232,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Battery (Alpha)
+### Battery
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Light Battery menu showing no internal battery" width="48%">
@@ -238,7 +242,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Clipboard History (Alpha)
+### Clipboard History
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
@@ -247,7 +251,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### System Information (Alpha)
+### System Information
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Light system information window with controls on the left" width="415">
@@ -256,7 +260,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Plasma Theme (Alpha)
+### Plasma Theme
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
@@ -265,7 +269,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 <br>
 
-### Boot Splash (Alpha)
+### Boot Splash
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash with a progress bar" width="415">
