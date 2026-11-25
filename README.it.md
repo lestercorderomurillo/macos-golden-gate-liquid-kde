@@ -145,6 +145,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Dock multicolore
 
+Abbina il colore delle icone del Dock al desktop.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Dock Golden Gate mostrando icone multicolori in modalità luce e scura, quindi ciclismo attraverso le tonalità arcobaleno" width="830">
 </p>
@@ -152,6 +154,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 <br>
 
 ### Quickbar
+
+Accedi ai menu dell’app attiva dalla barra superiore.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menù file con un documento aperto in Kate" width="830">
@@ -162,13 +166,17 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Contrasto adattivo
 
+Il colore del testo si adatta allo sfondo per mantenere leggibili le etichette.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Contrasto adattivo · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contrasto adattivo · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+Cerca le app o sfogliale per categoria.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Preimpostato predefinito Golden Gate 2 in modalità luce, con ricerca separata e carta da parati Golden Gate" width="415">
@@ -179,6 +187,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Centro di controllo
 
+Regola Wi-Fi, audio e luminosità da un unico menu.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centro di controllo in modalità luce" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centro di controllo in modalità buia" width="415">
@@ -187,6 +197,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 <br>
 
 ### Notifiche
+
+Leggi le notifiche recenti raggruppate per app.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Notifiche Golden Gate in modalità luce" width="415">
@@ -199,6 +211,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Finder
 
+Sfoglia i file in una finestra in stile Finder.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Desktop leggero Golden Gate con file focalizzati" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Desktop oscuro Golden Gate con file focalizzati" width="415"></a>
@@ -207,6 +221,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 <br>
 
 ### Calendario
+
+Apri l’orologio per consultare il calendario del mese.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendario · Luce" width="328">
@@ -217,12 +233,16 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Bluetooth
 
+Connetti i dispositivi associati e controlla la loro batteria.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menu Bluetooth leggero con cuffie di studio collegate all&#x27;82% e tastiera wireless disconnessa" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Menu bluetooth scuro con cuffie di studio collegate all&#x27;82% e tastiera wireless disconnessa" width="48%">
 </p>
 
 ### Wi-Fi
+
+Visualizza le reti disponibili e lo stato della connessione.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menù Wi-Fi leggero connesso a Harbor Studio, con Garden Guest e Workshop disponibili" width="48%">
@@ -234,6 +254,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Batteria
 
+Controlla il livello della batteria e lo stato di carica.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Menu Light Battery che non mostra batteria interna" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Menù Batteria oscura senza batteria interna" width="48%">
@@ -244,6 +266,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Cronologia degli appunti
 
+Riutilizza il testo e le immagini che hai copiato.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Storia della clipboard nel lanciatore Golden Gate in modalità luce" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Storia della clipboard nel lanciatore Golden Gate in modalità scura" width="415">
@@ -252,6 +276,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 <br>
 
 ### Informazioni del sistema
+
+Consulta i dettagli di hardware, software e tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Finestra di informazioni del sistema luminoso con i controlli a sinistra" width="415">
@@ -262,6 +288,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 
 ### Tema Plasma
 
+I menu e le finestre a comparsa seguono il tema chiaro o scuro.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menù di contesto desktop in modalità luce" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Menù di contesto desktop in modalità scura" width="415">
@@ -270,6 +298,8 @@ I collaboratori del codice e i giornalisti di emissione in Tahoe e Golden Gate:
 <br>
 
 ### Schermata di avvio
+
+All’avvio appare una schermata coordinata con il tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash con una barra di progresso" width="415">

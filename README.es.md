@@ -142,6 +142,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Dock multicolor
 
+Dale a los iconos del Dock el color de tu escritorio.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="El muelle de Golden Gate muestra iconos multicolores en modo claro y oscuro, luego recorre a través de los tonos del arco iris" width="830">
 </p>
@@ -149,6 +151,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 <br>
 
 ### Quickbar
+
+Accede a los menús de la aplicación activa desde la barra superior.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menú de archivos con un documento abierto en Kate" width="830">
@@ -159,13 +163,17 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Contraste adaptativo
 
+El texto se ajusta al fondo para que las etiquetas sigan siendo legibles.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Contraste adaptativo · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contraste adaptativo · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+Busca aplicaciones o explóralas por categoría.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Por defecto Golden Gate preset 2 en modo de luz, con búsqueda separada y papel pintado Golden Gate" width="415">
@@ -176,6 +184,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Centro de control
 
+Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centro de control en modo de luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centro de control en modo oscuro" width="415">
@@ -184,6 +194,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 <br>
 
 ### Notificaciones
+
+Consulta las notificaciones recientes agrupadas por aplicación.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Notificaciones de Golden Gate en modo de luz" width="415">
@@ -196,6 +208,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Finder
 
+Explora tus archivos en una ventana al estilo Finder.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Escritorio de luz Golden Gate con archivos enfocados" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate escritorio oscuro con archivos enfocados" width="415"></a>
@@ -204,6 +218,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 <br>
 
 ### Calendario
+
+Abre el reloj para consultar el calendario del mes.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendario · Luz" width="328">
@@ -214,12 +230,16 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Bluetooth
 
+Conecta tus dispositivos emparejados y consulta su batería.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menú Bluetooth ligero con auriculares de estudio conectados en 82% y teclado inalámbrico desconectado" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Menú Bluetooth oscuro con auriculares de estudio conectados en 82% y teclado inalámbrico desconectado" width="48%">
 </p>
 
 ### Wi-Fi
+
+Consulta las redes disponibles y el estado de la conexión.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menú Wi-Fi ligero conectado a Harbor Studio, con Garden Guest y Workshop disponibles" width="48%">
@@ -231,6 +251,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Batería
 
+Consulta el nivel de batería y el estado de carga.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Menú de baterías ligeras sin batería interna" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Menú de baterías oscuras sin batería interna" width="48%">
@@ -241,6 +263,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Historial del portapapeles
 
+Reutiliza texto e imágenes que hayas copiado.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Historia de la cinta en el lanzador de puertas doradas en modo luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Historia de la cinta en el lanzador de Golden Gate en modo oscuro" width="415">
@@ -249,6 +273,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 <br>
 
 ### Información del sistema
+
+Consulta los detalles del hardware, el software y el tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Ventana de información del sistema de luz con controles a la izquierda" width="415">
@@ -259,6 +285,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 
 ### Tema Plasma
 
+Los menús y las ventanas emergentes siguen el tema claro u oscuro.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menú de contexto de escritorio en modo luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Menú de contexto del escritorio en modo oscuro" width="415">
@@ -267,6 +295,8 @@ Colaboradores de código y personas que informan de errores en Tahoe y Golden Ga
 <br>
 
 ### Pantalla de inicio
+
+Al arrancar, aparece una pantalla de bienvenida a juego con el tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth arranque salpicaduras con una barra de progreso" width="415">

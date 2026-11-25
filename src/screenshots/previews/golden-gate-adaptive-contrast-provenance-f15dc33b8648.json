@@ -1,0 +1,26 @@
+{
+  "edition": "golden-gate",
+  "component": "Notification Center",
+  "source_commit": "3c545be9d3694938321a4b935606403c4fb46938",
+  "environment": "KDE neon / Plasma 6.8.1 / Wayland, disposable overlay, 3840x2160 at 2x",
+  "appearance": "Project light theme with custom white ForegroundNormal in its light KDE palette, background #f3f3f3",
+  "setting": "kwinrc / Effect-liquidglass / DynamicTinting, false then true, same open notification history",
+  "exposures": [
+    {
+      "state": "OFF",
+      "crop_png_sha256": "5c17d4d0f9f0ffcad27362032541d8a23383ff368f11f55dcaa60caad78a819e",
+      "path": "src/screenshots/previews/golden-gate-contrast-off-5c17d4d0f9f0.png"
+    },
+    {
+      "state": "ON",
+      "crop_png_sha256": "c02e868ef27c71f3a37e7e6bb6abafe32c05673213150830186a2680d0ddce7b",
+      "path": "src/screenshots/previews/golden-gate-contrast-on-c02e868ef27c.png"
+    }
+  ],
+  "annotation": "Gray OFF and mint ON badges generated with ImageGen, placed outside both unmodified screenshot crops.",
+  "pixels_changed_from_white_in_heading": 3017,
+  "comparison": "src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png",
+  "sha256": "a409c5c73b4a1f3ec11a67b1fd87638aeda9e4531d680beddabfd6ebb1c37163",
+  "label_generator": "ImageGen",
+  "label_prompt": "Two matched rounded cards on transparency, gray with black OFF and pale mint with dark green ON, clean sans-serif, no other marks."
+}

@@ -142,6 +142,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Mehrfarbiges Dock
 
+Passe die Farbe der Dock-Symbole an deinen Desktop an.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock zeigt mehrfarbige Symbole im Licht- und Dunkelmodus, dann durch Regenbogenfarben" width="830">
 </p>
@@ -149,6 +151,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 <br>
 
 ### Quickbar
+
+Greife über die obere Leiste auf die Menüs der aktiven App zu.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Dateimenu mit einem Dokument in Kate geöffnet" width="830">
@@ -159,13 +163,17 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Adaptiver Kontrast
 
+Die Textfarbe passt sich dem Hintergrund an, damit Beschriftungen lesbar bleiben.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Adaptiver Kontrast · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Adaptiver Kontrast · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+Suche Apps oder durchstöbere sie nach Kategorie.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Standard Golden Gate 2 im Lichtmodus, mit abgeschnittenem Such- und Golden Gate-Treckenpapier" width="415">
@@ -176,6 +184,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Kontrollzentrum
 
+Steuere WLAN, Lautstärke und Helligkeit in einem Menü.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Steuerungszentrum im Lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Steuerungszentrum im dunklen Modus" width="415">
@@ -184,6 +194,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 <br>
 
 ### Mitteilungen
+
+Lies aktuelle Meldungen nach App gruppiert.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Mitteilungen über Golden Gate im Lichtmodus" width="415">
@@ -196,6 +208,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Finder
 
+Durchsuche Dateien in einem Fenster im Finder-Stil.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate-Light Desktop mit Files fokussiert" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dunkler Desktop mit Files fokussiert" width="415"></a>
@@ -204,6 +218,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 <br>
 
 ### Kalender
+
+Öffne die Uhr für die Monatsansicht.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalender · Licht" width="328">
@@ -214,12 +230,16 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Bluetooth
 
+Verbinde gekoppelte Geräte und prüfe ihren Akkustand.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Leichtes Bluetooth-Menü mit Studio Kopfhörer verbunden auf 82% und Wireless Keyboard getrennt" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth-Menü mit Studio Kopfhörer verbunden auf 82% und Wireless Keyboard getrennt" width="48%">
 </p>
 
 ### Wi-Fi
+
+Sieh verfügbare Netzwerke und den Verbindungsstatus.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Leichtes Wi-Fi-Menü mit Harbor Studio verbunden, mit Garten Gast und Workshop zur Verfügung" width="48%">
@@ -231,6 +251,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Batterie
 
+Prüfe den Akkustand und den Ladestatus.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Licht-Batterie-Menü ohne interne Batterie" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery Menü ohne interne Batterie" width="48%">
@@ -241,6 +263,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Zwischenablageverlauf
 
+Verwende kopierte Texte und Bilder erneut.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Die Geschichte des Aufnahmplatzes im Golden Gate-Ranscher im Lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Die Geschichte des Aufnahmes in der Golden Gate-Ranscher in dunklem Modus" width="415">
@@ -249,6 +273,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 <br>
 
 ### Systeminformationen
+
+Sieh dir Details zu Hardware, Software und Design an.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Licht-Systeminformationsfenster mit Steuerungen links" width="415">
@@ -259,6 +285,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 
 ### Plasma-Design
 
+Menüs und Pop-ups übernehmen das helle oder dunkle Design.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop-Kontextmenü im Lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop-Kontextmenü im dunklen Modus" width="415">
@@ -267,6 +295,8 @@ Code-Mitwirkende und Personen, die Fehler in Tahoe und Golden Gate melden:
 <br>
 
 ### Startbildschirm
+
+Beim Start erscheint ein zum Design passender Bildschirm.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth Startup-Spritz mit einer Progressleiste" width="415">

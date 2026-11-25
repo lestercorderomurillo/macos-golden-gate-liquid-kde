@@ -145,6 +145,8 @@
 
 ### 멀티컬러 Dock
 
+Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="골든 게이트 도크는 다채로운 아이콘을 밝고 어두운 모드로 보여주며, 그 다음 무지개 색상을 통해 자전거를 타고" width="830">
 </p>
@@ -152,6 +154,8 @@
 <br>
 
 ### Quickbar
+
+상단 막대에서 현재 앱의 메뉴를 열 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="케이트에서 문서가 열리는 파일 메뉴" width="830">
@@ -162,13 +166,17 @@
 
 ### 적응형 대비
 
+글자색이 배경에 맞춰 바뀌어 레이블을 읽기 쉽습니다.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="적응형 대비 · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="적응형 대비 · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+앱을 검색하거나 카테고리별로 찾아볼 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="기본 골든 게이트 2를 라이트 모드에서 설정하고, 분리된 검색과 골든 게이트 벽화로" width="415">
@@ -179,6 +187,8 @@
 
 ### 제어 센터
 
+한 메뉴에서 Wi-Fi, 음량, 밝기를 조절할 수 있습니다.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="제어 센터 가 빛 모드" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="어두운 모드에서 제어 센터" width="415">
@@ -187,6 +197,8 @@
 <br>
 
 ### 통지
+
+최근 알림을 앱별로 모아 볼 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="광 모드에서 골든 게이트 알림" width="415">
@@ -199,6 +211,8 @@
 
 ### Finder
 
+Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate 라이트 데스크톱 파일 중점" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate 어두운 데스크톱 파일 중점" width="415"></a>
@@ -207,6 +221,8 @@
 <br>
 
 ### 달력
+
+시계를 열면 월간 달력이 표시됩니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="달력 · 빛" width="328">
@@ -217,12 +233,16 @@
 
 ### Bluetooth
 
+페어링된 기기를 연결하고 배터리 잔량을 확인할 수 있습니다.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 가벼운 블루투스 메뉴" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 어두운 블루투스 메뉴" width="48%">
 </p>
 
 ### Wi-Fi
+
+사용 가능한 네트워크와 연결 상태를 확인할 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="하버 스튜디오에 연결된 라이트 와이파이 메뉴, 가든 게스트와 워크샵이 제공됩니다" width="48%">
@@ -234,6 +254,8 @@
 
 ### 배터리
 
+배터리 잔량과 충전 상태를 확인할 수 있습니다.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="내장 배터리 없는 라이트 배터리 메뉴" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="내부 배터리가 없는 어두운 배터리 메뉴" width="48%">
@@ -244,6 +266,8 @@
 
 ### 클립보드 기록
 
+복사한 텍스트와 이미지를 다시 사용할 수 있습니다.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="광 모드에서 골든 게이트 발사기의 클리립보드 역사" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="어두운 모드에서 골든 게이트 발사기의 클립보드 역사" width="415">
@@ -252,6 +276,8 @@
 <br>
 
 ### 시스템 정보
+
+하드웨어, 소프트웨어 및 테마 정보를 확인할 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="왼쪽에서 제어 장치가 있는 라이트 시스템 정보 창" width="415">
@@ -262,6 +288,8 @@
 
 ### Plasma 테마
 
+메뉴와 팝업에 밝은 테마 또는 어두운 테마가 적용됩니다.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="라이트 모드에서 데스크톱 컨텍스트 메뉴" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="어두운 모드에서 데스크톱 컨텍스트 메뉴" width="415">
@@ -270,6 +298,8 @@
 <br>
 
 ### 부팅 화면
+
+시작할 때 테마에 어울리는 화면이 표시됩니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="플리머스 스타트업 스프래시" width="415">

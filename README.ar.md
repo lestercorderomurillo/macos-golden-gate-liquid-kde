@@ -145,6 +145,8 @@
 
 ### Dock متعدد الألوان
 
+اختر لأيقونات Dock لونًا يناسب سطح المكتب.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="المرفأ من بوابة الذهبية يظهر رموز متعددة الألوان في وضع ضوء ومظلم، ثم الدراجة من خلال ألوان القوس قزح" width="830">
 </p>
@@ -152,6 +154,8 @@
 <br>
 
 ### Quickbar
+
+افتح قوائم التطبيق النشط من الشريط العلوي.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="قائمة الملفات مع وثيقة مفتوحة في كيت" width="830">
@@ -162,13 +166,17 @@
 
 ### التباين التكيفي
 
+يتكيف لون النص مع الخلفية لتبقى التسميات مقروءة.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="التباين التكيفي · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="التباين التكيفي · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+ابحث عن التطبيقات أو تصفحها حسب الفئة.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="افتراضية Golden Gate 2 في وضع الضوء، مع البحث منفصل ورق خلفية Golden Gate" width="415">
@@ -179,6 +187,8 @@
 
 ### مركز التحكم
 
+اضبط الشبكة اللاسلكية والصوت والسطوع من قائمة واحدة.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="مركز التحكم في وضع الضوء" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="مركز التحكم في وضع مظلم" width="415">
@@ -187,6 +197,8 @@
 <br>
 
 ### الإخطارات
+
+اطّلع على الإشعارات الأخيرة مجمّعة حسب التطبيق.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="إشعارات بوابة الذهب في وضع الضوء" width="415">
@@ -199,6 +211,8 @@
 
 ### Finder
 
+تصفّح ملفاتك في نافذة على طراز Finder.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="مكتب ضوء بوابة الذهب مع الملفات تركيز" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="مكتب غولدن غيت مظلم مع الملفات تركيز" width="415"></a>
@@ -207,6 +221,8 @@
 <br>
 
 ### التقويم
+
+افتح الساعة لعرض تقويم الشهر.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="التقويم · الضوء" width="328">
@@ -217,12 +233,16 @@
 
 ### Bluetooth
 
+اتصل بالأجهزة المقترنة وتحقق من مستوى بطارياتها.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="قائمة Bluetooth خفيفة مع سماعات الاستوديو متصلة بنسبة 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="قائمة Bluetooth مظلمة مع سماعات الاستوديو متصلة بـ 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
 </p>
 
 ### Wi-Fi
+
+اعرض الشبكات المتاحة وحالة الاتصال.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="قائمة Wi-Fi خفيفة متصلة بـ Harbor Studio، مع Garden Guest و Workshop متاحة" width="48%">
@@ -234,6 +254,8 @@
 
 ### البطارية
 
+تحقق من مستوى البطارية وحالة الشحن.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="خيارات البطارية الخفيفة لا توجد بطارية داخلية" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="قائمة البطارية المظلمة لا تظهر بطارية داخلية" width="48%">
@@ -244,6 +266,8 @@
 
 ### سجل الحافظة
 
+أعد استخدام النصوص والصور التي نسختها.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="تاريخ المقطع في جهاز إطلاق البوابة الذهبية في وضع الضوء" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="تاريخ المقطع في جهاز إطلاق البوابة الذهبية في وضع الظلام" width="415">
@@ -252,6 +276,8 @@
 <br>
 
 ### معلومات النظام
+
+اطّلع على تفاصيل الأجهزة والبرامج والسمة.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="نافذة معلومات النظام الضوئي مع التحكم على اليسار" width="415">
@@ -262,6 +288,8 @@
 
 ### سمة Plasma
 
+تتبع القوائم والنوافذ المنبثقة السمة الفاتحة أو الداكنة.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="قائمة السياق المكتبية في وضع الضوء" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="قائمة سياق المكتب في وضع مظلم" width="415">
@@ -270,6 +298,8 @@
 <br>
 
 ### شاشة الإقلاع
+
+تظهر عند بدء التشغيل شاشة تتوافق مع السمة.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="بليموث بدء البدء مع شريط التقدم" width="415">

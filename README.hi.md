@@ -145,6 +145,8 @@
 
 ### बहुरंगी डॉक
 
+Dock के आइकन का रंग अपने डेस्कटॉप से मिलाएँ।
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="गोल्डन गेट डॉक प्रकाश और अंधेरे मोड में बहुरंगी आइकन दिखा रहा है, फिर इंद्रधनुष रंगों के माध्यम से साइकिल चल रहा है" width="830">
 </p>
@@ -152,6 +154,8 @@
 <br>
 
 ### Quickbar
+
+ऊपरी पट्टी से सक्रिय ऐप के मेन्यू खोलें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate में एक दस्तावेज़ खोले गए फ़ाइल मेनू" width="830">
@@ -162,13 +166,17 @@
 
 ### अनुकूली कंट्रास्ट
 
+पृष्ठभूमि के अनुसार अक्षरों का रंग बदलता है ताकि लेबल पढ़ने में आसान रहें।
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="अनुकूली कंट्रास्ट · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="अनुकूली कंट्रास्ट · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+ऐप खोजें या उन्हें श्रेणी के अनुसार देखें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="डिफ़ॉल्ट गोल्डन गेट प्रीसेट 2 प्रकाश मोड में, अलग खोज और गोल्डन गेट वॉलपेपर के साथ" width="415">
@@ -179,6 +187,8 @@
 
 ### नियंत्रण केंद्र
 
+एक ही मेन्यू से वाई-फ़ाई, आवाज़ और चमक नियंत्रित करें।
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="नियंत्रण केंद्र प्रकाश मोड में" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="अंधेरे मोड में नियंत्रण केंद्र" width="415">
@@ -187,6 +197,8 @@
 <br>
 
 ### सूचनाएं
+
+हाल की सूचनाएँ ऐप के अनुसार समूहों में देखें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="प्रकाश मोड में गोल्डन गेट सूचनाएं" width="415">
@@ -199,6 +211,8 @@
 
 ### Finder
 
+Finder जैसी विंडो में अपनी फ़ाइलें देखें।
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="फ़ाइलों पर केंद्रित गोल्डन गेट प्रकाश डेस्कटॉप" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="फ़ाइलों को केंद्रित के साथ गोल्डन गेट अंधेरे डेस्कटॉप" width="415"></a>
@@ -207,6 +221,8 @@
 <br>
 
 ### कैलेंडर
+
+महीने का कैलेंडर देखने के लिए घड़ी खोलें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="कैलेंडर · प्रकाश" width="328">
@@ -217,12 +233,16 @@
 
 ### Bluetooth
 
+पेयर किए गए डिवाइस जोड़ें और उनकी बैटरी का स्तर देखें।
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82% पर स्टूडियो हेडफोन कनेक्ट और वायरलेस कीबोर्ड डिस्कनेक्ट के साथ हल्का ब्लूटूथ मेनू" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82% पर कनेक्ट स्टूडियो हेडफोन और वायरलेस कीबोर्ड से डिस्कनेक्ट के साथ डार्क ब्लूटूथ मेनू" width="48%">
 </p>
 
 ### Wi-Fi
+
+उपलब्ध नेटवर्क और कनेक्शन की स्थिति देखें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="हार्बर स्टूडियो से कनेक्ट लाइट वाई-फाई मेनू, गार्डन गेस्ट और वर्कशॉप उपलब्ध" width="48%">
@@ -234,6 +254,8 @@
 
 ### बैटरी
 
+बैटरी का स्तर और चार्जिंग की स्थिति जाँचें।
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="कोई आंतरिक बैटरी नहीं दिखाने वाला हल्का बैटरी मेनू" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="आंतरिक बैटरी नहीं दिखाने वाला डार्क बैटरी मेनू" width="48%">
@@ -244,6 +266,8 @@
 
 ### क्लिपबोर्ड इतिहास
 
+पहले कॉपी किए गए टेक्स्ट और चित्रों का फिर से उपयोग करें।
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="प्रकाश मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="डार्क मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
@@ -252,6 +276,8 @@
 <br>
 
 ### सिस्टम सूचना
+
+हार्डवेयर, सॉफ़्टवेयर और थीम का विवरण देखें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="बाएं ओर नियंत्रण के साथ प्रकाश प्रणाली सूचना विंडो" width="415">
@@ -262,6 +288,8 @@
 
 ### Plasma थीम
 
+मेन्यू और पॉप-अप चुनी हुई लाइट या डार्क थीम अपनाते हैं।
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="प्रकाश मोड में डेस्कटॉप संदर्भ मेनू" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="अंधेरे मोड में डेस्कटॉप संदर्भ मेनू" width="415">
@@ -270,6 +298,8 @@
 <br>
 
 ### बूट स्क्रीन
+
+सिस्टम शुरू होने पर थीम से मेल खाती स्क्रीन दिखती है।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="प्रगति पट्टी के साथ प्लीमाउथ स्टार्टअप स्प्लैश" width="415">

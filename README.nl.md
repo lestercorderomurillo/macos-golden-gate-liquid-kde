@@ -145,6 +145,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Veelkleurig Dock
 
+Stem de kleur van de Dock-pictogrammen af op je bureaublad.
+
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock met veelkleurige icoons in licht- en donkere modus, dan door regenboogtinten" width="830">
 </p>
@@ -152,6 +154,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 <br>
 
 ### Quickbar
+
+Open de menu’s van de actieve app via de bovenbalk.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu met een document in Kate geopend" width="830">
@@ -162,13 +166,17 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Adaptief contrast
 
+De tekstkleur past zich aan de achtergrond aan zodat labels leesbaar blijven.
+
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-contrast-preview-43f1f858d56d.png" alt="Adaptief contrast · Golden Gate" width="830">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Adaptief contrast · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
 
 ### Launchpad
+
+Zoek apps of blader per categorie.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="De standaard Golden Gate 2 is in lichtmodus ingesteld, met losse zoekopdracht en Golden Gate behang" width="415">
@@ -179,6 +187,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Control Center
 
+Regel wifi, geluid en helderheid in één menu.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centrum van besturing in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centrum in duister modus" width="415">
@@ -187,6 +197,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 <br>
 
 ### Meldingen
+
+Bekijk recente meldingen gegroepeerd per app.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate-meldingen in lichtmodus" width="415">
@@ -199,6 +211,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Finder
 
+Blader door bestanden in een venster in Finder-stijl.
+
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate licht desktop met bestanden gericht" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate donkere desktop met bestanden gericht" width="415"></a>
@@ -207,6 +221,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 <br>
 
 ### Kalender
+
+Open de klok om de maandkalender te bekijken.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalender · Licht" width="328">
@@ -217,12 +233,16 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Bluetooth
 
+Verbind gekoppelde apparaten en bekijk hun batterijniveau.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Licht Bluetooth menu met Studio headphones verbonden op 82% en draadloos toetsenbord afgesloten" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu met Studio headphones verbonden op 82% en Wireless Keyboard afgesloten" width="48%">
 </p>
 
 ### Wi-Fi
+
+Bekijk beschikbare netwerken en de verbindingsstatus.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Lichte Wi-Fi menu verbonden met Harbor Studio, met Garden Guest en Workshop beschikbaar" width="48%">
@@ -234,6 +254,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Batterij
 
+Controleer het batterijniveau en de laadstatus.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Lichte batterij menu zonder interne batterij" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu zonder interne batterij" width="48%">
@@ -244,6 +266,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Klembordgeschiedenis
 
+Gebruik eerder gekopieerde tekst en afbeeldingen opnieuw.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard geschiedenis in de golden gate lancer in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard geschiedenis in de golden-gate lancer in donkere modus" width="415">
@@ -252,6 +276,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 <br>
 
 ### Systeminformatie
+
+Bekijk details over hardware, software en het thema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Licht systeem informatievenster met regels aan de linkerkant" width="415">
@@ -262,6 +288,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ### Plasma-thema
 
+Menu’s en pop-ups volgen het lichte of donkere thema.
+
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop contextmenu in donkere modus" width="415">
@@ -270,6 +298,8 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 <br>
 
 ### Opstartscherm
+
+Bij het opstarten verschijnt een scherm dat past bij het thema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth start splash met een progressiebalk" width="415">
