@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.84.30**. Verified Settings navigation and translations, and reviewed the Golden Gate layout in KDE neon. [Evidence and coverage](release-evidence.json).
+**v0.84.31**. The fullscreen installer records individual component results and verifies the live Dock translucency and Acrylic Glass renderer after layout activation. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
