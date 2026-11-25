@@ -143,9 +143,7 @@
 
 ![기능 및 스크린샷](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### 다채로운 지원 (알파) 을 가진 항구
-
-유리 굴절,  ⁇ 식 확대, 빨간 알림 수 Bubbles 및 자동 감추기.
+### 멀티컬러 Dock
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="골든 게이트 도크는 다채로운 아이콘을 밝고 어두운 모드로 보여주며, 그 다음 무지개 색상을 통해 자전거를 타고" width="830">
@@ -154,8 +152,6 @@
 <br>
 
 ### Shell (Alpha)
-
-파일, 편집 및 다른 응용 프로그램 메뉴는 활성 창을 따르습니다. 설정 및 세션 컨트롤을 위한 시스템 메뉴를 열십시오.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="케이트에서 문서가 열리는 파일 메뉴" width="830">
@@ -166,13 +162,9 @@
 
 ### 적응성 대조성 액리크 글래스 2.0
 
-Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 테마 색상은 적어도 33개의 인식을 가진 가벼운 점의 차이가 있을 때 유지됩니다. 그 목표보다 낮은 경우, RGB 스케일의 40%까지 가능한 최소한의 수정법을 적용하고, 가벼운 텍스트를 가벼운 텍스트와 어두운 텍스트를 어두운 상태로 유지합니다. 켜면 테마 컬러를 사용합니다.
-
 <br>
 
 ### Launchpad (Alpha)
-
-앱을 찾아서 카테고리를 탐색하고 좋아하는 것을 접근할 수 있도록 하세요. 얼어붙은 앱 그리드는 투명한 흰색이나 검은색 색을 띠고 있습니다. 검색 필드는 두 모드 모두에서 동일한 암흑 황금 기하급수를 사용합니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="기본 골든 게이트 2를 라이트 모드에서 설정하고, 분리된 검색과 골든 게이트 벽화로" width="415">
@@ -183,8 +175,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 
 ### 제어 센터 (알파)
 
-와이파이, 블루투스, 사운드, 밝기, 알림 같은 유리 메뉴. 출현 버튼은 빛의 태양, 암흑의 달, 자동의 분단순환을 나타냅니다.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="제어 센터 가 빛 모드" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="어두운 모드에서 제어 센터" width="415">
@@ -193,8 +183,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 <br>
 
 ### 통지 (Alpha)
-
-글래스 알림 배너와 앱 액션 및 응답 지원으로 그룹화된 역사
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="광 모드에서 골든 게이트 알림" width="415">
@@ -207,8 +195,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 
 ### Finder (Alpha)
 
-골든게이트 유리로 파일이 검색되는
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate 라이트 데스크톱 파일 중점" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate 어두운 데스크톱 파일 중점" width="415"></a>
@@ -217,8 +203,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 <br>
 
 ### 달력 (알파)
-
-유리판에 달을 볼 수 있는 패널 시계를 열어 보세요. 몇 달 동안 탐색하기 위해 화살키를 스크롤하거나 사용하십시오. 현재 달으로 돌아가기 위해 홈을 누르세요.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="달력 · 빛" width="328">
@@ -229,16 +213,12 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 
 ### Bluetooth (Alpha)
 
-쌍용 기기를 연결하고 메뉴 바에서 배터리 수준을 확인하십시오.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 가벼운 블루투스 메뉴" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 어두운 블루투스 메뉴" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-와이파이 메뉴는 어댑터 상태와 사용 가능한 네트워크를 보여줍니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="하버 스튜디오에 연결된 라이트 와이파이 메뉴, 가든 게스트와 워크샵이 제공됩니다" width="48%">
@@ -250,8 +230,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 
 ### 배터리 (알파)
 
-배터리 메뉴는 충전 및 전력 상태를 보여줍니다.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="내장 배터리 없는 라이트 배터리 메뉴" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="내부 배터리가 없는 어두운 배터리 메뉴" width="48%">
@@ -262,8 +240,6 @@ Adaptive Contrast는 각 라벨 뒤에 있는 배경 샘플을 보여줍니다. 
 
 ### 클립보드 기록 (Alpha)
 
-Launchpad에서 직접 복사된 텍스트와 이미지를 찾아서 재사용하십시오.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="광 모드에서 골든 게이트 발사기의 클리립보드 역사" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="어두운 모드에서 골든 게이트 발사기의 클립보드 역사" width="415">
@@ -272,8 +248,6 @@ Launchpad에서 직접 복사된 텍스트와 이미지를 찾아서 재사용�
 <br>
 
 ### 시스템 정보 (Alpha)
-
-하드웨어, 소프트웨어 및 Adaptive Contrast을 가진 테마 세부 사항
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="왼쪽에서 제어 장치가 있는 라이트 시스템 정보 창" width="415">
@@ -284,8 +258,6 @@ Launchpad에서 직접 복사된 텍스트와 이미지를 찾아서 재사용�
 
 ### Plasma 테마 (Alpha)
 
-맑고 어두운 색으로 일치하는 투명 메뉴와 팝업
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="라이트 모드에서 데스크톱 컨텍스트 메뉴" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="어두운 모드에서 데스크톱 컨텍스트 메뉴" width="415">
@@ -294,8 +266,6 @@ Launchpad에서 직접 복사된 텍스트와 이미지를 찾아서 재사용�
 <br>
 
 ### 부팅 화면 (Alpha)
-
-시작부터 종료까지의 일치하는 모습, LUKS2 암호화된 드라이브에 내장된 잠금을 해제합니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="플리머스 스타트업 스프래시" width="415">

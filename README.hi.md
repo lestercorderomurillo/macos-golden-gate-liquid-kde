@@ -143,9 +143,7 @@
 
 ![विशेषताएं और स्क्रीनशॉट](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### बहुरंगी समर्थन (अल्फा) के साथ डॉक
-
-ग्लास तोड़ने, फहराव ज़ूम, लाल सूचना गिनती बुलबुले और ऑटो छिपाने.
+### बहुरंगी डॉक
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="गोल्डन गेट डॉक प्रकाश और अंधेरे मोड में बहुरंगी आइकन दिखा रहा है, फिर इंद्रधनुष रंगों के माध्यम से साइकिल चल रहा है" width="830">
@@ -154,8 +152,6 @@
 <br>
 
 ### Shell (Alpha)
-
-फ़ाइल, संपादन और अन्य अनुप्रयोग मेनू सक्रिय विंडो का पालन करें। सेटिंग्स और सत्र नियंत्रण के लिए सिस्टम मेनू खोलें।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate में एक दस्तावेज़ खोले गए फ़ाइल मेनू" width="830">
@@ -166,13 +162,9 @@
 
 ### अनुकूलन विपरीत के साथ एक्रिलिक ग्लास 2.0
 
-एडाप्टिव कंट्रास्ट प्रत्येक लेबल के पीछे पृष्ठभूमि का नमूना लेता है। यह विषय रंग को तब बनाए रखता है जब अंतर कम से कम 33 धारणा प्रकाश बिंदु है। उस लक्ष्य के नीचे, यह प्रकाश पाठ को प्रकाश और अंधेरे पाठ को अंधेरा रखते हुए, RGB स्केल के 40% तक के लिए सबसे छोटे सुधार को लागू करता है। इसे बंद करने के लिए विषय रंग का उपयोग करता है।
-
 <br>
 
 ### Launchpad (Alpha)
-
-ऐप्स खोजें, श्रेणियों को ब्राउज़ करें और अपने पसंदीदा को पहुंच में रखें। जमे हुए ऐप ग्रिड में पारदर्शी सफेद या काला रंग होता है। खोज क्षेत्र दोनों मोड में एक ही अंधेरे सोने के ग्रेडिएंट का उपयोग करता है।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="डिफ़ॉल्ट गोल्डन गेट प्रीसेट 2 प्रकाश मोड में, अलग खोज और गोल्डन गेट वॉलपेपर के साथ" width="415">
@@ -183,8 +175,6 @@
 
 ### नियंत्रण केंद्र (अल्फा)
 
-एक ग्लास मेनू में वाई-फाई, ब्लूटूथ, ध्वनि, चमक और सूचनाएं। उपस्थिति बटन प्रकाश के लिए एक सूर्य, अंधेरे के लिए एक चंद्रमा और स्वचालित के लिए एक विभाजित सर्कल दिखाता है।
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="नियंत्रण केंद्र प्रकाश मोड में" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="अंधेरे मोड में नियंत्रण केंद्र" width="415">
@@ -193,8 +183,6 @@
 <br>
 
 ### सूचनाएं (अल्फा)
-
-ग्लास सूचना बैनर और एप्लिकेशन क्रियाओं और उत्तर समर्थन के साथ समूहबद्ध इतिहास।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="प्रकाश मोड में गोल्डन गेट सूचनाएं" width="415">
@@ -207,8 +195,6 @@
 
 ### Finder (Alpha)
 
-गोल्डन गेट ग्लास के साथ फाइंडर शैली फ़ाइल ब्राउज़िंग।
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="फ़ाइलों पर केंद्रित गोल्डन गेट प्रकाश डेस्कटॉप" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="फ़ाइलों को केंद्रित के साथ गोल्डन गेट अंधेरे डेस्कटॉप" width="415"></a>
@@ -217,8 +203,6 @@
 <br>
 
 ### कैलेंडर (अल्फा)
-
-ग्लास पर महीने को देखने के लिए पैनल घड़ी खोलें। महीनों को ब्राउज़ करने के लिए तीर कुंजी को स्क्रॉल या उपयोग करें। वर्तमान महीने में लौटने के लिए होम दबाएं।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="कैलेंडर · प्रकाश" width="328">
@@ -229,16 +213,12 @@
 
 ### Bluetooth (Alpha)
 
-जोड़े गए उपकरणों को कनेक्ट करें और मेनू बार से उनकी बैटरी स्तर की जांच करें।
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82% पर स्टूडियो हेडफोन कनेक्ट और वायरलेस कीबोर्ड डिस्कनेक्ट के साथ हल्का ब्लूटूथ मेनू" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82% पर कनेक्ट स्टूडियो हेडफोन और वायरलेस कीबोर्ड से डिस्कनेक्ट के साथ डार्क ब्लूटूथ मेनू" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-वाई-फाई मेनू में एडाप्टर की स्थिति और उपलब्ध नेटवर्क दिखाई देते हैं।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="हार्बर स्टूडियो से कनेक्ट लाइट वाई-फाई मेनू, गार्डन गेस्ट और वर्कशॉप उपलब्ध" width="48%">
@@ -250,8 +230,6 @@
 
 ### बैटरी (अल्फा)
 
-बैटरी मेनू में चार्ज और पावर की स्थिति दिखाई देती है।
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="कोई आंतरिक बैटरी नहीं दिखाने वाला हल्का बैटरी मेनू" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="आंतरिक बैटरी नहीं दिखाने वाला डार्क बैटरी मेनू" width="48%">
@@ -262,8 +240,6 @@
 
 ### क्लिपबोर्ड इतिहास (अल्फ़ा)
 
-सीधे Launchpad से कॉपी पाठ और छवियों को खोजें और पुनः उपयोग करें।
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="प्रकाश मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="डार्क मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
@@ -272,8 +248,6 @@
 <br>
 
 ### सिस्टम सूचना (अल्फा)
-
-अनुकूलन विपरीत के साथ हार्डवेयर, सॉफ्टवेयर और विषय विवरण।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="बाएं ओर नियंत्रण के साथ प्रकाश प्रणाली सूचना विंडो" width="415">
@@ -284,8 +258,6 @@
 
 ### Plasma थीम (अल्फ़ा)
 
-प्रकाश और अंधेरे रंगों के साथ पारदर्शी मेनू और पॉपअप।
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="प्रकाश मोड में डेस्कटॉप संदर्भ मेनू" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="अंधेरे मोड में डेस्कटॉप संदर्भ मेनू" width="415">
@@ -294,8 +266,6 @@
 <br>
 
 ### बूट स्क्रीन (अल्फ़ा)
-
-स्टार्टअप से शटडाउन तक एक समान रूप, LUKS2 एन्क्रिप्टेड ड्राइव के लिए अंतर्निहित अनलॉक के साथ।
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="प्रगति पट्टी के साथ प्लीमाउथ स्टार्टअप स्प्लैश" width="415">

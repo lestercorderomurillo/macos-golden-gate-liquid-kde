@@ -143,9 +143,7 @@
 
 ![機能とスクリーンショット](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### 多色支持 (アルファ) のドック
-
-ガラス折りたみ 浮遊拡大 赤い通知数値バブル 自動隠れ
+### マルチカラードック
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="ゴールデンゲートドックには,多彩なアイコンが光と暗黒モードで表示され,その後虹色を循環します" width="830">
@@ -154,8 +152,6 @@
 <br>
 
 ### Shell (Alpha)
-
-ファイル,編集および他のアプリケーションメニューは,アクティブウィンドウに従います. 設定とセッション制御のためのシステムメニューを開きます.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kateで開いた文書のファイルメニュー" width="830">
@@ -166,13 +162,9 @@
 
 ### アクリルガラス2.0 適応コントラスト
 
-Adaptive Contrastは,各ラベルの後ろの背景をサンプル化します. 感知的な軽度点が 33点以上になると主題の色が保たれます この目標以下では,RGBスケールの最大40%の最小の修正を適用し, ライトテキストをライトとダークテキストをダークに保つ. 消すには主題色を使います
-
 <br>
 
 ### Launchpad (Alpha)
-
-アプリを見つけ,カテゴリーを閲覧し,お気に入りを入手できるようにします. 凍結したアプリグリッドは白色や黒色の透明性があります. 検索フィールドは両方のモードで同じ暗金梯度を使用します
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="フォルトは,光モードでゴールデンゲート2を設定します." width="415">
@@ -183,8 +175,6 @@ Adaptive Contrastは,各ラベルの後ろの背景をサンプル化します. 
 
 ### 制御センター (アルファ)
 
-Wi-Fi,Bluetooth,音,明るさ,通知がガラスのメニューで 出現ボタンは光に太陽,闇に月,自動に分岐した円を示します
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="制御センターがライトモード" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="暗黒モードの制御センター" width="415">
@@ -193,8 +183,6 @@ Wi-Fi,Bluetooth,音,明るさ,通知がガラスのメニューで 出現ボタ�
 <br>
 
 ### 通知 (アルファ)
-
-グラス通知バナーとアプリアクションと応答サポートを集めた履歴
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="ライトモードでゴールデンゲート通知" width="415">
@@ -207,8 +195,6 @@ Wi-Fi,Bluetooth,音,明るさ,通知がガラスのメニューで 出現ボタ�
 
 ### Finder (Alpha)
 
-ゴールデンゲートガラスで ファイルブラウジングを 検索する
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="ファイルを集中したゴールデンゲートライトデスクトップ" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="ファイルを集中したゴールデンゲート ダークデスクトップ" width="415"></a>
@@ -217,8 +203,6 @@ Wi-Fi,Bluetooth,音,明るさ,通知がガラスのメニューで 出現ボタ�
 <br>
 
 ### カレンダー (アルファ)
-
-グラスで月を見るためにパネルクロックを開いてください. 矢印キーを使って数ヶ月を閲覧する 本月に戻るためにホームを押してください.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="カレンダー · 光" width="328">
@@ -229,16 +213,12 @@ Wi-Fi,Bluetooth,音,明るさ,通知がガラスのメニューで 出現ボタ�
 
 ### Bluetooth (Alpha)
 
-配列デバイスを接続し メニューバーからバッテリーレベルを確認します
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%で接続されたスタジオヘッドフォンと無線キーボードが切断された軽いBluetoothメニュー" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="暗黒のBluetoothメニューで,スタジオヘッドホンが82%接続され,ワイヤレスキーボードは切断された" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-Wi-Fi メニューではアダプターの状態と利用可能なネットワークが表示されます.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="ハーバー・スタジオに接続されたライトWi-Fiメニュー,ガーデンゲストとワークショップが利用可能" width="48%">
@@ -250,8 +230,6 @@ Wi-Fi メニューではアダプターの状態と利用可能なネットワ�
 
 ### バッテリー (アルファ)
 
-バッテリーメニューは電荷と電力状態を示します
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="内部バッテリーがないライト バッテリーメニュー" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="内部バッテリーがないダークバッテリーメニュー" width="48%">
@@ -262,8 +240,6 @@ Wi-Fi メニューではアダプターの状態と利用可能なネットワ�
 
 ### クリップボード履歴 (Alpha)
 
-Launchpadから直接コピーされたテキストと画像を検索して再利用します.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="ライトモードでゴールデンゲート発射機のクリップボードの歴史" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="暗黒モードでゴールデンゲート発射機のクリップボードの歴史" width="415">
@@ -272,8 +248,6 @@ Launchpadから直接コピーされたテキストと画像を検索して再�
 <br>
 
 ### システム情報 (アルファ)
-
-適応コントラストのハードウェア,ソフトウェア,テーマ詳細
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="左側のコントロール付きのライトシステム情報ウィンドウ" width="415">
@@ -284,8 +258,6 @@ Launchpadから直接コピーされたテキストと画像を検索して再�
 
 ### Plasma テーマ (Alpha)
 
-透明なメニューや ポップアップが 照明と暗色に一致する
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="ライトモードでデスクトップコンテキストメニュー" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="ダークモードでデスクトップコンテキストメニュー" width="415">
@@ -294,8 +266,6 @@ Launchpadから直接コピーされたテキストと画像を検索して再�
 <br>
 
 ### 起動画面 (Alpha)
-
-LUKS2暗号化されたドライブに内蔵の開封機能がある
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="プライマススタートアップは,進捗バーでスプラッシュ" width="415">

@@ -143,9 +143,7 @@ Code contributors and issue reporters across Tahoe and Golden Gate:
 
 ![Features and screenshots](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Dock with Multicolor Support (Alpha)
-
-Glass refraction, hover zoom, red notification count bubbles and auto-hide.
+### Multicolor Dock
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock showing multicolor icons in light and dark mode, then cycling through rainbow tints" width="830">
@@ -154,8 +152,6 @@ Glass refraction, hover zoom, red notification count bubbles and auto-hide.
 <br>
 
 ### Shell (Alpha)
-
-File, Edit and the other application menus follow the active window. Open the system menu for settings and session controls.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu with a document open in Kate" width="830">
@@ -166,17 +162,9 @@ File, Edit and the other application menus follow the active window. Open the sy
 
 ### Acrylic Glass 2.0 with Adaptive Contrast
 
-Adaptive Contrast samples the background behind each label. It keeps the theme
-color when the difference is at least 33 perceptual lightness points. Below
-that target, it applies the smallest correction it can, up to 40% of the RGB
-scale, while keeping light text light and dark text dark. Turning it off uses
-the theme color.
-
 <br>
 
 ### Launchpad (Alpha)
-
-Find apps, browse categories and keep your favorites within reach. The frosted app grid has a translucent white or black tint. The search field uses the same dark gold gradient in both modes.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
@@ -187,8 +175,6 @@ Find apps, browse categories and keep your favorites within reach. The frosted a
 
 ### Control Center (Alpha)
 
-Wi-Fi, Bluetooth, sound, brightness and notifications in one glass menu. The appearance button shows a sun for Light, a moon for Dark and a split circle for Automatic.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Control Center in dark mode" width="415">
@@ -197,8 +183,6 @@ Wi-Fi, Bluetooth, sound, brightness and notifications in one glass menu. The app
 <br>
 
 ### Notifications (Alpha)
-
-Glass notification banners and grouped history with app actions and reply support.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate notifications in light mode" width="415">
@@ -211,8 +195,6 @@ Glass notification banners and grouped history with app actions and reply suppor
 
 ### Finder (Alpha)
 
-Finder-style file browsing with Golden Gate glass.
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
@@ -221,8 +203,6 @@ Finder-style file browsing with Golden Gate glass.
 <br>
 
 ### Calendar (Alpha)
-
-Open the panel clock to see the month on glass. Scroll or use the arrow keys to browse months. Press Home to return to the current month.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendar · Light" width="328">
@@ -233,16 +213,12 @@ Open the panel clock to see the month on glass. Scroll or use the arrow keys to 
 
 ### Bluetooth (Alpha)
 
-Connect paired devices and check their battery level from the menu bar.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Light Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-The Wi-Fi menu shows adapter status and available networks.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Light Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
@@ -254,8 +230,6 @@ The Wi-Fi menu shows adapter status and available networks.
 
 ### Battery (Alpha)
 
-The Battery menu shows charge and power status.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Light Battery menu showing no internal battery" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu showing no internal battery" width="48%">
@@ -266,8 +240,6 @@ The Battery menu shows charge and power status.
 
 ### Clipboard History (Alpha)
 
-Find and reuse copied text and images directly from Launchpad.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
@@ -276,8 +248,6 @@ Find and reuse copied text and images directly from Launchpad.
 <br>
 
 ### System Information (Alpha)
-
-Hardware, software and theme details with Adaptive Contrast.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Light system information window with controls on the left" width="415">
@@ -288,8 +258,6 @@ Hardware, software and theme details with Adaptive Contrast.
 
 ### Plasma Theme (Alpha)
 
-Translucent menus and popups with matching light and dark colors.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop context menu in dark mode" width="415">
@@ -298,8 +266,6 @@ Translucent menus and popups with matching light and dark colors.
 <br>
 
 ### Boot Splash (Alpha)
-
-A matching look from startup to shutdown, with built-in unlocking for LUKS2-encrypted drives.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash with a progress bar" width="415">

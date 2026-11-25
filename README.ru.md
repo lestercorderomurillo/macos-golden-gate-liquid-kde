@@ -143,9 +143,7 @@
 
 ![Особенности и скриншоты](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Док с многоцветной поддержкой (Альфа)
-
-Стеклянная рефракция, затягивание, красные пузыри и автоматическое скрытие.
+### Многоцветная панель Dock
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Док Золотой Ворот, показывающий многоцветные иконы в светло-темном режиме, затем проходящий по колесам радуги" width="830">
@@ -154,8 +152,6 @@
 <br>
 
 ### Shell (Alpha)
-
-Файлы, редактирование и другие меню приложений следуют за активным окном. Откройте меню системы для настройки и управления сеансами.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Меню файлов с открытым документом в Kate" width="830">
@@ -166,13 +162,9 @@
 
 ### Акриловое стекло 2.0 с адаптивным контрастом
 
-Adaptive Contrast демонстрирует фон за каждой этикеткой. Он сохраняет цвет темы, когда разница составляет по меньшей мере 33 точки восприятия. Ниже этой цели она применяет самую малую коррекцию, которую может, до 40% шкалы RGB, сохраняя светлый текст светлым и темный текст темным. Выключение использует цвет темы.
-
 <br>
 
 ### Launchpad (Alpha)
-
-Найдите приложения, просматривайте категории и держите любимые в пределах досягаемости. Замороженная сетка приложения имеет прозрачный белый или чёрный оттенок. Поле поиска использует один и тот же темный золотой градиент в обоих режимах.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="По умолчанию Golden Gate 2 в световом режиме, с отдельным поиском и обоев Golden Gate" width="415">
@@ -183,8 +175,6 @@ Adaptive Contrast демонстрирует фон за каждой этике
 
 ### Центр управления (Альфа)
 
-Wi-Fi, Bluetooth, звук, яркость и уведомления в одном стеклянном меню. На кнопке появления показывается солнце для Света, луна для Темноты и разделённый круг для Автоматика.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Центр управления в световом режиме" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Центр управления в темном режиме" width="415">
@@ -193,8 +183,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 <br>
 
 ### Уведомления (Альфа)
-
-Стеклянные баннеры уведомлений и группированная история с действиями приложения и поддержкой ответа.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="уведомления о Золотых воротах в световом режиме" width="415">
@@ -207,8 +195,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 
 ### Finder (Alpha)
 
-Просмотр файлов в стиле Finder с стеклом Golden Gate.
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Золотой ворота легкий рабочий стол с файлами сосредоточенными" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Темный рабочий стол Golden Gate с фокусировкой на файлах" width="415"></a>
@@ -217,8 +203,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 <br>
 
 ### Календарь (Альфа)
-
-Откройте панель часов, чтобы увидеть месяц на стекле. Прокрутите или используйте клавиши стрел для просмотра месяцев. Нажмите на "Домой", чтобы вернуться к текущему месяцу.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Календарь · Свет" width="328">
@@ -229,16 +213,12 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 
 ### Bluetooth (Alpha)
 
-Подключите паревые устройства и проверьте уровень батареи из меню.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Легкое меню Bluetooth с Studio Headphones подключенными на 82% и беспроводной клавиатуры отключенной" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Темное меню Bluetooth с Studio Headphones подключенными на 82% и беспроводной клавиатуры отключенной" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-В меню Wi-Fi отображается статус адаптера и доступные сети.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Меню Wi-Fi подключено к Harbor Studio, с доступными Garden Guest и Workshop" width="48%">
@@ -250,8 +230,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 
 ### Батарея (Альфа)
 
-Меню "Батерия" показывает состояние зарядки и питания.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Меню Light Battery без внутренней батареи" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Меню &quot; Темные батареи &quot; без внутренней батареи" width="48%">
@@ -262,8 +240,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 
 ### История буфера обмена (Alpha)
 
-Найти и повторно использовать скопированный текст и изображения непосредственно с Launchpad.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="История клипборда в пусковике &quot;Золотые ворота&quot; в световом режиме" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="История клипборда в пусковике Золотой Ворот в темном режиме" width="415">
@@ -272,8 +248,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 <br>
 
 ### Информационная система (Альфа)
-
-Оборудование, программное обеспечение и детали темы с адаптивным контрастом.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Окно информации о световой системе с элементами управления слева" width="415">
@@ -284,8 +258,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 
 ### Тема Plasma (Alpha)
 
-Прозрачные меню и всплывающие окна с совпадающими светлыми и темными цветами.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Контекстный меню рабочего стола в световом режиме" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Контекстный меню рабочего стола в темном режиме" width="415">
@@ -294,8 +266,6 @@ Wi-Fi, Bluetooth, звук, яркость и уведомления в одно
 <br>
 
 ### Загрузочная заставка (Alpha)
-
-Совпадающий вид от запуска до выключения, с встроенным разблокированием для шифрованных дисков LUKS2.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Плимутский стартап с прогрессным панелем" width="415">

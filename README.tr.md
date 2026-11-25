@@ -143,9 +143,7 @@ Tahoe ve Golden Gate'daki kod katılımcıları ve gazeteci yayınları:
 
 ![Özellikler ve ekran görüntüleri](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Çok renkli destekle dok (Alfa)
-
-Cam kırılma, dalga zoom, kırmızı bildirim sayım baloncukları ve otomatik saklama.
+### Çok Renkli Dock
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock, ışık ve karanlık modunda çok renkli simgeler gösterir, sonra gökkuşağı renklerini tararken bisikletle" width="830">
@@ -154,8 +152,6 @@ Cam kırılma, dalga zoom, kırmızı bildirim sayım baloncukları ve otomatik 
 <br>
 
 ### Shell (Alpha)
-
-Dosya, Düzenleme ve diğer uygulama menüleri aktif pencerenin ardından devam eder. Ayarlar ve oturum kontrolleri için sistem menüsünü açın.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate&#x27;de açılmış bir belge ile dosya menüsü" width="830">
@@ -166,13 +162,9 @@ Dosya, Düzenleme ve diğer uygulama menüleri aktif pencerenin ardından devam 
 
 ### Adaptif Kontrastlı Akrilik Cam 2.0
 
-Adaptive Contrast, her etiketin arkasındaki arka planı örnekler. Fark en az 33 algısal hafiflik noktası olduğunda tema rengini korur. Bu hedefin altında, hafif metni hafif ve karanlık metni karanlık tutarken, RGB ölçeğinin% 40'ına kadar mümkün olan en küçük düzeltmeyi uyguluyor. Onu kapatmak tema rengi kullanıyor.
-
 <br>
 
 ### Launchpad (Alpha)
-
-Uygulamaları bulun, kategorileri tarayın ve en sevdiğinizleri erişilebilir hale getirin. Dondurulmuş uygulama çubuğunun ışınlı beyaz veya siyah bir rengi vardır. Arama alanı her iki modda da aynı koyu altın gradiyenti kullanır.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Öntanımlı Golden Gate 2&#x27;yi ışık modunda ayarlayın, ayrılmış arama ve Golden Gate duvar kağıdı ile" width="415">
@@ -183,8 +175,6 @@ Uygulamaları bulun, kategorileri tarayın ve en sevdiğinizleri erişilebilir h
 
 ### Kontrol Merkezi (Alfa)
 
-Wi-Fi, Bluetooth, ses, parlaklık ve bildirimler bir cam menüde. Görünüm düğmesi Işık için güneş, Karanlık için ay ve Otomatik için bölünmüş bir döngü gösterir.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Kontrol Merkezi ışık modunda" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Kontrol Merkezi karanlık modda" width="415">
@@ -193,8 +183,6 @@ Wi-Fi, Bluetooth, ses, parlaklık ve bildirimler bir cam menüde. Görünüm dü
 <br>
 
 ### İletişimler (Alfa)
-
-Cam bildirim pankartları ve uygulama eylemleri ve cevap desteği ile gruplanmış geçmiş.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Altın Kapı bildirimleri ışık modunda" width="415">
@@ -207,8 +195,6 @@ Cam bildirim pankartları ve uygulama eylemleri ve cevap desteği ile gruplanmı
 
 ### Finder (Alpha)
 
-Golden Gate camı ile bir dosya tarama.
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Dosya odaklı Golden Gate ışık masaüstü" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Dosya odaklı Golden Gate karanlık masaüstü" width="415"></a>
@@ -217,8 +203,6 @@ Golden Gate camı ile bir dosya tarama.
 <br>
 
 ### Takvim (Alfa)
-
-Ay'ı camda görmek için panel saatini aç. Ayları taramak için ok tuşlarını kullan. Geçerli aya geri dönmek için Ev basın.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Takvim · Işık" width="328">
@@ -229,16 +213,12 @@ Ay'ı camda görmek için panel saatini aç. Ayları taramak için ok tuşların
 
 ### Bluetooth (Alpha)
 
-Çift cihazları bağla ve menü çubuğundan pil seviyesini kontrol et.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Studio kulaklıkları % 82&#x27;ye bağlı ve kablosuz klavyesi bağlantısız olan hafif Bluetooth menüsü" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Karanlık Bluetooth menüsü , 82% bağlı Studio kulaklıkları ve kablosuz klavyeleri ile bağlantı kesilmiş" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-Wi-Fi menüsü adaptör durumunu ve mevcut ağları gösterir.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Harbor Studio&#x27;ya bağlı hafif Wi-Fi menüsü, Garden Guest ve Workshop mevcuttur" width="48%">
@@ -250,8 +230,6 @@ Wi-Fi menüsü adaptör durumunu ve mevcut ağları gösterir.
 
 ### Batarya (Alfa)
 
-Batarya menüsü şarj ve güç durumunu gösterir.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Işık Akü menüsü iç akü göstermiyor" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Karar batarya göstermeyen karanlık pil menüsü" width="48%">
@@ -262,8 +240,6 @@ Batarya menüsü şarj ve güç durumunu gösterir.
 
 ### Pano geçmişi (Alfa)
 
-Launchpad'dan doğrudan kopyalanmış metin ve görüntüleri bulun ve tekrar kullanın.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Altın Kapı fırlatıcısı&#x27;ndaki klipboyu tarihi ışık modunda" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Karanlık modda Altın Kapı fırlatıcısındaki kaset tablosu tarihi" width="415">
@@ -272,8 +248,6 @@ Launchpad'dan doğrudan kopyalanmış metin ve görüntüleri bulun ve tekrar ku
 <br>
 
 ### Sistem Bilgisi (Alfa)
-
-Adaptif Kontrast ile donanımlı, yazılımlı ve temalı detaylar.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Sol tarafta kontrollü ışık sistem bilgisi penceresi" width="415">
@@ -284,8 +258,6 @@ Adaptif Kontrast ile donanımlı, yazılımlı ve temalı detaylar.
 
 ### Plasma teması (Alfa)
 
-Açık ve koyu renkleri eşleştiren geçici menüler ve pop-ups.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Açık modunda masaüstü bağlam menüsü" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Karanlık modunda masaüstü bağlam menüsü" width="415">
@@ -294,8 +266,6 @@ Açık ve koyu renkleri eşleştiren geçici menüler ve pop-ups.
 <br>
 
 ### Açılış ekranı (Alfa)
-
-Başlatmadan kapanışa kadar eşleşen bir görünüm, LUKS2 şifreli sürücüleri için yerleşik kilitleme ile.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth başlatma sıçrayışı ilerleme çubuğu ile" width="415">

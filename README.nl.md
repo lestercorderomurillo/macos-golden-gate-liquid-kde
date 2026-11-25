@@ -143,9 +143,7 @@ Code-medewerkers en journalisten in Tahoe en Golden Gate:
 
 ![Features en screenshots](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Dock met veelkleurige ondersteuning (Alpha)
-
-Glasbreuk, hover zoom, rode meldingsbalen en auto-verstop.
+### Veelkleurig Dock
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock met veelkleurige icoons in licht- en donkere modus, dan door regenboogtinten" width="830">
@@ -154,8 +152,6 @@ Glasbreuk, hover zoom, rode meldingsbalen en auto-verstop.
 <br>
 
 ### Shell (Alpha)
-
-File, Edit en de andere applicatiemenu's volgen het actieve venster. Open het systeemmenu voor instellingen en sessiecontroles.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu met een document in Kate geopend" width="830">
@@ -166,13 +162,9 @@ File, Edit en de andere applicatiemenu's volgen het actieve venster. Open het sy
 
 ### Acrylglas 2.0 met een aanpassend contrast
 
-Adaptive Contrast neemt de achtergrond achter elk etiket. Het behoudt de kleur van het thema wanneer het verschil minstens 33 perceptuele lichtpunten is. Hieronder wordt de kleinste correctie toegepast, tot 40% van de RGB-schaal, terwijl de lichte tekst licht en de donkere tekst donker blijft. Om het uit te schakelen gebruikt de thema kleur.
-
 <br>
 
 ### Launchpad (Alpha)
-
-Zoek apps, blader in categorieën en hou je favorieten binnen bereik. De bevroren app heeft een doorzichtige witte of zwarte tint. Het zoekveld gebruikt dezelfde donkergoudgradiënt in beide modus.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="De standaard Golden Gate 2 is in lichtmodus ingesteld, met losse zoekopdracht en Golden Gate behang" width="415">
@@ -183,8 +175,6 @@ Zoek apps, blader in categorieën en hou je favorieten binnen bereik. De bevrore
 
 ### Control Center (Alfa)
 
-Wi-Fi, Bluetooth, geluid, helderheid en meldingen in één glasmenu. De verschijningsknop toont een zon voor Licht, een maan voor Duister en een gespleten cirkel voor Automatic.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centrum van besturing in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centrum in duister modus" width="415">
@@ -193,8 +183,6 @@ Wi-Fi, Bluetooth, geluid, helderheid en meldingen in één glasmenu. De verschij
 <br>
 
 ### Meldingen (Alpha)
-
-Glasmeldingsbanner en gegroepeerde geschiedenis met app-acties en antwoordondersteuning.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate-meldingen in lichtmodus" width="415">
@@ -207,8 +195,6 @@ Glasmeldingsbanner en gegroepeerde geschiedenis met app-acties en antwoordonders
 
 ### Finder (Alpha)
 
-Files op zoekmachine met Golden Gate glas.
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate licht desktop met bestanden gericht" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate donkere desktop met bestanden gericht" width="415"></a>
@@ -217,8 +203,6 @@ Files op zoekmachine met Golden Gate glas.
 <br>
 
 ### Kalender (Alpha)
-
-Maak de klok open om de maand op glas te zien. Blader of gebruik de pijltoets om maanden te bladeren. Druk op Home om terug te keren naar de huidige maand.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalender · Licht" width="328">
@@ -229,16 +213,12 @@ Maak de klok open om de maand op glas te zien. Blader of gebruik de pijltoets om
 
 ### Bluetooth (Alpha)
 
-Verbind gepaardgaande apparaten en controleer hun batterijniveau vanaf de menubalk.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Licht Bluetooth menu met Studio headphones verbonden op 82% en draadloos toetsenbord afgesloten" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu met Studio headphones verbonden op 82% en Wireless Keyboard afgesloten" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-Het Wi-Fi menu toont de status van de adapter en de beschikbare netwerken.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Lichte Wi-Fi menu verbonden met Harbor Studio, met Garden Guest en Workshop beschikbaar" width="48%">
@@ -250,8 +230,6 @@ Het Wi-Fi menu toont de status van de adapter en de beschikbare netwerken.
 
 ### Batterij (Alfa)
 
-Het batterijmenu toont de laad- en stroomstatus.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Lichte batterij menu zonder interne batterij" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu zonder interne batterij" width="48%">
@@ -262,8 +240,6 @@ Het batterijmenu toont de laad- en stroomstatus.
 
 ### Klembordgeschiedenis (Alpha)
 
-Kopieerde tekst en afbeeldingen direct van Launchpad vinden en opnieuw gebruiken.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard geschiedenis in de golden gate lancer in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard geschiedenis in de golden-gate lancer in donkere modus" width="415">
@@ -272,8 +248,6 @@ Kopieerde tekst en afbeeldingen direct van Launchpad vinden en opnieuw gebruiken
 <br>
 
 ### Systeminformatie (Alfa)
-
-Hardware, software en thema-details met Adaptive Contrast.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Licht systeem informatievenster met regels aan de linkerkant" width="415">
@@ -284,8 +258,6 @@ Hardware, software en thema-details met Adaptive Contrast.
 
 ### Plasma-thema (Alpha)
 
-Doorzichtige menu's en popups met overeenkomende lichte en donkere kleuren.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in lichtmodus" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop contextmenu in donkere modus" width="415">
@@ -294,8 +266,6 @@ Doorzichtige menu's en popups met overeenkomende lichte en donkere kleuren.
 <br>
 
 ### Opstartscherm (Alpha)
-
-Een overeenkomstige uitstraling van start tot afsluiting, met ingebouwde ontsluiting voor LUKS2-versleutelde schijven.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth start splash met een progressiebalk" width="415">

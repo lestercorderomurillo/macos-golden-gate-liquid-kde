@@ -140,9 +140,7 @@ Colaboradores de código e pessoas que relatam problemas no Tahoe e Golden Gate:
 
 ![Recursos e capturas](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Doque com Suporte Multicolor (Alpha)
-
-Refracção de vidro, zoom de balanço, bolhas vermelhas de contagem de notificações e ocultação automática.
+### Dock multicolorido
 
 <p align="center">
   <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Golden Gate Dock mostrando ícones multicolores em modo claro e escuro, depois ciclismo através de tons do arco-íris" width="830">
@@ -151,8 +149,6 @@ Refracção de vidro, zoom de balanço, bolhas vermelhas de contagem de notifica
 <br>
 
 ### Shell (Alpha)
-
-Arquivo, Edição e outros menus de aplicativos seguem a janela ativa. Abra o menu do sistema para configurações e controles de sessão.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menu de arquivo com um documento aberto em Kate" width="830">
@@ -163,13 +159,9 @@ Arquivo, Edição e outros menus de aplicativos seguem a janela ativa. Abra o me
 
 ### Vidro acrílico 2.0 com contraste adaptativo
 
-O contraste adaptativo mostra o fundo por trás de cada rótulo. Mantém a cor do tema quando a diferença é de pelo menos 33 pontos de leveza perceptiva. Abaixo desse alvo, aplica a menor correcção possível, até 40% da escala RGB, mantendo o texto claro claro e o texto escuro escuro. Desligá-lo usa a cor do tema.
-
 <br>
 
 ### Launchpad (Alpha)
-
-Encontre aplicativos, navegue pelas categorias e mantenha os seus favoritos ao seu alcance. A grade de aplicação congelada tem uma tonalidade branca ou preta translúcida. O campo de busca usa o mesmo gradiente de ouro escuro em ambos os modos.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate pré-configurado 2 em modo de luz, com pesquisa separada e papel de parede Golden Gate" width="415">
@@ -180,8 +172,6 @@ Encontre aplicativos, navegue pelas categorias e mantenha os seus favoritos ao s
 
 ### Centro de Controle (Alfa)
 
-Wi-Fi, Bluetooth, som, brilho e notificações num menu de vidro. O botão de aparência mostra um sol para Luz, uma lua para Escuridão e um círculo dividido para Automático.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centro de controlo em modo de luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centro de controlo em modo escuro" width="415">
@@ -190,8 +180,6 @@ Wi-Fi, Bluetooth, som, brilho e notificações num menu de vidro. O botão de ap
 <br>
 
 ### Notificações (Alpha)
-
-Bandeirantes de notificação de vidro e histórico agrupado com ações do aplicativo e suporte à resposta.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Notificações do Golden Gate em modo de luz" width="415">
@@ -204,8 +192,6 @@ Bandeirantes de notificação de vidro e histórico agrupado com ações do apli
 
 ### Finder (Alpha)
 
-Navegando em arquivos de estilo Finder com vidro Golden Gate.
-
 <p align="center">
   <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate leve desktop com arquivos focado" width="415"></a>
   <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate desktop escuro com arquivos focados" width="415"></a>
@@ -214,8 +200,6 @@ Navegando em arquivos de estilo Finder com vidro Golden Gate.
 <br>
 
 ### Calendário (Alfa)
-
-Abra o relógio do painel para ver o mês em vidro. Rolar ou usar as teclas de flecha para navegar meses. Pressão Home para voltar ao mês atual.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendário · Luz" width="328">
@@ -226,16 +210,12 @@ Abra o relógio do painel para ver o mês em vidro. Rolar ou usar as teclas de f
 
 ### Bluetooth (Alpha)
 
-Conecte os dispositivos emparelhados e verifique o nível de bateria da barra de menu.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menu Bluetooth leve com fones de ouvido de estúdio conectados em 82% e teclado sem fio desconectado" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Menu Bluetooth escuro com fones de ouvido de estúdio conectados em 82% e teclado sem fio desconectado" width="48%">
 </p>
 
 ### Wi-Fi (Alpha)
-
-O menu Wi-Fi mostra o status do adaptador e as redes disponíveis.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menu de Wi-Fi ligado ao Harbor Studio, com Garden Guest e Workshop disponíveis" width="48%">
@@ -247,8 +227,6 @@ O menu Wi-Fi mostra o status do adaptador e as redes disponíveis.
 
 ### Bateria (Alfa)
 
-O menu Bateria mostra o estado de carga e energia.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Light Battery menu sem bateria interna" width="48%">
   <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Menu Bateria escura sem bateria interna" width="48%">
@@ -259,8 +237,6 @@ O menu Bateria mostra o estado de carga e energia.
 
 ### Histórico da área de transferência (Alpha)
 
-Encontre e reutilize texto e imagens copiados diretamente no Launchpad.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="História do clipboard no lançador Golden-gate em modo de luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="História do clipboard no lançador Golden-Gate em modo escuro" width="415">
@@ -269,8 +245,6 @@ Encontre e reutilize texto e imagens copiados diretamente no Launchpad.
 <br>
 
 ### Informações do sistema (Alfa)
-
-Detalhes de hardware, software e tema com contraste adaptativo.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Janela de informação do sistema de luz com controles à esquerda" width="415">
@@ -281,8 +255,6 @@ Detalhes de hardware, software e tema com contraste adaptativo.
 
 ### Tema Plasma (Alpha)
 
-Menus translúcidos e popups com cores claras e escuras.
-
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menu de contexto de desktop em modo de luz" width="415">
   <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Menu de contexto no desktop em modo escuro" width="415">
@@ -291,8 +263,6 @@ Menus translúcidos e popups com cores claras e escuras.
 <br>
 
 ### Tela de inicialização (Alpha)
-
-Uma aparência correspondente do início ao fechamento, com desbloqueio embuído para unidades criptografadas LUKS2.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash com uma barra de progresso" width="415">
