@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.84.21**. Verified the shared panel fix on two monitors after a Golden Gate install and reinstall. [Evidence and coverage](release-evidence.json).
+**v0.84.22**. After installation, Open Settings closes the installer and opens a new Settings window. [Evidence and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
