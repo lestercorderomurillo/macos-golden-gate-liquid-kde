@@ -14,7 +14,16 @@
   <a href="README.zh-CN.md" lang="zh-CN" hreflang="zh-CN">🇨🇳 简体中文</a> ·
   <a href="README.pt-BR.md" lang="pt-BR" hreflang="pt-BR">🇧🇷 Português (Brasil)</a> ·
   <a href="README.de.md" lang="de" hreflang="de">🇩🇪 Deutsch</a> ·
-  <a href="README.fr.md" lang="fr" hreflang="fr" aria-current="page">🇫🇷 Français</a>
+  <a href="README.fr.md" lang="fr" hreflang="fr" aria-current="page">🇫🇷 Français</a> ·
+  <a href="README.it.md" lang="it" hreflang="it">🇮🇹 Italiano</a> ·
+  <a href="README.ja.md" lang="ja" hreflang="ja">🇯🇵 日本語</a> ·
+  <a href="README.ko.md" lang="ko" hreflang="ko">🇰🇷 한국어</a> ·
+  <a href="README.ru.md" lang="ru" hreflang="ru">🇷🇺 Русский</a> ·
+  <a href="README.ar.md" lang="ar" hreflang="ar">🇸🇦 العربية</a> ·
+  <a href="README.hi.md" lang="hi" hreflang="hi">🇮🇳 हिन्दी</a> ·
+  <a href="README.nl.md" lang="nl" hreflang="nl">🇳🇱 Nederlands</a> ·
+  <a href="README.pl.md" lang="pl" hreflang="pl">🇵🇱 Polski</a> ·
+  <a href="README.tr.md" lang="tr" hreflang="tr">🇹🇷 Türkçe</a>
 </p>
 
 <p align="center">
@@ -24,10 +33,6 @@
   <a href="https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new"><img src="https://img.shields.io/badge/report-a%20bug-red?logo=github" alt="report a bug"></a>
 </p>
 
-
-<p align="center">
-  macOS Golden Gate style pour KDE Plasma 6.6, 6.7 et 6.8+.
-</p>
 
 <p align="center">
   <sub>Sélectionnez une distribution pour consulter l’état de ses tests.</sub>
@@ -124,248 +129,173 @@ Contributeurs au code et personnes signalant des bogues dans Tahoe et Golden Gat
   <a href="https://github.com/yingmanwumen"><img src="src/screenshots/contributors/yingmanwumen-17ac0de05287.svg" width="40" height="40" alt="@yingmanwumen" title="@yingmanwumen"></a>
   <a href="https://github.com/yofriendfromschool1"><img src="src/screenshots/contributors/yofriendfromschool1-0438de7dda5b.svg" width="40" height="40" alt="@yofriendfromschool1" title="@yofriendfromschool1"></a>
   <a href="https://github.com/zhaokelei"><img src="src/screenshots/contributors/zhaokelei-c371e37c16fb.svg" width="40" height="40" alt="@zhaokelei" title="@zhaokelei"></a>
+  <a href="https://github.com/blaykelarue"><img src="src/screenshots/contributors/blaykelarue-2bab875307a8.svg" width="40" height="40" alt="@blaykelarue" title="@blaykelarue"></a>
+  <a href="https://github.com/JacobJS34"><img src="src/screenshots/contributors/JacobJS34-cfa23b3982f4.svg" width="40" height="40" alt="@JacobJS34" title="@JacobJS34"></a>
+  <a href="https://github.com/Leon-Swains"><img src="src/screenshots/contributors/Leon-Swains-4e422e08f4af.svg" width="40" height="40" alt="@Leon-Swains" title="@Leon-Swains"></a>
+  <a href="https://github.com/LucipurrsDad"><img src="src/screenshots/contributors/LucipurrsDad-673ba01c9c16.svg" width="40" height="40" alt="@LucipurrsDad" title="@LucipurrsDad"></a>
+  <a href="https://github.com/SinglerGold2"><img src="src/screenshots/contributors/SinglerGold2-5a612bf1fdcf.svg" width="40" height="40" alt="@SinglerGold2" title="@SinglerGold2"></a>
 </p>
 
 <br>
 
 ![Fonctionnalités et captures](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Finder (Alpha)
+### Dock avec support multicolor (Alpha)
 
-Navigation de fichiers de style Finder avec le verre Golden Gate.
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-</p>
-
-<details>
-<summary><strong>Accents rouges et bleus en modes clair et sombre</strong></summary>
-
-<table>
-<tr><th>Accent</th><th>Clair</th><th>Sombre</th></tr>
-<tr><td>Bleu</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp" alt="Finder avec une sélection bleue dans la barre latérale en mode clair" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp" alt="Finder avec une sélection bleue dans la barre latérale en mode sombre" width="415"></a></td></tr>
-<tr><td>Rouge</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp" alt="Finder avec une sélection rouge dans la barre latérale en mode clair" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp" alt="Finder avec une sélection rouge dans la barre latérale en mode sombre" width="415"></a></td></tr>
-</table>
-
-</details>
-
-<br>
-
-### Launchpad (Alpha)
-
-Trouvez des applications, parcourez les catégories et gardez vos favoris à portée de main. La grille utilise un verre dépoli teinté de blanc ou de noir. Le champ de recherche conserve le même dégradé du noir au doré dans les deux modes.
+Réfraction du verre, zoom de déploiement, bulles de comptage des notifications rouges et cachet automatique.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
-</p>
-
-<br>
-
-### Dock (Alpha)
-
-Réfraction du verre, agrandissement au survol, bulles rouges de comptage des notifications et masquage automatique.
-
-<p align="center">
-  <strong>Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Clear Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Clear Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Blue Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Purple Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Purple Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Pink Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Pink Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Red Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Orange Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Orange Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Yellow Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Yellow Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Green Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Green Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Gray Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Gray Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="830"></a>
+  <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="Dock Golden Gate montrant des icônes multicolores en mode clair et sombre, puis en vélo à travers les teintes de l&#x27;arc-en-ciel" width="830">
 </p>
 
 <br>
 
 ### Shell (Alpha)
 
-Les menus de l’application suivent la fenêtre active. Le menu système donne accès aux réglages et aux commandes de session.
+Fichier, Modifier et les autres menus d'application suivent la fenêtre active. Ouvrez le menu système pour les paramètres et les commandes de session.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menu Fichier avec un document ouvert dans Kate" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Menu Fichier avec un document ouvert dans Kate" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menu de fichiers avec un document ouvert en Kate" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Menu de fichiers avec un document ouvert en Kate" width="830">
 </p>
 
 <br>
 
-### Calendrier (Alpha)
+### Le verre acrylique 2.0 avec contraste adaptatif
 
-Ouvrez l’horloge du panneau pour afficher le mois sur fond de verre. Utilisez la molette ou les flèches pour changer de mois et la touche Début pour revenir au mois en cours.
+Contrast adaptatif prélève l'arrière-plan de chaque étiquette. Il conserve la couleur du thème lorsque la différence est d'au moins 33 points de légèreté perceptuelle. En dessous de cette cible, il applique la plus petite correction possible, jusqu'à 40% de l'échelle RGB, tout en gardant le texte clair clair et le texte sombre sombre. L'éteindre utilise la couleur du thème.
+
+<br>
+
+### Launchpad (Alpha)
+
+Trouvez des applications, parcourez les catégories et gardez vos favoris à portée de main. La grille app gelée a une teinte blanche ou noire translucide. Le champ de recherche utilise le même gradient d'or foncé dans les deux modes.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendrier · Clair" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendrier · Sombre" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Par défaut Golden Gate 2 en mode lumière, avec recherche détachée et papier peint Golden Gate" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Préparation par défaut Golden Gate 2 en mode sombre, avec recherche détachée et papier peint Golden Gate" width="415">
 </p>
 
 <br>
 
 ### Centre de contrôle (Alpha)
 
-Wi-Fi, son, luminosité et notifications dans un menu en verre. Le bouton d’apparence affiche un soleil en mode clair, une lune en mode sombre et un cercle bicolore en mode automatique.
+Wi-Fi, Bluetooth, son, luminosité et notifications dans un seul menu en verre. Le bouton d'apparition montre un soleil pour la lumière, une lune pour l'obscurité et un cercle divisé pour l'automatique.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Control Center in dark mode" width="415">
-</p>
-
-<p align="center">
-  <strong>Wi-Fi</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · Clair" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · Sombre" width="328">
-</p>
-
-<p align="center">
-  <strong>Batterie</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Batterie · Clair" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Batterie · Sombre" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centre de contrôle en mode lumière" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centre de contrôle en mode noir" width="415">
 </p>
 
 <br>
 
-### Notifications (Alpha)
+### Les notifications (Alpha)
 
-Bannières en verre et historique groupé avec actions des applications et réponses directes.
+Banner de notification en verre et historique groupé avec actions dans les applications et support de réponse.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Notifications en mode clair" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Notifications en mode clair" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Notifications en mode sombre" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Notifications en mode sombre" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Les notifications de Golden Gate en mode lumière" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Les notifications de Golden Gate en mode lumière" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Les notifications Golden Gate en mode noir" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Les notifications Golden Gate en mode noir" width="415">
+</p>
+
+<br>
+
+### Finder (Alpha)
+
+Navigation de fichier à la manière du navigateur avec le verre Golden Gate.
+
+<p align="center">
+  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Tableau de bureau à la porte dorée avec fichiers concentrés" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Desktop sombre Golden Gate avec les fichiers concentrés" width="415"></a>
+</p>
+
+<br>
+
+### Calendrier (Alpha)
+
+Ouvrez l'horloge pour voir le mois sur le verre. Faites défiler ou utilisez les touches de flèche pour parcourir les mois. Appuyez sur Home pour revenir au mois en cours.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendrier · Lumière" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendrier · Noir" width="328">
+</p>
+
+<br>
+
+### Bluetooth (Alpha)
+
+Connectez les appareils couplés et vérifiez leur niveau de batterie à partir de la barre de menu.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menu Bluetooth léger avec écouteurs de studio connectés à 82% et clavier sans fil déconnecté" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Menu Bluetooth sombre avec écouteurs de studio connectés à 82% et clavier sans fil déconnecté" width="48%">
+</p>
+
+### Wi-Fi (Alpha)
+
+Le menu Wi-Fi montre l'état de l'adaptateur et les réseaux disponibles.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menu Wi-Fi léger connecté à Harbor Studio, avec Garden Guest et Workshop disponibles" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Menu Wi-Fi sombre connecté à Harbor Studio, avec Garden Guest et Workshop disponibles" width="48%">
+  <br><sub>Je suis connecté à Harbor Studio. Mode lumineux (à gauche) et mode sombre (à droite).</sub>
+</p>
+
+<br>
+
+### Batterie (Alpha)
+
+Le menu de la batterie montre le statut de charge et d'alimentation.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Menu de batterie légère sans batterie interne" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Menu batterie noire sans batterie interne" width="48%">
+  <br><sub>Aucune batterie interne n'est détectée. Mode lumineux (à gauche) et mode sombre (à droite).</sub>
 </p>
 
 <br>
 
 ### Historique du presse-papiers (Alpha)
 
-Retrouvez et réutilisez le texte et les images copiés directement depuis Launchpad.
+Trouver et réutiliser du texte et des images copiés directement depuis Launchpad.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Historique de la planche à cordes dans le lanceur Golden Gate en mode lumière" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Historique du clipboard dans le lanceur Golden Gate en mode noir" width="415">
 </p>
 
 <br>
 
-### Informations système (Alpha)
+### Informations sur le système (Alpha)
 
-Informations sur le matériel, les logiciels et le thème avec une teinte de texte adaptative.
+Des détails matériels, logiciels et thèmes avec Contraste adaptatif.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Informations système en mode clair avec les boutons à gauche" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Informations système en mode sombre avec les boutons à droite" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Fenêtre d&#x27;information du système lumineux avec les commandes à gauche" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Fenêtre d&#x27;information du système sombre avec les commandes à droite" width="415">
 </p>
 
 <br>
 
 ### Thème Plasma (Alpha)
 
-Menus et fenêtres contextuelles translucides avec des couleurs claires et sombres coordonnées.
+Des menus et des popups transparents aux couleurs claires et sombres.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menu de contexte de bureau en mode lumière" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Menu de contexte du bureau en mode sombre" width="415">
 </p>
 
 <br>
 
 ### Écran de démarrage (Alpha)
 
-Une apparence assortie du démarrage à l’arrêt, avec déverrouillage intégré des disques chiffrés LUKS2.
+Un look correspondant du démarrage à l'arrêt, avec déverrouillage intégré pour les disques cryptés LUKS2.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash with a progress bar" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Le démarrage de Plymouth avec une barre de progression" width="415">
 </p>
 
 <br>
@@ -466,8 +396,15 @@ mac-tahoe-oled-care status
 
 </details>
 
+
+<br>
+
+![Compatibilité](https://img.shields.io/badge/compatibility-system%20support-4B6B8A?style=for-the-badge&logo=linux&logoColor=white)
+
+Vérifiez la prise en charge de votre distribution, de votre système d’initialisation et de votre version de Plasma.
+
 <details>
-<summary><b>Tester dans une machine virtuelle</b></summary>
+<summary><b>Tests des distributions</b></summary>
 
 Essayez le thème dans un bureau Plasma isolé.
 
@@ -480,18 +417,6 @@ Essayez le thème dans un bureau Plasma isolé.
 `all` lance toutes les distributions. [Guide de configuration et de validation des VM](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/README.md).
 
 `./vm kubuntu` démarre l’ISO Kubuntu 26.04.1 LTS épinglée par SHA-256 sur le port SSH de boucle locale `2234` après configuration de l’invité. Cette cible de régression du lanceur attend une validation complète en conditions réelles.
-
-</details>
-
-
-<br>
-
-![Compatibilité](https://img.shields.io/badge/compatibility-system%20support-4B6B8A?style=for-the-badge&logo=linux&logoColor=white)
-
-Vérifiez la prise en charge de votre distribution, de votre système d’initialisation et de votre version de Plasma.
-
-<details>
-<summary><b>Distributions</b></summary>
 
 Les 11 distributions de ce tableau ont réussi la validation en VM réelle. Sélectionnez un badge d’état pour consulter les captures examinées et les résultats des tests.
 
@@ -508,6 +433,10 @@ Les 11 distributions de ce tableau ont réussi la validation en VM réelle. Sél
 | <img src="https://cdn.simpleicons.org/opensuse" alt="openSUSE" width="22"> | openSUSE Tumbleweed | [![VM vérifiée](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#opensuse) |
 | <img src="https://cdn.simpleicons.org/kde" alt="KDE" width="22"> | KDE neon | [![VM vérifiée](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#neon) |
 | <img src="https://cdn.simpleicons.org/debian" alt="Debian" width="22"> | Debian testing / sid (Plasma 6.6+) | [![VM vérifiée](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#debian) |
+
+**NixOS / Home Manager**
+
+[Validation sur bureau en attente](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#nixos).
 
 </details>
 
@@ -540,73 +469,6 @@ Plasma 6.6–6.8 est pris en charge ; les effets compilés utilisent le SDK de l
 | 6.8 | ![Pris en charge](https://img.shields.io/badge/Supported-1A7F37) | v0.54.1 |
 
 </details>
-
-<br>
-
-![Feuille de route](https://img.shields.io/badge/project-roadmap-6B4B8A?style=for-the-badge&logo=github&logoColor=white)
-
-Ce qui fonctionne aujourd’hui et ce que nous prévoyons d’ajouter.
-
-<details>
-<summary><b>État des composants</b></summary>
-
-L’état actuel de chaque composant.
-
-| Composant | État |
-|-----------|--------|
-| Palettes de couleurs | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Fonds d’écran | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Polices | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Curseurs | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Thème Plasma | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Thème Kvantum | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Thème GTK | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Acrylic Glass | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| KDE Rounded Corners | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Commutateur automatique de thème | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Protection OLED | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Interface de l’installateur | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Localisation | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Décorations Aurorae | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Menu global | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Dock | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Nautilus de style Finder | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Launchpad | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Shell | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Historique du presse-papiers | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Informations système | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Corbeille | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Sons | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Écran de démarrage | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Écran d’arrêt | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Thème Firefox | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Icônes | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Prise en charge de plusieurs distributions | ![Pris en charge](https://img.shields.io/badge/Supported-1A7F37) |
-| Tests OpenRC | ![VM vérifiée](https://img.shields.io/badge/VM%20verified-1A7F37) |
-| Thème Konsole | ![Prévu](https://img.shields.io/badge/Planned-D4A017) |
-| Thème Kate | ![Prévu](https://img.shields.io/badge/Planned-D4A017) |
-| Thème SDDM | ![Prévu](https://img.shields.io/badge/Planned-D4A017) |
-| Calendrier | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Centre de contrôle, Wi-Fi, batterie et notifications | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Préférences système | ![Prévu](https://img.shields.io/badge/Planned-D4A017) |
-| Sélecteur de système d’exploitation | ![Prévu](https://img.shields.io/badge/Planned-D4A017) |
-
-</details>
-
-<br>
-
-**[Signalez un bogue](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new)** ou utilisez **Menu Apple → À propos de cet ordinateur → Signaler un bogue…**.
-
-Indiquez :
-
-- Votre version de Plasma : `plasmashell --version`
-- Votre distribution : `grep PRETTY_NAME /etc/os-release`
-- La version du thème indiquée dans **À propos de cet ordinateur**
-- Une capture ou un enregistrement pour les problèmes visuels
-
-Gardez les pull requests ciblées et validez avec `./vm`. Consultez [CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md).
-
-L’[ensemble partagé d’outils de génération d’icônes](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md#icon-generation-toolset) crée des apparences claires, sombres, monochromes et en verre translucide à partir des icônes incluses de Tahoe, avec toute teinte RGB. Exécutez `./icon-toolset` depuis une copie de Tahoe pour générer, prévisualiser, vérifier et emballer les icônes hors ligne pour l’une ou l’autre édition. Toute l’implémentation et les ressources des icônes restent dans Tahoe.
 
 <br>
 

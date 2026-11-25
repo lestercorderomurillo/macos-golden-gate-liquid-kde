@@ -14,7 +14,16 @@
   <a href="README.zh-CN.md" lang="zh-CN" hreflang="zh-CN" aria-current="page">🇨🇳 简体中文</a> ·
   <a href="README.pt-BR.md" lang="pt-BR" hreflang="pt-BR">🇧🇷 Português (Brasil)</a> ·
   <a href="README.de.md" lang="de" hreflang="de">🇩🇪 Deutsch</a> ·
-  <a href="README.fr.md" lang="fr" hreflang="fr">🇫🇷 Français</a>
+  <a href="README.fr.md" lang="fr" hreflang="fr">🇫🇷 Français</a> ·
+  <a href="README.it.md" lang="it" hreflang="it">🇮🇹 Italiano</a> ·
+  <a href="README.ja.md" lang="ja" hreflang="ja">🇯🇵 日本語</a> ·
+  <a href="README.ko.md" lang="ko" hreflang="ko">🇰🇷 한국어</a> ·
+  <a href="README.ru.md" lang="ru" hreflang="ru">🇷🇺 Русский</a> ·
+  <a href="README.ar.md" lang="ar" hreflang="ar">🇸🇦 العربية</a> ·
+  <a href="README.hi.md" lang="hi" hreflang="hi">🇮🇳 हिन्दी</a> ·
+  <a href="README.nl.md" lang="nl" hreflang="nl">🇳🇱 Nederlands</a> ·
+  <a href="README.pl.md" lang="pl" hreflang="pl">🇵🇱 Polski</a> ·
+  <a href="README.tr.md" lang="tr" hreflang="tr">🇹🇷 Türkçe</a>
 </p>
 
 <p align="center">
@@ -24,10 +33,6 @@
   <a href="https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new"><img src="https://img.shields.io/badge/report-a%20bug-red?logo=github" alt="report a bug"></a>
 </p>
 
-
-<p align="center">
-  macOS Golden Gate 风格，适用于 KDE Plasma 6.6、6.7 和 6.8+。
-</p>
 
 <p align="center">
   <sub>选择发行版以查看其测试状态。</sub>
@@ -124,248 +129,173 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
   <a href="https://github.com/yingmanwumen"><img src="src/screenshots/contributors/yingmanwumen-17ac0de05287.svg" width="40" height="40" alt="@yingmanwumen" title="@yingmanwumen"></a>
   <a href="https://github.com/yofriendfromschool1"><img src="src/screenshots/contributors/yofriendfromschool1-0438de7dda5b.svg" width="40" height="40" alt="@yofriendfromschool1" title="@yofriendfromschool1"></a>
   <a href="https://github.com/zhaokelei"><img src="src/screenshots/contributors/zhaokelei-c371e37c16fb.svg" width="40" height="40" alt="@zhaokelei" title="@zhaokelei"></a>
+  <a href="https://github.com/blaykelarue"><img src="src/screenshots/contributors/blaykelarue-2bab875307a8.svg" width="40" height="40" alt="@blaykelarue" title="@blaykelarue"></a>
+  <a href="https://github.com/JacobJS34"><img src="src/screenshots/contributors/JacobJS34-cfa23b3982f4.svg" width="40" height="40" alt="@JacobJS34" title="@JacobJS34"></a>
+  <a href="https://github.com/Leon-Swains"><img src="src/screenshots/contributors/Leon-Swains-4e422e08f4af.svg" width="40" height="40" alt="@Leon-Swains" title="@Leon-Swains"></a>
+  <a href="https://github.com/LucipurrsDad"><img src="src/screenshots/contributors/LucipurrsDad-673ba01c9c16.svg" width="40" height="40" alt="@LucipurrsDad" title="@LucipurrsDad"></a>
+  <a href="https://github.com/SinglerGold2"><img src="src/screenshots/contributors/SinglerGold2-5a612bf1fdcf.svg" width="40" height="40" alt="@SinglerGold2" title="@SinglerGold2"></a>
 </p>
 
 <br>
 
 ![功能与截图](https://img.shields.io/badge/features-%26%20screenshots-4B6B8A?style=for-the-badge&logo=kde&logoColor=white)
 
-### Finder (Alpha)
+### 具有多色支持的码头 (Alpha)
 
-采用 Golden Gate 玻璃效果的 Finder 风格文件浏览。
-
-<p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
-</p>
-
-<details>
-<summary><strong>浅色和深色模式下的红色与蓝色强调色</strong></summary>
-
-<table>
-<tr><th>强调色</th><th>浅色</th><th>深色</th></tr>
-<tr><td>蓝色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-blue-362858f81e2b.webp" alt="Finder 在浅色模式下以蓝色突出显示侧边栏所选项" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-blue-b835bc92a197.webp" alt="Finder 在深色模式下以蓝色突出显示侧边栏所选项" width="415"></a></td></tr>
-<tr><td>红色</td><td><a href="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-red-64f13f0002bb.webp" alt="Finder 在浅色模式下以红色突出显示侧边栏所选项" width="415"></a></td><td><a href="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-red-928d44f325a4.webp" alt="Finder 在深色模式下以红色突出显示侧边栏所选项" width="415"></a></td></tr>
-</table>
-
-</details>
-
-<br>
-
-### Launchpad (Alpha)
-
-查找应用、浏览分类，让收藏触手可及。应用网格在浅色和深色模式下分别使用半透明的白色和黑色磨砂玻璃。两种模式的搜索框均使用相同的黑金渐变。
+玻璃 ⁇ ,浮动变焦,红色通知数量泡 ⁇ 和自动隐藏.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
-</p>
-
-<br>
-
-### Dock (Alpha)
-
-玻璃折射、悬停放大、红色通知计数气泡和自动隐藏。
-
-<p align="center">
-  <strong>Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-regular-ab3f15dc4638.webp" alt="Golden Gate Dock icon appearance preview: Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-regular-10bd3f5e3f7a.webp" alt="Golden Gate Dock icon appearance preview: Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Clear Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-clear-90ade834a80a.webp" alt="Golden Gate Dock icon appearance preview: Clear Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Clear Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-clear-168be084ef75.webp" alt="Golden Gate Dock icon appearance preview: Clear Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Blue Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-blue-66f49f74fb75.webp" alt="Golden Gate Dock icon appearance preview: Blue Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Blue Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-blue-42692e6defe8.webp" alt="Golden Gate Dock icon appearance preview: Blue Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Purple Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-purple-f505c90f757a.webp" alt="Golden Gate Dock icon appearance preview: Purple Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Purple Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-purple-de2ddd0fdac7.webp" alt="Golden Gate Dock icon appearance preview: Purple Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Pink Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-pink-8a5dddb388f5.webp" alt="Golden Gate Dock icon appearance preview: Pink Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Pink Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-pink-35b9f3ee83b9.webp" alt="Golden Gate Dock icon appearance preview: Pink Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Red Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-red-4f92758a9626.webp" alt="Golden Gate Dock icon appearance preview: Red Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Red Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-red-95f297477353.webp" alt="Golden Gate Dock icon appearance preview: Red Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Orange Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-orange-9a56e2ebccdf.webp" alt="Golden Gate Dock icon appearance preview: Orange Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Orange Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-orange-cf8fa5dc1f63.webp" alt="Golden Gate Dock icon appearance preview: Orange Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Yellow Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-yellow-2acdddb4feb4.webp" alt="Golden Gate Dock icon appearance preview: Yellow Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Yellow Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-yellow-9dcd8b6de570.webp" alt="Golden Gate Dock icon appearance preview: Yellow Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Green Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-green-0feca8496131.webp" alt="Golden Gate Dock icon appearance preview: Green Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Green Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-green-524aa37bd27b.webp" alt="Golden Gate Dock icon appearance preview: Green Dark" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Gray Light</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp"><img src="src/screenshots/previews/readme-golden-gate-light-dock-gray-fed59e6cbc46.webp" alt="Golden Gate Dock icon appearance preview: Gray Light" width="830"></a>
-</p>
-
-<p align="center">
-  <strong>Gray Dark</strong><br>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-dock-gray-0e1e1330d670.webp" alt="Golden Gate Dock icon appearance preview: Gray Dark" width="830"></a>
+  <img src="src/screenshots/previews/golden-gate-dock-cb79eda877c7.gif" alt="黄金门码头显示多色图标在光和黑暗模式下,然后通过彩虹色调进行自行车" width="830">
 </p>
 
 <br>
 
 ### Shell (Alpha)
 
-文件、编辑等菜单随当前窗口切换。系统菜单可打开设置和会话控制。
+文件,编辑和其他应用程序菜单遵循主动窗口. 打开设置和会议控制系统菜单.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate 打开文档时的文件菜单" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Kate 打开文档时的文件菜单" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="开放的文件菜单在 Kate 中" width="830">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="开放的文件菜单在 Kate 中" width="830">
 </p>
 
 <br>
 
-### 日历 (Alpha)
+### ⁇ 烯基玻璃2.0具有适应性对比
 
-点击面板时钟即可打开玻璃背景的月历。滚动鼠标滚轮或使用方向键切换月份，按 Home 键返回本月。
+适应性对比采样每个标签背后的背景. 如果差距至少为33个感觉轻度点, 在这个目标以下,它应用了最小的修正,高达RGB尺度的40%,同时保持了光文的光文和暗文的黑暗. 关闭它使用主题颜色.
+
+<br>
+
+### Launchpad (Alpha)
+
+搜索应用程序,浏览类别, 冰 ⁇ 的应用网格有透明的白色或黑色色. 在两种模式中,搜索场使用相同的暗金梯度.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="日历 · 浅色" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="日历 · 深色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="默认的黄金门预设2在光模式下,与独立搜索和黄金门壁纸" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="默认的黄金门预设2在暗模式下,与独立搜索和黄金门壁纸" width="415">
 </p>
 
 <br>
 
-### 控制中心 (Alpha)
+### 控制中心 (阿尔法)
 
-Wi-Fi、声音、亮度和通知集中在一个玻璃菜单中。外观按钮用太阳表示浅色模式，用月亮表示深色模式，用双色圆形表示自动模式。
-
-<p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Control Center in dark mode" width="415">
-</p>
+在一个玻璃菜单中提供Wi-Fi,蓝牙,声音,亮度和通知. 显现按 ⁇ 显示光的太阳,黑暗的月亮和自动的分圆.
 
 <p align="center">
-  <strong>Wi-Fi</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Wi-Fi · 浅色" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Wi-Fi · 深色" width="328">
-</p>
-
-<p align="center">
-  <strong>电池</strong><br>
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="电池 · 浅色" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="电池 · 深色" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="控制中心在光模式下" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="控制中心在黑暗模式下" width="415">
 </p>
 
 <br>
 
 ### 通知 (Alpha)
 
-玻璃质感的通知横幅和分组历史记录，支持应用操作和直接回复。
+玻璃通知标志和组合历史记录,应用程序操作和回复支持.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="通知 （浅色模式）" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="通知 （浅色模式）" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="通知 （深色模式）" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="通知 （深色模式）" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="黄金门通知在光模式下" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="黄金门通知在光模式下" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="黄金门通知在暗模式下" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="黄金门通知在暗模式下" width="415">
 </p>
 
 <br>
 
-### 剪贴板历史 (Alpha)
+### Finder (Alpha)
 
-直接在 Launchpad 中查找并复用复制的文字和图片。
+通过金门玻璃浏览文件.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="专注于文件的黄金门轻桌面" width="415"></a>
+  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="黄金门黑暗桌面,文件集中" width="415"></a>
+</p>
+
+<br>
+
+### 历日 (阿尔法)
+
+在玻璃上打开表表表,看月份. 滚动或使用箭头键浏览几个月. 按Home来返回当前的月份.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="日历 · 光" width="328">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="日历 · 黑暗" width="328">
+</p>
+
+<br>
+
+### Bluetooth (Alpha)
+
+连接配对设备,从菜单 ⁇ 查看它们的电池水平.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="轻微的蓝牙菜单,工作室耳机连接到82%和无线键盘断开" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="暗色蓝牙菜单,工作室耳机连接82%和无线键盘断开" width="48%">
+</p>
+
+### Wi-Fi (Alpha)
+
+无线电菜单显示适配器状态和可用网络.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="轻微的Wi-Fi菜单连接到港湾工作室,有园客和车间可用" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="黑色Wi-Fi菜单连接到港湾工作室,有园客和车间可用" width="48%">
+  <br><sub>连接到港口工作室. 光模式 (左) 和暗模式 (右).</sub>
+</p>
+
+<br>
+
+### 电池 (阿尔法)
+
+电池菜单显示电荷和功率状态.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="轻电池菜单显示没有内部电池" width="48%">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="暗电池菜单显示没有内部电池" width="48%">
+  <br><sub>没有检测到内部电池. 光模式 (左) 和暗模式 (右).</sub>
+</p>
+
+<br>
+
+### 剪贴板历史记录（Alpha）
+
+直接从启动板中找到和重复使用复制的文本和图像.
+
+<p align="center">
+  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="黄金门发射器的剪辑板历史在光模式下" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="黄金门发射器在黑暗模式中的剪辑板历史" width="415">
 </p>
 
 <br>
 
 ### 系统信息 (Alpha)
 
-硬件、软件和主题信息，文字颜色随背景调整。
+配备适应对比的硬件,软件和主题细节.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="浅色模式的系统信息窗口，控制按钮位于左侧" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="深色模式的系统信息窗口，控制按钮位于右侧" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="灯系统信息窗口,左侧控制" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="黑色系统信息窗口,右侧控制" width="415">
 </p>
 
 <br>
 
-### Plasma 主题 (Alpha)
+### Plasma 主题（Alpha）
 
-采用协调浅色和深色配色的半透明菜单与弹出窗口。
+透明菜单和弹出窗口,有相应的光色和暗色.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="在光模式下桌面文本菜单" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="桌面背景菜单在暗模式下" width="415">
 </p>
 
 <br>
 
-### 启动画面 (Alpha)
+### 启动画面（Alpha）
 
-从启动到关机保持一致外观，内置 LUKS2 加密磁盘解锁功能。
+启动到关闭的相匹配外观,
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash with a progress bar" width="415">
+  <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="普利 ⁇ 斯创业点击与进步行" width="415">
 </p>
 
 <br>
@@ -466,8 +396,15 @@ mac-tahoe-oled-care status
 
 </details>
 
+
+<br>
+
+![兼容性](https://img.shields.io/badge/compatibility-system%20support-4B6B8A?style=for-the-badge&logo=linux&logoColor=white)
+
+检查你的发行版、初始化系统和 Plasma 版本的支持情况。
+
 <details>
-<summary><b>在虚拟机中测试</b></summary>
+<summary><b>发行版测试</b></summary>
 
 在隔离的 Plasma 桌面中试用主题。
 
@@ -480,18 +417,6 @@ mac-tahoe-oled-care status
 `all` 启动所有发行版。[虚拟机设置与验证指南](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/README.md)。
 
 `./vm kubuntu` 启动以 SHA-256 固定的 Kubuntu 26.04.1 LTS ISO；配置来宾后使用回环 SSH 端口 `2234`。此启动器回归测试目标尚待完整的实际运行验证。
-
-</details>
-
-
-<br>
-
-![兼容性](https://img.shields.io/badge/compatibility-system%20support-4B6B8A?style=for-the-badge&logo=linux&logoColor=white)
-
-检查你的发行版、初始化系统和 Plasma 版本的支持情况。
-
-<details>
-<summary><b>发行版</b></summary>
 
 此表中的全部 11 个发行版均通过实际虚拟机验证。选择状态徽章以查看已审阅截图和测试结果。
 
@@ -508,6 +433,10 @@ mac-tahoe-oled-care status
 | <img src="https://cdn.simpleicons.org/opensuse" alt="openSUSE" width="22"> | openSUSE Tumbleweed | [![虚拟机已验证](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#opensuse) |
 | <img src="https://cdn.simpleicons.org/kde" alt="KDE" width="22"> | KDE neon | [![虚拟机已验证](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#neon) |
 | <img src="https://cdn.simpleicons.org/debian" alt="Debian" width="22"> | Debian testing / sid (Plasma 6.6+) | [![虚拟机已验证](https://img.shields.io/badge/VM%20verified-1A7F37)](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#debian) |
+
+**NixOS / Home Manager**
+
+[桌面环境验证待完成](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/tests/vm/PROOF.md#nixos).
 
 </details>
 
@@ -540,73 +469,6 @@ OpenRC 和 dinit 需要运行中的 cron 守护进程。
 | 6.8 | ![支持](https://img.shields.io/badge/Supported-1A7F37) | v0.54.1 |
 
 </details>
-
-<br>
-
-![路线图](https://img.shields.io/badge/project-roadmap-6B4B8A?style=for-the-badge&logo=github&logoColor=white)
-
-目前可用的功能和计划添加的内容。
-
-<details>
-<summary><b>组件状态</b></summary>
-
-各组件的当前状态。
-
-| 组件 | 状态 |
-|-----------|--------|
-| 配色方案 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 壁纸 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 字体 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 光标 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Plasma 主题 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Kvantum 主题 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| GTK 主题 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Acrylic Glass | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| KDE Rounded Corners | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 自动主题切换器 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| OLED 保护 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 安装程序界面 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 本地化 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Aurorae 装饰 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 全局菜单 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Dock | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Finder 风格 Nautilus | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Launchpad | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Shell | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 剪贴板历史 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 系统信息 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 回收站 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 声音 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 启动画面 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 关机画面 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| Firefox 主题 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 图标 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 多发行版支持 | ![支持](https://img.shields.io/badge/Supported-1A7F37) |
-| OpenRC 测试 | ![虚拟机已验证](https://img.shields.io/badge/VM%20verified-1A7F37) |
-| Konsole 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-| Kate 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-| SDDM 主题 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-| 日历 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 控制中心、Wi-Fi、电池和通知 | ![Alpha](https://img.shields.io/badge/Alpha-D4A017) |
-| 系统偏好设置 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-| 操作系统选择器 | ![计划中](https://img.shields.io/badge/Planned-D4A017) |
-
-</details>
-
-<br>
-
-**[报告错误](https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/issues/new)**，或使用 **Apple 菜单 → 关于本机 → 报告错误…**。
-
-请提供：
-
-- 你的 Plasma 版本： `plasmashell --version`
-- 你的发行版： `grep PRETTY_NAME /etc/os-release`
-- **关于本机**中显示的主题版本
-- 显示问题的截图或录屏
-
-请保持拉取请求范围集中，并使用 `./vm` 验证。参阅 [CONTRIBUTING.md](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md)。
-
-共享的[图标生成工具集](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/blob/main/CONTRIBUTING.md#icon-generation-toolset)基于 Tahoe 随附图标创建浅色、深色、单色和半透明玻璃外观，支持任意 RGB 色调。从 Tahoe 工作副本运行 `./icon-toolset`，可为任一版本离线生成、预览、验证和打包图标。所有图标实现和资源均保留在 Tahoe 中。
 
 <br>
 
