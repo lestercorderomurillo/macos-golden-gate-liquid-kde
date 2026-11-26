@@ -25,3 +25,36 @@ jobs:
         run: python3 -m pip install pytest
       - name: Test wrapper behavior
         run: python3 -m pytest tests -q
+
+  staged-icons:
+    runs-on: ubuntu-latest
+    container: debian:testing-slim
+    steps:
+      - name: Install the native KDE icon test dependencies
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            ca-certificates git python3-pytest python3-pil python3-pyqt6 \
+            qt6-base-dev qt6-svg-plugins libkf6iconthemes-dev \
+            librsvg2-bin zstd cmake g++ make pkgconf
+      - uses: actions/checkout@v5
+      - name: Render icons from the pinned Golden Gate installation source
+        env:
+          MAC_TAHOE_NO_UPDATE_CHECK: 'true'
+        run: |
+          output=$(./installer --prepare)
+          source_dir=$(printf '%s\n' "$output" | tail -n 1)
+          cmp defaults.json "$source_dir/src/scripts/defaults.json"
+          cd "$source_dir"
+          python3 -m pytest -q tests/test_reserved_menu_icons.py \
+            tests/test_status_icons.py --junitxml="$RUNNER_TEMP/staged-icons.xml"
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          from xml.etree import ElementTree
+          report = Path(os.environ["RUNNER_TEMP"]) / "staged-icons.xml"
+          cases = ElementTree.parse(report).findall(".//testcase")
+          skipped = [case.get("name") for case in cases if case.find("skipped") is not None]
+          if not cases or skipped:
+              raise SystemExit(f"Incomplete staged icon coverage: {len(cases)} cases, skipped {skipped}")
+          PY
