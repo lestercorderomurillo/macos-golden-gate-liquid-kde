@@ -1,23 +1,40 @@
 {
-  "version": "0.85.5",
-  "scope": "Settings runtime warnings in Battery, Notifications and font selection.",
+  "version": "0.85.8",
+  "scope": "Restore symbolic emote lookup and require installed icon, Dock, GTK and Kvantum runtime coverage in distro CI.",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "approved_candidate": "df6ad3228a08b22d6ff014f5d5e6ee57e5969b41",
-  "approved_preview_sha256": {
-    "golden-gate-notifications.png": "ec75b328bb9d2d8ecfd2cc6cf7ce15a038044ea4a97cbfb1c27aaa68be4fa8e6",
-    "tahoe-notifications.png": "1db09fba4dbc247d21028e9e6fa7b2367d5449208345bed5aa8fed4f0e398821"
-  },
-  "approved_candidate_patch_sha256": "1d6bba44a70354329ff7ee77249369f6afc8836a92a7ba099970040b0ef94f74",
   "checks": [
     {
-      "command": "KDE neon Plasma 6.8.1 Wayland, Qt 6.11.1, both editions: ./installer --mode=settings with --section=battery, general and notifications. Verified selector cursor geometry and notification settings action. Plasma retained notification service ownership.",
+      "command": "python3 tests/containers/installed_icons.py --materials; staged Golden Gate on KDE neon, Qt 6.11.1, Plasma 6.8.1. Both base themes resolved 15,928 names each, 18,753 distinct files decoded. Verified regular, dark, clear and red/blue glass Dock materials.",
       "result": "passed"
     },
     {
-      "command": "Verified published Tahoe archive checksum, VERSION, immutable release pin and Golden Gate wrapper regressions.",
+      "command": "Guest.installed_icons() after actual reboot of isolated KDE neon guest; Wayland theme lookup and installed Dock plugin embedded resource checks.",
+      "result": "passed"
+    },
+    {
+      "command": "pytest tests/test_ci_selection.py tests/test_container_images.py tests/test_component_cache.py::test_committed_component_hashes_match_sources (11 passed)",
+      "result": "passed"
+    },
+    {
+      "command": "Immutable published archive SHA-256, tag, version, Golden Gate wallpaper and launcher edition support checked. Golden Gate candidate CI: 124 wrapper and 9 native staged KDE icon tests passed.",
       "result": "passed"
     }
   ],
-  "coverage_limits": "The guest reproduced the original Battery font-size and ComboBox warnings. The old KWin and D-Bus warnings were not independently reproduced. Golden Gate Volume also reported guest audio diagnostics.",
-  "source_sha256": "ed04923b096ff7ed886c9203916c6033e09eede7ffeb4f529ac1cea08d9a1a2d"
+  "approved_preview": {
+    "filename": "neon-icon-lookup.png",
+    "sha256": "4542b1206e2315d2c2b2723fd3faa605f615c348aba2c9dd2f0a3dc0a960f247"
+  },
+  "candidate_commits": {
+    "tahoe": "851fca51dbd236a2b8757d02bdb5c73b2b8b9244",
+    "golden_gate": "02eaa97387814f5d99a80c5ba7f844a02b61c8a7"
+  },
+  "verified_icon_source_sha256": "6e8ffb9c4ee58a9921ae06abd8c3575742a26275340ebd365bd5c0d1442e33e6",
+  "qualification_runs": [
+    "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/45803702581",
+    "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/runs/45803971709",
+    "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/actions/runs/45805422866",
+    "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/actions/runs/45807116017"
+  ],
+  "coverage_limits": "EndeavourOS and Garuda use Arch SDK simulations; Nobara uses a Fedora SDK simulation. Artix native dinit userspace is covered. No new full desktop lifecycle qualification on those four distributions. Nix package checks cover the built output. Kubuntu live qualification remains pending.",
+  "source_sha256": "f1c450b446e0f81cdaed7a6f17b455e48b18188c64bf825d96009ca1fa07ebe8"
 }
