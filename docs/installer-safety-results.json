@@ -1,0 +1,952 @@
+{
+  "evidence_root": "build/installer-safety-candidate",
+  "scope": "Completed Wayland desktop lifecycle runs on the listed sources and native environment checks. Candidate differences, recoveries, native module tests and other environments are described in installer-safety-plan.md. Each digest identifies the original machine report.",
+  "runs": [
+    {
+      "distribution": "opensuse",
+      "edition": "Golden Gate",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.0",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "stage": "de74b2e75bd06d358e48",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T11:52:59.172093+00:00",
+      "local_evidence_sha256": {
+        "golden-opensuse-t26ozmiu/post-reboot-unr0rwbb/result.json": "5f4ad40555615bdeeef352873b7b1d85bc97924f176265ed7f821db8855cbc70",
+        "golden-opensuse-t26ozmiu/dark.json": "7246a232647b4dbdab6368c1eab1e6a5a61918124ad0b4023d9b155b789a4079",
+        "golden-opensuse-t26ozmiu/dark-pixels.json": "8078489acc6177a3cc2bb03839206a36283e09b4bccc562d1da4952d2cdb3dfb",
+        "golden-opensuse-t26ozmiu/light-pixels.json": "25a990b514b1c3487c2f718811c512c7834ceec2ea8b52751da7c835b96fcc72",
+        "golden-opensuse-t26ozmiu/post-reboot-unr0rwbb/uninstalled.json": "22a75b6aac861ecc9dbf507b888594d4098412cb920976d7726b4dcfaf414a16"
+      }
+    },
+    {
+      "distribution": "endeavouros",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T14:05:12.479057+00:00",
+      "local_evidence_sha256": {
+        "matrix-2vz4yx1_/endeavouros/result.json": "970d0ddd2d94260569a8ecec08779cfeb8a9f9d74e95dabff399b41fab714b92",
+        "matrix-2vz4yx1_/endeavouros/dark.json": "89a151a074d021eedc004da11f221437ea2693ccf23a495e921cbed204a2eda7",
+        "matrix-2vz4yx1_/endeavouros/dark-pixels.json": "2a049ed71ea0ee49273a9c27edb78e746d6187a014d055ca504e904225d8efae",
+        "matrix-2vz4yx1_/endeavouros/light-pixels.json": "35ad6553be8f46ccba87a6eba4d8bc6eb6723b430202212e54e9e2c117b46a03",
+        "matrix-2vz4yx1_/endeavouros/uninstalled.json": "a524c7a09502100d9f83c800043ed920ea2c0e7009d39b3edb3505a0f7c36350"
+      }
+    },
+    {
+      "distribution": "debian",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.6.5",
+      "qt": "6.10.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:56:33.351782+00:00",
+      "local_evidence_sha256": {
+        "matrix-4lykdi_i/debian/result.json": "ceac3f6fccb90498ffa71fffd9529954ff5f37c9f39f2fcf6a5e352044f44bde",
+        "matrix-4lykdi_i/debian/dark.json": "fd8a8c58ed217852c4b7f45b378f2c0c1dbd25f42cb3e7ae6135e2ef7493993e",
+        "matrix-4lykdi_i/debian/dark-pixels.json": "048486754dc1db08accfa10ade850a04170b07f49ac862dbefb47060f273e9cf",
+        "matrix-4lykdi_i/debian/light-pixels.json": "7ba19934b324d01fc67c26b4813200ff84d7e8bdd5725746b721cac88e606a35",
+        "matrix-4lykdi_i/debian/uninstalled.json": "baf745b28d4aedcb9b114bc4d502cc3d231ea5fd36c6bc4cca4c23ccf1f4528e"
+      }
+    },
+    {
+      "distribution": "debian",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.4",
+      "qt": "6.11.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:36:38.614424+00:00",
+      "local_evidence_sha256": {
+        "matrix-5mxagokl/debian/result.json": "9a30814b19f4a6508f34d5c4fd280a4cae2a101aaea8929e76ec32108adca090",
+        "matrix-5mxagokl/debian/dark.json": "6b102548d983db6ce7edcb85ed3312e620162ea9f8a41451328f3b4f5818ebb3",
+        "matrix-5mxagokl/debian/dark-pixels.json": "d8cb0d6fa21b2d1f94377db8f9a30bfea76c08202d97ab76737bff5ed04fd3d3",
+        "matrix-5mxagokl/debian/light-pixels.json": "2d7de24cebf85841107b748923df37defd373438001b173aede81a3caeffbc59",
+        "matrix-5mxagokl/debian/uninstalled.json": "7e1d28e47f0af56cf05b9d4fe0c879a77f6ea193c5648368b87403826b71e3d3"
+      }
+    },
+    {
+      "distribution": "artix",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:34:51.138519+00:00",
+      "local_evidence_sha256": {
+        "matrix-8ttn_o9j/artix/result.json": "3639e040c33dfc57a2eaf2c0a38a9b5f8dee56aec509af71a4d2477281e20344",
+        "matrix-8ttn_o9j/artix/dark.json": "155bbd4d266153c8e46202495e4f4b5b9f1de46554fcef7df1382939615c22a6",
+        "matrix-8ttn_o9j/artix/dark-pixels.json": "f7bb0e19ad0a7fed60a236ced739a295476a987eaad915f9e590eeaee036095e",
+        "matrix-8ttn_o9j/artix/light-pixels.json": "1b3c8069148d7d5a09b487b519541b50f68cee926caec96a689ff66ab2f843e7",
+        "matrix-8ttn_o9j/artix/uninstalled.json": "8e02e440ae1e3cfe36e1285e779003f589a2dfe7d6902617aa613f279ec7bd8c"
+      }
+    },
+    {
+      "distribution": "manjaro",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.2",
+      "qt": "6.12.0",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T13:04:09.585366+00:00",
+      "local_evidence_sha256": {
+        "matrix-9silo28e/manjaro/result.json": "18923a490f9b66b5ff801c961cb6f16c5a0d5c39e32a51054ed9785f9f2881e2",
+        "matrix-9silo28e/manjaro/dark.json": "dd6ebb62cafeb736b539a06f2729e4ae8090094f9c6b36ca9f670e02d03b18be",
+        "matrix-9silo28e/manjaro/dark-pixels.json": "50a30a06748bd265a369c3d915a5f0a05a66bdb91d641646ee2891b21080d659",
+        "matrix-9silo28e/manjaro/light-pixels.json": "08ef64411d5f36f5cdd33c7c14747f71b3eb499f851af04d26c973dffa8c70ac",
+        "matrix-9silo28e/manjaro/uninstalled.json": "bcf1ee0037e8643d1874e653f69ba85b242267ea38e665c0b73e5388b7315e4c"
+      }
+    },
+    {
+      "distribution": "nobara",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.11.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T14:30:12.837323+00:00",
+      "local_evidence_sha256": {
+        "matrix-c9r0ynve/nobara/result.json": "cd341501750668f04a197443272efb4a179d010d385346a93e6e4689d54f68af",
+        "matrix-c9r0ynve/nobara/dark.json": "cd001be1e704db75e5666c8b129be9198849990abe9fd31de4ed88c21ba55d38",
+        "matrix-c9r0ynve/nobara/dark-pixels.json": "807268cca08f84e67693a99e8c53c71805c44f8fce9cd525f0837103aa60284e",
+        "matrix-c9r0ynve/nobara/light-pixels.json": "95d77340f3af5e97edd8a8517247b4997dd711adb1aa06485562e907447eae1f",
+        "matrix-c9r0ynve/nobara/uninstalled.json": "3fbcb5b5b9aa7345b20849bb3a8f0e8d440a5a322f406e36b4d58a2888906cd8"
+      }
+    },
+    {
+      "distribution": "opensuse",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.0",
+      "tahoe_base": "f1356a965def87b1c8a438087294b3604c2ec256",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T11:34:05.160511+00:00",
+      "local_evidence_sha256": {
+        "matrix-dwkim_5w/opensuse/continuation-5itq8ghn/result.json": "2fb6e7ebee520b91c7ff086e6766d71855d45e35e370897ec64fea5a769e48db",
+        "matrix-dwkim_5w/opensuse/continuation-5itq8ghn/dark.json": "8a7c4c3e147957df1c244c3676a9e6e8ca4c46b73f8cbce4901d70de4892b1ad",
+        "matrix-dwkim_5w/opensuse/continuation-5itq8ghn/dark-pixels.json": "ba74d96f24be89b12af195c6d7dab9d3d13c51de7395a236f44d548f0a4f4689",
+        "matrix-dwkim_5w/opensuse/continuation-5itq8ghn/light-pixels.json": "895f476dedf130ab3cb0d520a861b7dc1a389e6ca07b70500902bbfffee86603",
+        "matrix-dwkim_5w/opensuse/continuation-5itq8ghn/uninstalled.json": "1d5010478060f1ed39f1d4ada2c931cad749444af45b864ea0f1425713dfe1c8"
+      }
+    },
+    {
+      "distribution": "endeavouros",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.4",
+      "qt": "6.11.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T13:37:20.139992+00:00",
+      "local_evidence_sha256": {
+        "matrix-eyze8q1d/endeavouros/result.json": "f16c035d696ed92cdf81eca4a8f9e8ef3f5da3864ed2bbf4e0326493709cdeaf",
+        "matrix-eyze8q1d/endeavouros/dark.json": "cc4a131bbef4727f9c8ef44c098b7327ae7c6c123a458c69a84cbc7180d0a049",
+        "matrix-eyze8q1d/endeavouros/dark-pixels.json": "f922c3c1fbdfdcc13eb0383f30fe8ded4091aa325dc0621ef4f7a993babf9778",
+        "matrix-eyze8q1d/endeavouros/light-pixels.json": "cf442665f7981efc2d47b486a6ddc37d5c9be27ab7b146037d2163043849f09f",
+        "matrix-eyze8q1d/endeavouros/uninstalled.json": "276bb20d61118ba61c39230f025f65630726b9c83b4d057232833d714d2a0dcb"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "edition": "Golden Gate",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.11.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "stage": "fe1dd82316bf115a4037",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:33:31.139787+00:00",
+      "local_evidence_sha256": {
+        "matrix-gablw_39/fedora/display-active-a8rcw_5c/result.json": "445be5ac5aefc5f18fa54ac9f3bd538ff1649ed0a948d88e832e474dcc56ad97",
+        "matrix-gablw_39/fedora/display-active-a8rcw_5c/dark.json": "701a80ade1edd1cc506f3f760db5f81cc29c5e16c50920b582e0db0ea0e667c7",
+        "matrix-gablw_39/fedora/display-active-a8rcw_5c/dark-pixels.json": "87e841311f172a5018d9b45df3b60d2c881c35be39c1a2206f57ca2338da26af",
+        "matrix-gablw_39/fedora/display-active-a8rcw_5c/light-pixels.json": "0994598bfee76f9e12688d00c052fa5a61551169f7eb32f9cda78b783016dd58",
+        "matrix-gablw_39/fedora/display-active-a8rcw_5c/uninstalled.json": "861ed851db59814c9493faf3719a2e96fa9f66eb2d64acaa1e887bea41309bf2"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "edition": "Golden Gate",
+      "plasma": "plasmashell 6.6.7",
+      "qt": "6.10.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "stage": "fe1dd82316bf115a4037",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:43:16.289768+00:00",
+      "local_evidence_sha256": {
+        "matrix-gablw_39/kubuntu/native-tiling-iitvkmph/result.json": "1fc7c8c014214cc858f47b0d6d671003e18fb978cdccf015f0b145aaa75695a9",
+        "matrix-gablw_39/kubuntu/native-tiling-iitvkmph/dark.json": "a56016e9e82afdac4a59c239673ca9d7e3c1cbef7f3c834908bfc6dbc0bbcf6c",
+        "matrix-gablw_39/kubuntu/native-tiling-iitvkmph/dark-pixels.json": "e1e78509b968ddd35a16481980fd1ec83614b89a1a036b4605c3e6be8ab6d4d1",
+        "matrix-gablw_39/kubuntu/native-tiling-iitvkmph/light-pixels.json": "1d9414eb9372cb870afc94889535f4628cb52692c8c964e62050050dcaa249e5",
+        "matrix-gablw_39/kubuntu/native-tiling-iitvkmph/uninstalled.json": "38faeb4022ba163b05061eba26497f4cf5ba89db6d7ac89e21617b1c4551f213"
+      }
+    },
+    {
+      "distribution": "garuda",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T14:03:47.317790+00:00",
+      "local_evidence_sha256": {
+        "matrix-maeru8tz/garuda/continuation-wej8x175/post-reboot-qr7ikmng/result.json": "e99bc50970481ce35633bb301983c9cbc401bed52f6911ee5c18fb18d9475ae9",
+        "matrix-maeru8tz/garuda/continuation-wej8x175/dark.json": "fd97dc17a271903e8e0115834ee51e4b1bcfa5fd913706c512572383cc829236",
+        "matrix-maeru8tz/garuda/continuation-wej8x175/dark-pixels.json": "7b9589ff3ec34cdeb440d239077d395bb06baa4186f70fe984dac377a7c67cad",
+        "matrix-maeru8tz/garuda/continuation-wej8x175/light-pixels.json": "87ff6c8a2539acbf1f99d3cb8d2509febeed811fe07869b5b5a05cd37b466d7b",
+        "matrix-maeru8tz/garuda/continuation-wej8x175/post-reboot-qr7ikmng/uninstalled.json": "678eafcb39b7ddd7e4a962b3d6bab49301b475f82aa4ee50c644b3db197c15c5"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.5",
+      "qt": "6.11.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 30.0,
+        "light": 255.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T14:16:34.851795+00:00",
+      "local_evidence_sha256": {
+        "matrix-orwln0nz/kubuntu/continuation-wtwaeynm/post-reboot-u_ilcfwk/result.json": "c77aad17d038143251d5926de5c337d3c0d9426cac875328e52cabe3751542e8",
+        "matrix-orwln0nz/kubuntu/continuation-wtwaeynm/dark.json": "0f044046e62bdcd8d59f84b19e50446f31eef84430b41f4fae1901f030fddff5",
+        "matrix-orwln0nz/kubuntu/continuation-wtwaeynm/dark-pixels.json": "c9108dd514dc1421027728d4ecffe85576c9786c1cc519b2fbac07aff03d359d",
+        "matrix-orwln0nz/kubuntu/continuation-wtwaeynm/light-pixels.json": "f040dedecfcf29dda1bffc111b1807abc4dac08d1455bf2d25773b933e9f54df",
+        "matrix-orwln0nz/kubuntu/continuation-wtwaeynm/post-reboot-u_ilcfwk/uninstalled.json": "edccd0a5d302c1305169287c9c428197381c7b8130139f26edd1a386d2928356"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.4",
+      "qt": "6.11.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:37:24.076816+00:00",
+      "local_evidence_sha256": {
+        "matrix-pkx_q5f0/fedora/result.json": "cb3c10a45a2aa589480dfa4f207cfa60562514a75f4d69620e45826306b4f267",
+        "matrix-pkx_q5f0/fedora/dark.json": "35274ca7d1261f9d4d28e74b3f8be4b275cc472b8b0e03f370fe41be2a33aee9",
+        "matrix-pkx_q5f0/fedora/dark-pixels.json": "62324dae2dd4ed826dd5352383201d1be160feba08b3c0b422195eb5521d2ceb",
+        "matrix-pkx_q5f0/fedora/light-pixels.json": "3188d59563685c2a12b0a671158f668fb10f4d86a509f914e4f1987134743369",
+        "matrix-pkx_q5f0/fedora/uninstalled.json": "d77e18fdf8095c6d94f652fcaf8c4e0536031cb67a05c8babd106c1d39cb3ecc"
+      }
+    },
+    {
+      "distribution": "arch",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:32:30.198397+00:00",
+      "local_evidence_sha256": {
+        "matrix-q27ujq0t/arch/display-active-ck5w8exm/post-reboot-rs511wty/result.json": "af99411caf7050d711a9255165b45ecab14447855b8a32df4861f8e086ae2708",
+        "matrix-q27ujq0t/arch/display-active-ck5w8exm/dark.json": "0a97e8ac0c67e50b25d5a2b5c46fda405ee3395d138a22f943b710c3529f6217",
+        "matrix-q27ujq0t/arch/display-active-ck5w8exm/dark-pixels.json": "66b372cbeb877a9afb17b8e3596077f91981bd42c320d0fdcf58e0ef29739075",
+        "matrix-q27ujq0t/arch/display-active-ck5w8exm/light-pixels.json": "38ed811c827f8c4443b298c7d455326d6ff2b0cb5f515b47ae668ce2d46f34e2",
+        "matrix-q27ujq0t/arch/display-active-ck5w8exm/post-reboot-rs511wty/uninstalled.json": "64ef4754a86756a6440e32ed46149e4532d557848ae65f202e5c5f8126844969"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.6.4",
+      "qt": "6.10.2",
+      "tahoe_base": "f1356a965def87b1c8a438087294b3604c2ec256",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T11:46:39.743273+00:00",
+      "local_evidence_sha256": {
+        "matrix-tvuy91tn/fedora/result.json": "2cdd4e6dfd90041c7169e3c2f90b718a8460f8a8275db1a495a120a30b2340e3",
+        "matrix-tvuy91tn/fedora/dark.json": "f11ed74669c442541ede8645041ba3336ba06bdc8f709d20b95dd20b68988c4f",
+        "matrix-tvuy91tn/fedora/dark-pixels.json": "469ce8f7839d9f6b8aad52892e280597054a8d580b8f65898a74287edcabd72d",
+        "matrix-tvuy91tn/fedora/light-pixels.json": "9ea2a8632ea5bec74ea01d7dff5b608fc2a315d94e9a2caf5a4b6889a437217e",
+        "matrix-tvuy91tn/fedora/uninstalled.json": "266317f629a0ba284f566cd96c98160b61d7557d07fd9cc7a8ad89a01b4950ac"
+      }
+    },
+    {
+      "distribution": "cachyos",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.8.3",
+      "qt": "6.12.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T12:28:53.007961+00:00",
+      "local_evidence_sha256": {
+        "matrix-wjhb5p80/cachyos/native-tiling-58ii905a/post-reboot-6dtb81xz/result.json": "97370c7580dfce3a8235874f11d7a2dec8999e73bad0c2edff2bcc04d0a86d27",
+        "matrix-wjhb5p80/cachyos/native-tiling-58ii905a/dark.json": "9c1f9f98c99c2a47f9c36777134503470075bd0d08aff3d654be654bfedef5d2",
+        "matrix-wjhb5p80/cachyos/native-tiling-58ii905a/dark-pixels.json": "b3711b0324b46bc69e924cf6cb0060cf9af9c0c7766f346dd52951ff91d7669a",
+        "matrix-wjhb5p80/cachyos/native-tiling-58ii905a/light-pixels.json": "4499da392e219dd2c995f4a5015a79101263bcc32184285a5427305b325d5373",
+        "matrix-wjhb5p80/cachyos/native-tiling-58ii905a/post-reboot-6dtb81xz/uninstalled.json": "163c9d7d101aeb8c0cbd8f847cde021a10e0a9f0de11ee76afc3a3b787c75582"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.6.7",
+      "qt": "6.10.2",
+      "tahoe_base": "f1356a965def87b1c8a438087294b3604c2ec256",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T11:27:46.055132+00:00",
+      "local_evidence_sha256": {
+        "matrix-y6fk72ps/kubuntu/continuation-kfonxg12/result.json": "79a65cf2e3779eeec5d4c4fd67870d1892d9a67075f4f570eb0b03203ee71dcf",
+        "matrix-y6fk72ps/kubuntu/continuation-kfonxg12/dark.json": "fe3f3b33f9f7206fbcc8f8241b3267f05c1d19847d6b6c325729ff0b0431d81c",
+        "matrix-y6fk72ps/kubuntu/continuation-kfonxg12/dark-pixels.json": "f21a7a9f5479f65f9640e8d4458869123673573cf9e3172243d237fdb098d015",
+        "matrix-y6fk72ps/kubuntu/continuation-kfonxg12/light-pixels.json": "745c097bb892c48e0bbf31493c8fdd1f262b6fe6692ffde6544913ad2ce1bed8",
+        "matrix-y6fk72ps/kubuntu/continuation-kfonxg12/uninstalled.json": "6e22651608e1959b0a8f0349c41d69e54d0cb6017e42ba520849c7b88c00ad55"
+      }
+    },
+    {
+      "distribution": "arch",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.6.5",
+      "qt": "6.11.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T13:43:33.054335+00:00",
+      "local_evidence_sha256": {
+        "native-arch66-uxq8g71l/desktop-recovery-jq5ikzi8/result.json": "a1547e31cf64f97b1b548e49f058f46995859aa9945c69b6b0c44be6473e3050",
+        "native-arch66-uxq8g71l/desktop-recovery-jq5ikzi8/dark.json": "5ac54d1fa35d430c136a0c15337171c26a60cd583c3d3caa740b7c4202427bf6",
+        "native-arch66-uxq8g71l/desktop-recovery-jq5ikzi8/dark-pixels.json": "410c48fb4b492f9f4785424b95b8235149a72990e038d8d3a10799af45ecdf67",
+        "native-arch66-uxq8g71l/desktop-recovery-jq5ikzi8/light-pixels.json": "5f7682821478429dc8faa21519de06eade3c8283261b3f58aa48c05962a549d6",
+        "native-arch66-uxq8g71l/desktop-recovery-jq5ikzi8/uninstalled.json": "3f4293d9beac25a7513fbd10f523e62d4bc87277a3c5c0d183d1eb409b9f646c"
+      }
+    },
+    {
+      "distribution": "arch",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.5",
+      "qt": "6.11.2",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 42.0,
+        "light": 245.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T13:43:04.328829+00:00",
+      "local_evidence_sha256": {
+        "native-arch67-ktc6_5ac/desktop-recovery-541v5unw/result.json": "dc3995e41abd57f6902595cf2c2748fc3b12d6bb3d741ab18adf10b59dbe5834",
+        "native-arch67-ktc6_5ac/desktop-recovery-541v5unw/dark.json": "6e5810aad6438a01aacbab98431c778bc120c73f41d84b4c1f27b29377de3b55",
+        "native-arch67-ktc6_5ac/desktop-recovery-541v5unw/dark-pixels.json": "19cde44ba5ca9957a0d26b621da5c8909b67f85b56ce74e7f2dd346b3578e35e",
+        "native-arch67-ktc6_5ac/desktop-recovery-541v5unw/light-pixels.json": "770d12444a8363d7712289139d6d97e785e9e871f71c12778a10710b6e364e1b",
+        "native-arch67-ktc6_5ac/desktop-recovery-541v5unw/uninstalled.json": "6aac7d3b1fc1c0c5b4b23e8b2dc8747231c2b4fc56ee66b87260b1a8cc6d9b3e"
+      }
+    },
+    {
+      "distribution": "neon",
+      "edition": "Tahoe",
+      "plasma": "plasmashell 6.7.5",
+      "qt": "6.11.1",
+      "tahoe_base": "a826a41f5a40693711f9db113b08ac8ae0830f5b",
+      "mode_sample_median_0_to_255": {
+        "dark": 36.0,
+        "light": 250.0
+      },
+      "matched_effect_in_running_compositor": true,
+      "completed_utc": "2026-11-26T15:01:10.343140+00:00",
+      "local_evidence_sha256": {
+        "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/result.json": "90838282c2ccfd0e2c05b227d28c0a1e52db7649e29856d46db3dc0f6d3bd4a1",
+        "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/dark.json": "b7a6515d5acf0cbe8646babd06326fcbcd6794e47a977323ff046b3fe9d0f030",
+        "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/dark-pixels.json": "4abb65f703b260c33b7ce927729a1f51273826b23abc64c55b4fcbbf7bc28d36",
+        "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/light-pixels.json": "a9a8ece3a63d9c55839912a194376f32142d3406d2de4df95b8df21337574e75",
+        "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/uninstalled.json": "f208323eb1bd2d5cc2cfa29c5f8dcdeaa2f852b5445048ed8b327e201d879715"
+      }
+    }
+  ],
+  "native_component_tests": [
+    {
+      "distribution": "arch",
+      "evidence_directory": "components-arch-kh3s57qg",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "de2bb712aab0a2cdb0b2ad0dad7fbaaf5f92e72cd40894eb6f24af295156e9e5",
+        "test_globalmenu_model.xml": "bf30c53dd9131dd927c845b307be66400a752b015723f0b14f264189e162d08b"
+      }
+    },
+    {
+      "distribution": "cachyos",
+      "evidence_directory": "components-cachyos-jkp0hc3h",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "0856e60889f3e6be9fe03b9be5cc9367258c7969b65a3e552ccc7dc1be470fd7",
+        "test_globalmenu_model.xml": "0f33b60c945ccd7c48ca7d29dbf45f119959f1d4cc73d0af51bb5368a057f81c"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "evidence_directory": "components-fedora-skeewwu3",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "1097b50e7f4bb3ad75a037370428d5bd6525c90f797ba9866742dbd8543d8844",
+        "test_globalmenu_model.xml": "f73ffe84e549071c84f6087362442378055e7e47e58b00c2c36ade994c0b31ab"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "evidence_directory": "components-kubuntu-659xrq56",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "95275c2fb452f3438ef9faef1d80f5bddcc3cf803226cacb73ec6026077c061e"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "evidence_directory": "components-kubuntu-kzoznamj",
+      "passing_junit_sha256": {
+        "test_globalmenu_model.xml": "9d2c61dd24394093eaff33971a275d45b41ab18f9555f3a04d43ea0fc2ed1e64"
+      }
+    },
+    {
+      "distribution": "neon",
+      "evidence_directory": "components-neon67-nt81pva4",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "3e2f3861215f4ab0bf2d35650bea52b4aa530be47aebbab8b00b37926596cd1b",
+        "test_globalmenu_model.xml": "7c6d0ec33db79eb71e989793a05581fcb7425ec69f330ccae4f9887c40c3af56"
+      }
+    },
+    {
+      "distribution": "opensuse",
+      "evidence_directory": "components-opensuse-zhzo8je_",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "040489491841e067741f8ab0ba825776da2a311ab9b99570d36ce6a6a472fc3b",
+        "test_globalmenu_model.xml": "c6f97b10b921020916b2c04be44f9fd4eb4e0440feeb60c553001e09d7c0de52"
+      }
+    },
+    {
+      "distribution": "arch",
+      "evidence_directory": "native-arch66-components-d9f7uhor",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "6f7aabc1d5e2af83dc34c6087babadd4bbc7930469e736c5693b2590e3bd775f",
+        "test_globalmenu_model.xml": "9a2fe51785081566509ca55b6063fb4b8af476bfa8e2b04264435ece2b9d18bb"
+      }
+    },
+    {
+      "distribution": "arch",
+      "evidence_directory": "native-arch67-components-u7z46hgc",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "8a92e446230606dbcbad4843c6482f66eee04455155976cfaab48f8ce3af9192",
+        "test_globalmenu_model.xml": "e4cc1ea01c8167d57b9b704bf773723148598aca45c917415dd0992d936512eb"
+      }
+    },
+    {
+      "distribution": "artix",
+      "evidence_directory": "native-artix68-yzj2vgsb",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "7282adb35d7e5f24e6dea8eebedb46514da560cd5154f522aafb7c731b8a5dc3",
+        "test_globalmenu_model.xml": "e2318be2c3090e522a89dcb56cdd5968b04fd4638646b58d9531a0c543de5d79"
+      }
+    },
+    {
+      "distribution": "cachyos",
+      "evidence_directory": "native-cachyos66-qt-5wucmscp",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "0a4c0009472a809181faed0ea540793b8089fc69ff01e78601d2040449ec586f",
+        "test_globalmenu_model.xml": "e1e50c5afd175ff0d47dc7eb790ddd835a953364f013dfb34e28b19a79a9d34c"
+      }
+    },
+    {
+      "distribution": "debian",
+      "evidence_directory": "native-debian66-y8ioarlr",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "1abf513f6f23136275736fcc5d05221f4204755c67b96d5756f5144549b17471",
+        "test_globalmenu_model.xml": "a2de0e50e1e1618ed14a3dd33dddb4ff0745fde89d970be248936391fcff3bff"
+      }
+    },
+    {
+      "distribution": "debian",
+      "evidence_directory": "native-debian67-ds8e_j_h",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "7430957c5a5f6090ca6f244144143c47e39e1c43c87113892e53354d09f8cbf3",
+        "test_globalmenu_model.xml": "05677d9fed058045ffed1d77544b742763e76f1805afd3cb5791775b7eb1b4f9"
+      }
+    },
+    {
+      "distribution": "debian",
+      "evidence_directory": "native-debian67-oky7l0gt",
+      "passing_junit_sha256": {
+        "test_globalmenu_model.xml": "9b1a208c64d4ac26da8e6d27fc082c2000f17060dea3991c0d5c5c10fe232e56"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "evidence_directory": "native-fedora66-g5r494la",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "4abd1864a3c98515cc056120fd0fa744e1171c9cfe6d5043e7e423391ff18aee",
+        "test_globalmenu_model.xml": "2bf606f8ec923ec80ce89aa85ef5c7a93f8a716d014ff80b9973f0e57455dcc4"
+      }
+    },
+    {
+      "distribution": "fedora",
+      "evidence_directory": "native-fedora67-03ru7nxu",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "fc6dfcbff75ca4e46f63495aa96fc3f366dae10a8bcaac076bc449b7be72bd7e",
+        "test_globalmenu_model.xml": "7aa5087567cb17c33e9acde06a6ac1d6c52c70e9187f01f7f6c4846c451e548d"
+      }
+    },
+    {
+      "distribution": "garuda",
+      "evidence_directory": "native-garuda-component-opd3loru",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "28954cccbee938444e3d9a032067adfd63863c6b39a5015ce79c886c7ff8e61a",
+        "test_globalmenu_model.xml": "c29bc2db285c100e06756e645f9679aef6e71e00e25b2b7ded1917dc86fa1a97"
+      }
+    },
+    {
+      "distribution": "garuda",
+      "evidence_directory": "native-garuda66-w338sat0",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "3e3d1142bcca30070b8cd5fa15581bebe5324d429f74e9ac9b23a35de4a4666e",
+        "test_globalmenu_model.xml": "b9e1af16513160c4a4627856124753394c6b94c921e98139b4dff1552cc5e7b1"
+      }
+    },
+    {
+      "distribution": "garuda",
+      "evidence_directory": "native-garuda67-ufq65115",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "8546d0f0fbcb9fa7b3da1130eef76cbff70ce77a838547de1ed3b79b730ea322",
+        "test_globalmenu_model.xml": "058b734148958ad5a8ff24a20b57ae3c3c3598a2d273909813f3b08ecc5a4fab"
+      }
+    },
+    {
+      "distribution": "kubuntu",
+      "evidence_directory": "native-kubuntu-component-iu1ik83s",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "62124fb8ed9423caee4a6a49de806db4ebf395001abd51b96046530b0302b469",
+        "test_globalmenu_model.xml": "5cdd7ba368fa839937a52b3f8f668def8274ebb21e2d4cc226fcf5e368552191"
+      }
+    },
+    {
+      "distribution": "manjaro",
+      "evidence_directory": "native-manjaro66-final-1oa5uxln",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "1a81aecdda66324b6690efc0a66a3302a36a8681c30f7fc1d63fd68c717be077",
+        "test_globalmenu_model.xml": "6b455ffecce5eb0af0ce21e67c13fa2c4ad06d328ca9b8b074cb7629035a7526"
+      }
+    },
+    {
+      "distribution": "manjaro",
+      "evidence_directory": "native-manjaro67-p4clhki_",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "22d0f1d8fd5ef7708ebdd6c1d5375266b9b43618f85e6e8f8191b48554462fc0",
+        "test_globalmenu_model.xml": "2b84ffe8cf2bfae69e4c61c20b315b69cd60401aaa5e5a99a93364194c64e3dd"
+      }
+    },
+    {
+      "distribution": "manjaro",
+      "evidence_directory": "native-manjaro68-8fsig_sh",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "ffdfc8e8ee86ef93c19f3f1a4a7469cb76164e95f4f021c9ac8997927cbc29c8",
+        "test_globalmenu_model.xml": "e36e72879801dd7121b6ac5a743e8200c21275c3620bacf519fba440a16811b9"
+      }
+    },
+    {
+      "distribution": "nobara",
+      "evidence_directory": "native-nobara-component-gldtf6lk",
+      "passing_junit_sha256": {
+        "test_desktop_controls.xml": "b13124d0ec224c1d6085d8e4eeb51898276209f319aed81cebe198a0ba3ee40b",
+        "test_globalmenu_model.xml": "236ebf71bc900bd2dcdbda58c18d489b2ea70b5a295b36f11a884a0d8d1745f1"
+      }
+    }
+  ],
+  "native_sdk_builds": [
+    {
+      "distribution": "artix",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/liquidglass_x11.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-artixhistorical-sdk-93uv8ecr/complete-sdk-66-4r8pw3ce/glass.log",
+      "sha256": "603cd929060d26bee9f226976f8992ec5e63b7ae451980c239b17c776be2767d",
+      "kwin_version": "6.6.5",
+      "environment_evidence": {
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-66-4r8pw3ce/sdk.log": "08ddc446a0ac68dea2b805e20a81d8716923714a7b1008a74480bb1827469010",
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-66-4r8pw3ce/source.json": "5c861f23b3ddc0cc73a4f498492fbfab1f73f8b60ada1dae8a1028b7dc33828f"
+      }
+    },
+    {
+      "distribution": "artix",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/liquidglass_x11.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/glass.log",
+      "sha256": "1c75cbcbb8dada5909aa841007e4e87917655fc49fbb856a8274eebd50d1cd69",
+      "kwin_version": "6.7.5",
+      "environment_evidence": {
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/sdk.log": "ef127a10e748e4d2db42d67bce916d2d3855bdf01a15710eb8bb6177a74c13bf",
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/source.json": "67b9a9954454e69416896019b8e7747f7160f3d241fabc11181d8e3cca2318b2"
+      }
+    },
+    {
+      "distribution": "artix",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so",
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so"
+      ],
+      "evidence": "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/quickbar.log",
+      "sha256": "169fda35a86554b5a21bf9e1fc446c80df779417f5f0dbdc360fe4b97cea97dd",
+      "kwin_version": "6.7.5",
+      "environment_evidence": {
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/sdk.log": "ef127a10e748e4d2db42d67bce916d2d3855bdf01a15710eb8bb6177a74c13bf",
+        "native-artixhistorical-sdk-93uv8ecr/complete-sdk-67-amehujt6/source.json": "67b9a9954454e69416896019b8e7747f7160f3d241fabc11181d8e3cca2318b2"
+      }
+    },
+    {
+      "distribution": "artix",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-artixhistorical-sdk-93uv8ecr/quickbar-sdk-66-y8mljq8p/quickbar.log",
+      "sha256": "920e345d4044a3e2216583d22ff00e2f0509d2f06aa3631b6fa00e3b9fe93249",
+      "kwin_version": "6.6.5",
+      "environment_evidence": {
+        "native-artixhistorical-sdk-93uv8ecr/quickbar-sdk-66-y8mljq8p/sdk.log": "08ddc446a0ac68dea2b805e20a81d8716923714a7b1008a74480bb1827469010",
+        "native-artixhistorical-sdk-93uv8ecr/quickbar-sdk-66-y8mljq8p/source.json": "67b9a9954454e69416896019b8e7747f7160f3d241fabc11181d8e3cca2318b2"
+      }
+    },
+    {
+      "distribution": "cachyos",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-cachyos66b-pf8f0qk_/glass.log",
+      "sha256": "56129d9faa9653fd9a26e4bcc81b31c8e9e86fbb07e66da3a00605bc707009cb",
+      "kwin_version": "6.6.4"
+    },
+    {
+      "distribution": "cachyos",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-cachyos66b-pf8f0qk_/quickbar.log",
+      "sha256": "a5e9a4ee537cff83172dd73a52cbf11736ce1454e06bfa3472fdcbea93e88c09",
+      "kwin_version": "6.6.4"
+    },
+    {
+      "distribution": "endeavouros",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/liquidglass_x11.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-endeavour66-repaired-gd9sa0sl/glass.log",
+      "sha256": "b9dbe683ce8def2936bd677c4bf7b584dbfd0e689266011d8184ebf0b187f09c",
+      "kwin_version": "6.6.4"
+    },
+    {
+      "distribution": "endeavouros",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-endeavour66-repaired-gd9sa0sl/quickbar.log",
+      "sha256": "7390fd74f15cda843f3683d7da0b609d32a7f37edd3df0c238fe7c27d385fbcc",
+      "kwin_version": "6.6.4"
+    },
+    {
+      "distribution": "garuda",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-garuda66-w338sat0/glass.log",
+      "sha256": "ebf6d5cf7a06bef584044c3104e9d49f906a3adc2838c40a417b6560a3823aaf",
+      "kwin_version": "6.6.2"
+    },
+    {
+      "distribution": "garuda",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-garuda66-w338sat0/quickbar.log",
+      "sha256": "66b15a4208e5e7b5b06d9d1d4534e005d3461c91d0e6f951d1dddec578c2976a",
+      "kwin_version": "6.6.2"
+    },
+    {
+      "distribution": "garuda",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-garuda67-ufq65115/quickbar.log",
+      "sha256": "7e55cf6f5ae15c2810fd36eff50ebf4854cce13bea071f1d3163c90609f54609",
+      "kwin_version": "6.7.4"
+    },
+    {
+      "distribution": "garuda",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-garuda67-vulkan-b621m9no/glass.log",
+      "sha256": "4b31af724025691f4e0df57a8b666e20343c602347dd9e4fc4f5e65f17d4bcfe",
+      "kwin_version": "6.7.4"
+    },
+    {
+      "distribution": "manjaro",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-manjaro66-compile-b473aiyr/glass.log",
+      "sha256": "ab8bea74366422ed7c82ec999165d91697f4bc0c8d88cff2d54ce8547fe8744b",
+      "kwin_version": "6.6.5"
+    },
+    {
+      "distribution": "manjaro",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-manjaro66-compile-b473aiyr/quickbar.log",
+      "sha256": "34bdc87f510c5749836622d84ba7444be78be9a3a24d8506bb2576a766456a6f",
+      "kwin_version": "6.6.5"
+    },
+    {
+      "distribution": "manjaro",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-manjaro67-p4clhki_/quickbar.log",
+      "sha256": "dabf5c3829dde3bb2f385e49c18fc05055d53bbdb1040e7c9cd404d3347ce9c6",
+      "kwin_version": "6.7.4"
+    },
+    {
+      "distribution": "manjaro",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-manjaro67-vulkan-myl1hkti/glass.log",
+      "sha256": "c73a8ecbfa9c7e8b1a4d93bfbacd4d9f95fc546a126495c8d9fd49c2dd2d6f5e",
+      "kwin_version": "6.7.4"
+    },
+    {
+      "distribution": "nobara",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-nobara66-complete-sdk-89d4zsc8/glass.log",
+      "sha256": "e24dd8e9f619ed29b65222c8fb3e26fdd6ca05dc76f9747ab2276e7e642427ba",
+      "kwin_version": "6.6.4",
+      "environment_evidence": {
+        "native-nobara66-complete-sdk-89d4zsc8/sdk.log": "8b4364077e6f8a420267cad1f96ec3a1d835c0c2a392d23a8af2aa6271a71bde"
+      }
+    },
+    {
+      "distribution": "nobara",
+      "component": "glass",
+      "linked_targets": [
+        "src/liquidglass.so",
+        "src/kcm/kwin_liquidglass_config.so"
+      ],
+      "evidence": "native-nobara67-complete-sdk-xg0hmokg/glass.log",
+      "sha256": "554ba7d9c0be560b43ee2ddf032358caffd126f8f0b8c54a6b44afda96960f09",
+      "kwin_version": "6.7.5",
+      "environment_evidence": {
+        "native-nobara67-complete-sdk-xg0hmokg/sdk.log": "127151a415e254cb159ada331db8208ad426b634bed1e6a21a5fa02563a87822"
+      }
+    },
+    {
+      "distribution": "nobara",
+      "component": "quickbar",
+      "linked_targets": [
+        "bin/plasma/applets/org.kde.mac.tahoe.liquid.globalmenu.so",
+        "bin/org/kde/mac/tahoe/launcher/libmactahoelauncher.so"
+      ],
+      "evidence": "native-nobara67-complete-sdk-xg0hmokg/quickbar.log",
+      "sha256": "560cd5cb812b465ebd44cbab056feca88fc00055addf7c1347f53476703489e9",
+      "kwin_version": "6.7.5",
+      "environment_evidence": {
+        "native-nobara67-complete-sdk-xg0hmokg/sdk.log": "127151a415e254cb159ada331db8208ad426b634bed1e6a21a5fa02563a87822"
+      }
+    }
+  ],
+  "nixos": [
+    {
+      "nixpkgs": "ad8b1fa9990fe72bb3a57f0716dd71cf3e7ab8f8",
+      "logs": {
+        "nix-6.7-7ranypan/installed-session.log": "6fc056abaa871208ed1cf1d610aa81f32846f0c97e30561b71ad6e10d21037c9",
+        "nix-6.7-7ranypan/build.log": "26d0141af8e535378dc9e852ce4597b0c26dfb60d2c21b816a8f401458b27892"
+      }
+    },
+    {
+      "nixpkgs": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+      "logs": {
+        "nix-6.8-0q70hiq6/installed-session.log": "fea8ef53e97485c4a27cbacdde9aff45e9afd6fa25cc559ef1c74229a231065f",
+        "nix-6.8-0q70hiq6/build.log": "9f84ee6f62c3a1e1c5794352df27a27c423a9c5d9e33f25efb826621923963ed"
+      }
+    },
+    {
+      "nixpkgs": "NixOS 26.05",
+      "logs": {
+        "nix-native-upnj2sj3/installed-session.log": "a8030acdb6b5d5617db9f1413b87d1d8070e603f345598d32005e2bb65a3a06a",
+        "nix-native-upnj2sj3/generation-rollback.log": "756f8db3cd75d0ace5d9e07a469f6c76955cb401311c74304689e1ac9fe3f6b6"
+      }
+    },
+    {
+      "home_manager": "6480d7d8533b88c78cc6dcda395ab89cd546e450",
+      "logs": {
+        "nix-home-manager-6.6-fcid6nhg/activation.log": "695752dd426f96eb6ea9b7d220731536f09be874467af51116a3c52ba979a2a5"
+      }
+    }
+  ],
+  "native_effect_loads": [
+    {
+      "distribution": "cachyos",
+      "log": "native-load-cachyos66-qu6v7uol/load-built-plugin.log",
+      "sha256": "29e52af066c383a48d1bb4cb4ad9b8e2557416f753870fda982b0b089faf1caf",
+      "kwin_version": "6.6.4"
+    },
+    {
+      "distribution": "garuda",
+      "log": "native-load-garuda66-wfk_usbl/load-built-plugin.log",
+      "sha256": "a9dc611261f740ce8050852c8ba46497519b2edec4262c78a67df01f09fd28a9",
+      "kwin_version": "6.6.2"
+    },
+    {
+      "distribution": "garuda",
+      "log": "native-load-garuda67-djum5vfc/load-built-plugin.log",
+      "sha256": "8593f48d21164d97fc4893f83ea27ebf29f770d1977f9b0d660d9d5415758906",
+      "kwin_version": "6.7.4"
+    },
+    {
+      "distribution": "manjaro",
+      "log": "native-load-manjaro66-059qspcz/load-built-plugin.log",
+      "sha256": "f2f184160aeed219cf38beca9de68e1aedf848445e260c6f0f126267b7ffde17",
+      "kwin_version": "6.6.5"
+    },
+    {
+      "distribution": "manjaro",
+      "log": "native-load-manjaro67-3owx_vro/load-built-plugin.log",
+      "sha256": "6b72173e412a1bc095bfb936d266175021c12f53cf4927b82100d4ff3b7d767e",
+      "kwin_version": "6.7.4"
+    }
+  ],
+  "installer_safety": {
+    "candidate": "cb89f3f92bb05bef3f569f2cc573021f3578b5f1",
+    "neon_missing_shell_library": {
+      "neon67-zhgi2bgi/loader-regression-erebyekh/original.log": "56fcf647a49e3169ef0f65a55b83376555192a433cb7bf98adbce8c39a66e37e",
+      "neon67-zhgi2bgi/loader-regression-erebyekh/fixed.log": "16ca131f01f01b8315fa00d020706cad3d162facaa5fd68fb46d2d41b6e7b3cc",
+      "neon67-zhgi2bgi/loader-regression-erebyekh/result.json": "5c2712e54431c917a21d6ceea39e18acbe68bf85ca78af97e4d61171b21bdbe6",
+      "preflight-loader-tests.log": "d6f6b04ecdbf3654ef561da792e47070b0df98e2f383f3f52649298864b3b950"
+    },
+    "candidate_files": {
+      "tahoe-installer-safety-final.bundle": "b0e34c049e2c3389b22270594db8b7c75ef09915eedd0a5adad4f0fb9d628dea",
+      "tahoe-installer-safety-final.patch": "6da203fafaa1a4c8da9608b5346df8db525a34f60adb7c3f26840490805f9b57"
+    },
+    "neon_6_7_5_repair": {
+      "neon67-zhgi2bgi/matched-plasma-library-n63723gz/transaction.log": "71b1fb5a2bf805a6bf9a262db12260c249494475cac31077a3d936fce656f4ac",
+      "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/dark-pixels.json": "4abb65f703b260c33b7ce927729a1f51273826b23abc64c55b4fcbbf7bc28d36",
+      "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/light-pixels.json": "a9a8ece3a63d9c55839912a194376f32142d3406d2de4df95b8df21337574e75",
+      "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/reboot-pixels.json": "cff89130d9db8c354654ff2e849df5cba6bd43b162f47f307b9b27dc87d11d4a",
+      "neon67-zhgi2bgi/layout-opt-in-xoic8ryz/result.json": "90838282c2ccfd0e2c05b227d28c0a1e52db7649e29856d46db3dc0f6d3bd4a1"
+    },
+    "final_neon_install_reinstall": {
+      "final-neon68-o5fricqt/boot.log": "f66f34a892b66a8952e272cd5afd9afa39cd6d7878818577b8e2cbb271573249",
+      "final-neon68-o5fricqt/install-dark.log": "1b5c76ee6bb8ac4da1c83bb7f4e1a8247ccf6ec7a3ed02e4fad3ade353339109",
+      "final-neon68-o5fricqt/install.log": "50fd83bd3bdc9c69cb909a7a9c5aaff892c1b5bca62b8ee7575623e6586aeecf",
+      "final-neon68-o5fricqt/preflight.log": "7595828827070971aa0ad44d1bb5a9ad18d36969813684069579a0b6de51a297",
+      "final-neon68-o5fricqt/qa-dependency.log": "e57ecdad9b9cdac31e345bfd296485d04937e6ae4b240b22b1cb584941892329",
+      "final-neon68-o5fricqt/reinstall-dark.log": "387af1acbe6fe60af8447a71c528ee4987223d0d50d403e3c04939e87ab24d03",
+      "final-neon68-o5fricqt/reinstall.log": "806fb324953319b64359c6d0607d3c840c43c586c818c01020ced40edf116568",
+      "final-neon68-o5fricqt/source.log": "4385f0f8f9081230a1f9f79f8a5b2ae2dea3f6ebf2e828dca2119f1938f07356",
+      "final-neon68-o5fricqt/uninstall.log": "a6d5503d2a76ec172cd02ca19e909c13a544e84412fecf0f6a8cdde495ee7372",
+      "final-neon68-o5fricqt/result.json": "5ca55003cbdec3783dc397db8ac769a861591570dda716ac50a501a8eda557c9"
+    }
+  }
+}
