@@ -155,8 +155,7 @@ Dale a los iconos del Dock el color de tu escritorio.
 Accede a los menús de la aplicación activa desde la barra superior.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Menú de archivos con un documento abierto en Kate" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Menú de archivos con un documento abierto en Kate" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -176,8 +175,7 @@ El texto se ajusta al fondo para que las etiquetas sigan siendo legibles.
 Busca aplicaciones o explóralas por categoría.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Por defecto Golden Gate preset 2 en modo de luz, con búsqueda separada y papel pintado Golden Gate" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Por defecto Golden Gate 2 preset en modo oscuro, con búsqueda separada y papel pintado Golden Gate" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -187,8 +185,7 @@ Busca aplicaciones o explóralas por categoría.
 Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centro de control en modo de luz" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centro de control en modo oscuro" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Centro de control · Modos claro y oscuro" width="360">
 </p>
 
 <br>
@@ -198,10 +195,7 @@ Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 Consulta las notificaciones recientes agrupadas por aplicación.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Notificaciones de Golden Gate en modo de luz" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Notificaciones de Golden Gate en modo de luz" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Notificaciones de Golden Gate en modo oscuro" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Notificaciones de Golden Gate en modo oscuro" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Notificaciones · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -211,8 +205,7 @@ Consulta las notificaciones recientes agrupadas por aplicación.
 Explora tus archivos en una ventana al estilo Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Escritorio de luz Golden Gate con archivos enfocados" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate escritorio oscuro con archivos enfocados" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Modos claro y oscuro" width="830"></a>
 </p>
 
 <br>
@@ -222,8 +215,7 @@ Explora tus archivos en una ventana al estilo Finder.
 Abre el reloj para consultar el calendario del mes.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendario · Luz" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendario · Oscuro" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Calendario · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -233,8 +225,7 @@ Abre el reloj para consultar el calendario del mes.
 Conecta tus dispositivos emparejados y consulta su batería.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Menú Bluetooth ligero con auriculares de estudio conectados en 82% y teclado inalámbrico desconectado" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Menú Bluetooth oscuro con auriculares de estudio conectados en 82% y teclado inalámbrico desconectado" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Modos claro y oscuro" width="620">
 </p>
 
 ### Wi-Fi
@@ -242,9 +233,8 @@ Conecta tus dispositivos emparejados y consulta su batería.
 Consulta las redes disponibles y el estado de la conexión.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Menú Wi-Fi ligero conectado a Harbor Studio, con Garden Guest y Workshop disponibles" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Menú Wi-Fi oscuro conectado a Harbor Studio, con Garden Guest y Workshop disponibles" width="48%">
-  <br><sub>Conectado con Harbor Studio. El modo de luz (izquierda) y el modo oscuro (derecha).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Modos claro y oscuro" width="328">
+  <br><sub>Conectado con Harbor Studio.</sub>
 </p>
 
 <br>
@@ -254,9 +244,8 @@ Consulta las redes disponibles y el estado de la conexión.
 Consulta el nivel de batería y el estado de carga.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Menú de baterías ligeras sin batería interna" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Menú de baterías oscuras sin batería interna" width="48%">
-  <br><sub>No se detecta ninguna batería interna. El modo de luz (izquierda) y el modo oscuro (derecha).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batería · Modos claro y oscuro" width="620">
+  <br><sub>No se detecta ninguna batería interna.</sub>
 </p>
 
 <br>
@@ -266,8 +255,7 @@ Consulta el nivel de batería y el estado de carga.
 Reutiliza texto e imágenes que hayas copiado.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Historia de la cinta en el lanzador de puertas doradas en modo luz" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Historia de la cinta en el lanzador de Golden Gate en modo oscuro" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Historial del portapapeles · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -277,8 +265,7 @@ Reutiliza texto e imágenes que hayas copiado.
 Consulta los detalles del hardware, el software y el tema.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Ventana de información del sistema de luz con controles a la izquierda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Ventana de información del sistema oscuro con controles a la derecha" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Información del sistema · Modos claro y oscuro" width="301">
 </p>
 
 <br>
@@ -288,8 +275,7 @@ Consulta los detalles del hardware, el software y el tema.
 Los menús y las ventanas emergentes siguen el tema claro u oscuro.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Menú de contexto de escritorio en modo luz" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Menú de contexto del escritorio en modo oscuro" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Tema Plasma · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -350,9 +336,9 @@ Para liberar espacio en disco conservando tu copia de Git y el trabajo local:
 | 🇩🇪 Alemán | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Francés | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Ruso | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 Japonés | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 Coreano | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Ruso | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 Árabe | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 Hindi | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Neerlandés | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |

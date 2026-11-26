@@ -158,8 +158,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 上部のバーから使用中のアプリのメニューを開けます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kateで開いた文書のファイルメニュー" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Kateで開いた文書のファイルメニュー" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 アプリを検索したり、カテゴリ別に探したりできます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="フォルトは,光モードでゴールデンゲート2を設定します." width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="フォルトはゴールデンゲート 2をダークモードで設定します" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="制御センターがライトモード" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="暗黒モードの制御センター" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="制御センター · ライトモードとダークモード" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 最近の通知をアプリごとにまとめて確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="ライトモードでゴールデンゲート通知" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="ライトモードでゴールデンゲート通知" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="暗黒モードでGolden Gate通知" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="暗黒モードでGolden Gate通知" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="通知 · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 Finder 風のウィンドウでファイルを閲覧できます。
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="ファイルを集中したゴールデンゲートライトデスクトップ" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="ファイルを集中したゴールデンゲート ダークデスクトップ" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · ライトモードとダークモード" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 時計を開くと月間カレンダーが表示されます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="カレンダー · 光" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="カレンダー · 暗黒" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="カレンダー · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ペアリング済みの機器を接続し、電池残量を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%で接続されたスタジオヘッドフォンと無線キーボードが切断された軽いBluetoothメニュー" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="暗黒のBluetoothメニューで,スタジオヘッドホンが82%接続され,ワイヤレスキーボードは切断された" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · ライトモードとダークモード" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Finder 風のウィンドウでファイルを閲覧できます。
 利用可能なネットワークと接続状態を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="ハーバー・スタジオに接続されたライトWi-Fiメニュー,ガーデンゲストとワークショップが利用可能" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="ハーバー・スタジオに接続されたダークWi-Fiメニュー,ガーデンゲストとワークショップが利用可能" width="48%">
-  <br><sub>ハーバースタジオと繋がってる ライトモード (左) と ダークモード (右)</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · ライトモードとダークモード" width="328">
+  <br><sub>ハーバースタジオと繋がってる。</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ Finder 風のウィンドウでファイルを閲覧できます。
 バッテリー残量と充電状態を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="内部バッテリーがないライト バッテリーメニュー" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="内部バッテリーがないダークバッテリーメニュー" width="48%">
-  <br><sub>内部の電池は検出されていません. ライトモード (左) と ダークモード (右)</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="バッテリー · ライトモードとダークモード" width="620">
+  <br><sub>内部の電池は検出されていません。</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 コピーしたテキストや画像を再利用できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="ライトモードでゴールデンゲート発射機のクリップボードの歴史" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="暗黒モードでゴールデンゲート発射機のクリップボードの歴史" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="クリップボード履歴 · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ハードウェア、ソフトウェア、テーマの詳細を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="左側のコントロール付きのライトシステム情報ウィンドウ" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="右側のコントロール付きのダークシステム情報ウィンドウ" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="システム情報 · ライトモードとダークモード" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 メニューやポップアップはライトテーマとダークテーマに対応します。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="ライトモードでデスクトップコンテキストメニュー" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="ダークモードでデスクトップコンテキストメニュー" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma テーマ · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ Git の作業コピーとローカルの変更を残したままディスク容�
 | 🇩🇪 Deutsch | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |

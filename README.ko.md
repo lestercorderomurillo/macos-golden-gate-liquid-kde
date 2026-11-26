@@ -158,8 +158,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 상단 막대에서 현재 앱의 메뉴를 열 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="케이트에서 문서가 열리는 파일 메뉴" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="케이트에서 문서가 열리는 파일 메뉴" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 앱을 검색하거나 카테고리별로 찾아볼 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="기본 골든 게이트 2를 라이트 모드에서 설정하고, 분리된 검색과 골든 게이트 벽화로" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="기본 골든 게이트 2를 암흑 모드에서 설정하고, 분리된 검색과 골든 게이트 벽화로" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 한 메뉴에서 Wi-Fi, 음량, 밝기를 조절할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="제어 센터 가 빛 모드" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="어두운 모드에서 제어 센터" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="제어 센터 · 밝은 모드와 어두운 모드" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 최근 알림을 앱별로 모아 볼 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="광 모드에서 골든 게이트 알림" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="광 모드에서 골든 게이트 알림" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="어두운 모드에서 골든 게이트 알림" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="어두운 모드에서 골든 게이트 알림" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="통지 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate 라이트 데스크톱 파일 중점" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate 어두운 데스크톱 파일 중점" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · 밝은 모드와 어두운 모드" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 시계를 열면 월간 달력이 표시됩니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="달력 · 빛" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="달력 · 어두운" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="달력 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 페어링된 기기를 연결하고 배터리 잔량을 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 가벼운 블루투스 메뉴" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82%에 연결된 스튜디오 헤드폰과 무선 키보드가 끊어지는 어두운 블루투스 메뉴" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 사용 가능한 네트워크와 연결 상태를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="하버 스튜디오에 연결된 라이트 와이파이 메뉴, 가든 게스트와 워크샵이 제공됩니다" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="하버 스튜디오에 연결된 어두운 와이파이 메뉴, 가든 게스트와 워크샵이 제공됩니다" width="48%">
-  <br><sub>하버 스튜디오에 연결됐어 라이트 모드 (왼쪽) 및 암흑 모드 (우측)</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · 밝은 모드와 어두운 모드" width="328">
+  <br><sub>하버 스튜디오에 연결됐어.</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 배터리 잔량과 충전 상태를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="내장 배터리 없는 라이트 배터리 메뉴" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="내부 배터리가 없는 어두운 배터리 메뉴" width="48%">
-  <br><sub>내부 배터리가 감지되지 않습니다. 라이트 모드 (왼쪽) 및 암흑 모드 (우측)</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="배터리 · 밝은 모드와 어두운 모드" width="620">
+  <br><sub>내부 배터리가 감지되지 않습니다.</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 복사한 텍스트와 이미지를 다시 사용할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="광 모드에서 골든 게이트 발사기의 클리립보드 역사" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="어두운 모드에서 골든 게이트 발사기의 클립보드 역사" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="클립보드 기록 · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 하드웨어, 소프트웨어 및 테마 정보를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="왼쪽에서 제어 장치가 있는 라이트 시스템 정보 창" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="오른쪽 컨트롤이 있는 어두운 시스템 정보 창" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="시스템 정보 · 밝은 모드와 어두운 모드" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 메뉴와 팝업에 밝은 테마 또는 어두운 테마가 적용됩니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="라이트 모드에서 데스크톱 컨텍스트 메뉴" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="어두운 모드에서 데스크톱 컨텍스트 메뉴" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma 테마 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ Git 작업 사본과 로컬 변경 사항을 유지하면서 디스크 공간을
 | 🇩🇪 Deutsch | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |

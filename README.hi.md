@@ -158,8 +158,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 ऊपरी पट्टी से सक्रिय ऐप के मेन्यू खोलें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate में एक दस्तावेज़ खोले गए फ़ाइल मेनू" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Kate में एक दस्तावेज़ खोले गए फ़ाइल मेनू" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · लाइट और डार्क मोड" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 ऐप खोजें या उन्हें श्रेणी के अनुसार देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="डिफ़ॉल्ट गोल्डन गेट प्रीसेट 2 प्रकाश मोड में, अलग खोज और गोल्डन गेट वॉलपेपर के साथ" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="डिफ़ॉल्ट गोल्डन गेट प्रिसेट 2 डार्क मोड में, अलग खोज और गोल्डन गेट वॉलपेपर के साथ" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · लाइट और डार्क मोड" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 एक ही मेन्यू से वाई-फ़ाई, आवाज़ और चमक नियंत्रित करें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="नियंत्रण केंद्र प्रकाश मोड में" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="अंधेरे मोड में नियंत्रण केंद्र" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="नियंत्रण केंद्र · लाइट और डार्क मोड" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 हाल की सूचनाएँ ऐप के अनुसार समूहों में देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="प्रकाश मोड में गोल्डन गेट सूचनाएं" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="प्रकाश मोड में गोल्डन गेट सूचनाएं" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="डार्क मोड में गोल्डन गेट सूचनाएं" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="डार्क मोड में गोल्डन गेट सूचनाएं" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="सूचनाएं · लाइट और डार्क मोड" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 Finder जैसी विंडो में अपनी फ़ाइलें देखें।
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="फ़ाइलों पर केंद्रित गोल्डन गेट प्रकाश डेस्कटॉप" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="फ़ाइलों को केंद्रित के साथ गोल्डन गेट अंधेरे डेस्कटॉप" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · लाइट और डार्क मोड" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 महीने का कैलेंडर देखने के लिए घड़ी खोलें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="कैलेंडर · प्रकाश" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="कैलेंडर · अंधेरा" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="कैलेंडर · लाइट और डार्क मोड" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 पेयर किए गए डिवाइस जोड़ें और उनकी बैटरी का स्तर देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="82% पर स्टूडियो हेडफोन कनेक्ट और वायरलेस कीबोर्ड डिस्कनेक्ट के साथ हल्का ब्लूटूथ मेनू" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="82% पर कनेक्ट स्टूडियो हेडफोन और वायरलेस कीबोर्ड से डिस्कनेक्ट के साथ डार्क ब्लूटूथ मेनू" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · लाइट और डार्क मोड" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 उपलब्ध नेटवर्क और कनेक्शन की स्थिति देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="हार्बर स्टूडियो से कनेक्ट लाइट वाई-फाई मेनू, गार्डन गेस्ट और वर्कशॉप उपलब्ध" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="हार्बर स्टूडियो से जुड़े डार्क वाई-फाई मेनू, गार्डन गेस्ट और वर्कशॉप उपलब्ध" width="48%">
-  <br><sub>हार्बर स्टूडियो से जुड़ा हुआ है। प्रकाश मोड (बाएं) और अंधेरा मोड (दाएं)</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · लाइट और डार्क मोड" width="328">
+  <br><sub>हार्बर स्टूडियो से जुड़ा हुआ है।</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 बैटरी का स्तर और चार्जिंग की स्थिति जाँचें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="कोई आंतरिक बैटरी नहीं दिखाने वाला हल्का बैटरी मेनू" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="आंतरिक बैटरी नहीं दिखाने वाला डार्क बैटरी मेनू" width="48%">
-  <br><sub>कोई आंतरिक बैटरी का पता नहीं लगाया गया है। प्रकाश मोड (बाएं) और अंधेरा मोड (दाएं)</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="बैटरी · लाइट और डार्क मोड" width="620">
+  <br><sub>कोई आंतरिक बैटरी का पता नहीं लगाया गया है।</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 पहले कॉपी किए गए टेक्स्ट और चित्रों का फिर से उपयोग करें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="प्रकाश मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="डार्क मोड में गोल्डन-गेट लांचर में क्लिपबोर्ड इतिहास" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="क्लिपबोर्ड इतिहास · लाइट और डार्क मोड" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 हार्डवेयर, सॉफ़्टवेयर और थीम का विवरण देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="बाएं ओर नियंत्रण के साथ प्रकाश प्रणाली सूचना विंडो" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="दाईं ओर नियंत्रण के साथ अंधेरी प्रणाली सूचना विंडो" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="सिस्टम सूचना · लाइट और डार्क मोड" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 मेन्यू और पॉप-अप चुनी हुई लाइट या डार्क थीम अपनाते हैं।
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="प्रकाश मोड में डेस्कटॉप संदर्भ मेनू" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="अंधेरे मोड में डेस्कटॉप संदर्भ मेनू" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma थीम · लाइट और डार्क मोड" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ Git की कार्यशील प्रति और अपने स्�
 | 🇩🇪 Deutsch | ![उपलब्ध](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![उपलब्ध](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![उपलब्ध](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![उपलब्ध](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![पूर्वावलोकन](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![पूर्वावलोकन](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![उपलब्ध](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![पूर्वावलोकन](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![पूर्वावलोकन](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![पूर्वावलोकन](https://img.shields.io/badge/Preview-D4A017) |

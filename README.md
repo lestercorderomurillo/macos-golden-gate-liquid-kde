@@ -158,8 +158,7 @@ Tint the Dock icons to match your desktop.
 Use the active app’s menus from the top bar.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu with a document open in Kate" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="File menu with a document open in Kate" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Light and dark modes" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ Text adjusts to the background so labels stay readable.
 Search for apps or browse them by category.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Default Golden Gate preset 2 in light mode, with detached search and Golden Gate wallpaper" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Default Golden Gate preset 2 in dark mode, with detached search and Golden Gate wallpaper" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Light and dark modes" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Search for apps or browse them by category.
 Adjust Wi-Fi, sound and brightness in one menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Control Center in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Control Center in dark mode" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Control Center · Light and dark modes" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Adjust Wi-Fi, sound and brightness in one menu.
 Read recent alerts grouped by app.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate notifications in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Golden Gate notifications in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Golden Gate notifications in dark mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Golden Gate notifications in dark mode" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Notifications · Light and dark modes" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Read recent alerts grouped by app.
 Browse files in a Finder-style window.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate light desktop with Files focused" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate dark desktop with Files focused" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Light and dark modes" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Browse files in a Finder-style window.
 Open the clock to browse the month.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Calendar · Light" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Calendar · Dark" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Calendar · Light and dark modes" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Open the clock to browse the month.
 Connect paired devices and check their battery levels.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Light Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu with Studio Headphones connected at 82% and Wireless Keyboard disconnected" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Light and dark modes" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Connect paired devices and check their battery levels.
 View available networks and connection status.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Light Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Dark Wi-Fi menu connected to Harbor Studio, with Garden Guest and Workshop available" width="48%">
-  <br><sub>Connected to Harbor Studio. Light mode (left) and dark mode (right).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Light and dark modes" width="328">
+  <br><sub>Connected to Harbor Studio.</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ View available networks and connection status.
 Check the battery level and charging status.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Light Battery menu showing no internal battery" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu showing no internal battery" width="48%">
-  <br><sub>No internal battery is detected. Light mode (left) and dark mode (right).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Battery · Light and dark modes" width="620">
+  <br><sub>No internal battery is detected.</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Check the battery level and charging status.
 Reuse text and images you copied earlier.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard history in the golden-gate launcher in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard history in the golden-gate launcher in dark mode" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Clipboard History · Light and dark modes" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Reuse text and images you copied earlier.
 View hardware, software and theme details.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Light system information window with controls on the left" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Dark system information window with controls on the right" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="System Information · Light and dark modes" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ View hardware, software and theme details.
 Menus and popups follow the light or dark theme.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in light mode" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop context menu in dark mode" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma Theme · Light and dark modes" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ To free disk space while keeping your Git checkout and local work:
 | 🇩🇪 German | ![Available](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 French | ![Available](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italian | ![Available](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Russian | ![Available](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 Japanese | ![Preview](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 Korean | ![Preview](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Russian | ![Available](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 Arabic | ![Preview](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 Hindi | ![Preview](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Dutch | ![Preview](https://img.shields.io/badge/Preview-D4A017) |

@@ -158,8 +158,7 @@
 افتح قوائم التطبيق النشط من الشريط العلوي.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="قائمة الملفات مع وثيقة مفتوحة في كيت" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="قائمة الملفات مع وثيقة مفتوحة في كيت" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@
 ابحث عن التطبيقات أو تصفحها حسب الفئة.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="افتراضية Golden Gate 2 في وضع الضوء، مع البحث منفصل ورق خلفية Golden Gate" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="افتراضية Golden Gate 2 في وضع مظلم، مع البحث منفصل ورق خلفية Golden Gate" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@
 اضبط الشبكة اللاسلكية والصوت والسطوع من قائمة واحدة.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="مركز التحكم في وضع الضوء" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="مركز التحكم في وضع مظلم" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="مركز التحكم · الوضعان الفاتح والداكن" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@
 اطّلع على الإشعارات الأخيرة مجمّعة حسب التطبيق.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="إشعارات بوابة الذهب في وضع الضوء" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="إشعارات بوابة الذهب في وضع الضوء" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="إشعارات بوابة الذهب في وضع مظلم" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="إشعارات بوابة الذهب في وضع مظلم" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="الإخطارات · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@
 تصفّح ملفاتك في نافذة على طراز Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="مكتب ضوء بوابة الذهب مع الملفات تركيز" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="مكتب غولدن غيت مظلم مع الملفات تركيز" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · الوضعان الفاتح والداكن" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@
 افتح الساعة لعرض تقويم الشهر.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="التقويم · الضوء" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="التقويم · مظلم" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="التقويم · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@
 اتصل بالأجهزة المقترنة وتحقق من مستوى بطارياتها.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="قائمة Bluetooth خفيفة مع سماعات الاستوديو متصلة بنسبة 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="قائمة Bluetooth مظلمة مع سماعات الاستوديو متصلة بـ 82% و لوحة المفاتيح اللاسلكية منفصلة" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · الوضعان الفاتح والداكن" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@
 اعرض الشبكات المتاحة وحالة الاتصال.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="قائمة Wi-Fi خفيفة متصلة بـ Harbor Studio، مع Garden Guest و Workshop متاحة" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="قائمة Wi-Fi المظلمة متصلة بـ Harbor Studio، مع Garden Guest و Workshop متاحة" width="48%">
-  <br><sub>متصلة بـ (هاربور ستوديو) الوضع الضوئي (ليسار) والوضع المظلم (اليمين).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · الوضعان الفاتح والداكن" width="328">
+  <br><sub>متصلة بـ (هاربور ستوديو).</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@
 تحقق من مستوى البطارية وحالة الشحن.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="خيارات البطارية الخفيفة لا توجد بطارية داخلية" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="قائمة البطارية المظلمة لا تظهر بطارية داخلية" width="48%">
-  <br><sub>لا يتم الكشف عن البطارية الداخلية الوضع الضوئي (ليسار) والوضع المظلم (اليمين).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="البطارية · الوضعان الفاتح والداكن" width="620">
+  <br><sub>لا يتم الكشف عن البطارية الداخلية.</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@
 أعد استخدام النصوص والصور التي نسختها.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="تاريخ المقطع في جهاز إطلاق البوابة الذهبية في وضع الضوء" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="تاريخ المقطع في جهاز إطلاق البوابة الذهبية في وضع الظلام" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="سجل الحافظة · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@
 اطّلع على تفاصيل الأجهزة والبرامج والسمة.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="نافذة معلومات النظام الضوئي مع التحكم على اليسار" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="نافذة معلومات النظام المظلمة مع التحكم على اليمين" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="معلومات النظام · الوضعان الفاتح والداكن" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@
 تتبع القوائم والنوافذ المنبثقة السمة الفاتحة أو الداكنة.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="قائمة السياق المكتبية في وضع الضوء" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="قائمة سياق المكتب في وضع مظلم" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="سمة Plasma · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ cd macos-golden-gate-liquid-kde
 | 🇩🇪 Deutsch | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |

@@ -158,8 +158,7 @@ Stem de kleur van de Dock-pictogrammen af op je bureaublad.
 Open de menu’s van de actieve app via de bovenbalk.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="File menu met een document in Kate geopend" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="File menu met een document in Kate geopend" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Lichte en donkere modus" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ De tekstkleur past zich aan de achtergrond aan zodat labels leesbaar blijven.
 Zoek apps of blader per categorie.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="De standaard Golden Gate 2 is in lichtmodus ingesteld, met losse zoekopdracht en Golden Gate behang" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="De standaard Golden Gate 2 is in donkere modus ingesteld, met losse zoek- en Golden Gate behang" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Lichte en donkere modus" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Zoek apps of blader per categorie.
 Regel wifi, geluid en helderheid in één menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Centrum van besturing in lichtmodus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Centrum in duister modus" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Control Center · Lichte en donkere modus" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Regel wifi, geluid en helderheid in één menu.
 Bekijk recente meldingen gegroepeerd per app.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Golden Gate-meldingen in lichtmodus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Golden Gate-meldingen in lichtmodus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Golden Gate-meldingen in donkere modus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Golden Gate-meldingen in donkere modus" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Meldingen · Lichte en donkere modus" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Bekijk recente meldingen gegroepeerd per app.
 Blader door bestanden in een venster in Finder-stijl.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Golden Gate licht desktop met bestanden gericht" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Golden Gate donkere desktop met bestanden gericht" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Lichte en donkere modus" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Blader door bestanden in een venster in Finder-stijl.
 Open de klok om de maandkalender te bekijken.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Kalender · Licht" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Kalender · Duister" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Kalender · Lichte en donkere modus" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Open de klok om de maandkalender te bekijken.
 Verbind gekoppelde apparaten en bekijk hun batterijniveau.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Licht Bluetooth menu met Studio headphones verbonden op 82% en draadloos toetsenbord afgesloten" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Dark Bluetooth menu met Studio headphones verbonden op 82% en Wireless Keyboard afgesloten" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Lichte en donkere modus" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Verbind gekoppelde apparaten en bekijk hun batterijniveau.
 Bekijk beschikbare netwerken en de verbindingsstatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Lichte Wi-Fi menu verbonden met Harbor Studio, met Garden Guest en Workshop beschikbaar" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Dark Wi-Fi menu verbonden met Harbor Studio, met Garden Guest en Workshop beschikbaar" width="48%">
-  <br><sub>Ik ben verbonden met Harbor Studio. Lichtmodus (links) en donkere modus (rechts).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Lichte en donkere modus" width="328">
+  <br><sub>Ik ben verbonden met Harbor Studio.</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ Bekijk beschikbare netwerken en de verbindingsstatus.
 Controleer het batterijniveau en de laadstatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Lichte batterij menu zonder interne batterij" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Dark Battery menu zonder interne batterij" width="48%">
-  <br><sub>Geen interne batterij wordt gedetecteerd. Lichtmodus (links) en donkere modus (rechts).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batterij · Lichte en donkere modus" width="620">
+  <br><sub>Geen interne batterij wordt gedetecteerd.</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Controleer het batterijniveau en de laadstatus.
 Gebruik eerder gekopieerde tekst en afbeeldingen opnieuw.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Clipboard geschiedenis in de golden gate lancer in lichtmodus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Clipboard geschiedenis in de golden-gate lancer in donkere modus" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Klembordgeschiedenis · Lichte en donkere modus" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Gebruik eerder gekopieerde tekst en afbeeldingen opnieuw.
 Bekijk details over hardware, software en het thema.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Licht systeem informatievenster met regels aan de linkerkant" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Donkere systeeminformatievenster met regels aan de rechterzijde" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Systeminformatie · Lichte en donkere modus" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ Bekijk details over hardware, software en het thema.
 Menu’s en pop-ups volgen het lichte of donkere thema.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Desktop context menu in lichtmodus" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Desktop contextmenu in donkere modus" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma-thema · Lichte en donkere modus" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ Zo maak je schijfruimte vrij met behoud van je Git-werkkopie en lokale wijziging
 | 🇩🇪 Deutsch | ![Beschikbaar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![Beschikbaar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Beschikbaar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![Beschikbaar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![Voorvertoning](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![Voorvertoning](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![Beschikbaar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![Voorvertoning](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![Voorvertoning](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![Voorvertoning](https://img.shields.io/badge/Preview-D4A017) |

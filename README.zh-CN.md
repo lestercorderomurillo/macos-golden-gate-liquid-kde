@@ -155,8 +155,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 从顶栏打开当前应用的菜单。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="开放的文件菜单在 Kate 中" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="开放的文件菜单在 Kate 中" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -176,8 +175,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 搜索应用，或按类别浏览。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="默认的黄金门预设2在光模式下,与独立搜索和黄金门壁纸" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="默认的黄金门预设2在暗模式下,与独立搜索和黄金门壁纸" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -187,8 +185,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 在同一菜单中调节无线网络、音量和亮度。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="控制中心在光模式下" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="控制中心在黑暗模式下" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="控制中心 · 浅色与深色模式" width="360">
 </p>
 
 <br>
@@ -198,10 +195,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 按应用查看最近的通知。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="黄金门通知在光模式下" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="黄金门通知在光模式下" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="黄金门通知在暗模式下" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="黄金门通知在暗模式下" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="通知 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -211,8 +205,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 在 Finder 风格的窗口中浏览文件。
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="专注于文件的黄金门轻桌面" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="黄金门黑暗桌面,文件集中" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · 浅色与深色模式" width="830"></a>
 </p>
 
 <br>
@@ -222,8 +215,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 点击时钟即可查看月历。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="日历 · 光" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="日历 · 黑暗" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="历日 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -233,8 +225,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 连接已配对的设备并查看其剩余电量。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="轻微的蓝牙菜单,工作室耳机连接到82%和无线键盘断开" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="暗色蓝牙菜单,工作室耳机连接82%和无线键盘断开" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · 浅色与深色模式" width="620">
 </p>
 
 ### Wi-Fi
@@ -242,9 +233,8 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看可用网络和连接状态。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="轻微的Wi-Fi菜单连接到港湾工作室,有园客和车间可用" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="黑色Wi-Fi菜单连接到港湾工作室,有园客和车间可用" width="48%">
-  <br><sub>连接到港口工作室. 光模式 (左) 和暗模式 (右).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · 浅色与深色模式" width="328">
+  <br><sub>连接到港口工作室.</sub>
 </p>
 
 <br>
@@ -254,9 +244,8 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看电池电量和充电状态。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="轻电池菜单显示没有内部电池" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="暗电池菜单显示没有内部电池" width="48%">
-  <br><sub>没有检测到内部电池. 光模式 (左) 和暗模式 (右).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="电池 · 浅色与深色模式" width="620">
+  <br><sub>没有检测到内部电池.</sub>
 </p>
 
 <br>
@@ -266,8 +255,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 再次使用之前复制的文字和图片。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="黄金门发射器的剪辑板历史在光模式下" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="黄金门发射器在黑暗模式中的剪辑板历史" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="剪贴板历史记录 · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -277,8 +265,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看硬件、软件和主题信息。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="灯系统信息窗口,左侧控制" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="黑色系统信息窗口,右侧控制" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="系统信息 · 浅色与深色模式" width="301">
 </p>
 
 <br>
@@ -288,8 +275,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 菜单和弹窗跟随浅色或深色主题。
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="在光模式下桌面文本菜单" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="桌面背景菜单在暗模式下" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma 主题 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -350,9 +336,9 @@ cd macos-golden-gate-liquid-kde
 | 🇩🇪 德语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 法语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 意大利语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 俄语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 韩语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 俄语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 阿拉伯语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 印地语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 荷兰语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |

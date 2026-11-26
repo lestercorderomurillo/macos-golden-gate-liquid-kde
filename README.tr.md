@@ -158,8 +158,7 @@ Dock simgelerinin rengini masaüstünüze uydurun.
 Etkin uygulamanın menülerine üst çubuktan erişin.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-menu-9b7732bf8f54.webp" alt="Kate&#x27;de açılmış bir belge ile dosya menüsü" width="830">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-menu-187b654fc97f.webp" alt="Kate&#x27;de açılmış bir belge ile dosya menüsü" width="830">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -179,8 +178,7 @@ Metin rengi arka plana uyum sağlayarak etiketlerin okunaklı kalmasını sağla
 Uygulamaları arayın veya kategoriye göre gözden geçirin.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-launcher-7313220bc2be.webp" alt="Öntanımlı Golden Gate 2&#x27;yi ışık modunda ayarlayın, ayrılmış arama ve Golden Gate duvar kağıdı ile" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-launcher-1e3a163fc520.webp" alt="Öntanımlı Golden Gate 2&#x27;yi karanlık modda ayarlayın, ayrılmış arama ve Golden Gate duvar kağıdı ile" width="415">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -190,8 +188,7 @@ Uygulamaları arayın veya kategoriye göre gözden geçirin.
 Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-control-b2f97f2b1d01.webp" alt="Kontrol Merkezi ışık modunda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-control-4381ce71a5ec.webp" alt="Kontrol Merkezi karanlık modda" width="415">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Kontrol Merkezi · Açık ve koyu modlar" width="360">
 </p>
 
 <br>
@@ -201,10 +198,7 @@ Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 Son bildirimleri uygulamaya göre gruplanmış olarak görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notification-history-73984031c763.webp" alt="Altın Kapı bildirimleri ışık modunda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-light-notifications-a04d36feef81.webp" alt="Altın Kapı bildirimleri ışık modunda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notifications-f25aa49ee123.webp" alt="Golden Gate bildirimleri karanlık modda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-notification-history-0e0da3b5fead.webp" alt="Golden Gate bildirimleri karanlık modda" width="415">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="İletişimler · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -214,8 +208,7 @@ Son bildirimleri uygulamaya göre gruplanmış olarak görün.
 Dosyalarınızı Finder tarzı bir pencerede inceleyin.
 
 <p align="center">
-  <a href="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp"><img src="src/screenshots/previews/readme-golden-gate-light-finder-362858f81e2b.webp" alt="Dosya odaklı Golden Gate ışık masaüstü" width="415"></a>
-  <a href="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp"><img src="src/screenshots/previews/readme-golden-gate-dark-finder-b835bc92a197.webp" alt="Dosya odaklı Golden Gate karanlık masaüstü" width="415"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Açık ve koyu modlar" width="830"></a>
 </p>
 
 <br>
@@ -225,8 +218,7 @@ Dosyalarınızı Finder tarzı bir pencerede inceleyin.
 Aylık takvimi görmek için saati açın.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-calendar-a57f0c15b7e4.webp" alt="Takvim · Işık" width="328">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-calendar-3f6fce9327f4.webp" alt="Takvim · Karanlık" width="328">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Takvim · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -236,8 +228,7 @@ Aylık takvimi görmek için saati açın.
 Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-bluetooth-2f61dbd5b4c0.webp" alt="Studio kulaklıkları % 82&#x27;ye bağlı ve kablosuz klavyesi bağlantısız olan hafif Bluetooth menüsü" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-bluetooth-870052f87ad9.webp" alt="Karanlık Bluetooth menüsü , 82% bağlı Studio kulaklıkları ve kablosuz klavyeleri ile bağlantı kesilmiş" width="48%">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Açık ve koyu modlar" width="620">
 </p>
 
 ### Wi-Fi
@@ -245,9 +236,8 @@ Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 Kullanılabilir ağları ve bağlantı durumunu görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-wifi-da9772cd7a44.webp" alt="Harbor Studio&#x27;ya bağlı hafif Wi-Fi menüsü, Garden Guest ve Workshop mevcuttur" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-wifi-d0681f7df173.webp" alt="Karanlık Wi-Fi menüsü, Harbor Studio&#x27;ya bağlanmış ve Garden Guest ve Workshop mevcut" width="48%">
-  <br><sub>Harbor Studio ile bağlantılı. Işık modunda (sol) ve karanlık modunda (sağda).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Açık ve koyu modlar" width="328">
+  <br><sub>Harbor Studio ile bağlantılı.</sub>
 </p>
 
 <br>
@@ -257,9 +247,8 @@ Kullanılabilir ağları ve bağlantı durumunu görün.
 Pil düzeyini ve şarj durumunu kontrol edin.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-battery-a210d9bfc206.webp" alt="Işık Akü menüsü iç akü göstermiyor" width="48%">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-battery-f4c19532b2b6.webp" alt="Karar batarya göstermeyen karanlık pil menüsü" width="48%">
-  <br><sub>İç batarya tespit edilmedi. Işık modunda (sol) ve karanlık modunda (sağda).</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batarya · Açık ve koyu modlar" width="620">
+  <br><sub>İç batarya tespit edilmedi.</sub>
 </p>
 
 <br>
@@ -269,8 +258,7 @@ Pil düzeyini ve şarj durumunu kontrol edin.
 Kopyaladığınız metinleri ve görselleri yeniden kullanın.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-clipboard-201f48d695ba.webp" alt="Altın Kapı fırlatıcısı&#x27;ndaki klipboyu tarihi ışık modunda" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-clipboard-a33e0f449807.webp" alt="Karanlık modda Altın Kapı fırlatıcısındaki kaset tablosu tarihi" width="415">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Pano geçmişi · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -280,8 +268,7 @@ Kopyaladığınız metinleri ve görselleri yeniden kullanın.
 Donanım, yazılım ve tema ayrıntılarını görüntüleyin.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-about-297e9c7ea212.webp" alt="Sol tarafta kontrollü ışık sistem bilgisi penceresi" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-about-00f124f6732c.webp" alt="Sağdaki kontrollerle karanlık sistem bilgi penceresi" width="415">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Sistem Bilgisi · Açık ve koyu modlar" width="301">
 </p>
 
 <br>
@@ -291,8 +278,7 @@ Donanım, yazılım ve tema ayrıntılarını görüntüleyin.
 Menüler ve açılır pencereler açık veya koyu temayı izler.
 
 <p align="center">
-  <img src="src/screenshots/previews/readme-golden-gate-light-context-f1061c4f2d17.webp" alt="Açık modunda masaüstü bağlam menüsü" width="415">
-  <img src="src/screenshots/previews/readme-golden-gate-dark-context-4d8aba01c050.webp" alt="Karanlık modunda masaüstü bağlam menüsü" width="415">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma teması · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -353,9 +339,9 @@ Git çalışma kopyanızı ve yerel değişikliklerinizi koruyarak diskte yer a�
 | 🇩🇪 Deutsch | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇫🇷 Français | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇷🇺 Русский | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇯🇵 日本語 | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
 | 🇰🇷 한국어 | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇷🇺 Русский | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇸🇦 العربية | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
 | 🇮🇳 हिन्दी | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
 | 🇳🇱 Nederlands | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
