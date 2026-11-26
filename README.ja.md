@@ -158,17 +158,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 上部のバーから使用中のアプリのメニューを開けます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · ライトモードとダークモード" width="830">
-</p>
-
-<br>
-
-### 適応コントラスト
-
-背景に合わせて文字色が変わり、ラベルが読みやすくなります。
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="適応コントラスト · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 アプリを検索したり、カテゴリ別に探したりできます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · ライトモードとダークモード" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="制御センター · ライトモードとダークモード" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="制御センター · ライトモードとダークモード" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@ Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 最近の通知をアプリごとにまとめて確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="通知 · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="通知 · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@ Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 Finder 風のウィンドウでファイルを閲覧できます。
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · ライトモードとダークモード" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · ライトモードとダークモード" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 時計を開くと月間カレンダーが表示されます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="カレンダー · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="カレンダー · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ペアリング済みの機器を接続し、電池残量を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · ライトモードとダークモード" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 利用可能なネットワークと接続状態を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · ライトモードとダークモード" width="328">
-  <br><sub>ハーバースタジオと繋がってる。</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · ライトモードとダークモード" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 バッテリー残量と充電状態を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="バッテリー · ライトモードとダークモード" width="620">
-  <br><sub>内部の電池は検出されていません。</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="バッテリー · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 コピーしたテキストや画像を再利用できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="クリップボード履歴 · ライトモードとダークモード" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="クリップボード履歴 · ライトモードとダークモード" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ハードウェア、ソフトウェア、テーマの詳細を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="システム情報 · ライトモードとダークモード" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="システム情報 · ライトモードとダークモード" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 メニューやポップアップはライトテーマとダークテーマに対応します。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma テーマ · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Plasma テーマ · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@ Finder 風のウィンドウでファイルを閲覧できます。
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="プライマススタートアップは,進捗バーでスプラッシュ" width="415">
+</p>
+
+<br>
+
+### 適応コントラスト
+
+背景に合わせて文字色が変わり、ラベルが読みやすくなります。
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="適応コントラスト · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ Git の作業コピーとローカルの変更を残したままディスク容�
 | 🇫🇷 Français | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![プレビュー](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![入手可能](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>要求</b></summary>

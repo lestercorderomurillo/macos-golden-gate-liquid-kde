@@ -158,17 +158,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 상단 막대에서 현재 앱의 메뉴를 열 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · 밝은 모드와 어두운 모드" width="830">
-</p>
-
-<br>
-
-### 적응형 대비
-
-글자색이 배경에 맞춰 바뀌어 레이블을 읽기 쉽습니다.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="적응형 대비 · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 앱을 검색하거나 카테고리별로 찾아볼 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · 밝은 모드와 어두운 모드" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 한 메뉴에서 Wi-Fi, 음량, 밝기를 조절할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="제어 센터 · 밝은 모드와 어두운 모드" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="제어 센터 · 밝은 모드와 어두운 모드" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 최근 알림을 앱별로 모아 볼 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="통지 · 밝은 모드와 어두운 모드" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="통지 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@ Dock 아이콘 색상을 바탕 화면에 맞춰 바꿀 수 있습니다.
 Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · 밝은 모드와 어두운 모드" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · 밝은 모드와 어두운 모드" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 시계를 열면 월간 달력이 표시됩니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="달력 · 밝은 모드와 어두운 모드" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="달력 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 페어링된 기기를 연결하고 배터리 잔량을 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · 밝은 모드와 어두운 모드" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 사용 가능한 네트워크와 연결 상태를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · 밝은 모드와 어두운 모드" width="328">
-  <br><sub>하버 스튜디오에 연결됐어.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · 밝은 모드와 어두운 모드" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 배터리 잔량과 충전 상태를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="배터리 · 밝은 모드와 어두운 모드" width="620">
-  <br><sub>내부 배터리가 감지되지 않습니다.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="배터리 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 복사한 텍스트와 이미지를 다시 사용할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="클립보드 기록 · 밝은 모드와 어두운 모드" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="클립보드 기록 · 밝은 모드와 어두운 모드" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 하드웨어, 소프트웨어 및 테마 정보를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="시스템 정보 · 밝은 모드와 어두운 모드" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="시스템 정보 · 밝은 모드와 어두운 모드" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 메뉴와 팝업에 밝은 테마 또는 어두운 테마가 적용됩니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma 테마 · 밝은 모드와 어두운 모드" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Plasma 테마 · 밝은 모드와 어두운 모드" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="플리머스 스타트업 스프래시" width="415">
+</p>
+
+<br>
+
+### 적응형 대비
+
+글자색이 배경에 맞춰 바뀌어 레이블을 읽기 쉽습니다.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="적응형 대비 · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ Git 작업 사본과 로컬 변경 사항을 유지하면서 디스크 공간을
 | 🇫🇷 Français | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![미리 보기](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![사용 가능](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>요구 사항</b></summary>

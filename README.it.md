@@ -158,17 +158,7 @@ Abbina il colore delle icone del Dock al desktop.
 Accedi ai menu dell’app attiva dalla barra superiore.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Modalità chiara e scura" width="830">
-</p>
-
-<br>
-
-### Contrasto adattivo
-
-Il colore del testo si adatta allo sfondo per mantenere leggibili le etichette.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contrasto adattivo · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Modalità chiara e scura" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@ Il colore del testo si adatta allo sfondo per mantenere leggibili le etichette.
 Cerca le app o sfogliale per categoria.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Modalità chiara e scura" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Modalità chiara e scura" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@ Cerca le app o sfogliale per categoria.
 Regola Wi-Fi, audio e luminosità da un unico menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Centro di controllo · Modalità chiara e scura" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centro di controllo · Modalità chiara e scura" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@ Regola Wi-Fi, audio e luminosità da un unico menu.
 Leggi le notifiche recenti raggruppate per app.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Notifiche · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Notifiche · Modalità chiara e scura" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@ Leggi le notifiche recenti raggruppate per app.
 Sfoglia i file in una finestra in stile Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Modalità chiara e scura" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Modalità chiara e scura" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@ Sfoglia i file in una finestra in stile Finder.
 Apri l’orologio per consultare il calendario del mese.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Calendario · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Calendario · Modalità chiara e scura" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@ Apri l’orologio per consultare il calendario del mese.
 Connetti i dispositivi associati e controlla la loro batteria.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Modalità chiara e scura" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@ Connetti i dispositivi associati e controlla la loro batteria.
 Visualizza le reti disponibili e lo stato della connessione.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Modalità chiara e scura" width="328">
-  <br><sub>Connesso a Harbor Studio.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Modalità chiara e scura" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@ Visualizza le reti disponibili e lo stato della connessione.
 Controlla il livello della batteria e lo stato di carica.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batteria · Modalità chiara e scura" width="620">
-  <br><sub>Nessuna batteria interna è rilevata.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Batteria · Modalità chiara e scura" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@ Controlla il livello della batteria e lo stato di carica.
 Riutilizza il testo e le immagini che hai copiato.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Cronologia degli appunti · Modalità chiara e scura" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Cronologia degli appunti · Modalità chiara e scura" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@ Riutilizza il testo e le immagini che hai copiato.
 Consulta i dettagli di hardware, software e tema.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Informazioni del sistema · Modalità chiara e scura" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Informazioni del sistema · Modalità chiara e scura" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@ Consulta i dettagli di hardware, software e tema.
 I menu e le finestre a comparsa seguono il tema chiaro o scuro.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Tema Plasma · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Tema Plasma · Modalità chiara e scura" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@ All’avvio appare una schermata coordinata con il tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth startup splash con una barra di progresso" width="415">
+</p>
+
+<br>
+
+### Contrasto adattivo
+
+Il colore del testo si adatta allo sfondo per mantenere leggibili le etichette.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contrasto adattivo · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ Per liberare spazio su disco conservando la copia Git e le modifiche locali:
 | 🇫🇷 Français | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![Anteprima](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![Disponibile](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Requisiti</b></summary>

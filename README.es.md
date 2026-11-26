@@ -155,17 +155,7 @@ Dale a los iconos del Dock el color de tu escritorio.
 Accede a los menús de la aplicación activa desde la barra superior.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Modos claro y oscuro" width="830">
-</p>
-
-<br>
-
-### Contraste adaptativo
-
-El texto se ajusta al fondo para que las etiquetas sigan siendo legibles.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contraste adaptativo · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -175,7 +165,7 @@ El texto se ajusta al fondo para que las etiquetas sigan siendo legibles.
 Busca aplicaciones o explóralas por categoría.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Modos claro y oscuro" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -185,7 +175,7 @@ Busca aplicaciones o explóralas por categoría.
 Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Centro de control · Modos claro y oscuro" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centro de control · Modos claro y oscuro" width="360">
 </p>
 
 <br>
@@ -195,7 +185,7 @@ Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 Consulta las notificaciones recientes agrupadas por aplicación.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Notificaciones · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Notificaciones · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -205,7 +195,7 @@ Consulta las notificaciones recientes agrupadas por aplicación.
 Explora tus archivos en una ventana al estilo Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Modos claro y oscuro" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Modos claro y oscuro" width="830"></a>
 </p>
 
 <br>
@@ -215,7 +205,7 @@ Explora tus archivos en una ventana al estilo Finder.
 Abre el reloj para consultar el calendario del mes.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Calendario · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Calendario · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -225,7 +215,7 @@ Abre el reloj para consultar el calendario del mes.
 Conecta tus dispositivos emparejados y consulta su batería.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Modos claro y oscuro" width="620">
 </p>
 
 ### Wi-Fi
@@ -233,8 +223,7 @@ Conecta tus dispositivos emparejados y consulta su batería.
 Consulta las redes disponibles y el estado de la conexión.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Modos claro y oscuro" width="328">
-  <br><sub>Conectado con Harbor Studio.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Modos claro y oscuro" width="328">
 </p>
 
 <br>
@@ -244,8 +233,7 @@ Consulta las redes disponibles y el estado de la conexión.
 Consulta el nivel de batería y el estado de carga.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batería · Modos claro y oscuro" width="620">
-  <br><sub>No se detecta ninguna batería interna.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Batería · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -255,7 +243,7 @@ Consulta el nivel de batería y el estado de carga.
 Reutiliza texto e imágenes que hayas copiado.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Historial del portapapeles · Modos claro y oscuro" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Historial del portapapeles · Modos claro y oscuro" width="830">
 </p>
 
 <br>
@@ -265,7 +253,7 @@ Reutiliza texto e imágenes que hayas copiado.
 Consulta los detalles del hardware, el software y el tema.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Información del sistema · Modos claro y oscuro" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Información del sistema · Modos claro y oscuro" width="301">
 </p>
 
 <br>
@@ -275,7 +263,7 @@ Consulta los detalles del hardware, el software y el tema.
 Los menús y las ventanas emergentes siguen el tema claro u oscuro.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Tema Plasma · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Tema Plasma · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -286,6 +274,16 @@ Al arrancar, aparece una pantalla de bienvenida a juego con el tema.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth arranque salpicaduras con una barra de progreso" width="415">
+</p>
+
+<br>
+
+### Contraste adaptativo
+
+El texto se ajusta al fondo para que las etiquetas sigan siendo legibles.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contraste adaptativo · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -337,13 +335,13 @@ Para liberar espacio en disco conservando tu copia de Git y el trabajo local:
 | 🇫🇷 Francés | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Ruso | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 Japonés | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 Coreano | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 Árabe | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 Hindi | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Neerlandés | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polaco | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Turco | ![Vista previa](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 Japonés | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 Coreano | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 Árabe | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 Hindi | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Neerlandés | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polaco | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Turco | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Requisitos</b></summary>

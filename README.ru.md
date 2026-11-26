@@ -158,17 +158,7 @@
 Открывайте меню активного приложения с верхней панели.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Светлый и тёмный режимы" width="830">
-</p>
-
-<br>
-
-### Адаптивный контраст
-
-Цвет текста подстраивается под фон, чтобы надписи оставались разборчивыми.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Адаптивный контраст · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Светлый и тёмный режимы" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@
 Ищите приложения или просматривайте их по категориям.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Светлый и тёмный режимы" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Светлый и тёмный режимы" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@
 Настраивайте Wi-Fi, звук и яркость в одном меню.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Центр управления · Светлый и тёмный режимы" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Центр управления · Светлый и тёмный режимы" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@
 Просматривайте недавние уведомления, сгруппированные по приложениям.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Уведомления · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Уведомления · Светлый и тёмный режимы" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@
 Просматривайте файлы в окне в стиле Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Светлый и тёмный режимы" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Светлый и тёмный режимы" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@
 Нажмите на часы, чтобы открыть календарь на месяц.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Календарь · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Календарь · Светлый и тёмный режимы" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@
 Подключайте сопряжённые устройства и проверяйте их заряд.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Светлый и тёмный режимы" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@
 Просматривайте доступные сети и состояние подключения.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Светлый и тёмный режимы" width="328">
-  <br><sub>Подключен к Harbor Studio.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Светлый и тёмный режимы" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@
 Проверяйте уровень заряда батареи и состояние зарядки.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Батарея · Светлый и тёмный режимы" width="620">
-  <br><sub>Внутренняя батарея не обнаружена.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Батарея · Светлый и тёмный режимы" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@
 Повторно используйте скопированные текст и изображения.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="История буфера обмена · Светлый и тёмный режимы" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="История буфера обмена · Светлый и тёмный режимы" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@
 Просматривайте сведения об оборудовании, программах и теме оформления.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Информационная система · Светлый и тёмный режимы" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Информационная система · Светлый и тёмный режимы" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@
 Меню и всплывающие окна используют светлую или тёмную тему.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Тема Plasma · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Тема Plasma · Светлый и тёмный режимы" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Плимутский стартап с прогрессным панелем" width="415">
+</p>
+
+<br>
+
+### Адаптивный контраст
+
+Цвет текста подстраивается под фон, чтобы надписи оставались разборчивыми.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Адаптивный контраст · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ cd macos-golden-gate-liquid-kde
 | 🇫🇷 Français | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![Предварительная версия](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![Доступность](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Требования</b></summary>

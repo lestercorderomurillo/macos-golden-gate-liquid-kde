@@ -1,0 +1,683 @@
+{
+  "edition": "golden-gate",
+  "tahoe_source": "01bc7e73285712c9959adbd9569cd2fea7b3d75b",
+  "capture_profile_sha256": "2a3bd2d31ca0dfdd65c45a09a3c8c2bbe35a122ab2ca7961f1c33edf8b9a3b09",
+  "display": {
+    "session": "Plasma 6.8.1 Wayland",
+    "pixels": [
+      3840,
+      2160
+    ],
+    "scale": 2
+  },
+  "control_center_crop_inset_px": [
+    340,
+    0,
+    0,
+    340
+  ],
+  "frame_durations_ms": [
+    2500,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    2500,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60
+  ],
+  "frames": {
+    "battery": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "battery",
+          "window": "mttkde-battery",
+          "geometry": {
+            "x": 1575,
+            "y": 30,
+            "width": 328,
+            "height": 168
+          },
+          "crop": [
+            3150,
+            60,
+            3806,
+            396
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "32013b1187a7f46427b07ed997d8a4be66941e47ca75c00ba5dc8b4aeb1a27ef"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "battery",
+          "window": "mttkde-battery",
+          "geometry": {
+            "x": 1575,
+            "y": 30,
+            "width": 328,
+            "height": 168
+          },
+          "crop": [
+            3150,
+            60,
+            3806,
+            396
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "428a29e3eeabdd4f645fca54fe57b85111e6281ad2818eab47f085a24145e12f"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-battery-light-0b5b6f9731e2.webp",
+        "src/screenshots/previews/golden-gate-battery-dark-30d3d61c279d.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif",
+      "dimensions": [
+        656,
+        336
+      ]
+    },
+    "bluetooth": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "bluetooth",
+          "window": "mttkde-bluetooth",
+          "geometry": {
+            "x": 1507,
+            "y": 30,
+            "width": 328,
+            "height": 196
+          },
+          "crop": [
+            3014,
+            60,
+            3670,
+            452
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "b2dcd01ebddb17425227226babfc37e1d19c760a29e94e994a654f857cc65db3"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "bluetooth",
+          "window": "mttkde-bluetooth",
+          "geometry": {
+            "x": 1507,
+            "y": 30,
+            "width": 328,
+            "height": 196
+          },
+          "crop": [
+            3014,
+            60,
+            3670,
+            452
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "d740e883b90b65e93b3b9ee1504c5a48cbe03892004bf95c53750df47747ec2e"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-bluetooth-light-690315cd3818.webp",
+        "src/screenshots/previews/golden-gate-bluetooth-dark-990d68a80e85.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif",
+      "dimensions": [
+        656,
+        392
+      ]
+    },
+    "calendar": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "calendar",
+          "window": "mttkde-calendar",
+          "geometry": {
+            "x": 1592,
+            "y": 30,
+            "width": 328,
+            "height": 328
+          },
+          "crop": [
+            3184,
+            60,
+            3840,
+            716
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "4e7287f91f8f5c527899c521b4063d34b0f96b19aedc807b342d15d83ee1497f"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "calendar",
+          "window": "mttkde-calendar",
+          "geometry": {
+            "x": 1592,
+            "y": 30,
+            "width": 328,
+            "height": 328
+          },
+          "crop": [
+            3184,
+            60,
+            3840,
+            716
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "69578c86c132a9c334b42c31520ab44f2d1ca175401190b9fa9618977299b1d7"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-calendar-light-b336486956dc.webp",
+        "src/screenshots/previews/golden-gate-calendar-dark-e41ea59b61da.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif",
+      "dimensions": [
+        656,
+        656
+      ]
+    },
+    "clipboard-history": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "clipboard-history",
+          "window": "mttkde-apps",
+          "geometry": {
+            "x": 652,
+            "y": 451,
+            "width": 616,
+            "height": 178
+          },
+          "crop": [
+            1296,
+            894,
+            2544,
+            1266
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "f3d6e1ba54a4a02af96dafe7cc621f76402ba79cb3adc7da69c738fdf6278bd9"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "clipboard-history",
+          "window": "mttkde-apps",
+          "geometry": {
+            "x": 652,
+            "y": 451,
+            "width": 616,
+            "height": 178
+          },
+          "crop": [
+            1296,
+            894,
+            2544,
+            1266
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "f1e09b19f540e2fe7950b095ddba97615a95702f51af00b2403fea9b4a7128e8"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-clipboard-history-light-3f638620c068.webp",
+        "src/screenshots/previews/golden-gate-clipboard-history-dark-69d100fefc1b.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif",
+      "dimensions": [
+        1000,
+        298
+      ]
+    },
+    "control-center": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "control-center",
+          "window": "mttkde-control-center",
+          "geometry": {
+            "x": 1434,
+            "y": 30,
+            "width": 486,
+            "height": 679
+          },
+          "crop": [
+            2868,
+            60,
+            3840,
+            1418
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "0306a3faa0638ff6c45551857eec3861236138dca92fdc059ec550db569e1eb5"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "control-center",
+          "window": "mttkde-control-center",
+          "geometry": {
+            "x": 1434,
+            "y": 30,
+            "width": 486,
+            "height": 679
+          },
+          "crop": [
+            2868,
+            60,
+            3840,
+            1418
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "5744ee46e0fe72187fac00f0f86604336bf7c487af01dee63b044d1f90896bde"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-control-center-light-e53bb9411eef.webp",
+        "src/screenshots/previews/golden-gate-control-center-dark-41f8f77285f5.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif",
+      "dimensions": [
+        632,
+        1018
+      ]
+    },
+    "finder": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "finder",
+          "window": "Documents",
+          "geometry": {
+            "x": 450,
+            "y": 185,
+            "width": 1000,
+            "height": 620
+          },
+          "crop": [
+            800,
+            295,
+            3000,
+            1685
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "6896947a20c88d247bb360db6686431e4520f35a7b5b40ddb09644a205716da9"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "finder",
+          "window": "Documents",
+          "geometry": {
+            "x": 450,
+            "y": 185,
+            "width": 1000,
+            "height": 620
+          },
+          "crop": [
+            800,
+            295,
+            3000,
+            1685
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "cfdc63e71c956f4c2ec175edf5517b6b09576b64093a6f0b3f60a3fc2002e235"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-finder-light-b6e1764f5eae.webp",
+        "src/screenshots/previews/golden-gate-finder-dark-37f351b1f9ec.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif",
+      "dimensions": [
+        1000,
+        632
+      ]
+    },
+    "launchpad": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "launchpad",
+          "window": "mttkde-apps",
+          "geometry": {
+            "x": 446,
+            "y": 282,
+            "width": 1028,
+            "height": 632
+          },
+          "crop": [
+            828,
+            266,
+            3012,
+            1892
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "78d23362860d8d1d3d8a4232ffed5af2a7c15628b9d55e00ca0e668011258728"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "launchpad",
+          "window": "mttkde-apps",
+          "geometry": {
+            "x": 446,
+            "y": 282,
+            "width": 1028,
+            "height": 632
+          },
+          "crop": [
+            828,
+            266,
+            3012,
+            1892
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "d31bb15c0223ba4b4d1733a5433345e3f25cbe0245b2e78d1c260549bdf6d083"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-launchpad-light-3b58f535ca7f.webp",
+        "src/screenshots/previews/golden-gate-launchpad-dark-4ce65c558bfb.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif",
+      "dimensions": [
+        1000,
+        745
+      ]
+    },
+    "notifications": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "notifications",
+          "window": "mttkde-notifications",
+          "geometry": {
+            "x": 1550,
+            "y": 36,
+            "width": 364,
+            "height": 128
+          },
+          "crop": [
+            3100,
+            72,
+            3828,
+            328
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "1bac0991d0834050755d426c5ec3b63dcdc885203114673b042e84ff95cc2cd3"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "notifications",
+          "window": "mttkde-notifications",
+          "geometry": {
+            "x": 1550,
+            "y": 36,
+            "width": 364,
+            "height": 128
+          },
+          "crop": [
+            3100,
+            72,
+            3828,
+            328
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "533a5dc0d2d190f37cb46fcea470c999e61403981b1c3a6e23916b814fa15fa4"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-notifications-light-abba2ce7fd09.webp",
+        "src/screenshots/previews/golden-gate-notifications-dark-f93f80c67102.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif",
+      "dimensions": [
+        728,
+        256
+      ]
+    },
+    "plasma-theme": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "plasma-theme",
+          "window": "",
+          "geometry": {
+            "x": 1297,
+            "y": 486,
+            "width": 353,
+            "height": 206
+          },
+          "crop": [
+            2554,
+            932,
+            3340,
+            1424
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "d7cea882b5bf92ed42001c81a9a1ec85d86f53d6cf421b3e81408131f601ba8e"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "plasma-theme",
+          "window": "",
+          "geometry": {
+            "x": 1297,
+            "y": 486,
+            "width": 353,
+            "height": 206
+          },
+          "crop": [
+            2554,
+            932,
+            3340,
+            1424
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "b0fde2ab62e4f308375bde422b7928d2f3b5bfa9e603fc120d3111e191d5fd85"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-plasma-theme-light-3abf41745329.webp",
+        "src/screenshots/previews/golden-gate-plasma-theme-dark-e9c06c8b5b8b.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif",
+      "dimensions": [
+        786,
+        492
+      ]
+    },
+    "quickbar": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "quickbar",
+          "window": "",
+          "geometry": {
+            "x": 89,
+            "y": 30,
+            "width": 310,
+            "height": 574
+          },
+          "crop": [
+            0,
+            0,
+            3200,
+            1820
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "d445c8859aff68b97f823ebd338d147f9e2800c6b5ac7bd0a579f59c13e1e728"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "quickbar",
+          "window": "",
+          "geometry": {
+            "x": 89,
+            "y": 30,
+            "width": 310,
+            "height": 574
+          },
+          "crop": [
+            0,
+            0,
+            3200,
+            1820
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "8c4bd79c3df29b94d54b618a4afd4c2e8789ea2e04cb2fa0613eab0aa9ade266"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-quickbar-light-349b98edc05a.webp",
+        "src/screenshots/previews/golden-gate-quickbar-dark-ce8a55b8f31e.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif",
+      "dimensions": [
+        1000,
+        569
+      ]
+    },
+    "system-information": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "system-information",
+          "window": "About This Computer (preview)",
+          "geometry": {
+            "x": 780,
+            "y": 205,
+            "width": 360,
+            "height": 700
+          },
+          "crop": [
+            1525,
+            375,
+            2315,
+            1845
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "5c8ed07c985725c686f3418550dd65aed9e1542ee4d1e41089884c673e7e8d51"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "system-information",
+          "window": "About This Computer (preview)",
+          "geometry": {
+            "x": 780,
+            "y": 205,
+            "width": 360,
+            "height": 700
+          },
+          "crop": [
+            1525,
+            375,
+            2315,
+            1845
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "f2e98fcc72b53641ba72dd6e4ed4d1a2c096290e2a46c00a2afbe2d3d4ff61fc"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-system-information-light-1fcb8d574d88.webp",
+        "src/screenshots/previews/golden-gate-system-information-dark-37f55ed83805.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif",
+      "dimensions": [
+        591,
+        1100
+      ]
+    },
+    "wi-fi": {
+      "captures": [
+        {
+          "edition": "golden-gate",
+          "mode": "light",
+          "case": "wi-fi",
+          "window": "mttkde-wifi",
+          "geometry": {
+            "x": 1541,
+            "y": 30,
+            "width": 328,
+            "height": 335
+          },
+          "crop": [
+            3082,
+            60,
+            3738,
+            730
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "65c06fa9d5ba8d7ee14bd91f6913b9c010701c1492e3b4aa8966e5bcb9a5d770"
+        },
+        {
+          "edition": "golden-gate",
+          "mode": "dark",
+          "case": "wi-fi",
+          "window": "mttkde-wifi",
+          "geometry": {
+            "x": 1541,
+            "y": 30,
+            "width": 328,
+            "height": 335
+          },
+          "crop": [
+            3082,
+            60,
+            3738,
+            730
+          ],
+          "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
+          "sha256": "13d62832eae5fa7bcfcb0f35aadb856f93e4386fc1e0ec2e737605d192e474ec"
+        }
+      ],
+      "sources": [
+        "src/screenshots/previews/golden-gate-wi-fi-light-a385dceff37b.webp",
+        "src/screenshots/previews/golden-gate-wi-fi-dark-ddb58263b356.webp"
+      ],
+      "gif": "src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif",
+      "dimensions": [
+        656,
+        670
+      ]
+    }
+  }
+}

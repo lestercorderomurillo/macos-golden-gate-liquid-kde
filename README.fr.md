@@ -155,17 +155,7 @@ Accordez la teinte des icônes du Dock à votre bureau.
 Accédez aux menus de l’application active depuis la barre du haut.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Modes clair et sombre" width="830">
-</p>
-
-<br>
-
-### Contraste adaptatif
-
-La couleur du texte s’adapte au fond pour garder les libellés lisibles.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contraste adaptatif · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Modes clair et sombre" width="830">
 </p>
 
 <br>
@@ -175,7 +165,7 @@ La couleur du texte s’adapte au fond pour garder les libellés lisibles.
 Recherchez des applications ou parcourez-les par catégorie.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Modes clair et sombre" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Modes clair et sombre" width="830">
 </p>
 
 <br>
@@ -185,7 +175,7 @@ Recherchez des applications ou parcourez-les par catégorie.
 Réglez le Wi-Fi, le son et la luminosité dans un seul menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Centre de contrôle · Modes clair et sombre" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centre de contrôle · Modes clair et sombre" width="360">
 </p>
 
 <br>
@@ -195,7 +185,7 @@ Réglez le Wi-Fi, le son et la luminosité dans un seul menu.
 Retrouvez les notifications récentes regroupées par application.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Les notifications · Modes clair et sombre" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Les notifications · Modes clair et sombre" width="620">
 </p>
 
 <br>
@@ -205,7 +195,7 @@ Retrouvez les notifications récentes regroupées par application.
 Parcourez vos fichiers dans une fenêtre de style Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Modes clair et sombre" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Modes clair et sombre" width="830"></a>
 </p>
 
 <br>
@@ -215,7 +205,7 @@ Parcourez vos fichiers dans une fenêtre de style Finder.
 Ouvrez l’horloge pour afficher le calendrier du mois.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Calendrier · Modes clair et sombre" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Calendrier · Modes clair et sombre" width="620">
 </p>
 
 <br>
@@ -225,7 +215,7 @@ Ouvrez l’horloge pour afficher le calendrier du mois.
 Connectez vos appareils associés et vérifiez leur batterie.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Modes clair et sombre" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Modes clair et sombre" width="620">
 </p>
 
 ### Wi-Fi
@@ -233,8 +223,7 @@ Connectez vos appareils associés et vérifiez leur batterie.
 Consultez les réseaux disponibles et l’état de la connexion.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Modes clair et sombre" width="328">
-  <br><sub>Je suis connecté à Harbor Studio.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Modes clair et sombre" width="328">
 </p>
 
 <br>
@@ -244,8 +233,7 @@ Consultez les réseaux disponibles et l’état de la connexion.
 Vérifiez le niveau de la batterie et son état de charge.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batterie · Modes clair et sombre" width="620">
-  <br><sub>Aucune batterie interne n'est détectée.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Batterie · Modes clair et sombre" width="620">
 </p>
 
 <br>
@@ -255,7 +243,7 @@ Vérifiez le niveau de la batterie et son état de charge.
 Réutilisez le texte et les images que vous avez copiés.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Historique du presse-papiers · Modes clair et sombre" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Historique du presse-papiers · Modes clair et sombre" width="830">
 </p>
 
 <br>
@@ -265,7 +253,7 @@ Réutilisez le texte et les images que vous avez copiés.
 Consultez les détails du matériel, des logiciels et du thème.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Informations sur le système · Modes clair et sombre" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Informations sur le système · Modes clair et sombre" width="301">
 </p>
 
 <br>
@@ -275,7 +263,7 @@ Consultez les détails du matériel, des logiciels et du thème.
 Les menus et les fenêtres contextuelles suivent le thème clair ou sombre.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Thème Plasma · Modes clair et sombre" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Thème Plasma · Modes clair et sombre" width="620">
 </p>
 
 <br>
@@ -286,6 +274,16 @@ Un écran assorti au thème s’affiche au démarrage.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Le démarrage de Plymouth avec une barre de progression" width="415">
+</p>
+
+<br>
+
+### Contraste adaptatif
+
+La couleur du texte s’adapte au fond pour garder les libellés lisibles.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Contraste adaptatif · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -337,13 +335,13 @@ Pour libérer de l’espace disque tout en conservant votre copie Git et votre t
 | 🇫🇷 Français | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italien | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Russe | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 Japonais | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 Coréen | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 Arabe | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 Hindi | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Néerlandais | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polonais | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Turc | ![Aperçu](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 Japonais | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 Coréen | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 Arabe | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 Hindi | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Néerlandais | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polonais | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Turc | ![Disponible](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Prérequis</b></summary>

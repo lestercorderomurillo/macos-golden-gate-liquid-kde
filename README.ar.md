@@ -158,17 +158,7 @@
 افتح قوائم التطبيق النشط من الشريط العلوي.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · الوضعان الفاتح والداكن" width="830">
-</p>
-
-<br>
-
-### التباين التكيفي
-
-يتكيف لون النص مع الخلفية لتبقى التسميات مقروءة.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="التباين التكيفي · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@
 ابحث عن التطبيقات أو تصفحها حسب الفئة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · الوضعان الفاتح والداكن" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@
 اضبط الشبكة اللاسلكية والصوت والسطوع من قائمة واحدة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="مركز التحكم · الوضعان الفاتح والداكن" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="مركز التحكم · الوضعان الفاتح والداكن" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@
 اطّلع على الإشعارات الأخيرة مجمّعة حسب التطبيق.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="الإخطارات · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="الإخطارات · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@
 تصفّح ملفاتك في نافذة على طراز Finder.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · الوضعان الفاتح والداكن" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · الوضعان الفاتح والداكن" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@
 افتح الساعة لعرض تقويم الشهر.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="التقويم · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="التقويم · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@
 اتصل بالأجهزة المقترنة وتحقق من مستوى بطارياتها.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · الوضعان الفاتح والداكن" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@
 اعرض الشبكات المتاحة وحالة الاتصال.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · الوضعان الفاتح والداكن" width="328">
-  <br><sub>متصلة بـ (هاربور ستوديو).</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · الوضعان الفاتح والداكن" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@
 تحقق من مستوى البطارية وحالة الشحن.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="البطارية · الوضعان الفاتح والداكن" width="620">
-  <br><sub>لا يتم الكشف عن البطارية الداخلية.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="البطارية · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@
 أعد استخدام النصوص والصور التي نسختها.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="سجل الحافظة · الوضعان الفاتح والداكن" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="سجل الحافظة · الوضعان الفاتح والداكن" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@
 اطّلع على تفاصيل الأجهزة والبرامج والسمة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="معلومات النظام · الوضعان الفاتح والداكن" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="معلومات النظام · الوضعان الفاتح والداكن" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@
 تتبع القوائم والنوافذ المنبثقة السمة الفاتحة أو الداكنة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="سمة Plasma · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="سمة Plasma · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="بليموث بدء البدء مع شريط التقدم" width="415">
+</p>
+
+<br>
+
+### التباين التكيفي
+
+يتكيف لون النص مع الخلفية لتبقى التسميات مقروءة.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="التباين التكيفي · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ cd macos-golden-gate-liquid-kde
 | 🇫🇷 Français | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![معاينة](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![المتاحة](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>المتطلبات</b></summary>

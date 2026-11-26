@@ -155,17 +155,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 从顶栏打开当前应用的菜单。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · 浅色与深色模式" width="830">
-</p>
-
-<br>
-
-### 自适应对比度
-
-文字颜色会随背景调整，让标签保持清晰。
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="自适应对比度 · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -175,7 +165,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 搜索应用，或按类别浏览。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · 浅色与深色模式" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -185,7 +175,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 在同一菜单中调节无线网络、音量和亮度。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="控制中心 · 浅色与深色模式" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="控制中心 · 浅色与深色模式" width="360">
 </p>
 
 <br>
@@ -195,7 +185,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 按应用查看最近的通知。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="通知 · 浅色与深色模式" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="通知 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -205,7 +195,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 在 Finder 风格的窗口中浏览文件。
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · 浅色与深色模式" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · 浅色与深色模式" width="830"></a>
 </p>
 
 <br>
@@ -215,7 +205,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 点击时钟即可查看月历。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="历日 · 浅色与深色模式" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="历日 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -225,7 +215,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 连接已配对的设备并查看其剩余电量。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · 浅色与深色模式" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · 浅色与深色模式" width="620">
 </p>
 
 ### Wi-Fi
@@ -233,8 +223,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看可用网络和连接状态。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · 浅色与深色模式" width="328">
-  <br><sub>连接到港口工作室.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · 浅色与深色模式" width="328">
 </p>
 
 <br>
@@ -244,8 +233,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看电池电量和充电状态。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="电池 · 浅色与深色模式" width="620">
-  <br><sub>没有检测到内部电池.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="电池 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -255,7 +243,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 再次使用之前复制的文字和图片。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="剪贴板历史记录 · 浅色与深色模式" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="剪贴板历史记录 · 浅色与深色模式" width="830">
 </p>
 
 <br>
@@ -265,7 +253,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 查看硬件、软件和主题信息。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="系统信息 · 浅色与深色模式" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="系统信息 · 浅色与深色模式" width="301">
 </p>
 
 <br>
@@ -275,7 +263,7 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 菜单和弹窗跟随浅色或深色主题。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma 主题 · 浅色与深色模式" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Plasma 主题 · 浅色与深色模式" width="620">
 </p>
 
 <br>
@@ -286,6 +274,16 @@ Tahoe 和 Golden Gate 的代码贡献者及问题报告者：
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="普利 ⁇ 斯创业点击与进步行" width="415">
+</p>
+
+<br>
+
+### 自适应对比度
+
+文字颜色会随背景调整，让标签保持清晰。
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="自适应对比度 · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -337,13 +335,13 @@ cd macos-golden-gate-liquid-kde
 | 🇫🇷 法语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 意大利语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 俄语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 韩语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 阿拉伯语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 印地语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 荷兰语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 波兰语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 土耳其语 | ![预览](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 韩语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 阿拉伯语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 印地语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 荷兰语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 波兰语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 土耳其语 | ![可用](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>系统要求</b></summary>

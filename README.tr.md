@@ -158,17 +158,7 @@ Dock simgelerinin rengini masaüstünüze uydurun.
 Etkin uygulamanın menülerine üst çubuktan erişin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Açık ve koyu modlar" width="830">
-</p>
-
-<br>
-
-### Uyarlanabilir Kontrast
-
-Metin rengi arka plana uyum sağlayarak etiketlerin okunaklı kalmasını sağlar.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Uyarlanabilir Kontrast · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -178,7 +168,7 @@ Metin rengi arka plana uyum sağlayarak etiketlerin okunaklı kalmasını sağla
 Uygulamaları arayın veya kategoriye göre gözden geçirin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Açık ve koyu modlar" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -188,7 +178,7 @@ Uygulamaları arayın veya kategoriye göre gözden geçirin.
 Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Kontrol Merkezi · Açık ve koyu modlar" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Kontrol Merkezi · Açık ve koyu modlar" width="360">
 </p>
 
 <br>
@@ -198,7 +188,7 @@ Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 Son bildirimleri uygulamaya göre gruplanmış olarak görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="İletişimler · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="İletişimler · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -208,7 +198,7 @@ Son bildirimleri uygulamaya göre gruplanmış olarak görün.
 Dosyalarınızı Finder tarzı bir pencerede inceleyin.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Açık ve koyu modlar" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Açık ve koyu modlar" width="830"></a>
 </p>
 
 <br>
@@ -218,7 +208,7 @@ Dosyalarınızı Finder tarzı bir pencerede inceleyin.
 Aylık takvimi görmek için saati açın.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Takvim · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Takvim · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -228,7 +218,7 @@ Aylık takvimi görmek için saati açın.
 Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Açık ve koyu modlar" width="620">
 </p>
 
 ### Wi-Fi
@@ -236,8 +226,7 @@ Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 Kullanılabilir ağları ve bağlantı durumunu görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Açık ve koyu modlar" width="328">
-  <br><sub>Harbor Studio ile bağlantılı.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Açık ve koyu modlar" width="328">
 </p>
 
 <br>
@@ -247,8 +236,7 @@ Kullanılabilir ağları ve bağlantı durumunu görün.
 Pil düzeyini ve şarj durumunu kontrol edin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batarya · Açık ve koyu modlar" width="620">
-  <br><sub>İç batarya tespit edilmedi.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Batarya · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -258,7 +246,7 @@ Pil düzeyini ve şarj durumunu kontrol edin.
 Kopyaladığınız metinleri ve görselleri yeniden kullanın.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Pano geçmişi · Açık ve koyu modlar" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Pano geçmişi · Açık ve koyu modlar" width="830">
 </p>
 
 <br>
@@ -268,7 +256,7 @@ Kopyaladığınız metinleri ve görselleri yeniden kullanın.
 Donanım, yazılım ve tema ayrıntılarını görüntüleyin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Sistem Bilgisi · Açık ve koyu modlar" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Sistem Bilgisi · Açık ve koyu modlar" width="301">
 </p>
 
 <br>
@@ -278,7 +266,7 @@ Donanım, yazılım ve tema ayrıntılarını görüntüleyin.
 Menüler ve açılır pencereler açık veya koyu temayı izler.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma teması · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Plasma teması · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -289,6 +277,16 @@ Başlangıçta temaya uygun bir açılış ekranı görünür.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth başlatma sıçrayışı ilerleme çubuğu ile" width="415">
+</p>
+
+<br>
+
+### Uyarlanabilir Kontrast
+
+Metin rengi arka plana uyum sağlayarak etiketlerin okunaklı kalmasını sağlar.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Uyarlanabilir Kontrast · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -340,13 +338,13 @@ Git çalışma kopyanızı ve yerel değişikliklerinizi koruyarak diskte yer a�
 | 🇫🇷 Français | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italiano | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Русский | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 日本語 | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 한국어 | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 العربية | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 हिन्दी | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Nederlands | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polski | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkçe | ![Önizleme](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 日本語 | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 한국어 | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 العربية | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 हिन्दी | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Nederlands | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polski | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkçe | ![Kullanılabilir](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Gereksinimler</b></summary>

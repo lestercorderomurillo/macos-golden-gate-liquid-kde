@@ -155,17 +155,7 @@ Passe die Farbe der Dock-Symbole an deinen Desktop an.
 Greife über die obere Leiste auf die Menüs der aktiven App zu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-7a49b419b552.gif" alt="Quickbar · Heller und dunkler Modus" width="830">
-</p>
-
-<br>
-
-### Adaptiver Kontrast
-
-Die Textfarbe passt sich dem Hintergrund an, damit Beschriftungen lesbar bleiben.
-
-<p align="center">
-  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Adaptiver Kontrast · Golden Gate · OFF / ON" width="900">
+  <img src="src/screenshots/previews/golden-gate-quickbar-light-dark-1fe49c74f750.gif" alt="Quickbar · Heller und dunkler Modus" width="830">
 </p>
 
 <br>
@@ -175,7 +165,7 @@ Die Textfarbe passt sich dem Hintergrund an, damit Beschriftungen lesbar bleiben
 Suche Apps oder durchstöbere sie nach Kategorie.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-86ff94c89840.gif" alt="Launchpad · Heller und dunkler Modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Heller und dunkler Modus" width="830">
 </p>
 
 <br>
@@ -185,7 +175,7 @@ Suche Apps oder durchstöbere sie nach Kategorie.
 Steuere WLAN, Lautstärke und Helligkeit in einem Menü.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-96e5a9bf6fbf.gif" alt="Kontrollzentrum · Heller und dunkler Modus" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Kontrollzentrum · Heller und dunkler Modus" width="360">
 </p>
 
 <br>
@@ -195,7 +185,7 @@ Steuere WLAN, Lautstärke und Helligkeit in einem Menü.
 Lies aktuelle Meldungen nach App gruppiert.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-0cc11d5103c7.gif" alt="Mitteilungen · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Mitteilungen · Heller und dunkler Modus" width="620">
 </p>
 
 <br>
@@ -205,7 +195,7 @@ Lies aktuelle Meldungen nach App gruppiert.
 Durchsuche Dateien in einem Fenster im Finder-Stil.
 
 <p align="center">
-  <a href="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-28758d43222b.gif" alt="Finder · Heller und dunkler Modus" width="830"></a>
+  <a href="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif"><img src="src/screenshots/previews/golden-gate-finder-light-dark-c29cb3a3472e.gif" alt="Finder · Heller und dunkler Modus" width="830"></a>
 </p>
 
 <br>
@@ -215,7 +205,7 @@ Durchsuche Dateien in einem Fenster im Finder-Stil.
 Öffne die Uhr für die Monatsansicht.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-2e11977559ea.gif" alt="Kalender · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-calendar-light-dark-f3293ec32eb4.gif" alt="Kalender · Heller und dunkler Modus" width="620">
 </p>
 
 <br>
@@ -225,7 +215,7 @@ Durchsuche Dateien in einem Fenster im Finder-Stil.
 Verbinde gekoppelte Geräte und prüfe ihren Akkustand.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-1abb0b384d3b.gif" alt="Bluetooth · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Heller und dunkler Modus" width="620">
 </p>
 
 ### Wi-Fi
@@ -233,8 +223,7 @@ Verbinde gekoppelte Geräte und prüfe ihren Akkustand.
 Sieh verfügbare Netzwerke und den Verbindungsstatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-2aa6e9f62dba.gif" alt="Wi-Fi · Heller und dunkler Modus" width="328">
-  <br><sub>Verbunden mit Harbor Studio.</sub>
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Heller und dunkler Modus" width="328">
 </p>
 
 <br>
@@ -244,8 +233,7 @@ Sieh verfügbare Netzwerke und den Verbindungsstatus.
 Prüfe den Akkustand und den Ladestatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-battery-light-dark-a8202ac32b47.gif" alt="Batterie · Heller und dunkler Modus" width="620">
-  <br><sub>Keine interne Batterie wird erkannt.</sub>
+  <img src="src/screenshots/previews/golden-gate-battery-light-dark-5e08c5792f95.gif" alt="Batterie · Heller und dunkler Modus" width="620">
 </p>
 
 <br>
@@ -255,7 +243,7 @@ Prüfe den Akkustand und den Ladestatus.
 Verwende kopierte Texte und Bilder erneut.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-728e135f0ba4.gif" alt="Zwischenablageverlauf · Heller und dunkler Modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Zwischenablageverlauf · Heller und dunkler Modus" width="830">
 </p>
 
 <br>
@@ -265,7 +253,7 @@ Verwende kopierte Texte und Bilder erneut.
 Sieh dir Details zu Hardware, Software und Design an.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-ae803d1d8a6e.gif" alt="Systeminformationen · Heller und dunkler Modus" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Systeminformationen · Heller und dunkler Modus" width="301">
 </p>
 
 <br>
@@ -275,7 +263,7 @@ Sieh dir Details zu Hardware, Software und Design an.
 Menüs und Pop-ups übernehmen das helle oder dunkle Design.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-7ca6c7ca6e3e.gif" alt="Plasma-Design · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-plasma-theme-light-dark-b72994e6c496.gif" alt="Plasma-Design · Heller und dunkler Modus" width="620">
 </p>
 
 <br>
@@ -286,6 +274,16 @@ Beim Start erscheint ein zum Design passender Bildschirm.
 
 <p align="center">
   <img src="src/screenshots/previews/readme-golden-gate-light-boot-6d6f3b7d649e.webp" alt="Plymouth Startup-Spritz mit einer Progressleiste" width="415">
+</p>
+
+<br>
+
+### Adaptiver Kontrast
+
+Die Textfarbe passt sich dem Hintergrund an, damit Beschriftungen lesbar bleiben.
+
+<p align="center">
+  <img src="src/screenshots/previews/golden-gate-adaptive-contrast-off-on-a409c5c73b4a.png" alt="Adaptiver Kontrast · Golden Gate · OFF / ON" width="900">
 </p>
 
 <br>
@@ -337,13 +335,13 @@ Speicherplatz freigeben und dabei Git-Arbeitskopie und lokale Arbeit erhalten:
 | 🇫🇷 Französisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇮🇹 Italienisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
 | 🇷🇺 Russisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
-| 🇯🇵 Japanisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇰🇷 Koreanisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇸🇦 Arabisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇮🇳 Hindi | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇳🇱 Niederländisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇵🇱 Polnisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
-| 🇹🇷 Türkisch | ![Vorschau](https://img.shields.io/badge/Preview-D4A017) |
+| 🇯🇵 Japanisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇰🇷 Koreanisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇸🇦 Arabisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇮🇳 Hindi | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇳🇱 Niederländisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇵🇱 Polnisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
+| 🇹🇷 Türkisch | ![Verfügbar](https://img.shields.io/badge/Available-1A7F37) |
 
 <details>
 <summary><b>Voraussetzungen</b></summary>
