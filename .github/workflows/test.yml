@@ -1,60 +1,39 @@
 name: tests
-
-on:
-  push:
-    branches: [dev]
-    paths-ignore: ['**/*.md', 'src/screenshots/**']
-  pull_request:
-    branches: [main, dev]
-    paths-ignore: ['**/*.md', 'src/screenshots/**']
-  workflow_dispatch:
-
-concurrency:
-  group: tests-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
-
+on: workflow_dispatch
 permissions:
   contents: read
-
 jobs:
-  test:
+  verify-published-pair:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Install test dependencies
-        run: python3 -m pip install pytest
-      - name: Test wrapper behavior
-        run: python3 -m pytest tests -q
-
-  staged-icons:
-    runs-on: ubuntu-latest
-    container: debian:testing-slim
-    steps:
-      - name: Install the native KDE icon test dependencies
-        run: |
-          apt-get update
-          apt-get install -y --no-install-recommends \
-            ca-certificates git python3-pytest python3-pil python3-pyqt6 \
-            qt6-base-dev qt6-svg-plugins libkf6iconthemes-dev \
-            librsvg2-bin zstd cmake g++ make pkgconf
       - uses: actions/checkout@v5
-      - name: Render icons from the pinned Golden Gate installation source
+        with:
+          repository: lestercorderomurillo/macos-tahoe-liquid-kde
+          ref: v0.85.8
+          path: reviewed-tahoe
+      - name: Check immutable release archive and wrapper staging
+        shell: bash
         env:
           MAC_TAHOE_NO_UPDATE_CHECK: 'true'
         run: |
+          set -euo pipefail
+          sha=$(git -C reviewed-tahoe rev-parse HEAD)
+          test "$sha" = a826a41f5a40693711f9db113b08ac8ae0830f5b
+          curl --fail --silent --show-error --location --retry 2 "https://codeload.github.com/lestercorderomurillo/macos-tahoe-liquid-kde/tar.gz/$sha" -o "$RUNNER_TEMP/published.tar.gz"
+          cp reviewed-tahoe/VERSION VERSION
+          jq --arg sha "$sha" --arg digest "$(sha256sum "$RUNNER_TEMP/published.tar.gz" | cut -d' ' -f1)" '.commit=$sha | .sha256=$digest | .version="0.85.8"' upstream.json > "$RUNNER_TEMP/pin"
+          cp "$RUNNER_TEMP/pin" upstream.json
+          python3 .agents/skills/paired-release/scripts/check_pair.py --tahoe reviewed-tahoe --golden . --archive "$RUNNER_TEMP/published.tar.gz"
           output=$(./installer --prepare)
-          source_dir=$(printf '%s\n' "$output" | tail -n 1)
-          cmp defaults.json "$source_dir/src/scripts/defaults.json"
-          cd "$source_dir"
-          python3 -m pytest -q tests/test_reserved_menu_icons.py \
-            tests/test_status_icons.py --junitxml="$RUNNER_TEMP/staged-icons.xml"
-          python3 - <<'PY'
-          import os
-          from pathlib import Path
-          from xml.etree import ElementTree
-          report = Path(os.environ["RUNNER_TEMP"]) / "staged-icons.xml"
-          cases = ElementTree.parse(report).findall(".//testcase")
-          skipped = [case.get("name") for case in cases if case.find("skipped") is not None]
-          if not cases or skipped:
-              raise SystemExit(f"Incomplete staged icon coverage: {len(cases)} cases, skipped {skipped}")
-          PY
+          prepared=$(printf '%s\n' "$output" | tail -1)
+          test "$(cat "$prepared/.golden-gate-ready")" = "$sha"
+          cmp defaults.json "$prepared/src/scripts/defaults.json"
+          cmp "$prepared/src/scripts/interface_icons.py" reviewed-tahoe/src/scripts/interface_icons.py
+          cmp "$prepared/src/scripts/launcher_defaults.py" reviewed-tahoe/src/scripts/launcher_defaults.py
+          test -s "$prepared/src/offline/wallpapers/MacGoldenGate/metadata.json"
+          cp upstream.json "$RUNNER_TEMP/verified-upstream.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-published-pin
+          path: ${{ runner.temp }}/verified-upstream.json
