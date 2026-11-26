@@ -1500,5 +1500,79 @@
       "artix66-native-kvae8z89/boot-initial.log": "1ef239abbcf1637905925085904a9c80bd85d49c733fc3d883cabfd7fcb6647a",
       "artix66-native-kvae8z89/boot-after.log": "e05be74afca3cc5cb584a2ae0987c54ccd02ddf718e630561a13d3b66bd8f20b"
     }
-  }
+  },
+  "nixos_wayland_pixels": [
+    {
+      "kwin": "6.6.6",
+      "nixpkgs": "0dc498bfe49baeb18b0f9891e800b53bb2603193",
+      "tahoe_source": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+      "acrylic_glass_tree_in_v0.85.12_and_v0.85.13": "bfc8520b7762ac3ce7a3a7b1841851e9a42a4778",
+      "backend": "Wayland, OpenGL via QEMU virgl, KWin screenshot D-Bus API",
+      "loaded_plugin_sha256": "9469d71cbe98f2fd03d5cb6d39ed53d5e51496246a8be3ab601f5a136cb11d99",
+      "changed_pixels_by_synthetic_client_identity": {
+        "VirtualBox": 546240,
+        "VirtualBoxVM": 0
+      },
+      "compared_pixels": 614400,
+      "local_evidence_sha256": {
+        "nix-pixels-hm5kllv_/66-gpu/renderer.log": "db0fc6bcc3cdb40752bad6c112a0a27d65009d6090b1e1ab8bb23ee3fc10424b",
+        "nix-pixels-hm5kllv_/66-gpu/gpu-off.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/66-gpu/gpu-on.png": "6fb68e58c97da4a2be645f6e4906faa9cf69269342533fd8603ed1868efd8077",
+        "nix-pixels-hm5kllv_/66-gpu/gpu-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+        "nix-pixels-hm5kllv_/66-gpu/gpu-evidence.json": "6e81f55b49d32814d9d3b17a4ff9510d8a1b22f1e0557e8635b30566b6ed8040",
+        "nix-pixels-hm5kllv_/66-gpu/excluded-off.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/66-gpu/excluded-on.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/66-gpu/excluded-pixels.json": "6e221602ab78b35fd6efd4457b9ae7a840fa81c9ba1dc072e924464c52b7f129",
+        "nix-pixels-hm5kllv_/66-gpu/excluded-evidence.json": "32fd64b608de6a8790d76f2eb24b778f54c6764df1c736c93d1989e116e7c5cc"
+      }
+    },
+    {
+      "kwin": "6.7.5",
+      "nixpkgs": "ad8b1fa9990fe72bb3a57f0716dd71cf3e7ab8f8",
+      "tahoe_source": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+      "acrylic_glass_tree_in_v0.85.12_and_v0.85.13": "bfc8520b7762ac3ce7a3a7b1841851e9a42a4778",
+      "backend": "Wayland, OpenGL via QEMU virgl, KWin screenshot D-Bus API",
+      "loaded_plugin_sha256": "8e0919b8b713466670090379b3286760ae1dd60903aa1618f3c004c7fd623613",
+      "changed_pixels_by_synthetic_client_identity": {
+        "VirtualBox": 546240,
+        "VirtualBoxVM": 0
+      },
+      "compared_pixels": 614400,
+      "local_evidence_sha256": {
+        "nix-pixels-hm5kllv_/67-gpu/renderer.log": "db0fc6bcc3cdb40752bad6c112a0a27d65009d6090b1e1ab8bb23ee3fc10424b",
+        "nix-pixels-hm5kllv_/67-gpu/gpu-off.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/67-gpu/gpu-on.png": "6fb68e58c97da4a2be645f6e4906faa9cf69269342533fd8603ed1868efd8077",
+        "nix-pixels-hm5kllv_/67-gpu/gpu-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+        "nix-pixels-hm5kllv_/67-gpu/gpu-evidence.json": "bd473dc0f42eca2a845a9e1d4b23d63a03251304791c5e8e9130cebab78b3eb2",
+        "nix-pixels-hm5kllv_/67-gpu/excluded-off.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/67-gpu/excluded-on.png": "2714b77e6951f8051f11c2ef02a9f6b327e0c6134effad366db39e009c082dca",
+        "nix-pixels-hm5kllv_/67-gpu/excluded-pixels.json": "6e221602ab78b35fd6efd4457b9ae7a840fa81c9ba1dc072e924464c52b7f129",
+        "nix-pixels-hm5kllv_/67-gpu/excluded-evidence.json": "4274036d61ac65006052a584f8b588bf524d48fefc4c7aca4f04cdd5f3bb09f2"
+      }
+    },
+    {
+      "kwin": "6.8.3",
+      "nixpkgs": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+      "tahoe_source": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+      "acrylic_glass_tree_in_v0.85.12_and_v0.85.13": "bfc8520b7762ac3ce7a3a7b1841851e9a42a4778",
+      "backend": "Wayland, OpenGL via QEMU virgl, KWin screenshot D-Bus API",
+      "loaded_plugin_sha256": "cebb74af8d0059b47ebdb22deca54c5396b5c23e4a1b5a1acce5c344e4d7eb89",
+      "changed_pixels_by_synthetic_client_identity": {
+        "VirtualBox": 546240,
+        "VirtualBoxVM": 0
+      },
+      "compared_pixels": 614400,
+      "local_evidence_sha256": {
+        "nix-pixels-hm5kllv_/68-gpu/renderer.log": "db0fc6bcc3cdb40752bad6c112a0a27d65009d6090b1e1ab8bb23ee3fc10424b",
+        "nix-pixels-hm5kllv_/68-gpu/gpu-off.png": "908f46ee3be0115a457d25b6ccbd14e9136151bf48a0eeddb3c52fb5b7289a17",
+        "nix-pixels-hm5kllv_/68-gpu/gpu-on.png": "77576a8aea46e96939ceaee986b9f238fa23708fb9159daee16a5d753dacebc7",
+        "nix-pixels-hm5kllv_/68-gpu/gpu-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+        "nix-pixels-hm5kllv_/68-gpu/gpu-evidence.json": "406fcfaccd4de959dc6d5b4f0bf58c3860db7dcdf7d811933d4c57237f0cdbaa",
+        "nix-pixels-hm5kllv_/68-gpu/excluded-off.png": "908f46ee3be0115a457d25b6ccbd14e9136151bf48a0eeddb3c52fb5b7289a17",
+        "nix-pixels-hm5kllv_/68-gpu/excluded-on.png": "908f46ee3be0115a457d25b6ccbd14e9136151bf48a0eeddb3c52fb5b7289a17",
+        "nix-pixels-hm5kllv_/68-gpu/excluded-pixels.json": "6e221602ab78b35fd6efd4457b9ae7a840fa81c9ba1dc072e924464c52b7f129",
+        "nix-pixels-hm5kllv_/68-gpu/excluded-evidence.json": "f99148ab2a4c18d2e0f5aac691c9e136b168936e54c8f7e3f626bf177ead2cc1"
+      }
+    }
+  ]
 }

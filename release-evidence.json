@@ -31,6 +31,7 @@
     }
   ],
   "coverage_limits": "The ordinary installer lifecycle was exercised on an installed Artix OpenRC 6.6.5 virtual desktop. Dinit and systemd dependency selection were exercised by automated regressions. The detailed matrix names earlier sources, rendering checks and remaining distro gaps.",
-  "source_sha256": "e89883f51709602fa301f417fd4dde8a01eec204f35037fc7a83fd96f43de95a",
-  "matrix_results_sha256": "ce2ef112cfaafe51a3dfecd3f3d628aa001719ee4941536f48d0dbe738eef412"
+  "source_sha256": "6389961dd31fca80431affa1d9393ea7395d577b1258402633e67767ad8886dd",
+  "matrix_results_sha256": "76d9d724b4c6cb4fa6b32ded0c6d043259acf9e064c237c63658c0d2ff15af21",
+  "supplemental_matrix": "docs/installer-safety-plan.md"
 }

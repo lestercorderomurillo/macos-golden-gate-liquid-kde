@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.85.13**. On Artix OpenRC with Plasma 6.6.5, the installer recovered a partial installation by installing the missing crontab client. Tahoe passed dark and light desktop checks, reinstall, reboot and uninstall. Golden Gate passed install, reinstall and uninstall on the restored guest. The full matrix lists native rendering checks and unverified distribution versions. [Validation and coverage](release-evidence.json).
+**v0.85.13**. On Artix OpenRC with Plasma 6.6.5, the installer recovered a partial installation by installing the missing crontab client. Tahoe passed dark and light desktop checks, reinstall, reboot and uninstall. Golden Gate passed install, reinstall and uninstall on the restored guest. NixOS Wayland rendering passed on 6.6.6, 6.7.5 and 6.8.3. [Distro coverage and remaining gaps](docs/installer-safety-plan.md). [Validation and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
