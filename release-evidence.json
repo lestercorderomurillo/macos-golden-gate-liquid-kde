@@ -1,36 +1,36 @@
 {
-  "version": "0.85.12",
+  "version": "0.85.13",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Saved installer options and new Dock view initialization.",
-  "qualified_candidate": "5d70802e66eee3f737207bb77ff3b046d354035e",
-  "matrix": "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/blob/v0.85.12/docs/installer-safety-plan.md",
+  "scope": "Resolve the crontab client for scheduler cleanup during pinned-mode installation on OpenRC and dinit.",
+  "qualified_candidate": "d7ed697fbb774b3e038914fef19a95e14ed31fda",
+  "matrix": "https://github.com/lestercorderomurillo/macos-golden-gate-liquid-kde/blob/v0.85.13/docs/installer-safety-plan.md",
   "checks": [
     {
-      "command": "Tahoe on Tumbleweed 6.6.5 and staged Golden Gate on 6.7.5: ordinary install --dark --layout, live panel verification, dark and light desktop probes, reinstall, reboot to a different kernel boot ID, uninstall and restored desktop probe.",
+      "command": "577 passed: tests/test_distro_packages.py, tests/test_utils_deps.py, tests/test_openrc_scheduler.py, tests/test_cli.py and the committed component hash regression. The package mapping checks cover all supported distributions.",
       "result": "passed"
     },
     {
-      "command": "Both Tumbleweed VMs: the candidate rejected truncated JSON. Replacing saved choices as root preserved owner, group, mode and the disabled layout selection. Neon 6.8.1: malformed data failed safely, explicit reset recovered and interrupted write preserved content.",
+      "command": "Artix OpenRC 6.6.5: reproduced the partial v0.85.12 installation without crontab. Applied the candidate to that same checkout. Pacman installed signed cronie before the pinned-mode installer proceeded. Dark and light desktop probes passed.",
       "result": "passed"
     },
     {
-      "command": "Tumbleweed 6.6.5 and 6.7.5: native Wayland and X11 Glass builds and pixel comparisons, excluded and included window identities, Wayland partial repaint and competing blur recovery. Native Quickbar and notification/control tests passed.",
+      "command": "Artix OpenRC 6.6.5: ordinary reinstall retained a personal cron entry. The VM rebooted to a distinct kernel boot ID, passed the dark desktop check, uninstalled and passed the restored desktop check. The exact user cron entry remained.",
       "result": "passed"
     },
     {
-      "command": "pytest tests/test_cli.py tests/test_preflight.py tests/test_dock_defaults.py tests/test_layout_step.py tests/test_edition_transition.py tests/test_component_cache.py::test_committed_component_hashes_match_sources (237 passed). Final CLI and localization suites (260 passed).",
+      "command": "Staged Golden Gate source matched the three installer source SHA-256 values and component manifest. All 62 selected CLI dependency and scheduler cases passed.",
       "result": "passed"
     },
     {
-      "command": "Golden Gate ./install --prepare against the repaired Tahoe source, CLI and preflight tests (128 passed). The final settings ownership preservation change was independently exercised in both editions during the VM reinstall.",
+      "command": "Ordinary staged Golden Gate install, reinstall and uninstall on the restored Artix 6.6.5 guest. Light desktop and uninstalled probes passed, and the unrelated cron entry remained byte-for-byte identical.",
       "result": "passed"
     },
     {
-      "command": "107 Golden Gate bootstrap, archive, local update and release selection tests passed. Verified the published Tahoe archive checksum, version, CLI, Dock layout, component hashes and launcher defaults.",
+      "command": "107 Golden Gate bootstrap, archive, local updater and release selection cases passed. The immutable published Tahoe archive matched its SHA-256, version, component manifest and candidate installer sources.",
       "result": "passed"
     }
   ],
-  "coverage_limits": "The historical Tumbleweed environments used verified openSUSE KDE images and archived RPMs. The included/excluded windows were synthetic. Other distro/version combinations retain their individual coverage and source revisions in the matrix. No host desktop installation was run.",
-  "source_sha256": "d66184adc75bf4062661196ee6f7108d1c81fd2873ef378632ea2225f5dbb6f4",
-  "matrix_results_sha256": "4aa19bdba689635e775dfcbe0c57cff7033a4a39682887d0859f6d02230ec9d4"
+  "coverage_limits": "The ordinary installer lifecycle was exercised on an installed Artix OpenRC 6.6.5 virtual desktop. Dinit and systemd dependency selection were exercised by automated regressions. The detailed matrix names earlier sources, rendering checks and remaining distro gaps.",
+  "source_sha256": "e89883f51709602fa301f417fd4dde8a01eec204f35037fc7a83fd96f43de95a",
+  "matrix_results_sha256": "ce2ef112cfaafe51a3dfecd3f3d628aa001719ee4941536f48d0dbe738eef412"
 }

@@ -1166,10 +1166,55 @@
     "built": [
       "Acrylic Glass",
       "KCM",
-      "Quickbar"
+      "Quickbar",
+      "Acrylic Glass X11"
     ],
     "build_log_sha256": "8fcaab4198e8a531b44e56834e84f6a5589c4074232b3c9faaac3493bed5a796",
-    "desktop_runtime": "unverified"
+    "desktop_runtime": "passed on separately booted native Kubuntu desktop",
+    "desktop_kernel": "7.0.0-14-generic",
+    "release": "v0.85.12",
+    "tahoe_commit": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+    "live_wayland": {
+      "crop": [
+        166,
+        144,
+        396,
+        600
+      ],
+      "changed_ab": 104880,
+      "changed_off_off": 0,
+      "changed_on_on": 0,
+      "sha256": {
+        "off1": "edfc870742f9b47d0254fb46621b6c5101ba8500669ac641361040f9dc5508ad",
+        "on1": "31386b0def643f21d7ce4a5a5e90ae761be91d66db9bb60a37ece25052770451",
+        "off2": "edfc870742f9b47d0254fb46621b6c5101ba8500669ac641361040f9dc5508ad",
+        "on2": "31386b0def643f21d7ce4a5a5e90ae761be91d66db9bb60a37ece25052770451"
+      },
+      "passed": true
+    },
+    "native_x11": {
+      "expected": "changed",
+      "changed_pixels": 546240,
+      "total_pixels": 614400,
+      "passed": true
+    },
+    "native_x11_plugin_sha256": "7496cfa926a1ba116ab2811f8827d2c3c2c9eaf84f2b06e7bb6b14efc4c5fc36",
+    "wayland_plugin_sha256": "4e8f3d7547c85b488dae7b524682454d70d5d6f3f583a15d333b939dc5ed1595",
+    "guards_and_recovery": "No selected default.plymouth: the optional component refused to change the boot splash. Installing the Kubuntu stock logo package established the distribution default. The ordinary installer then completed and removal restored that exact path.",
+    "boot_ids": [
+      "d01b6f62-6106-4e34-ba9c-90b13e18b195",
+      "0938ba6f-c3fe-4f2f-8823-8011b8ff2eaa"
+    ],
+    "reports_sha256": {
+      "desktop-dark.json": "8ded1534041f770a6d9271e3ff00c0951380189f7b4cb102263443eb1799c486",
+      "desktop-light.json": "f8ca426f68a1781241c3a9e48bda96769bfd690c88e0c9529b9c0638efcfea3b",
+      "reboot-dark.json": "104555729406b71e9f1c09ebe4c58fdd3fad0b7ef9c6ec81f8bf3149b0fa3c44",
+      "uninstalled.json": "6930d4a9d03e80a91de97f2846f3855e634edac2645ebca428b5781b424ed9e5",
+      "plymouth-before.log": "4b4e993ce7b991d3cc370dcc443fdfa9d59d2d1813dea7d9c3eb7fb8c9d8dd6b",
+      "plymouth-after.log": "b365d264d12a09133b4239686d294979d48a16530e25985bf95d5860ba952bc3",
+      "plymouth-restored.log": "04acb8555ffbeb6ce5dd515872d79e360b88de76a0f0bf9a223eef595710b660",
+      "actual-desktop-pixels.json": "e11649ec9d74e9860f4113bf4d362e4710fa636b2a06840da09945a1259fd623"
+    }
   },
   "artix_archive_integrity": [
     {
@@ -1280,5 +1325,180 @@
         }
       }
     }
-  ]
+  ],
+  "nobara43_wayland": {
+    "source": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+    "distribution": "Nobara 43 Official, 19 April live image in a disposable VM with SELinux permissive",
+    "media": {
+      "url": "https://mirrors.lug.org.cn/Nobara-43-Official-2026-04-19.iso",
+      "sha256": "806fc42e5247f828ad07571507564f476f375e4dcc75c7d69c7cead816b24f25",
+      "bytes": 7125409792,
+      "checksum": "https://web.archive.org/web/20260605210642id_/https://nobara-images.nobaraproject.org/Nobara-43-Official-2026-04-19.iso.sha256sum"
+    },
+    "package_manager": "DNF5, Nobara 43 COPR and Fedora 43 updates archive",
+    "runtime": {
+      "kwin": "6.6.4-2.fc43",
+      "plasma-workspace": "6.6.4-1.fc43",
+      "qt": "6.10.3-1.fc43"
+    },
+    "sdk_transaction": "86 development packages added with zero previously installed packages replaced. The later ordinary installer transaction updated 38 ancillary packages.",
+    "kwin_wayland_mapped_glass_sha256": "66a7309728b4fbb37837ca035333916e394d8286fabd00072d31a62a36238130",
+    "wayland_pixels": {
+      "crop": [
+        166,
+        144,
+        396,
+        600
+      ],
+      "changed_ab": 104880,
+      "changed_off_off": 0,
+      "changed_on_on": 0,
+      "sha256": {
+        "off1": "edfc870742f9b47d0254fb46621b6c5101ba8500669ac641361040f9dc5508ad",
+        "on1": "31386b0def643f21d7ce4a5a5e90ae761be91d66db9bb60a37ece25052770451",
+        "off2": "edfc870742f9b47d0254fb46621b6c5101ba8500669ac641361040f9dc5508ad",
+        "on2": "31386b0def643f21d7ce4a5a5e90ae761be91d66db9bb60a37ece25052770451"
+      },
+      "passed": true
+    },
+    "quickbar": "native executable suite passed",
+    "notifications": "native executable suite passed",
+    "lifecycle": "The first dark install returned success with the GTK theme still set to Nobara. After deliberately resetting GTK to Nobara, ordinary reinstall applied the correct GTK theme. Both dark and light passed. A fresh install after uninstall, reboot and uninstall also passed. The initial discrepancy remains unexplained.",
+    "reboot_ids": [
+      "549ab4c8-2781-4801-b050-6f666ca26dfc",
+      "7873fe5e-7130-4baa-825e-516181f3f2f4"
+    ],
+    "local_evidence_sha256": {
+      "nobara43-jmv1x_eq/verified.json": "aba7f94657f7d295e603b395fdc236bcb5cb470d188bfb1b3fcb4a2d6228f19b",
+      "nobara43-jmv1x_eq/actual-desktop-pixels.json": "e11649ec9d74e9860f4113bf4d362e4710fa636b2a06840da09945a1259fd623",
+      "nobara43-jmv1x_eq/runtime-before.log": "29f5f35e5a139c2d80ccf4e58635cac6413e2d04fbae06d609fe5e9ec2e0213c",
+      "nobara43-jmv1x_eq/runtime-after.log": "695e7ac7a0b53fea890bdcfda3852ade30c822bbddfb599946e55661877e52f5",
+      "nobara43-jmv1x_eq/test_desktop_controls.xml": "cdbe0f0287f10c22ef50e5c7637a99f1942a3542cec18188b2ccc6fa9e08ad03",
+      "nobara43-jmv1x_eq/test_globalmenu_model.xml": "1ac51b9f8d0dc05bcebd2c000938a9ec98bf26cc67dae1bb940c9d7f8d045541",
+      "nobara43-jmv1x_eq/lifecycle-baseline.json": "35191d759782ec4eff65300b02ae2a7d830235a552299c57156015c7f4d5104e",
+      "nobara43-jmv1x_eq/job-035-lifecycle.sh.log": "3d8e50d8049ef7b88ba2855eff6f95b0f5e692a6c7b7a29b557504411157af22",
+      "nobara43-jmv1x_eq/gtk-changes.log": "562bc8db8ea7d9df8a470e6dbd055ddbaa26b671e2c6304d60cde0d36d96d007",
+      "nobara43-jmv1x_eq/desktop-dark.json": "dfc0976655b7d4da8251631cbfca19f37df71db742fffab1e86a9b3e00945c13",
+      "nobara43-jmv1x_eq/desktop-light.json": "c75132de104529af792d64df317b3e00ed6f83ac945c32609d3bcec52b72fc15",
+      "nobara43-jmv1x_eq/clean-appearance.json": "bb749206bbb743d1de1fc58b32de8b5417f081f242d1056cd8a3d78157ea132d",
+      "nobara43-jmv1x_eq/final-dark.json": "321dfd6596136e08e0159f3f1d220640fcab7976f8ce97ca0e459ba0de0594a2",
+      "nobara43-jmv1x_eq/final-restored.json": "85a3806934fe07881965e86f5cc9d8b17ffe19861a66f7287cda79f861e75ea5"
+    }
+  },
+  "artix_native_rendering": {
+    "tahoe": "8ebb6601dd5df61c2232cf7a6b19c67971bf7748",
+    "media": {
+      "url": "https://eu-mirror.artixlinux.org/archived-iso/artix-plasma-openrc-20260813-x86_64.iso",
+      "bytes": 2387892224,
+      "sha256": "6945292c0d92b134cb8792af43f87ec7907b6ec98f45064139e27e89dbd6c30d",
+      "authority": "https://artixlinux.org/download.php"
+    },
+    "native_versions": {
+      "August live OpenRC X11 desktop": "KWin 6.7.4-6, KWin X11 6.7.4-1, Plasma Workspace 6.7.4-1, Qt 6.11.1-1",
+      "May 25 Artix system and world packages": "KWin, KWin X11 and Plasma Workspace 6.6.5-2, Qt 6.11.1-1"
+    },
+    "integrity": "The published ISO supplied the original libxrender 0.9.12-1, speex and speexdsp 1.2.1-2. Pacman verified all 72 installed files with zero altered files. The May package root used those exact files and validated its remaining packages through pacman.",
+    "checks": {
+      "native_builds": "Glass, KCM and Quickbar compiled in both native environments. August SDK setup replaced zero installed packages.",
+      "pixel_results": {
+        "aug": {
+          "wayland": {
+            "expected": "changed",
+            "changed_pixels": 546240,
+            "total_pixels": 614400,
+            "passed": true
+          },
+          "x11": {
+            "expected": "changed",
+            "changed_pixels": 546240,
+            "total_pixels": 614400,
+            "passed": true
+          }
+        },
+        "may": {
+          "wayland": {
+            "expected": "changed",
+            "changed_pixels": 546240,
+            "total_pixels": 614400,
+            "passed": true
+          },
+          "x11": {
+            "expected": "changed",
+            "changed_pixels": 546240,
+            "total_pixels": 614400,
+            "passed": true
+          }
+        }
+      },
+      "august_desktop": "Ordinary install preserved the vendor GTK 4 theme rules and imports. KDE appended its colors.css import. With the vendor profile set aside, the requested dark and light desktop probes passed. Uninstall passed. No reboot of the installed theme on this live image.",
+      "august_components": "The actual native Quickbar and notification/control suites each ran and passed with no skipped tests."
+    },
+    "local_evidence_sha256": {
+      "artix-media-xqklp5t_/aug-css.diff": "e406232d4f07bd7b34982de44a48f946e36b49adfb46e7bc19af1467460e06d8",
+      "artix-media-xqklp5t_/job-000-stock.sh.log": "8caf873d0daec07c61b8a550c96bc1fb77504d4b68da6d6a74e3b5a9784c3799",
+      "artix-media-xqklp5t_/job-001-sdk.sh.log": "94d0877de360aab7c25c2d135b227daf16d0c8bfd290cbf3054c2676844ffcfa",
+      "artix-media-xqklp5t_/may-sdk.log": "6521e7c1d5b86e854a97344c342a6963b5abf69cd2077ccab375d7b5ad0721a6",
+      "artix-media-xqklp5t_/verified-libraries.log": "810a8d488229c9dc2761651d68de8c31722d723cf17b883ce697b0d57f445069",
+      "artix-media-xqklp5t_/test_globalmenu_model.xml": "32e646f135162f983d954dc107f239cef5a44306018ad6a68af2cafd8e267285",
+      "artix-media-xqklp5t_/test_desktop_controls.xml": "6d734bc61d9b5bbd3a67a58294cbdf6856343b65d7c8aad5049c680d9c0a3b2f",
+      "artix-media-xqklp5t_/aug-stock.json": "1a81433f9d59c63799b81c4c0732a1745c6002bb5dcc23acf361d76b3e2343be",
+      "artix-media-xqklp5t_/aug-dark.json": "59cdfeccb59ee747af04ff1d81745714c6b7acbb6db7695c1e0b1134c9178ae1",
+      "artix-media-xqklp5t_/aug-clean-light.json": "bfe49322447941884d8677330facc90c5fef1598febc1d1c9408d45a6b59faa5",
+      "artix-media-xqklp5t_/aug-clean-dark.json": "7a64ff4e5adbf051ebbe984b921e5ad3dd8912ba0278f22f04f22b910455ea23",
+      "artix-media-xqklp5t_/aug-restored.json": "75c9b0d5204a7e1b81ae3b1d49daad4777b0376773190cbb8766b09c74c815e2",
+      "artix-media-xqklp5t_/aug-install.log": "01b2613cc29dfe4f99af33df7fe7ed940bf8b7f4ec5aca047a58e7a368d79e0d",
+      "artix-media-xqklp5t_/aug-uninstall.log": "4d6d4873b54556af843c5c67e55ea2efde9a3e50fa443b5ff2db05a3459fff20",
+      "artix-media-xqklp5t_/may-quickbar.log": "248585822cf9852f6f2bb5772caf0922faec6cf7b88aacad7c15cbe0ab17da61",
+      "artix-media-xqklp5t_/aug-wayland-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+      "artix-media-xqklp5t_/aug-wayland-evidence.json": "400948db64250886b71a102e8c6677a40dff0c3c25d60f1c59f4b07d58569dec",
+      "artix-media-xqklp5t_/aug-x11-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+      "artix-media-xqklp5t_/aug-x11-evidence.json": "3bc7f824933f8b3cef8b531a8962d0fce1c865a49cd6a40655d411cd2c868cae",
+      "artix-media-xqklp5t_/may-wayland-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+      "artix-media-xqklp5t_/may-wayland-evidence.json": "15df25dc6e901640c84d987e49ddc0bfb629df9821871d8d4f336c932feae1e3",
+      "artix-media-xqklp5t_/may-x11-pixels.json": "5f470b84f4cd1c5c9c6c54fa2b33f967bf62e7745896f7650afca43831df2b21",
+      "artix-media-xqklp5t_/may-x11-evidence.json": "995f11db9821840e2d6af22d8ec7933646f06bc63658845deb64c0670649285e"
+    }
+  },
+  "openrc_scheduler_recovery": {
+    "release": "0.85.13",
+    "candidate": "d7ed697fbb774b3e038914fef19a95e14ed31fda",
+    "native_system": "Artix OpenRC, kernel 7.0.10-artix1-1, KWin and Plasma Workspace 6.6.5-2, Qt 6.11.1-1, Wayland",
+    "failure": "On v0.85.12 a missing crontab client caused pinned-mode and disabled OLED Care cleanup to fail after desktop components had been installed.",
+    "repair": "Applied the candidate production sources to the failed guest before retrying. The normal backend installed cronie-1.7.2-2. Both editions passed install, reinstall and uninstall. Tahoe additionally passed light/dark switching and a physical VM reboot. Both retained the same unrelated personal cron entry.",
+    "guest_boot_ids": [
+      "98041b88-b4b3-4362-a27d-0b2dd7d46310",
+      "5f63c480-70e7-499a-b922-9defc0077d98"
+    ],
+    "checks": {
+      "fixed-dark": "passed",
+      "fixed-light": "passed",
+      "native-reboot": "passed",
+      "native-restored": "passed",
+      "golden-light": "passed",
+      "golden-again": "passed",
+      "golden-restored": "passed"
+    },
+    "limits": "The minimal image needed initial pacman keyring setup. Plymouth warned that splash boot arguments were absent, and the installer preserved the existing wallpaper when its capture failed. Dinit dependency resolution was tested without booting a dinit guest.",
+    "local_evidence_sha256": {
+      "artix66-native-kvae8z89/fixed-dark.json": "971c5a2155efe66343aedec6fc7cde975db6db17e66a2ad52828ad6c760ec776",
+      "artix66-native-kvae8z89/fixed-light.json": "d8caa696d799a8b9ae0ed72ec23756a679df5e378cf95550db27be5b086d0eb9",
+      "artix66-native-kvae8z89/native-reboot.json": "63fbbad7e1cb9617b132efad5a64ff36182f14805e85ff35aa39dba012257edb",
+      "artix66-native-kvae8z89/native-restored.json": "b16de67ae1e5ecac2b18f5daedcff7e0c2521e3a07fda905022176862a6f8f63",
+      "artix66-native-kvae8z89/golden-light.json": "86258b80644e17bb20059032b2a3aa02ae8c965643c20dd402d0d34558814851",
+      "artix66-native-kvae8z89/golden-again.json": "5065b925a190ec9dded00950319fa1ca411e08f1eb532bb9ea67c6fb6bbee568",
+      "artix66-native-kvae8z89/golden-restored.json": "c7be7189e800bc4c21c8bf307d165753f52c4c23a8dd75db8bffd5284347cdde",
+      "artix66-native-kvae8z89/trusted-install.log": "ef74f32ca8a13317800ef10a192bb36f062ebaad01fb3e9d6d0641222b1971e4",
+      "artix66-native-kvae8z89/candidate-install.log": "1ab8b64ae4eded90a0132e449493bb915c94e5d41540c295f1e5300323eabb6b",
+      "artix66-native-kvae8z89/fixed-source.log": "e2fa6860f08afececa9dbe4109d3662d418e2a436702543c44250734fc982b0b",
+      "artix66-native-kvae8z89/fixed-reinstall.log": "64c0f97edd1133455d38bada091982445707444d9ddadc4f4f1dfedb94f3c329",
+      "artix66-native-kvae8z89/golden-install.log": "a2619efa3adf30e05e53d7dfc07f21d190a009ab298ac42f9e9df2c0820e040a",
+      "artix66-native-kvae8z89/golden-reinstall.log": "7245594d77ea64a3a6fa2a066cf14c9d6e90756c09799aaaeeeb10ed06422a2a",
+      "artix66-native-kvae8z89/golden-uninstall.log": "178971798ed036decdb8bf7850dc132045964e64bdcf6c98a611c9adea7471bc",
+      "artix66-native-kvae8z89/tahoe-uninstall.log": "c6731bac29715c35a5e2847f8bddc543ca1ff604fdea61cf20a85522ecc5defb",
+      "artix66-native-kvae8z89/cron-after.log": "9252f0bcfcb93f1b40d5f69733e6e3b04d937db67c0776d3fdc0dd7bc0615dd7",
+      "artix66-native-kvae8z89/golden-cron-restored.log": "9252f0bcfcb93f1b40d5f69733e6e3b04d937db67c0776d3fdc0dd7bc0615dd7",
+      "artix66-native-kvae8z89/boot-initial.log": "1ef239abbcf1637905925085904a9c80bd85d49c733fc3d883cabfd7fcb6647a",
+      "artix66-native-kvae8z89/boot-after.log": "e05be74afca3cc5cb584a2ae0987c54ccd02ddf718e630561a13d3b66bd8f20b"
+    }
+  }
 }
