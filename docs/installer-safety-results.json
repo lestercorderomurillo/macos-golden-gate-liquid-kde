@@ -948,5 +948,337 @@
       "final-neon68-o5fricqt/uninstall.log": "a6d5503d2a76ec172cd02ca19e909c13a544e84412fecf0f6a8cdde495ee7372",
       "final-neon68-o5fricqt/result.json": "5ca55003cbdec3783dc397db8ac769a861591570dda716ac50a501a8eda557c9"
     }
-  }
+  },
+  "historical_tumbleweed": [
+    {
+      "distribution": "openSUSE Tumbleweed",
+      "plasma_and_kwin": "6.6.5",
+      "iso": {
+        "source": "https://mirror.neolabs.kz/opensuse/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Snapshot20260514-Media.iso",
+        "sha256": "b649c672fd2342624f7a2512db6a856c588f89ec21d06b66feae3c56c4a81624",
+        "bytes": 1216129024
+      },
+      "qt": "6.11.0",
+      "native_build": [
+        "Acrylic Glass Wayland and X11",
+        "Acrylic Glass KCM",
+        "Quickbar"
+      ],
+      "pixels": {
+        "x11": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "damage": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "conflict": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        }
+      },
+      "partial_redraw": {
+        "mismatched_pixels": 0,
+        "passed": true
+      },
+      "effect_conflict": {
+        "competitor": "blur",
+        "handoff": true,
+        "reinstall": true,
+        "active_recovery_guard": true,
+        "restored": true
+      },
+      "native_component_tests": [
+        "test_desktop_controls",
+        "test_globalmenu_model"
+      ],
+      "report_sha256": {
+        "test_desktop_controls.xml": "5ae61d3c92e87b6c645376b228e69247c87adfbcbc13682174a9618b27a32627",
+        "test_globalmenu_model.xml": "362c4e8b3ab4ae26725fdea032bcd9a3f70c23a873f9016d25f10672c3189681"
+      },
+      "wayland_plugin_sha256": "29100ae0153ed688c85c14f2e45d17909d1cf2b9432dcaf10964145bcfce6539",
+      "archived_zypper_index": {
+        "primary_url": "https://mirror.neolabs.kz/opensuse/tumbleweed/repo/oss/repodata/ea498216b728e6bc1580143d6bd09b8bd1032ce19e13562290e8a16b39ab0d4e0a65dca62c704a19f702d55a6db209a363a73c433a19bfb38328471d156db07c-primary.xml.zst",
+        "sha512": "ea498216b728e6bc1580143d6bd09b8bd1032ce19e13562290e8a16b39ab0d4e0a65dca62c704a19f702d55a6db209a363a73c433a19bfb38328471d156db07c",
+        "metadata": "Locally signed index over the archived primary file. RPM payloads retain original distribution signatures."
+      },
+      "wayland_window_probes": {
+        "VirtualBox": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "VirtualBoxVM": {
+          "expected": "unchanged",
+          "changed_pixels": 0,
+          "total_pixels": 614400,
+          "passed": true
+        }
+      },
+      "original_tahoe_install_exit": 1,
+      "repair": {
+        "edition": "Tahoe",
+        "candidate": "5d70802e66eee3f737207bb77ff3b046d354035e",
+        "layout_sha256": "8bd5001993085b9a29ff4e9bf284f094c2933c6328fd778b24d84d7c345d2de4",
+        "final_cli_sha256": "a40dbf71ed52148ec60a19d980217510b3a812915f69a919b8e69e50c0036033",
+        "checks": [
+          "install",
+          "live Dock opacity",
+          "dark desktop",
+          "light desktop",
+          "preserve owner and mode on settings replacement",
+          "ordinary reinstall",
+          "reboot into installed desktop",
+          "uninstall",
+          "restored desktop probe"
+        ],
+        "log_sha256": {
+          "repair-install.log": "beda3552c24f36a1865dadf6fa959e939aa0d5c8698dec53f5678cb6e877e8c2",
+          "repair-dark.json": "4ad7b49020d614bdacfc4717554e04c7bc47c876100cd9d01edf2f1073e761c6",
+          "repair-light.json": "983edb4b7aa9b674497f277b9d7c1a2d88406fa7d5e8b6d863270fe3396a019b",
+          "final-reinstall.json": "126912fb34e71e7ca36b63200ab981488c7c3c08e8b0c1d47fbf0aa8cc76c888",
+          "final-reboot-dark.json": "ff55379443809fb27ec576531c1e154301256b8bfefc313ba396582b3b1181d2",
+          "final-uninstalled.json": "c54ca31a3b2732ecfa15961ca70498fed4bc075f11702221781d824ac017a311",
+          "before-final-boot.log": "502bf02c2057d5fb3a334defe6331f23c74b50e80e74ecf3078f03bf74fdc3be",
+          "after-final-boot.log": "7e67e3e4016ddbb374f4bf36b13f0f7570c77feadaa11156840ed442220704b0",
+          "job-220-final.sh.log": "32278ea782e7c80d4e80a18e2571f806f28b33cc27c3f73c0a9ac26b83adea0c"
+        }
+      }
+    },
+    {
+      "distribution": "openSUSE Tumbleweed",
+      "plasma_and_kwin": "6.7.5",
+      "iso": {
+        "source": "https://mirror.neolabs.kz/opensuse/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Snapshot20260914-Media.iso",
+        "sha256": "4d9049fc02c4c578135d5866a6fdfb8bd63ba71eee65702d7ee55f30204903d8",
+        "bytes": 1278730240
+      },
+      "qt": "6.11.2",
+      "native_build": [
+        "Acrylic Glass Wayland and X11",
+        "Acrylic Glass KCM",
+        "Quickbar"
+      ],
+      "pixels": {
+        "x11": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "damage": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "conflict": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        }
+      },
+      "partial_redraw": {
+        "mismatched_pixels": 0,
+        "passed": true
+      },
+      "effect_conflict": {
+        "competitor": "blur",
+        "handoff": true,
+        "reinstall": true,
+        "active_recovery_guard": true,
+        "restored": true
+      },
+      "native_component_tests": [
+        "test_desktop_controls",
+        "test_globalmenu_model"
+      ],
+      "report_sha256": {
+        "test_desktop_controls.xml": "6a54521aa0d34618d9a533d7100f7b14d2cf435ca8b4733e8613f7d2aa261aff",
+        "test_globalmenu_model.xml": "a599d9b6caca8cfa86335c099d44f4f325f2a6c0d84174fd9e06208b1696141a"
+      },
+      "wayland_plugin_sha256": "abac7747c62cca56a4ee7d9196e6f9b1609edeb1bb8f74416f5e69800ea07548",
+      "archived_zypper_index": {
+        "primary_url": "https://mirror.neolabs.kz/opensuse/tumbleweed/repo/oss/repodata/64cd7ede556119ae6fbd0f90d51ca5fd775281c0cbd9bddbfff3e42a27569eaa7180f034e255bf57cd4d6a59ecc72a9ea28db727a52c7941238131940379dbd7-primary.xml.zst",
+        "sha512": "64cd7ede556119ae6fbd0f90d51ca5fd775281c0cbd9bddbfff3e42a27569eaa7180f034e255bf57cd4d6a59ecc72a9ea28db727a52c7941238131940379dbd7",
+        "metadata": "Locally signed index over the archived primary file. RPM payloads retain original distribution signatures."
+      },
+      "wayland_window_probes": {
+        "VirtualBox": {
+          "expected": "changed",
+          "changed_pixels": 546240,
+          "total_pixels": 614400,
+          "passed": true
+        },
+        "VirtualBoxVM": {
+          "expected": "unchanged",
+          "changed_pixels": 0,
+          "total_pixels": 614400,
+          "passed": true
+        }
+      },
+      "original_tahoe_install_exit": 0,
+      "repair": {
+        "edition": "Golden Gate",
+        "candidate": "5d70802e66eee3f737207bb77ff3b046d354035e",
+        "layout_sha256": "8bd5001993085b9a29ff4e9bf284f094c2933c6328fd778b24d84d7c345d2de4",
+        "final_cli_sha256": "a40dbf71ed52148ec60a19d980217510b3a812915f69a919b8e69e50c0036033",
+        "checks": [
+          "install",
+          "live Dock opacity",
+          "dark desktop",
+          "light desktop",
+          "preserve owner and mode on settings replacement",
+          "ordinary reinstall",
+          "reboot into installed desktop",
+          "uninstall",
+          "restored desktop probe"
+        ],
+        "log_sha256": {
+          "repair-install.log": "fd54f0ff05b62517548d9a7199ba3591080b50306a8ab37914b26bfd732d454d",
+          "repair-dark.json": "d72c93db19170217d0169fe872752875fbd5434a256082dc091b646d8ee93bdb",
+          "repair-light.json": "00fe57157a9633916d8d26d42efb2cb54944f8fd15d41fdf27ab4e7c850d45b8",
+          "final-reinstall.json": "6c4817caf6892b5b348010870675e78c934a35e5ba7d30778b0fcf390f2d607d",
+          "final-reboot-dark.json": "befbffccfb2233b14ebb4067d415bb5d83ecf17d23dc8e1266b509f070e08af2",
+          "final-uninstalled.json": "acd52c836905caf506b2674afc8f41ac94c78317324afe3ae1105fbaf6e552e4",
+          "before-final-boot.log": "4d3cf482458f44baad4fb907b2cbfde55ab43f0ff25b4ecc00d73fcfac7a549d",
+          "after-final-boot.log": "0f0514f520e5c2ad6583e23e70c442526e5c3034db0cc64e32d9cc982b2f8445",
+          "job-220-final.sh.log": "8322820fc2ff12f614abc220203f5e351e563d8014efe800cc4d56819f46ccf5"
+        }
+      }
+    }
+  ],
+  "kubuntu_development_sdk": {
+    "snapshot": "https://snapshot.ubuntu.com/ubuntu/20260601T000000Z/",
+    "series": "stonking",
+    "kwin_dev": "4:6.6.5-0ubuntu1",
+    "plasma_workspace_dev": "4:6.6.5-0ubuntu1",
+    "qt_core": "6.10.2+dfsg-7",
+    "built": [
+      "Acrylic Glass",
+      "KCM",
+      "Quickbar"
+    ],
+    "build_log_sha256": "8fcaab4198e8a531b44e56834e84f6a5589c4074232b3c9faaac3493bed5a796",
+    "desktop_runtime": "unverified"
+  },
+  "artix_archive_integrity": [
+    {
+      "date": "2026/03/10",
+      "kwin": "6.6.1-3.1",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    },
+    {
+      "date": "2026/04/20",
+      "kwin": "6.6.4-1",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    },
+    {
+      "date": "2026/05/25",
+      "kwin": "6.6.5-2",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    },
+    {
+      "date": "2026/07/07",
+      "kwin": "6.7.2-1",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    },
+    {
+      "date": "2026/08/05",
+      "kwin": "6.7.3-2",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    },
+    {
+      "date": "2026/09/15",
+      "kwin": "6.7.5-2",
+      "sha256_mismatches": {
+        "libxrender": {
+          "expected": "c87c016f79d20f55e05d5ea1f77f3f3277df1e93d0fe5020fe16e5c9c727963f",
+          "actual": "6f5cf37937204e711b5d5a7596ed6357228766adb1371eb40f736d42d8a50718"
+        },
+        "speex": {
+          "expected": "5b553585d3647d9aa3689101dbd3af1a7f89179d605bc5627888d0731c000c3c",
+          "actual": "96d941afb3fb33239896582f994f49dce992d4584d84b609d13df2cc62e86eae"
+        },
+        "speexdsp": {
+          "expected": "c59c03667340742d4457973981ceedbe3a8b30645f821ca56977b5102d6bf11b",
+          "actual": "92e0b0e506f4a61b99cc9701ec08f3832979a1caa3e5926443f69440a47548ec"
+        }
+      }
+    }
+  ]
 }
