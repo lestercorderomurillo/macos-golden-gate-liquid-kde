@@ -1,5 +1,5 @@
 {
-  "version": "0.85.10",
+  "version": "0.85.11",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
   "scope": "Installer safety, VM-first guidance, native Plasma compatibility and recovery.",
   "qualified_candidate": "cb89f3f92bb05bef3f569f2cc573021f3578b5f1",
@@ -21,8 +21,12 @@
     {
       "command": "111 Golden Gate wrapper, local update, release update, bootstrap, archive and release workflow tests passed. Verified matching versions, the published Tahoe tag and the SHA-256 of its archive.",
       "result": "passed"
+    },
+    {
+      "command": "python3 -m pytest tests/test_multilanguage.py tests/test_vm_qualification.py (208 passed). Checked the translated mirror recovery message in all 14 catalogs and the saved and live Dock visibility combinations.",
+      "result": "passed"
     }
   ],
-  "coverage_limits": "The matrix contains 21 full lifecycle runs across 12 distributions on the identified candidate revisions. Native SDK checks, targeted reinstalls and NixOS checks have separate evidence. Historical package gaps and mixed Artix SDK inputs are documented. The integrated v0.85.10 tree retains the separately released v0.85.9 calendar change.",
-  "source_sha256": "2d2fc7c1e17fd331ce8b0822b7fabb423d2c30d131028014fe145bf9fba72b91"
+  "coverage_limits": "The matrix contains 21 full lifecycle runs across 12 distributions on the identified candidate revisions. Native SDK checks, targeted reinstalls and NixOS checks have separate evidence. Historical package gaps and mixed Artix SDK inputs are documented. The integrated v0.85.10 tree retains the separately released v0.85.9 calendar change. The v0.85.11 correction updates the translated mirror recovery instructions and VM test fixture. Installation logic and native modules match v0.85.10.",
+  "source_sha256": "40a3f1cd0e0bfa0f27d44c2bed4ad28f4fc1cb36312d13a47534014d9b648b2b"
 }
