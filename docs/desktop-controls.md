@@ -6,7 +6,7 @@ Control Center provides floating glass controls, native system models and saved 
 
 See [release evidence](../release-evidence.json) for the exact validation and hardware limits. Existing desktop photographs keep their original provenance.
 
-[Light preview](../src/screenshots/previews/control-center-golden-gate-light-cc2bdfc937e8.png) · [Dark preview](../src/screenshots/previews/control-center-golden-gate-dark-bd924a582ef2.png) · [Capture provenance](../src/screenshots/previews/control-center-golden-gate-provenance.json)
+[Light preview](../src/screenshots/previews/golden-gate-control-center-light-1ba5e15879e3.webp) · [Dark preview](../src/screenshots/previews/golden-gate-control-center-dark-f64684891069.webp) · [Capture provenance](../src/screenshots/previews/golden-gate-aligned-gallery-07eff6c1f683.json)
 
 Typography uses the bundled SF Pro Text face: 13 logical pixels for labels and
 11 for secondary captions. Original monochrome symbols use consistent 18-pixel
@@ -21,6 +21,5 @@ preparation. Plasma's backgroundless dialog otherwise clears that region during
 layout and theme updates. A real striped window behind the popup verifies the
 compositor effect: the tiles blur while the gaps remain sharp. The X11 regression
 checks the published blur property after opening, theme reset and reopening.
-Earlier typography previews above predate this blur lifecycle repair.
 
 [Blur proof — light](../src/screenshots/previews/control-center-blur-golden-gate-light-cac4c9f8a511.png) · [Blur proof — dark](../src/screenshots/previews/control-center-blur-golden-gate-dark-d453d0624707.png) · [Blur capture provenance](../src/screenshots/previews/control-center-blur-golden-gate-provenance.json)
