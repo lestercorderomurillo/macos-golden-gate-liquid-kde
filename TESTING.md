@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.85.18**. The pinned desktop widget blur was checked with the Golden Gate wallpaper during manual appearance changes. Four wrapper checks passed for staging, pin selection and archive verification. [Validation and coverage](release-evidence.json).
+**v0.85.19**. Control Center keeps the desktop sharp between tiles and preserves each tile’s glass. Both edition materials were captured in light and dark on KDE neon Wayland. The isolated KWin X11 popup test changed zero pixels in its gap. [Validation and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
