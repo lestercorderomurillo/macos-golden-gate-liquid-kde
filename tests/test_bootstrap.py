@@ -537,7 +537,7 @@ def test_candidate_pin_is_not_downgraded_to_latest_stable(tmp_path, monkeypatch)
 
 
 @pytest.mark.parametrize('local', [False, True])
-@pytest.mark.parametrize('damage', ['entry', 'module', 'changed-module', 'legacy', 'invalid-manifest'])
+@pytest.mark.parametrize('damage', ['entry', 'module', 'changed-module', 'payload', 'legacy', 'invalid-manifest'])
 def test_prepare_repairs_startup_cache(tmp_path, monkeypatch, local, damage):
     wrapper_at(tmp_path, monkeypatch)
     original = local_checkout(tmp_path / 'fixture-source')
@@ -559,6 +559,8 @@ def test_prepare_repairs_startup_cache(tmp_path, monkeypatch, local, damage):
         (prepared / 'src/installer/installer_ui.py').unlink()
     elif damage == 'changed-module':
         (prepared / 'src/installer/installer_ui.py').write_text('# corrupt!\n')
+    elif damage == 'payload':
+        (prepared / 'src/offline/wallpapers/MacGoldenGate/metadata.json').write_text('{} damaged')
     elif damage == 'legacy':
         (prepared / '.golden-gate-startup.json').unlink()
     else:

@@ -251,12 +251,22 @@ def apply_defaults(source: Path, defaults: dict) -> None:
 
 
 def startup_manifest(source: Path) -> dict:
-    """Fingerprint entry points and Python imports, excluding generated caches."""
-    paths = {source / entry for entry in ENTRY_POINTS if (source / entry).exists()}
-    for directory in ("src/installer", "src/scripts"):
-        paths.update((source / directory).rglob("*.py"))
-    return {str(path.relative_to(source)): hashlib.sha256(path.read_bytes()).hexdigest()
-            for path in sorted(paths)}
+    """Cover the prepared installer and its runtime payloads, including links."""
+    paths = {source / entry for entry in (*ENTRY_POINTS, "VERSION", "component-hashes.json")
+             if (source / entry).exists()}
+    for directory in ("src/installer", "src/scripts", "src/offline"):
+        paths.update(path for path in (source / directory).rglob("*")
+                     if "__pycache__" not in path.parts and (path.is_symlink() or path.is_file()))
+    result = {}
+    for path in sorted(paths):
+        if path.is_symlink():
+            value = "link:" + os.readlink(path)
+        else:
+            value = hashlib.sha256(path.read_bytes()).hexdigest()
+            if path.stat().st_mode & 0o111:
+                value = "exec:" + value
+        result[str(path.relative_to(source))] = value
+    return result
 
 
 def prepared_startup_valid(source: Path) -> bool:
