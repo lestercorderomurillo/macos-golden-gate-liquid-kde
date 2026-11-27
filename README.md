@@ -180,7 +180,7 @@ Search for apps or browse them by category.
 Adjust Wi-Fi, sound and brightness in one menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Control Center · Light and dark modes" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Control Center · Light and dark modes" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Adjust Wi-Fi, sound and brightness in one menu.
 Read recent alerts grouped by app.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Notifications · Light and dark modes" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Notifications · Light and dark modes" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Open the clock to browse the month.
 Connect paired devices and check their battery levels.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Light and dark modes" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Light and dark modes" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Connect paired devices and check their battery levels.
 View available networks and connection status.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Light and dark modes" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Light and dark modes" width="328">
 </p>
 
 <br>

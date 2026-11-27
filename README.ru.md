@@ -180,7 +180,7 @@
 Настраивайте Wi-Fi, звук и яркость в одном меню.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Центр управления · Светлый и тёмный режимы" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Центр управления · Светлый и тёмный режимы" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@
 Просматривайте недавние уведомления, сгруппированные по приложениям.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Уведомления · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Уведомления · Светлый и тёмный режимы" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@
 Подключайте сопряжённые устройства и проверяйте их заряд.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Светлый и тёмный режимы" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Светлый и тёмный режимы" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@
 Просматривайте доступные сети и состояние подключения.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Светлый и тёмный режимы" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Светлый и тёмный режимы" width="328">
 </p>
 
 <br>

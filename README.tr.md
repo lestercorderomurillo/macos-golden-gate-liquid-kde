@@ -180,7 +180,7 @@ Uygulamaları arayın veya kategoriye göre gözden geçirin.
 Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Kontrol Merkezi · Açık ve koyu modlar" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Kontrol Merkezi · Açık ve koyu modlar" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Wi-Fi, ses ve parlaklığı tek menüden ayarlayın.
 Son bildirimleri uygulamaya göre gruplanmış olarak görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="İletişimler · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="İletişimler · Açık ve koyu modlar" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Aylık takvimi görmek için saati açın.
 Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Açık ve koyu modlar" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Açık ve koyu modlar" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Eşleştirilmiş cihazları bağlayın ve pil düzeylerini kontrol edin.
 Kullanılabilir ağları ve bağlantı durumunu görün.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Açık ve koyu modlar" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Açık ve koyu modlar" width="328">
 </p>
 
 <br>

@@ -99,10 +99,9 @@
     "bluetooth": {
       "captures": [
         {
+          "case": "bluetooth",
           "edition": "golden-gate",
           "mode": "light",
-          "case": "bluetooth",
-          "window": "mttkde-bluetooth",
           "geometry": {
             "x": 1507,
             "y": 30,
@@ -115,35 +114,42 @@
             3670,
             452
           ],
+          "window": "mttkde-bluetooth",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "b2dcd01ebddb17425227226babfc37e1d19c760a29e94e994a654f857cc65db3"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "78d7db8bcde54a12c21f17c74bd695c60d7f965d80e6560f19a82644420dfbd3"
         },
         {
+          "case": "bluetooth",
           "edition": "golden-gate",
           "mode": "dark",
-          "case": "bluetooth",
-          "window": "mttkde-bluetooth",
           "geometry": {
-            "x": 1507,
+            "x": 1509,
             "y": 30,
             "width": 328,
             "height": 196
           },
           "crop": [
-            3014,
+            3018,
             60,
-            3670,
+            3674,
             452
           ],
+          "window": "mttkde-bluetooth",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "d740e883b90b65e93b3b9ee1504c5a48cbe03892004bf95c53750df47747ec2e"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "88babc250684b034d9aec1ae609858317b5e1a5074573a339f7da7debc1493fa"
         }
       ],
       "sources": [
-        "src/screenshots/previews/golden-gate-bluetooth-light-690315cd3818.webp",
-        "src/screenshots/previews/golden-gate-bluetooth-dark-990d68a80e85.webp"
+        "src/screenshots/previews/golden-gate-bluetooth-light-0df1bfab10be.webp",
+        "src/screenshots/previews/golden-gate-bluetooth-dark-8dd4a5103dff.webp"
       ],
-      "gif": "src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif",
+      "gif": "src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif",
       "dimensions": [
         656,
         392
@@ -258,10 +264,9 @@
     "control-center": {
       "captures": [
         {
+          "case": "control-center",
           "edition": "golden-gate",
           "mode": "light",
-          "case": "control-center",
-          "window": "mttkde-control-center",
           "geometry": {
             "x": 1434,
             "y": 30,
@@ -274,14 +279,17 @@
             3840,
             1418
           ],
+          "window": "mttkde-control-center",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "0306a3faa0638ff6c45551857eec3861236138dca92fdc059ec550db569e1eb5"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "3f97671d9fef9b454ac4f9a093c13b44a7cdcd5c1a32a4c16d049cc07096a6e4"
         },
         {
+          "case": "control-center",
           "edition": "golden-gate",
           "mode": "dark",
-          "case": "control-center",
-          "window": "mttkde-control-center",
           "geometry": {
             "x": 1434,
             "y": 30,
@@ -294,15 +302,19 @@
             3840,
             1418
           ],
+          "window": "mttkde-control-center",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "5744ee46e0fe72187fac00f0f86604336bf7c487af01dee63b044d1f90896bde"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "d136ce7bc80cda969415b4683bd26736000cce3e13e6ec00038d929e174203f8"
         }
       ],
       "sources": [
-        "src/screenshots/previews/golden-gate-control-center-light-e53bb9411eef.webp",
-        "src/screenshots/previews/golden-gate-control-center-dark-41f8f77285f5.webp"
+        "src/screenshots/previews/golden-gate-control-center-light-1ba5e15879e3.webp",
+        "src/screenshots/previews/golden-gate-control-center-dark-f64684891069.webp"
       ],
-      "gif": "src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif",
+      "gif": "src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif",
       "dimensions": [
         632,
         1018
@@ -417,10 +429,9 @@
     "notifications": {
       "captures": [
         {
+          "case": "notifications",
           "edition": "golden-gate",
           "mode": "light",
-          "case": "notifications",
-          "window": "mttkde-notifications",
           "geometry": {
             "x": 1550,
             "y": 36,
@@ -433,14 +444,17 @@
             3828,
             328
           ],
+          "window": "mttkde-notifications",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "1bac0991d0834050755d426c5ec3b63dcdc885203114673b042e84ff95cc2cd3"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "cd5344fe909c9ee2ef0ab7d5aa26ef65d8667c3972cf3fddc76f4dfecbb6905a"
         },
         {
+          "case": "notifications",
           "edition": "golden-gate",
           "mode": "dark",
-          "case": "notifications",
-          "window": "mttkde-notifications",
           "geometry": {
             "x": 1550,
             "y": 36,
@@ -453,15 +467,19 @@
             3828,
             328
           ],
+          "window": "mttkde-notifications",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "533a5dc0d2d190f37cb46fcea470c999e61403981b1c3a6e23916b814fa15fa4"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "fbfcfb9c07cf9e08fb617b2cab21c77b6dbf65b2a6891e5633c22f9ac48de649"
         }
       ],
       "sources": [
-        "src/screenshots/previews/golden-gate-notifications-light-abba2ce7fd09.webp",
-        "src/screenshots/previews/golden-gate-notifications-dark-f93f80c67102.webp"
+        "src/screenshots/previews/golden-gate-notifications-light-9af9072580be.webp",
+        "src/screenshots/previews/golden-gate-notifications-dark-08c6f1325ca1.webp"
       ],
-      "gif": "src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif",
+      "gif": "src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif",
       "dimensions": [
         728,
         256
@@ -629,10 +647,9 @@
     "wi-fi": {
       "captures": [
         {
+          "case": "wi-fi",
           "edition": "golden-gate",
           "mode": "light",
-          "case": "wi-fi",
-          "window": "mttkde-wifi",
           "geometry": {
             "x": 1541,
             "y": 30,
@@ -645,35 +662,42 @@
             3738,
             730
           ],
+          "window": "mttkde-wifi",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "65c06fa9d5ba8d7ee14bd91f6913b9c010701c1492e3b4aa8966e5bcb9a5d770"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "0236f8c59a4f904df94ff44bd74e0a87bbabb60676f44142d37f45ba37bad31c"
         },
         {
+          "case": "wi-fi",
           "edition": "golden-gate",
           "mode": "dark",
-          "case": "wi-fi",
-          "window": "mttkde-wifi",
           "geometry": {
-            "x": 1541,
+            "x": 1543,
             "y": 30,
             "width": 328,
             "height": 335
           },
           "crop": [
-            3082,
+            3086,
             60,
-            3738,
+            3742,
             730
           ],
+          "window": "mttkde-wifi",
           "wallpaper": "file:///home/tester/.local/share/wallpapers/MacGoldenGate",
-          "sha256": "13d62832eae5fa7bcfcb0f35aadb856f93e4386fc1e0ec2e737605d192e474ec"
+          "source": "7a76d59e9834b04d1caeb204a4a094cb4738b24d",
+          "kwin": "kwin 6.8.1",
+          "plasma": "plasmashell 6.8.1",
+          "sha256": "9ea249c4d5e22ed7b36c4b9da31d8e6c04271c2f4ff3eaca622125d94098b2d2"
         }
       ],
       "sources": [
-        "src/screenshots/previews/golden-gate-wi-fi-light-a385dceff37b.webp",
-        "src/screenshots/previews/golden-gate-wi-fi-dark-ddb58263b356.webp"
+        "src/screenshots/previews/golden-gate-wi-fi-light-823276849de0.webp",
+        "src/screenshots/previews/golden-gate-wi-fi-dark-be622291af23.webp"
       ],
-      "gif": "src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif",
+      "gif": "src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif",
       "dimensions": [
         656,
         670

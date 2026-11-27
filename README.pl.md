@@ -180,7 +180,7 @@ Szukaj aplikacji lub przeglądaj je według kategorii.
 Steruj siecią Wi-Fi, dźwiękiem i jasnością z jednego menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centrum sterowania · Tryb jasny i ciemny" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Centrum sterowania · Tryb jasny i ciemny" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Steruj siecią Wi-Fi, dźwiękiem i jasnością z jednego menu.
 Czytaj ostatnie powiadomienia pogrupowane według aplikacji.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Powiadomienia · Tryb jasny i ciemny" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Powiadomienia · Tryb jasny i ciemny" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Otwórz zegar, aby wyświetlić kalendarz miesięczny.
 Łącz się ze sparowanymi urządzeniami i sprawdzaj poziom ich baterii.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Tryb jasny i ciemny" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Tryb jasny i ciemny" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Otwórz zegar, aby wyświetlić kalendarz miesięczny.
 Sprawdź dostępne sieci i stan połączenia.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Tryb jasny i ciemny" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Tryb jasny i ciemny" width="328">
 </p>
 
 <br>

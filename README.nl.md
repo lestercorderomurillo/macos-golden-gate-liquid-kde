@@ -180,7 +180,7 @@ Zoek apps of blader per categorie.
 Regel wifi, geluid en helderheid in één menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Control Center · Lichte en donkere modus" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Control Center · Lichte en donkere modus" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Regel wifi, geluid en helderheid in één menu.
 Bekijk recente meldingen gegroepeerd per app.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Meldingen · Lichte en donkere modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Meldingen · Lichte en donkere modus" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Open de klok om de maandkalender te bekijken.
 Verbind gekoppelde apparaten en bekijk hun batterijniveau.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Lichte en donkere modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Lichte en donkere modus" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Verbind gekoppelde apparaten en bekijk hun batterijniveau.
 Bekijk beschikbare netwerken en de verbindingsstatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Lichte en donkere modus" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Lichte en donkere modus" width="328">
 </p>
 
 <br>

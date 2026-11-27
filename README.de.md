@@ -177,7 +177,7 @@ Suche Apps oder durchstöbere sie nach Kategorie.
 Steuere WLAN, Lautstärke und Helligkeit in einem Menü.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Kontrollzentrum · Heller und dunkler Modus" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Kontrollzentrum · Heller und dunkler Modus" width="360">
 </p>
 
 <br>
@@ -187,7 +187,7 @@ Steuere WLAN, Lautstärke und Helligkeit in einem Menü.
 Lies aktuelle Meldungen nach App gruppiert.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Mitteilungen · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Mitteilungen · Heller und dunkler Modus" width="620">
 </p>
 
 <br>
@@ -217,7 +217,7 @@ Durchsuche Dateien in einem Fenster im Finder-Stil.
 Verbinde gekoppelte Geräte und prüfe ihren Akkustand.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Heller und dunkler Modus" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Heller und dunkler Modus" width="620">
 </p>
 
 ### Wi-Fi
@@ -225,7 +225,7 @@ Verbinde gekoppelte Geräte und prüfe ihren Akkustand.
 Sieh verfügbare Netzwerke und den Verbindungsstatus.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Heller und dunkler Modus" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Heller und dunkler Modus" width="328">
 </p>
 
 <br>

@@ -177,7 +177,7 @@ Busca aplicaciones o explóralas por categoría.
 Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centro de control · Modos claro y oscuro" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Centro de control · Modos claro y oscuro" width="360">
 </p>
 
 <br>
@@ -187,7 +187,7 @@ Ajusta el Wi-Fi, el sonido y el brillo desde un solo menú.
 Consulta las notificaciones recientes agrupadas por aplicación.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Notificaciones · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Notificaciones · Modos claro y oscuro" width="620">
 </p>
 
 <br>
@@ -217,7 +217,7 @@ Abre el reloj para consultar el calendario del mes.
 Conecta tus dispositivos emparejados y consulta su batería.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Modos claro y oscuro" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Modos claro y oscuro" width="620">
 </p>
 
 ### Wi-Fi
@@ -225,7 +225,7 @@ Conecta tus dispositivos emparejados y consulta su batería.
 Consulta las redes disponibles y el estado de la conexión.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Modos claro y oscuro" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Modos claro y oscuro" width="328">
 </p>
 
 <br>

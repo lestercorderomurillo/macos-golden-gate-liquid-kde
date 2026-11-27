@@ -180,7 +180,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 एक ही मेन्यू से वाई-फ़ाई, आवाज़ और चमक नियंत्रित करें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="नियंत्रण केंद्र · लाइट और डार्क मोड" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="नियंत्रण केंद्र · लाइट और डार्क मोड" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 हाल की सूचनाएँ ऐप के अनुसार समूहों में देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="सूचनाएं · लाइट और डार्क मोड" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="सूचनाएं · लाइट और डार्क मोड" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 पेयर किए गए डिवाइस जोड़ें और उनकी बैटरी का स्तर देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · लाइट और डार्क मोड" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · लाइट और डार्क मोड" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 उपलब्ध नेटवर्क और कनेक्शन की स्थिति देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · लाइट और डार्क मोड" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · लाइट और डार्क मोड" width="328">
 </p>
 
 <br>

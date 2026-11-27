@@ -180,7 +180,7 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="制御センター · ライトモードとダークモード" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="制御センター · ライトモードとダークモード" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Wi-Fi、音量、明るさをひとつのメニューで調整できます。
 最近の通知をアプリごとにまとめて確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="通知 · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="通知 · ライトモードとダークモード" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ペアリング済みの機器を接続し、電池残量を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · ライトモードとダークモード" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · ライトモードとダークモード" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 利用可能なネットワークと接続状態を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · ライトモードとダークモード" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · ライトモードとダークモード" width="328">
 </p>
 
 <br>

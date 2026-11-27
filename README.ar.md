@@ -180,7 +180,7 @@
 اضبط الشبكة اللاسلكية والصوت والسطوع من قائمة واحدة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="مركز التحكم · الوضعان الفاتح والداكن" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="مركز التحكم · الوضعان الفاتح والداكن" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@
 اطّلع على الإشعارات الأخيرة مجمّعة حسب التطبيق.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="الإخطارات · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="الإخطارات · الوضعان الفاتح والداكن" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@
 اتصل بالأجهزة المقترنة وتحقق من مستوى بطارياتها.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · الوضعان الفاتح والداكن" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · الوضعان الفاتح والداكن" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@
 اعرض الشبكات المتاحة وحالة الاتصال.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · الوضعان الفاتح والداكن" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · الوضعان الفاتح والداكن" width="328">
 </p>
 
 <br>

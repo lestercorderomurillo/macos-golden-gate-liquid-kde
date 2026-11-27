@@ -180,7 +180,7 @@ Cerca le app o sfogliale per categoria.
 Regola Wi-Fi, audio e luminosità da un unico menu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-34ce620e678d.gif" alt="Centro di controllo · Modalità chiara e scura" width="360">
+  <img src="src/screenshots/previews/golden-gate-control-center-light-dark-1ad41fdd339c.gif" alt="Centro di controllo · Modalità chiara e scura" width="360">
 </p>
 
 <br>
@@ -190,7 +190,7 @@ Regola Wi-Fi, audio e luminosità da un unico menu.
 Leggi le notifiche recenti raggruppate per app.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-de88e1df1d3a.gif" alt="Notifiche · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-notifications-light-dark-e75995c20e4d.gif" alt="Notifiche · Modalità chiara e scura" width="620">
 </p>
 
 <br>
@@ -220,7 +220,7 @@ Apri l’orologio per consultare il calendario del mese.
 Connetti i dispositivi associati e controlla la loro batteria.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-9b66d4d8bead.gif" alt="Bluetooth · Modalità chiara e scura" width="620">
+  <img src="src/screenshots/previews/golden-gate-bluetooth-light-dark-b35bef1f0240.gif" alt="Bluetooth · Modalità chiara e scura" width="620">
 </p>
 
 ### Wi-Fi
@@ -228,7 +228,7 @@ Connetti i dispositivi associati e controlla la loro batteria.
 Visualizza le reti disponibili e lo stato della connessione.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-22208ea79be2.gif" alt="Wi-Fi · Modalità chiara e scura" width="328">
+  <img src="src/screenshots/previews/golden-gate-wi-fi-light-dark-d37d783e1457.gif" alt="Wi-Fi · Modalità chiara e scura" width="328">
 </p>
 
 <br>
