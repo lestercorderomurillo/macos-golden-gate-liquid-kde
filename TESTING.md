@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.85.17**. The pinned Tahoe helper passed all 90 OLED Care tests, including recovery after interrupted panel discovery. Four Golden Gate wrapper checks passed for staging, pin selection and archive verification. [Validation and coverage](release-evidence.json).
+**v0.85.18**. The pinned desktop widget blur was checked with the Golden Gate wallpaper during manual appearance changes. Four wrapper checks passed for staging, pin selection and archive verification. [Validation and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 

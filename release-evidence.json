@@ -1,15 +1,19 @@
 {
-  "version": "0.85.17",
+  "version": "0.85.18",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Recover an interrupted OLED Care discovery pass with an empty panel map.",
-  "reference": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/issues/171",
+  "qualified_candidate": "c72a79388314c8edaf31456f9e8ce2e5adb07d2d",
+  "scope": "Refresh the shared desktop widget blur when Plasma replaces the wallpaper during an appearance transition.",
   "checks": [
     {
-      "command": "python3 -m pytest tests/test_oled_care.py (89 passed initially; the socket-path case passed separately with a shorter repository-local basetemp)",
+      "command": "python3 -m pytest tests/test_desktop_widgets.py (8 passed)",
       "result": "passed"
     },
     {
-      "command": "python3 src/scripts/component_manifest.py",
+      "command": "KDE neon guest, calendar open with realtimeRefraction=false, plasma-apply-colorscheme light and dark with MacTahoe and MacGoldenGate wallpapers",
+      "result": "passed"
+    },
+    {
+      "command": "mac-tahoe-theme-switch light and dark in the guest, same plasmashell PID and no LiquidGlass.qml TypeError",
       "result": "passed"
     },
     {
@@ -17,7 +21,11 @@
       "result": "passed"
     }
   ],
-  "coverage_limits": "Local Python and Node regressions. Lost replies were simulated. No live Plasma session was required for journal cleanup.",
-  "source_sha256": "84947a028a63d27cf37d301c7a1576196bfc2258350352d5bddb3bffea433e36",
-  "qualified_candidate": "ebd4e611a43c45b836b319c3aa4c3b119fc39fab"
+  "coverage_limits": "One live calendar instance exercised the shared material. Manual light and dark switches were observed. Scheduled transitions and other widget instances were not individually exercised.",
+  "approval": "Maintainer approved both light/dark comparison previews before paired publication.",
+  "preview_sha256": {
+    "MacTahoe.jpg": "3410a1388eca057830ae80a3e353bd1c929f08bfd793ed64c79060007424f5cb",
+    "MacGoldenGate.jpg": "36dbd84a2e70e8ba3f245f229b416ecb283517a81c6d6f529e8a2967fdb63197"
+  },
+  "source_sha256": "2c6b8af2b239a598a1d58034c496ba3f1fd2f0b994fe8432b8f18a36de8a8dc3"
 }
