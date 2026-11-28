@@ -1,21 +1,21 @@
 {
-  "version": "0.85.44",
+  "version": "0.85.45",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Use the approved line-scoped adaptive tint for Apps labels by default. Explicit saved scopes still take precedence.",
+  "scope": "Settings saves pending live preferences before opening component installation review.",
   "checks": [
     {
-      "command": "Compile the native profile resolver and verify the default is line with 15 samples. An explicit letter override remains letter with one sample.",
+      "command": "QT_FONT_DPI=84 python3 -m pytest tests/test_installer_wizard.py -k native_wizard_navigation (both editions passed).",
       "result": "passed"
     },
     {
-      "command": "Run the Golden Gate Light Apps popup and Tahoe Light clipboard native integration checks. Both passed. Compare old explicit line with the new default in a 285-app grid. All 25 visible label strings, foreground colors, line counts and geometry matched. The deterministic 600x412 software capture matched byte for byte.",
+      "command": "python3 -m pytest tests/test_plasmoid_settings.py (13 passed).",
       "result": "passed"
     },
     {
-      "command": "Verify the approved line rendering and final delegate ordering on forward and reverse scroll. The deterministic settled grid matched the unpooled reference at both positions. The maintainer explicitly approved publishing the shown line preset as default.",
+      "command": "Click Save in isolated X11 Plasma with a pending font installation choice. Verify Apps grid columns change from five to four and persist after reopening Settings. Save 36 additional Control Center and system menu values and compare live Plasma readback.",
       "result": "passed"
     }
   ],
-  "coverage_limits": "Scroll measurements use the isolated Apps fixture. The fullscreen frame-time result applies to the tested opaque 1080p scene.",
-  "source_sha256": "1ee8a704a96e9744c7d0b9cdc86bbfd4762799e63ad82d734ccb6a26ce95b357"
+  "coverage_limits": "The Plasma write check covered 37 preferences. The offscreen navigation test used 84 DPI. At the host default DPI its horizontal-scroll assertion stopped the test before the Save scenario.",
+  "source_sha256": "78fe885ab954b4e4c8dcba154b5b18a84fa230bf2fc9b11245122fec975ef64d"
 }
