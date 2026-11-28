@@ -1,17 +1,17 @@
 {
-  "version": "0.85.29",
+  "version": "0.85.31",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Restore the normal installer window size when the ready page opens.",
+  "scope": "Align all numeric sliders in Acrylic Glass settings.",
   "checks": [
     {
-      "command": "python3 -m pytest tests/test_installer_wizard.py::test_native_wizard_navigation_preserves_choices_and_waits_for_completion (both editions passed)",
+      "command": "Render the candidate Settings editor in the disposable KDE neon guest and compare the editor-relative x position and width of every QSlider. All 20 returned (505, 124).",
       "result": "passed"
     }
   ],
-  "coverage_limits": "Offscreen Qt wizard with simulated backend completion.",
-  "approval": "Maintainer approved publication after reviewing the 900 x 680 Tahoe completion window.",
+  "coverage_limits": "Dark Settings editor with the Golden Gate (Official) material preset. Both editions share the slider implementation.",
+  "approval": "Maintainer approved the displayed sliders.png preview for release.",
   "approved_previews": {
-    "ready.png": "b8f1e89416ec2300d0474a43ad657c0573dccca02125b38c5f92e83de1c1cc4d"
+    "sliders.png": "8e60fdba3b987a4bd7aa5cdb14b22a81fad8b20e3e4c49ec52a01af95b0e460a"
   },
-  "source_sha256": "50ddc28aa3a0291f856f1ec3bdbfa85f566195a2e393e3f139ba3dfbaaf7bd32"
+  "source_sha256": "4654fb0aab909da912811e5a0012815567a27d89ac6e9c9a5b92c14fd1f55e31"
 }
