@@ -1,29 +1,29 @@
 {
-  "version": "0.85.49",
+  "version": "0.85.50",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Launchpad categories share the available width, and the floating view has a 16 px top inset.",
+  "scope": "Alt+Space and Meta+Alt+Space open Launchpad search.",
   "checks": [
     {
-      "command": "Install the candidate in disposable KDE neon Plasma 6.8.1 Wayland guests. Open floating search, capture the category strip in both editions and appearances, exercise typing and dismissal, and open the integrated view. KWin measured a 1028 by 634 logical pixel Apps panel in all four captures.",
+      "command": "Press Alt+Space in light mode and Meta+Alt+Space in dark mode in both installed editions. Verify KWin shows the floating Launchpad search and Apps windows, type into search, and dismiss the popup.",
       "result": "passed"
     },
     {
-      "command": "python3 -m pytest -q tests/test_multilanguage.py::test_catalogs_cover_all_project_widget_and_kcm_messages (14 passed)",
+      "command": "Seed the previous Meta+Alt+Space-only assignment in the Tahoe guest and verify both physical shortcuts after installation.",
       "result": "passed"
     }
   ],
-  "coverage_limits": "Rendered checks cover both editions on KDE neon Wayland at 2x display scale.",
+  "coverage_limits": "Disposable KDE neon Plasma 6.8.1 Wayland guests at 2x scale. The previous shortcut assignment was explicitly seeded in Tahoe.",
   "captures": [
     {
-      "path": "src/screenshots/previews/golden-gate-launchpad-categories-light-80327f676026.png",
-      "sha256": "80327f6760260e11daa3dd8e4d2347836d90497b02054760df686db45452e7a6",
+      "path": "src/screenshots/previews/golden-gate-launchpad-shortcuts-light-2bcd8a860460.png",
+      "sha256": "2bcd8a8604601ff5a7b0e8307c8806bdd0c4f16b2a397e93c194e97782f4e66c",
       "reviewed": true
     },
     {
-      "path": "src/screenshots/previews/golden-gate-launchpad-categories-dark-ce8768f9b9aa.png",
-      "sha256": "ce8768f9b9aa80d86d12ca3c5e699b43317160860e2071fee288cacf080240a9",
+      "path": "src/screenshots/previews/golden-gate-launchpad-shortcuts-dark-62c8d8d4c208.png",
+      "sha256": "62c8d8d4c208b54aeae810a61550537e0b83db1d9fd954c10ea10b2bc1d23614",
       "reviewed": true
     }
   ],
-  "source_sha256": "4bbdb18536dea097d702218e3dadf8e270fd29b83d068f289ea6c7827c946fdc"
+  "source_sha256": "9227610c059af17c964671730e21c32164e9c5abffc9a1bb00a2a5dbfcb46608"
 }
