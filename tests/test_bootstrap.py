@@ -122,9 +122,9 @@ def test_launcher_preset_requires_shared_support_and_is_forwarded(tmp_path, pres
     assert json.loads(config.read_text()) == defaults
 
 
-def test_golden_gate_defaults_to_second_launcher_preset():
+def test_golden_gate_defaults_to_tahoe_launcher():
     defaults = json.loads((bootstrap.ROOT / "defaults.json").read_text())
-    assert defaults["launcher_preset"] == 2
+    assert defaults["launcher_preset"] == 1
 
 
 def test_launch_forwards_arguments_and_disables_independent_updates(tmp_path, monkeypatch):
