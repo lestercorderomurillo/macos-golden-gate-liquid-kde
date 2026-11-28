@@ -1,7 +1,7 @@
 {
-  "version": "0.85.32",
+  "version": "0.85.33",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Use the Tahoe Launchpad layout in both editions and Notification Center glass inside launcher options.",
+  "scope": "Retain the approved Launchpad and exercise its two installer choices in the native wizard navigation regression.",
   "checks": [
     {
       "command": "Capture Launchpad and its options in both editions on Plasma 6.8.1 Wayland in light and dark appearance. Measure the 615 × 526 default frame and exercise dismissal through the underlying textbox, category tab, application and blank space.",
@@ -10,6 +10,10 @@
     {
       "command": "Run tests/test_bootstrap.py -k \"golden_gate_defaults_to_tahoe_launcher or launcher_preset_requires_shared_support\". Verify the immutable Tahoe archive checksum and edition versions with check_pair.py.",
       "result": "passed"
+    },
+    {
+      "command": "pytest -q tests/test_installer_wizard.py -k native_wizard_navigation_preserves (both edition cases passed in an isolated offscreen Qt session).",
+      "result": "passed"
     }
   ],
   "coverage_limits": "Visual review covers the default grid and light and dark appearances on Wayland. The X11 pixel check exercises compositor rendering. The hidden Search AI popup has no user entry point.",
@@ -17,5 +21,5 @@
   "approved_previews": {
     "notification-glass-preview.png": "f381ff87afcffdf8ef62179405b22bc210670b185afaac22dbe226daf1c655de"
   },
-  "source_sha256": "3110e1146ec3d5028106295b2bd408f89da743f6c7572f817caa7e9141a25f4e"
+  "source_sha256": "a4eaa07d637e3ee1bafd02b32cdf94a0de9631174b88a1d5a3cb9cf3bd9d2bb9"
 }
