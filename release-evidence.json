@@ -1,29 +1,28 @@
 {
-  "version": "0.85.50",
+  "version": "0.85.51",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Alt+Space and Meta+Alt+Space open Launchpad search.",
+  "scope": "Refresh the Qt widget style after delayed light/dark notifications.",
   "checks": [
     {
-      "command": "Press Alt+Space in light mode and Meta+Alt+Space in dark mode in both installed editions. Verify KWin shows the floating Launchpad search and Apps windows, type into search, and dismiss the popup.",
+      "command": "Suspend the persistent Qt probe while switching modes, delay Plasma during the intermediate Breeze update, resume both and inspect the same process IDs, menu surfaces and screenshots in the KDE neon VM.",
       "result": "passed"
     },
     {
-      "command": "Seed the previous Meta+Alt+Space-only assignment in the Tahoe guest and verify both physical shortcuts after installation.",
+      "command": "Exercise native KDE and GTK preference changes and an automatic dusk transition with the installed Golden Gate switcher. Inspect the Apple menu after each change.",
+      "result": "passed"
+    },
+    {
+      "command": "Run the focused theme switcher, appearance sync, continuous menu and component glass pytest suites (172 passing cases including a separate rerun of the native glass test).",
       "result": "passed"
     }
   ],
-  "coverage_limits": "Disposable KDE neon Plasma 6.8.1 Wayland guests at 2x scale. The previous shortcut assignment was explicitly seeded in Tahoe.",
+  "coverage_limits": "Disposable KDE neon Wayland VM. Both editions’ Qt menu profiles were exercised. The approved comparison uses Golden Gate material. No host installation.",
   "captures": [
     {
-      "path": "src/screenshots/previews/golden-gate-launchpad-shortcuts-light-2bcd8a860460.png",
-      "sha256": "2bcd8a8604601ff5a7b0e8307c8806bdd0c4f16b2a397e93c194e97782f4e66c",
-      "reviewed": true
-    },
-    {
-      "path": "src/screenshots/previews/golden-gate-launchpad-shortcuts-dark-62c8d8d4c208.png",
-      "sha256": "62c8d8d4c208b54aeae810a61550537e0b83db1d9fd954c10ea10b2bc1d23614",
+      "path": "src/screenshots/previews/apple-menu-switch-06febe442ab3.png",
+      "sha256": "06febe442ab321099825f97a52b1e06952585545ec90010d30bb90bb82436d8a",
       "reviewed": true
     }
   ],
-  "source_sha256": "9227610c059af17c964671730e21c32164e9c5abffc9a1bb00a2a5dbfcb46608"
+  "source_sha256": "396206f208dc9d030ea3f91dd76358ec99dcd7dfa1ae9f9cc9a417b7c715bae6"
 }
