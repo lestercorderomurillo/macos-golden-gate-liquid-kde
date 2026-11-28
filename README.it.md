@@ -258,7 +258,7 @@ Riutilizza il testo e le immagini che hai copiato.
 Consulta i dettagli di hardware, software e tema.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="Informazioni del sistema · Modalità chiara e scura" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-b1fa68fd95b6.gif" alt="Informazioni del sistema · Modalità chiara e scura" width="392">
 </p>
 
 <br>

@@ -258,7 +258,7 @@
 Просматривайте сведения об оборудовании, программах и теме оформления.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="Информационная система · Светлый и тёмный режимы" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-b1fa68fd95b6.gif" alt="Информационная система · Светлый и тёмный режимы" width="392">
 </p>
 
 <br>

@@ -258,7 +258,7 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 हार्डवेयर, सॉफ़्टवेयर और थीम का विवरण देखें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="सिस्टम सूचना · लाइट और डार्क मोड" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-b1fa68fd95b6.gif" alt="सिस्टम सूचना · लाइट और डार्क मोड" width="392">
 </p>
 
 <br>

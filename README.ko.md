@@ -258,7 +258,7 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 하드웨어, 소프트웨어 및 테마 정보를 확인할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="시스템 정보 · 밝은 모드와 어두운 모드" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-b1fa68fd95b6.gif" alt="시스템 정보 · 밝은 모드와 어두운 모드" width="392">
 </p>
 
 <br>

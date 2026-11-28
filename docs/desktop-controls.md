@@ -6,7 +6,7 @@ Control Center provides floating glass controls, native system models and saved 
 
 See [release evidence](../release-evidence.json) for the exact validation and hardware limits. Existing desktop photographs keep their original provenance.
 
-[Light preview](../src/screenshots/previews/golden-gate-control-center-light-1ba5e15879e3.webp) · [Dark preview](../src/screenshots/previews/golden-gate-control-center-dark-f64684891069.webp) · [Capture provenance](../src/screenshots/previews/golden-gate-aligned-gallery-7028dfddf46a.json)
+[Light preview](../src/screenshots/previews/golden-gate-control-center-light-1ba5e15879e3.webp) · [Dark preview](../src/screenshots/previews/golden-gate-control-center-dark-f64684891069.webp) · [Capture provenance](../src/screenshots/previews/golden-gate-aligned-gallery-f79f653b97bc.json)
 
 Typography uses the bundled SF Pro Text face: 13 logical pixels for labels and
 11 for secondary captions. Original monochrome symbols use consistent 18-pixel

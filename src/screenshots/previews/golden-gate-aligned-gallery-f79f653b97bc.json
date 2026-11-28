@@ -597,57 +597,59 @@
           "edition": "golden-gate",
           "mode": "light",
           "case": "system-information",
-          "window": "About This Computer (preview)",
-          "source": "94280421232fbdca296bca7404caeeb19c8d9d66",
+          "window": "About This Computer",
+          "resource_class": "org.kde.plasmashell",
           "geometry": {
             "x": 780,
-            "y": 250,
+            "y": 283,
             "width": 360,
             "height": 543
           },
-          "wallpaper": "MacGoldenGate",
-          "approved_preview": "MacGoldenGate.png",
-          "approved_preview_sha256": "0b75264a4abef56ba5fe15869ba89c83911d90f4a08031d17ff957bde7729c44",
-          "preview_crop": [
-            0,
-            0,
-            500,
-            731
+          "crop": [
+            1528,
+            534,
+            2312,
+            1684
           ],
-          "sha256": "312753c3fe88733cade47d8549b5a17b1aacd5312f376d7cd0db9fb26970c9ff"
+          "scale": 2,
+          "source": "1d615c7160fcf386d6e1a6d0fb91729f4e7394a0",
+          "entry_point": "Installed Plasma panel system menu",
+          "desktop_sha256": "88b9372fd2e99e30f49c295ab93d70049b8cb82377c56b5bd14e9595bc5504ee",
+          "sha256": "f2e80df64545c71e523bede4a8079afdcd74ce100d3ec098a4651d09b166c827"
         },
         {
           "edition": "golden-gate",
           "mode": "dark",
           "case": "system-information",
-          "window": "About This Computer (preview)",
-          "source": "94280421232fbdca296bca7404caeeb19c8d9d66",
+          "window": "About This Computer",
+          "resource_class": "org.kde.plasmashell",
           "geometry": {
             "x": 780,
-            "y": 250,
+            "y": 283,
             "width": 360,
             "height": 543
           },
-          "wallpaper": "MacGoldenGate",
-          "approved_preview": "MacGoldenGate.png",
-          "approved_preview_sha256": "0b75264a4abef56ba5fe15869ba89c83911d90f4a08031d17ff957bde7729c44",
-          "preview_crop": [
-            500,
-            0,
-            1000,
-            731
+          "crop": [
+            1528,
+            534,
+            2312,
+            1684
           ],
-          "sha256": "3aff81a8fc544e1ee02116268b7eab9c4fa1f59b37981826ff005c63b37da1e7"
+          "scale": 2,
+          "source": "1d615c7160fcf386d6e1a6d0fb91729f4e7394a0",
+          "entry_point": "Installed Plasma panel system menu",
+          "desktop_sha256": "aee8045dde3324ca59ac8d0269e31dfe47706c0a29f9d4c37c70035cbb40ac11",
+          "sha256": "364f1c392e6201bd0a863d31a4c891ebbf323219ffd30a997a4ecdb064d7045a"
         }
       ],
       "sources": [
-        "src/screenshots/previews/golden-gate-system-information-light-312753c3fe88.webp",
-        "src/screenshots/previews/golden-gate-system-information-dark-3aff81a8fc54.webp"
+        "src/screenshots/previews/golden-gate-system-information-light-c3d0ce1d659c.webp",
+        "src/screenshots/previews/golden-gate-system-information-dark-a65d292d9c8b.webp"
       ],
-      "gif": "src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif",
+      "gif": "src/screenshots/previews/golden-gate-system-information-light-dark-b1fa68fd95b6.gif",
       "dimensions": [
-        500,
-        731
+        784,
+        1150
       ]
     },
     "wi-fi": {
