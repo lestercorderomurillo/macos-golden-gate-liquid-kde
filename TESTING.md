@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.85.51**. The Apple menu follows light and dark mode when Plasma processes a theme switch late. [Validation and coverage](release-evidence.json).
+**v0.85.52**. Reinstall preserves the saved appearance. Explicit choices in the installer take precedence. [Validation and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
