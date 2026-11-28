@@ -1,21 +1,29 @@
 {
-  "version": "0.85.45",
+  "version": "0.85.46",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Settings saves pending live preferences before opening component installation review.",
+  "scope": "Apps and Clipboard share a wide seven-column launcher frame and animate between views.",
   "checks": [
     {
-      "command": "QT_FONT_DPI=84 python3 -m pytest tests/test_installer_wizard.py -k native_wizard_navigation (both editions passed).",
+      "command": "Open the installed launcher in both editions in a disposable KDE neon Plasma 6.8.1 Wayland guest. Measure the 1028 \u00d7 526 logical pixel popup through KWin and record Ctrl+4 and Ctrl+1 switching content in place in light and dark mode.",
       "result": "passed"
     },
     {
-      "command": "python3 -m pytest tests/test_plasmoid_settings.py (13 passed).",
-      "result": "passed"
-    },
-    {
-      "command": "Click Save in isolated X11 Plasma with a pending font installation choice. Verify Apps grid columns change from five to four and persist after reopening Settings. Save 36 additional Control Center and system menu values and compare live Plasma readback.",
+      "command": "python3 -m pytest -q -rs tests/test_launcher_presets.py::test_clipboard_launcher_integration (both native integration cases passed in an isolated test home)",
       "result": "passed"
     }
   ],
-  "coverage_limits": "The Plasma write check covered 37 preferences. The offscreen navigation test used 84 DPI. At the host default DPI its horizontal-scroll assertion stopped the test before the Save scenario.",
-  "source_sha256": "78fe885ab954b4e4c8dcba154b5b18a84fa230bf2fc9b11245122fec975ef64d"
+  "coverage_limits": "Rendered captures cover KDE neon on Wayland. The native X11 integration cases cover Tahoe light and Golden Gate dark.",
+  "captures": [
+    {
+      "path": "src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif",
+      "sha256": "b92b5af89b59d5b02a75b1589fa66bf75550cd5d7b23f3c8daa80331da9c5a72",
+      "reviewed": true
+    },
+    {
+      "path": "src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif",
+      "sha256": "f81ba51a71c489d1e5938acf016ddd745b22dcda49c03f7218ecd1b4862619ad",
+      "reviewed": true
+    }
+  ],
+  "source_sha256": "637aefe567eedc3d99dbb2f39940bc9ab830179b7bc26f57bad8fe1080724042"
 }
