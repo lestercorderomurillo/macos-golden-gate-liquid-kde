@@ -1,17 +1,21 @@
 {
-  "version": "0.85.43",
+  "version": "0.85.44",
   "gallery_commit": "161948a31b1291688039b9abc49c97400beb23da",
-  "scope": "Restore Apps tile paint order on reuse so two-line labels overlap adjacent rows exactly as before.",
+  "scope": "Use the approved line-scoped adaptive tint for Apps labels by default. Explicit saved scopes still take precedence.",
   "checks": [
     {
-      "command": "Compare all 600x412 RGBA pixels against the original unpooled Apps grid, using line scope and 285 entries. Forward scroll SHA-256 3de6db49f98f6f077619ae005a2d943fba3c83286e3357b97124cbd2bd2a0948 and reverse scroll ec33175509d4ee76a2defe43d2492c7fdfb7964108817f6da003eda1f57eb4e2 matched the respective references exactly. Initial frames also matched.",
+      "command": "Compile the native profile resolver and verify the default is line with 15 samples. An explicit letter override remains letter with one sample.",
       "result": "passed"
     },
     {
-      "command": "The 120-frame Apps flick with corrected stacking recorded 17.96 ms p95 in software OpenGL. Pooling reduced delegate constructions from 284 to 133 in the scroll fixture, and all 151 reused tiles displayed the correct model and reset hover, drag and menu state.",
+      "command": "Run the Golden Gate Light Apps popup and Tahoe Light clipboard native integration checks. Both passed. Compare old explicit line with the new default in a 285-app grid. All 25 visible label strings, foreground colors, line counts and geometry matched. The deterministic 600x412 software capture matched byte for byte.",
+      "result": "passed"
+    },
+    {
+      "command": "Verify the approved line rendering and final delegate ordering on forward and reverse scroll. The deterministic settled grid matched the unpooled reference at both positions. The maintainer explicitly approved publishing the shown line preset as default.",
       "result": "passed"
     }
   ],
-  "coverage_limits": "Pixel equality is for the deterministic Qt Quick software fixture. Timing varies by display and workload.",
-  "source_sha256": "d96eab25533a89442ef08f8978905352e54913b9e817b5f2ff9c7d9c811f2e14"
+  "coverage_limits": "Scroll measurements use the isolated Apps fixture. The fullscreen frame-time result applies to the tested opaque 1080p scene.",
+  "source_sha256": "1ee8a704a96e9744c7d0b9cdc86bbfd4762799e63ad82d734ccb6a26ce95b357"
 }
