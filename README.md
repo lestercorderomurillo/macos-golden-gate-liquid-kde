@@ -258,7 +258,7 @@ Reuse text and images you copied earlier.
 View hardware, software and theme details.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="System Information · Light and dark modes" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="System Information · Light and dark modes" width="301">
 </p>
 
 <br>

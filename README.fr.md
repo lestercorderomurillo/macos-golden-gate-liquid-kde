@@ -255,7 +255,7 @@ Réutilisez le texte et les images que vous avez copiés.
 Consultez les détails du matériel, des logiciels et du thème.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Informations sur le système · Modes clair et sombre" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="Informations sur le système · Modes clair et sombre" width="301">
 </p>
 
 <br>

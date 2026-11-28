@@ -258,7 +258,7 @@ Gebruik eerder gekopieerde tekst en afbeeldingen opnieuw.
 Bekijk details over hardware, software en het thema.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Systeminformatie · Lichte en donkere modus" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="Systeminformatie · Lichte en donkere modus" width="301">
 </p>
 
 <br>

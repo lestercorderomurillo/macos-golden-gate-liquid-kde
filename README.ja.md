@@ -258,7 +258,7 @@ Finder 風のウィンドウでファイルを閲覧できます。
 ハードウェア、ソフトウェア、テーマの詳細を確認できます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="システム情報 · ライトモードとダークモード" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="システム情報 · ライトモードとダークモード" width="301">
 </p>
 
 <br>

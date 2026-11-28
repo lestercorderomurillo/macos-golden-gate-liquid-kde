@@ -258,7 +258,7 @@ Użyj ponownie skopiowanego tekstu i obrazów.
 Sprawdź szczegóły sprzętu, oprogramowania i motywu.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="Informacje o systemie · Tryb jasny i ciemny" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="Informacje o systemie · Tryb jasny i ciemny" width="301">
 </p>
 
 <br>

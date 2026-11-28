@@ -258,7 +258,7 @@
 اطّلع على تفاصيل الأجهزة والبرامج والسمة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-5bf8b674c86d.gif" alt="معلومات النظام · الوضعان الفاتح والداكن" width="301">
+  <img src="src/screenshots/previews/golden-gate-system-information-light-dark-75b18ba26fad.gif" alt="معلومات النظام · الوضعان الفاتح والداكن" width="301">
 </p>
 
 <br>
