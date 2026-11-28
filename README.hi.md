@@ -167,10 +167,10 @@ Dock के आइकन का रंग अपने डेस्कटॉप 
 
 ### Launchpad
 
-ऐप खोजें या उन्हें श्रेणी के अनुसार देखें।
+नाम से खोजने, कोई पसंदीदा ऐप खोलने या श्रेणियों को ग्रिड या सूची में देखने के लिए Dock से Apps खोलें।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · लाइट और डार्क मोड" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · लाइट और डार्क मोड" width="1092">
 </p>
 
 <br>

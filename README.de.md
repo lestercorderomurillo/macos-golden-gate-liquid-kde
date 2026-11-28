@@ -164,10 +164,10 @@ Greife über die obere Leiste auf die Menüs der aktiven App zu.
 
 ### Launchpad
 
-Suche Apps oder durchstöbere sie nach Kategorie.
+Öffne Apps im Dock, um nach Namen zu suchen, einen Favoriten zu starten oder Kategorien als Raster oder Liste zu durchsuchen.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Heller und dunkler Modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Heller und dunkler Modus" width="1092">
 </p>
 
 <br>

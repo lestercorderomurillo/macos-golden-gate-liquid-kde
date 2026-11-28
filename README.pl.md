@@ -167,10 +167,10 @@ Otwieraj menu aktywnej aplikacji z górnego paska.
 
 ### Launchpad
 
-Szukaj aplikacji lub przeglądaj je według kategorii.
+Otwórz Apps w Docku, aby wyszukać aplikację po nazwie, uruchomić ulubioną aplikację lub przeglądać kategorie w widoku siatki albo listy.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Tryb jasny i ciemny" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Tryb jasny i ciemny" width="1092">
 </p>
 
 <br>

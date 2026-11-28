@@ -164,10 +164,10 @@ Accede a los menús de la aplicación activa desde la barra superior.
 
 ### Launchpad
 
-Busca aplicaciones o explóralas por categoría.
+Abre Apps desde el Dock para buscar por nombre, abrir una app favorita o explorar las categorías en cuadrícula o lista.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Modos claro y oscuro" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Modos claro y oscuro" width="1092">
 </p>
 
 <br>

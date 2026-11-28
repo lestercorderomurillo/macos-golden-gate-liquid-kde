@@ -167,10 +167,10 @@ Etkin uygulamanın menülerine üst çubuktan erişin.
 
 ### Launchpad
 
-Uygulamaları arayın veya kategoriye göre gözden geçirin.
+Ada göre aramak, sık kullanılan bir uygulamayı açmak veya kategorilere ızgara ya da liste görünümünde göz atmak için Dock’tan Apps’i açın.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Açık ve koyu modlar" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Açık ve koyu modlar" width="1092">
 </p>
 
 <br>

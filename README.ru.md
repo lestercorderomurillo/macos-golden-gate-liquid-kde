@@ -167,10 +167,10 @@
 
 ### Launchpad
 
-Ищите приложения или просматривайте их по категориям.
+Откройте Apps из Dock, чтобы найти приложение по имени, запустить избранное приложение или просмотреть категории в виде сетки или списка.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Светлый и тёмный режимы" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Светлый и тёмный режимы" width="1092">
 </p>
 
 <br>

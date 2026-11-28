@@ -167,10 +167,10 @@ Open de menu’s van de actieve app via de bovenbalk.
 
 ### Launchpad
 
-Zoek apps of blader per categorie.
+Open Apps vanuit het Dock om op naam te zoeken, een favoriet te starten of categorieën als raster of lijst te bekijken.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Lichte en donkere modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Lichte en donkere modus" width="1092">
 </p>
 
 <br>

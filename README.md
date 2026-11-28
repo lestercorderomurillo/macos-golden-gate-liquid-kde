@@ -167,10 +167,10 @@ Use the active app’s menus from the top bar.
 
 ### Launchpad
 
-Search for apps or browse them by category.
+Open Apps from the Dock to search by name, launch a favorite, or browse categories in grid or list view.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Light and dark modes" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Light and dark modes" width="1092">
 </p>
 
 <br>

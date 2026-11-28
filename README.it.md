@@ -167,10 +167,10 @@ Accedi ai menu dell’app attiva dalla barra superiore.
 
 ### Launchpad
 
-Cerca le app o sfogliale per categoria.
+Apri Apps dal Dock per cercare per nome, avviare un’app preferita o sfogliare le categorie in una griglia o in un elenco.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · Modalità chiara e scura" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · Modalità chiara e scura" width="1092">
 </p>
 
 <br>

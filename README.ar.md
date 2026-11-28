@@ -167,10 +167,10 @@
 
 ### Launchpad
 
-ابحث عن التطبيقات أو تصفحها حسب الفئة.
+افتح «التطبيقات» من Dock للبحث بالاسم أو تشغيل تطبيق مفضّل أو تصفّح الفئات في عرض الشبكة أو القائمة.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · الوضعان الفاتح والداكن" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · الوضعان الفاتح والداكن" width="1092">
 </p>
 
 <br>

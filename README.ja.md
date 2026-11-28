@@ -167,10 +167,10 @@ Dock のアイコンをデスクトップに合う色に変更できます。
 
 ### Launchpad
 
-アプリを検索したり、カテゴリ別に探したりできます。
+Dock から「Apps」を開くと、名前で検索したり、お気に入りのアプリを起動したり、カテゴリをグリッドやリストで表示したりできます。
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-806bcc2b4011.gif" alt="Launchpad · ライトモードとダークモード" width="830">
+  <img src="src/screenshots/previews/golden-gate-launchpad-light-dark-b92b5af89b59.gif" alt="Launchpad · ライトモードとダークモード" width="1092">
 </p>
 
 <br>
