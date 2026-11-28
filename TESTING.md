@@ -1,6 +1,6 @@
 # Installer testing
 
-**v0.85.46**. Apps and Clipboard share a wide seven-column launcher frame and animate between views. [Validation and coverage](release-evidence.json).
+**v0.85.48**. Launchpad opens a single floating search field above its seven-column grid with a global shortcut. The Dock opens the integrated search view. [Validation and coverage](release-evidence.json).
 
 [Installer photo evidence](src/screenshots/previews/wizard-golden-gate-provenance-f445c69bd008.json).
 
