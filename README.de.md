@@ -242,10 +242,10 @@ Prüfe den Akkustand und den Ladestatus.
 
 ### Zwischenablageverlauf
 
-Verwende kopierte Texte und Bilder erneut.
+Wechsle im selben Menü von Apps zur Zwischenablage, um kopierte Texte und Bilder zu finden und erneut zu verwenden.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Zwischenablageverlauf · Heller und dunkler Modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Zwischenablageverlauf · Heller und dunkler Modus" width="1092">
 </p>
 
 <br>

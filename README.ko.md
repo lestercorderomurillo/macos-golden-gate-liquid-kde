@@ -245,10 +245,10 @@ Finder 스타일의 창에서 파일을 탐색할 수 있습니다.
 
 ### 클립보드 기록
 
-복사한 텍스트와 이미지를 다시 사용할 수 있습니다.
+같은 메뉴에서 앱 보기와 클립보드 사이를 전환해 복사한 텍스트와 이미지를 찾아 다시 사용할 수 있습니다.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="클립보드 기록 · 밝은 모드와 어두운 모드" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="클립보드 기록 · 밝은 모드와 어두운 모드" width="1092">
 </p>
 
 <br>

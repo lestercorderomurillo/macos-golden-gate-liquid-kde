@@ -245,10 +245,10 @@ Controlla il livello della batteria e lo stato di carica.
 
 ### Cronologia degli appunti
 
-Riutilizza il testo e le immagini che hai copiato.
+Passa da Apps agli appunti nello stesso menu per ritrovare e riutilizzare testo e immagini copiati.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Cronologia degli appunti · Modalità chiara e scura" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Cronologia degli appunti · Modalità chiara e scura" width="1092">
 </p>
 
 <br>

@@ -242,10 +242,10 @@ Consulta el nivel de batería y el estado de carga.
 
 ### Historial del portapapeles
 
-Reutiliza texto e imágenes que hayas copiado.
+Cambia de Apps al portapapeles en el mismo menú para buscar y reutilizar texto e imágenes que hayas copiado.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Historial del portapapeles · Modos claro y oscuro" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Historial del portapapeles · Modos claro y oscuro" width="1092">
 </p>
 
 <br>

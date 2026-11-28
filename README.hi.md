@@ -245,10 +245,10 @@ Finder जैसी विंडो में अपनी फ़ाइलें
 
 ### क्लिपबोर्ड इतिहास
 
-पहले कॉपी किए गए टेक्स्ट और चित्रों का फिर से उपयोग करें।
+कॉपी किए गए टेक्स्ट और चित्रों को ढूँढने और फिर से इस्तेमाल करने के लिए उसी मेनू में Apps से क्लिपबोर्ड पर जाएँ।
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="क्लिपबोर्ड इतिहास · लाइट और डार्क मोड" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="क्लिपबोर्ड इतिहास · लाइट और डार्क मोड" width="1092">
 </p>
 
 <br>

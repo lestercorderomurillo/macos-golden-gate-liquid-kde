@@ -1,0 +1,197 @@
+{
+  "captures": [
+    {
+      "edition": "golden-gate",
+      "mode": "light",
+      "window": [
+        "{ca572791-bec4-4a99-9bbb-c06669a6e443}",
+        {
+          "x": 446,
+          "y": 277,
+          "width": 1028,
+          "height": 526
+        }
+      ],
+      "desktop_scale": 1,
+      "source": "bbaec76598ae033522b0a36eab567218a31b3474",
+      "installed": "c6a0f09f95b29a7113b2123afd698dab2d3dec891dd5ae62dc9e6c6c42485f9c  MenuRepresentation.qml\n158a4bcf9cb47ebc397598a749ed98a33b7646be012a2b93d0e999d201aa5539  SearchBar.qml\n3030f7b15eda07f4cb397a8a29b751a219963313eed92281f7761edcea5161d5  MenuButton.qml",
+      "plasma": "plasmashell 6.8.1",
+      "kwin": "kwin 6.8.1",
+      "recording_sha256": "ce4ff7f8e1c91b9e075dcf206a70aa738462f5699c5920a9897f7595c84ab648",
+      "decoded_fps": 25,
+      "selected_frames_ms": [
+        [
+          58,
+          1200
+        ],
+        [
+          59,
+          40
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          62,
+          40
+        ],
+        [
+          63,
+          40
+        ],
+        [
+          64,
+          40
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          66,
+          40
+        ],
+        [
+          68,
+          1600
+        ],
+        [
+          85,
+          40
+        ],
+        [
+          86,
+          40
+        ],
+        [
+          87,
+          40
+        ],
+        [
+          88,
+          40
+        ],
+        [
+          89,
+          40
+        ],
+        [
+          90,
+          40
+        ],
+        [
+          91,
+          40
+        ],
+        [
+          92,
+          40
+        ],
+        [
+          95,
+          800
+        ]
+      ]
+    },
+    {
+      "edition": "golden-gate",
+      "mode": "dark",
+      "window": [
+        "{80950163-e8b5-4023-b849-eb8254ac1c63}",
+        {
+          "x": 446,
+          "y": 277,
+          "width": 1028,
+          "height": 526
+        }
+      ],
+      "desktop_scale": 1,
+      "source": "bbaec76598ae033522b0a36eab567218a31b3474",
+      "installed": "c6a0f09f95b29a7113b2123afd698dab2d3dec891dd5ae62dc9e6c6c42485f9c  MenuRepresentation.qml\n158a4bcf9cb47ebc397598a749ed98a33b7646be012a2b93d0e999d201aa5539  SearchBar.qml\n3030f7b15eda07f4cb397a8a29b751a219963313eed92281f7761edcea5161d5  MenuButton.qml",
+      "plasma": "plasmashell 6.8.1",
+      "kwin": "kwin 6.8.1",
+      "recording_sha256": "105171ea2f6f833908029a75072acb43dcc91753e04af3588277c0441c48920e",
+      "decoded_fps": 25,
+      "selected_frames_ms": [
+        [
+          58,
+          1200
+        ],
+        [
+          59,
+          40
+        ],
+        [
+          60,
+          40
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          62,
+          40
+        ],
+        [
+          63,
+          40
+        ],
+        [
+          64,
+          40
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          66,
+          40
+        ],
+        [
+          68,
+          1600
+        ],
+        [
+          87,
+          40
+        ],
+        [
+          88,
+          40
+        ],
+        [
+          89,
+          40
+        ],
+        [
+          90,
+          40
+        ],
+        [
+          91,
+          40
+        ],
+        [
+          92,
+          40
+        ],
+        [
+          93,
+          40
+        ],
+        [
+          96,
+          800
+        ]
+      ]
+    }
+  ],
+  "animation": "golden-gate-apps-clipboard-f81ba51a71c4.gif"
+}

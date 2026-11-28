@@ -245,10 +245,10 @@
 
 ### سجل الحافظة
 
-أعد استخدام النصوص والصور التي نسختها.
+انتقل من التطبيقات إلى الحافظة في القائمة نفسها للعثور على النصوص والصور المنسوخة واستخدامها مجددًا.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="سجل الحافظة · الوضعان الفاتح والداكن" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="سجل الحافظة · الوضعان الفاتح والداكن" width="1092">
 </p>
 
 <br>

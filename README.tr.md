@@ -245,10 +245,10 @@ Pil düzeyini ve şarj durumunu kontrol edin.
 
 ### Pano geçmişi
 
-Kopyaladığınız metinleri ve görselleri yeniden kullanın.
+Kopyaladığınız metin ve görselleri bulup yeniden kullanmak için aynı menüde uygulamalardan panoya geçin.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Pano geçmişi · Açık ve koyu modlar" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Pano geçmişi · Açık ve koyu modlar" width="1092">
 </p>
 
 <br>

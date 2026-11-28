@@ -245,10 +245,10 @@ Controleer het batterijniveau en de laadstatus.
 
 ### Klembordgeschiedenis
 
-Gebruik eerder gekopieerde tekst en afbeeldingen opnieuw.
+Schakel in hetzelfde menu van Apps naar het klembord om gekopieerde tekst en afbeeldingen terug te vinden en opnieuw te gebruiken.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Klembordgeschiedenis · Lichte en donkere modus" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Klembordgeschiedenis · Lichte en donkere modus" width="1092">
 </p>
 
 <br>

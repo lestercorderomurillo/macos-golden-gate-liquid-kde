@@ -245,10 +245,10 @@
 
 ### История буфера обмена
 
-Повторно используйте скопированные текст и изображения.
+Переключитесь с приложений на буфер обмена в том же меню, чтобы найти и снова использовать скопированный текст и изображения.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="История буфера обмена · Светлый и тёмный режимы" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="История буфера обмена · Светлый и тёмный режимы" width="1092">
 </p>
 
 <br>

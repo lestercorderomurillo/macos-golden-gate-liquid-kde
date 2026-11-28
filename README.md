@@ -245,10 +245,10 @@ Check the battery level and charging status.
 
 ### Clipboard History
 
-Reuse text and images you copied earlier.
+Switch from Apps to Clipboard in the same menu to find and reuse copied text and images.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Clipboard History · Light and dark modes" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Clipboard History · Light and dark modes" width="1092">
 </p>
 
 <br>

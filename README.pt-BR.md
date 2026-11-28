@@ -242,10 +242,10 @@ Confira o nível da bateria e o estado de carregamento.
 
 ### Histórico da área de transferência
 
-Reutilize textos e imagens que você copiou.
+Alterne de Apps para a área de transferência no mesmo menu para encontrar e reutilizar textos e imagens copiados.
 
 <p align="center">
-  <img src="src/screenshots/previews/golden-gate-clipboard-history-light-dark-e0224b2849e8.gif" alt="Histórico da área de transferência · Modos claro e escuro" width="830">
+  <img src="src/screenshots/previews/golden-gate-apps-clipboard-f81ba51a71c4.gif" alt="Histórico da área de transferência · Modos claro e escuro" width="1092">
 </p>
 
 <br>
